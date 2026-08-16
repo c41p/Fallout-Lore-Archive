@@ -2,13 +2,13 @@
 
 Fallout Lore Archive v0.1 is a Windows-first, local desktop prototype for exploring interconnected Fallout history. One evidence-aware dataset drives search, category browsing, entity records, chronology, geography, reverse relationships, appearances, sources, uncertainty and disputes.
 
-The prototype contains 47 representative records around the early Brotherhood of Steel, Mariposa and FEV, early California and the NCR, and the Mojave conflict. It deliberately favours a small, reviewable sample over unsupported encyclopedic coverage.
+The archive contains 76 records. Its first depth-first, research-quality cluster covers Roger Maxson, Mariposa, the pre-War FEV programme, the 2077 rebellion and exodus, Lost Hills, and the early Brotherhood. The surrounding NCR, Mojave and other prototype records remain a deliberately smaller representative layer.
 
 ## What works
 
-- Local SQLite/FTS5 search over canonical names, aliases, summaries, descriptions and tags.
+- Local SQLite/FTS5 search over canonical names, aliases, summaries, descriptions, curated article sections and tags, with article-match snippets weighted below names and aliases.
 - Browse filters for people, organisations, places, events, technology and other record types.
-- Entity pages with derived reverse links, temporal state, source locators and appearances.
+- Entity pages with long-form sectioned articles, compact contents navigation, related-record links, derived reverse relationships, temporal state, source context and appearances.
 - Precision-aware timeline with exact, year-only and approximate dates.
 - Offline Leaflet map backed by bundled public-domain Natural Earth vectors.
 - Exact and approximate map representations that are visually and textually distinct.
@@ -71,6 +71,14 @@ pnpm lore:validate
 
 Validation reports the affected record and rule for duplicate IDs, missing references, predicate type violations, malformed temporal/spatial records, source integrity, alias collisions and relative-date cycles.
 
+Run the editorial quality audit separately when reviewing ingestion work:
+
+```powershell
+pnpm lore:quality
+```
+
+It reports unsourced assertions, shallow major records, graph orphans, duplicate propositions, source-poor entities, undated events and spatial records missing precision metadata. Warnings identify editorial backlog; structural quality errors fail the command.
+
 ## Development and tests
 
 ```powershell
@@ -121,6 +129,8 @@ An entity is a stable identity. A relationship is an assertion whose object refe
 6. Run `pnpm check` and review generated changes before committing.
 
 AI output is not evidence. Do not include extensive copyrighted dialogue, terminals, scripts, game art or wiki text. Use original neutral summaries and precise metadata/locators.
+
+See [Docs/CONTENT_STANDARD.md](Docs/CONTENT_STANDARD.md) for the depth, sourcing and uncertainty standard established by the first production-quality cluster.
 
 ## Licensing and intellectual property
 
