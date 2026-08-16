@@ -43,7 +43,7 @@ Keep competing claims separate and attach their evidence separately. Use a Dispu
 
 Article prose is original editorial synthesis. It may explain source perspective, chronology and institutional change, but must not bulk-copy dialogue, terminal text, subtitles, guidebook prose or wiki articles. Prefer paraphrase, metadata and precise locators. Brief quotations should be exceptional and necessary.
 
-AI-generated prose is not evidence. A reputable wiki is useful for discovery and cross-checking; wherever possible, follow its reference to the underlying released material.
+AI-generated prose is not evidence. Revision-attributed community references may supply the routine informational baseline for broad profiles, aliases, appearances and conservative navigation. They must remain identifiable as secondary sources and must not be described as official canon. Follow them to released material when a proposition is disputed, continuity-sensitive, unusually specific or important enough to warrant claim-level verification.
 
 ## Required checks
 
@@ -64,7 +64,15 @@ pnpm lore:build
 
 Treat quality warnings as an editorial backlog. Resolve warnings in the cluster being changed; do not fabricate assertions merely to make the warning count zero.
 
-External candidates under `reference/` do not satisfy any canonical sourcing requirement. Before promotion, follow [REFERENCE_PIPELINE.md](REFERENCE_PIPELINE.md): resolve identity, locate primary material, create canonical assertions and evidence links, and write original prose. A wiki match is a discovery aid, never evidence by itself.
+Raw candidates under `reference/` are not canonical records. The controlled expansion in [REFERENCE_PIPELINE.md](REFERENCE_PIPELINE.md) may promote a filtered candidate by resolving identity, retaining page/revision/licence provenance, transforming the article into Archive sections, and creating evidence-bearing structured records. Primary-source replacement or supplementation remains the preferred deepening step.
+
+## Franchise-scale depth tiers
+
+- Tier 1: at least three sections, about 180 useful words, two graph relationships and source provenance.
+- Tier 2: at least two sections, about 90 useful words, one graph relationship and source provenance.
+- Tier 3: a clear supported profile of roughly 35 words or more; modest supporting records may remain shorter when their graph role is unambiguous.
+
+The thresholds are audit signals, not permission to pad. `reference/reports/content-depth.json` is the machine-readable review queue. A depth-closure section may synthesize canonical relationships and appearances, but it must not invent new facts merely to meet a number.
 
 ## Conditional and player-dependent history
 

@@ -2,17 +2,18 @@
 
 ## Purpose and trust boundary
 
-The reference pipeline makes franchise-scale discovery repeatable without weakening the canonical lore model:
+The reference pipeline makes franchise-scale discovery and controlled baseline promotion repeatable without weakening the canonical lore model:
 
 ```text
 external MediaWiki data
         ↓
-reference candidates (untrusted secondary discovery)
-        ↓ human/research review
+reference candidates (secondary, revision attributed)
+        ↓ deterministic selection, identity reconciliation and transformation
 canonical Entity → Assertion → Evidence records
+        ↓ selective primary-source deepening for sensitive claims
 ```
 
-Files under `reference/` are not canonical lore. A reference page is a web indexing unit, not necessarily an Archive entity. Redirects may be aliases, one list may describe many subjects, and one lore identity may span several games and pages. Automated matching therefore proposes links but never merges or writes `lore/` records.
+Files under `reference/` are not canonical lore. A reference page is a web indexing unit, not necessarily an Archive entity. `scripts/franchise-expansion.ts` is the explicit promotion boundary: it excludes unreleased, mechanical, reference-only and low-value subjects; prevents incompatible homonyms from merging; and writes transformed records to `lore/franchise/`. Generated associations use a broad inferred predicate unless stronger canonical relationships already exist.
 
 ## Layout
 
@@ -23,7 +24,9 @@ Files under `reference/` are not canonical lore. A reference page is a web index
 - `reference/reports/`: machine-readable per-work coverage plus a franchise summary.
 - `reference/queues/ingestion-queue.json`: Tier 1–4 future work.
 - `reference/queues/deep-research.json`: important or complex subjects requiring primary research.
-- `reference/cache/`: ignored raw API-response cache; never canonical or packaged.
+- `reference/cache/`: ignored raw API and stable per-page article-profile caches; never packaged.
+- `reference/manifests/franchise-completion.json`: disposition for every discovered candidate.
+- `reference/reports/content-depth.json` and `.md`: canonical depth and graph audit.
 
 ## Provider design
 
@@ -42,7 +45,7 @@ The MediaWiki implementation:
 - on Windows, uses `curl.exe` and the Windows certificate store because some Node installations cannot see enterprise/local root certificates;
 - passes URL arguments without a shell and parses responses only as JSON.
 
-External HTML, templates and scripts are never executed. Article bodies and media are not downloaded. The committed manifest retains bounded categories, links, redirect aliases, external source leads and revision-level attribution.
+External HTML, templates and scripts are never executed. Media are not downloaded. The expansion fetches revision-specific wikitext only for selected Tier 1/2 subjects, extracts bounded lead/profile/section context, and saves transformed canonical prose plus openable source metadata. Raw responses and per-page caches remain ignored.
 
 ## Commands
 
@@ -74,13 +77,16 @@ pnpm lore:reference:sync -- --rebuild
 pnpm lore:reference:validate
 pnpm lore:coverage
 pnpm lore:coverage fallout1
+pnpm lore:expand
+pnpm lore:expand:offline
+pnpm lore:expand:audit
 ```
 
 - `--offline` requires cached responses and performs no network access.
 - `--refresh` bypasses the 24-hour cache TTL.
 - `--rebuild` reruns deterministic classification/extraction from cached page metadata even when revision IDs are unchanged.
 
-Normal unit tests use fixtures and never require live internet access.
+Normal unit tests and offline regeneration never require live internet access after one successful acquisition.
 
 ## Candidate extraction
 
@@ -124,12 +130,12 @@ For a future candidate selected from the queue:
 
 1. confirm the candidate represents one stable lore identity;
 2. inspect redirect and cross-game identity ambiguity;
-3. follow reference leads to released game dialogue, terminals, holotapes, notes, quests or first-party material;
+3. for routine baseline material, retain revision-specific secondary provenance; for sensitive claims, follow reference leads to released game dialogue, terminals, holotapes, notes, quests or first-party material;
 4. create or enrich the canonical `Entity` and `NameUsage` records;
 5. express substantive propositions as controlled `Assertion` records;
 6. create precise `SourceWork`, `SourceItem` and `EvidenceLink` records;
 7. retain uncertainty, source statements, material scope and disputes;
-8. write original editorial synthesis rather than importing wiki prose;
+8. transform and reorganise source information into concise Archive sections; preserve CC BY-SA attribution when expression is adapted;
 9. validate and run the full quality/build/test gate.
 
 Tier 1 contains principal gaps; Tier 2 important supporting lore; Tier 3 the long tail; Tier 4 generally mechanical/reference-only exclusions. `deep-research.json` concentrates expensive research on high-importance, cross-game, scientific, cut/unused or otherwise sensitive subjects.
@@ -138,4 +144,4 @@ Tier 1 contains principal gaps; Tier 2 important supporting lore; Tier 3 the lon
 
 Software and data licences are separate. See `LICENSE`, `LICENSE-DATA.md`, `ATTRIBUTION.md` and `NOTICE.md`.
 
-The source API reports `CC-BY-SA`, and Fallout Wiki's copyright page specifies CC BY-SA 3.0 for community-authored text unless otherwise noted. Every candidate retains page/revision attribution even though the pipeline intentionally does not store article bodies. Media files are excluded because their rights may differ from wiki text.
+The source API reports `CC-BY-SA`, and Fallout Wiki's copyright page specifies CC BY-SA 3.0 for community-authored text unless otherwise noted. Every promoted record has a SourceItem with page URL, page ID, revision ID, retrieval context and licence notice. Generated Archive prose that adapts wiki expression is distributed under the compatible data terms in `LICENSE-DATA.md`. Media files are excluded because their rights may differ from wiki text.

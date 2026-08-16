@@ -2,9 +2,9 @@
 
 Fallout Lore Archive v0.1 is a Windows-first, local desktop prototype for exploring interconnected Fallout history. One evidence-aware dataset drives search, category browsing, entity records, chronology, geography, reverse relationships, appearances, sources, uncertainty and disputes.
 
-The repository also contains a separate, non-canonical franchise reference corpus. It uses revision-attributed Fallout Wiki metadata to discover and prioritise future research without promoting secondary reference pages into trusted lore.
+The archive now combines deep primary-source clusters with a revision-attributed community-reference baseline. Community material is transformed into canonical profiles with explicit page/revision provenance and conservative relationship semantics; it is never presented as an official canon authority, and stronger released-game evidence remains attached at claim level.
 
-The archive contains 186 records. Alongside the depth-first Roger Maxson/Mariposa/Brotherhood cluster, it now contains a game-sized Fallout (1997) corpus spanning Vault 13, Vault 15 and Shady Sands, the Khans, Junktown, the Hub, Necropolis, the Boneyard, the Unity, the Master and their supporting people, places and events. Later-game records remain a deliberately smaller representative layer.
+The current corpus contains 2,354 records, 12,097 assertions, 12,081 evidence links, 9,523 relationship edges and 159 dated events. It spans the released games and major add-ons while retaining production-depth histories for the Roger Maxson/Mariposa/Brotherhood and Fallout (1997) clusters. The generated depth audit reports no shallow Tier 1 or Tier 2 records.
 
 ## What works
 
@@ -13,6 +13,8 @@ The archive contains 186 records. Alongside the depth-first Roger Maxson/Maripos
 - Scalable Games navigation with a Fallout work page, featured records, typed index, source browser, and links into work-filtered browse, timeline and map views.
 - Entity pages with long-form sectioned articles, compact contents navigation, related-record links, derived reverse relationships, temporal state, source context and appearances.
 - Precision-aware timeline with exact, year-only and approximate dates.
+- Timeline filtering by record type, connected-record type and related subject text.
+- Six curated Lore Paths and type-filtered relationship exploration for dense records.
 - Offline Leaflet map backed by bundled public-domain Natural Earth vectors.
 - Exact and approximate map representations that are visually and textually distinct.
 - Evidence links that distinguish source work, source item, role and directness.
@@ -62,6 +64,7 @@ Human-reviewable canonical data lives under `lore/`:
 - `spatial/`: place representations separate from place identity.
 - `appearances/` and `disputes/`: work appearances and preserved conflicts.
 - `fallout1/`: sharded Fallout corpus additions, entity enrichments, condition sets and outcome groups merged by the standard loader.
+- `franchise/`: revision-attributed cross-franchise profiles, assertions, sources, evidence, appearances and ordered enrichments.
 - `vocabularies/`: controlled predicates and their allowed types.
 
 Do not edit `generated/fallout-lore.db` or `public/data/runtime.json` by hand. Both are derived outputs.
@@ -134,8 +137,8 @@ An entity is a stable identity. A relationship is an assertion whose object refe
 
 1. Add or update canonical JSON, never the compiled database.
 2. Use stable family-prefixed IDs and existing predicates where semantics match.
-3. Keep world claims, source statements and editorial inference distinct.
-4. Add source metadata and locators for substantive assertions where defensible.
+3. Keep world claims, source statements and editorial inference distinct; broad navigational associations must remain labelled inference.
+4. Community-reference provenance is acceptable for routine informational profiles. Use claim-level released-game evidence for disputed, continuity-sensitive or high-impact propositions whenever practical.
 5. Preserve approximate dates and places without manufacturing precision.
 6. Run `pnpm check` and review generated changes before committing.
 
@@ -145,18 +148,20 @@ See [Docs/CONTENT_STANDARD.md](Docs/CONTENT_STANDARD.md) for the depth, sourcing
 
 ## Reference acquisition and coverage
 
-External reference candidates live under `reference/`, never under canonical `lore/`. The sync is cached, revision-aware and resumable; raw API responses are ignored by Git, while the normalized candidate manifest and reports are committed.
+The acquisition layer under `reference/` is cached, revision-aware and resumable. Its complete candidate manifest remains separate from canonical data; the explicit expansion command promotes a filtered released-material subset into transformed, attributed records under `lore/franchise/`.
 
 ```powershell
 pnpm lore:reference:sync
 pnpm lore:reference:sync fallout1
 pnpm lore:coverage
 pnpm lore:coverage fallout1
+pnpm lore:expand
+pnpm lore:expand:offline
 ```
 
 Use `--offline` to require cache-only operation, `--refresh` to bypass the 24-hour cache TTL, or `--rebuild` to rerun extraction/classification without requiring changed wiki revisions. Normal tests use local fixtures and do not contact external services.
 
-The generated coverage percentage is an importance-weighted estimate, not a wiki-page completion ratio. Gameplay/reference-only pages are excluded and the long tail is heavily discounted. Ambiguous matches remain unresolved and no command writes candidates into canonical lore.
+`lore:expand` acquires Tier 1/2 revision text, writes a stable per-page ignored cache, reconciles identities, and generates canonical JSON plus a completion manifest and depth audit. `lore:expand:offline` then reproduces the transformation without network access. Gameplay/reference-only, unreleased and low-value long-tail pages remain explicitly excluded.
 
 See [Docs/REFERENCE_PIPELINE.md](Docs/REFERENCE_PIPELINE.md) for provider design, cache/security behaviour, scoring, reports, queues and the reviewed promotion workflow.
 

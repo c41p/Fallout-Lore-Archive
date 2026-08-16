@@ -1,35 +1,35 @@
 # Franchise ingestion status
 
-This document is the review manifest for the first franchise-wide canonical promotion pass. It records what was promoted from the external reference corpus, what evidence class currently supports it, and where deeper primary-source extraction is still required. The machine-generated candidate corpus remains under `reference/`; the files under `lore/franchise/` are the curated canonical result.
+This document summarizes the franchise-wide canonical baseline. The authoritative record-by-record disposition is `reference/manifests/franchise-completion.json`; the files under `lore/franchise/` are the generated canonical transformation.
 
 ## Delivered scope
 
-| Work | Canonical pass | Current depth |
-| --- | --- | --- |
-| Fallout | Existing production cluster retained | Game-sized index plus deep Vault 13, Unity, Mariposa, FEV and Brotherhood histories |
-| Fallout 2 | 16 major records | Chosen One, Arroyo, Vault City, northern California settlements, New Reno, San Francisco, Navarro, Horrigan and Marcus |
-| Fallout Tactics | 8 major records | Warrior, Midwestern Brotherhood, Calculator, Vault 0 and principal enemy groups, explicitly scoped to the game's secondary-status continuity |
-| Fallout: Brotherhood of Steel | 6 major records | Texas chapter, initiates, Carbon, Los, Attis and his army, isolated in a separate/disputed game continuity |
-| Fallout 3 and add-ons | 26 major records | Lone Wanderer, Project Purity, Enclave/Brotherhood actors, major settlements, the Pitt, Point Lookout and Mothership Zeta |
-| Fallout: New Vegas and DLC | 29 new major records plus 11 in-place upgrades | Courier, Strip/Freeside, faction infrastructure, major companions and all four narrative DLC clusters; mutually exclusive endings remain conditional |
-| Fallout 4 and add-ons | 29 major records | Institute conflict, Commonwealth settlements, faction leadership, Automatron, Far Harbor and Nuka-World |
-| Fallout 76 | 29 major records | Original Appalachian factions and plague, Wastelanders, Steel Dawn/Reign, Atlantic City, Skyline Valley and the released 2025 Burning Springs region |
-| Fallout Shelter | 4 scoped records | Overseer, simulated Vault, dwellers and an explicit gameplay-forward continuity rule |
+| Work | Promoted subject-work associations | Coverage character |
+| --- | ---: | --- |
+| Fallout | 143 | Existing production cluster retained and connected to the franchise baseline |
+| Fallout 2 | 260 | Main people, settlements, factions, events and supporting subjects |
+| Fallout Tactics | 63 | Scoped to the game's secondary-status continuity |
+| Fallout: Brotherhood of Steel | 93 | Isolated in a separate/disputed game continuity |
+| Fallout 3 and add-ons | 397 | Capital Wasteland plus major add-on clusters |
+| Fallout: New Vegas and DLC | 498 | Mojave factions, settlements, events, companions and narrative DLC |
+| Fallout 4 and add-ons | 525 | Commonwealth factions, locations, people and add-on clusters |
+| Fallout 76 | 515 | Appalachian eras, factions, updates and supporting subjects |
+| Fallout Shelter | 148 | Explicitly gameplay-forward supplementary scope |
 
-The canonical validator currently reports 410 entities after the cross-game event and Tier 2 gap-closure passes. The archive contains 196 major articles, while the new supporting set adds companions, faction leaders, major Vaults, facilities and regional organisations. Eleven additional events place the new clusters on the timeline at the precision supportable by their sources.
+The canonical validator reports 2,354 entities. The depth audit classifies 312 as Tier 1, 736 as Tier 2 and 1,306 as Tier 3; 1,103 records have multiple article sections, 828 exceed 180 words, and no Tier 1 or Tier 2 record is shallow. The graph contains 9,523 relationship edges and the timeline contains 159 dated events.
 
 ## Evidence tiers used in this pass
 
 - Existing production clusters retain claim-level primary locators from released games.
 - Bethesda release documentation is used as official supplementary evidence for Wastelanders, Steel Dawn and the released Burning Springs expansion.
-- Fallout Wiki/Nukapedia pages are stored as clearly labelled secondary discovery and cross-check sources for the broad promotion batches. They are never labelled as primary game evidence, and their context directs editors to the cited released material.
+- Fallout Wiki/Nukapedia revisions provide the routine informational baseline for broad promotion batches. They remain clearly labelled secondary sources and are never presented as official canon authority.
 - Fallout Tactics, Brotherhood of Steel and Fallout Shelter assertions use dedicated continuity scopes rather than being silently merged into `games_primary`.
 
-The broad records are useful, connected articles, but a secondary reference link is not the final claim-level source standard. Future research should replace or supplement those links with precise dialogue, terminal, holotape, quest, ending and official-guide locators. Multiple locators supporting one proposition should attach to one Assertion through multiple EvidenceLinks.
+The broad records are useful, connected articles. Future research should selectively supplement sensitive and high-value claims with precise dialogue, terminal, holotape, quest, ending and official-guide locators. Multiple locators supporting one proposition attach to one Assertion through multiple EvidenceLinks.
 
 ## Curated priority manifest
 
-The automated Tier 1 queue contains category and title false positives, including generic equipment and list pages. Promotion therefore used a curated flagship manifest rather than mechanically converting every Tier 1 candidate. The review priority for primary-source deepening is:
+The selection excludes category/title artefacts, generic equipment, mechanical pages, source records, unreleased material and the low-value long tail. The review priority for primary-source deepening is:
 
 1. Fallout 2: Chosen One, Enclave, Frank Horrigan, Vault City, New Reno, Shi and the Oil Rig campaign.
 2. Fallout 3: Lone Wanderer, Project Purity, James, Lyons' Brotherhood, Autumn/Eden and the Pitt.
@@ -54,6 +54,6 @@ Run the cached reference rebuild after canonical promotion so page candidates ar
 - Conditional outcome groups are strongest in Fallout 1; later games currently explain branching in prose but need reusable `ConditionSet` and `OutcomeGroup` records for their principal endings.
 - Tactics, Brotherhood of Steel and Shelter have correct continuity boundaries but need more internal source items before further expansion.
 - The Fallout 76 world evolves through updates; post-2024 records require periodic official-release verification and in-game extraction rather than model-memory updates.
-- Forty-one mostly minor legacy Fallout 1/prototype records remain orphaned or subject-assertion-light in the quality report. They are retained because appearances and object-side relationships are still useful, but they are an editorial backlog.
+- Twenty-six mostly minor legacy records remain graph-orphaned in the quality report. They are retained because appearances and non-relationship data remain useful, but they are an editorial backlog.
 
 The best next automated expansion target is a claim-level primary-source locator pass for Fallout 2, followed by reusable conditional outcome modelling for New Vegas. That sequence improves evidence quality and branch handling before adding more long-tail entities.

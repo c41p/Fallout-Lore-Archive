@@ -2,9 +2,9 @@
 
 ## Fallout Wiki / Nukapedia
 
-The non-canonical reference corpus uses the public MediaWiki API at [Fallout Wiki (Nukapedia)](https://fallout.fandom.com/) as a secondary discovery and indexing source.
+The project uses the public MediaWiki API at [Fallout Wiki (Nukapedia)](https://fallout.fandom.com/) for its secondary reference corpus and transformed franchise baseline.
 
-The wiki's [copyright notice](https://fallout.fandom.com/wiki/Fallout_Wiki:Copyrights) states that community-authored wiki text is available under CC BY-SA 3.0 unless otherwise noted. The generated corpus does not store article bodies. Each candidate nevertheless retains:
+The wiki's [copyright notice](https://fallout.fandom.com/wiki/Fallout_Wiki:Copyrights) states that community-authored wiki text is available under CC BY-SA 3.0 unless otherwise noted. Raw article bodies are not committed or packaged. Selected profiles adapt bounded revision content into Archive summaries and sections. Each candidate and promoted SourceItem retains:
 
 - wiki and source-site name;
 - page title and canonical URL;
@@ -13,9 +13,9 @@ The wiki's [copyright notice](https://fallout.fandom.com/wiki/Fallout_Wiki:Copyr
 - content-licence and attribution URLs;
 - redirect sources where available.
 
-This page-level information is stored under `reference/manifests/reference-corpus.json`. Contributors reusing wiki-authored expression must follow the source's attribution and share-alike requirements and inspect any page-specific exception.
+Candidate attribution is stored under `reference/manifests/reference-corpus.json`; promoted records point to human-readable SourceItems under `lore/franchise/source-items/`. Adapted expression is covered by `LICENSE-DATA.md` and its CC BY-SA terms. Contributors must inspect page-specific exceptions.
 
-Wiki pages are used as reference units, not as primary lore evidence. Fallout Lore Archive does not claim that a wiki citation is correct merely because it was discovered. Candidate references must be followed to the underlying released game material before promotion where practical.
+Wiki pages are secondary reference units, not official lore authorities. They provide a practical informational baseline and navigation layer. Disputed, continuity-sensitive and high-impact claims should be followed to underlying released material; existing primary-source evidence is preserved and takes precedence in editorial review.
 
 ## Natural Earth
 
