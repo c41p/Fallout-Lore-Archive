@@ -3,7 +3,7 @@ import path from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
-import type { Assertion, Entity, LoreDataset, TemporalValue } from "../src/types";
+import type { Assertion, ConditionSet, Entity, LoreDataset, OutcomeGroup, TemporalValue } from "../src/types";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -20,8 +20,9 @@ function readArrayShards<T>(directory: string): T[] {
 export function loadDataset(): LoreDataset {
   const sources = readJson<Pick<LoreDataset, "sourceWorks" | "sourceItems">>("lore/sources/sources.json");
   const falloutSources = readJson<Pick<LoreDataset, "sourceWorks" | "sourceItems">>("lore/fallout1/sources.json");
-  const entityOverrides = readJson<Array<Partial<Entity> & Pick<Entity, "id">>>("lore/fallout1/entity-overrides.json");
-  const baseEntities = [...readJson<Entity[]>("lore/entities/entities.json"), ...readArrayShards<Entity>("lore/fallout1/entities")];
+  const franchiseSources = readJson<Pick<LoreDataset, "sourceWorks" | "sourceItems">>("lore/franchise/sources.json");
+  const entityOverrides = [...readJson<Array<Partial<Entity> & Pick<Entity, "id">>>("lore/fallout1/entity-overrides.json"), ...readArrayShards<Partial<Entity> & Pick<Entity, "id">>("lore/franchise/overrides")];
+  const baseEntities = [...readJson<Entity[]>("lore/entities/entities.json"), ...readArrayShards<Entity>("lore/fallout1/entities"), ...readArrayShards<Entity>("lore/franchise/entities")];
   const entities = baseEntities.map((entity) => {
     const override = entityOverrides.find((candidate) => candidate.id === entity.id);
     if (!override) return entity;
@@ -31,17 +32,17 @@ export function loadDataset(): LoreDataset {
   return {
     schemaVersion: "0.1",
     entities,
-    names: [...readJson<LoreDataset["names"]>("lore/names/names.json"), ...readArrayShards<LoreDataset["names"][number]>("lore/fallout1/names")],
+    names: [...readJson<LoreDataset["names"]>("lore/names/names.json"), ...readArrayShards<LoreDataset["names"][number]>("lore/fallout1/names"), ...readArrayShards<LoreDataset["names"][number]>("lore/franchise/names")],
     predicates: readJson("lore/vocabularies/predicates.json"),
-    assertions: [...readJson<Assertion[]>("lore/assertions/assertions.json"), ...readArrayShards<Assertion>("lore/fallout1/assertions")],
-    sourceWorks: [...sources.sourceWorks, ...falloutSources.sourceWorks],
-    sourceItems: [...sources.sourceItems, ...falloutSources.sourceItems],
-    evidenceLinks: [...readJson<LoreDataset["evidenceLinks"]>("lore/evidence/evidence.json"), ...readArrayShards<LoreDataset["evidenceLinks"][number]>("lore/fallout1/evidence")],
-    spatialRepresentations: [...readJson<LoreDataset["spatialRepresentations"]>("lore/spatial/spatial.json"), ...readArrayShards<LoreDataset["spatialRepresentations"][number]>("lore/fallout1/spatial")],
-    appearances: [...readJson<LoreDataset["appearances"]>("lore/appearances/appearances.json"), ...readArrayShards<LoreDataset["appearances"][number]>("lore/fallout1/appearances")],
-    disputes: [...readJson<LoreDataset["disputes"]>("lore/disputes/disputes.json"), ...readArrayShards<LoreDataset["disputes"][number]>("lore/fallout1/disputes")],
-    conditionSets: readArrayShards("lore/fallout1/conditions"),
-    outcomeGroups: readArrayShards("lore/fallout1/outcomes")
+    assertions: [...readJson<Assertion[]>("lore/assertions/assertions.json"), ...readArrayShards<Assertion>("lore/fallout1/assertions"), ...readArrayShards<Assertion>("lore/franchise/assertions")],
+    sourceWorks: [...sources.sourceWorks, ...falloutSources.sourceWorks, ...franchiseSources.sourceWorks],
+    sourceItems: [...sources.sourceItems, ...falloutSources.sourceItems, ...franchiseSources.sourceItems, ...readArrayShards<LoreDataset["sourceItems"][number]>("lore/franchise/source-items")],
+    evidenceLinks: [...readJson<LoreDataset["evidenceLinks"]>("lore/evidence/evidence.json"), ...readArrayShards<LoreDataset["evidenceLinks"][number]>("lore/fallout1/evidence"), ...readArrayShards<LoreDataset["evidenceLinks"][number]>("lore/franchise/evidence")],
+    spatialRepresentations: [...readJson<LoreDataset["spatialRepresentations"]>("lore/spatial/spatial.json"), ...readArrayShards<LoreDataset["spatialRepresentations"][number]>("lore/fallout1/spatial"), ...readArrayShards<LoreDataset["spatialRepresentations"][number]>("lore/franchise/spatial")],
+    appearances: [...readJson<LoreDataset["appearances"]>("lore/appearances/appearances.json"), ...readArrayShards<LoreDataset["appearances"][number]>("lore/fallout1/appearances"), ...readArrayShards<LoreDataset["appearances"][number]>("lore/franchise/appearances")],
+    disputes: [...readJson<LoreDataset["disputes"]>("lore/disputes/disputes.json"), ...readArrayShards<LoreDataset["disputes"][number]>("lore/fallout1/disputes"), ...readArrayShards<LoreDataset["disputes"][number]>("lore/franchise/disputes")],
+    conditionSets: [...readArrayShards<ConditionSet>("lore/fallout1/conditions"), ...readArrayShards<ConditionSet>("lore/franchise/conditions")],
+    outcomeGroups: [...readArrayShards<OutcomeGroup>("lore/fallout1/outcomes"), ...readArrayShards<OutcomeGroup>("lore/franchise/outcomes")]
   };
 }
 

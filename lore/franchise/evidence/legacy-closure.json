@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ev.fr.junktown.documented_role",
+    "targetId": "asrt.fr.junktown.documented_role",
+    "sourceItemId": "src.fallout.killian",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Killian's released dialogue establishes Junktown's civic and political situation."
+  }
+]

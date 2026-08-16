@@ -1,0 +1,626 @@
+[
+  {
+    "id": "ev.fr.lone_wanderer.1",
+    "targetId": "asrt.fr.lone_wanderer.role",
+    "sourceItemId": "src.ref.lone_wanderer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.lone_wanderer.2",
+    "targetId": "asrt.fr.lone_wanderer.a",
+    "sourceItemId": "src.ref.lone_wanderer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.lone_wanderer.3",
+    "targetId": "asrt.fr.lone_wanderer.b",
+    "sourceItemId": "src.ref.lone_wanderer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_wasteland.1",
+    "targetId": "asrt.fr.capital_wasteland.role",
+    "sourceItemId": "src.ref.capital_wasteland",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_wasteland.2",
+    "targetId": "asrt.fr.capital_wasteland.a",
+    "sourceItemId": "src.ref.capital_wasteland",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_wasteland.3",
+    "targetId": "asrt.fr.capital_wasteland.b",
+    "sourceItemId": "src.ref.capital_wasteland",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.project_purity.1",
+    "targetId": "asrt.fr.project_purity.role",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.project_purity.2",
+    "targetId": "asrt.fr.project_purity.a",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.project_purity.3",
+    "targetId": "asrt.fr.project_purity.b",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.james_fo3.1",
+    "targetId": "asrt.fr.james_fo3.role",
+    "sourceItemId": "src.ref.james_fo3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.james_fo3.2",
+    "targetId": "asrt.fr.james_fo3.a",
+    "sourceItemId": "src.ref.james_fo3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.james_fo3.3",
+    "targetId": "asrt.fr.james_fo3.b",
+    "sourceItemId": "src.ref.james_fo3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.madison_li.1",
+    "targetId": "asrt.fr.madison_li.role",
+    "sourceItemId": "src.ref.madison_li",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.madison_li.2",
+    "targetId": "asrt.fr.madison_li.a",
+    "sourceItemId": "src.ref.madison_li",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.madison_li.3",
+    "targetId": "asrt.fr.madison_li.b",
+    "sourceItemId": "src.ref.madison_li",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.owyn_lyons.1",
+    "targetId": "asrt.fr.owyn_lyons.role",
+    "sourceItemId": "src.ref.owyn_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.owyn_lyons.2",
+    "targetId": "asrt.fr.owyn_lyons.a",
+    "sourceItemId": "src.ref.owyn_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.owyn_lyons.3",
+    "targetId": "asrt.fr.owyn_lyons.b",
+    "sourceItemId": "src.ref.owyn_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.sarah_lyons.1",
+    "targetId": "asrt.fr.sarah_lyons.role",
+    "sourceItemId": "src.ref.sarah_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.sarah_lyons.2",
+    "targetId": "asrt.fr.sarah_lyons.a",
+    "sourceItemId": "src.ref.sarah_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.sarah_lyons.3",
+    "targetId": "asrt.fr.sarah_lyons.b",
+    "sourceItemId": "src.ref.sarah_lyons",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.colonel_autumn.1",
+    "targetId": "asrt.fr.colonel_autumn.role",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.colonel_autumn.2",
+    "targetId": "asrt.fr.colonel_autumn.a",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.colonel_autumn.3",
+    "targetId": "asrt.fr.colonel_autumn.b",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.john_henry_eden.1",
+    "targetId": "asrt.fr.john_henry_eden.role",
+    "sourceItemId": "src.ref.john_henry_eden",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.john_henry_eden.2",
+    "targetId": "asrt.fr.john_henry_eden.a",
+    "sourceItemId": "src.ref.john_henry_eden",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.john_henry_eden.3",
+    "targetId": "asrt.fr.john_henry_eden.b",
+    "sourceItemId": "src.ref.john_henry_eden",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.vault_101.1",
+    "targetId": "asrt.fr.vault_101.role",
+    "sourceItemId": "src.ref.vault_101",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.vault_101.2",
+    "targetId": "asrt.fr.vault_101.a",
+    "sourceItemId": "src.ref.vault_101",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.vault_101.3",
+    "targetId": "asrt.fr.vault_101.b",
+    "sourceItemId": "src.ref.vault_101",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.megaton.1",
+    "targetId": "asrt.fr.megaton.role",
+    "sourceItemId": "src.ref.megaton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.megaton.2",
+    "targetId": "asrt.fr.megaton.a",
+    "sourceItemId": "src.ref.megaton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.megaton.3",
+    "targetId": "asrt.fr.megaton.b",
+    "sourceItemId": "src.ref.megaton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.rivet_city.1",
+    "targetId": "asrt.fr.rivet_city.role",
+    "sourceItemId": "src.ref.rivet_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.rivet_city.2",
+    "targetId": "asrt.fr.rivet_city.a",
+    "sourceItemId": "src.ref.rivet_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.rivet_city.3",
+    "targetId": "asrt.fr.rivet_city.b",
+    "sourceItemId": "src.ref.rivet_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.citadel.1",
+    "targetId": "asrt.fr.citadel.role",
+    "sourceItemId": "src.ref.citadel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.citadel.2",
+    "targetId": "asrt.fr.citadel.a",
+    "sourceItemId": "src.ref.citadel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.citadel.3",
+    "targetId": "asrt.fr.citadel.b",
+    "sourceItemId": "src.ref.citadel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_brotherhood.1",
+    "targetId": "asrt.fr.capital_brotherhood.role",
+    "sourceItemId": "src.ref.capital_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_brotherhood.2",
+    "targetId": "asrt.fr.capital_brotherhood.a",
+    "sourceItemId": "src.ref.capital_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.capital_brotherhood.3",
+    "targetId": "asrt.fr.capital_brotherhood.b",
+    "sourceItemId": "src.ref.capital_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.brotherhood_outcasts.1",
+    "targetId": "asrt.fr.brotherhood_outcasts.role",
+    "sourceItemId": "src.ref.brotherhood_outcasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.brotherhood_outcasts.2",
+    "targetId": "asrt.fr.brotherhood_outcasts.a",
+    "sourceItemId": "src.ref.brotherhood_outcasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.brotherhood_outcasts.3",
+    "targetId": "asrt.fr.brotherhood_outcasts.b",
+    "sourceItemId": "src.ref.brotherhood_outcasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.galaxy_news_radio.1",
+    "targetId": "asrt.fr.galaxy_news_radio.role",
+    "sourceItemId": "src.ref.galaxy_news_radio",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.galaxy_news_radio.2",
+    "targetId": "asrt.fr.galaxy_news_radio.a",
+    "sourceItemId": "src.ref.galaxy_news_radio",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.galaxy_news_radio.3",
+    "targetId": "asrt.fr.galaxy_news_radio.b",
+    "sourceItemId": "src.ref.galaxy_news_radio",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.three_dog.1",
+    "targetId": "asrt.fr.three_dog.role",
+    "sourceItemId": "src.ref.three_dog",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.three_dog.2",
+    "targetId": "asrt.fr.three_dog.a",
+    "sourceItemId": "src.ref.three_dog",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.three_dog.3",
+    "targetId": "asrt.fr.three_dog.b",
+    "sourceItemId": "src.ref.three_dog",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.underworld.1",
+    "targetId": "asrt.fr.underworld.role",
+    "sourceItemId": "src.ref.underworld",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.underworld.2",
+    "targetId": "asrt.fr.underworld.a",
+    "sourceItemId": "src.ref.underworld",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.underworld.3",
+    "targetId": "asrt.fr.underworld.b",
+    "sourceItemId": "src.ref.underworld",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.paradise_falls.1",
+    "targetId": "asrt.fr.paradise_falls.role",
+    "sourceItemId": "src.ref.paradise_falls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.paradise_falls.2",
+    "targetId": "asrt.fr.paradise_falls.a",
+    "sourceItemId": "src.ref.paradise_falls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.paradise_falls.3",
+    "targetId": "asrt.fr.paradise_falls.b",
+    "sourceItemId": "src.ref.paradise_falls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.tenpenny_tower.1",
+    "targetId": "asrt.fr.tenpenny_tower.role",
+    "sourceItemId": "src.ref.tenpenny_tower",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.tenpenny_tower.2",
+    "targetId": "asrt.fr.tenpenny_tower.a",
+    "sourceItemId": "src.ref.tenpenny_tower",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.tenpenny_tower.3",
+    "targetId": "asrt.fr.tenpenny_tower.b",
+    "sourceItemId": "src.ref.tenpenny_tower",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.the_pitt_region.1",
+    "targetId": "asrt.fr.the_pitt_region.role",
+    "sourceItemId": "src.ref.the_pitt_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.the_pitt_region.2",
+    "targetId": "asrt.fr.the_pitt_region.a",
+    "sourceItemId": "src.ref.the_pitt_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.the_pitt_region.3",
+    "targetId": "asrt.fr.the_pitt_region.b",
+    "sourceItemId": "src.ref.the_pitt_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.ashur.1",
+    "targetId": "asrt.fr.ashur.role",
+    "sourceItemId": "src.ref.ashur",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.ashur.2",
+    "targetId": "asrt.fr.ashur.a",
+    "sourceItemId": "src.ref.ashur",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.ashur.3",
+    "targetId": "asrt.fr.ashur.b",
+    "sourceItemId": "src.ref.ashur",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.point_lookout_region.1",
+    "targetId": "asrt.fr.point_lookout_region.role",
+    "sourceItemId": "src.ref.point_lookout_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.point_lookout_region.2",
+    "targetId": "asrt.fr.point_lookout_region.a",
+    "sourceItemId": "src.ref.point_lookout_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.point_lookout_region.3",
+    "targetId": "asrt.fr.point_lookout_region.b",
+    "sourceItemId": "src.ref.point_lookout_region",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.desmond_lockheart.1",
+    "targetId": "asrt.fr.desmond_lockheart.role",
+    "sourceItemId": "src.ref.desmond_lockheart",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.desmond_lockheart.2",
+    "targetId": "asrt.fr.desmond_lockheart.a",
+    "sourceItemId": "src.ref.desmond_lockheart",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.desmond_lockheart.3",
+    "targetId": "asrt.fr.desmond_lockheart.b",
+    "sourceItemId": "src.ref.desmond_lockheart",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.mothership_zeta.1",
+    "targetId": "asrt.fr.mothership_zeta.role",
+    "sourceItemId": "src.ref.mothership_zeta",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.mothership_zeta.2",
+    "targetId": "asrt.fr.mothership_zeta.a",
+    "sourceItemId": "src.ref.mothership_zeta",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.mothership_zeta.3",
+    "targetId": "asrt.fr.mothership_zeta.b",
+    "sourceItemId": "src.ref.mothership_zeta",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.zetans.1",
+    "targetId": "asrt.fr.zetans.role",
+    "sourceItemId": "src.ref.zetans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.zetans.2",
+    "targetId": "asrt.fr.zetans.a",
+    "sourceItemId": "src.ref.zetans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  },
+  {
+    "id": "ev.fr.zetans.3",
+    "targetId": "asrt.fr.zetans.b",
+    "sourceItemId": "src.ref.zetans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support."
+  }
+]

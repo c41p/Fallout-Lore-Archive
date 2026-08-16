@@ -1,0 +1,266 @@
+[
+  {
+    "id": "ev.fr.upgrade.ncr.1",
+    "targetId": "asrt.fr.upgrade.ncr.role",
+    "sourceItemId": "src.ref.upgrade.ncr",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.ncr.2",
+    "targetId": "asrt.fr.upgrade.ncr.a",
+    "sourceItemId": "src.ref.upgrade.ncr",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.ncr.3",
+    "targetId": "asrt.fr.upgrade.ncr.b",
+    "sourceItemId": "src.ref.upgrade.ncr",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesar.1",
+    "targetId": "asrt.fr.upgrade.caesar.role",
+    "sourceItemId": "src.ref.upgrade.caesar",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesar.2",
+    "targetId": "asrt.fr.upgrade.caesar.a",
+    "sourceItemId": "src.ref.upgrade.caesar",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesar.3",
+    "targetId": "asrt.fr.upgrade.caesar.b",
+    "sourceItemId": "src.ref.upgrade.caesar",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesars_legion.1",
+    "targetId": "asrt.fr.upgrade.caesars_legion.role",
+    "sourceItemId": "src.ref.upgrade.caesars_legion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesars_legion.2",
+    "targetId": "asrt.fr.upgrade.caesars_legion.a",
+    "sourceItemId": "src.ref.upgrade.caesars_legion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.caesars_legion.3",
+    "targetId": "asrt.fr.upgrade.caesars_legion.b",
+    "sourceItemId": "src.ref.upgrade.caesars_legion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.robert_house.1",
+    "targetId": "asrt.fr.upgrade.robert_house.role",
+    "sourceItemId": "src.ref.upgrade.robert_house",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.robert_house.2",
+    "targetId": "asrt.fr.upgrade.robert_house.a",
+    "sourceItemId": "src.ref.upgrade.robert_house",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.robert_house.3",
+    "targetId": "asrt.fr.upgrade.robert_house.b",
+    "sourceItemId": "src.ref.upgrade.robert_house",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.new_vegas.1",
+    "targetId": "asrt.fr.upgrade.new_vegas.role",
+    "sourceItemId": "src.ref.upgrade.new_vegas",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.new_vegas.2",
+    "targetId": "asrt.fr.upgrade.new_vegas.a",
+    "sourceItemId": "src.ref.upgrade.new_vegas",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.new_vegas.3",
+    "targetId": "asrt.fr.upgrade.new_vegas.b",
+    "sourceItemId": "src.ref.upgrade.new_vegas",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave.1",
+    "targetId": "asrt.fr.upgrade.mojave.role",
+    "sourceItemId": "src.ref.upgrade.mojave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave.2",
+    "targetId": "asrt.fr.upgrade.mojave.a",
+    "sourceItemId": "src.ref.upgrade.mojave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave.3",
+    "targetId": "asrt.fr.upgrade.mojave.b",
+    "sourceItemId": "src.ref.upgrade.mojave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave_brotherhood.1",
+    "targetId": "asrt.fr.upgrade.mojave_brotherhood.role",
+    "sourceItemId": "src.ref.upgrade.mojave_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave_brotherhood.2",
+    "targetId": "asrt.fr.upgrade.mojave_brotherhood.a",
+    "sourceItemId": "src.ref.upgrade.mojave_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.mojave_brotherhood.3",
+    "targetId": "asrt.fr.upgrade.mojave_brotherhood.b",
+    "sourceItemId": "src.ref.upgrade.mojave_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.great_khans.1",
+    "targetId": "asrt.fr.upgrade.great_khans.role",
+    "sourceItemId": "src.ref.upgrade.great_khans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.great_khans.2",
+    "targetId": "asrt.fr.upgrade.great_khans.a",
+    "sourceItemId": "src.ref.upgrade.great_khans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.great_khans.3",
+    "targetId": "asrt.fr.upgrade.great_khans.b",
+    "sourceItemId": "src.ref.upgrade.great_khans",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.hoover_dam.1",
+    "targetId": "asrt.fr.upgrade.hoover_dam.role",
+    "sourceItemId": "src.ref.upgrade.hoover_dam",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.hoover_dam.2",
+    "targetId": "asrt.fr.upgrade.hoover_dam.a",
+    "sourceItemId": "src.ref.upgrade.hoover_dam",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.hoover_dam.3",
+    "targetId": "asrt.fr.upgrade.hoover_dam.b",
+    "sourceItemId": "src.ref.upgrade.hoover_dam",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.first_hoover_battle.1",
+    "targetId": "asrt.fr.upgrade.first_hoover_battle.role",
+    "sourceItemId": "src.ref.upgrade.first_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.first_hoover_battle.2",
+    "targetId": "asrt.fr.upgrade.first_hoover_battle.a",
+    "sourceItemId": "src.ref.upgrade.first_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.first_hoover_battle.3",
+    "targetId": "asrt.fr.upgrade.first_hoover_battle.b",
+    "sourceItemId": "src.ref.upgrade.first_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.second_hoover_battle.1",
+    "targetId": "asrt.fr.upgrade.second_hoover_battle.role",
+    "sourceItemId": "src.ref.upgrade.second_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.second_hoover_battle.2",
+    "targetId": "asrt.fr.upgrade.second_hoover_battle.a",
+    "sourceItemId": "src.ref.upgrade.second_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.upgrade.second_hoover_battle.3",
+    "targetId": "asrt.fr.upgrade.second_hoover_battle.b",
+    "sourceItemId": "src.ref.upgrade.second_hoover_battle",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  }
+]

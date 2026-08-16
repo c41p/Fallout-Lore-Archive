@@ -1,0 +1,68 @@
+[
+  {
+    "id": "app.fr.event.chosen_one_journey.fallout_2",
+    "entityId": "ent.chosen_one_journey",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.midwestern_campaign.fallout_tactics",
+    "entityId": "ent.midwestern_campaign",
+    "workId": "work.fallout_tactics",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.texas_brotherhood_campaign.fallout_bos",
+    "entityId": "ent.texas_brotherhood_campaign",
+    "workId": "work.fallout_bos",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.project_purity_activation.fallout_3",
+    "entityId": "ent.project_purity_activation",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.capital_enclave_campaign.fallout_3",
+    "entityId": "ent.capital_enclave_campaign",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.courier_ambush.new_vegas",
+    "entityId": "ent.courier_ambush",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.sole_survivor_emergence.fallout_4",
+    "entityId": "ent.sole_survivor_emergence",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.commonwealth_faction_conflict.fallout_4",
+    "entityId": "ent.commonwealth_faction_conflict",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.reclamation_day.fallout_76",
+    "entityId": "ent.reclamation_day",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.return_to_appalachia.fallout_76",
+    "entityId": "ent.return_to_appalachia",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.event.atlas_expedition_arrival.fallout_76",
+    "entityId": "ent.atlas_expedition_arrival",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  }
+]

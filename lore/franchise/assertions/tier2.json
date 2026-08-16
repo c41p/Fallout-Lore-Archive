@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "asrt.fr.support.sulik.role",
+    "subjectId": "ent.sulik",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A tribal warrior from Klamath who can accompany the Chosen One and seeks his missing sister."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.sulik.link",
+    "subjectId": "ent.sulik",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vic.role",
+    "subjectId": "ent.vic",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A trader and radio technician whose capture connects Arroyo's search to the Den."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vic.link",
+    "subjectId": "ent.vic",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_cassidy.role",
+    "subjectId": "ent.john_cassidy",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault City bar owner and experienced traveller who can join the Chosen One."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_cassidy.link",
+    "subjectId": "ent.john_cassidy",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.goris.role",
+    "subjectId": "ent.goris",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An intelligent deathclaw scholar from Vault 13 who may travel with the Chosen One."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.goris.link",
+    "subjectId": "ent.goris",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lenny.role",
+    "subjectId": "ent.lenny",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A ghoul doctor in Gecko with memories of pre-War life and Harold's earlier travels."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lenny.link",
+    "subjectId": "ent.lenny",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.gecko"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.skynet_robot.role",
+    "subjectId": "ent.skynet_robot",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Sierra Army Depot artificial intelligence that can inhabit a mobile robotic body."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.skynet_robot.link",
+    "subjectId": "ent.skynet_robot",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lynette.role",
+    "subjectId": "ent.lynette",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Vault City's First Citizen and a forceful defender of its unequal civic order."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lynette.link",
+    "subjectId": "ent.lynette",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_bishop.role",
+    "subjectId": "ent.john_bishop",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A New Reno crime boss with political links and expansion ambitions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_bishop.link",
+    "subjectId": "ent.john_bishop",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_reno"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jesus_mordino.role",
+    "subjectId": "ent.jesus_mordino",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Head of the Mordino family and patron of Myron's Jet operation in New Reno."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jesus_mordino.link",
+    "subjectId": "ent.jesus_mordino",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_reno"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.salvatore.role",
+    "subjectId": "ent.salvatore",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Leader of a New Reno family whose energy weapons depend on Enclave-linked trade."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.salvatore.link",
+    "subjectId": "ent.salvatore",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_reno"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.orville_wright.role",
+    "subjectId": "ent.orville_wright",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Leader of the Wright family, whose authority is tied to local business and family loyalty."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.orville_wright.link",
+    "subjectId": "ent.orville_wright",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_reno"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fawkes.role",
+    "subjectId": "ent.fawkes",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A self-educated Vault 87 super mutant who aids the Lone Wanderer after imprisonment."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fawkes.link",
+    "subjectId": "ent.fawkes",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.charon.role",
+    "subjectId": "ent.charon",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A ghoul mercenary bound by an employment contract in Underworld."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.charon.link",
+    "subjectId": "ent.charon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.underworld"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.star_paladin_cross.role",
+    "subjectId": "ent.star_paladin_cross",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A senior Capital Wasteland Brotherhood soldier with a past connection to James."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.star_paladin_cross.link",
+    "subjectId": "ent.star_paladin_cross",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.butch_deloria.role",
+    "subjectId": "ent.butch_deloria",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault 101 resident whose relationship with the Lone Wanderer can change after the escape."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.butch_deloria.link",
+    "subjectId": "ent.butch_deloria",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_101"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jericho_fo3.role",
+    "subjectId": "ent.jericho_fo3",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former raider living in Megaton who may accompany a suitably ruthless Lone Wanderer."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jericho_fo3.link",
+    "subjectId": "ent.jericho_fo3",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.megaton"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.clover.role",
+    "subjectId": "ent.clover",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An enslaved fighter at Paradise Falls whose possible recruitment remains bound to slavery mechanics."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.clover.link",
+    "subjectId": "ent.clover",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.paradise_falls"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.sergeant_rl3.role",
+    "subjectId": "ent.sergeant_rl3",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A military Mister Gutsy robot available as a Capital Wasteland companion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.sergeant_rl3.link",
+    "subjectId": "ent.sergeant_rl3",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_87.role",
+    "subjectId": "ent.vault_87",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Vault where FEV experiments created a major Capital Wasteland super mutant population."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_87.link",
+    "subjectId": "ent.vault_87",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fev"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_112.role",
+    "subjectId": "ent.vault_112",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault whose residents are held in a long-running virtual simulation controlled by Stanislaus Braun."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_112.link",
+    "subjectId": "ent.vault_112",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.tranquility_lane.role",
+    "subjectId": "ent.tranquility_lane",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The idyllic but coercive virtual environment governing Vault 112's suspended residents."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.tranquility_lane.link",
+    "subjectId": "ent.tranquility_lane",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_112"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.raven_rock.role",
+    "subjectId": "ent.raven_rock",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The eastern Enclave command bunker housing John Henry Eden during Fallout 3."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.raven_rock.link",
+    "subjectId": "ent.raven_rock",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.adams_air_force_base.role",
+    "subjectId": "ent.adams_air_force_base",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An Enclave military facility attacked during the Broken Steel campaign."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.adams_air_force_base.link",
+    "subjectId": "ent.adams_air_force_base",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.alistair_tenpenny.role",
+    "subjectId": "ent.alistair_tenpenny",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The wealthy owner of Tenpenny Tower and sponsor of the plan to destroy Megaton."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.alistair_tenpenny.link",
+    "subjectId": "ent.alistair_tenpenny",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.tenpenny_tower"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.moira_brown.role",
+    "subjectId": "ent.moira_brown",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Megaton merchant whose Wasteland Survival Guide research sends the Lone Wanderer across the region."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.moira_brown.link",
+    "subjectId": "ent.moira_brown",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.megaton"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lucas_simms.role",
+    "subjectId": "ent.lucas_simms",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Megaton's sheriff and mayor at the start of Fallout 3."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lucas_simms.link",
+    "subjectId": "ent.lucas_simms",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.megaton"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.craig_boone.role",
+    "subjectId": "ent.craig_boone",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former NCR First Recon sniper confronting loss, guilt and the Legion in the Mojave."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.craig_boone.link",
+    "subjectId": "ent.craig_boone",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.arcade_gannon.role",
+    "subjectId": "ent.arcade_gannon",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Followers doctor whose family history links him to Enclave remnants."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.arcade_gannon.link",
+    "subjectId": "ent.arcade_gannon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.followers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.rose_cassidy.role",
+    "subjectId": "ent.rose_cassidy",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A caravan owner whose destroyed business exposes corruption in Mojave trade."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.rose_cassidy.link",
+    "subjectId": "ent.rose_cassidy",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.raul_tejada.role",
+    "subjectId": "ent.raul_tejada",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War ghoul mechanic imprisoned at Black Mountain when the Courier finds him."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.raul_tejada.link",
+    "subjectId": "ent.raul_tejada",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ghouls"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lily_bowen.role",
+    "subjectId": "ent.lily_bowen",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A nightkin resident of Jacobstown balancing medication, memory and family identity."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.lily_bowen.link",
+    "subjectId": "ent.lily_bowen",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ede.role",
+    "subjectId": "ent.ede",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An Enclave eyebot whose recordings connect Navarro, Adams Air Force Base and the Divide."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ede.link",
+    "subjectId": "ent.ede",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.rex_cyberdog.role",
+    "subjectId": "ent.rex_cyberdog",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The King's cyberdog companion whose failing brain creates a branching medical quest."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.rex_cyberdog.link",
+    "subjectId": "ent.rex_cyberdog",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.kings"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.legate_lanius.role",
+    "subjectId": "ent.legate_lanius",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Caesar's senior battlefield commander during the Second Battle of Hoover Dam."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.legate_lanius.link",
+    "subjectId": "ent.legate_lanius",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.chief_hanlon.role",
+    "subjectId": "ent.chief_hanlon",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The veteran NCR Ranger whose strategy won the first battle and whose despair shapes the second campaign."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.chief_hanlon.link",
+    "subjectId": "ent.chief_hanlon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.aaron_kimball.role",
+    "subjectId": "ent.aaron_kimball",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "President of the NCR during its costly Mojave expansion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.aaron_kimball.link",
+    "subjectId": "ent.aaron_kimball",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ncr_rangers.role",
+    "subjectId": "ent.ncr_rangers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An elite NCR military and law-enforcement tradition active across the Mojave campaign."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ncr_rangers.link",
+    "subjectId": "ent.ncr_rangers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fiends.role",
+    "subjectId": "ent.fiends",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A violent raider population around western New Vegas whose leaders threaten NCR positions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fiends.link",
+    "subjectId": "ent.fiends",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.powder_gangers.role",
+    "subjectId": "ent.powder_gangers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Escaped NCR prison labourers organised around explosives and local gangs."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.powder_gangers.link",
+    "subjectId": "ent.powder_gangers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.elder_mcnamara.role",
+    "subjectId": "ent.elder_mcnamara",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Mojave Brotherhood elder who imposes lockdown after the HELIOS One defeat."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.elder_mcnamara.link",
+    "subjectId": "ent.elder_mcnamara",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.head_paladin_hardin.role",
+    "subjectId": "ent.head_paladin_hardin",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Mojave chapter's head paladin and a potential challenger to McNamara."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.head_paladin_hardin.link",
+    "subjectId": "ent.head_paladin_hardin",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jacobstown.role",
+    "subjectId": "ent.jacobstown",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A mountain settlement where Marcus attempts to build a peaceful refuge for super mutants and nightkin."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.jacobstown.link",
+    "subjectId": "ent.jacobstown",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.marcus"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.piper_wright.role",
+    "subjectId": "ent.piper_wright",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Diamond City journalist investigating corruption, disappearances and Institute fear."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.piper_wright.link",
+    "subjectId": "ent.piper_wright",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.diamond_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.cait.role",
+    "subjectId": "ent.cait",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A cage fighter and survivor whose companion story addresses exploitation and chem dependency."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.cait.link",
+    "subjectId": "ent.cait",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sole_survivor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.curie.role",
+    "subjectId": "ent.curie",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault 81 research robot whose consciousness may be transferred into a synth body."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.curie.link",
+    "subjectId": "ent.curie",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_81"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.deacon.role",
+    "subjectId": "ent.deacon",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Railroad agent whose changing stories make source reliability part of his characterization."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.deacon.link",
+    "subjectId": "ent.deacon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.railroad"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.paladin_danse.role",
+    "subjectId": "ent.paladin_danse",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Brotherhood field officer whose discovered synth identity tests Arthur Maxson's doctrine."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.paladin_danse.link",
+    "subjectId": "ent.paladin_danse",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_hancock.role",
+    "subjectId": "ent.john_hancock",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The ghoul mayor of Goodneighbor and a possible companion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.john_hancock.link",
+    "subjectId": "ent.john_hancock",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.goodneighbor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.robert_maccready.role",
+    "subjectId": "ent.robert_maccready",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Little Lamplight mayor working as a mercenary in the Commonwealth."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.robert_maccready.link",
+    "subjectId": "ent.robert_maccready",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.strong.role",
+    "subjectId": "ent.strong",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Commonwealth super mutant who searches for a misunderstood 'milk of human kindness'."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.strong.link",
+    "subjectId": "ent.strong",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.x6_88.role",
+    "subjectId": "ent.x6_88",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An Institute courser assigned to retrieval and potentially to the Sole Survivor."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.x6_88.link",
+    "subjectId": "ent.x6_88",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.desdemona.role",
+    "subjectId": "ent.desdemona",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Railroad leader coordinating its response to Institute pressure in 2287."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.desdemona.link",
+    "subjectId": "ent.desdemona",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.railroad"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ada.role",
+    "subjectId": "ent.ada",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A caravan robot who helps investigate the Mechanist's lethal patrols."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.ada.link",
+    "subjectId": "ent.ada",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.automatron_crisis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.gunners.role",
+    "subjectId": "ent.gunners",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A heavily armed mercenary organisation occupying sites across the Commonwealth."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.gunners.link",
+    "subjectId": "ent.gunners",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_88.role",
+    "subjectId": "ent.vault_88",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An unfinished Vault-Tec facility where Overseer Barstow proposes experimental settlement devices."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.vault_88.link",
+    "subjectId": "ent.vault_88",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.overseer_barstow.role",
+    "subjectId": "ent.overseer_barstow",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The ghoul Overseer of Vault 88 who continues to pursue Vault-Tec experimental protocols."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.overseer_barstow.link",
+    "subjectId": "ent.overseer_barstow",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_88"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.duchess_76.role",
+    "subjectId": "ent.duchess_76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The proprietor of the Wayward and an early guide into Wastelanders-era Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.duchess_76.link",
+    "subjectId": "ent.duchess_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.meg_groberg.role",
+    "subjectId": "ent.meg_groberg",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The leader of the Crater Raiders during the Vault 79 competition."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.meg_groberg.link",
+    "subjectId": "ent.meg_groberg",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.crater_raiders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.paige_76.role",
+    "subjectId": "ent.paige_76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The leader of Foundation's settlers during the Wastelanders story."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.paige_76.link",
+    "subjectId": "ent.paige_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.foundation_settlers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.scribe_valdez.role",
+    "subjectId": "ent.scribe_valdez",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The senior scribe of Rahmani's Appalachian Brotherhood expedition."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.scribe_valdez.link",
+    "subjectId": "ent.scribe_valdez",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.rahmani"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.blue_ridge_caravan.role",
+    "subjectId": "ent.blue_ridge_caravan",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A regional trading company operating routes through Appalachia and Skyline Valley."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.blue_ridge_caravan.link",
+    "subjectId": "ent.blue_ridge_caravan",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.union_pitt.role",
+    "subjectId": "ent.union_pitt",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Pitt worker resistance organisation opposing the Fanatics during Fallout 76 expeditions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.union_pitt.link",
+    "subjectId": "ent.union_pitt",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.the_pitt_region"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fanatics_pitt.role",
+    "subjectId": "ent.fanatics_pitt",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Pitt raider army fighting the Union during Fallout 76 expeditions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.fanatics_pitt.link",
+    "subjectId": "ent.fanatics_pitt",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.the_pitt_region"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.mothman_cultists.role",
+    "subjectId": "ent.mothman_cultists",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Appalachian religious groups whose beliefs and factions centre on mothman phenomena."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.support.mothman_cultists.link",
+    "subjectId": "ent.mothman_cultists",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

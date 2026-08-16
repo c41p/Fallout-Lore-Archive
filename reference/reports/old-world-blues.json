@@ -3,21 +3,21 @@
   "slug": "old-world-blues",
   "title": "Old World Blues",
   "referenceSubjects": 64,
-  "matchedArchiveEntities": 0,
+  "matchedArchiveEntities": 2,
   "productionQuality": 0,
-  "substantialRecords": 0,
+  "substantialRecords": 2,
   "supportingRecords": 0,
   "shallowRecords": 0,
-  "missingSubjects": 64,
+  "missingSubjects": 62,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 2,
   "majorLore": 1,
   "supportingLore": 33,
   "minorLore": 28,
   "deepResearchCandidates": 1,
-  "tier1Gaps": 1,
-  "tier2Gaps": 33,
-  "weightedLoreCoverage": 0,
+  "tier1Gaps": 0,
+  "tier2Gaps": 32,
+  "weightedLoreCoverage": 13,
   "byType": {
     "technology": {
       "total": 3,
@@ -31,8 +31,8 @@
     },
     "person": {
       "total": 11,
-      "matched": 0,
-      "missing": 11
+      "matched": 2,
+      "missing": 9
     },
     "place": {
       "total": 29,

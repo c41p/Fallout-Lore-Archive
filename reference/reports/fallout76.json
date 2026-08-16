@@ -3,41 +3,41 @@
   "slug": "fallout76",
   "title": "Fallout 76",
   "referenceSubjects": 3500,
-  "matchedArchiveEntities": 9,
+  "matchedArchiveEntities": 33,
   "productionQuality": 3,
-  "substantialRecords": 1,
-  "supportingRecords": 1,
-  "shallowRecords": 4,
-  "missingSubjects": 3491,
+  "substantialRecords": 19,
+  "supportingRecords": 9,
+  "shallowRecords": 2,
+  "missingSubjects": 3467,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 552,
   "majorLore": 32,
   "supportingLore": 170,
   "minorLore": 2786,
   "deepResearchCandidates": 43,
-  "tier1Gaps": 29,
-  "tier2Gaps": 167,
-  "weightedLoreCoverage": 3,
+  "tier1Gaps": 23,
+  "tier2Gaps": 163,
+  "weightedLoreCoverage": 10,
   "byType": {
     "organisation": {
       "total": 77,
-      "matched": 2,
-      "missing": 75
+      "matched": 4,
+      "missing": 73
     },
     "person": {
       "total": 1562,
-      "matched": 6,
-      "missing": 1556
+      "matched": 12,
+      "missing": 1550
     },
     "place": {
       "total": 836,
-      "matched": 0,
-      "missing": 836
+      "matched": 15,
+      "missing": 821
     },
     "event": {
       "total": 483,
-      "matched": 0,
-      "missing": 483
+      "matched": 1,
+      "missing": 482
     },
     "source_record": {
       "total": 542,

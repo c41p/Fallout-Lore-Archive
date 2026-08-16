@@ -1,24 +1,24 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-16T19:24:26.572Z",
+  "generatedAt": "2026-08-16T20:55:37.814Z",
   "methodology": "Importance-weighted estimate excluding gameplay-only and reference-only candidates; production-quality=100%, substantial=75%, supporting=50%, shallow=25%. Wiki pages are discovery units, not one-to-one Archive entities.",
   "totals": {
     "referenceSubjects": 17964,
-    "matchedArchiveEntities": 200,
-    "productionQuality": 34,
-    "substantialRecords": 13,
-    "supportingRecords": 43,
-    "shallowRecords": 110,
-    "missingSubjects": 17764,
+    "matchedArchiveEntities": 435,
+    "productionQuality": 36,
+    "substantialRecords": 193,
+    "supportingRecords": 128,
+    "shallowRecords": 78,
+    "missingSubjects": 17529,
     "unresolvedMatches": 0,
     "gameplayOrReferenceOnly": 4779,
-    "tier1Gaps": 306,
-    "tier2Gaps": 1399,
+    "tier1Gaps": 267,
+    "tier2Gaps": 1333,
     "majorLore": 361,
     "supportingLore": 1448,
     "minorLore": 11457,
     "deepResearchCandidates": 453,
-    "weightedLoreCoverage": 5.7,
+    "weightedLoreCoverage": 12.7,
     "ambiguousMatches": 0,
     "deepResearchFlags": 357
   },
@@ -28,12 +28,12 @@
       "slug": "fallout1",
       "title": "Fallout",
       "referenceSubjects": 1299,
-      "matchedArchiveEntities": 89,
+      "matchedArchiveEntities": 90,
       "productionQuality": 14,
-      "substantialRecords": 7,
+      "substantialRecords": 8,
       "supportingRecords": 24,
       "shallowRecords": 44,
-      "missingSubjects": 1210,
+      "missingSubjects": 1209,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 423,
       "majorLore": 18,
@@ -51,8 +51,8 @@
         },
         "person": {
           "total": 512,
-          "matched": 50,
-          "missing": 462
+          "matched": 51,
+          "missing": 461
         },
         "item": {
           "total": 89,
@@ -91,26 +91,26 @@
       "slug": "fallout2",
       "title": "Fallout 2",
       "referenceSubjects": 2105,
-      "matchedArchiveEntities": 29,
-      "productionQuality": 6,
-      "substantialRecords": 1,
-      "supportingRecords": 5,
-      "shallowRecords": 17,
-      "missingSubjects": 2076,
+      "matchedArchiveEntities": 55,
+      "productionQuality": 7,
+      "substantialRecords": 23,
+      "supportingRecords": 15,
+      "shallowRecords": 10,
+      "missingSubjects": 2050,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 656,
       "majorLore": 58,
       "supportingLore": 126,
       "minorLore": 1267,
       "deepResearchCandidates": 59,
-      "tier1Gaps": 49,
-      "tier2Gaps": 117,
-      "weightedLoreCoverage": 6.5,
+      "tier1Gaps": 46,
+      "tier2Gaps": 113,
+      "weightedLoreCoverage": 12.7,
       "byType": {
         "organisation": {
           "total": 118,
-          "matched": 6,
-          "missing": 112
+          "matched": 10,
+          "missing": 108
         },
         "source_record": {
           "total": 649,
@@ -119,13 +119,13 @@
         },
         "person": {
           "total": 699,
-          "matched": 14,
-          "missing": 685
+          "matched": 26,
+          "missing": 673
         },
         "place": {
           "total": 211,
-          "matched": 6,
-          "missing": 205
+          "matched": 15,
+          "missing": 196
         },
         "event": {
           "total": 209,
@@ -139,8 +139,8 @@
         },
         "creature": {
           "total": 37,
-          "matched": 0,
-          "missing": 37
+          "matched": 1,
+          "missing": 36
         },
         "technology": {
           "total": 20,
@@ -154,21 +154,21 @@
       "slug": "fallout-tactics",
       "title": "Fallout Tactics: Brotherhood of Steel",
       "referenceSubjects": 675,
-      "matchedArchiveEntities": 4,
+      "matchedArchiveEntities": 11,
       "productionQuality": 1,
-      "substantialRecords": 0,
-      "supportingRecords": 0,
-      "shallowRecords": 3,
-      "missingSubjects": 671,
+      "substantialRecords": 6,
+      "supportingRecords": 2,
+      "shallowRecords": 2,
+      "missingSubjects": 664,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 92,
       "majorLore": 5,
       "supportingLore": 42,
       "minorLore": 539,
       "deepResearchCandidates": 5,
-      "tier1Gaps": 4,
+      "tier1Gaps": 3,
       "tier2Gaps": 42,
-      "weightedLoreCoverage": 6.1,
+      "weightedLoreCoverage": 9.9,
       "byType": {
         "source_record": {
           "total": 90,
@@ -177,8 +177,8 @@
         },
         "organisation": {
           "total": 33,
-          "matched": 1,
-          "missing": 32
+          "matched": 3,
+          "missing": 30
         },
         "creature": {
           "total": 14,
@@ -187,8 +187,8 @@
         },
         "place": {
           "total": 51,
-          "matched": 0,
-          "missing": 51
+          "matched": 2,
+          "missing": 49
         },
         "item": {
           "total": 134,
@@ -197,8 +197,8 @@
         },
         "person": {
           "total": 297,
-          "matched": 2,
-          "missing": 295
+          "matched": 5,
+          "missing": 292
         },
         "technology": {
           "total": 28,
@@ -217,12 +217,12 @@
       "slug": "fallout-brotherhood-of-steel",
       "title": "Fallout: Brotherhood of Steel",
       "referenceSubjects": 294,
-      "matchedArchiveEntities": 4,
+      "matchedArchiveEntities": 8,
       "productionQuality": 1,
-      "substantialRecords": 0,
+      "substantialRecords": 5,
       "supportingRecords": 1,
-      "shallowRecords": 2,
-      "missingSubjects": 290,
+      "shallowRecords": 1,
+      "missingSubjects": 286,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 35,
       "majorLore": 30,
@@ -231,12 +231,12 @@
       "deepResearchCandidates": 98,
       "tier1Gaps": 28,
       "tier2Gaps": 73,
-      "weightedLoreCoverage": 3.3,
+      "weightedLoreCoverage": 3.6,
       "byType": {
         "organisation": {
           "total": 11,
-          "matched": 1,
-          "missing": 10
+          "matched": 2,
+          "missing": 9
         },
         "creature": {
           "total": 10,
@@ -250,13 +250,13 @@
         },
         "person": {
           "total": 49,
-          "matched": 1,
-          "missing": 48
+          "matched": 2,
+          "missing": 47
         },
         "place": {
           "total": 20,
-          "matched": 0,
-          "missing": 20
+          "matched": 2,
+          "missing": 18
         },
         "item": {
           "total": 88,
@@ -280,36 +280,36 @@
       "slug": "fallout3",
       "title": "Fallout 3",
       "referenceSubjects": 2800,
-      "matchedArchiveEntities": 19,
+      "matchedArchiveEntities": 62,
       "productionQuality": 4,
-      "substantialRecords": 0,
-      "supportingRecords": 3,
-      "shallowRecords": 12,
-      "missingSubjects": 2781,
+      "substantialRecords": 32,
+      "supportingRecords": 18,
+      "shallowRecords": 8,
+      "missingSubjects": 2738,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 1076,
       "majorLore": 46,
       "supportingLore": 189,
       "minorLore": 1501,
       "deepResearchCandidates": 49,
-      "tier1Gaps": 40,
-      "tier2Gaps": 187,
-      "weightedLoreCoverage": 3.9,
+      "tier1Gaps": 35,
+      "tier2Gaps": 177,
+      "weightedLoreCoverage": 11.9,
       "byType": {
         "person": {
           "total": 831,
-          "matched": 12,
-          "missing": 819
+          "matched": 34,
+          "missing": 797
         },
         "organisation": {
           "total": 74,
-          "matched": 6,
-          "missing": 68
+          "matched": 9,
+          "missing": 65
         },
         "place": {
           "total": 603,
-          "matched": 0,
-          "missing": 603
+          "matched": 15,
+          "missing": 588
         },
         "creature": {
           "total": 40,
@@ -328,8 +328,8 @@
         },
         "event": {
           "total": 162,
-          "matched": 0,
-          "missing": 162
+          "matched": 3,
+          "missing": 159
         }
       }
     },
@@ -338,51 +338,51 @@
       "slug": "new-vegas",
       "title": "Fallout: New Vegas",
       "referenceSubjects": 3000,
-      "matchedArchiveEntities": 26,
-      "productionQuality": 3,
-      "substantialRecords": 2,
-      "supportingRecords": 8,
-      "shallowRecords": 13,
-      "missingSubjects": 2974,
+      "matchedArchiveEntities": 73,
+      "productionQuality": 4,
+      "substantialRecords": 32,
+      "supportingRecords": 33,
+      "shallowRecords": 4,
+      "missingSubjects": 2927,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 823,
       "majorLore": 56,
       "supportingLore": 229,
       "minorLore": 1895,
       "deepResearchCandidates": 58,
-      "tier1Gaps": 45,
-      "tier2Gaps": 219,
-      "weightedLoreCoverage": 5.3,
+      "tier1Gaps": 37,
+      "tier2Gaps": 208,
+      "weightedLoreCoverage": 14.1,
       "byType": {
         "organisation": {
           "total": 117,
-          "matched": 7,
-          "missing": 110
+          "matched": 11,
+          "missing": 106
         },
         "person": {
           "total": 945,
-          "matched": 12,
-          "missing": 933
+          "matched": 37,
+          "missing": 908
         },
         "place": {
           "total": 640,
-          "matched": 6,
-          "missing": 634
+          "matched": 18,
+          "missing": 622
         },
         "creature": {
           "total": 55,
-          "matched": 1,
-          "missing": 54
+          "matched": 3,
+          "missing": 52
         },
         "technology": {
           "total": 31,
-          "matched": 0,
-          "missing": 31
+          "matched": 2,
+          "missing": 29
         },
         "event": {
           "total": 394,
-          "matched": 0,
-          "missing": 394
+          "matched": 2,
+          "missing": 392
         },
         "source_record": {
           "total": 818,
@@ -396,31 +396,31 @@
       "slug": "fallout4",
       "title": "Fallout 4",
       "referenceSubjects": 3200,
-      "matchedArchiveEntities": 8,
+      "matchedArchiveEntities": 50,
       "productionQuality": 1,
-      "substantialRecords": 0,
-      "supportingRecords": 0,
-      "shallowRecords": 7,
-      "missingSubjects": 3192,
+      "substantialRecords": 27,
+      "supportingRecords": 16,
+      "shallowRecords": 6,
+      "missingSubjects": 3150,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 1106,
       "majorLore": 71,
       "supportingLore": 172,
       "minorLore": 1857,
       "deepResearchCandidates": 72,
-      "tier1Gaps": 68,
-      "tier2Gaps": 171,
-      "weightedLoreCoverage": 1.5,
+      "tier1Gaps": 59,
+      "tier2Gaps": 156,
+      "weightedLoreCoverage": 9.6,
       "byType": {
         "person": {
           "total": 837,
-          "matched": 3,
-          "missing": 834
+          "matched": 24,
+          "missing": 813
         },
         "organisation": {
           "total": 110,
-          "matched": 3,
-          "missing": 107
+          "matched": 9,
+          "missing": 101
         },
         "creature": {
           "total": 64,
@@ -429,8 +429,8 @@
         },
         "place": {
           "total": 622,
-          "matched": 2,
-          "missing": 620
+          "matched": 16,
+          "missing": 606
         },
         "technology": {
           "total": 65,
@@ -439,8 +439,8 @@
         },
         "event": {
           "total": 404,
-          "matched": 0,
-          "missing": 404
+          "matched": 1,
+          "missing": 403
         },
         "source_record": {
           "total": 1098,
@@ -454,41 +454,41 @@
       "slug": "fallout76",
       "title": "Fallout 76",
       "referenceSubjects": 3500,
-      "matchedArchiveEntities": 9,
+      "matchedArchiveEntities": 33,
       "productionQuality": 3,
-      "substantialRecords": 1,
-      "supportingRecords": 1,
-      "shallowRecords": 4,
-      "missingSubjects": 3491,
+      "substantialRecords": 19,
+      "supportingRecords": 9,
+      "shallowRecords": 2,
+      "missingSubjects": 3467,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 552,
       "majorLore": 32,
       "supportingLore": 170,
       "minorLore": 2786,
       "deepResearchCandidates": 43,
-      "tier1Gaps": 29,
-      "tier2Gaps": 167,
-      "weightedLoreCoverage": 3,
+      "tier1Gaps": 23,
+      "tier2Gaps": 163,
+      "weightedLoreCoverage": 10,
       "byType": {
         "organisation": {
           "total": 77,
-          "matched": 2,
-          "missing": 75
+          "matched": 4,
+          "missing": 73
         },
         "person": {
           "total": 1562,
-          "matched": 6,
-          "missing": 1556
+          "matched": 12,
+          "missing": 1550
         },
         "place": {
           "total": 836,
-          "matched": 0,
-          "missing": 836
+          "matched": 15,
+          "missing": 821
         },
         "event": {
           "total": 483,
-          "matched": 0,
-          "missing": 483
+          "matched": 1,
+          "missing": 482
         },
         "source_record": {
           "total": 542,
@@ -502,26 +502,26 @@
       "slug": "fallout-shelter",
       "title": "Fallout Shelter",
       "referenceSubjects": 627,
-      "matchedArchiveEntities": 11,
+      "matchedArchiveEntities": 35,
       "productionQuality": 1,
-      "substantialRecords": 1,
-      "supportingRecords": 1,
-      "shallowRecords": 8,
-      "missingSubjects": 616,
+      "substantialRecords": 24,
+      "supportingRecords": 9,
+      "shallowRecords": 1,
+      "missingSubjects": 592,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 3,
       "majorLore": 36,
       "supportingLore": 91,
       "minorLore": 499,
       "deepResearchCandidates": 36,
-      "tier1Gaps": 27,
-      "tier2Gaps": 90,
-      "weightedLoreCoverage": 6.9,
+      "tier1Gaps": 24,
+      "tier2Gaps": 79,
+      "weightedLoreCoverage": 19.4,
       "byType": {
         "organisation": {
           "total": 77,
-          "matched": 8,
-          "missing": 69
+          "matched": 11,
+          "missing": 66
         },
         "creature": {
           "total": 18,
@@ -530,13 +530,13 @@
         },
         "place": {
           "total": 33,
-          "matched": 1,
-          "missing": 32
+          "matched": 3,
+          "missing": 30
         },
         "person": {
           "total": 75,
-          "matched": 2,
-          "missing": 73
+          "matched": 21,
+          "missing": 54
         },
         "event": {
           "total": 367,
@@ -656,12 +656,12 @@
       "slug": "broken-steel",
       "title": "Broken Steel",
       "referenceSubjects": 23,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 1,
       "productionQuality": 0,
-      "substantialRecords": 0,
+      "substantialRecords": 1,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 23,
+      "missingSubjects": 22,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 5,
       "majorLore": 2,
@@ -669,13 +669,13 @@
       "minorLore": 5,
       "deepResearchCandidates": 2,
       "tier1Gaps": 2,
-      "tier2Gaps": 11,
-      "weightedLoreCoverage": 0,
+      "tier2Gaps": 10,
+      "weightedLoreCoverage": 3.6,
       "byType": {
         "person": {
           "total": 7,
-          "matched": 0,
-          "missing": 7
+          "matched": 1,
+          "missing": 6
         },
         "technology": {
           "total": 1,
@@ -800,26 +800,26 @@
       "slug": "dead-money",
       "title": "Dead Money",
       "referenceSubjects": 29,
-      "matchedArchiveEntities": 1,
+      "matchedArchiveEntities": 4,
       "productionQuality": 0,
-      "substantialRecords": 1,
+      "substantialRecords": 4,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 28,
+      "missingSubjects": 25,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 2,
       "majorLore": 1,
       "supportingLore": 17,
       "minorLore": 9,
       "deepResearchCandidates": 1,
-      "tier1Gaps": 1,
-      "tier2Gaps": 16,
-      "weightedLoreCoverage": 3.2,
+      "tier1Gaps": 0,
+      "tier2Gaps": 14,
+      "weightedLoreCoverage": 28.6,
       "byType": {
         "person": {
           "total": 4,
-          "matched": 1,
-          "missing": 3
+          "matched": 4,
+          "missing": 0
         },
         "place": {
           "total": 12,
@@ -853,26 +853,26 @@
       "slug": "honest-hearts",
       "title": "Honest Hearts",
       "referenceSubjects": 62,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 4,
       "productionQuality": 0,
-      "substantialRecords": 0,
+      "substantialRecords": 4,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 62,
+      "missingSubjects": 58,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 2,
       "majorLore": 2,
       "supportingLore": 40,
       "minorLore": 18,
       "deepResearchCandidates": 2,
-      "tier1Gaps": 2,
-      "tier2Gaps": 40,
-      "weightedLoreCoverage": 0,
+      "tier1Gaps": 1,
+      "tier2Gaps": 38,
+      "weightedLoreCoverage": 11.5,
       "byType": {
         "place": {
           "total": 35,
-          "matched": 0,
-          "missing": 35
+          "matched": 1,
+          "missing": 34
         },
         "organisation": {
           "total": 2,
@@ -881,13 +881,13 @@
         },
         "person": {
           "total": 6,
-          "matched": 0,
-          "missing": 6
+          "matched": 2,
+          "missing": 4
         },
         "creature": {
           "total": 6,
-          "matched": 0,
-          "missing": 6
+          "matched": 1,
+          "missing": 5
         },
         "event": {
           "total": 11,
@@ -906,21 +906,21 @@
       "slug": "old-world-blues",
       "title": "Old World Blues",
       "referenceSubjects": 64,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 2,
       "productionQuality": 0,
-      "substantialRecords": 0,
+      "substantialRecords": 2,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 64,
+      "missingSubjects": 62,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 2,
       "majorLore": 1,
       "supportingLore": 33,
       "minorLore": 28,
       "deepResearchCandidates": 1,
-      "tier1Gaps": 1,
-      "tier2Gaps": 33,
-      "weightedLoreCoverage": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 32,
+      "weightedLoreCoverage": 13,
       "byType": {
         "technology": {
           "total": 3,
@@ -934,8 +934,8 @@
         },
         "person": {
           "total": 11,
-          "matched": 0,
-          "missing": 11
+          "matched": 2,
+          "missing": 9
         },
         "place": {
           "total": 29,
@@ -959,26 +959,26 @@
       "slug": "lonesome-road",
       "title": "Lonesome Road",
       "referenceSubjects": 34,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 4,
       "productionQuality": 0,
-      "substantialRecords": 0,
-      "supportingRecords": 0,
+      "substantialRecords": 3,
+      "supportingRecords": 1,
       "shallowRecords": 0,
-      "missingSubjects": 34,
+      "missingSubjects": 30,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 1,
       "majorLore": 1,
       "supportingLore": 20,
       "minorLore": 12,
       "deepResearchCandidates": 1,
-      "tier1Gaps": 1,
-      "tier2Gaps": 20,
-      "weightedLoreCoverage": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 18,
+      "weightedLoreCoverage": 22.1,
       "byType": {
         "person": {
           "total": 9,
-          "matched": 0,
-          "missing": 9
+          "matched": 2,
+          "missing": 7
         },
         "place": {
           "total": 16,
@@ -987,13 +987,13 @@
         },
         "creature": {
           "total": 2,
-          "matched": 0,
-          "missing": 2
+          "matched": 1,
+          "missing": 1
         },
         "event": {
           "total": 6,
-          "matched": 0,
-          "missing": 6
+          "matched": 1,
+          "missing": 5
         },
         "source_record": {
           "total": 1,
@@ -1116,12 +1116,12 @@
       "slug": "far-harbor",
       "title": "Far Harbor",
       "referenceSubjects": 59,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 2,
       "productionQuality": 0,
-      "substantialRecords": 0,
+      "substantialRecords": 2,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 59,
+      "missingSubjects": 57,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 0,
       "majorLore": 0,
@@ -1129,8 +1129,8 @@
       "minorLore": 29,
       "deepResearchCandidates": 0,
       "tier1Gaps": 0,
-      "tier2Gaps": 30,
-      "weightedLoreCoverage": 0,
+      "tier2Gaps": 28,
+      "weightedLoreCoverage": 5.3,
       "byType": {
         "person": {
           "total": 19,
@@ -1139,13 +1139,13 @@
         },
         "place": {
           "total": 18,
-          "matched": 0,
-          "missing": 18
+          "matched": 1,
+          "missing": 17
         },
         "organisation": {
           "total": 7,
-          "matched": 0,
-          "missing": 7
+          "matched": 1,
+          "missing": 6
         },
         "creature": {
           "total": 4,
@@ -1219,12 +1219,12 @@
       "slug": "nuka-world",
       "title": "Nuka-World",
       "referenceSubjects": 66,
-      "matchedArchiveEntities": 0,
+      "matchedArchiveEntities": 1,
       "productionQuality": 0,
-      "substantialRecords": 0,
+      "substantialRecords": 1,
       "supportingRecords": 0,
       "shallowRecords": 0,
-      "missingSubjects": 66,
+      "missingSubjects": 65,
       "unresolvedMatches": 0,
       "gameplayOrReferenceOnly": 0,
       "majorLore": 1,
@@ -1232,8 +1232,8 @@
       "minorLore": 30,
       "deepResearchCandidates": 1,
       "tier1Gaps": 1,
-      "tier2Gaps": 35,
-      "weightedLoreCoverage": 0,
+      "tier2Gaps": 34,
+      "weightedLoreCoverage": 2.1,
       "byType": {
         "organisation": {
           "total": 2,
@@ -1257,8 +1257,8 @@
         },
         "place": {
           "total": 26,
-          "matched": 0,
-          "missing": 26
+          "matched": 1,
+          "missing": 25
         },
         "event": {
           "total": 7,

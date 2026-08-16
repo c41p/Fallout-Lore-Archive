@@ -3,12 +3,12 @@
   "slug": "broken-steel",
   "title": "Broken Steel",
   "referenceSubjects": 23,
-  "matchedArchiveEntities": 0,
+  "matchedArchiveEntities": 1,
   "productionQuality": 0,
-  "substantialRecords": 0,
+  "substantialRecords": 1,
   "supportingRecords": 0,
   "shallowRecords": 0,
-  "missingSubjects": 23,
+  "missingSubjects": 22,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 5,
   "majorLore": 2,
@@ -16,13 +16,13 @@
   "minorLore": 5,
   "deepResearchCandidates": 2,
   "tier1Gaps": 2,
-  "tier2Gaps": 11,
-  "weightedLoreCoverage": 0,
+  "tier2Gaps": 10,
+  "weightedLoreCoverage": 3.6,
   "byType": {
     "person": {
       "total": 7,
-      "matched": 0,
-      "missing": 7
+      "matched": 1,
+      "missing": 6
     },
     "technology": {
       "total": 1,

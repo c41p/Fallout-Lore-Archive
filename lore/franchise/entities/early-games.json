@@ -1,0 +1,1742 @@
+[
+  {
+    "id": "ent.chosen_one",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Chosen One",
+    "summary": "The Arroyo tribesperson sent to find a Garden of Eden Creation Kit and later drawn into the Enclave's plan for the surviving human population.",
+    "description": "The Arroyo tribesperson sent to find a Garden of Eden Creation Kit and later drawn into the Enclave's plan for the surviving human population.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Chosen One is a role identity rather than a fixed biography. Arroyo's elder selects a descendant of the Vault Dweller to undertake the village's sacred trial and search for a Garden of Eden Creation Kit during a severe environmental crisis. Selectable sex, appearance, abilities and most personal choices remain outside the fixed record."
+        ],
+        "assertionIds": [
+          "asrt.fr.chosen_one.role"
+        ],
+        "relatedEntityIds": [
+          "ent.arroyo",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The search carries the Chosen One through northern and central California, where Vault City, New Reno, the NCR, the Shi and other communities reveal a much larger political world than Arroyo knows. The investigation eventually links disappearing villagers and Vault 13 residents to the Enclave's Oil Rig and its plan to release a modified FEV agent."
+        ],
+        "assertionIds": [
+          "asrt.fr.chosen_one.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.arroyo"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "On the successful route, the Chosen One reaches the Oil Rig, defeats the Enclave leadership and enables the captives to escape before the installation is destroyed. Local quests and settlement endings remain conditional, so the archive records the required confrontation separately from optional alliances, companions and regional outcomes."
+        ],
+        "assertionIds": [
+          "asrt.fr.chosen_one.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "protagonist-role",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.arroyo",
+    "type": "place",
+    "subtype": "tribal_village",
+    "displayName": "Arroyo",
+    "summary": "The northern tribal village founded by the exiled Vault Dweller and home of the Chosen One.",
+    "description": "The northern tribal village founded by the exiled Vault Dweller and home of the Chosen One.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Arroyo grows from the community established by the Vault Dweller after exile from Vault 13. By 2241 its people preserve fragments of Vault history through oral tradition, ritual and a temple built around the founder's legacy rather than through intact pre-War institutions."
+        ],
+        "assertionIds": [
+          "asrt.fr.arroyo.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.vault_dweller"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Drought and failing crops threaten the village, prompting the elder to send the Chosen One in search of a GECK. The crisis provides Fallout 2's initial mission, but Arroyo's isolation is broken more violently when Enclave forces abduct its population along with residents of Vault 13."
+        ],
+        "assertionIds": [
+          "asrt.fr.arroyo.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Survivors rescued from the Oil Rig form the basis of a renewed community. The precise character of later Arroyo depends on the ending path, while its historical importance is fixed: it connects the Vault Dweller's exile, the Chosen One's identity and the Enclave conflict across generations."
+        ],
+        "assertionIds": [
+          "asrt.fr.arroyo.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_dweller"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "tribal-village",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_8",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 8",
+    "summary": "A control Vault whose residents used a GECK to establish Vault City.",
+    "description": "A control Vault whose residents used a GECK to establish Vault City.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 8 was supplied as a comparatively functional control Vault rather than as one of Vault-Tec's destructive social experiments. Its residents emerged with equipment, technical training and a Garden of Eden Creation Kit, giving them exceptional advantages in establishing a post-War settlement."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_8.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city",
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The opened Vault became the technical and historical core of Vault City. Its systems, medical resources and records supported a highly ordered society, while citizenship restrictions and dependence on reactor power exposed tensions between security, hierarchy and the surrounding wasteland."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_8.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Vault 8 demonstrates that even a successful Vault could produce exclusionary institutions. It also supplies a contrast to nearby Gecko: Vault City's inherited technology creates prosperity, but the city's survival remains linked to cooperation with people it often treats as outsiders."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_8.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "vault",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_city",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Vault City",
+    "summary": "A technologically advanced settlement founded by Vault 8 residents and governed through a restrictive citizenship system.",
+    "description": "A technologically advanced settlement founded by Vault 8 residents and governed through a restrictive citizenship system.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault City grew around the opened entrance of Vault 8. Access to medical technology, education, power and preserved records made it one of northern California's most capable settlements, but the city divided full citizens from servants, outsiders and nearby communities through a rigid legal order."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_city.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_8",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "First Citizen Lynette's administration faces a reactor problem tied to Gecko, political pressure from the NCR and internal debate over expansion. The Chosen One can affect these relationships, so annexation, independence and local reforms must be treated as conditional outcomes rather than one fixed history."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_city.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_8"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The settlement represents a recurring Fallout tension between technical competence and political exclusion. Its future is entangled with Gecko and the NCR, while its Vault-derived identity shows how pre-War resources could harden into a new post-War class system."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_city.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.gecko",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Gecko",
+    "summary": "A ghoul settlement built around an aging nuclear power plant near Vault City.",
+    "description": "A ghoul settlement built around an aging nuclear power plant near Vault City.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Gecko is populated largely by ghouls who use the local power plant as both a home and an economic resource. The plant's deteriorating systems contaminate groundwater and create a serious dispute with Vault City, whose leaders often regard Gecko's residents as expendable."
+        ],
+        "assertionIds": [
+          "asrt.fr.gecko.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city",
+          "ent.ghouls"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One can help repair and optimize the reactor, creating a route toward cooperation, or allow conflict and neglect to continue. The technical problem is inseparable from the social one: Vault City needs the region's stability while resisting equal treatment of the people able to maintain it."
+        ],
+        "assertionIds": [
+          "asrt.fr.gecko.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Gecko's history links ghoul survival, infrastructure and regional politics. Its conditional outcomes illustrate why the archive separates initial conditions from possible resolutions rather than presenting every ending slide as simultaneous fact."
+        ],
+        "assertionIds": [
+          "asrt.fr.gecko.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.the_den",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "The Den",
+    "summary": "A northern California trading town marked by slavery, gangs and an economy built around vice and salvage.",
+    "description": "A northern California trading town marked by slavery, gangs and an economy built around vice and salvage.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Den developed as a rough commercial stop south of Klamath. Its markets provide information and goods, but organized slavery, theft and gang influence shape daily life. The settlement has no strong civic authority comparable with Vault City or the NCR."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_den.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Early in the Chosen One's journey, the Den introduces the larger region's exploitation networks. Metzger's Slavers Guild operates openly, while local residents and the New California Republic's anti-slavery interests create opportunities for resistance whose outcome depends on player action."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_den.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The Den is important less as a great power than as evidence of the political fragmentation surrounding emerging states. Its survival and reform are conditional, but its connection to trafficking and caravan routes remains central to understanding northern California in 2241."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_den.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.klamath",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Klamath",
+    "summary": "A trapping and trading town near Arroyo that serves as the Chosen One's first major wasteland destination.",
+    "description": "A trapping and trading town near Arroyo that serves as the Chosen One's first major wasteland destination.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Klamath survives through brahmin, gecko trapping and trade along northern routes. The town is economically modest and divided between established residents, trappers and marginalized people living in the surrounding ruins."
+        ],
+        "assertionIds": [
+          "asrt.fr.klamath.role"
+        ],
+        "relatedEntityIds": [
+          "ent.arroyo",
+          "ent.the_den"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One visits while following Vic's trail and learning how drought, raiders and slavers affect the region. Local problems—including missing trappers and dangerous wildlife—are optional, so the archive treats them as possible experiences rather than required steps in the main historical route."
+        ],
+        "assertionIds": [
+          "asrt.fr.klamath.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.arroyo"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Klamath anchors the geography between Arroyo and the Den. Its value to the archive lies in showing ordinary post-War subsistence and travel networks before the narrative reaches more powerful institutions such as Vault City, the NCR and the Enclave."
+        ],
+        "assertionIds": [
+          "asrt.fr.klamath.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.the_den"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.modoc",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Modoc",
+    "summary": "An agricultural settlement whose apparent conflict with the Slags can be resolved through investigation.",
+    "description": "An agricultural settlement whose apparent conflict with the Slags can be resolved through investigation.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Modoc is a farming community dependent on strained soil, livestock and trade. Disappearances and evidence around the nearby Ghost Farm lead residents to believe that a dangerous group is threatening them, creating fear that can escalate into violence."
+        ],
+        "assertionIds": [
+          "asrt.fr.modoc.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.vault_city"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One can discover that the underground Slags are survivors seeking security and exchange rather than monsters. Communication can produce a mutually beneficial arrangement, while failure or aggression can lead to destructive outcomes for either community."
+        ],
+        "assertionIds": [
+          "asrt.fr.modoc.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Modoc provides a compact example of misinformation becoming political crisis. Its branching resolution demonstrates the archive's need to preserve both initial hostility and conditional reconciliation without assuming that the most peaceful route occurred."
+        ],
+        "assertionIds": [
+          "asrt.fr.modoc.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.redding",
+    "type": "place",
+    "subtype": "mining_settlement",
+    "displayName": "Redding",
+    "summary": "A gold-mining town contested economically by the NCR, Vault City and New Reno interests.",
+    "description": "A gold-mining town contested economically by the NCR, Vault City and New Reno interests.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Redding's mines make the town strategically valuable despite its limited population and difficult working conditions. Commercial interests from larger powers compete for influence, while Jet addiction among miners weakens labor and public health."
+        ],
+        "assertionIds": [
+          "asrt.fr.redding.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.new_reno"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One can affect mine ownership, medical conditions and the town's political alignment. These choices connect Redding directly to Vault City, New Reno and the NCR, demonstrating how expansion often proceeded through contracts, dependency and local elites rather than open conquest."
+        ],
+        "assertionIds": [
+          "asrt.fr.redding.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Redding's ending varies, but its core role is stable: it is a resource frontier caught between rival models of post-War order. The town makes economic power, addiction and territorial growth visible within the early history of the NCR region."
+        ],
+        "assertionIds": [
+          "asrt.fr.redding.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "mining-settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.broken_hills",
+    "type": "place",
+    "subtype": "mining_settlement",
+    "displayName": "Broken Hills",
+    "summary": "A uranium-mining settlement founded by Marcus and inhabited by humans, ghouls and super mutants.",
+    "description": "A uranium-mining settlement founded by Marcus and inhabited by humans, ghouls and super mutants.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Broken Hills was established as a deliberately mixed community under Marcus. Its uranium mine supports trade, while its population tests whether humans, ghouls and super mutants can maintain a shared civic life after the Unity's defeat."
+        ],
+        "assertionIds": [
+          "asrt.fr.broken_hills.role"
+        ],
+        "relatedEntityIds": [
+          "ent.marcus",
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The settlement faces prejudice, political sabotage and an economically important mine shutdown. The Chosen One can uncover conspiracies on more than one side, and the resulting fate of the town depends on how those conflicts are handled."
+        ],
+        "assertionIds": [
+          "asrt.fr.broken_hills.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.marcus"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Broken Hills is one of the franchise's clearest experiments in post-Unity coexistence. Its possible decline does not erase its significance as evidence that former enemies could build institutions together, even while fear and demographic change threatened that project."
+        ],
+        "assertionIds": [
+          "asrt.fr.broken_hills.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "mining-settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.new_reno",
+    "type": "place",
+    "subtype": "city",
+    "displayName": "New Reno",
+    "summary": "A city dominated by competing crime families, vice businesses and trade in weapons and Jet.",
+    "description": "A city dominated by competing crime families, vice businesses and trade in weapons and Jet.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "New Reno rebuilt around casinos, prostitution, arms dealing and family patronage rather than a unified public government. The Bishop, Mordino, Salvatore and Wright organizations compete for power through violence, business and outside alliances."
+        ],
+        "assertionIds": [
+          "asrt.fr.new_reno.role"
+        ],
+        "relatedEntityIds": [
+          "ent.myron",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The city connects Jet production, regional organized crime and the NCR's expanding sphere. The Chosen One can work for or against several families, producing mutually incompatible local outcomes that should not be flattened into one canonical political settlement."
+        ],
+        "assertionIds": [
+          "asrt.fr.new_reno.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.myron"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "New Reno remains a major example of urban recovery without stable civic rule. Its influence reaches Redding, the Den and NCR politics, and later references show that the city continued to matter even though Fallout 2 leaves its exact leadership conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.new_reno.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "city",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.san_francisco",
+    "type": "place",
+    "subtype": "city",
+    "displayName": "San Francisco",
+    "summary": "A coastal city shared by the Shi, Hubologists and tanker community in 2241.",
+    "description": "A coastal city shared by the Shi, Hubologists and tanker community in 2241.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "San Francisco's ruins support several distinct communities. The Shi descend from a Chinese submarine crew and maintain advanced scientific institutions; the Hubologists pursue their own religious programme; and tanker residents control the vessel needed to reach the Enclave Oil Rig."
+        ],
+        "assertionIds": [
+          "asrt.fr.san_francisco.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shi",
+          "ent.oil_rig"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One must obtain navigation access and fuel to travel offshore, bringing the city's rival groups into the main Enclave conflict. Optional choices can change local fortunes, but the tanker journey is a required part of reaching the Oil Rig."
+        ],
+        "assertionIds": [
+          "asrt.fr.san_francisco.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.shi"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The city ties pre-War Chinese military history, post-War science, religion and Pacific travel together. It also demonstrates that advanced knowledge survived outside Vault-Tec, the Brotherhood and the Enclave in institutions with very different political cultures."
+        ],
+        "assertionIds": [
+          "asrt.fr.san_francisco.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.oil_rig"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "city",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.navarro",
+    "type": "place",
+    "subtype": "military_base",
+    "displayName": "Navarro",
+    "summary": "The Enclave's mainland military base and vertibird facility in northern California.",
+    "description": "The Enclave's mainland military base and vertibird facility in northern California.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Navarro serves as the Enclave's principal mainland installation, linking the Oil Rig to operations on the California coast. It contains aircraft support, scientific staff, communications and heavily equipped troops concealed behind a remote surface presence."
+        ],
+        "assertionIds": [
+          "asrt.fr.navarro.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.oil_rig"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Chosen One can infiltrate the base while seeking vertibird plans and information. The mission exposes the Enclave's technological advantage and command structure without making every possible method of entry or local encounter part of fixed history."
+        ],
+        "assertionIds": [
+          "asrt.fr.navarro.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Navarro survives the Oil Rig crisis long enough to become strategically important to later western factions. Its personnel and technology connect Fallout 2 to subsequent struggles over Enclave remnants, advanced armor and vertibird capability."
+        ],
+        "assertionIds": [
+          "asrt.fr.navarro.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.oil_rig"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "military-base",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.frank_horrigan",
+    "type": "individual",
+    "subtype": "enclave_agent",
+    "displayName": "Frank Horrigan",
+    "summary": "A heavily modified Enclave operative and the final military obstacle aboard the Oil Rig.",
+    "description": "A heavily modified Enclave operative and the final military obstacle aboard the Oil Rig.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Frank Horrigan was an Enclave agent whose exposure to FEV and subsequent experimentation produced an enormous mutant body supported by custom power armor and life-support systems. The Enclave continued to treat him as a loyal human operative despite using technologies it condemned in others."
+        ],
+        "assertionIds": [
+          "asrt.fr.frank_horrigan.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Horrigan carries out killings and enforcement on behalf of President Richardson's regime. At the Oil Rig he confronts the Chosen One during the evacuation and destruction sequence, making his defeat part of the successful route even though the tactics and allies used remain variable."
+        ],
+        "assertionIds": [
+          "asrt.fr.frank_horrigan.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Horrigan personifies the contradictions of Enclave purity ideology: the organization weaponizes mutation while planning to exterminate populations it defines as contaminated. His role is supported directly by Fallout 2, while precise technical interpretations of his condition should remain tied to source evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.frank_horrigan.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "enclave-agent",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.marcus",
+    "type": "individual",
+    "subtype": "super_mutant_leader",
+    "displayName": "Marcus",
+    "summary": "A former Master's Army super mutant who co-founded and governs Broken Hills.",
+    "description": "A former Master's Army super mutant who co-founded and governs Broken Hills.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Marcus served in the Master's forces before the Unity's defeat. In the following decades he formed a friendship with Brotherhood paladin Jacob, and their travels helped convince him that former enemies could cooperate outside the Master's coercive project."
+        ],
+        "assertionIds": [
+          "asrt.fr.marcus.role"
+        ],
+        "relatedEntityIds": [
+          "ent.broken_hills",
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Marcus co-founded Broken Hills and serves as its sheriff and leading public figure in 2241. He attempts to hold together a community of humans, ghouls and super mutants while responding to sabotage, prejudice and the town's dependence on uranium mining."
+        ],
+        "assertionIds": [
+          "asrt.fr.marcus.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.broken_hills"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Marcus can accompany the Chosen One and later appears in the Mojave, making him an important cross-game link between the Unity, western super mutant communities and the Followers of the Apocalypse. Optional companion service is not treated as a required historical fact."
+        ],
+        "assertionIds": [
+          "asrt.fr.marcus.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "super-mutant-leader",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.shi",
+    "type": "organisation",
+    "subtype": "city_state",
+    "displayName": "Shi",
+    "summary": "A scientifically advanced San Francisco community descended from a Chinese submarine crew.",
+    "description": "A scientifically advanced San Francisco community descended from a Chinese submarine crew.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Shi trace their community to personnel from a Chinese submarine stranded after the Great War. Over generations they built an urban society around preserved technical expertise, a computer-centered spiritual tradition and research institutions operating independently of other western powers."
+        ],
+        "assertionIds": [
+          "asrt.fr.shi.role"
+        ],
+        "relatedEntityIds": [
+          "ent.san_francisco",
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "In 2241 the Shi share San Francisco with the Hubologists and tanker community. Their scientists possess knowledge relevant to fuel production and advanced technologies, bringing them into the Chosen One's effort to reach the Enclave Oil Rig."
+        ],
+        "assertionIds": [
+          "asrt.fr.shi.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.san_francisco"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The Shi broaden the archive's account of technological survival beyond American military and corporate institutions. Their long-term political future depends on conditional Fallout 2 outcomes, but their existence is a stable part of the city's history."
+        ],
+        "assertionIds": [
+          "asrt.fr.shi.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_2",
+      "city-state",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.warrior",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Warrior",
+    "summary": "The squad commander who leads Midwestern Brotherhood operations during the Calculator campaign.",
+    "description": "The squad commander who leads Midwestern Brotherhood operations during the Calculator campaign.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Warrior is a player-defined role within the Midwestern Brotherhood rather than a fixed personal biography. Fallout Tactics permits different origins, abilities and squad compositions, so the archive retains the institutional role and required campaign milestones without inventing identity details."
+        ],
+        "assertionIds": [
+          "asrt.fr.warrior.role"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood",
+          "ent.calculator"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Warrior advances through Brotherhood operations against raiders, Beastlords, super mutants and the Calculator's robotic forces. Command responsibility grows across the campaign, making the character a practical bridge between field squads and the expedition's senior leadership."
+        ],
+        "assertionIds": [
+          "asrt.fr.warrior.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The final encounter with the Calculator has branching resolutions, including destruction and forms of merger or control. Those alternatives materially change the Midwest's future and must remain conditional; later franchise references do not settle every detail of the ending."
+        ],
+        "assertionIds": [
+          "asrt.fr.warrior.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.calculator"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "protagonist-role",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.midwestern_brotherhood",
+    "type": "organisation",
+    "subtype": "brotherhood_branch",
+    "displayName": "Midwestern Brotherhood of Steel",
+    "summary": "A Brotherhood expedition stranded in the Midwest that developed into a distinct regional military power.",
+    "description": "A Brotherhood expedition stranded in the Midwest that developed into a distinct regional military power.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Midwestern Brotherhood descends from an expedition sent east from the western order. Airship losses stranded its survivors far from Lost Hills, forcing them to recruit locally, absorb new populations and build authority through bunkers and military campaigns."
+        ],
+        "assertionIds": [
+          "asrt.fr.midwestern_brotherhood.role"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.calculator"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "During Fallout Tactics the organization confronts raiders, Beastlords, Gammorin's super mutants and the Calculator's robot army. Its hierarchy retains Brotherhood terminology while its recruitment and expansion differ markedly from the isolationism associated with some western chapters."
+        ],
+        "assertionIds": [
+          "asrt.fr.midwestern_brotherhood.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The branch's final political form depends heavily on the Calculator outcome. Later games acknowledge Brotherhood activity in the Chicago region without confirming every event or ending, so the archive preserves the game's material while marking its broader continuity status separately."
+        ],
+        "assertionIds": [
+          "asrt.fr.midwestern_brotherhood.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.calculator"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "brotherhood-branch",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.calculator",
+    "type": "technology",
+    "subtype": "artificial_intelligence",
+    "displayName": "Calculator",
+    "summary": "The Vault 0 command intelligence whose damaged directives drive a robot campaign across the Midwest.",
+    "description": "The Vault 0 command intelligence whose damaged directives drive a robot campaign across the Midwest.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Calculator was installed beneath Vault 0 to coordinate a network intended to manage post-War reconstruction. Damage, flawed human inputs and isolation distorted its operation, turning a planning system into an expansionist machine authority."
+        ],
+        "assertionIds": [
+          "asrt.fr.calculator.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_0",
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Its robots become the final and most powerful enemy confronted by the Midwestern Brotherhood. The system's facilities, security forces and control over Vault 0 reveal a pre-War effort to centralize Vault oversight on a scale distinct from individual experiments."
+        ],
+        "assertionIds": [
+          "asrt.fr.calculator.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_0"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The Warrior's final decision can destroy the Calculator or produce different forms of merger and rule. Because those endings are mutually exclusive and later sources do not select one comprehensively, the archive records the system's campaign as fixed and its final disposition as conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.calculator.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "artificial-intelligence",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_0",
+    "type": "place",
+    "subtype": "vault_command_facility",
+    "displayName": "Vault 0",
+    "summary": "A Cheyenne Mountain command Vault built to coordinate the wider Vault network and house the Calculator.",
+    "description": "A Cheyenne Mountain command Vault built to coordinate the wider Vault network and house the Calculator.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 0 was conceived as a central command and knowledge facility rather than a normal refuge. Located within the Cheyenne Mountain complex, it held scientific expertise, records and the Calculator system intended to guide reconstruction after the nuclear war."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_0.role"
+        ],
+        "relatedEntityIds": [
+          "ent.calculator",
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Failures in preservation and control left the Calculator without the human oversight its mission required. By the time of the Midwestern campaign, the complex serves as the center of a robot army and the destination of the Brotherhood's final offensive."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_0.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.calculator"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The facility expands the franchise's Vault history by showing a supervisory layer above local sites. Its specific place in the principal continuity is less secure than that of core-game Vaults, so the archive retains both its documented game role and the work's separate material classification."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_0.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "vault-command-facility",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.reavers",
+    "type": "organisation",
+    "subtype": "technological_cult",
+    "displayName": "Reavers",
+    "summary": "A Midwestern technological cult that initially opposes and later may cooperate with the Brotherhood.",
+    "description": "A Midwestern technological cult that initially opposes and later may cooperate with the Brotherhood.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Reavers are a militant community organized around control and veneration of advanced technology. Their expertise makes them dangerous competitors to the Brotherhood, while their cultural interpretation of machines differs from Brotherhood preservation doctrine."
+        ],
+        "assertionIds": [
+          "asrt.fr.reavers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood",
+          "ent.calculator"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Conflict with the Midwestern Brotherhood gives way to a possible alliance when the Calculator's robot army becomes the larger threat. The exact relationship is campaign-dependent, but the Reavers' knowledge is strategically important to understanding and countering the machines."
+        ],
+        "assertionIds": [
+          "asrt.fr.reavers.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Their story complicates any claim that the Brotherhood is the only organized preserver of technology. It also illustrates how existential pressure can realign hostile groups without erasing their distinct institutions and beliefs."
+        ],
+        "assertionIds": [
+          "asrt.fr.reavers.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.calculator"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "technological-cult",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.beastlords",
+    "type": "organisation",
+    "subtype": "tribal_faction",
+    "displayName": "Beastlords",
+    "summary": "A hostile Midwestern tribal society able to control mutated animals through unusual psychic abilities.",
+    "description": "A hostile Midwestern tribal society able to control mutated animals through unusual psychic abilities.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Beastlords developed a culture built around domination of mutated creatures and human captives. Their animal control gives them military reach beyond their numbers and shapes the Brotherhood's early understanding of threats outside established settlements."
+        ],
+        "assertionIds": [
+          "asrt.fr.beastlords.role"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood",
+          "ent.deathclaws"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Midwestern Brotherhood operations dismantle Beastlord positions and free prisoners during the campaign. The conflict is part of the branch's territorial expansion and exposes the expedition to biological phenomena it cannot explain solely through conventional technology."
+        ],
+        "assertionIds": [
+          "asrt.fr.beastlords.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Although the Beastlords do not become a lasting great power, they are a defining enemy in the game's regional history. Their place in wider continuity should be stated cautiously because later works provide little corroborating detail."
+        ],
+        "assertionIds": [
+          "asrt.fr.beastlords.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.deathclaws"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "tribal-faction",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.gammorin_army",
+    "type": "organisation",
+    "subtype": "super_mutant_army",
+    "displayName": "Gammorin's Army",
+    "summary": "A Midwestern super mutant force led by the renegade Brotherhood paladin Gammorin.",
+    "description": "A Midwestern super mutant force led by the renegade Brotherhood paladin Gammorin.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Gammorin's Army combines super mutant strength with the ambitions of a former Brotherhood officer. Its existence reflects the dispersal of mutants and military knowledge beyond California after the Master's defeat, although the exact migration history is not fully established."
+        ],
+        "assertionIds": [
+          "asrt.fr.gammorin_army.role"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood",
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The army occupies territory and fights the Midwestern Brotherhood before the Calculator emerges as the campaign's overriding threat. Its operations force the Brotherhood to adapt tactics and confront an enemy able to combine organized command with mutant troops."
+        ],
+        "assertionIds": [
+          "asrt.fr.gammorin_army.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The faction links Fallout Tactics to the wider history of super mutants without making every suggested connection to the Unity explicit fact. Its defeat changes the regional balance and clears the way for the later robot war."
+        ],
+        "assertionIds": [
+          "asrt.fr.gammorin_army.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "super-mutant-army",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.chicago_wasteland",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Chicago Wasteland",
+    "summary": "The post-War Chicago region associated with the Midwestern Brotherhood's early expansion.",
+    "description": "The post-War Chicago region associated with the Midwestern Brotherhood's early expansion.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Chicago area forms the western edge of the Midwestern Brotherhood's campaign geography. Ruined urban and industrial zones provide settlements, salvage and strategic corridors rather than a single unified city government."
+        ],
+        "assertionIds": [
+          "asrt.fr.chicago_wasteland.role"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood",
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Brotherhood bunkers and operations in the region establish a base for expansion farther across the Midwest. Later Fallout material makes limited references to Brotherhood forces near Chicago, but does not independently confirm every faction, battle or ending from Fallout Tactics."
+        ],
+        "assertionIds": [
+          "asrt.fr.chicago_wasteland.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.midwestern_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The region is therefore useful for separating geographic continuity from narrative certainty. Chicago exists across the setting, while the archive scopes detailed Calculator-era claims to the work that presents them unless later evidence corroborates them."
+        ],
+        "assertionIds": [
+          "asrt.fr.chicago_wasteland.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_tactics",
+      "region",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.bos_initiate",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Brotherhood Initiate",
+    "summary": "The selectable Brotherhood recruit sent into the Texas wasteland in Fallout: Brotherhood of Steel.",
+    "description": "The selectable Brotherhood recruit sent into the Texas wasteland in Fallout: Brotherhood of Steel.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Initiate represents one of several selectable protagonists and therefore has no single fixed appearance, personal history or route. The stable identity is institutional: a Brotherhood recruit is sent to investigate missing personnel and becomes involved in a wider mutant threat."
+        ],
+        "assertionIds": [
+          "asrt.fr.bos_initiate.role"
+        ],
+        "relatedEntityIds": [
+          "ent.texas_brotherhood",
+          "ent.attis"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The mission moves through Carbon, Los and the Vault beneath the region, bringing the Initiate into conflict with raiders, Attis and his mutant forces. Optional interactions and character-specific details remain conditional rather than being combined into one biography."
+        ],
+        "assertionIds": [
+          "asrt.fr.bos_initiate.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.texas_brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The successful route ends the immediate threat, but the game's disputed relationship to the principal continuity limits how confidently its outcomes can be projected into later Brotherhood history. The archive retains it as a released work with explicit scope."
+        ],
+        "assertionIds": [
+          "asrt.fr.bos_initiate.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.attis"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "protagonist-role",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.texas_brotherhood",
+    "type": "organisation",
+    "subtype": "brotherhood_branch",
+    "displayName": "Texas Brotherhood of Steel",
+    "summary": "The Brotherhood force operating in Texas in Fallout: Brotherhood of Steel.",
+    "description": "The Brotherhood force operating in Texas in Fallout: Brotherhood of Steel.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Texas Brotherhood is presented as a regional Brotherhood presence with its own initiates and field personnel. Its connection to the western organization uses familiar ranks and symbols, but the game does not supply the same institutional history found in the core Brotherhood sources."
+        ],
+        "assertionIds": [
+          "asrt.fr.texas_brotherhood.role"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.bos_initiate"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Missing paladins prompt an Initiate's investigation around Carbon and Los. The branch's limited surviving presence means the protagonist acts with considerable independence while confronting Attis's mutant programme."
+        ],
+        "assertionIds": [
+          "asrt.fr.texas_brotherhood.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Because the game's continuity status is disputed, the branch should not be silently merged into the principal Brotherhood chronology. It remains linked to the franchise-wide Brotherhood entity while its claims and appearances are scoped to the console game's continuity classification."
+        ],
+        "assertionIds": [
+          "asrt.fr.texas_brotherhood.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "brotherhood-branch",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.carbon",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Carbon",
+    "summary": "A Texas settlement and the Initiate's first major destination in Fallout: Brotherhood of Steel.",
+    "description": "A Texas settlement and the Initiate's first major destination in Fallout: Brotherhood of Steel.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Carbon is a small wasteland community affected by raiders and the disappearance of Brotherhood personnel. Its local businesses and residents provide the Initiate with information while showing the limited reach of formal authority in the region."
+        ],
+        "assertionIds": [
+          "asrt.fr.carbon.role"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate",
+          "ent.texas_brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Initiate's actions in and around Carbon establish the search that leads toward Los and the mutant threat. Many local tasks are optional, so the archive treats the town's broad crisis as fixed and avoids selecting every possible resolution."
+        ],
+        "assertionIds": [
+          "asrt.fr.carbon.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Carbon's significance is primarily geographic and narrative: it anchors the opening stage of the Texas campaign. The settlement is retained under the game's separate continuity scope rather than used as unqualified evidence for the core-series map."
+        ],
+        "assertionIds": [
+          "asrt.fr.carbon.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.texas_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.los_texas",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Los",
+    "summary": "A large Texas wasteland settlement built among pre-War ruins in Fallout: Brotherhood of Steel.",
+    "description": "A large Texas wasteland settlement built among pre-War ruins in Fallout: Brotherhood of Steel.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Los is a dense settlement whose markets, factions and ruins form the central urban environment of the Texas campaign. It is more politically complex than Carbon and provides access to the facilities connected with Attis's operations."
+        ],
+        "assertionIds": [
+          "asrt.fr.los_texas.role"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate",
+          "ent.attis"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Initiate follows the missing-Brotherhood investigation into Los and encounters the consequences of mutant activity beneath the city. Local alliances and tasks vary by route, but the settlement's connection to the Vault and Attis is central."
+        ],
+        "assertionIds": [
+          "asrt.fr.los_texas.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Los gives the game its principal civic setting and links surface communities to the underground climax. As with other records from this title, its geography and outcomes are not projected into the principal games without corroborating evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.los_texas.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.attis"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.attis",
+    "type": "individual",
+    "subtype": "mutant_leader",
+    "displayName": "Attis",
+    "summary": "A super mutant commander pursuing renewed FEV-based transformation in Fallout: Brotherhood of Steel.",
+    "description": "A super mutant commander pursuing renewed FEV-based transformation in Fallout: Brotherhood of Steel.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Attis is presented as a surviving super mutant military leader who seeks a way to continue or recreate mass transformation after the Master's defeat. His authority rests on an organized mutant force and control of a hidden facility."
+        ],
+        "assertionIds": [
+          "asrt.fr.attis.role"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants",
+          "ent.bos_initiate"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "His programme drives the disappearance of Brotherhood personnel and the threat investigated by the Initiate. The confrontation beneath Los forms the campaign's climax, although the precise protagonist and many tactical details remain selectable."
+        ],
+        "assertionIds": [
+          "asrt.fr.attis.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "Attis reprises questions raised by the Unity—coercive transformation, mutant succession and control of FEV—within a separate released-game continuity. The archive links those themes without treating his specific campaign as confirmed history in the principal games."
+        ],
+        "assertionIds": [
+          "asrt.fr.attis.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.bos_initiate"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "mutant-leader",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.ghoul_army",
+    "type": "organisation",
+    "subtype": "mutant_army",
+    "displayName": "Attis Army",
+    "summary": "The mutant force commanded by Attis during the Texas campaign.",
+    "description": "The mutant force commanded by Attis during the Texas campaign.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Attis's followers are organized as a military force rather than a loose population of mutants. They occupy and defend the facilities needed for his transformation project and operate against local communities and Brotherhood personnel."
+        ],
+        "assertionIds": [
+          "asrt.fr.ghoul_army.role"
+        ],
+        "relatedEntityIds": [
+          "ent.attis",
+          "ent.texas_brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The army provides the principal organized enemy across the later stages of Fallout: Brotherhood of Steel. Its actions connect raider instability on the surface to the deeper objective of recovering and using FEV-related technology."
+        ],
+        "assertionIds": [
+          "asrt.fr.ghoul_army.link_a"
+        ],
+        "relatedEntityIds": [
+          "ent.attis"
+        ]
+      },
+      {
+        "id": "connections-and-legacy",
+        "title": "Connections and legacy",
+        "paragraphs": [
+          "The faction is important within the game's self-contained history but has little corroboration elsewhere. Its record is therefore explicit about source scope while preserving its relationship to recurring super mutant and Brotherhood themes."
+        ],
+        "assertionIds": [
+          "asrt.fr.ghoul_army.link_b"
+        ],
+        "relatedEntityIds": [
+          "ent.texas_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_bos",
+      "mutant-army",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

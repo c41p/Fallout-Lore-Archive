@@ -1,0 +1,2946 @@
+[
+  {
+    "id": "ent.sulik",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Sulik",
+    "summary": "A tribal warrior from Klamath who can accompany the Chosen One and seeks his missing sister.",
+    "description": "A tribal warrior from Klamath who can accompany the Chosen One and seeks his missing sister.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A tribal warrior from Klamath who can accompany the Chosen One and seeks his missing sister."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.sulik.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.klamath"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Sulik connects chosen one and klamath within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.sulik.link"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.klamath"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.vic",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Vic",
+    "summary": "A trader and radio technician whose capture connects Arroyo's search to the Den.",
+    "description": "A trader and radio technician whose capture connects Arroyo's search to the Den.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A trader and radio technician whose capture connects Arroyo's search to the Den."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vic.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.the_den"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Vic connects chosen one and the den within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vic.link"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.the_den"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.john_cassidy",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "John Cassidy",
+    "summary": "A Vault City bar owner and experienced traveller who can join the Chosen One.",
+    "description": "A Vault City bar owner and experienced traveller who can join the Chosen One.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Vault City bar owner and experienced traveller who can join the Chosen One."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_cassidy.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.vault_city"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "John Cassidy connects chosen one and vault city within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_cassidy.link"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.vault_city"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.goris",
+    "type": "individual",
+    "subtype": "intelligent_deathclaw",
+    "displayName": "Goris",
+    "summary": "An intelligent deathclaw scholar from Vault 13 who may travel with the Chosen One.",
+    "description": "An intelligent deathclaw scholar from Vault 13 who may travel with the Chosen One.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An intelligent deathclaw scholar from Vault 13 who may travel with the Chosen One."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.goris.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.deathclaws"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Goris connects chosen one and deathclaws within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.goris.link"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.deathclaws"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.lenny",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Lenny",
+    "summary": "A ghoul doctor in Gecko with memories of pre-War life and Harold's earlier travels.",
+    "description": "A ghoul doctor in Gecko with memories of pre-War life and Harold's earlier travels.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A ghoul doctor in Gecko with memories of pre-War life and Harold's earlier travels."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lenny.role"
+        ],
+        "relatedEntityIds": [
+          "ent.gecko",
+          "ent.ghouls"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Lenny connects gecko and ghouls within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lenny.link"
+        ],
+        "relatedEntityIds": [
+          "ent.gecko",
+          "ent.ghouls"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.skynet_robot",
+    "type": "technology",
+    "subtype": "artificial_intelligence",
+    "displayName": "Skynet",
+    "summary": "A Sierra Army Depot artificial intelligence that can inhabit a mobile robotic body.",
+    "description": "A Sierra Army Depot artificial intelligence that can inhabit a mobile robotic body.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Sierra Army Depot artificial intelligence that can inhabit a mobile robotic body."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.skynet_robot.role"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Skynet connects chosen one and united states within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.skynet_robot.link"
+        ],
+        "relatedEntityIds": [
+          "ent.chosen_one",
+          "ent.united_states"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.lynette",
+    "type": "individual",
+    "subtype": "political_leader",
+    "displayName": "Lynette",
+    "summary": "Vault City's First Citizen and a forceful defender of its unequal civic order.",
+    "description": "Vault City's First Citizen and a forceful defender of its unequal civic order.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Vault City's First Citizen and a forceful defender of its unequal civic order."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lynette.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city",
+          "ent.vault_8"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Lynette connects vault city and vault 8 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lynette.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_city",
+          "ent.vault_8"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.john_bishop",
+    "type": "individual",
+    "subtype": "crime_boss",
+    "displayName": "John Bishop",
+    "summary": "A New Reno crime boss with political links and expansion ambitions.",
+    "description": "A New Reno crime boss with political links and expansion ambitions.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A New Reno crime boss with political links and expansion ambitions."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_bishop.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "John Bishop connects new reno and ncr within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_bishop.link"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.jesus_mordino",
+    "type": "individual",
+    "subtype": "crime_boss",
+    "displayName": "Jesus Mordino",
+    "summary": "Head of the Mordino family and patron of Myron's Jet operation in New Reno.",
+    "description": "Head of the Mordino family and patron of Myron's Jet operation in New Reno.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Head of the Mordino family and patron of Myron's Jet operation in New Reno."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jesus_mordino.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.myron"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Jesus Mordino connects new reno and myron within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jesus_mordino.link"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.myron"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.salvatore",
+    "type": "individual",
+    "subtype": "crime_boss",
+    "displayName": "Louis Salvatore",
+    "summary": "Leader of a New Reno family whose energy weapons depend on Enclave-linked trade.",
+    "description": "Leader of a New Reno family whose energy weapons depend on Enclave-linked trade.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Leader of a New Reno family whose energy weapons depend on Enclave-linked trade."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.salvatore.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Louis Salvatore connects new reno and enclave within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.salvatore.link"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.enclave"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.orville_wright",
+    "type": "individual",
+    "subtype": "crime_boss",
+    "displayName": "Orville Wright",
+    "summary": "Leader of the Wright family, whose authority is tied to local business and family loyalty.",
+    "description": "Leader of the Wright family, whose authority is tied to local business and family loyalty.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Leader of the Wright family, whose authority is tied to local business and family loyalty."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.orville_wright.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.chosen_one"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Orville Wright connects new reno and chosen one within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.orville_wright.link"
+        ],
+        "relatedEntityIds": [
+          "ent.new_reno",
+          "ent.chosen_one"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.fawkes",
+    "type": "individual",
+    "subtype": "super_mutant",
+    "displayName": "Fawkes",
+    "summary": "A self-educated Vault 87 super mutant who aids the Lone Wanderer after imprisonment.",
+    "description": "A self-educated Vault 87 super mutant who aids the Lone Wanderer after imprisonment.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A self-educated Vault 87 super mutant who aids the Lone Wanderer after imprisonment."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fawkes.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.vault_87"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Fawkes connects lone wanderer and vault 87 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fawkes.link"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.vault_87"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.charon",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Charon",
+    "summary": "A ghoul mercenary bound by an employment contract in Underworld.",
+    "description": "A ghoul mercenary bound by an employment contract in Underworld.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A ghoul mercenary bound by an employment contract in Underworld."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.charon.role"
+        ],
+        "relatedEntityIds": [
+          "ent.underworld",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Charon connects underworld and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.charon.link"
+        ],
+        "relatedEntityIds": [
+          "ent.underworld",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.star_paladin_cross",
+    "type": "individual",
+    "subtype": "brotherhood_officer",
+    "displayName": "Star Paladin Cross",
+    "summary": "A senior Capital Wasteland Brotherhood soldier with a past connection to James.",
+    "description": "A senior Capital Wasteland Brotherhood soldier with a past connection to James.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A senior Capital Wasteland Brotherhood soldier with a past connection to James."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.star_paladin_cross.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.james_fo3"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Star Paladin Cross connects capital brotherhood and james fo3 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.star_paladin_cross.link"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.james_fo3"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.butch_deloria",
+    "type": "individual",
+    "subtype": "vault_resident",
+    "displayName": "Butch DeLoria",
+    "summary": "A Vault 101 resident whose relationship with the Lone Wanderer can change after the escape.",
+    "description": "A Vault 101 resident whose relationship with the Lone Wanderer can change after the escape.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Vault 101 resident whose relationship with the Lone Wanderer can change after the escape."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.butch_deloria.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_101",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Butch DeLoria connects vault 101 and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.butch_deloria.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_101",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.jericho_fo3",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Jericho",
+    "summary": "A former raider living in Megaton who may accompany a suitably ruthless Lone Wanderer.",
+    "description": "A former raider living in Megaton who may accompany a suitably ruthless Lone Wanderer.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A former raider living in Megaton who may accompany a suitably ruthless Lone Wanderer."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jericho_fo3.role"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Jericho connects megaton and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jericho_fo3.link"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.clover",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Clover",
+    "summary": "An enslaved fighter at Paradise Falls whose possible recruitment remains bound to slavery mechanics.",
+    "description": "An enslaved fighter at Paradise Falls whose possible recruitment remains bound to slavery mechanics.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An enslaved fighter at Paradise Falls whose possible recruitment remains bound to slavery mechanics."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.clover.role"
+        ],
+        "relatedEntityIds": [
+          "ent.paradise_falls",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Clover connects paradise falls and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.clover.link"
+        ],
+        "relatedEntityIds": [
+          "ent.paradise_falls",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.sergeant_rl3",
+    "type": "technology",
+    "subtype": "robot",
+    "displayName": "Sergeant RL-3",
+    "summary": "A military Mister Gutsy robot available as a Capital Wasteland companion.",
+    "description": "A military Mister Gutsy robot available as a Capital Wasteland companion.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A military Mister Gutsy robot available as a Capital Wasteland companion."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.sergeant_rl3.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.robco"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Sergeant RL-3 connects lone wanderer and robco within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.sergeant_rl3.link"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.robco"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.vault_87",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 87",
+    "summary": "The Vault where FEV experiments created a major Capital Wasteland super mutant population.",
+    "description": "The Vault where FEV experiments created a major Capital Wasteland super mutant population.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The Vault where FEV experiments created a major Capital Wasteland super mutant population."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_87.role"
+        ],
+        "relatedEntityIds": [
+          "ent.fev",
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Vault 87 connects fev and super mutants within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_87.link"
+        ],
+        "relatedEntityIds": [
+          "ent.fev",
+          "ent.super_mutants"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.vault_112",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 112",
+    "summary": "A Vault whose residents are held in a long-running virtual simulation controlled by Stanislaus Braun.",
+    "description": "A Vault whose residents are held in a long-running virtual simulation controlled by Stanislaus Braun.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Vault whose residents are held in a long-running virtual simulation controlled by Stanislaus Braun."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_112.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.tranquility_lane"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Vault 112 connects lone wanderer and tranquility lane within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_112.link"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.tranquility_lane"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.tranquility_lane",
+    "type": "concept",
+    "subtype": "simulation",
+    "displayName": "Tranquility Lane",
+    "summary": "The idyllic but coercive virtual environment governing Vault 112's suspended residents.",
+    "description": "The idyllic but coercive virtual environment governing Vault 112's suspended residents.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The idyllic but coercive virtual environment governing Vault 112's suspended residents."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.tranquility_lane.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_112",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Tranquility Lane connects vault 112 and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.tranquility_lane.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_112",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.raven_rock",
+    "type": "place",
+    "subtype": "enclave_base",
+    "displayName": "Raven Rock",
+    "summary": "The eastern Enclave command bunker housing John Henry Eden during Fallout 3.",
+    "description": "The eastern Enclave command bunker housing John Henry Eden during Fallout 3.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The eastern Enclave command bunker housing John Henry Eden during Fallout 3."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.raven_rock.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.john_henry_eden"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Raven Rock connects enclave and john henry eden within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.raven_rock.link"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.john_henry_eden"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.adams_air_force_base",
+    "type": "place",
+    "subtype": "military_base",
+    "displayName": "Adams Air Force Base",
+    "summary": "An Enclave military facility attacked during the Broken Steel campaign.",
+    "description": "An Enclave military facility attacked during the Broken Steel campaign.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An Enclave military facility attacked during the Broken Steel campaign."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.adams_air_force_base.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Adams Air Force Base connects enclave and capital brotherhood within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.adams_air_force_base.link"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.capital_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "broken_steel"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.alistair_tenpenny",
+    "type": "individual",
+    "subtype": "settlement_owner",
+    "displayName": "Allistair Tenpenny",
+    "summary": "The wealthy owner of Tenpenny Tower and sponsor of the plan to destroy Megaton.",
+    "description": "The wealthy owner of Tenpenny Tower and sponsor of the plan to destroy Megaton.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The wealthy owner of Tenpenny Tower and sponsor of the plan to destroy Megaton."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.alistair_tenpenny.role"
+        ],
+        "relatedEntityIds": [
+          "ent.tenpenny_tower",
+          "ent.megaton"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Allistair Tenpenny connects tenpenny tower and megaton within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.alistair_tenpenny.link"
+        ],
+        "relatedEntityIds": [
+          "ent.tenpenny_tower",
+          "ent.megaton"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.moira_brown",
+    "type": "individual",
+    "subtype": "merchant_researcher",
+    "displayName": "Moira Brown",
+    "summary": "A Megaton merchant whose Wasteland Survival Guide research sends the Lone Wanderer across the region.",
+    "description": "A Megaton merchant whose Wasteland Survival Guide research sends the Lone Wanderer across the region.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Megaton merchant whose Wasteland Survival Guide research sends the Lone Wanderer across the region."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.moira_brown.role"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Moira Brown connects megaton and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.moira_brown.link"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.lucas_simms",
+    "type": "individual",
+    "subtype": "local_leader",
+    "displayName": "Lucas Simms",
+    "summary": "Megaton's sheriff and mayor at the start of Fallout 3.",
+    "description": "Megaton's sheriff and mayor at the start of Fallout 3.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Megaton's sheriff and mayor at the start of Fallout 3."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lucas_simms.role"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Lucas Simms connects megaton and lone wanderer within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lucas_simms.link"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.craig_boone",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Craig Boone",
+    "summary": "A former NCR First Recon sniper confronting loss, guilt and the Legion in the Mojave.",
+    "description": "A former NCR First Recon sniper confronting loss, guilt and the Legion in the Mojave.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A former NCR First Recon sniper confronting loss, guilt and the Legion in the Mojave."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.craig_boone.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Craig Boone connects ncr and caesars legion within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.craig_boone.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.caesars_legion"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.arcade_gannon",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Arcade Gannon",
+    "summary": "A Followers doctor whose family history links him to Enclave remnants.",
+    "description": "A Followers doctor whose family history links him to Enclave remnants.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Followers doctor whose family history links him to Enclave remnants."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.arcade_gannon.role"
+        ],
+        "relatedEntityIds": [
+          "ent.followers",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Arcade Gannon connects followers and enclave within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.arcade_gannon.link"
+        ],
+        "relatedEntityIds": [
+          "ent.followers",
+          "ent.enclave"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.rose_cassidy",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Rose of Sharon Cassidy",
+    "summary": "A caravan owner whose destroyed business exposes corruption in Mojave trade.",
+    "description": "A caravan owner whose destroyed business exposes corruption in Mojave trade.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A caravan owner whose destroyed business exposes corruption in Mojave trade."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.rose_cassidy.role"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Rose of Sharon Cassidy connects courier and ncr within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.rose_cassidy.link"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.raul_tejada",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Raul Tejada",
+    "summary": "A pre-War ghoul mechanic imprisoned at Black Mountain when the Courier finds him.",
+    "description": "A pre-War ghoul mechanic imprisoned at Black Mountain when the Courier finds him.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A pre-War ghoul mechanic imprisoned at Black Mountain when the Courier finds him."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.raul_tejada.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Raul Tejada connects ghouls and courier within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.raul_tejada.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls",
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.lily_bowen",
+    "type": "individual",
+    "subtype": "nightkin",
+    "displayName": "Lily Bowen",
+    "summary": "A nightkin resident of Jacobstown balancing medication, memory and family identity.",
+    "description": "A nightkin resident of Jacobstown balancing medication, memory and family identity.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A nightkin resident of Jacobstown balancing medication, memory and family identity."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lily_bowen.role"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants",
+          "ent.jacobstown"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Lily Bowen connects super mutants and jacobstown within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.lily_bowen.link"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants",
+          "ent.jacobstown"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.ede",
+    "type": "technology",
+    "subtype": "eyebot",
+    "displayName": "ED-E",
+    "summary": "An Enclave eyebot whose recordings connect Navarro, Adams Air Force Base and the Divide.",
+    "description": "An Enclave eyebot whose recordings connect Navarro, Adams Air Force Base and the Divide.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An Enclave eyebot whose recordings connect Navarro, Adams Air Force Base and the Divide."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ede.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.divide"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "ED-E connects enclave and divide within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ede.link"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.divide"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.rex_cyberdog",
+    "type": "technology",
+    "subtype": "cyberdog",
+    "displayName": "Rex",
+    "summary": "The King's cyberdog companion whose failing brain creates a branching medical quest.",
+    "description": "The King's cyberdog companion whose failing brain creates a branching medical quest.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The King's cyberdog companion whose failing brain creates a branching medical quest."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.rex_cyberdog.role"
+        ],
+        "relatedEntityIds": [
+          "ent.kings",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Rex connects kings and courier within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.rex_cyberdog.link"
+        ],
+        "relatedEntityIds": [
+          "ent.kings",
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.legate_lanius",
+    "type": "individual",
+    "subtype": "military_leader",
+    "displayName": "Legate Lanius",
+    "summary": "Caesar's senior battlefield commander during the Second Battle of Hoover Dam.",
+    "description": "Caesar's senior battlefield commander during the Second Battle of Hoover Dam.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Caesar's senior battlefield commander during the Second Battle of Hoover Dam."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.legate_lanius.role"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion",
+          "ent.second_hoover_battle"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Legate Lanius connects caesars legion and second hoover battle within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.legate_lanius.link"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion",
+          "ent.second_hoover_battle"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.chief_hanlon",
+    "type": "individual",
+    "subtype": "ranger_leader",
+    "displayName": "Chief Hanlon",
+    "summary": "The veteran NCR Ranger whose strategy won the first battle and whose despair shapes the second campaign.",
+    "description": "The veteran NCR Ranger whose strategy won the first battle and whose despair shapes the second campaign.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The veteran NCR Ranger whose strategy won the first battle and whose despair shapes the second campaign."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.chief_hanlon.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.first_hoover_battle"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Chief Hanlon connects ncr and first hoover battle within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.chief_hanlon.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.first_hoover_battle"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.aaron_kimball",
+    "type": "individual",
+    "subtype": "president",
+    "displayName": "Aaron Kimball",
+    "summary": "President of the NCR during its costly Mojave expansion.",
+    "description": "President of the NCR during its costly Mojave expansion.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "President of the NCR during its costly Mojave expansion."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.aaron_kimball.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.hoover_dam"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Aaron Kimball connects ncr and hoover dam within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.aaron_kimball.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.ncr_rangers",
+    "type": "organisation",
+    "subtype": "military_branch",
+    "displayName": "NCR Rangers",
+    "summary": "An elite NCR military and law-enforcement tradition active across the Mojave campaign.",
+    "description": "An elite NCR military and law-enforcement tradition active across the Mojave campaign.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An elite NCR military and law-enforcement tradition active across the Mojave campaign."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ncr_rangers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.chief_hanlon"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "NCR Rangers connects ncr and chief hanlon within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ncr_rangers.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.chief_hanlon"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.fiends",
+    "type": "organisation",
+    "subtype": "raider_group",
+    "displayName": "Fiends",
+    "summary": "A violent raider population around western New Vegas whose leaders threaten NCR positions.",
+    "description": "A violent raider population around western New Vegas whose leaders threaten NCR positions.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A violent raider population around western New Vegas whose leaders threaten NCR positions."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fiends.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave",
+          "ent.camp_mccarran"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Fiends connects mojave and camp mccarran within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fiends.link"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave",
+          "ent.camp_mccarran"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.powder_gangers",
+    "type": "organisation",
+    "subtype": "escaped_convicts",
+    "displayName": "Powder Gangers",
+    "summary": "Escaped NCR prison labourers organised around explosives and local gangs.",
+    "description": "Escaped NCR prison labourers organised around explosives and local gangs.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Escaped NCR prison labourers organised around explosives and local gangs."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.powder_gangers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.goodsprings"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Powder Gangers connects ncr and goodsprings within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.powder_gangers.link"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.goodsprings"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.elder_mcnamara",
+    "type": "individual",
+    "subtype": "brotherhood_elder",
+    "displayName": "Nolan McNamara",
+    "summary": "The Mojave Brotherhood elder who imposes lockdown after the HELIOS One defeat.",
+    "description": "The Mojave Brotherhood elder who imposes lockdown after the HELIOS One defeat.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The Mojave Brotherhood elder who imposes lockdown after the HELIOS One defeat."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.elder_mcnamara.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.hidden_valley"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Nolan McNamara connects mojave brotherhood and hidden valley within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.elder_mcnamara.link"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.hidden_valley"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.head_paladin_hardin",
+    "type": "individual",
+    "subtype": "brotherhood_officer",
+    "displayName": "Edgar Hardin",
+    "summary": "The Mojave chapter's head paladin and a potential challenger to McNamara.",
+    "description": "The Mojave chapter's head paladin and a potential challenger to McNamara.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The Mojave chapter's head paladin and a potential challenger to McNamara."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.head_paladin_hardin.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.hidden_valley"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Edgar Hardin connects mojave brotherhood and hidden valley within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.head_paladin_hardin.link"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.hidden_valley"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.jacobstown",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Jacobstown",
+    "summary": "A mountain settlement where Marcus attempts to build a peaceful refuge for super mutants and nightkin.",
+    "description": "A mountain settlement where Marcus attempts to build a peaceful refuge for super mutants and nightkin.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A mountain settlement where Marcus attempts to build a peaceful refuge for super mutants and nightkin."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jacobstown.role"
+        ],
+        "relatedEntityIds": [
+          "ent.marcus",
+          "ent.super_mutants"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Jacobstown connects marcus and super mutants within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.jacobstown.link"
+        ],
+        "relatedEntityIds": [
+          "ent.marcus",
+          "ent.super_mutants"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.piper_wright",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Piper Wright",
+    "summary": "A Diamond City journalist investigating corruption, disappearances and Institute fear.",
+    "description": "A Diamond City journalist investigating corruption, disappearances and Institute fear.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Diamond City journalist investigating corruption, disappearances and Institute fear."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.piper_wright.role"
+        ],
+        "relatedEntityIds": [
+          "ent.diamond_city",
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Piper Wright connects diamond city and institute within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.piper_wright.link"
+        ],
+        "relatedEntityIds": [
+          "ent.diamond_city",
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.cait",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Cait",
+    "summary": "A cage fighter and survivor whose companion story addresses exploitation and chem dependency.",
+    "description": "A cage fighter and survivor whose companion story addresses exploitation and chem dependency.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A cage fighter and survivor whose companion story addresses exploitation and chem dependency."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.cait.role"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor",
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Cait connects sole survivor and commonwealth within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.cait.link"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor",
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.curie",
+    "type": "technology",
+    "subtype": "robot_and_synth",
+    "displayName": "Curie",
+    "summary": "A Vault 81 research robot whose consciousness may be transferred into a synth body.",
+    "description": "A Vault 81 research robot whose consciousness may be transferred into a synth body.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Vault 81 research robot whose consciousness may be transferred into a synth body."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.curie.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_81",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Curie connects vault 81 and synths within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.curie.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_81",
+          "ent.synths"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.deacon",
+    "type": "individual",
+    "subtype": "railroad_agent",
+    "displayName": "Deacon",
+    "summary": "A Railroad agent whose changing stories make source reliability part of his characterization.",
+    "description": "A Railroad agent whose changing stories make source reliability part of his characterization.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Railroad agent whose changing stories make source reliability part of his characterization."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.deacon.role"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Deacon connects railroad and sole survivor within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.deacon.link"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad",
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.paladin_danse",
+    "type": "individual",
+    "subtype": "brotherhood_officer",
+    "displayName": "Paladin Danse",
+    "summary": "A Brotherhood field officer whose discovered synth identity tests Arthur Maxson's doctrine.",
+    "description": "A Brotherhood field officer whose discovered synth identity tests Arthur Maxson's doctrine.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Brotherhood field officer whose discovered synth identity tests Arthur Maxson's doctrine."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.paladin_danse.role"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Paladin Danse connects brotherhood and synths within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.paladin_danse.link"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.synths"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.john_hancock",
+    "type": "individual",
+    "subtype": "mayor",
+    "displayName": "John Hancock",
+    "summary": "The ghoul mayor of Goodneighbor and a possible companion.",
+    "description": "The ghoul mayor of Goodneighbor and a possible companion.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The ghoul mayor of Goodneighbor and a possible companion."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_hancock.role"
+        ],
+        "relatedEntityIds": [
+          "ent.goodneighbor",
+          "ent.ghouls"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "John Hancock connects goodneighbor and ghouls within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.john_hancock.link"
+        ],
+        "relatedEntityIds": [
+          "ent.goodneighbor",
+          "ent.ghouls"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.robert_maccready",
+    "type": "individual",
+    "subtype": "companion",
+    "displayName": "Robert MacCready",
+    "summary": "A former Little Lamplight mayor working as a mercenary in the Commonwealth.",
+    "description": "A former Little Lamplight mayor working as a mercenary in the Commonwealth.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A former Little Lamplight mayor working as a mercenary in the Commonwealth."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.robert_maccready.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Robert MacCready connects commonwealth and sole survivor within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.robert_maccready.link"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.strong",
+    "type": "individual",
+    "subtype": "super_mutant",
+    "displayName": "Strong",
+    "summary": "A Commonwealth super mutant who searches for a misunderstood 'milk of human kindness'.",
+    "description": "A Commonwealth super mutant who searches for a misunderstood 'milk of human kindness'.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Commonwealth super mutant who searches for a misunderstood 'milk of human kindness'."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.strong.role"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Strong connects super mutants and sole survivor within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.strong.link"
+        ],
+        "relatedEntityIds": [
+          "ent.super_mutants",
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.x6_88",
+    "type": "individual",
+    "subtype": "courser",
+    "displayName": "X6-88",
+    "summary": "An Institute courser assigned to retrieval and potentially to the Sole Survivor.",
+    "description": "An Institute courser assigned to retrieval and potentially to the Sole Survivor.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An Institute courser assigned to retrieval and potentially to the Sole Survivor."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.x6_88.role"
+        ],
+        "relatedEntityIds": [
+          "ent.institute",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "X6-88 connects institute and synths within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.x6_88.link"
+        ],
+        "relatedEntityIds": [
+          "ent.institute",
+          "ent.synths"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.desdemona",
+    "type": "individual",
+    "subtype": "resistance_leader",
+    "displayName": "Desdemona",
+    "summary": "The Railroad leader coordinating its response to Institute pressure in 2287.",
+    "description": "The Railroad leader coordinating its response to Institute pressure in 2287.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The Railroad leader coordinating its response to Institute pressure in 2287."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.desdemona.role"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad",
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Desdemona connects railroad and institute within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.desdemona.link"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad",
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.ada",
+    "type": "technology",
+    "subtype": "robot",
+    "displayName": "Ada",
+    "summary": "A caravan robot who helps investigate the Mechanist's lethal patrols.",
+    "description": "A caravan robot who helps investigate the Mechanist's lethal patrols.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A caravan robot who helps investigate the Mechanist's lethal patrols."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ada.role"
+        ],
+        "relatedEntityIds": [
+          "ent.automatron_crisis",
+          "ent.mechanist_isabel"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Ada connects automatron crisis and mechanist isabel within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.ada.link"
+        ],
+        "relatedEntityIds": [
+          "ent.automatron_crisis",
+          "ent.mechanist_isabel"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "automatron"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.gunners",
+    "type": "organisation",
+    "subtype": "mercenary_army",
+    "displayName": "Gunners",
+    "summary": "A heavily armed mercenary organisation occupying sites across the Commonwealth.",
+    "description": "A heavily armed mercenary organisation occupying sites across the Commonwealth.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A heavily armed mercenary organisation occupying sites across the Commonwealth."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.gunners.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.quincy_massacre"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Gunners connects commonwealth and quincy massacre within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.gunners.link"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.quincy_massacre"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.vault_88",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 88",
+    "summary": "An unfinished Vault-Tec facility where Overseer Barstow proposes experimental settlement devices.",
+    "description": "An unfinished Vault-Tec facility where Overseer Barstow proposes experimental settlement devices.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "An unfinished Vault-Tec facility where Overseer Barstow proposes experimental settlement devices."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_88.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec",
+          "ent.overseer_barstow"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Vault 88 connects vault tec and overseer barstow within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.vault_88.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec",
+          "ent.overseer_barstow"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "vault_tec_workshop"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.overseer_barstow",
+    "type": "individual",
+    "subtype": "vault_overseer",
+    "displayName": "Valery Barstow",
+    "summary": "The ghoul Overseer of Vault 88 who continues to pursue Vault-Tec experimental protocols.",
+    "description": "The ghoul Overseer of Vault 88 who continues to pursue Vault-Tec experimental protocols.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The ghoul Overseer of Vault 88 who continues to pursue Vault-Tec experimental protocols."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.overseer_barstow.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_88",
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Valery Barstow connects vault 88 and vault tec within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.overseer_barstow.link"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_88",
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "vault_tec_workshop"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.duchess_76",
+    "type": "individual",
+    "subtype": "business_owner",
+    "displayName": "Duchess",
+    "summary": "The proprietor of the Wayward and an early guide into Wastelanders-era Appalachia.",
+    "description": "The proprietor of the Wayward and an early guide into Wastelanders-era Appalachia.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The proprietor of the Wayward and an early guide into Wastelanders-era Appalachia."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.duchess_76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Duchess connects appalachia and resident 76 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.duchess_76.link"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.meg_groberg",
+    "type": "individual",
+    "subtype": "raider_leader",
+    "displayName": "Meg Groberg",
+    "summary": "The leader of the Crater Raiders during the Vault 79 competition.",
+    "description": "The leader of the Crater Raiders during the Vault 79 competition.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The leader of the Crater Raiders during the Vault 79 competition."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.meg_groberg.role"
+        ],
+        "relatedEntityIds": [
+          "ent.crater_raiders",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Meg Groberg connects crater raiders and vault 79 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.meg_groberg.link"
+        ],
+        "relatedEntityIds": [
+          "ent.crater_raiders",
+          "ent.vault_79"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.paige_76",
+    "type": "individual",
+    "subtype": "settler_leader",
+    "displayName": "Paige",
+    "summary": "The leader of Foundation's settlers during the Wastelanders story.",
+    "description": "The leader of Foundation's settlers during the Wastelanders story.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The leader of Foundation's settlers during the Wastelanders story."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.paige_76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation_settlers",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Paige connects foundation settlers and vault 79 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.paige_76.link"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation_settlers",
+          "ent.vault_79"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.scribe_valdez",
+    "type": "individual",
+    "subtype": "brotherhood_scribe",
+    "displayName": "Odessa Valdez",
+    "summary": "The senior scribe of Rahmani's Appalachian Brotherhood expedition.",
+    "description": "The senior scribe of Rahmani's Appalachian Brotherhood expedition.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "The senior scribe of Rahmani's Appalachian Brotherhood expedition."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.scribe_valdez.role"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani",
+          "ent.fort_atlas"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Odessa Valdez connects rahmani and fort atlas within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.scribe_valdez.link"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani",
+          "ent.fort_atlas"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.blue_ridge_caravan",
+    "type": "organisation",
+    "subtype": "caravan_company",
+    "displayName": "Blue Ridge Caravan Company",
+    "summary": "A regional trading company operating routes through Appalachia and Skyline Valley.",
+    "description": "A regional trading company operating routes through Appalachia and Skyline Valley.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A regional trading company operating routes through Appalachia and Skyline Valley."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.blue_ridge_caravan.role"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.skyline_valley"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Blue Ridge Caravan Company connects appalachia and skyline valley within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.blue_ridge_caravan.link"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.skyline_valley"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.union_pitt",
+    "type": "organisation",
+    "subtype": "resistance_faction",
+    "displayName": "The Union",
+    "summary": "A Pitt worker resistance organisation opposing the Fanatics during Fallout 76 expeditions.",
+    "description": "A Pitt worker resistance organisation opposing the Fanatics during Fallout 76 expeditions.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Pitt worker resistance organisation opposing the Fanatics during Fallout 76 expeditions."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.union_pitt.role"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region",
+          "ent.fanatics_pitt"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "The Union connects the pitt region and fanatics pitt within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.union_pitt.link"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region",
+          "ent.fanatics_pitt"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.fanatics_pitt",
+    "type": "organisation",
+    "subtype": "raider_faction",
+    "displayName": "Fanatics",
+    "summary": "A Pitt raider army fighting the Union during Fallout 76 expeditions.",
+    "description": "A Pitt raider army fighting the Union during Fallout 76 expeditions.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "A Pitt raider army fighting the Union during Fallout 76 expeditions."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fanatics_pitt.role"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region",
+          "ent.union_pitt"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Fanatics connects the pitt region and union pitt within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.fanatics_pitt.link"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region",
+          "ent.union_pitt"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.mothman_cultists",
+    "type": "organisation",
+    "subtype": "religious_movement",
+    "displayName": "Mothman Cultists",
+    "summary": "Appalachian religious groups whose beliefs and factions centre on mothman phenomena.",
+    "description": "Appalachian religious groups whose beliefs and factions centre on mothman phenomena.",
+    "articleTier": "supporting",
+    "articleSections": [
+      {
+        "id": "role",
+        "title": "Role",
+        "paragraphs": [
+          "Appalachian religious groups whose beliefs and factions centre on mothman phenomena."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.mothman_cultists.role"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "connections",
+        "title": "Important connections",
+        "paragraphs": [
+          "Mothman Cultists connects appalachia and resident 76 within the released work. Optional recruitment, survival and allegiance are not assumed beyond the source's fixed starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.support.mothman_cultists.link"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "tier-2",
+      "supporting-lore",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  }
+]

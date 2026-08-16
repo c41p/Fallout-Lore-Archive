@@ -3,12 +3,12 @@
   "slug": "fallout1",
   "title": "Fallout",
   "referenceSubjects": 1299,
-  "matchedArchiveEntities": 89,
+  "matchedArchiveEntities": 90,
   "productionQuality": 14,
-  "substantialRecords": 7,
+  "substantialRecords": 8,
   "supportingRecords": 24,
   "shallowRecords": 44,
-  "missingSubjects": 1210,
+  "missingSubjects": 1209,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 423,
   "majorLore": 18,
@@ -26,8 +26,8 @@
     },
     "person": {
       "total": 512,
-      "matched": 50,
-      "missing": 462
+      "matched": 51,
+      "missing": 461
     },
     "item": {
       "total": 89,

@@ -1,0 +1,488 @@
+[
+  {
+    "id": "ent.united_states",
+    "summary": "The pre-War federal state whose institutions, wars and secret programmes shaped the world inherited after 2077.",
+    "description": "The pre-War federal state whose institutions, wars and secret programmes shaped the world inherited after 2077.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "By the twenty-first century the United States combined familiar constitutional forms with emergency powers, militarisation and corporate partnership. Resource shortages, annexation of Canada and war with China transformed civilian and military life."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.united_states.role"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars",
+          "ent.great_war"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "Federal agencies and contractors sponsored Vaults, biological weapons, automation and continuity-of-government facilities. The Enclave emerged from selected elites rather than representing every former citizen or institution."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.united_states.a"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Later factions invoke or reject the old state. The archive separates documented institutions from propaganda and does not treat post-War federal claims as automatic lawful continuity."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.united_states.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.enclave",
+    "summary": "A secretive continuity-of-government organisation descended from selected pre-War political, military and corporate elites.",
+    "description": "A secretive continuity-of-government organisation descended from selected pre-War political, military and corporate elites.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Enclave prepared protected facilities and command networks before the Great War. Its membership represented a self-selected ruling stratum, not the whole United States population."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.enclave.role"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states",
+          "ent.oil_rig"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "From the Oil Rig it planned continental population cleansing before defeat in 2242; surviving personnel and eastern installations later supported John Henry Eden and Colonel Autumn in 2277. Appalachian records reveal an earlier local remnant destroyed by internal conflict."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.enclave.a"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Leadership, ideology and surviving cells vary by period. The archive connects them as one organisation while preserving the destruction of particular commands and conditional treatment of remnants."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.enclave.b"
+        ],
+        "relatedEntityIds": [
+          "ent.modus"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_tec",
+    "summary": "The pre-War corporation that constructed and administered the Vault programme, including numerous covert social and scientific experiments.",
+    "description": "The pre-War corporation that constructed and administered the Vault programme, including numerous covert social and scientific experiments.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault-Tec marketed Vaults as civil defence while working with government authorities on facilities whose real protocols varied widely. Control Vaults, experimental populations and specialised federal sites should not be collapsed into one design."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.vault_tec.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_13",
+          "ent.vault_95"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "Vault 13's isolation, Vault 95's addiction experiment, Vault 111's cryogenics and Vault 81's sabotaged disease plan illustrate different institutional projects. Overseers received privileged instructions and often incomplete support."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.vault_tec.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_13"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "The corporation's ultimate command fate is unresolved in many released games. Surviving branding, robots and procedures do not prove a functioning post-War headquarters."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.vault_tec.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_81"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.great_war",
+    "summary": "The global nuclear exchange of 23 October 2077 that destroyed governments and transformed the Fallout world.",
+    "description": "The global nuclear exchange of 23 October 2077 that destroyed governments and transformed the Fallout world.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Great War followed escalating resource conflict and war between the United States and China. Nuclear weapons struck within a short period, collapsing national command, infrastructure and ordinary communications."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.great_war.role"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars",
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "Its consequences differed locally: Mariposa survived the initial blasts, Las Vegas benefited from House's defences, and Vault populations experienced sealed protocols. Radiation and social collapse then produced histories extending far beyond the exchange itself."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.great_war.a"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "The exact first-launch responsibility is not established as a simple database fact. The date and worldwide catastrophe are explicit; competing causal claims require source-specific treatment."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.great_war.b"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.power_armor",
+    "summary": "A family of powered military armour systems developed before the Great War and preserved or modified by later factions.",
+    "description": "A family of powered military armour systems developed before the Great War and preserved or modified by later factions.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Pre-War power armour increased a soldier's protection and load-bearing capability and became an emblem of late-war American military power. Models and training requirements vary across games and periods."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.power_armor.role"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states",
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "The Brotherhood preserves, repairs and deploys suits as part of its military infrastructure, while Enclave forces develop advanced variants. Other groups recover or manufacture components without sharing one institutional tradition."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.power_armor.a"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Gameplay statistics and model retcons should not be flattened into one specification. This record covers the technology family; individual suits and variants need scoped evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.power_armor.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.super_mutants",
+    "summary": "Humans transformed by strains of Forced Evolutionary Virus into varied posthuman populations.",
+    "description": "Humans transformed by strains of Forced Evolutionary Virus into varied posthuman populations.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Super mutants are not one uniform society or biological outcome. Mariposa's Unity, Vault 87 subjects, Institute experiments and Appalachian strains involve different laboratories, selection practices and social histories."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.super_mutants.role"
+        ],
+        "relatedEntityIds": [
+          "ent.fev",
+          "ent.unity"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "The Master sought stable recruits for the Unity, while later eastern populations often lack that command structure. Individuals such as Marcus, Fawkes and Virgil demonstrate that faction stereotypes cannot define every transformed person."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.super_mutants.a"
+        ],
+        "relatedEntityIds": [
+          "ent.fev"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Claims about intelligence, sterility and radiation effects vary by strain and source. The archive retains those disputes and links regional programmes rather than merging every statement."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.super_mutants.b"
+        ],
+        "relatedEntityIds": [
+          "ent.virgil"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.ghouls",
+    "summary": "People transformed by extreme radiation and related post-War conditions, with widely varying bodies, longevity and cognition.",
+    "description": "People transformed by extreme radiation and related post-War conditions, with widely varying bodies, longevity and cognition.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Ghouls retain personal identity and social agency while experiencing visible physiological change. Some later become feral, but the causes and timing are not represented as one fully established rule."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.ghouls.role"
+        ],
+        "relatedEntityIds": [
+          "ent.necropolis",
+          "ent.underworld"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "Necropolis, Underworld, Goodneighbor and Atlantic City demonstrate different communities and political conditions. Prejudice and exclusion are social facts distinct from medical description."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.ghouls.a"
+        ],
+        "relatedEntityIds": [
+          "ent.necropolis"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "The category does not imply immortality, immunity or inevitable ferality. Individual claims and unusual transformations need their own evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.ghouls.b"
+        ],
+        "relatedEntityIds": [
+          "ent.atlantic_city"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.deathclaws",
+    "summary": "Large engineered predators whose populations spread and diversify after the Great War.",
+    "description": "Large engineered predators whose populations spread and diversify after the Great War.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Deathclaws originate in pre-War military biotechnology and become self-sustaining wasteland predators. Regional populations and later experiments produce visible differences."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.deathclaws.role"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states",
+          "ent.boneyard"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "The Vault Dweller confronts a nest near the Boneyard, while later games place deathclaws across many regions. The Enclave also experiments on intelligent variants, showing that not every population shares one capability."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.deathclaws.a"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Game difficulty and spawn behaviour are not lore properties. Claims about origins, intelligence and reproduction are scoped to documented populations."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.deathclaws.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.new_plague",
+    "summary": "A pre-War epidemic associated with social fear, quarantine policy and the biological-research climate preceding FEV.",
+    "description": "A pre-War epidemic associated with social fear, quarantine policy and the biological-research climate preceding FEV.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The New Plague affected the United States before the Great War and became entangled with government messaging, public health restrictions and fear of biological attack."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.new_plague.role"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states",
+          "ent.fev"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "Its history helps explain the Pan-Immunity Virion research path that preceded FEV, but it should not be described as simply the same agent or programme. Surviving references are incomplete and sometimes propagandistic."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.new_plague.a"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Precise casualty figures, origins and connections require source-specific evidence. The archive retains the concept as a major pre-War theme without filling gaps from inference."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.new_plague.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resource_wars"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

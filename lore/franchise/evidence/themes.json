@@ -1,0 +1,266 @@
+[
+  {
+    "id": "ev.fr.theme.united_states.1",
+    "targetId": "asrt.fr.theme.united_states.role",
+    "sourceItemId": "src.ref.theme.united_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.united_states.2",
+    "targetId": "asrt.fr.theme.united_states.a",
+    "sourceItemId": "src.ref.theme.united_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.united_states.3",
+    "targetId": "asrt.fr.theme.united_states.b",
+    "sourceItemId": "src.ref.theme.united_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.enclave.1",
+    "targetId": "asrt.fr.theme.enclave.role",
+    "sourceItemId": "src.ref.theme.enclave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.enclave.2",
+    "targetId": "asrt.fr.theme.enclave.a",
+    "sourceItemId": "src.ref.theme.enclave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.enclave.3",
+    "targetId": "asrt.fr.theme.enclave.b",
+    "sourceItemId": "src.ref.theme.enclave",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.vault_tec.1",
+    "targetId": "asrt.fr.theme.vault_tec.role",
+    "sourceItemId": "src.ref.theme.vault_tec",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.vault_tec.2",
+    "targetId": "asrt.fr.theme.vault_tec.a",
+    "sourceItemId": "src.ref.theme.vault_tec",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.vault_tec.3",
+    "targetId": "asrt.fr.theme.vault_tec.b",
+    "sourceItemId": "src.ref.theme.vault_tec",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.great_war.1",
+    "targetId": "asrt.fr.theme.great_war.role",
+    "sourceItemId": "src.ref.theme.great_war",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.great_war.2",
+    "targetId": "asrt.fr.theme.great_war.a",
+    "sourceItemId": "src.ref.theme.great_war",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.great_war.3",
+    "targetId": "asrt.fr.theme.great_war.b",
+    "sourceItemId": "src.ref.theme.great_war",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.power_armor.1",
+    "targetId": "asrt.fr.theme.power_armor.role",
+    "sourceItemId": "src.ref.theme.power_armor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.power_armor.2",
+    "targetId": "asrt.fr.theme.power_armor.a",
+    "sourceItemId": "src.ref.theme.power_armor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.power_armor.3",
+    "targetId": "asrt.fr.theme.power_armor.b",
+    "sourceItemId": "src.ref.theme.power_armor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.super_mutants.1",
+    "targetId": "asrt.fr.theme.super_mutants.role",
+    "sourceItemId": "src.ref.theme.super_mutants",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.super_mutants.2",
+    "targetId": "asrt.fr.theme.super_mutants.a",
+    "sourceItemId": "src.ref.theme.super_mutants",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.super_mutants.3",
+    "targetId": "asrt.fr.theme.super_mutants.b",
+    "sourceItemId": "src.ref.theme.super_mutants",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.ghouls.1",
+    "targetId": "asrt.fr.theme.ghouls.role",
+    "sourceItemId": "src.ref.theme.ghouls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.ghouls.2",
+    "targetId": "asrt.fr.theme.ghouls.a",
+    "sourceItemId": "src.ref.theme.ghouls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.ghouls.3",
+    "targetId": "asrt.fr.theme.ghouls.b",
+    "sourceItemId": "src.ref.theme.ghouls",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.deathclaws.1",
+    "targetId": "asrt.fr.theme.deathclaws.role",
+    "sourceItemId": "src.ref.theme.deathclaws",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.deathclaws.2",
+    "targetId": "asrt.fr.theme.deathclaws.a",
+    "sourceItemId": "src.ref.theme.deathclaws",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.deathclaws.3",
+    "targetId": "asrt.fr.theme.deathclaws.b",
+    "sourceItemId": "src.ref.theme.deathclaws",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.new_plague.1",
+    "targetId": "asrt.fr.theme.new_plague.role",
+    "sourceItemId": "src.ref.theme.new_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.new_plague.2",
+    "targetId": "asrt.fr.theme.new_plague.a",
+    "sourceItemId": "src.ref.theme.new_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.new_plague.3",
+    "targetId": "asrt.fr.theme.new_plague.b",
+    "sourceItemId": "src.ref.theme.new_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.robco.1",
+    "targetId": "asrt.fr.theme.robco.role",
+    "sourceItemId": "src.ref.theme.robco",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.robco.2",
+    "targetId": "asrt.fr.theme.robco.a",
+    "sourceItemId": "src.ref.theme.robco",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.robco.3",
+    "targetId": "asrt.fr.theme.robco.b",
+    "sourceItemId": "src.ref.theme.robco",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.resource_wars.1",
+    "targetId": "asrt.fr.theme.resource_wars.role",
+    "sourceItemId": "src.ref.theme.resource_wars",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.resource_wars.2",
+    "targetId": "asrt.fr.theme.resource_wars.a",
+    "sourceItemId": "src.ref.theme.resource_wars",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  },
+  {
+    "id": "ev.fr.theme.resource_wars.3",
+    "targetId": "asrt.fr.theme.resource_wars.b",
+    "sourceItemId": "src.ref.theme.resource_wars",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary cross-game reference support; use linked primary locators for claim-level deepening."
+  }
+]

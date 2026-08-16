@@ -1,0 +1,386 @@
+[
+  {
+    "id": "app.fr.support.sulik.fallout_2",
+    "entityId": "ent.sulik",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.vic.fallout_2",
+    "entityId": "ent.vic",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.john_cassidy.fallout_2",
+    "entityId": "ent.john_cassidy",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.goris.fallout_2",
+    "entityId": "ent.goris",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.lenny.fallout_2",
+    "entityId": "ent.lenny",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.skynet_robot.fallout_2",
+    "entityId": "ent.skynet_robot",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.lynette.fallout_2",
+    "entityId": "ent.lynette",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.john_bishop.fallout_2",
+    "entityId": "ent.john_bishop",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.jesus_mordino.fallout_2",
+    "entityId": "ent.jesus_mordino",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.salvatore.fallout_2",
+    "entityId": "ent.salvatore",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.orville_wright.fallout_2",
+    "entityId": "ent.orville_wright",
+    "workId": "work.fallout_2",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.fawkes.fallout_3",
+    "entityId": "ent.fawkes",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.charon.fallout_3",
+    "entityId": "ent.charon",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.star_paladin_cross.fallout_3",
+    "entityId": "ent.star_paladin_cross",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.butch_deloria.fallout_3",
+    "entityId": "ent.butch_deloria",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.jericho_fo3.fallout_3",
+    "entityId": "ent.jericho_fo3",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.clover.fallout_3",
+    "entityId": "ent.clover",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.sergeant_rl3.fallout_3",
+    "entityId": "ent.sergeant_rl3",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.vault_87.fallout_3",
+    "entityId": "ent.vault_87",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.vault_112.fallout_3",
+    "entityId": "ent.vault_112",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.tranquility_lane.fallout_3",
+    "entityId": "ent.tranquility_lane",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.raven_rock.fallout_3",
+    "entityId": "ent.raven_rock",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.adams_air_force_base.broken_steel",
+    "entityId": "ent.adams_air_force_base",
+    "workId": "work.broken_steel",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.alistair_tenpenny.fallout_3",
+    "entityId": "ent.alistair_tenpenny",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.moira_brown.fallout_3",
+    "entityId": "ent.moira_brown",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.lucas_simms.fallout_3",
+    "entityId": "ent.lucas_simms",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.craig_boone.new_vegas",
+    "entityId": "ent.craig_boone",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.arcade_gannon.new_vegas",
+    "entityId": "ent.arcade_gannon",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.rose_cassidy.new_vegas",
+    "entityId": "ent.rose_cassidy",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.raul_tejada.new_vegas",
+    "entityId": "ent.raul_tejada",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.lily_bowen.new_vegas",
+    "entityId": "ent.lily_bowen",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.ede.new_vegas",
+    "entityId": "ent.ede",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.rex_cyberdog.new_vegas",
+    "entityId": "ent.rex_cyberdog",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.legate_lanius.new_vegas",
+    "entityId": "ent.legate_lanius",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.chief_hanlon.new_vegas",
+    "entityId": "ent.chief_hanlon",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.aaron_kimball.new_vegas",
+    "entityId": "ent.aaron_kimball",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.ncr_rangers.new_vegas",
+    "entityId": "ent.ncr_rangers",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.fiends.new_vegas",
+    "entityId": "ent.fiends",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.powder_gangers.new_vegas",
+    "entityId": "ent.powder_gangers",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.elder_mcnamara.new_vegas",
+    "entityId": "ent.elder_mcnamara",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.head_paladin_hardin.new_vegas",
+    "entityId": "ent.head_paladin_hardin",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.jacobstown.new_vegas",
+    "entityId": "ent.jacobstown",
+    "workId": "work.new_vegas",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.piper_wright.fallout_4",
+    "entityId": "ent.piper_wright",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.cait.fallout_4",
+    "entityId": "ent.cait",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.curie.fallout_4",
+    "entityId": "ent.curie",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.deacon.fallout_4",
+    "entityId": "ent.deacon",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.paladin_danse.fallout_4",
+    "entityId": "ent.paladin_danse",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.john_hancock.fallout_4",
+    "entityId": "ent.john_hancock",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.robert_maccready.fallout_4",
+    "entityId": "ent.robert_maccready",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.strong.fallout_4",
+    "entityId": "ent.strong",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.x6_88.fallout_4",
+    "entityId": "ent.x6_88",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.desdemona.fallout_4",
+    "entityId": "ent.desdemona",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.ada.automatron",
+    "entityId": "ent.ada",
+    "workId": "work.automatron",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.gunners.fallout_4",
+    "entityId": "ent.gunners",
+    "workId": "work.fallout_4",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.vault_88.vault_tec_workshop",
+    "entityId": "ent.vault_88",
+    "workId": "work.vault_tec_workshop",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.overseer_barstow.vault_tec_workshop",
+    "entityId": "ent.overseer_barstow",
+    "workId": "work.vault_tec_workshop",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.duchess_76.fallout_76",
+    "entityId": "ent.duchess_76",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.meg_groberg.fallout_76",
+    "entityId": "ent.meg_groberg",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.paige_76.fallout_76",
+    "entityId": "ent.paige_76",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.scribe_valdez.fallout_76",
+    "entityId": "ent.scribe_valdez",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.blue_ridge_caravan.fallout_76",
+    "entityId": "ent.blue_ridge_caravan",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.union_pitt.fallout_76",
+    "entityId": "ent.union_pitt",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.fanatics_pitt.fallout_76",
+    "entityId": "ent.fanatics_pitt",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.support.mothman_cultists.fallout_76",
+    "entityId": "ent.mothman_cultists",
+    "workId": "work.fallout_76",
+    "kind": "appears"
+  }
+]

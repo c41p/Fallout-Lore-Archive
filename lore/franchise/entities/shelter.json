@@ -1,0 +1,234 @@
+[
+  {
+    "id": "ent.shelter_overseer",
+    "type": "individual",
+    "subtype": "player_role",
+    "displayName": "Fallout Shelter Overseer",
+    "summary": "The player-defined manager role responsible for a simulated Vault in Fallout Shelter.",
+    "description": "The player-defined manager role responsible for a simulated Vault in Fallout Shelter.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "scope",
+        "title": "Subject and scope",
+        "paragraphs": [
+          "The Overseer is an interface role rather than a fixed person with a franchise-wide biography. Players choose a Vault number, assign rooms and direct a population through an open-ended management simulation."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_overseer.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault",
+          "ent.shelter_dwellers"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": "Simulation model",
+        "paragraphs": [
+          "Objectives include maintaining resources, admitting dwellers, responding to incidents and sending teams into the wasteland. These systems demonstrate Vault life themes without establishing one historical facility."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_overseer.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault"
+        ]
+      },
+      {
+        "id": "archive-treatment",
+        "title": "Archive treatment",
+        "paragraphs": [
+          "The archive scopes this record to Fallout Shelter's gameplay-forward supplementary continuity. Random incidents, crossover characters and repeated quests are not promoted into unconditional world chronology."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_overseer.b"
+        ],
+        "relatedEntityIds": [
+          "ent.fallout_shelter_simulation"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_shelter",
+      "supplementary",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.shelter_vault",
+    "type": "place",
+    "subtype": "simulated_vault",
+    "displayName": "Fallout Shelter Vault",
+    "summary": "The player-built Vault environment used by Fallout Shelter's management simulation.",
+    "description": "The player-built Vault environment used by Fallout Shelter's management simulation.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "scope",
+        "title": "Subject and scope",
+        "paragraphs": [
+          "A Shelter Vault begins as a small underground facility and expands through rooms for power, food, water, training, production and habitation. Layout and Vault number are player-selected."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_vault.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_overseer",
+          "ent.shelter_dwellers"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": "Simulation model",
+        "paragraphs": [
+          "Dwellers work, form families, explore and respond to attacks or accidents under the Overseer's direction. The simulation combines recognisable franchise institutions with balance-driven mechanics."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_vault.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_overseer"
+        ]
+      },
+      {
+        "id": "archive-treatment",
+        "title": "Archive treatment",
+        "paragraphs": [
+          "No one layout, population or disaster sequence is treated as a canonical Vault history. The record exists to index the game's central subject while maintaining source boundaries."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_vault.b"
+        ],
+        "relatedEntityIds": [
+          "ent.fallout_shelter_simulation"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_shelter",
+      "supplementary",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.shelter_dwellers",
+    "type": "concept",
+    "subtype": "simulated_population",
+    "displayName": "Fallout Shelter Dwellers",
+    "summary": "The variable population managed inside a player-created Fallout Shelter Vault.",
+    "description": "The variable population managed inside a player-created Fallout Shelter Vault.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "scope",
+        "title": "Subject and scope",
+        "paragraphs": [
+          "Dwellers have names, SPECIAL attributes, equipment and work assignments generated or selected within the simulation. Some resemble characters from other Fallout works through collection systems."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_dwellers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault",
+          "ent.shelter_overseer"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": "Simulation model",
+        "paragraphs": [
+          "Population growth and expeditions give the Vault a continuing social loop, but repetition and random generation mean these residents do not form one stable historical cast."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_dwellers.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault"
+        ]
+      },
+      {
+        "id": "archive-treatment",
+        "title": "Archive treatment",
+        "paragraphs": [
+          "Named crossover appearances are therefore metadata about the game, not evidence that every represented character cohabited one Vault at one time."
+        ],
+        "assertionIds": [
+          "asrt.fr.shelter_dwellers.b"
+        ],
+        "relatedEntityIds": [
+          "ent.fallout_shelter_simulation"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_shelter",
+      "supplementary",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.fallout_shelter_simulation",
+    "type": "concept",
+    "subtype": "continuity_scope",
+    "displayName": "Fallout Shelter simulation scope",
+    "summary": "The archival continuity rule separating Fallout Shelter's management systems from unconditional franchise history.",
+    "description": "The archival continuity rule separating Fallout Shelter's management systems from unconditional franchise history.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "scope",
+        "title": "Subject and scope",
+        "paragraphs": [
+          "Fallout Shelter presents Vault-Tec architecture, creatures, equipment and people through a repeatable mobile-management structure. That structure is useful reference material but is not a conventional fixed campaign."
+        ],
+        "assertionIds": [
+          "asrt.fr.fallout_shelter_simulation.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault",
+          "ent.shelter_dwellers"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": "Simulation model",
+        "paragraphs": [
+          "The archive can index what the game depicts while qualifying randomly generated rooms, incidents and cross-title character collection. This prevents gameplay convenience from becoming false chronology."
+        ],
+        "assertionIds": [
+          "asrt.fr.fallout_shelter_simulation.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_vault"
+        ]
+      },
+      {
+        "id": "archive-treatment",
+        "title": "Archive treatment",
+        "paragraphs": [
+          "Future records should cite fixed quest text or official material where available and retain this scope for simulation-only claims."
+        ],
+        "assertionIds": [
+          "asrt.fr.fallout_shelter_simulation.b"
+        ],
+        "relatedEntityIds": [
+          "ent.shelter_overseer"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_shelter",
+      "supplementary",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

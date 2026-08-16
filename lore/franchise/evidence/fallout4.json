@@ -1,0 +1,746 @@
+[
+  {
+    "id": "ev.fr.sole_survivor.1",
+    "targetId": "asrt.fr.sole_survivor.role",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sole_survivor.2",
+    "targetId": "asrt.fr.sole_survivor.a",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sole_survivor.3",
+    "targetId": "asrt.fr.sole_survivor.b",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth.1",
+    "targetId": "asrt.fr.commonwealth.role",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth.2",
+    "targetId": "asrt.fr.commonwealth.a",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth.3",
+    "targetId": "asrt.fr.commonwealth.b",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.institute.1",
+    "targetId": "asrt.fr.institute.role",
+    "sourceItemId": "src.ref.institute",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.institute.2",
+    "targetId": "asrt.fr.institute.a",
+    "sourceItemId": "src.ref.institute",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.institute.3",
+    "targetId": "asrt.fr.institute.b",
+    "sourceItemId": "src.ref.institute",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.shaun.1",
+    "targetId": "asrt.fr.shaun.role",
+    "sourceItemId": "src.ref.shaun",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.shaun.2",
+    "targetId": "asrt.fr.shaun.a",
+    "sourceItemId": "src.ref.shaun",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.shaun.3",
+    "targetId": "asrt.fr.shaun.b",
+    "sourceItemId": "src.ref.shaun",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.synths.1",
+    "targetId": "asrt.fr.synths.role",
+    "sourceItemId": "src.ref.synths",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.synths.2",
+    "targetId": "asrt.fr.synths.a",
+    "sourceItemId": "src.ref.synths",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.synths.3",
+    "targetId": "asrt.fr.synths.b",
+    "sourceItemId": "src.ref.synths",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.railroad.1",
+    "targetId": "asrt.fr.railroad.role",
+    "sourceItemId": "src.ref.railroad",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.railroad.2",
+    "targetId": "asrt.fr.railroad.a",
+    "sourceItemId": "src.ref.railroad",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.railroad.3",
+    "targetId": "asrt.fr.railroad.b",
+    "sourceItemId": "src.ref.railroad",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth_minutemen.1",
+    "targetId": "asrt.fr.commonwealth_minutemen.role",
+    "sourceItemId": "src.ref.commonwealth_minutemen",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth_minutemen.2",
+    "targetId": "asrt.fr.commonwealth_minutemen.a",
+    "sourceItemId": "src.ref.commonwealth_minutemen",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.commonwealth_minutemen.3",
+    "targetId": "asrt.fr.commonwealth_minutemen.b",
+    "sourceItemId": "src.ref.commonwealth_minutemen",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.preston_garvey.1",
+    "targetId": "asrt.fr.preston_garvey.role",
+    "sourceItemId": "src.ref.preston_garvey",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.preston_garvey.2",
+    "targetId": "asrt.fr.preston_garvey.a",
+    "sourceItemId": "src.ref.preston_garvey",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.preston_garvey.3",
+    "targetId": "asrt.fr.preston_garvey.b",
+    "sourceItemId": "src.ref.preston_garvey",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.arthur_maxson.1",
+    "targetId": "asrt.fr.arthur_maxson.role",
+    "sourceItemId": "src.ref.arthur_maxson",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.arthur_maxson.2",
+    "targetId": "asrt.fr.arthur_maxson.a",
+    "sourceItemId": "src.ref.arthur_maxson",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.arthur_maxson.3",
+    "targetId": "asrt.fr.arthur_maxson.b",
+    "sourceItemId": "src.ref.arthur_maxson",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kellogg.1",
+    "targetId": "asrt.fr.kellogg.role",
+    "sourceItemId": "src.ref.kellogg",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kellogg.2",
+    "targetId": "asrt.fr.kellogg.a",
+    "sourceItemId": "src.ref.kellogg",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kellogg.3",
+    "targetId": "asrt.fr.kellogg.b",
+    "sourceItemId": "src.ref.kellogg",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nick_valentine.1",
+    "targetId": "asrt.fr.nick_valentine.role",
+    "sourceItemId": "src.ref.nick_valentine",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nick_valentine.2",
+    "targetId": "asrt.fr.nick_valentine.a",
+    "sourceItemId": "src.ref.nick_valentine",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nick_valentine.3",
+    "targetId": "asrt.fr.nick_valentine.b",
+    "sourceItemId": "src.ref.nick_valentine",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.diamond_city.1",
+    "targetId": "asrt.fr.diamond_city.role",
+    "sourceItemId": "src.ref.diamond_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.diamond_city.2",
+    "targetId": "asrt.fr.diamond_city.a",
+    "sourceItemId": "src.ref.diamond_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.diamond_city.3",
+    "targetId": "asrt.fr.diamond_city.b",
+    "sourceItemId": "src.ref.diamond_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodneighbor.1",
+    "targetId": "asrt.fr.goodneighbor.role",
+    "sourceItemId": "src.ref.goodneighbor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodneighbor.2",
+    "targetId": "asrt.fr.goodneighbor.a",
+    "sourceItemId": "src.ref.goodneighbor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodneighbor.3",
+    "targetId": "asrt.fr.goodneighbor.b",
+    "sourceItemId": "src.ref.goodneighbor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_111.1",
+    "targetId": "asrt.fr.vault_111.role",
+    "sourceItemId": "src.ref.vault_111",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_111.2",
+    "targetId": "asrt.fr.vault_111.a",
+    "sourceItemId": "src.ref.vault_111",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_111.3",
+    "targetId": "asrt.fr.vault_111.b",
+    "sourceItemId": "src.ref.vault_111",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_81.1",
+    "targetId": "asrt.fr.vault_81.role",
+    "sourceItemId": "src.ref.vault_81",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_81.2",
+    "targetId": "asrt.fr.vault_81.a",
+    "sourceItemId": "src.ref.vault_81",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_81.3",
+    "targetId": "asrt.fr.vault_81.b",
+    "sourceItemId": "src.ref.vault_81",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.bunker_hill.1",
+    "targetId": "asrt.fr.bunker_hill.role",
+    "sourceItemId": "src.ref.bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.bunker_hill.2",
+    "targetId": "asrt.fr.bunker_hill.a",
+    "sourceItemId": "src.ref.bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.bunker_hill.3",
+    "targetId": "asrt.fr.bunker_hill.b",
+    "sourceItemId": "src.ref.bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy_massacre.1",
+    "targetId": "asrt.fr.quincy_massacre.role",
+    "sourceItemId": "src.ref.quincy_massacre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy_massacre.2",
+    "targetId": "asrt.fr.quincy_massacre.a",
+    "sourceItemId": "src.ref.quincy_massacre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy_massacre.3",
+    "targetId": "asrt.fr.quincy_massacre.b",
+    "sourceItemId": "src.ref.quincy_massacre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy_massacre.4",
+    "targetId": "asrt.fr.quincy_massacre.time",
+    "sourceItemId": "src.ref.quincy_massacre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy_massacre.5",
+    "targetId": "asrt.fr.quincy_massacre.place",
+    "sourceItemId": "src.ref.quincy_massacre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy.1",
+    "targetId": "asrt.fr.quincy.role",
+    "sourceItemId": "src.ref.quincy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy.2",
+    "targetId": "asrt.fr.quincy.a",
+    "sourceItemId": "src.ref.quincy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.quincy.3",
+    "targetId": "asrt.fr.quincy.b",
+    "sourceItemId": "src.ref.quincy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.battle_bunker_hill.1",
+    "targetId": "asrt.fr.battle_bunker_hill.role",
+    "sourceItemId": "src.ref.battle_bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.battle_bunker_hill.2",
+    "targetId": "asrt.fr.battle_bunker_hill.a",
+    "sourceItemId": "src.ref.battle_bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.battle_bunker_hill.3",
+    "targetId": "asrt.fr.battle_bunker_hill.b",
+    "sourceItemId": "src.ref.battle_bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.battle_bunker_hill.4",
+    "targetId": "asrt.fr.battle_bunker_hill.time",
+    "sourceItemId": "src.ref.battle_bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.battle_bunker_hill.5",
+    "targetId": "asrt.fr.battle_bunker_hill.place",
+    "sourceItemId": "src.ref.battle_bunker_hill",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.glowing_sea.1",
+    "targetId": "asrt.fr.glowing_sea.role",
+    "sourceItemId": "src.ref.glowing_sea",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.glowing_sea.2",
+    "targetId": "asrt.fr.glowing_sea.a",
+    "sourceItemId": "src.ref.glowing_sea",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.glowing_sea.3",
+    "targetId": "asrt.fr.glowing_sea.b",
+    "sourceItemId": "src.ref.glowing_sea",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.virgil.1",
+    "targetId": "asrt.fr.virgil.role",
+    "sourceItemId": "src.ref.virgil",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.virgil.2",
+    "targetId": "asrt.fr.virgil.a",
+    "sourceItemId": "src.ref.virgil",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.virgil.3",
+    "targetId": "asrt.fr.virgil.b",
+    "sourceItemId": "src.ref.virgil",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.far_harbor_settlement.1",
+    "targetId": "asrt.fr.far_harbor_settlement.role",
+    "sourceItemId": "src.ref.far_harbor_settlement",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.far_harbor_settlement.2",
+    "targetId": "asrt.fr.far_harbor_settlement.a",
+    "sourceItemId": "src.ref.far_harbor_settlement",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.far_harbor_settlement.3",
+    "targetId": "asrt.fr.far_harbor_settlement.b",
+    "sourceItemId": "src.ref.far_harbor_settlement",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.acadia.1",
+    "targetId": "asrt.fr.acadia.role",
+    "sourceItemId": "src.ref.acadia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.acadia.2",
+    "targetId": "asrt.fr.acadia.a",
+    "sourceItemId": "src.ref.acadia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.acadia.3",
+    "targetId": "asrt.fr.acadia.b",
+    "sourceItemId": "src.ref.acadia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dima.1",
+    "targetId": "asrt.fr.dima.role",
+    "sourceItemId": "src.ref.dima",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dima.2",
+    "targetId": "asrt.fr.dima.a",
+    "sourceItemId": "src.ref.dima",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dima.3",
+    "targetId": "asrt.fr.dima.b",
+    "sourceItemId": "src.ref.dima",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.children_of_atom.1",
+    "targetId": "asrt.fr.children_of_atom.role",
+    "sourceItemId": "src.ref.children_of_atom",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.children_of_atom.2",
+    "targetId": "asrt.fr.children_of_atom.a",
+    "sourceItemId": "src.ref.children_of_atom",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.children_of_atom.3",
+    "targetId": "asrt.fr.children_of_atom.b",
+    "sourceItemId": "src.ref.children_of_atom",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world.1",
+    "targetId": "asrt.fr.nuka_world.role",
+    "sourceItemId": "src.ref.nuka_world",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world.2",
+    "targetId": "asrt.fr.nuka_world.a",
+    "sourceItemId": "src.ref.nuka_world",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world.3",
+    "targetId": "asrt.fr.nuka_world.b",
+    "sourceItemId": "src.ref.nuka_world",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world_raiders.1",
+    "targetId": "asrt.fr.nuka_world_raiders.role",
+    "sourceItemId": "src.ref.nuka_world_raiders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world_raiders.2",
+    "targetId": "asrt.fr.nuka_world_raiders.a",
+    "sourceItemId": "src.ref.nuka_world_raiders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nuka_world_raiders.3",
+    "targetId": "asrt.fr.nuka_world_raiders.b",
+    "sourceItemId": "src.ref.nuka_world_raiders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.mechanist_isabel.1",
+    "targetId": "asrt.fr.mechanist_isabel.role",
+    "sourceItemId": "src.ref.mechanist_isabel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.mechanist_isabel.2",
+    "targetId": "asrt.fr.mechanist_isabel.a",
+    "sourceItemId": "src.ref.mechanist_isabel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.mechanist_isabel.3",
+    "targetId": "asrt.fr.mechanist_isabel.b",
+    "sourceItemId": "src.ref.mechanist_isabel",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.automatron_crisis.1",
+    "targetId": "asrt.fr.automatron_crisis.role",
+    "sourceItemId": "src.ref.automatron_crisis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.automatron_crisis.2",
+    "targetId": "asrt.fr.automatron_crisis.a",
+    "sourceItemId": "src.ref.automatron_crisis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.automatron_crisis.3",
+    "targetId": "asrt.fr.automatron_crisis.b",
+    "sourceItemId": "src.ref.automatron_crisis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.automatron_crisis.4",
+    "targetId": "asrt.fr.automatron_crisis.time",
+    "sourceItemId": "src.ref.automatron_crisis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.automatron_crisis.5",
+    "targetId": "asrt.fr.automatron_crisis.place",
+    "sourceItemId": "src.ref.automatron_crisis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  }
+]

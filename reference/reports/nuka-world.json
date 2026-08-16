@@ -3,12 +3,12 @@
   "slug": "nuka-world",
   "title": "Nuka-World",
   "referenceSubjects": 66,
-  "matchedArchiveEntities": 0,
+  "matchedArchiveEntities": 1,
   "productionQuality": 0,
-  "substantialRecords": 0,
+  "substantialRecords": 1,
   "supportingRecords": 0,
   "shallowRecords": 0,
-  "missingSubjects": 66,
+  "missingSubjects": 65,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 0,
   "majorLore": 1,
@@ -16,8 +16,8 @@
   "minorLore": 30,
   "deepResearchCandidates": 1,
   "tier1Gaps": 1,
-  "tier2Gaps": 35,
-  "weightedLoreCoverage": 0,
+  "tier2Gaps": 34,
+  "weightedLoreCoverage": 2.1,
   "byType": {
     "organisation": {
       "total": 2,
@@ -41,8 +41,8 @@
     },
     "place": {
       "total": 26,
-      "matched": 0,
-      "missing": 26
+      "matched": 1,
+      "missing": 25
     },
     "event": {
       "total": 7,

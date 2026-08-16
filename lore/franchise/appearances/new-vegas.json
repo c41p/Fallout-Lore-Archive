@@ -1,0 +1,226 @@
+[
+  {
+    "id": "app.fr.courier.new_vegas",
+    "entityId": "ent.courier",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.benny.new_vegas",
+    "entityId": "ent.benny",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.platinum_chip.new_vegas",
+    "entityId": "ent.platinum_chip",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.lucky_38.new_vegas",
+    "entityId": "ent.lucky_38",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vegas_strip.new_vegas",
+    "entityId": "ent.vegas_strip",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.yes_man.new_vegas",
+    "entityId": "ent.yes_man",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.goodsprings.new_vegas",
+    "entityId": "ent.goodsprings",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.freeside.new_vegas",
+    "entityId": "ent.freeside",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.kings.new_vegas",
+    "entityId": "ent.kings",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.followers_apocalypse.new_vegas",
+    "entityId": "ent.followers",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.boomers.new_vegas",
+    "entityId": "ent.boomers",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.nellis.new_vegas",
+    "entityId": "ent.nellis",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.hidden_valley.new_vegas",
+    "entityId": "ent.hidden_valley",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.camp_mccarran.new_vegas",
+    "entityId": "ent.camp_mccarran",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.the_fort.new_vegas",
+    "entityId": "ent.the_fort",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.camp_golf.new_vegas",
+    "entityId": "ent.camp_golf",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.nipton.new_vegas",
+    "entityId": "ent.nipton",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.helios_one.new_vegas",
+    "entityId": "ent.helios_one",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.elijah.dead_money",
+    "entityId": "ent.elijah",
+    "workId": "work.dead_money",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.veronica.new_vegas",
+    "entityId": "ent.veronica",
+    "workId": "work.new_vegas",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.sierra_madre.dead_money",
+    "entityId": "ent.sierra_madre",
+    "workId": "work.dead_money",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.big_mt.old_world_blues",
+    "entityId": "ent.big_mt",
+    "workId": "work.old_world_blues",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.think_tank.old_world_blues",
+    "entityId": "ent.think_tank",
+    "workId": "work.old_world_blues",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.ulysses.lonesome_road",
+    "entityId": "ent.ulysses",
+    "workId": "work.lonesome_road",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.divide.lonesome_road",
+    "entityId": "ent.divide",
+    "workId": "work.lonesome_road",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.marked_men.lonesome_road",
+    "entityId": "ent.marked_men",
+    "workId": "work.lonesome_road",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.tunnelers.lonesome_road",
+    "entityId": "ent.tunnelers",
+    "workId": "work.lonesome_road",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.joshua_graham.honest_hearts",
+    "entityId": "ent.joshua_graham",
+    "workId": "work.honest_hearts",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.zion.honest_hearts",
+    "entityId": "ent.zion",
+    "workId": "work.honest_hearts",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.daniel_hh.honest_hearts",
+    "entityId": "ent.daniel_hh",
+    "workId": "work.honest_hearts",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.dead_horses.honest_hearts",
+    "entityId": "ent.dead_horses",
+    "workId": "work.honest_hearts",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.sorrows.honest_hearts",
+    "entityId": "ent.sorrows",
+    "workId": "work.honest_hearts",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  }
+]

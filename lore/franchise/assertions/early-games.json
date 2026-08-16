@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "asrt.fr.chosen_one.role",
+    "subjectId": "ent.chosen_one",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Arroyo tribesperson sent to find a Garden of Eden Creation Kit and later drawn into the Enclave's plan for the surviving human population."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.chosen_one.link_a",
+    "subjectId": "ent.chosen_one",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.arroyo"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.chosen_one.link_b",
+    "subjectId": "ent.chosen_one",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.arroyo.role",
+    "subjectId": "ent.arroyo",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The northern tribal village founded by the exiled Vault Dweller and home of the Chosen One."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.arroyo.link_a",
+    "subjectId": "ent.arroyo",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.arroyo.link_b",
+    "subjectId": "ent.arroyo",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_dweller"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_8.role",
+    "subjectId": "ent.vault_8",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A control Vault whose residents used a GECK to establish Vault City."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.vault_8.link_a",
+    "subjectId": "ent.vault_8",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_8.link_b",
+    "subjectId": "ent.vault_8",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_city.role",
+    "subjectId": "ent.vault_city",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A technologically advanced settlement founded by Vault 8 residents and governed through a restrictive citizenship system."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.vault_city.link_a",
+    "subjectId": "ent.vault_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_8"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_city.link_b",
+    "subjectId": "ent.vault_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.gecko.role",
+    "subjectId": "ent.gecko",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A ghoul settlement built around an aging nuclear power plant near Vault City."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.gecko.link_a",
+    "subjectId": "ent.gecko",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.gecko.link_b",
+    "subjectId": "ent.gecko",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ghouls"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_den.role",
+    "subjectId": "ent.the_den",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A northern California trading town marked by slavery, gangs and an economy built around vice and salvage."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.the_den.link_a",
+    "subjectId": "ent.the_den",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_den.link_b",
+    "subjectId": "ent.the_den",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.klamath.role",
+    "subjectId": "ent.klamath",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A trapping and trading town near Arroyo that serves as the Chosen One's first major wasteland destination."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.klamath.link_a",
+    "subjectId": "ent.klamath",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.arroyo"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.klamath.link_b",
+    "subjectId": "ent.klamath",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.the_den"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.modoc.role",
+    "subjectId": "ent.modoc",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An agricultural settlement whose apparent conflict with the Slags can be resolved through investigation."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.modoc.link_a",
+    "subjectId": "ent.modoc",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.modoc.link_b",
+    "subjectId": "ent.modoc",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.redding.role",
+    "subjectId": "ent.redding",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A gold-mining town contested economically by the NCR, Vault City and New Reno interests."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.redding.link_a",
+    "subjectId": "ent.redding",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.redding.link_b",
+    "subjectId": "ent.redding",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_reno"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.broken_hills.role",
+    "subjectId": "ent.broken_hills",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A uranium-mining settlement founded by Marcus and inhabited by humans, ghouls and super mutants."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.broken_hills.link_a",
+    "subjectId": "ent.broken_hills",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.marcus"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.broken_hills.link_b",
+    "subjectId": "ent.broken_hills",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.new_reno.role",
+    "subjectId": "ent.new_reno",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A city dominated by competing crime families, vice businesses and trade in weapons and Jet."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.new_reno.link_a",
+    "subjectId": "ent.new_reno",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.myron"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.new_reno.link_b",
+    "subjectId": "ent.new_reno",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.san_francisco.role",
+    "subjectId": "ent.san_francisco",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A coastal city shared by the Shi, Hubologists and tanker community in 2241."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.san_francisco.link_a",
+    "subjectId": "ent.san_francisco",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shi"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.san_francisco.link_b",
+    "subjectId": "ent.san_francisco",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.oil_rig"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.navarro.role",
+    "subjectId": "ent.navarro",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Enclave's mainland military base and vertibird facility in northern California."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.navarro.link_a",
+    "subjectId": "ent.navarro",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.navarro.link_b",
+    "subjectId": "ent.navarro",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.oil_rig"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.frank_horrigan.role",
+    "subjectId": "ent.frank_horrigan",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A heavily modified Enclave operative and the final military obstacle aboard the Oil Rig."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.frank_horrigan.link_a",
+    "subjectId": "ent.frank_horrigan",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.frank_horrigan.link_b",
+    "subjectId": "ent.frank_horrigan",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.marcus.role",
+    "subjectId": "ent.marcus",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Master's Army super mutant who co-founded and governs Broken Hills."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.marcus.link_a",
+    "subjectId": "ent.marcus",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.broken_hills"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.marcus.link_b",
+    "subjectId": "ent.marcus",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shi.role",
+    "subjectId": "ent.shi",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A scientifically advanced San Francisco community descended from a Chinese submarine crew."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.shi.link_a",
+    "subjectId": "ent.shi",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.san_francisco"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shi.link_b",
+    "subjectId": "ent.shi",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.chosen_one"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.warrior.role",
+    "subjectId": "ent.warrior",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The squad commander who leads Midwestern Brotherhood operations during the Calculator campaign."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.warrior.link_a",
+    "subjectId": "ent.warrior",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.warrior.link_b",
+    "subjectId": "ent.warrior",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.calculator"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.midwestern_brotherhood.role",
+    "subjectId": "ent.midwestern_brotherhood",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Brotherhood expedition stranded in the Midwest that developed into a distinct regional military power."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.midwestern_brotherhood.link_a",
+    "subjectId": "ent.midwestern_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.midwestern_brotherhood.link_b",
+    "subjectId": "ent.midwestern_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.calculator"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.calculator.role",
+    "subjectId": "ent.calculator",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Vault 0 command intelligence whose damaged directives drive a robot campaign across the Midwest."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.calculator.link_a",
+    "subjectId": "ent.calculator",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_0"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.calculator.link_b",
+    "subjectId": "ent.calculator",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_0.role",
+    "subjectId": "ent.vault_0",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Cheyenne Mountain command Vault built to coordinate the wider Vault network and house the Calculator."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.vault_0.link_a",
+    "subjectId": "ent.vault_0",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.calculator"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_0.link_b",
+    "subjectId": "ent.vault_0",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.reavers.role",
+    "subjectId": "ent.reavers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Midwestern technological cult that initially opposes and later may cooperate with the Brotherhood."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.reavers.link_a",
+    "subjectId": "ent.reavers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.reavers.link_b",
+    "subjectId": "ent.reavers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.calculator"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.beastlords.role",
+    "subjectId": "ent.beastlords",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A hostile Midwestern tribal society able to control mutated animals through unusual psychic abilities."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.beastlords.link_a",
+    "subjectId": "ent.beastlords",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.beastlords.link_b",
+    "subjectId": "ent.beastlords",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.deathclaws"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.gammorin_army.role",
+    "subjectId": "ent.gammorin_army",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Midwestern super mutant force led by the renegade Brotherhood paladin Gammorin."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.gammorin_army.link_a",
+    "subjectId": "ent.gammorin_army",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.gammorin_army.link_b",
+    "subjectId": "ent.gammorin_army",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.chicago_wasteland.role",
+    "subjectId": "ent.chicago_wasteland",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War Chicago region associated with the Midwestern Brotherhood's early expansion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.chicago_wasteland.link_a",
+    "subjectId": "ent.chicago_wasteland",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.midwestern_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.chicago_wasteland.link_b",
+    "subjectId": "ent.chicago_wasteland",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "tactics_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.bos_initiate.role",
+    "subjectId": "ent.bos_initiate",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The selectable Brotherhood recruit sent into the Texas wasteland in Fallout: Brotherhood of Steel."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.bos_initiate.link_a",
+    "subjectId": "ent.bos_initiate",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.texas_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.bos_initiate.link_b",
+    "subjectId": "ent.bos_initiate",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.attis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.texas_brotherhood.role",
+    "subjectId": "ent.texas_brotherhood",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Brotherhood force operating in Texas in Fallout: Brotherhood of Steel."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.texas_brotherhood.link_a",
+    "subjectId": "ent.texas_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.texas_brotherhood.link_b",
+    "subjectId": "ent.texas_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bos_initiate"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.carbon.role",
+    "subjectId": "ent.carbon",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Texas settlement and the Initiate's first major destination in Fallout: Brotherhood of Steel."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.carbon.link_a",
+    "subjectId": "ent.carbon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bos_initiate"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.carbon.link_b",
+    "subjectId": "ent.carbon",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.texas_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.los_texas.role",
+    "subjectId": "ent.los_texas",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A large Texas wasteland settlement built among pre-War ruins in Fallout: Brotherhood of Steel."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.los_texas.link_a",
+    "subjectId": "ent.los_texas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bos_initiate"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.los_texas.link_b",
+    "subjectId": "ent.los_texas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.attis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.attis.role",
+    "subjectId": "ent.attis",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A super mutant commander pursuing renewed FEV-based transformation in Fallout: Brotherhood of Steel."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.attis.link_a",
+    "subjectId": "ent.attis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.super_mutants"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.attis.link_b",
+    "subjectId": "ent.attis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bos_initiate"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.ghoul_army.role",
+    "subjectId": "ent.ghoul_army",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The mutant force commanded by Attis during the Texas campaign."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ],
+    "notes": "Concise project synthesis based on the cited secondary reference; primary-source promotion remains a future evidence improvement."
+  },
+  {
+    "id": "asrt.fr.ghoul_army.link_a",
+    "subjectId": "ent.ghoul_army",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.attis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  },
+  {
+    "id": "asrt.fr.ghoul_army.link_b",
+    "subjectId": "ent.ghoul_army",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.texas_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "bos_game_continuity"
+    ]
+  }
+]

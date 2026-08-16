@@ -1,0 +1,1261 @@
+[
+  {
+    "id": "asrt.fr.sole_survivor.role",
+    "subjectId": "ent.sole_survivor",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The pre-War Vault 111 resident who emerges in 2287 and searches the Commonwealth for their abducted son."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.sole_survivor.a",
+    "subjectId": "ent.sole_survivor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_111"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sole_survivor.b",
+    "subjectId": "ent.sole_survivor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.commonwealth.role",
+    "subjectId": "ent.commonwealth",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War Massachusetts region in which Fallout 4 takes place."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.commonwealth.a",
+    "subjectId": "ent.commonwealth",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.diamond_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.commonwealth.b",
+    "subjectId": "ent.commonwealth",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth_minutemen"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.institute.role",
+    "subjectId": "ent.institute",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A subterranean Commonwealth research society descended from the pre-War Commonwealth Institute of Technology."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.institute.a",
+    "subjectId": "ent.institute",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shaun"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.institute.b",
+    "subjectId": "ent.institute",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shaun.role",
+    "subjectId": "ent.shaun",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The abducted child of the Sole Survivor who grows up to become the Institute director known as Father."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.shaun.a",
+    "subjectId": "ent.shaun",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sole_survivor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shaun.b",
+    "subjectId": "ent.shaun",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.synths"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.synths.role",
+    "subjectId": "ent.synths",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Artificial people and machines produced in successive generations by the Institute."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.synths.a",
+    "subjectId": "ent.synths",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.synths.b",
+    "subjectId": "ent.synths",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.dima"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.railroad.role",
+    "subjectId": "ent.railroad",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A clandestine Commonwealth network that helps escaped synths evade Institute recovery."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.railroad.a",
+    "subjectId": "ent.railroad",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.synths"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.railroad.b",
+    "subjectId": "ent.railroad",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bunker_hill"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.commonwealth_minutemen.role",
+    "subjectId": "ent.commonwealth_minutemen",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A volunteer militia tradition organised around mutual defence among Commonwealth settlements."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.commonwealth_minutemen.a",
+    "subjectId": "ent.commonwealth_minutemen",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.preston_garvey"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.commonwealth_minutemen.b",
+    "subjectId": "ent.commonwealth_minutemen",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sole_survivor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.preston_garvey.role",
+    "subjectId": "ent.preston_garvey",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Minuteman officer who preserves the organisation's ideals after the collapse at Quincy."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.preston_garvey.a",
+    "subjectId": "ent.preston_garvey",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth_minutemen"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.preston_garvey.b",
+    "subjectId": "ent.preston_garvey",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.arthur_maxson.role",
+    "subjectId": "ent.arthur_maxson",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Brotherhood elder who brings the eastern chapter to the Commonwealth aboard the Prydwen in 2287."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.arthur_maxson.a",
+    "subjectId": "ent.arthur_maxson",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.arthur_maxson.b",
+    "subjectId": "ent.arthur_maxson",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.kellogg.role",
+    "subjectId": "ent.kellogg",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A long-lived mercenary and Institute operative responsible for Shaun's abduction from Vault 111."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.kellogg.a",
+    "subjectId": "ent.kellogg",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shaun"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.kellogg.b",
+    "subjectId": "ent.kellogg",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nick_valentine.role",
+    "subjectId": "ent.nick_valentine",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A prototype synth detective living in Diamond City with memories derived from a pre-War police officer."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.nick_valentine.a",
+    "subjectId": "ent.nick_valentine",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.synths"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nick_valentine.b",
+    "subjectId": "ent.nick_valentine",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.dima"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.diamond_city.role",
+    "subjectId": "ent.diamond_city",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A fortified Commonwealth settlement built inside Boston's former baseball stadium."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.diamond_city.a",
+    "subjectId": "ent.diamond_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.diamond_city.b",
+    "subjectId": "ent.diamond_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.goodneighbor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.goodneighbor.role",
+    "subjectId": "ent.goodneighbor",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An independent settlement in Boston's old Scollay Square organised around personal freedom and rough mutual defence."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.goodneighbor.a",
+    "subjectId": "ent.goodneighbor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.goodneighbor.b",
+    "subjectId": "ent.goodneighbor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.kellogg"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_111.role",
+    "subjectId": "ent.vault_111",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault-Tec facility whose residents were unknowingly placed into long-term cryogenic suspension."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.vault_111.a",
+    "subjectId": "ent.vault_111",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_111.b",
+    "subjectId": "ent.vault_111",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.kellogg"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_81.role",
+    "subjectId": "ent.vault_81",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A functioning Commonwealth Vault whose original Overseer covertly resisted Vault-Tec's planned disease experiment."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.vault_81.a",
+    "subjectId": "ent.vault_81",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_81.b",
+    "subjectId": "ent.vault_81",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.bunker_hill.role",
+    "subjectId": "ent.bunker_hill",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A fortified trading settlement and caravan hub with covert links to the Railroad."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.bunker_hill.a",
+    "subjectId": "ent.bunker_hill",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.railroad"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.bunker_hill.b",
+    "subjectId": "ent.bunker_hill",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.battle_bunker_hill"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy_massacre.role",
+    "subjectId": "ent.quincy_massacre",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The 2287 defeat that shattered the remaining organised Commonwealth Minutemen and displaced Quincy survivors."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.quincy_massacre.a",
+    "subjectId": "ent.quincy_massacre",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth_minutemen"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy_massacre.b",
+    "subjectId": "ent.quincy_massacre",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.quincy"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy_massacre.time",
+    "subjectId": "ent.quincy_massacre",
+    "predicateId": "pred.occurred_at_time",
+    "object": {
+      "temporal": {
+        "kind": "point",
+        "start": {
+          "year": 2287
+        },
+        "precision": "year",
+        "display": "2287"
+      }
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy_massacre.place",
+    "subjectId": "ent.quincy_massacre",
+    "predicateId": "pred.occurred_at",
+    "object": {
+      "entityId": "ent.quincy"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy.role",
+    "subjectId": "ent.quincy",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A southern Commonwealth town destroyed as a Minutemen refuge during the Quincy massacre."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.quincy.a",
+    "subjectId": "ent.quincy",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.quincy_massacre"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.quincy.b",
+    "subjectId": "ent.quincy",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.battle_bunker_hill.role",
+    "subjectId": "ent.battle_bunker_hill",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A 2287 confrontation over escaped synths hidden beneath Bunker Hill."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.battle_bunker_hill.a",
+    "subjectId": "ent.battle_bunker_hill",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.bunker_hill"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.battle_bunker_hill.b",
+    "subjectId": "ent.battle_bunker_hill",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.railroad"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.battle_bunker_hill.time",
+    "subjectId": "ent.battle_bunker_hill",
+    "predicateId": "pred.occurred_at_time",
+    "object": {
+      "temporal": {
+        "kind": "point",
+        "start": {
+          "year": 2287
+        },
+        "precision": "year",
+        "display": "2287"
+      }
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.battle_bunker_hill.place",
+    "subjectId": "ent.battle_bunker_hill",
+    "predicateId": "pred.occurred_at",
+    "object": {
+      "entityId": "ent.bunker_hill"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.glowing_sea.role",
+    "subjectId": "ent.glowing_sea",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A heavily irradiated southwestern Commonwealth region surrounding a major nuclear impact zone."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.glowing_sea.a",
+    "subjectId": "ent.glowing_sea",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.glowing_sea.b",
+    "subjectId": "ent.glowing_sea",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sole_survivor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.virgil.role",
+    "subjectId": "ent.virgil",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An Institute bioscientist who sabotages the Commonwealth FEV laboratory and flees to the Glowing Sea."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.virgil.a",
+    "subjectId": "ent.virgil",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.virgil.b",
+    "subjectId": "ent.virgil",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sole_survivor"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.far_harbor_settlement.role",
+    "subjectId": "ent.far_harbor_settlement",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A fog-threatened settlement on Mount Desert Island and the principal refuge for the island's human residents."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.far_harbor_settlement.a",
+    "subjectId": "ent.far_harbor_settlement",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.acadia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.far_harbor_settlement.b",
+    "subjectId": "ent.far_harbor_settlement",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.nick_valentine"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.acadia.role",
+    "subjectId": "ent.acadia",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A community of independent synths established at an observatory on Mount Desert Island."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.acadia.a",
+    "subjectId": "ent.acadia",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.dima"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.acadia.b",
+    "subjectId": "ent.acadia",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.children_of_atom"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.dima.role",
+    "subjectId": "ent.dima",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An experimental synth who founded Acadia and shares a manufacturing origin with Nick Valentine."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.dima.a",
+    "subjectId": "ent.dima",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.nick_valentine"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.dima.b",
+    "subjectId": "ent.dima",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.children_of_atom"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.children_of_atom.role",
+    "subjectId": "ent.children_of_atom",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A radiation-centred religious movement with communities across the Capital Wasteland and Commonwealth."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.children_of_atom.a",
+    "subjectId": "ent.children_of_atom",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.glowing_sea"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.children_of_atom.b",
+    "subjectId": "ent.children_of_atom",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nuka_world.role",
+    "subjectId": "ent.nuka_world",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War amusement park occupied in 2287 by three organised raider gangs."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.nuka_world.a",
+    "subjectId": "ent.nuka_world",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.nuka_world_raiders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nuka_world.b",
+    "subjectId": "ent.nuka_world",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nuka_world_raiders.role",
+    "subjectId": "ent.nuka_world_raiders",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The unstable 2287 alliance of the Operators, Disciples and Pack at Nuka-World."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.nuka_world_raiders.a",
+    "subjectId": "ent.nuka_world_raiders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.nuka_world"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nuka_world_raiders.b",
+    "subjectId": "ent.nuka_world_raiders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth_minutemen"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.mechanist_isabel.role",
+    "subjectId": "ent.mechanist_isabel",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A robotics expert who becomes the Mechanist and deploys robots to protect the Commonwealth."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.mechanist_isabel.a",
+    "subjectId": "ent.mechanist_isabel",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.automatron_crisis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.mechanist_isabel.b",
+    "subjectId": "ent.mechanist_isabel",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.automatron_crisis.role",
+    "subjectId": "ent.automatron_crisis",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The 2287 wave of lethal robot interventions caused by flawed orders issued from the Mechanist's lair."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support; the source page is a discovery route to released-game citations."
+  },
+  {
+    "id": "asrt.fr.automatron_crisis.a",
+    "subjectId": "ent.automatron_crisis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mechanist_isabel"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.automatron_crisis.b",
+    "subjectId": "ent.automatron_crisis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.synths"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.automatron_crisis.time",
+    "subjectId": "ent.automatron_crisis",
+    "predicateId": "pred.occurred_at_time",
+    "object": {
+      "temporal": {
+        "kind": "point",
+        "start": {
+          "year": 2287
+        },
+        "precision": "year",
+        "display": "2287"
+      }
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.automatron_crisis.place",
+    "subjectId": "ent.automatron_crisis",
+    "predicateId": "pred.occurred_at",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

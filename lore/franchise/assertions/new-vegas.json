@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "asrt.fr.courier.role",
+    "subjectId": "ent.courier",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Mojave Express courier whose attempted murder and recovered delivery place them at the centre of the 2281 Mojave conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.courier.a",
+    "subjectId": "ent.courier",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.benny"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.courier.b",
+    "subjectId": "ent.courier",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.second_hoover_battle"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.benny.role",
+    "subjectId": "ent.benny",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Chairmen leader who steals the Platinum Chip in an attempt to displace Robert House."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.benny.a",
+    "subjectId": "ent.benny",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.benny.b",
+    "subjectId": "ent.benny",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.robert_house"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.platinum_chip.role",
+    "subjectId": "ent.platinum_chip",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War data-storage device carrying upgrades and access codes for Robert House's securitron network."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.platinum_chip.a",
+    "subjectId": "ent.platinum_chip",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.robert_house"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.platinum_chip.b",
+    "subjectId": "ent.platinum_chip",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.yes_man"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lucky_38.role",
+    "subjectId": "ent.lucky_38",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Robert House's sealed casino, command centre and life-support facility on the New Vegas Strip."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.lucky_38.a",
+    "subjectId": "ent.lucky_38",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.robert_house"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lucky_38.b",
+    "subjectId": "ent.lucky_38",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.platinum_chip"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vegas_strip.role",
+    "subjectId": "ent.vegas_strip",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The fortified casino district at the political and economic centre of New Vegas."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.vegas_strip.a",
+    "subjectId": "ent.vegas_strip",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_vegas"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vegas_strip.b",
+    "subjectId": "ent.vegas_strip",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.yes_man.role",
+    "subjectId": "ent.yes_man",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A reprogrammed securitron intelligence able to support an independent takeover of New Vegas."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.yes_man.a",
+    "subjectId": "ent.yes_man",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.benny"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.yes_man.b",
+    "subjectId": "ent.yes_man",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_vegas"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.goodsprings.role",
+    "subjectId": "ent.goodsprings",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A small Mojave settlement where the Courier is rescued after Benny's attack."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.goodsprings.a",
+    "subjectId": "ent.goodsprings",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.goodsprings.b",
+    "subjectId": "ent.goodsprings",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_vegas"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.freeside.role",
+    "subjectId": "ent.freeside",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A crowded district outside the Strip shaped by poverty, migration and competing local organisations."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.freeside.a",
+    "subjectId": "ent.freeside",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vegas_strip"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.freeside.b",
+    "subjectId": "ent.freeside",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.kings.role",
+    "subjectId": "ent.kings",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Freeside organisation modelled on the style and surviving cultural traces of a pre-War entertainer."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.kings.a",
+    "subjectId": "ent.kings",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.freeside"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.kings.b",
+    "subjectId": "ent.kings",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vegas_strip"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.followers_apocalypse.role",
+    "subjectId": "ent.followers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A humanitarian organisation that provides education and medical assistance across the western wastelands."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.followers_apocalypse.a",
+    "subjectId": "ent.followers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.freeside"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.followers_apocalypse.b",
+    "subjectId": "ent.followers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.boomers.role",
+    "subjectId": "ent.boomers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An isolationist community descended from Vault 34 residents and based at Nellis Air Force Base."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.boomers.a",
+    "subjectId": "ent.boomers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.nellis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.boomers.b",
+    "subjectId": "ent.boomers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.second_hoover_battle"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nellis.role",
+    "subjectId": "ent.nellis",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The pre-War air base occupied and restored by the Boomers."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.nellis.a",
+    "subjectId": "ent.nellis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.boomers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nellis.b",
+    "subjectId": "ent.nellis",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.hidden_valley.role",
+    "subjectId": "ent.hidden_valley",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A concealed bunker complex serving as the Mojave Brotherhood's headquarters in 2281."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.hidden_valley.a",
+    "subjectId": "ent.hidden_valley",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.hidden_valley.b",
+    "subjectId": "ent.hidden_valley",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.camp_mccarran.role",
+    "subjectId": "ent.camp_mccarran",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The NCR's principal military headquarters in the New Vegas area."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.camp_mccarran.a",
+    "subjectId": "ent.camp_mccarran",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.camp_mccarran.b",
+    "subjectId": "ent.camp_mccarran",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_fort.role",
+    "subjectId": "ent.the_fort",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Caesar's principal Mojave camp on the east bank of the Colorado River."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.the_fort.a",
+    "subjectId": "ent.the_fort",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesar"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_fort.b",
+    "subjectId": "ent.the_fort",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.camp_golf.role",
+    "subjectId": "ent.camp_golf",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An NCR post at a former resort near Lake Mead and headquarters of the First Recon-associated defensive line."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.camp_golf.a",
+    "subjectId": "ent.camp_golf",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.camp_golf.b",
+    "subjectId": "ent.camp_golf",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nipton.role",
+    "subjectId": "ent.nipton",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Mojave town destroyed by Legion forces as a staged lesson in punishment."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.nipton.a",
+    "subjectId": "ent.nipton",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.nipton.b",
+    "subjectId": "ent.nipton",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.helios_one.role",
+    "subjectId": "ent.helios_one",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War solar power station contested by the NCR and Mojave Brotherhood."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.helios_one.a",
+    "subjectId": "ent.helios_one",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.helios_one.b",
+    "subjectId": "ent.helios_one",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.elijah"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.elijah.role",
+    "subjectId": "ent.elijah",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Mojave Brotherhood elder whose pursuit of advanced technology culminates at the Sierra Madre."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.elijah.a",
+    "subjectId": "ent.elijah",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.elijah.b",
+    "subjectId": "ent.elijah",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.veronica.role",
+    "subjectId": "ent.veronica",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Mojave Brotherhood scribe who questions her chapter's isolation and acts as a field procurer."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.veronica.a",
+    "subjectId": "ent.veronica",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.veronica.b",
+    "subjectId": "ent.veronica",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sierra_madre.role",
+    "subjectId": "ent.sierra_madre",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A sealed pre-War resort whose toxic cloud, holographic security and obsessive histories frame Dead Money."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.sierra_madre.a",
+    "subjectId": "ent.sierra_madre",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.elijah"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sierra_madre.b",
+    "subjectId": "ent.sierra_madre",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.big_mt"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.big_mt.role",
+    "subjectId": "ent.big_mt",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A vast pre-War research complex isolated inside a mountain crater and governed by the Think Tank."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.big_mt.a",
+    "subjectId": "ent.big_mt",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.think_tank"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.big_mt.b",
+    "subjectId": "ent.big_mt",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.divide"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.think_tank.role",
+    "subjectId": "ent.think_tank",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War robotic brain collective governing Big MT's central research dome."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.think_tank.a",
+    "subjectId": "ent.think_tank",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.big_mt"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.think_tank.b",
+    "subjectId": "ent.think_tank",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.divide"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.ulysses.role",
+    "subjectId": "ent.ulysses",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Legion frumentarius and courier who confronts the player character through the history of the Divide."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.ulysses.a",
+    "subjectId": "ent.ulysses",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.ulysses.b",
+    "subjectId": "ent.ulysses",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.divide.role",
+    "subjectId": "ent.divide",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A devastated trade community and missile landscape central to Lonesome Road."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.divide.a",
+    "subjectId": "ent.divide",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ulysses"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.divide.b",
+    "subjectId": "ent.divide",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.tunnelers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.marked_men.role",
+    "subjectId": "ent.marked_men",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "NCR and Legion survivors transformed by the Divide and held together by shared conditions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.marked_men.a",
+    "subjectId": "ent.marked_men",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.divide"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.marked_men.b",
+    "subjectId": "ent.marked_men",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ulysses"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.tunnelers.role",
+    "subjectId": "ent.tunnelers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A subterranean mutated population encountered in the Divide."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.tunnelers.a",
+    "subjectId": "ent.tunnelers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.divide"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.tunnelers.b",
+    "subjectId": "ent.tunnelers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mojave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.joshua_graham.role",
+    "subjectId": "ent.joshua_graham",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Legion legate and co-founder whose survival after defeat leads him back to New Canaanite life in Zion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.joshua_graham.a",
+    "subjectId": "ent.joshua_graham",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesar"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.joshua_graham.b",
+    "subjectId": "ent.joshua_graham",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.dead_horses"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.zion.role",
+    "subjectId": "ent.zion",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A comparatively fertile canyon region inhabited by tribal communities and contested during Honest Hearts."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.zion.a",
+    "subjectId": "ent.zion",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.joshua_graham"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.zion.b",
+    "subjectId": "ent.zion",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.sorrows"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.daniel_hh.role",
+    "subjectId": "ent.daniel_hh",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A New Canaanite missionary who advocates evacuating the Sorrows from Zion."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.daniel_hh.a",
+    "subjectId": "ent.daniel_hh",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.zion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.daniel_hh.b",
+    "subjectId": "ent.daniel_hh",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.dead_horses.role",
+    "subjectId": "ent.dead_horses",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Zion-associated tribal community allied with Joshua Graham during the White Legs conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.dead_horses.a",
+    "subjectId": "ent.dead_horses",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.joshua_graham"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.dead_horses.b",
+    "subjectId": "ent.dead_horses",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sorrows.role",
+    "subjectId": "ent.sorrows",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Zion tribal community whose home becomes the central object of the Honest Hearts evacuation debate."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Original project synthesis with secondary reference support."
+  },
+  {
+    "id": "asrt.fr.sorrows.a",
+    "subjectId": "ent.sorrows",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.zion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sorrows.b",
+    "subjectId": "ent.sorrows",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

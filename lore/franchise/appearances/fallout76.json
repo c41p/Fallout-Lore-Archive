@@ -1,0 +1,205 @@
+[
+  {
+    "id": "app.fr.resident_76.fallout_76",
+    "entityId": "ent.resident_76",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.vault_76.fallout_76",
+    "entityId": "ent.vault_76",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.appalachia.fallout_76",
+    "entityId": "ent.appalachia",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.overseer_76.fallout_76",
+    "entityId": "ent.overseer_76",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.responders.fallout_76",
+    "entityId": "ent.responders",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.free_states.fallout_76",
+    "entityId": "ent.free_states",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.charleston.fallout_76",
+    "entityId": "ent.charleston",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.whitespring.fallout_76",
+    "entityId": "ent.whitespring",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.modus.fallout_76",
+    "entityId": "ent.modus",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.scorched.fallout_76",
+    "entityId": "ent.scorched",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.scorchbeasts.fallout_76",
+    "entityId": "ent.scorchbeasts",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.scorched_plague.fallout_76",
+    "entityId": "ent.scorched_plague",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.inoculation_project.fallout_76",
+    "entityId": "ent.inoculation_project",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.foundation.fallout_76",
+    "entityId": "ent.foundation",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.foundation_settlers.fallout_76",
+    "entityId": "ent.foundation_settlers",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.crater.fallout_76",
+    "entityId": "ent.crater",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.crater_raiders.fallout_76",
+    "entityId": "ent.crater_raiders",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.vault_79.fallout_76",
+    "entityId": "ent.vault_79",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.secret_service_79.fallout_76",
+    "entityId": "ent.secret_service_79",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.rahmani.fallout_76",
+    "entityId": "ent.rahmani",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.knight_shin.fallout_76",
+    "entityId": "ent.knight_shin",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.fort_atlas.fallout_76",
+    "entityId": "ent.fort_atlas",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.atlantic_city.fallout_76",
+    "entityId": "ent.atlantic_city",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.skyline_valley.fallout_76",
+    "entityId": "ent.skyline_valley",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.lost_f76.fallout_76",
+    "entityId": "ent.lost_f76",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.hugo_stolz.fallout_76",
+    "entityId": "ent.hugo_stolz",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.burning_springs.fallout_76",
+    "entityId": "ent.burning_springs",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.highway_town.fallout_76",
+    "entityId": "ent.highway_town",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  },
+  {
+    "id": "app.fr.rust_king.fallout_76",
+    "entityId": "ent.rust_king",
+    "workId": "work.fallout_76",
+    "kind": "appears",
+    "notes": "Work association established by released Fallout 76 material."
+  }
+]

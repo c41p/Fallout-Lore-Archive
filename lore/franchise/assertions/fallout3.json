@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "asrt.fr.lone_wanderer.role",
+    "subjectId": "ent.lone_wanderer",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Vault 101 resident who leaves the Vault in 2277, searches for James and becomes central to Project Purity."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.lone_wanderer.a",
+    "subjectId": "ent.lone_wanderer",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_101"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lone_wanderer.b",
+    "subjectId": "ent.lone_wanderer",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.capital_wasteland.role",
+    "subjectId": "ent.capital_wasteland",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War Washington, D.C. region shaped by ruined federal infrastructure, water scarcity and conflict in 2277."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.capital_wasteland.a",
+    "subjectId": "ent.capital_wasteland",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.capital_wasteland.b",
+    "subjectId": "ent.capital_wasteland",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.project_purity.role",
+    "subjectId": "ent.project_purity",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Jefferson Memorial project intended to provide large quantities of clean water to the Capital Wasteland."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.project_purity.a",
+    "subjectId": "ent.project_purity",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.james_fo3"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.project_purity.b",
+    "subjectId": "ent.project_purity",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.james_fo3.role",
+    "subjectId": "ent.james_fo3",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Project Purity scientist and the Lone Wanderer's father."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.james_fo3.a",
+    "subjectId": "ent.james_fo3",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.james_fo3.b",
+    "subjectId": "ent.james_fo3",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.madison_li.role",
+    "subjectId": "ent.madison_li",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A senior Project Purity scientist who later becomes associated with the Institute."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.madison_li.a",
+    "subjectId": "ent.madison_li",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.madison_li.b",
+    "subjectId": "ent.madison_li",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.institute"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.owyn_lyons.role",
+    "subjectId": "ent.owyn_lyons",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The elder who redirects the eastern Brotherhood toward protecting Capital Wasteland communities."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.owyn_lyons.a",
+    "subjectId": "ent.owyn_lyons",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.owyn_lyons.b",
+    "subjectId": "ent.owyn_lyons",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood_outcasts"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sarah_lyons.role",
+    "subjectId": "ent.sarah_lyons",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Commander of Lyons' Pride and a leading Brotherhood officer during the Project Purity conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.sarah_lyons.a",
+    "subjectId": "ent.sarah_lyons",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.sarah_lyons.b",
+    "subjectId": "ent.sarah_lyons",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.colonel_autumn.role",
+    "subjectId": "ent.colonel_autumn",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Enclave field commander who seeks to control Project Purity and Capital Wasteland water distribution."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.colonel_autumn.a",
+    "subjectId": "ent.colonel_autumn",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.colonel_autumn.b",
+    "subjectId": "ent.colonel_autumn",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.john_henry_eden.role",
+    "subjectId": "ent.john_henry_eden",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The ZAX-derived artificial intelligence presenting itself as president of the Enclave."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.john_henry_eden.a",
+    "subjectId": "ent.john_henry_eden",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.enclave"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.john_henry_eden.b",
+    "subjectId": "ent.john_henry_eden",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_101.role",
+    "subjectId": "ent.vault_101",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An isolationist Vault near Washington and the childhood home of the Lone Wanderer."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.vault_101.a",
+    "subjectId": "ent.vault_101",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_101.b",
+    "subjectId": "ent.vault_101",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.megaton.role",
+    "subjectId": "ent.megaton",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Capital Wasteland settlement built around an undetonated nuclear bomb."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.megaton.a",
+    "subjectId": "ent.megaton",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.megaton.b",
+    "subjectId": "ent.megaton",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.tenpenny_tower"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rivet_city.role",
+    "subjectId": "ent.rivet_city",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A major Capital Wasteland settlement established aboard a grounded aircraft carrier."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.rivet_city.a",
+    "subjectId": "ent.rivet_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.madison_li"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rivet_city.b",
+    "subjectId": "ent.rivet_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.citadel.role",
+    "subjectId": "ent.citadel",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The eastern Brotherhood's headquarters in the ruins of the Pentagon."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.citadel.a",
+    "subjectId": "ent.citadel",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.citadel.b",
+    "subjectId": "ent.citadel",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.capital_brotherhood.role",
+    "subjectId": "ent.capital_brotherhood",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The eastern Brotherhood chapter led by Owyn Lyons during the Project Purity conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.capital_brotherhood.a",
+    "subjectId": "ent.capital_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.capital_brotherhood.b",
+    "subjectId": "ent.capital_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.project_purity"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.brotherhood_outcasts.role",
+    "subjectId": "ent.brotherhood_outcasts",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A splinter group that rejects Owyn Lyons's humanitarian priorities in favor of the western technology mission."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.brotherhood_outcasts.a",
+    "subjectId": "ent.brotherhood_outcasts",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.brotherhood_outcasts.b",
+    "subjectId": "ent.brotherhood_outcasts",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.galaxy_news_radio.role",
+    "subjectId": "ent.galaxy_news_radio",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Three Dog's independent Capital Wasteland radio station and news service."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.galaxy_news_radio.a",
+    "subjectId": "ent.galaxy_news_radio",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.three_dog"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.galaxy_news_radio.b",
+    "subjectId": "ent.galaxy_news_radio",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.three_dog.role",
+    "subjectId": "ent.three_dog",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The host of Galaxy News Radio and advocate of the 'Good Fight' in the Capital Wasteland."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.three_dog.a",
+    "subjectId": "ent.three_dog",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.galaxy_news_radio"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.three_dog.b",
+    "subjectId": "ent.three_dog",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.underworld.role",
+    "subjectId": "ent.underworld",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A ghoul settlement in the Museum of History ruins."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.underworld.a",
+    "subjectId": "ent.underworld",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ghouls"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.underworld.b",
+    "subjectId": "ent.underworld",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.paradise_falls.role",
+    "subjectId": "ent.paradise_falls",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A fortified Capital Wasteland base for organized slavery."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.paradise_falls.a",
+    "subjectId": "ent.paradise_falls",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.paradise_falls.b",
+    "subjectId": "ent.paradise_falls",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.the_den"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.tenpenny_tower.role",
+    "subjectId": "ent.tenpenny_tower",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A wealthy private settlement whose residents and owner are involved in Megaton's possible destruction and a ghoul-exclusion conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.tenpenny_tower.a",
+    "subjectId": "ent.tenpenny_tower",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.megaton"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.tenpenny_tower.b",
+    "subjectId": "ent.tenpenny_tower",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ghouls"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_pitt_region.role",
+    "subjectId": "ent.the_pitt_region",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The irradiated industrial ruins of Pittsburgh, organized around forced labor and steel production."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.the_pitt_region.a",
+    "subjectId": "ent.the_pitt_region",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ashur"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.the_pitt_region.b",
+    "subjectId": "ent.the_pitt_region",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.ashur.role",
+    "subjectId": "ent.ashur",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A former Brotherhood soldier who rules the Pitt's industrial regime."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.ashur.a",
+    "subjectId": "ent.ashur",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.the_pitt_region"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.ashur.b",
+    "subjectId": "ent.ashur",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_brotherhood"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.point_lookout_region.role",
+    "subjectId": "ent.point_lookout_region",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A swampy coastal region of Maryland with isolated communities and long-running pre-War conflicts."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.point_lookout_region.a",
+    "subjectId": "ent.point_lookout_region",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.desmond_lockheart"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.point_lookout_region.b",
+    "subjectId": "ent.point_lookout_region",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.capital_wasteland"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.desmond_lockheart.role",
+    "subjectId": "ent.desmond_lockheart",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War intelligence operative whose feud with Professor Calvert continues in Point Lookout."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.desmond_lockheart.a",
+    "subjectId": "ent.desmond_lockheart",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.point_lookout_region"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.desmond_lockheart.b",
+    "subjectId": "ent.desmond_lockheart",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.mothership_zeta.role",
+    "subjectId": "ent.mothership_zeta",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Zetan spacecraft holding abductees, records and specimens from different periods of Earth history."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.mothership_zeta.a",
+    "subjectId": "ent.mothership_zeta",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.zetans"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.mothership_zeta.b",
+    "subjectId": "ent.mothership_zeta",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.zetans.role",
+    "subjectId": "ent.zetans",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An extraterrestrial group associated with abductions and experiments aboard Mothership Zeta."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Project synthesis with secondary reference support; claim-level primary locators should be added where practical."
+  },
+  {
+    "id": "asrt.fr.zetans.a",
+    "subjectId": "ent.zetans",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.mothership_zeta"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.zetans.b",
+    "subjectId": "ent.zetans",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lone_wanderer"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

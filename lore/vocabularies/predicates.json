@@ -41,5 +41,6 @@
   {"id":"pred.infiltrated","label":"Infiltrated","inverseLabel":"Infiltrated by","subjectTypes":["individual","organisation"],"objectTypes":["organisation","place"],"temporalAllowed":true,"presentationGroup":"Covert activity"},
   {"id":"pred.kidnapped","label":"Kidnapped","inverseLabel":"Kidnapped by","subjectTypes":["individual","organisation"],"objectTypes":["individual"],"temporalAllowed":true,"presentationGroup":"Conflict"},
   {"id":"pred.subgroup_of","label":"Subgroup of","inverseLabel":"Includes subgroup","subjectTypes":["organisation","substance_condition","concept"],"objectTypes":["organisation","substance_condition","concept"],"presentationGroup":"Classification"},
-  {"id":"pred.opposes","label":"Opposes","inverseLabel":"Opposed by","subjectTypes":["individual","organisation"],"objectTypes":["individual","organisation"],"temporalAllowed":true,"presentationGroup":"Conflict"}
+  {"id":"pred.opposes","label":"Opposes","inverseLabel":"Opposed by","subjectTypes":["individual","organisation"],"objectTypes":["individual","organisation"],"temporalAllowed":true,"presentationGroup":"Conflict"},
+  {"id":"pred.documented_role","label":"Documented role","subjectTypes":["individual","organisation","place","event","technology","substance_condition","artefact","concept"],"objectTypes":["text"],"temporalAllowed":true,"presentationGroup":"Characteristics"}
 ]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "asrt.fr.junktown.documented_role",
+    "subjectId": "ent.junktown",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A trading settlement governed by Killian Darkwater and contested by Gizmo during the Vault Dweller's 2161 journey."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

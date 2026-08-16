@@ -1,0 +1,431 @@
+[
+  {
+    "id": "asrt.fr.theme.united_states.role",
+    "subjectId": "ent.united_states",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The pre-War federal state whose institutions, wars and secret programmes shaped the world inherited after 2077."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.united_states.a",
+    "subjectId": "ent.united_states",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resource_wars"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.united_states.b",
+    "subjectId": "ent.united_states",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.enclave.role",
+    "subjectId": "ent.enclave",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A secretive continuity-of-government organisation descended from selected pre-War political, military and corporate elites."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.enclave.a",
+    "subjectId": "ent.enclave",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.enclave.b",
+    "subjectId": "ent.enclave",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.modus"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.vault_tec.role",
+    "subjectId": "ent.vault_tec",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The pre-War corporation that constructed and administered the Vault programme, including numerous covert social and scientific experiments."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.vault_tec.a",
+    "subjectId": "ent.vault_tec",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_111"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.vault_tec.b",
+    "subjectId": "ent.vault_tec",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_81"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.great_war.role",
+    "subjectId": "ent.great_war",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The global nuclear exchange of 23 October 2077 that destroyed governments and transformed the Fallout world."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.great_war.a",
+    "subjectId": "ent.great_war",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resource_wars"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.great_war.b",
+    "subjectId": "ent.great_war",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.robert_house"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.power_armor.role",
+    "subjectId": "ent.power_armor",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A family of powered military armour systems developed before the Great War and preserved or modified by later factions."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.power_armor.a",
+    "subjectId": "ent.power_armor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.power_armor.b",
+    "subjectId": "ent.power_armor",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resource_wars"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.super_mutants.role",
+    "subjectId": "ent.super_mutants",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Humans transformed by strains of Forced Evolutionary Virus into varied posthuman populations."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.super_mutants.a",
+    "subjectId": "ent.super_mutants",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fev"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.super_mutants.b",
+    "subjectId": "ent.super_mutants",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.virgil"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.ghouls.role",
+    "subjectId": "ent.ghouls",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "People transformed by extreme radiation and related post-War conditions, with widely varying bodies, longevity and cognition."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.ghouls.a",
+    "subjectId": "ent.ghouls",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.necropolis"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.ghouls.b",
+    "subjectId": "ent.ghouls",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.atlantic_city"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.deathclaws.role",
+    "subjectId": "ent.deathclaws",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Large engineered predators whose populations spread and diversify after the Great War."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.deathclaws.a",
+    "subjectId": "ent.deathclaws",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.deathclaws.b",
+    "subjectId": "ent.deathclaws",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.commonwealth"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.new_plague.role",
+    "subjectId": "ent.new_plague",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War epidemic associated with social fear, quarantine policy and the biological-research climate preceding FEV."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.new_plague.a",
+    "subjectId": "ent.new_plague",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.new_plague.b",
+    "subjectId": "ent.new_plague",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resource_wars"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.robco.role",
+    "subjectId": "ent.robco",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A major pre-War technology corporation founded by Robert House and associated with computers, robots and automation."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.robco.a",
+    "subjectId": "ent.robco",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.robert_house"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.robco.b",
+    "subjectId": "ent.robco",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.modus"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.resource_wars.role",
+    "subjectId": "ent.resource_wars",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The series of international conflicts over dwindling resources that destabilised the pre-War world before 2077."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.resource_wars.a",
+    "subjectId": "ent.resource_wars",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.united_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.theme.resource_wars.b",
+    "subjectId": "ent.resource_wars",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_plague"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

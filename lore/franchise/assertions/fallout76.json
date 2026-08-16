@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "asrt.fr.resident_76.role",
+    "subjectId": "ent.resident_76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A player-defined Vault 76 survivor who enters Appalachia during Reclamation Day and participates in its successive crises."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.resident_76.a",
+    "subjectId": "ent.resident_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.resident_76.b",
+    "subjectId": "ent.resident_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_76.role",
+    "subjectId": "ent.vault_76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Vault-Tec control Vault designed to reopen on Reclamation Day and send its residents into Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_76.a",
+    "subjectId": "ent.vault_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_76.b",
+    "subjectId": "ent.vault_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.appalachia.role",
+    "subjectId": "ent.appalachia",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War West Virginia region and surrounding expansion areas explored in Fallout 76."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.appalachia.a",
+    "subjectId": "ent.appalachia",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.responders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.appalachia.b",
+    "subjectId": "ent.appalachia",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.burning_springs"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.overseer_76.role",
+    "subjectId": "ent.overseer_76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Overseer assigned to Vault 76 who leaves a recorded trail across Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.overseer_76.a",
+    "subjectId": "ent.overseer_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.overseer_76.b",
+    "subjectId": "ent.overseer_76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.responders.role",
+    "subjectId": "ent.responders",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An Appalachian mutual-aid organisation formed from emergency workers and volunteers after the Great War."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.responders.a",
+    "subjectId": "ent.responders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.charleston"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.responders.b",
+    "subjectId": "ent.responders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.whitespring"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.free_states.role",
+    "subjectId": "ent.free_states",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War Appalachian secessionist movement whose bunker communities later fought the scorched threat."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.free_states.a",
+    "subjectId": "ent.free_states",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.free_states.b",
+    "subjectId": "ent.free_states",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.scorched_plague"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.charleston.role",
+    "subjectId": "ent.charleston",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "West Virginia's ruined capital and an early centre of post-War Responders government."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.charleston.a",
+    "subjectId": "ent.charleston",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.responders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.charleston.b",
+    "subjectId": "ent.charleston",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.crater_raiders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.whitespring.role",
+    "subjectId": "ent.whitespring",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A pre-War resort above a concealed federal bunker that later hosts Responders and regional visitors."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.whitespring.a",
+    "subjectId": "ent.whitespring",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.modus"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.whitespring.b",
+    "subjectId": "ent.whitespring",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.modus.role",
+    "subjectId": "ent.modus",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The artificial intelligence controlling the Whitespring congressional bunker after the Appalachian Enclave destroyed itself."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.modus.a",
+    "subjectId": "ent.modus",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.whitespring"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.modus.b",
+    "subjectId": "ent.modus",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched.role",
+    "subjectId": "ent.scorched",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Humans and creatures transformed and networked by the scorched plague."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched.a",
+    "subjectId": "ent.scorched",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.scorched_plague"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched.b",
+    "subjectId": "ent.scorched",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorchbeasts.role",
+    "subjectId": "ent.scorchbeasts",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "Large mutated bats that spread and coordinate the scorched plague across Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorchbeasts.a",
+    "subjectId": "ent.scorchbeasts",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.scorched_plague"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorchbeasts.b",
+    "subjectId": "ent.scorchbeasts",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.free_states"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched_plague.role",
+    "subjectId": "ent.scorched_plague",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A contagious mutagenic disease that links infected hosts and devastates Appalachian survivor communities."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched_plague.a",
+    "subjectId": "ent.scorched_plague",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.scorched"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.scorched_plague.b",
+    "subjectId": "ent.scorched_plague",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.inoculation_project"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.inoculation_project.role",
+    "subjectId": "ent.inoculation_project",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Responders research programme completed by Vault 76 residents to protect people from the scorched plague."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.inoculation_project.a",
+    "subjectId": "ent.inoculation_project",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.responders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.inoculation_project.b",
+    "subjectId": "ent.inoculation_project",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.foundation"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation.role",
+    "subjectId": "ent.foundation",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A major settler community established at Spruce Knob when people return to Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation.a",
+    "subjectId": "ent.foundation",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.foundation_settlers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation.b",
+    "subjectId": "ent.foundation",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation_settlers.role",
+    "subjectId": "ent.foundation_settlers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The organised settlers who build Foundation and seek a stable Appalachian economy."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation_settlers.a",
+    "subjectId": "ent.foundation_settlers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.foundation"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.foundation_settlers.b",
+    "subjectId": "ent.foundation_settlers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater.role",
+    "subjectId": "ent.crater",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A raider settlement built around the crashed remains of a space station in northern Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater.a",
+    "subjectId": "ent.crater",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.crater_raiders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater.b",
+    "subjectId": "ent.crater",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater_raiders.role",
+    "subjectId": "ent.crater_raiders",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Wastelanders-era raider faction led from Crater by Meg Groberg."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater_raiders.a",
+    "subjectId": "ent.crater_raiders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.crater"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.crater_raiders.b",
+    "subjectId": "ent.crater_raiders",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_79.role",
+    "subjectId": "ent.vault_79",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A concealed federal facility storing much of the United States gold reserve."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_79.a",
+    "subjectId": "ent.vault_79",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.secret_service_79"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.vault_79.b",
+    "subjectId": "ent.vault_79",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.crater"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.secret_service_79.role",
+    "subjectId": "ent.secret_service_79",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The United States Secret Service personnel and descendants guarding the Vault 79 gold reserve."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.secret_service_79.a",
+    "subjectId": "ent.secret_service_79",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_79"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.secret_service_79.b",
+    "subjectId": "ent.secret_service_79",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.foundation"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rahmani.role",
+    "subjectId": "ent.rahmani",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The paladin who leads a Brotherhood expedition from California to establish a new Appalachian chapter."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rahmani.a",
+    "subjectId": "ent.rahmani",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fort_atlas"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rahmani.b",
+    "subjectId": "ent.rahmani",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.knight_shin.role",
+    "subjectId": "ent.knight_shin",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Brotherhood knight whose conflict with Rahmani centres on discipline, accountability and dangerous technology."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.knight_shin.a",
+    "subjectId": "ent.knight_shin",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.rahmani"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.knight_shin.b",
+    "subjectId": "ent.knight_shin",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fort_atlas.role",
+    "subjectId": "ent.fort_atlas",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The former Atlas Observatory converted into headquarters for the Brotherhood's later Appalachian expedition."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fort_atlas.a",
+    "subjectId": "ent.fort_atlas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.rahmani"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fort_atlas.b",
+    "subjectId": "ent.fort_atlas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.atlantic_city.role",
+    "subjectId": "ent.atlantic_city",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A post-War New Jersey destination reached by Vertibird expeditions from Appalachia."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.atlantic_city.a",
+    "subjectId": "ent.atlantic_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.responders"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.atlantic_city.b",
+    "subjectId": "ent.atlantic_city",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.whitespring"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.skyline_valley.role",
+    "subjectId": "ent.skyline_valley",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A southern expansion region opened by violent weather around Vault 63."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.skyline_valley.a",
+    "subjectId": "ent.skyline_valley",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lost_f76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.skyline_valley.b",
+    "subjectId": "ent.skyline_valley",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lost_f76.role",
+    "subjectId": "ent.lost_f76",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A group of electrically altered ghouls associated with Vault 63 and Skyline Valley."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lost_f76.a",
+    "subjectId": "ent.lost_f76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hugo_stolz"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.lost_f76.b",
+    "subjectId": "ent.lost_f76",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.hugo_stolz.role",
+    "subjectId": "ent.hugo_stolz",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The Vault 63 overseer whose family, experiments and ambitions drive the Skyline Valley story."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.hugo_stolz.a",
+    "subjectId": "ent.hugo_stolz",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.lost_f76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.hugo_stolz.b",
+    "subjectId": "ent.hugo_stolz",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vault_tec"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.burning_springs.role",
+    "subjectId": "ent.burning_springs",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-nuclear Ohio region added to Fallout 76 in the December 2025 update."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.burning_springs.a",
+    "subjectId": "ent.burning_springs",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.highway_town"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.burning_springs.b",
+    "subjectId": "ent.burning_springs",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.resident_76"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.highway_town.role",
+    "subjectId": "ent.highway_town",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A central settlement in Burning Springs and hub for bounty hunting."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.highway_town.a",
+    "subjectId": "ent.highway_town",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.burning_springs"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.highway_town.b",
+    "subjectId": "ent.highway_town",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.appalachia"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rust_king.role",
+    "subjectId": "ent.rust_king",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A super mutant warlord who rules part of Burning Springs and anchors its released storyline."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "explicit",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rust_king.a",
+    "subjectId": "ent.rust_king",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.burning_springs"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.rust_king.b",
+    "subjectId": "ent.rust_king",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.scorched"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

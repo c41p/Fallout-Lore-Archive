@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ent.robco",
+    "summary": "A major pre-War technology corporation founded by Robert House and associated with computers, robots and automation.",
+    "description": "A major pre-War technology corporation founded by Robert House and associated with computers, robots and automation.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The RobCo Industries record gathers the pre-War background and institutions needed to understand its franchise role."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.robco.role"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house",
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "A major pre-War technology corporation founded by Robert House and associated with computers, robots and automation. Its connections link technological and political history across multiple regions and works."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.robco.a"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Specific dates, models and political interpretations remain scoped to the sources that establish them."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.robco.b"
+        ],
+        "relatedEntityIds": [
+          "ent.modus"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true,
+    "type": "organisation",
+    "subtype": "corporation",
+    "displayName": "RobCo Industries"
+  },
+  {
+    "id": "ent.resource_wars",
+    "summary": "The series of international conflicts over dwindling resources that destabilised the pre-War world before 2077.",
+    "description": "The series of international conflicts over dwindling resources that destabilised the pre-War world before 2077.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Resource Wars record gathers the pre-War background and institutions needed to understand its franchise role."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.resource_wars.role"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states",
+          "ent.great_war"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Historical development",
+        "paragraphs": [
+          "The series of international conflicts over dwindling resources that destabilised the pre-War world before 2077. Its connections link technological and political history across multiple regions and works."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.resource_wars.a"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and uncertainty",
+        "paragraphs": [
+          "Specific dates, models and political interpretations remain scoped to the sources that establish them."
+        ],
+        "assertionIds": [
+          "asrt.fr.theme.resource_wars.b"
+        ],
+        "relatedEntityIds": [
+          "ent.new_plague"
+        ]
+      }
+    ],
+    "tags": [
+      "franchise-theme",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true,
+    "type": "event",
+    "subtype": "historical_period",
+    "displayName": "Resource Wars"
+  }
+]
