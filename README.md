@@ -18,6 +18,12 @@ The archive contains 76 records. Its first depth-first, research-quality cluster
 
 ## Prerequisites
 
+Check and optionally install all Windows prerequisites from PowerShell (the script always asks before installing anything):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\setup-windows.ps1
+```
+
 - Windows 10 or 11.
 - Node.js 20 or newer and pnpm 11.
 - SQLite 3 with FTS5 available on `PATH` for rebuilding lore data.
