@@ -1,0 +1,17 @@
+[
+{"id":"ev.f1.time.001","targetId":"asrt.f1.time.water_crisis","sourceItemId":"src.fallout.overseer_initial","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.002","targetId":"asrt.f1.time.tandi_kidnapping","sourceItemId":"src.fallout.garl","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.003","targetId":"asrt.f1.time.junktown_conflict","sourceItemId":"src.fallout.gizmo_lars","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.004","targetId":"asrt.f1.time.far_go","sourceItemId":"src.fallout.far_go","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.005","targetId":"asrt.f1.time.chip_return","sourceItemId":"src.fallout.overseer_post_chip","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.006","targetId":"asrt.f1.time.necropolis_water","sourceItemId":"src.fallout.necropolis_water","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.007","targetId":"asrt.f1.time.adytum_uprising","sourceItemId":"src.fallout.razor","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.008","targetId":"asrt.f1.time.deathclaw_nest","sourceItemId":"src.fallout.gabriel","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.009","targetId":"asrt.f1.time.brotherhood_initiation","sourceItemId":"src.fallout.brotherhood_2161","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.010","targetId":"asrt.f1.time.brotherhood_threat","sourceItemId":"src.fallout.brotherhood_2161","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.011","targetId":"asrt.f1.time.followers_infiltration","sourceItemId":"src.fallout.followers_infiltration","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.012","targetId":"asrt.f1.time.mariposa_vats","sourceItemId":"src.fallout.main_ending","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.013","targetId":"asrt.f1.time.master_confrontation","sourceItemId":"src.fallout.master_persuasion","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.014","targetId":"asrt.f1.time.cathedral_destruction","sourceItemId":"src.fallout.main_ending","role":"supports","directness":"explicit"},
+{"id":"ev.f1.time.015","targetId":"asrt.f1.time.dweller_exile","sourceItemId":"src.fallout.final_exile","role":"supports","directness":"explicit"}
+]

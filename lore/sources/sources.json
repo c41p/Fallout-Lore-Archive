@@ -1,11 +1,11 @@
 {
   "sourceWorks": [
-    {"id":"work.fallout","title":"Fallout","workType":"game","releaseDate":"1997-10-10","materialStatus":"released","continuityClassification":"games_primary"},
-    {"id":"work.fallout_2","title":"Fallout 2","workType":"game","releaseDate":"1998-10-29","materialStatus":"released","continuityClassification":"games_primary"},
-    {"id":"work.fallout_3","title":"Fallout 3","workType":"game","releaseDate":"2008-10-28","materialStatus":"released","continuityClassification":"games_primary"},
-    {"id":"work.new_vegas","title":"Fallout: New Vegas","workType":"game","releaseDate":"2010-10-19","materialStatus":"released","continuityClassification":"games_primary"},
-    {"id":"work.fallout_4","title":"Fallout 4","workType":"game","releaseDate":"2015-11-10","materialStatus":"released","continuityClassification":"games_primary"},
-    {"id":"work.fallout_76","title":"Fallout 76","workType":"game","releaseDate":"2018-11-14","materialStatus":"released","continuityClassification":"games_primary"}
+    {"id":"work.fallout","title":"Fallout","workType":"game","releaseDate":"1997-10-10","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout","description":"The original 1997 role-playing game follows a Vault 13 resident through the settlements of southern California and into conflict with the Unity.","featuredEntityIds":["ent.vault_dweller","ent.vault_13","ent.shady_sands","ent.junktown","ent.the_hub","ent.necropolis","ent.boneyard","ent.brotherhood","ent.unity","ent.master","ent.cathedral","ent.mariposa","ent.fev"]},
+    {"id":"work.fallout_2","title":"Fallout 2","workType":"game","releaseDate":"1998-10-29","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout-2","description":"The 1998 sequel follows the Chosen One through a later California shaped by the first game's people, settlements and conditional history."},
+    {"id":"work.fallout_3","title":"Fallout 3","workType":"game","releaseDate":"2008-10-28","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout-3","description":"The 2008 game explores the Capital Wasteland and an eastern Brotherhood presence; its archive index remains a prototype layer."},
+    {"id":"work.new_vegas","title":"Fallout: New Vegas","workType":"game","releaseDate":"2010-10-19","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout-new-vegas","description":"The 2010 game centres on the Mojave and the struggle surrounding Hoover Dam; current records form a representative cluster."},
+    {"id":"work.fallout_4","title":"Fallout 4","workType":"game","releaseDate":"2015-11-10","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout-4","description":"The 2015 game explores the Commonwealth and later institutional histories; selected cross-franchise evidence is indexed."},
+    {"id":"work.fallout_76","title":"Fallout 76","workType":"game","releaseDate":"2018-11-14","materialStatus":"released","continuityClassification":"games_primary","slug":"fallout-76","description":"The 2018 game supplies early post-War records, including substantial evidence about Roger Maxson and the first Brotherhood network."}
   ],
   "sourceItems": [
     {"id":"src.fallout.maxson_history","workId":"work.fallout","sourceType":"holodisk","title":"Maxson's History","locator":"Brotherhood archive holodisk entries","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},

@@ -48,4 +48,24 @@ describe("SQLite compiler", () => {
     expect(query("SELECT geometry_kind FROM spatial_representations WHERE place_id='ent.lost_hills';").stdout).toContain("approximate_point");
     expect(query("SELECT id FROM disputes WHERE id='dispute.jet_origin';").stdout).toContain("dispute.jet_origin");
   });
+  it("compiles the Fallout 1 work index and rich corpus", () => {
+    const appearances = query("SELECT count(DISTINCT entity_id) count FROM appearances WHERE work_id='work.fallout';");
+    expect(JSON.parse(appearances.stdout)[0].count).toBeGreaterThan(100);
+    const master = query("SELECT id FROM entity_fts WHERE entity_fts MATCH '\"Richard Grey\"';");
+    expect(master.stdout).toContain("ent.master");
+    const sources = query("SELECT count(*) count FROM source_items WHERE work_id='work.fallout';");
+    expect(JSON.parse(sources.stdout)[0].count).toBeGreaterThan(40);
+  });
+  it("preserves conditional outcomes as graph assertions", () => {
+    const branches = query("SELECT count(*) count FROM outcome_assertions WHERE group_id='outcome.f1.shady';");
+    expect(JSON.parse(branches.stdout)[0].count).toBe(3);
+    const condition = query("SELECT condition_set_id FROM assertions WHERE id='asrt.f1.outcome.shady_ncr';");
+    expect(condition.stdout).toContain("cond.f1.shady_ncr");
+  });
+  it("adds a dense Fallout 1 chronology without false day precision", () => {
+    const dated = query("SELECT count(*) count FROM assertions a JOIN appearances ap ON ap.entity_id=a.subject_id WHERE ap.work_id='work.fallout' AND a.sort_key IS NOT NULL;");
+    expect(JSON.parse(dated.stdout)[0].count).toBeGreaterThan(15);
+    const variable = query("SELECT object_json FROM assertions WHERE id='asrt.f1.time.mariposa_vats';");
+    expect(variable.stdout).toContain("order and date vary");
+  });
 });

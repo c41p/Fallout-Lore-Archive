@@ -11,20 +11,37 @@ function readJson<T>(relativePath: string): T {
   return JSON.parse(fs.readFileSync(path.join(root, relativePath), "utf8")) as T;
 }
 
+function readArrayShards<T>(directory: string): T[] {
+  const absolute = path.join(root, directory);
+  if (!fs.existsSync(absolute)) return [];
+  return fs.readdirSync(absolute).filter((name) => name.endsWith(".json")).sort().flatMap((name) => readJson<T[]>(path.join(directory, name)));
+}
+
 export function loadDataset(): LoreDataset {
   const sources = readJson<Pick<LoreDataset, "sourceWorks" | "sourceItems">>("lore/sources/sources.json");
+  const falloutSources = readJson<Pick<LoreDataset, "sourceWorks" | "sourceItems">>("lore/fallout1/sources.json");
+  const entityOverrides = readJson<Array<Partial<Entity> & Pick<Entity, "id">>>("lore/fallout1/entity-overrides.json");
+  const baseEntities = [...readJson<Entity[]>("lore/entities/entities.json"), ...readArrayShards<Entity>("lore/fallout1/entities")];
+  const entities = baseEntities.map((entity) => {
+    const override = entityOverrides.find((candidate) => candidate.id === entity.id);
+    if (!override) return entity;
+    const articleSections = [...(entity.articleSections ?? []), ...(override.articleSections ?? [])];
+    return { ...entity, ...override, articleSections, tags: [...new Set([...(entity.tags ?? []), ...(override.tags ?? [])])] };
+  });
   return {
     schemaVersion: "0.1",
-    entities: readJson("lore/entities/entities.json"),
-    names: readJson("lore/names/names.json"),
+    entities,
+    names: [...readJson<LoreDataset["names"]>("lore/names/names.json"), ...readArrayShards<LoreDataset["names"][number]>("lore/fallout1/names")],
     predicates: readJson("lore/vocabularies/predicates.json"),
-    assertions: readJson("lore/assertions/assertions.json"),
-    sourceWorks: sources.sourceWorks,
-    sourceItems: sources.sourceItems,
-    evidenceLinks: readJson("lore/evidence/evidence.json"),
-    spatialRepresentations: readJson("lore/spatial/spatial.json"),
-    appearances: readJson("lore/appearances/appearances.json"),
-    disputes: readJson("lore/disputes/disputes.json")
+    assertions: [...readJson<Assertion[]>("lore/assertions/assertions.json"), ...readArrayShards<Assertion>("lore/fallout1/assertions")],
+    sourceWorks: [...sources.sourceWorks, ...falloutSources.sourceWorks],
+    sourceItems: [...sources.sourceItems, ...falloutSources.sourceItems],
+    evidenceLinks: [...readJson<LoreDataset["evidenceLinks"]>("lore/evidence/evidence.json"), ...readArrayShards<LoreDataset["evidenceLinks"][number]>("lore/fallout1/evidence")],
+    spatialRepresentations: [...readJson<LoreDataset["spatialRepresentations"]>("lore/spatial/spatial.json"), ...readArrayShards<LoreDataset["spatialRepresentations"][number]>("lore/fallout1/spatial")],
+    appearances: [...readJson<LoreDataset["appearances"]>("lore/appearances/appearances.json"), ...readArrayShards<LoreDataset["appearances"][number]>("lore/fallout1/appearances")],
+    disputes: [...readJson<LoreDataset["disputes"]>("lore/disputes/disputes.json"), ...readArrayShards<LoreDataset["disputes"][number]>("lore/fallout1/disputes")],
+    conditionSets: readArrayShards("lore/fallout1/conditions"),
+    outcomeGroups: readArrayShards("lore/fallout1/outcomes")
   };
 }
 
@@ -36,7 +53,8 @@ function idIndex(dataset: LoreDataset): Map<string, string> {
     ["entity", dataset.entities], ["name", dataset.names], ["predicate", dataset.predicates],
     ["assertion", dataset.assertions], ["source work", dataset.sourceWorks], ["source item", dataset.sourceItems],
     ["evidence link", dataset.evidenceLinks], ["spatial representation", dataset.spatialRepresentations],
-    ["appearance", dataset.appearances], ["dispute", dataset.disputes]
+    ["appearance", dataset.appearances], ["dispute", dataset.disputes],
+    ["condition set", dataset.conditionSets], ["outcome group", dataset.outcomeGroups]
   ];
   const index = new Map<string, string>();
   for (const [family, values] of records) {
@@ -86,6 +104,7 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
   const assertions = new Set(dataset.assertions.map((assertion) => assertion.id));
   const works = new Set(dataset.sourceWorks.map((work) => work.id));
   const items = new Set(dataset.sourceItems.map((item) => item.id));
+  const conditions = new Set(dataset.conditionSets.map((condition) => condition.id));
 
   for (const name of dataset.names) if (!entityIds.has(name.entityId)) errors.push(`${name.id}: missing entity ${name.entityId}`);
   const namesByEntity = new Map<string, Set<string>>();
@@ -125,6 +144,7 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
     if (assertion.object.text && predicate && !(predicate.objectTypes as string[]).includes("text")) errors.push(`${assertion.id}: text object is not allowed for ${predicate.id}`);
     checkTemporal(assertion.object.temporal, `${assertion.id}.object.temporal`, entityIds, errors);
     checkTemporal(assertion.validTime, `${assertion.id}.validTime`, entityIds, errors);
+    if (assertion.conditionSetId && !conditions.has(assertion.conditionSetId)) errors.push(`${assertion.id}: missing condition set ${assertion.conditionSetId}`);
     if (assertion.validTime && predicate && !predicate.temporalAllowed && assertion.object.entityId) warnings.push(`${assertion.id}: predicate ${predicate.id} does not explicitly declare temporal applicability`);
   }
   for (const item of dataset.sourceItems) {
@@ -152,6 +172,12 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
     for (const assertionId of dispute.assertionIds) if (!assertions.has(assertionId)) errors.push(`${dispute.id}: missing assertion ${assertionId}`);
     for (const entityId of dispute.topicEntityIds) if (!entityIds.has(entityId)) errors.push(`${dispute.id}: missing topic entity ${entityId}`);
   }
+  for (const group of dataset.outcomeGroups) {
+    for (const assertionId of group.assertionIds) if (!assertions.has(assertionId)) errors.push(`${group.id}: missing outcome assertion ${assertionId}`);
+    for (const entityId of group.topicEntityIds) if (!entityIds.has(entityId)) errors.push(`${group.id}: missing outcome topic ${entityId}`);
+    for (const assertionId of group.assertionIds) if (!dataset.assertions.find((assertion) => assertion.id === assertionId)?.conditionSetId) errors.push(`${group.id}: outcome assertion ${assertionId} has no condition set`);
+  }
+  for (const work of dataset.sourceWorks) for (const entityId of work.featuredEntityIds ?? []) if (!entityIds.has(entityId)) errors.push(`${work.id}: missing featured entity ${entityId}`);
 
   const relativeEdges = new Map<string, string[]>();
   for (const assertion of dataset.assertions) {
@@ -174,7 +200,7 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
 }
 
 function normalizeAssertion(assertion: Assertion): string {
-  return JSON.stringify({ subjectId: assertion.subjectId, predicateId: assertion.predicateId, object: assertion.object, validTime: assertion.validTime, continuityScope: assertion.continuityScope });
+  return JSON.stringify({ subjectId: assertion.subjectId, predicateId: assertion.predicateId, object: assertion.object, validTime: assertion.validTime, continuityScope: assertion.continuityScope, conditionSetId: assertion.conditionSetId });
 }
 
 export function analyseContentQuality(dataset: LoreDataset): QualityReport {
@@ -191,8 +217,8 @@ export function analyseContentQuality(dataset: LoreDataset): QualityReport {
     if (previous) errors.push(`${assertion.id}: suspicious duplicate of ${previous}`); else assertionKeys.set(key, assertion.id);
   }
   for (const entity of dataset.entities) {
-    const backed = dataset.assertions.some((assertion) => assertion.subjectId === entity.id && evidenceTargets.has(assertion.id));
-    if (!backed) warnings.push(`${entity.id}: entity has no source-backed subject assertion`);
+    const backed = dataset.assertions.some((assertion) => (assertion.subjectId === entity.id || assertion.object.entityId === entity.id) && evidenceTargets.has(assertion.id));
+    if (!backed) warnings.push(`${entity.id}: entity has no source-backed assertion`);
     if (!linkedEntities.has(entity.id)) warnings.push(`${entity.id}: entity is orphaned from the relationship graph`);
     if (entity.articleTier === "major" && (entity.articleSections?.length ?? 0) < 3) errors.push(`${entity.id}: major entity needs at least three article sections`);
   }
@@ -200,7 +226,9 @@ export function analyseContentQuality(dataset: LoreDataset): QualityReport {
     if (!dataset.assertions.some((assertion) => assertion.subjectId === event.id && assertion.object.temporal)) warnings.push(`${event.id}: timeline event lacks temporal information`);
   }
   for (const spatial of dataset.spatialRepresentations) if (!spatial.precision || !spatial.basis) errors.push(`${spatial.id}: mapped place lacks precision or basis metadata`);
-  return { errors, warnings, metrics: { entities: dataset.entities.length, majorEntities: dataset.entities.filter((e) => e.articleTier === "major").length, assertions: dataset.assertions.length, sourcedAssertions: evidenceTargets.size, orphanedEntities: dataset.entities.filter((e) => !linkedEntities.has(e.id)).length } };
+  const falloutEntityIds = new Set(dataset.appearances.filter((appearance) => appearance.workId === "work.fallout").map((appearance) => appearance.entityId));
+  const falloutAssertionIds = new Set(dataset.assertions.filter((assertion) => falloutEntityIds.has(assertion.subjectId)).map((assertion) => assertion.id));
+  return { errors, warnings, metrics: { entities: dataset.entities.length, majorEntities: dataset.entities.filter((e) => e.articleTier === "major").length, assertions: dataset.assertions.length, sourcedAssertions: evidenceTargets.size, orphanedEntities: dataset.entities.filter((e) => !linkedEntities.has(e.id)).length, falloutEntities: falloutEntityIds.size, falloutAssertions: falloutAssertionIds.size, sourcedFalloutAssertions: [...falloutAssertionIds].filter((id) => evidenceTargets.has(id)).length, conditionSets: dataset.conditionSets.length, outcomeGroups: dataset.outcomeGroups.length } };
 }
 
 function temporalSortKey(value?: TemporalValue): number | null {
@@ -221,7 +249,8 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
     CREATE TABLE entities (id TEXT PRIMARY KEY, type TEXT NOT NULL, subtype TEXT NOT NULL, display_name TEXT NOT NULL, summary TEXT NOT NULL, description TEXT, article_tier TEXT, article_json TEXT NOT NULL, tags_json TEXT NOT NULL, status TEXT NOT NULL, featured INTEGER NOT NULL DEFAULT 0);
     CREATE TABLE names (id TEXT PRIMARY KEY, entity_id TEXT NOT NULL REFERENCES entities(id), name TEXT NOT NULL, kind TEXT NOT NULL, preferred INTEGER NOT NULL DEFAULT 0);
     CREATE TABLE predicates (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
-    CREATE TABLE assertions (id TEXT PRIMARY KEY, subject_id TEXT NOT NULL REFERENCES entities(id), predicate_id TEXT NOT NULL REFERENCES predicates(id), object_entity_id TEXT REFERENCES entities(id), object_json TEXT NOT NULL, mode TEXT NOT NULL, epistemic_status TEXT NOT NULL, valid_time_json TEXT, sort_key INTEGER, continuity_json TEXT NOT NULL, notes TEXT);
+    CREATE TABLE condition_sets (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
+    CREATE TABLE assertions (id TEXT PRIMARY KEY, subject_id TEXT NOT NULL REFERENCES entities(id), predicate_id TEXT NOT NULL REFERENCES predicates(id), object_entity_id TEXT REFERENCES entities(id), object_json TEXT NOT NULL, mode TEXT NOT NULL, epistemic_status TEXT NOT NULL, valid_time_json TEXT, sort_key INTEGER, continuity_json TEXT NOT NULL, condition_set_id TEXT REFERENCES condition_sets(id), notes TEXT);
     CREATE TABLE source_works (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
     CREATE TABLE source_items (id TEXT PRIMARY KEY, work_id TEXT NOT NULL REFERENCES source_works(id), data_json TEXT NOT NULL);
     CREATE TABLE evidence_links (id TEXT PRIMARY KEY, target_id TEXT NOT NULL REFERENCES assertions(id), source_item_id TEXT NOT NULL REFERENCES source_items(id), data_json TEXT NOT NULL);
@@ -230,6 +259,9 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
     CREATE TABLE disputes (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
     CREATE TABLE dispute_assertions (dispute_id TEXT NOT NULL REFERENCES disputes(id), assertion_id TEXT NOT NULL REFERENCES assertions(id), PRIMARY KEY(dispute_id, assertion_id));
     CREATE TABLE dispute_topics (dispute_id TEXT NOT NULL REFERENCES disputes(id), entity_id TEXT NOT NULL REFERENCES entities(id), PRIMARY KEY(dispute_id, entity_id));
+    CREATE TABLE outcome_groups (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
+    CREATE TABLE outcome_assertions (group_id TEXT NOT NULL REFERENCES outcome_groups(id), assertion_id TEXT NOT NULL REFERENCES assertions(id), PRIMARY KEY(group_id, assertion_id));
+    CREATE TABLE outcome_topics (group_id TEXT NOT NULL REFERENCES outcome_groups(id), entity_id TEXT NOT NULL REFERENCES entities(id), PRIMARY KEY(group_id, entity_id));
     CREATE VIRTUAL TABLE entity_fts USING fts5(id UNINDEXED, display_name, aliases, summary, description, article, tags, tokenize='unicode61 remove_diacritics 2');
     CREATE INDEX idx_entities_type ON entities(type, display_name);
     CREATE INDEX idx_assertions_subject ON assertions(subject_id);
@@ -243,7 +275,8 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
   for (const e of dataset.entities) statements.push(`INSERT INTO entities VALUES (${quote(e.id)},${quote(e.type)},${quote(e.subtype)},${quote(e.displayName)},${quote(e.summary)},${quote(e.description)},${quote(e.articleTier)},${quote(JSON.stringify(e.articleSections ?? []))},${quote(JSON.stringify(e.tags))},${quote(e.recordStatus)},${e.featured ? 1 : 0});`);
   for (const n of dataset.names) statements.push(`INSERT INTO names VALUES (${quote(n.id)},${quote(n.entityId)},${quote(n.name)},${quote(n.kind)},${n.preferred ? 1 : 0});`);
   for (const p of dataset.predicates) statements.push(`INSERT INTO predicates VALUES (${quote(p.id)},${quote(JSON.stringify(p))});`);
-  for (const a of dataset.assertions) statements.push(`INSERT INTO assertions VALUES (${quote(a.id)},${quote(a.subjectId)},${quote(a.predicateId)},${quote(a.object.entityId)},${quote(JSON.stringify(a.object))},${quote(a.assertionMode)},${quote(a.epistemicStatus)},${quote(a.validTime ? JSON.stringify(a.validTime) : null)},${number(temporalSortKey(a.object.temporal))},${quote(JSON.stringify(a.continuityScope))},${quote(a.notes)});`);
+  for (const condition of dataset.conditionSets) statements.push(`INSERT INTO condition_sets VALUES (${quote(condition.id)},${quote(JSON.stringify(condition))});`);
+  for (const a of dataset.assertions) statements.push(`INSERT INTO assertions VALUES (${quote(a.id)},${quote(a.subjectId)},${quote(a.predicateId)},${quote(a.object.entityId)},${quote(JSON.stringify(a.object))},${quote(a.assertionMode)},${quote(a.epistemicStatus)},${quote(a.validTime ? JSON.stringify(a.validTime) : null)},${number(temporalSortKey(a.object.temporal))},${quote(JSON.stringify(a.continuityScope))},${quote(a.conditionSetId)},${quote(a.notes)});`);
   for (const w of dataset.sourceWorks) statements.push(`INSERT INTO source_works VALUES (${quote(w.id)},${quote(JSON.stringify(w))});`);
   for (const i of dataset.sourceItems) statements.push(`INSERT INTO source_items VALUES (${quote(i.id)},${quote(i.workId)},${quote(JSON.stringify(i))});`);
   for (const e of dataset.evidenceLinks) statements.push(`INSERT INTO evidence_links VALUES (${quote(e.id)},${quote(e.targetId)},${quote(e.sourceItemId)},${quote(JSON.stringify(e))});`);
@@ -253,6 +286,11 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
     statements.push(`INSERT INTO disputes VALUES (${quote(d.id)},${quote(JSON.stringify(d))});`);
     d.assertionIds.forEach((id) => statements.push(`INSERT INTO dispute_assertions VALUES (${quote(d.id)},${quote(id)});`));
     d.topicEntityIds.forEach((id) => statements.push(`INSERT INTO dispute_topics VALUES (${quote(d.id)},${quote(id)});`));
+  }
+  for (const group of dataset.outcomeGroups) {
+    statements.push(`INSERT INTO outcome_groups VALUES (${quote(group.id)},${quote(JSON.stringify(group))});`);
+    group.assertionIds.forEach((id) => statements.push(`INSERT INTO outcome_assertions VALUES (${quote(group.id)},${quote(id)});`));
+    group.topicEntityIds.forEach((id) => statements.push(`INSERT INTO outcome_topics VALUES (${quote(group.id)},${quote(id)});`));
   }
   const aliases = new Map<string, string[]>();
   dataset.names.forEach((n) => aliases.set(n.entityId, [...(aliases.get(n.entityId) ?? []), n.name]));
