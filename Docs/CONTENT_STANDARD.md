@@ -63,3 +63,15 @@ pnpm lore:build
 ```
 
 Treat quality warnings as an editorial backlog. Resolve warnings in the cluster being changed; do not fabricate assertions merely to make the warning count zero.
+
+## Conditional and player-dependent history
+
+Player choices and ending slides must not be flattened into unconditional chronology. Put a branch-qualified assertion in a reusable `ConditionSet`, then collect mutually exclusive assertions in an `OutcomeGroup` attached to the affected topic records. Shared successful-route facts may use one successful-route condition, while incompatible local endings require separate conditions in a common `mutuallyExclusiveGroup`.
+
+Dates controlled by player travel should retain only justified precision. A label such as “during the Vault Dweller's 2161 journey; exact date varies” is preferable to manufacturing a day. Technical dates from executable behaviour must identify that evidentiary class instead of masquerading as dialogue or narrative text.
+
+## Game-sized ingestion
+
+A game ingestion reuses existing cross-work entity IDs, adds one appearance edge per relevant work, and supplies a work profile with a stable slug, description and curated featured entities. The resulting game page should expose a typed record index, primary-source locators and links to work-filtered browse, timeline and map views.
+
+SourceItems remain metadata and precise locators; they do not reproduce dialogue trees, scripts or terminal text. Conditions and work associations are generic archive concepts, not game-specific database columns.

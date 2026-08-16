@@ -8,7 +8,7 @@ struct DatabasePath(Mutex<PathBuf>);
 
 #[derive(Default, Deserialize)]
 #[serde(rename_all = "camelCase")]
-struct SearchFilters { entity_type: Option<String> }
+struct SearchFilters { entity_type: Option<String>, work_id: Option<String> }
 
 fn open_db(state: &State<DatabasePath>) -> Result<Connection, String> {
     let path = state.0.lock().map_err(|_| "Database path lock was poisoned".to_string())?.clone();
@@ -41,13 +41,14 @@ fn evidence_for(db: &Connection, assertion_id: &str) -> Result<Vec<Value>, Strin
 }
 
 fn assertion_view(db: &Connection, assertion_id: &str) -> Result<Value, String> {
-    let (subject_id, predicate_json, object_json, mode, status, valid_time, continuity, notes, object_entity_id): (String,String,String,String,String,Option<String>,String,Option<String>,Option<String>) = db.query_row(
-        "SELECT a.subject_id,p.data_json,a.object_json,a.mode,a.epistemic_status,a.valid_time_json,a.continuity_json,a.notes,a.object_entity_id FROM assertions a JOIN predicates p ON p.id=a.predicate_id WHERE a.id=?1", [assertion_id],
-        |r| Ok((r.get(0)?,r.get(1)?,r.get(2)?,r.get(3)?,r.get(4)?,r.get(5)?,r.get(6)?,r.get(7)?,r.get(8)?))
+    let (subject_id, predicate_json, object_json, mode, status, valid_time, continuity, notes, object_entity_id, condition_set_id): (String,String,String,String,String,Option<String>,String,Option<String>,Option<String>,Option<String>) = db.query_row(
+        "SELECT a.subject_id,p.data_json,a.object_json,a.mode,a.epistemic_status,a.valid_time_json,a.continuity_json,a.notes,a.object_entity_id,a.condition_set_id FROM assertions a JOIN predicates p ON p.id=a.predicate_id WHERE a.id=?1", [assertion_id],
+        |r| Ok((r.get(0)?,r.get(1)?,r.get(2)?,r.get(3)?,r.get(4)?,r.get(5)?,r.get(6)?,r.get(7)?,r.get(8)?,r.get(9)?))
     ).map_err(|e| e.to_string())?;
-    let assertion = json!({ "id": assertion_id, "subjectId": subject_id, "predicateId": parse(predicate_json.clone())?["id"], "object": parse(object_json)?, "assertionMode": mode, "epistemicStatus": status, "validTime": valid_time.map(parse).transpose()?, "continuityScope": parse(continuity)?, "notes": notes });
+    let assertion = json!({ "id": assertion_id, "subjectId": subject_id, "predicateId": parse(predicate_json.clone())?["id"], "object": parse(object_json)?, "assertionMode": mode, "epistemicStatus": status, "validTime": valid_time.map(parse).transpose()?, "continuityScope": parse(continuity)?, "conditionSetId": condition_set_id, "notes": notes });
     let object_entity = object_entity_id.map(|id| get_entity_record(db, &id)).transpose()?.flatten();
-    Ok(json!({ "assertion": assertion, "predicate": parse(predicate_json)?, "objectEntity": object_entity, "evidence": evidence_for(db, assertion_id)? }))
+    let condition_set = condition_set_id.map(|condition_id| db.query_row("SELECT data_json FROM condition_sets WHERE id=?1", [condition_id], |row| row.get::<_,String>(0)).optional()).transpose().map_err(|e| e.to_string())?.flatten().map(parse).transpose()?;
+    Ok(json!({ "assertion": assertion, "predicate": parse(predicate_json)?, "objectEntity": object_entity, "conditionSet": condition_set, "evidence": evidence_for(db, assertion_id)? }))
 }
 
 #[tauri::command]
@@ -56,16 +57,16 @@ fn search_entities(state: State<DatabasePath>, query: String, filters: SearchFil
     let tokens: Vec<String> = query.split_whitespace().map(|word| word.chars().filter(|c| c.is_alphanumeric()).collect::<String>()).filter(|word| !word.is_empty()).map(|word| format!("{word}*")).collect();
     if tokens.is_empty() { return list_entities(state, filters); }
     let match_query = tokens.join(" ");
-    let mut statement = db.prepare("SELECT e.*, bm25(entity_fts, 0.0, 5.0, 3.0, 1.5, 1.0, 0.45, 1.0) rank, snippet(entity_fts, 5, '', '', ' … ', 24) match_snippet, COALESCE(group_concat(n.name, '||'),'') aliases, CASE WHEN lower(e.display_name)=lower(?3) THEN 0 WHEN EXISTS (SELECT 1 FROM names exact_name WHERE exact_name.entity_id=e.id AND lower(exact_name.name)=lower(?3)) THEN 1 ELSE 2 END exactness, CASE WHEN lower(e.display_name) LIKE lower(?3)||'%' THEN 'name' WHEN EXISTS (SELECT 1 FROM names matching_name WHERE matching_name.entity_id=e.id AND lower(matching_name.name)=lower(?3)) THEN 'alias' ELSE 'article' END match_field FROM entity_fts JOIN entities e ON e.id=entity_fts.id LEFT JOIN names n ON n.entity_id=e.id WHERE entity_fts MATCH ?1 AND (?2 IS NULL OR e.type=?2) GROUP BY e.id ORDER BY exactness, rank, e.display_name LIMIT 100").map_err(|e| e.to_string())?;
-    let rows = statement.query_map(params![match_query, filters.entity_type, query.trim()], |row| { let mut entity = entity_from_row(row)?; entity["rank"] = json!(row.get::<_, f64>("rank")?); entity["matchSnippet"] = json!(row.get::<_, String>("match_snippet")?); entity["matchField"] = json!(row.get::<_, String>("match_field")?); entity["aliases"] = json!(row.get::<_, String>("aliases")?.split("||").filter(|s| !s.is_empty()).collect::<Vec<_>>()); Ok(entity) }).map_err(|e| e.to_string())?;
+    let mut statement = db.prepare("SELECT e.*, bm25(entity_fts, 0.0, 5.0, 3.0, 1.5, 1.0, 0.45, 1.0) rank, snippet(entity_fts, 5, '', '', ' … ', 24) match_snippet, COALESCE(group_concat(n.name, '||'),'') aliases, CASE WHEN lower(e.display_name)=lower(?3) THEN 0 WHEN EXISTS (SELECT 1 FROM names exact_name WHERE exact_name.entity_id=e.id AND lower(exact_name.name)=lower(?3)) THEN 1 ELSE 2 END exactness, CASE WHEN lower(e.display_name) LIKE lower(?3)||'%' THEN 'name' WHEN EXISTS (SELECT 1 FROM names matching_name WHERE matching_name.entity_id=e.id AND lower(matching_name.name)=lower(?3)) THEN 'alias' ELSE 'article' END match_field FROM entity_fts JOIN entities e ON e.id=entity_fts.id LEFT JOIN names n ON n.entity_id=e.id WHERE entity_fts MATCH ?1 AND (?2 IS NULL OR e.type=?2) AND (?4 IS NULL OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=e.id AND ap.work_id=?4)) GROUP BY e.id ORDER BY exactness, rank, e.display_name LIMIT 100").map_err(|e| e.to_string())?;
+    let rows = statement.query_map(params![match_query, filters.entity_type, query.trim(), filters.work_id], |row| { let mut entity = entity_from_row(row)?; entity["rank"] = json!(row.get::<_, f64>("rank")?); entity["matchSnippet"] = json!(row.get::<_, String>("match_snippet")?); entity["matchField"] = json!(row.get::<_, String>("match_field")?); entity["aliases"] = json!(row.get::<_, String>("aliases")?.split("||").filter(|s| !s.is_empty()).collect::<Vec<_>>()); Ok(entity) }).map_err(|e| e.to_string())?;
     rows.map(|r| r.map_err(|e| e.to_string())).collect()
 }
 
 #[tauri::command]
 fn list_entities(state: State<DatabasePath>, filters: SearchFilters) -> Result<Vec<Value>, String> {
     let db = open_db(&state)?;
-    let mut statement = db.prepare("SELECT e.*, COALESCE(group_concat(n.name, '||'),'') aliases FROM entities e LEFT JOIN names n ON n.entity_id=e.id WHERE (?1 IS NULL OR e.type=?1) GROUP BY e.id ORDER BY e.display_name").map_err(|e| e.to_string())?;
-    let rows = statement.query_map([filters.entity_type], |row| { let mut entity = entity_from_row(row)?; entity["aliases"] = json!(row.get::<_, String>("aliases")?.split("||").filter(|s| !s.is_empty()).collect::<Vec<_>>()); Ok(entity) }).map_err(|e| e.to_string())?;
+    let mut statement = db.prepare("SELECT e.*, COALESCE(group_concat(n.name, '||'),'') aliases FROM entities e LEFT JOIN names n ON n.entity_id=e.id WHERE (?1 IS NULL OR e.type=?1) AND (?2 IS NULL OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=e.id AND ap.work_id=?2)) GROUP BY e.id ORDER BY e.display_name").map_err(|e| e.to_string())?;
+    let rows = statement.query_map(params![filters.entity_type, filters.work_id], |row| { let mut entity = entity_from_row(row)?; entity["aliases"] = json!(row.get::<_, String>("aliases")?.split("||").filter(|s| !s.is_empty()).collect::<Vec<_>>()); Ok(entity) }).map_err(|e| e.to_string())?;
     rows.map(|r| r.map_err(|e| e.to_string())).collect()
 }
 
@@ -77,18 +78,38 @@ fn get_featured_entities(state: State<DatabasePath>) -> Result<Vec<Value>, Strin
 }
 
 #[tauri::command]
+fn list_games(state: State<DatabasePath>) -> Result<Vec<Value>, String> {
+    let db = open_db(&state)?;
+    let mut statement = db.prepare("SELECT data_json FROM source_works WHERE json_extract(data_json,'$.workType') IN ('game','video_game') AND json_extract(data_json,'$.slug') IS NOT NULL ORDER BY json_extract(data_json,'$.releaseDate')").map_err(|e| e.to_string())?;
+    let games = statement.query_map([], |row| row.get::<_, String>(0)).map_err(|e| e.to_string())?.map(|row| parse(row.map_err(|e| e.to_string())?)).collect();
+    games
+}
+
+#[tauri::command]
+fn get_game_profile(state: State<DatabasePath>, slug: String) -> Result<Option<Value>, String> {
+    let db = open_db(&state)?;
+    let Some((work_id, work_json)): Option<(String,String)> = db.query_row("SELECT id,data_json FROM source_works WHERE json_extract(data_json,'$.slug')=?1", [&slug], |row| Ok((row.get(0)?, row.get(1)?))).optional().map_err(|e| e.to_string())? else { return Ok(None) };
+    let mut entity_stmt = db.prepare("SELECT e.* FROM appearances a JOIN entities e ON e.id=a.entity_id WHERE a.work_id=?1 ORDER BY e.display_name").map_err(|e| e.to_string())?;
+    let entities: Vec<Value> = entity_stmt.query_map([&work_id], entity_from_row).map_err(|e| e.to_string())?.map(|row| row.map_err(|e| e.to_string())).collect::<Result<_,_>>()?;
+    let mut item_stmt = db.prepare("SELECT data_json FROM source_items WHERE work_id=?1 ORDER BY id").map_err(|e| e.to_string())?;
+    let source_items: Vec<Value> = item_stmt.query_map([&work_id], |row| row.get::<_,String>(0)).map_err(|e| e.to_string())?.map(|row| parse(row.map_err(|e| e.to_string())?)).collect::<Result<_,_>>()?;
+    let mut counts = serde_json::Map::new();
+    for entity in &entities { if let Some(kind) = entity["type"].as_str() { *counts.entry(kind.to_string()).or_insert(json!(0)) = json!(counts.get(kind).and_then(Value::as_i64).unwrap_or(0) + 1); } }
+    Ok(Some(json!({"work":parse(work_json)?,"entities":entities,"sourceItems":source_items,"counts":counts})))
+}
+
+#[tauri::command]
 fn get_timeline(state: State<DatabasePath>, filters: SearchFilters) -> Result<Vec<Value>, String> {
     let db = open_db(&state)?;
-    let mut statement = db.prepare("SELECT e.*, a.object_json, a.epistemic_status, (SELECT count(*) FROM evidence_links ev WHERE ev.target_id=a.id) evidence_count FROM assertions a JOIN entities e ON e.id=a.subject_id WHERE a.sort_key IS NOT NULL AND (?1 IS NULL OR e.type=?1) ORDER BY a.sort_key,e.display_name").map_err(|e| e.to_string())?;
-    let rows = statement.query_map([filters.entity_type], |row| { let object: Value = serde_json::from_str(&row.get::<_, String>("object_json")?).unwrap_or(json!({})); Ok(json!({ "entity": entity_from_row(row)?, "temporal": object["temporal"].clone(), "epistemicStatus": row.get::<_, String>("epistemic_status")?, "evidenceCount": row.get::<_, i64>("evidence_count")? })) }).map_err(|e| e.to_string())?;
+    let mut statement = db.prepare("SELECT e.*, a.object_json, a.epistemic_status, (SELECT count(*) FROM evidence_links ev WHERE ev.target_id=a.id) evidence_count FROM assertions a JOIN entities e ON e.id=a.subject_id WHERE a.sort_key IS NOT NULL AND (?1 IS NULL OR e.type=?1) AND (?2 IS NULL OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=e.id AND ap.work_id=?2)) ORDER BY a.sort_key,e.display_name").map_err(|e| e.to_string())?;
+    let rows = statement.query_map(params![filters.entity_type, filters.work_id], |row| { let object: Value = serde_json::from_str(&row.get::<_, String>("object_json")?).unwrap_or(json!({})); Ok(json!({ "entity": entity_from_row(row)?, "temporal": object["temporal"].clone(), "epistemicStatus": row.get::<_, String>("epistemic_status")?, "evidenceCount": row.get::<_, i64>("evidence_count")? })) }).map_err(|e| e.to_string())?;
     rows.map(|r| r.map_err(|e| e.to_string())).collect()
 }
 
 #[tauri::command]
-fn get_map_locations(state: State<DatabasePath>, filters: Value) -> Result<Vec<Value>, String> {
-    let _ = filters;
-    let db = open_db(&state)?; let mut statement = db.prepare("SELECT e.*, s.data_json spatial_json FROM spatial_representations s JOIN entities e ON e.id=s.place_id ORDER BY e.display_name").map_err(|e| e.to_string())?;
-    let rows = statement.query_map([], |row| { let spatial: Value = serde_json::from_str(&row.get::<_, String>("spatial_json")?).unwrap_or(json!({})); Ok(json!({ "entity": entity_from_row(row)?, "spatial": spatial })) }).map_err(|e| e.to_string())?;
+fn get_map_locations(state: State<DatabasePath>, filters: SearchFilters) -> Result<Vec<Value>, String> {
+    let db = open_db(&state)?; let mut statement = db.prepare("SELECT e.*, s.data_json spatial_json FROM spatial_representations s JOIN entities e ON e.id=s.place_id WHERE (?1 IS NULL OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=e.id AND ap.work_id=?1)) ORDER BY e.display_name").map_err(|e| e.to_string())?;
+    let rows = statement.query_map([filters.work_id], |row| { let spatial: Value = serde_json::from_str(&row.get::<_, String>("spatial_json")?).unwrap_or(json!({})); Ok(json!({ "entity": entity_from_row(row)?, "spatial": spatial })) }).map_err(|e| e.to_string())?;
     rows.map(|r| r.map_err(|e| e.to_string())).collect()
 }
 
@@ -122,7 +143,10 @@ fn get_entity(state: State<DatabasePath>, id: String) -> Result<Option<Value>, S
     let mut dispute_stmt = db.prepare("SELECT d.data_json FROM disputes d JOIN dispute_topics t ON t.dispute_id=d.id WHERE t.entity_id=?1").map_err(|e| e.to_string())?;
     let mut disputes = Vec::new();
     for row in dispute_stmt.query_map([&id], |r| r.get::<_,String>(0)).map_err(|e| e.to_string())? { let mut dispute = parse(row.map_err(|e| e.to_string())?)?; let ids = dispute["assertionIds"].as_array().cloned().unwrap_or_default(); dispute["assertions"] = Value::Array(ids.iter().filter_map(Value::as_str).map(|aid| assertion_view(&db, aid)).collect::<Result<Vec<_>,_>>()?); disputes.push(dispute); }
-    Ok(Some(json!({ "entity": entity, "aliases": aliases, "articleSections": article_sections, "relationships": relationships, "facts": facts, "spatial": spatial, "appearances": appearances, "disputes": disputes })))
+    let mut outcome_stmt = db.prepare("SELECT o.data_json FROM outcome_groups o JOIN outcome_topics t ON t.group_id=o.id WHERE t.entity_id=?1 ORDER BY o.id").map_err(|e| e.to_string())?;
+    let mut outcome_groups = Vec::new();
+    for row in outcome_stmt.query_map([&id], |r| r.get::<_,String>(0)).map_err(|e| e.to_string())? { let mut group = parse(row.map_err(|e| e.to_string())?)?; let ids = group["assertionIds"].as_array().cloned().unwrap_or_default(); group["assertions"] = Value::Array(ids.iter().filter_map(Value::as_str).map(|aid| assertion_view(&db, aid)).collect::<Result<Vec<_>,_>>()?); outcome_groups.push(group); }
+    Ok(Some(json!({ "entity": entity, "aliases": aliases, "articleSections": article_sections, "relationships": relationships, "facts": facts, "spatial": spatial, "appearances": appearances, "disputes": disputes, "outcomeGroups": outcome_groups })))
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -133,7 +157,7 @@ pub fn run() {
         let path = if resource.exists() { resource } else { fallback };
         if !path.exists() { return Err(format!("Compiled lore database not found at {}. Run pnpm lore:build.", path.display()).into()); }
         app.manage(DatabasePath(Mutex::new(path))); Ok(())
-    }).invoke_handler(tauri::generate_handler![search_entities,list_entities,get_entity,get_timeline,get_map_locations,get_featured_entities]).run(tauri::generate_context!()).expect("error while running Fallout Lore Archive");
+    }).invoke_handler(tauri::generate_handler![search_entities,list_entities,get_entity,get_timeline,get_map_locations,get_featured_entities,list_games,get_game_profile]).run(tauri::generate_context!()).expect("error while running Fallout Lore Archive");
 }
 
 #[cfg(test)]
@@ -177,5 +201,23 @@ mod tests {
         let view = assertion_view(&db, "asrt.myron.claims_jet").unwrap();
         assert_eq!(view["assertion"]["assertionMode"], "source_statement");
         assert_eq!(view["assertion"]["epistemicStatus"], "disputed");
+    }
+
+    #[test]
+    fn fallout_work_index_is_game_sized() {
+        let db = test_db();
+        let count: i64 = db.query_row("SELECT count(DISTINCT entity_id) FROM appearances WHERE work_id='work.fallout'", [], |row| row.get(0)).unwrap();
+        assert!(count > 100);
+        let work: String = db.query_row("SELECT data_json FROM source_works WHERE id='work.fallout'", [], |row| row.get(0)).unwrap();
+        assert_eq!(parse(work).unwrap()["slug"], "fallout");
+    }
+
+    #[test]
+    fn conditional_outcome_views_keep_their_qualifier() {
+        let db = test_db();
+        let view = assertion_view(&db, "asrt.f1.outcome.shady_ncr").unwrap();
+        assert_eq!(view["conditionSet"]["kind"], "optional_outcome");
+        assert_eq!(view["conditionSet"]["mutuallyExclusiveGroup"], "f1.shady_ending");
+        assert!(!view["evidence"].as_array().unwrap().is_empty());
     }
 }

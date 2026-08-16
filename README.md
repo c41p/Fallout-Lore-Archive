@@ -2,17 +2,19 @@
 
 Fallout Lore Archive v0.1 is a Windows-first, local desktop prototype for exploring interconnected Fallout history. One evidence-aware dataset drives search, category browsing, entity records, chronology, geography, reverse relationships, appearances, sources, uncertainty and disputes.
 
-The archive contains 76 records. Its first depth-first, research-quality cluster covers Roger Maxson, Mariposa, the pre-War FEV programme, the 2077 rebellion and exodus, Lost Hills, and the early Brotherhood. The surrounding NCR, Mojave and other prototype records remain a deliberately smaller representative layer.
+The archive contains 186 records. Alongside the depth-first Roger Maxson/Mariposa/Brotherhood cluster, it now contains a game-sized Fallout (1997) corpus spanning Vault 13, Vault 15 and Shady Sands, the Khans, Junktown, the Hub, Necropolis, the Boneyard, the Unity, the Master and their supporting people, places and events. Later-game records remain a deliberately smaller representative layer.
 
 ## What works
 
 - Local SQLite/FTS5 search over canonical names, aliases, summaries, descriptions, curated article sections and tags, with article-match snippets weighted below names and aliases.
-- Browse filters for people, organisations, places, events, technology and other record types.
+- Browse filters for people, organisations, places, events, technology and other record types, with optional source-work scope.
+- Scalable Games navigation with a Fallout work page, featured records, typed index, source browser, and links into work-filtered browse, timeline and map views.
 - Entity pages with long-form sectioned articles, compact contents navigation, related-record links, derived reverse relationships, temporal state, source context and appearances.
 - Precision-aware timeline with exact, year-only and approximate dates.
 - Offline Leaflet map backed by bundled public-domain Natural Earth vectors.
 - Exact and approximate map representations that are visually and textually distinct.
 - Evidence links that distinguish source work, source item, role and directness.
+- Generic condition sets and outcome groups that preserve mutually exclusive endings without presenting every branch as simultaneous history.
 - A Jet-origin dispute that preserves separate source statements and editorial inference.
 - Canonical JSON validation and deterministic SQLite compilation.
 
@@ -57,6 +59,7 @@ Human-reviewable canonical data lives under `lore/`:
 - `sources/` and `evidence/`: works, locators and provenance edges.
 - `spatial/`: place representations separate from place identity.
 - `appearances/` and `disputes/`: work appearances and preserved conflicts.
+- `fallout1/`: sharded Fallout corpus additions, entity enrichments, condition sets and outcome groups merged by the standard loader.
 - `vocabularies/`: controlled predicates and their allowed types.
 
 Do not edit `generated/fallout-lore.db` or `public/data/runtime.json` by hand. Both are derived outputs.
@@ -123,7 +126,7 @@ generated SQLite + FTS5
 Tauri commands → React views
 ```
 
-An entity is a stable identity. A relationship is an assertion whose object references another entity. Reverse navigation is derived from the predicate registry rather than stored as a duplicate fact. `validTime` describes when a state held; a temporal assertion object records the date being asserted. Spatial representations are independent of place identity and carry their own precision, confidence and basis.
+An entity is a stable identity. A relationship is an assertion whose object references another entity. Reverse navigation is derived from the predicate registry rather than stored as a duplicate fact. `validTime` describes when a state held; a temporal assertion object records the date being asserted. A condition set qualifies an assertion that only applies on one route or failure state, while an outcome group presents related alternatives. Spatial representations are independent of place identity and carry their own precision, confidence and basis.
 
 ## Contribution rules
 

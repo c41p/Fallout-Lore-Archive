@@ -1,15 +1,16 @@
 import L from "leaflet";
 import { Layers3, MapPin } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { getMapLocations } from "../lib/api";
 import { statusLabel } from "../lib/format";
 import type { MapLocation } from "../types";
 import "leaflet/dist/leaflet.css";
 
 export function MapPage() {
+  const [params] = useSearchParams(); const game = params.get("game") ?? "";
   const container = useRef<HTMLDivElement>(null); const mapRef = useRef<L.Map>(); const [locations, setLocations] = useState<MapLocation[]>([]); const [selected, setSelected] = useState<MapLocation>(); const [showApproximate, setShowApproximate] = useState(true); const [error, setError] = useState("");
-  useEffect(() => { getMapLocations().then(setLocations).catch((e: Error) => setError(e.message)); }, []);
+  useEffect(() => { getMapLocations({ workId: game || undefined }).then(setLocations).catch((e: Error) => setError(e.message)); }, [game]);
   useEffect(() => {
     if (!container.current || mapRef.current || !locations.length) return;
     const map = L.map(container.current, { attributionControl: false, zoomControl: true, minZoom: 3, maxZoom: 9 }).setView([36.1, -117.1], 5); mapRef.current = map;
