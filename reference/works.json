@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.0",
+  "works": [
+    {
+      "id": "work.fallout",
+      "slug": "fallout1",
+      "title": "Fallout",
+      "kind": "game",
+      "releaseDate": "1997-10-10",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 2000
+      }
+    },
+    {
+      "id": "work.fallout_2",
+      "slug": "fallout2",
+      "title": "Fallout 2",
+      "kind": "game",
+      "releaseDate": "1998-10-29",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout 2",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 2200
+      }
+    },
+    {
+      "id": "work.fallout_tactics",
+      "slug": "fallout-tactics",
+      "title": "Fallout Tactics: Brotherhood of Steel",
+      "kind": "game",
+      "releaseDate": "2001-03-15",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout Tactics",
+        "facets": ["characters", "factions", "locations", "missions", "creatures", "robots and computers", "source texts", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 1800
+      }
+    },
+    {
+      "id": "work.fallout_bos",
+      "slug": "fallout-brotherhood-of-steel",
+      "title": "Fallout: Brotherhood of Steel",
+      "kind": "game",
+      "releaseDate": "2004-01-13",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout: Brotherhood of Steel",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 1200
+      }
+    },
+    {
+      "id": "work.fallout_3",
+      "slug": "fallout3",
+      "title": "Fallout 3",
+      "kind": "game",
+      "releaseDate": "2008-10-28",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout 3",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "radio stations", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 2800
+      }
+    },
+    {
+      "id": "work.new_vegas",
+      "slug": "new-vegas",
+      "title": "Fallout: New Vegas",
+      "kind": "game",
+      "releaseDate": "2010-10-19",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout: New Vegas",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "radio stations", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 3000
+      }
+    },
+    {
+      "id": "work.fallout_4",
+      "slug": "fallout4",
+      "title": "Fallout 4",
+      "kind": "game",
+      "releaseDate": "2015-11-10",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout 4",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "robots and computers", "source texts", "radio stations", "vehicles", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 3200
+      }
+    },
+    {
+      "id": "work.fallout_76",
+      "slug": "fallout76",
+      "title": "Fallout 76",
+      "kind": "live_service_game",
+      "releaseDate": "2018-11-14",
+      "materialStatus": "released_and_continuously_updated",
+      "coverageEnabled": true,
+      "updateModel": "Preserve page revision and work/update categories; launch-date attribution must not be inferred.",
+      "discovery": {
+        "categoryPrefix": "Fallout 76",
+        "facets": ["characters", "factions", "locations", "quests", "source texts", "updates", "removed content", "unused content", "radio stations", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 3500
+      }
+    },
+    {
+      "id": "work.fallout_shelter",
+      "slug": "fallout-shelter",
+      "title": "Fallout Shelter",
+      "kind": "game",
+      "releaseDate": "2015-06-14",
+      "materialStatus": "released",
+      "coverageEnabled": true,
+      "discovery": {
+        "categoryPrefix": "Fallout Shelter",
+        "facets": ["characters", "factions", "locations", "quests", "creatures", "rooms", "source texts", "items"],
+        "maxDepth": 1,
+        "maxSubjects": 1800
+      }
+    },
+    {"id":"work.operation_anchorage","slug":"operation-anchorage","title":"Operation: Anchorage","kind":"addon","parentWorkId":"work.fallout_3","releaseDate":"2009-01-27","materialStatus":"released","associationPatterns":["Operation: Anchorage"]},
+    {"id":"work.the_pitt","slug":"the-pitt","title":"The Pitt","kind":"addon","parentWorkId":"work.fallout_3","releaseDate":"2009-03-24","materialStatus":"released","associationPatterns":["The Pitt"]},
+    {"id":"work.broken_steel","slug":"broken-steel","title":"Broken Steel","kind":"addon","parentWorkId":"work.fallout_3","releaseDate":"2009-05-05","materialStatus":"released","associationPatterns":["Broken Steel"]},
+    {"id":"work.point_lookout","slug":"point-lookout","title":"Point Lookout","kind":"addon","parentWorkId":"work.fallout_3","releaseDate":"2009-06-23","materialStatus":"released","associationPatterns":["Point Lookout"]},
+    {"id":"work.mothership_zeta","slug":"mothership-zeta","title":"Mothership Zeta","kind":"addon","parentWorkId":"work.fallout_3","releaseDate":"2009-08-03","materialStatus":"released","associationPatterns":["Mothership Zeta"]},
+    {"id":"work.dead_money","slug":"dead-money","title":"Dead Money","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2010-12-21","materialStatus":"released","associationPatterns":["Dead Money"]},
+    {"id":"work.honest_hearts","slug":"honest-hearts","title":"Honest Hearts","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2011-05-17","materialStatus":"released","associationPatterns":["Honest Hearts"]},
+    {"id":"work.old_world_blues","slug":"old-world-blues","title":"Old World Blues","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2011-07-19","materialStatus":"released","associationPatterns":["Old World Blues"]},
+    {"id":"work.lonesome_road","slug":"lonesome-road","title":"Lonesome Road","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2011-09-20","materialStatus":"released","associationPatterns":["Lonesome Road"]},
+    {"id":"work.gun_runners_arsenal","slug":"gun-runners-arsenal","title":"Gun Runners' Arsenal","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2011-09-27","materialStatus":"released","associationPatterns":["Gun Runners' Arsenal"]},
+    {"id":"work.couriers_stash","slug":"couriers-stash","title":"Courier's Stash","kind":"addon","parentWorkId":"work.new_vegas","releaseDate":"2011-09-27","materialStatus":"released","associationPatterns":["Courier's Stash"]},
+    {"id":"work.automatron","slug":"automatron","title":"Automatron","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-03-22","materialStatus":"released","associationPatterns":["Automatron"]},
+    {"id":"work.wasteland_workshop","slug":"wasteland-workshop","title":"Wasteland Workshop","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-04-12","materialStatus":"released","associationPatterns":["Wasteland Workshop"]},
+    {"id":"work.far_harbor","slug":"far-harbor","title":"Far Harbor","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-05-19","materialStatus":"released","associationPatterns":["Far Harbor"]},
+    {"id":"work.contraptions_workshop","slug":"contraptions-workshop","title":"Contraptions Workshop","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-06-21","materialStatus":"released","associationPatterns":["Contraptions Workshop"]},
+    {"id":"work.vault_tec_workshop","slug":"vault-tec-workshop","title":"Vault-Tec Workshop","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-07-26","materialStatus":"released","associationPatterns":["Vault-Tec Workshop"]},
+    {"id":"work.nuka_world","slug":"nuka-world","title":"Nuka-World","kind":"addon","parentWorkId":"work.fallout_4","releaseDate":"2016-08-30","materialStatus":"released","associationPatterns":["Nuka-World"]},
+    {"id":"work.fallout_tactics_bonus_missions","slug":"fallout-tactics-bonus-missions","title":"Fallout Tactics bonus missions","kind":"addon","parentWorkId":"work.fallout_tactics","materialStatus":"released","associationPatterns":["Fallout Tactics bonus mission"]}
+  ]
+}

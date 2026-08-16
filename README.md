@@ -2,6 +2,8 @@
 
 Fallout Lore Archive v0.1 is a Windows-first, local desktop prototype for exploring interconnected Fallout history. One evidence-aware dataset drives search, category browsing, entity records, chronology, geography, reverse relationships, appearances, sources, uncertainty and disputes.
 
+The repository also contains a separate, non-canonical franchise reference corpus. It uses revision-attributed Fallout Wiki metadata to discover and prioritise future research without promoting secondary reference pages into trusted lore.
+
 The archive contains 186 records. Alongside the depth-first Roger Maxson/Mariposa/Brotherhood cluster, it now contains a game-sized Fallout (1997) corpus spanning Vault 13, Vault 15 and Shady Sands, the Khans, Junktown, the Hub, Necropolis, the Boneyard, the Unity, the Master and their supporting people, places and events. Later-game records remain a deliberately smaller representative layer.
 
 ## What works
@@ -141,8 +143,25 @@ AI output is not evidence. Do not include extensive copyrighted dialogue, termin
 
 See [Docs/CONTENT_STANDARD.md](Docs/CONTENT_STANDARD.md) for the depth, sourcing and uncertainty standard established by the first production-quality cluster.
 
+## Reference acquisition and coverage
+
+External reference candidates live under `reference/`, never under canonical `lore/`. The sync is cached, revision-aware and resumable; raw API responses are ignored by Git, while the normalized candidate manifest and reports are committed.
+
+```powershell
+pnpm lore:reference:sync
+pnpm lore:reference:sync fallout1
+pnpm lore:coverage
+pnpm lore:coverage fallout1
+```
+
+Use `--offline` to require cache-only operation, `--refresh` to bypass the 24-hour cache TTL, or `--rebuild` to rerun extraction/classification without requiring changed wiki revisions. Normal tests use local fixtures and do not contact external services.
+
+The generated coverage percentage is an importance-weighted estimate, not a wiki-page completion ratio. Gameplay/reference-only pages are excluded and the long tail is heavily discounted. Ambiguous matches remain unresolved and no command writes candidates into canonical lore.
+
+See [Docs/REFERENCE_PIPELINE.md](Docs/REFERENCE_PIPELINE.md) for provider design, cache/security behaviour, scoring, reports, queues and the reviewed promotion workflow.
+
 ## Licensing and intellectual property
 
-Project code is available under the MIT License. Fallout and related names and settings remain the property of their respective rights holders; this independent project is not affiliated with or endorsed by Bethesda Softworks or ZeniMax Media. Bundled Natural Earth vector data is public domain and is credited in the map UI.
+Project code is available under the MIT License. Original lore/reference content and compatible reference-derived data are separately covered by [LICENSE-DATA.md](LICENSE-DATA.md); source credits are in [ATTRIBUTION.md](ATTRIBUTION.md). Fallout and related names and settings remain the property of their respective rights holders; this independent project is not affiliated with or endorsed by Bethesda Softworks or ZeniMax Media. Bundled Natural Earth vector data is public domain and is credited in the map UI.
 
 See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for intentional v0.1 limits.

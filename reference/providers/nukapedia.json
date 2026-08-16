@@ -1,0 +1,16 @@
+{
+  "id": "nukapedia",
+  "name": "Fallout Wiki (Nukapedia)",
+  "apiUrl": "https://fallout.fandom.com/api.php",
+  "wikiUrl": "https://fallout.fandom.com/",
+  "contentLicence": "CC BY-SA 3.0 for community-authored wiki text unless otherwise noted",
+  "attributionUrl": "https://fallout.fandom.com/wiki/Fallout_Wiki:Copyrights",
+  "sourceClass": "secondary_reference",
+  "mediaPolicy": "Metadata only. Images, audio, video and other media are not downloaded or packaged.",
+  "retrievalPolicy": {
+    "userAgent": "FalloutLoreArchive/0.1 (https://github.com/c41p/Fallout-Lore-Archive; research acquisition)",
+    "minimumDelayMs": 150,
+    "cacheTtlHours": 24,
+    "retries": 3
+  }
+}

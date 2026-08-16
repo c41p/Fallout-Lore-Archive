@@ -64,6 +64,8 @@ pnpm lore:build
 
 Treat quality warnings as an editorial backlog. Resolve warnings in the cluster being changed; do not fabricate assertions merely to make the warning count zero.
 
+External candidates under `reference/` do not satisfy any canonical sourcing requirement. Before promotion, follow [REFERENCE_PIPELINE.md](REFERENCE_PIPELINE.md): resolve identity, locate primary material, create canonical assertions and evidence links, and write original prose. A wiki match is a discovery aid, never evidence by itself.
+
 ## Conditional and player-dependent history
 
 Player choices and ending slides must not be flattened into unconditional chronology. Put a branch-qualified assertion in a reusable `ConditionSet`, then collect mutually exclusive assertions in an `OutcomeGroup` attached to the affected topic records. Shared successful-route facts may use one successful-route condition, while incompatible local endings require separate conditions in a common `mutuallyExclusiveGroup`.

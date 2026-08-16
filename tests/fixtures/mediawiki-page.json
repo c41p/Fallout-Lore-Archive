@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "pageid": 4242,
+        "ns": 0,
+        "title": "Example subject",
+        "fullurl": "https://fallout.fandom.com/wiki/Example_subject",
+        "revisions": [{"revid": 9001, "timestamp": "2026-08-01T12:00:00Z", "size": 12345}],
+        "categories": [{"title": "Category:Fallout characters"}, {"title": "Category:Fallout companions"}],
+        "links": [{"title": "Example terminal entries"}, {"title": "Brotherhood of Steel"}],
+        "extlinks": [{"*": "https://fallout.bethesda.net/example"}],
+        "templates": [{"title": "Template:Infobox character"}],
+        "redirects": [{"title": "Example alias"}]
+      }
+    ]
+  }
+}
