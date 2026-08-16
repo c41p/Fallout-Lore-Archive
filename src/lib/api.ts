@@ -31,9 +31,15 @@ function entityDetail(dataset: LoreDataset, id: string): EntityDetail | null {
   const entity = dataset.entities.find((candidate) => candidate.id === id);
   if (!entity) return null;
   const relationships: RelationshipView[] = [];
+  const relationshipKeys = new Set<string>();
   for (const assertion of dataset.assertions) {
     if (!assertion.object.entityId) continue;
     const predicate = dataset.predicates.find((candidate) => candidate.id === assertion.predicateId)!;
+    const otherId = assertion.subjectId === id ? assertion.object.entityId : assertion.object.entityId === id ? assertion.subjectId : undefined;
+    if (!otherId) continue;
+    const relationshipKey = `${assertion.predicateId}|${otherId}|${JSON.stringify(assertion.validTime ?? null)}`;
+    if (relationshipKeys.has(relationshipKey)) continue;
+    relationshipKeys.add(relationshipKey);
     if (assertion.subjectId === id) {
       const target = dataset.entities.find((candidate) => candidate.id === assertion.object.entityId);
       if (target) relationships.push({ assertionId: assertion.id, direction: "outgoing", label: predicate.label, entity: target, epistemicStatus: assertion.epistemicStatus, validTime: assertion.validTime, evidence: evidenceFor(dataset, assertion.id) });
@@ -138,7 +144,10 @@ export async function getGameProfile(slug: string): Promise<GameProfile | null> 
   const work = dataset.sourceWorks.find((candidate) => candidate.slug === slug);
   if (!work) return null;
   const entities = dataset.entities.filter((entity) => appearsIn(dataset, entity.id, work.id));
-  const sourceItems = dataset.sourceItems.filter((item) => item.workId === work.id);
+  const entityIds = new Set(entities.map((entity) => entity.id));
+  const relevantAssertionIds = new Set(dataset.assertions.filter((assertion) => entityIds.has(assertion.subjectId)).map((assertion) => assertion.id));
+  const relevantSourceIds = new Set(dataset.evidenceLinks.filter((link) => relevantAssertionIds.has(link.targetId)).map((link) => link.sourceItemId));
+  const sourceItems = dataset.sourceItems.filter((item) => item.workId === work.id || relevantSourceIds.has(item.id));
   const counts = entities.reduce<Record<string, number>>((result, entity) => ({ ...result, [entity.type]: (result[entity.type] ?? 0) + 1 }), {});
   return { work, entities, sourceItems, counts };
 }

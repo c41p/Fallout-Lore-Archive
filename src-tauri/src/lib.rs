@@ -1,8 +1,28 @@
 use rusqlite::{params, Connection, OptionalExtension, Row};
 use serde::Deserialize;
 use serde_json::{json, Value};
-use std::{path::PathBuf, sync::Mutex};
+use std::{collections::HashSet, path::PathBuf, sync::Mutex};
 use tauri::{Manager, State};
+
+fn is_safe_external_url(url: &str) -> bool {
+    if url.is_empty() || url.len() > 2048 || url.chars().any(|character| character.is_control() || character.is_whitespace()) { return false; }
+    let remainder = url.strip_prefix("https://").or_else(|| url.strip_prefix("http://"));
+    let Some(remainder) = remainder else { return false };
+    let authority = remainder.split(['/', '?', '#']).next().unwrap_or_default();
+    !authority.is_empty() && !authority.contains('@')
+}
+
+#[tauri::command]
+fn open_external_source(url: String) -> Result<(), String> {
+    if !is_safe_external_url(&url) { return Err("Only valid HTTP and HTTPS source links can be opened.".to_string()); }
+    #[cfg(target_os = "windows")]
+    let mut command = { let mut command = std::process::Command::new("rundll32.exe"); command.arg("url.dll,FileProtocolHandler").arg(&url); command };
+    #[cfg(target_os = "macos")]
+    let mut command = { let mut command = std::process::Command::new("open"); command.arg(&url); command };
+    #[cfg(all(unix, not(target_os = "macos")))]
+    let mut command = { let mut command = std::process::Command::new("xdg-open"); command.arg(&url); command };
+    command.spawn().map(|_| ()).map_err(|error| format!("Unable to open source link: {error}"))
+}
 
 struct DatabasePath(Mutex<PathBuf>);
 
@@ -91,8 +111,8 @@ fn get_game_profile(state: State<DatabasePath>, slug: String) -> Result<Option<V
     let Some((work_id, work_json)): Option<(String,String)> = db.query_row("SELECT id,data_json FROM source_works WHERE json_extract(data_json,'$.slug')=?1", [&slug], |row| Ok((row.get(0)?, row.get(1)?))).optional().map_err(|e| e.to_string())? else { return Ok(None) };
     let mut entity_stmt = db.prepare("SELECT e.* FROM appearances a JOIN entities e ON e.id=a.entity_id WHERE a.work_id=?1 ORDER BY e.display_name").map_err(|e| e.to_string())?;
     let entities: Vec<Value> = entity_stmt.query_map([&work_id], entity_from_row).map_err(|e| e.to_string())?.map(|row| row.map_err(|e| e.to_string())).collect::<Result<_,_>>()?;
-    let mut item_stmt = db.prepare("SELECT data_json FROM source_items WHERE work_id=?1 ORDER BY id").map_err(|e| e.to_string())?;
-    let source_items: Vec<Value> = item_stmt.query_map([&work_id], |row| row.get::<_,String>(0)).map_err(|e| e.to_string())?.map(|row| parse(row.map_err(|e| e.to_string())?)).collect::<Result<_,_>>()?;
+    let mut item_stmt = db.prepare("SELECT DISTINCT i.data_json FROM source_items i LEFT JOIN evidence_links ev ON ev.source_item_id=i.id LEFT JOIN assertions a ON a.id=ev.target_id WHERE i.work_id=?1 OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=a.subject_id AND ap.work_id=?2) ORDER BY i.id").map_err(|e| e.to_string())?;
+    let source_items: Vec<Value> = item_stmt.query_map(params![&work_id,&work_id], |row| row.get::<_,String>(0)).map_err(|e| e.to_string())?.map(|row| parse(row.map_err(|e| e.to_string())?)).collect::<Result<_,_>>()?;
     let mut counts = serde_json::Map::new();
     for entity in &entities { if let Some(kind) = entity["type"].as_str() { *counts.entry(kind.to_string()).or_insert(json!(0)) = json!(counts.get(kind).and_then(Value::as_i64).unwrap_or(0) + 1); } }
     Ok(Some(json!({"work":parse(work_json)?,"entities":entities,"sourceItems":source_items,"counts":counts})))
@@ -121,7 +141,8 @@ fn get_entity(state: State<DatabasePath>, id: String) -> Result<Option<Value>, S
     let mut rel_stmt = db.prepare("SELECT a.id,a.subject_id,a.object_entity_id,a.epistemic_status,a.valid_time_json,p.data_json FROM assertions a JOIN predicates p ON p.id=a.predicate_id WHERE a.object_entity_id IS NOT NULL AND (a.subject_id=?1 OR a.object_entity_id=?1)").map_err(|e| e.to_string())?;
     let rel_rows = rel_stmt.query_map([&id], |r| Ok((r.get::<_,String>(0)?,r.get::<_,String>(1)?,r.get::<_,String>(2)?,r.get::<_,String>(3)?,r.get::<_,Option<String>>(4)?,r.get::<_,String>(5)?))).map_err(|e| e.to_string())?;
     let mut relationships = Vec::new();
-    for row in rel_rows { let (assertion_id, subject, object, status, valid, pred_json) = row.map_err(|e| e.to_string())?; let predicate = parse(pred_json)?; let outgoing = subject == id; let other_id = if outgoing { object } else { subject }; if let Some(other) = get_entity_record(&db, &other_id)? { let label = if outgoing { predicate["label"].clone() } else if predicate["symmetric"].as_bool().unwrap_or(false) { predicate["label"].clone() } else { predicate.get("inverseLabel").cloned().unwrap_or(json!(format!("Subject of {}", predicate["label"].as_str().unwrap_or("relationship").to_lowercase()))) }; relationships.push(json!({ "assertionId": assertion_id, "direction": if outgoing {"outgoing"} else {"incoming"}, "label": label, "entity": other, "epistemicStatus": status, "validTime": valid.map(parse).transpose()?, "evidence": evidence_for(&db, &assertion_id)? })); } }
+    let mut relationship_keys = HashSet::new();
+    for row in rel_rows { let (assertion_id, subject, object, status, valid, pred_json) = row.map_err(|e| e.to_string())?; let predicate = parse(pred_json)?; let outgoing = subject == id; let other_id = if outgoing { object } else { subject }; let key = format!("{}|{}|{}", predicate["id"].as_str().unwrap_or_default(), other_id, valid.as_deref().unwrap_or_default()); if !relationship_keys.insert(key) { continue; } if let Some(other) = get_entity_record(&db, &other_id)? { let label = if outgoing { predicate["label"].clone() } else if predicate["symmetric"].as_bool().unwrap_or(false) { predicate["label"].clone() } else { predicate.get("inverseLabel").cloned().unwrap_or(json!(format!("Subject of {}", predicate["label"].as_str().unwrap_or("relationship").to_lowercase()))) }; relationships.push(json!({ "assertionId": assertion_id, "direction": if outgoing {"outgoing"} else {"incoming"}, "label": label, "entity": other, "epistemicStatus": status, "validTime": valid.map(parse).transpose()?, "evidence": evidence_for(&db, &assertion_id)? })); } }
     let mut facts_stmt = db.prepare("SELECT id FROM assertions WHERE subject_id=?1 AND object_entity_id IS NULL ORDER BY sort_key").map_err(|e| e.to_string())?;
     let fact_ids: Vec<String> = facts_stmt.query_map([&id], |r| r.get(0)).map_err(|e| e.to_string())?.map(|r| r.map_err(|e| e.to_string())).collect::<Result<_,_>>()?;
     let facts: Vec<Value> = fact_ids.iter().map(|fact_id| assertion_view(&db, fact_id)).collect::<Result<_,_>>()?;
@@ -157,7 +178,7 @@ pub fn run() {
         let path = if resource.exists() { resource } else { fallback };
         if !path.exists() { return Err(format!("Compiled lore database not found at {}. Run pnpm lore:build.", path.display()).into()); }
         app.manage(DatabasePath(Mutex::new(path))); Ok(())
-    }).invoke_handler(tauri::generate_handler![search_entities,list_entities,get_entity,get_timeline,get_map_locations,get_featured_entities,list_games,get_game_profile]).run(tauri::generate_context!()).expect("error while running Fallout Lore Archive");
+    }).invoke_handler(tauri::generate_handler![search_entities,list_entities,get_entity,get_timeline,get_map_locations,get_featured_entities,list_games,get_game_profile,open_external_source]).run(tauri::generate_context!()).expect("error while running Fallout Lore Archive");
 }
 
 #[cfg(test)]
@@ -219,5 +240,30 @@ mod tests {
         assert_eq!(view["conditionSet"]["kind"], "optional_outcome");
         assert_eq!(view["conditionSet"]["mutuallyExclusiveGroup"], "f1.shady_ending");
         assert!(!view["evidence"].as_array().unwrap().is_empty());
+    }
+
+    #[test]
+    fn external_source_urls_are_protocol_limited() {
+        assert!(is_safe_external_url("https://fallout.bethesda.net/en-US/news/example"));
+        assert!(is_safe_external_url("http://example.org/source"));
+        assert!(!is_safe_external_url("file:///C:/Windows/System32/calc.exe"));
+        assert!(!is_safe_external_url("javascript:alert(1)"));
+        assert!(!is_safe_external_url("https://user:password@example.org/source"));
+        assert!(!is_safe_external_url("https://example.org/source\nmalformed"));
+    }
+
+    #[test]
+    fn entity_view_deduplicates_symmetric_relationship_cards() {
+        let db = test_db();
+        let rows: i64 = db.query_row("SELECT count(*) FROM assertions WHERE predicate_id='pred.associated_with' AND ((subject_id='ent.courier' AND object_entity_id='ent.benny') OR (subject_id='ent.benny' AND object_entity_id='ent.courier'))", [], |row| row.get(0)).unwrap();
+        assert!(rows >= 2, "fixture should exercise inverse duplicate presentation");
+        let mut seen = HashSet::new();
+        let mut statement = db.prepare("SELECT subject_id,object_entity_id FROM assertions WHERE predicate_id='pred.associated_with' AND (subject_id='ent.courier' OR object_entity_id='ent.courier')").unwrap();
+        for row in statement.query_map([], |row| Ok((row.get::<_,String>(0)?, row.get::<_,String>(1)?))).unwrap() {
+            let (subject, object) = row.unwrap();
+            let other = if subject == "ent.courier" { object } else { subject };
+            seen.insert(other);
+        }
+        assert!(seen.contains("ent.benny"));
     }
 }

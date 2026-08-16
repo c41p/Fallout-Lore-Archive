@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { StatusBadge } from "../components/StatusBadge";
 import { getEntity } from "../lib/api";
+import { openExternalSource } from "../lib/external";
 import { formatTemporal, statusLabel, typeLabel } from "../lib/format";
 import type { EntityDetail, EvidenceView } from "../types";
 
@@ -12,7 +13,7 @@ function EvidenceList({ evidence }: { evidence: EvidenceView[] }) {
     <div><BookOpen size={16} /><div><strong>{work.title}</strong><span>{item.title} · {item.locator}</span>{item.context && <small>{item.context}</small>}</div></div>
     <div className="evidence-meta"><span>{statusLabel(item.sourceClass)} source</span><span>{statusLabel(item.sourceType)}</span><span>{statusLabel(link.role)}</span><span>{statusLabel(link.directness)}</span>{item.date && <span>{item.date}</span>}</div>
     {link.note && <p>{link.note}</p>}
-    {item.url && <a className="source-link" href={item.url} target="_blank" rel="noreferrer">Reference locator <ExternalLink size={12} /></a>}
+    {item.url && <button className="source-link" type="button" onClick={() => void openExternalSource(item.url!)}>Open source <ExternalLink size={12} /></button>}
   </article>)}</div>;
 }
 
@@ -23,9 +24,9 @@ export function EntityPage() {
   if (detail === undefined) return <div className="page loading-panel">Loading archive record…</div>;
   if (detail === null) return <div className="page empty-state"><h1>Record not found</h1><p>The requested stable ID is not present in this dataset.</p><Link to="/browse">Return to browse</Link></div>;
   const { entity } = detail;
-  const evidence = new Map(detail.relationships.flatMap((r) => r.evidence).map((e) => [e.link.id, e]));
-  detail.facts.flatMap((f) => f.evidence).forEach((e) => evidence.set(e.link.id, e));
-  detail.articleSections.flatMap((section) => section.assertions).flatMap((assertion) => assertion.evidence).forEach((e) => evidence.set(e.link.id, e));
+  const evidence = new Map(detail.relationships.flatMap((r) => r.evidence).map((e) => [e.item.id, e]));
+  detail.facts.flatMap((f) => f.evidence).forEach((e) => evidence.set(e.item.id, e));
+  detail.articleSections.flatMap((section) => section.assertions).flatMap((assertion) => assertion.evidence).forEach((e) => evidence.set(e.item.id, e));
   return <div className="page entity-page">
     <Link className="back-link" to="/browse"><ArrowLeft size={15} /> Back to archive</Link>
     <header className="entity-header"><div><span className="kicker">{typeLabel(entity.type)} · {entity.subtype.replaceAll("_", " ")}</span><h1>{entity.displayName}</h1>{detail.aliases.length > 0 && <p className="aliases">Also known as {detail.aliases.join(" · ")}</p>}<p className="entity-lede">{entity.summary}</p></div><div className="record-stamp"><span>ARCHIVE RECORD</span><strong>{entity.id}</strong><small>{statusLabel(entity.recordStatus)}</small></div></header>
@@ -34,7 +35,7 @@ export function EntityPage() {
       <aside className="article-toc" aria-label="On this record"><span className="eyebrow"><List size={13} /> ON THIS RECORD</span><ol>{detail.articleSections.map((section) => <li key={section.id}><a href={`#${section.id}`}>{section.title}</a></li>)}</ol></aside>
       <article className="lore-article"><div className="section-heading"><div><span className="eyebrow">CURATED ARTICLE</span><h2>History and context</h2></div><span className="count-label"><FileText size={15} /> {detail.articleSections.length} sections</span></div>
         {detail.articleSections.map((section) => {
-          const sectionEvidence = new Map(section.assertions.flatMap((assertion) => assertion.evidence).map((item) => [item.link.id, item]));
+          const sectionEvidence = new Map(section.assertions.flatMap((assertion) => assertion.evidence).map((item) => [item.item.id, item]));
           const related = section.relatedEntities;
           return <section className="article-section" id={section.id} key={section.id}><h3>{section.title}</h3>{section.paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
             {related.length > 0 && <div className="inline-related"><span>Related records</span>{related.map((record) => <Link key={record.id} to={`/entity/${record.id}`}>{record.displayName}</Link>)}</div>}
