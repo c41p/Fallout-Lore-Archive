@@ -19,6 +19,18 @@ describe("SQLite compiler", () => {
     const fev = query("SELECT id FROM entity_fts WHERE entity_fts MATCH 'FEV*' ORDER BY rank;");
     expect(maxson.stdout).toContain("ent.roger_maxson"); expect(fev.stdout).toContain("ent.fev");
   });
+  it("indexes long-form article prose at a lower-weight searchable field", () => {
+    const articleMatch = query("SELECT id FROM entity_fts WHERE entity_fts MATCH 'displaced community' ORDER BY rank;");
+    expect(articleMatch.status).toBe(0); expect(articleMatch.stdout).toContain("ent.roger_maxson");
+    const stored = query("SELECT article_json FROM entities WHERE id='ent.roger_maxson';");
+    expect(stored.stdout).toContain("Discovery of the FEV experiments");
+  });
+  it("retains human-readable source context and multiple evidence links", () => {
+    const source = query("SELECT data_json FROM source_items WHERE id='src.fallout.maxson_diary';");
+    expect(source.stdout).toContain("First-person diary recovered in Fallout");
+    const evidence = query("SELECT count(*) count FROM evidence_links WHERE target_id='asrt.roger.stationed_mariposa';");
+    expect(JSON.parse(evidence.stdout)[0].count).toBe(2);
+  });
   it("stores bidirectional traversal inputs without duplicate inverse assertions", () => {
     const result = query("SELECT subject_id,object_entity_id FROM assertions WHERE subject_id='ent.roger_maxson' AND object_entity_id='ent.brotherhood';");
     expect(JSON.parse(result.stdout)).toHaveLength(2);

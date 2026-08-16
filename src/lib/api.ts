@@ -46,6 +46,11 @@ function entityDetail(dataset: LoreDataset, id: string): EntityDetail | null {
   return {
     entity,
     aliases: dataset.names.filter((name) => name.entityId === id).map((name) => name.name),
+    articleSections: (entity.articleSections ?? []).map((section) => ({
+      ...section,
+      assertions: section.assertionIds.flatMap((assertionId) => { const assertion = dataset.assertions.find((candidate) => candidate.id === assertionId); return assertion ? [assertionView(dataset, assertion)] : []; }),
+      relatedEntities: (section.relatedEntityIds ?? []).flatMap((relatedId) => { const related = dataset.entities.find((candidate) => candidate.id === relatedId); return related ? [related] : []; })
+    })),
     relationships: relationships.sort((a, b) => a.label.localeCompare(b.label) || a.entity.displayName.localeCompare(b.entity.displayName)),
     facts,
     spatial: dataset.spatialRepresentations.filter((spatial) => spatial.placeId === id),
@@ -65,10 +70,16 @@ export async function searchEntities(query: string, filters: SearchFilters = {})
     const aliases = dataset.names.filter((name) => name.entityId === entity.id).map((name) => name.name);
     const name = entity.displayName.toLocaleLowerCase("en-GB");
     const aliasText = aliases.join(" ").toLocaleLowerCase("en-GB");
-    const haystack = `${name} ${aliasText} ${entity.summary} ${entity.description ?? ""} ${entity.tags.join(" ")}`.toLocaleLowerCase("en-GB");
+    const article = (entity.articleSections ?? []).flatMap((section) => [section.title, ...section.paragraphs]).join(" ");
+    const haystack = `${name} ${aliasText} ${entity.summary} ${entity.description ?? ""} ${article} ${entity.tags.join(" ")}`.toLocaleLowerCase("en-GB");
     if (!words.every((word) => haystack.includes(word))) return [];
-    const rank = name === needle ? 100 : name.startsWith(needle) ? 80 : aliasText.split(/\s+/).includes(needle) ? 70 : name.includes(needle) ? 60 : 20;
-    return [{ ...entity, aliases, rank }];
+    const exactAlias = aliases.some((alias) => alias.toLocaleLowerCase("en-GB") === needle);
+    const rank = name === needle ? 100 : exactAlias ? 90 : name.startsWith(needle) ? 80 : aliasText.includes(needle) ? 70 : name.includes(needle) ? 60 : article.toLocaleLowerCase("en-GB").includes(needle) ? 25 : 20;
+    const matchField = name.includes(needle) ? "name" : aliasText.includes(needle) ? "alias" : article.toLocaleLowerCase("en-GB").includes(needle) ? "article" : entity.summary.toLocaleLowerCase("en-GB").includes(needle) ? "summary" : "record";
+    const sourceText = matchField === "article" ? article : entity.summary;
+    const at = sourceText.toLocaleLowerCase("en-GB").indexOf(words[0]);
+    const start = Math.max(0, at - 60); const matchSnippet = sourceText.slice(start, start + 180).trim();
+    return [{ ...entity, aliases, rank, matchField, matchSnippet: start > 0 ? `…${matchSnippet}` : matchSnippet }];
   }).sort((a, b) => (b.rank ?? 0) - (a.rank ?? 0) || a.displayName.localeCompare(b.displayName));
 }
 
@@ -91,7 +102,10 @@ export async function getTimeline(entityType?: string): Promise<TimelineEntry[]>
     const entity = dataset.entities.find((candidate) => candidate.id === assertion.subjectId);
     if (!temporal || !entity || (entityType && entity.type !== entityType)) return [];
     return [{ entity, temporal, epistemicStatus: assertion.epistemicStatus, evidenceCount: evidenceFor(dataset, assertion.id).length }];
-  }).sort((a, b) => (a.temporal.start?.year ?? 99999) - (b.temporal.start?.year ?? 99999));
+  }).sort((a, b) => {
+    const dateKey = (entry: TimelineEntry) => (entry.temporal.start?.year ?? 9999) * 10_000 + (entry.temporal.start?.month ?? 0) * 100 + (entry.temporal.start?.day ?? 0);
+    return dateKey(a) - dateKey(b) || a.entity.displayName.localeCompare(b.entity.displayName);
+  });
 }
 
 export async function getMapLocations(): Promise<MapLocation[]> {

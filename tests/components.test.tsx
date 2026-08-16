@@ -11,4 +11,10 @@ describe("record presentation", () => {
     expect(screen.getByText("Substance / condition · biological agent")).toBeInTheDocument();
   });
   it("renders uncertainty with text rather than colour alone", () => { render(<StatusBadge value="disputed" />); expect(screen.getByText("Disputed")).toBeVisible(); });
+  it("explains article-body search matches without replacing the record summary", () => {
+    render(<MemoryRouter><EntityCard entity={{ id:"ent.roger_maxson", type:"individual", subtype:"person", displayName:"Roger Maxson", summary:"Founding Brotherhood leader.", tags:["brotherhood"], recordStatus:"reviewed", aliases:[], rank:25, matchField:"article", matchSnippet:"…a displaced community at Lost Hills" }} /></MemoryRouter>);
+    expect(screen.getByText("Founding Brotherhood leader.")).toBeVisible();
+    expect(screen.getByText(/Matched in article/)).toBeVisible();
+    expect(screen.getByText(/displaced community/)).toBeVisible();
+  });
 });
