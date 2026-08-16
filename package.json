@@ -10,9 +10,10 @@
     "tauri": "tauri",
     "lore:validate": "tsx scripts/lore.ts validate",
     "lore:build": "tsx scripts/lore.ts build",
+    "lore:quality": "tsx scripts/lore.ts quality",
     "test": "vitest run",
     "test:watch": "vitest",
-    "check": "pnpm lore:validate && pnpm lore:build && pnpm test && pnpm build"
+    "check": "pnpm lore:validate && pnpm lore:quality && pnpm lore:build && pnpm test && pnpm build"
   },
   "dependencies": {
     "@tauri-apps/api": "^2.8.0",

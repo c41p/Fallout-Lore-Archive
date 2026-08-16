@@ -19,9 +19,19 @@ export interface Entity {
   displayName: string;
   summary: string;
   description?: string;
+  articleTier?: "major" | "supporting";
+  articleSections?: ArticleSection[];
   tags: string[];
   recordStatus: "reviewed" | "candidate";
   featured?: boolean;
+}
+
+export interface ArticleSection {
+  id: string;
+  title: string;
+  paragraphs: string[];
+  assertionIds: string[];
+  relatedEntityIds?: string[];
 }
 
 export interface NameUsage { id: string; entityId: string; name: string; kind: string; preferred?: boolean }
@@ -49,7 +59,7 @@ export interface Assertion {
   notes?: string;
 }
 export interface SourceWork { id: string; title: string; workType: string; releaseDate?: string; materialStatus: string; continuityClassification: string }
-export interface SourceItem { id: string; workId: string; sourceType: string; title: string; locator: string; sourceClass: string; textAvailability: string }
+export interface SourceItem { id: string; workId: string; sourceType: string; title: string; locator: string; sourceClass: string; textAvailability: string; url?: string; date?: string; context?: string }
 export interface EvidenceLink { id: string; targetId: string; sourceItemId: string; role: string; directness: string; note?: string }
 export interface SpatialRepresentation { id: string; placeId: string; geometryKind: "exact_point" | "approximate_point"; latitude: number; longitude: number; precision: string; confidence: string; basis: string; notes?: string }
 export interface Appearance { id: string; entityId: string; workId: string; kind: string }
@@ -70,10 +80,11 @@ export interface LoreDataset {
 }
 
 export interface SearchFilters { entityType?: EntityType | "all" }
-export interface SearchResult extends Entity { aliases: string[]; rank?: number }
+export interface SearchResult extends Entity { aliases: string[]; rank?: number; matchSnippet?: string; matchField?: string }
 export interface RelationshipView { assertionId: string; direction: "outgoing" | "incoming"; label: string; entity: Entity; epistemicStatus: string; validTime?: TemporalValue; evidence: EvidenceView[] }
 export interface EvidenceView { link: EvidenceLink; item: SourceItem; work: SourceWork }
 export interface AssertionView { assertion: Assertion; predicate: PredicateDefinition; objectEntity?: Entity; evidence: EvidenceView[] }
-export interface EntityDetail { entity: Entity; aliases: string[]; relationships: RelationshipView[]; facts: AssertionView[]; spatial: SpatialRepresentation[]; appearances: Array<Appearance & { work: SourceWork }>; disputes: Array<Dispute & { assertions: AssertionView[] }> }
+export interface ArticleSectionView extends ArticleSection { assertions: AssertionView[]; relatedEntities: Entity[] }
+export interface EntityDetail { entity: Entity; aliases: string[]; articleSections: ArticleSectionView[]; relationships: RelationshipView[]; facts: AssertionView[]; spatial: SpatialRepresentation[]; appearances: Array<Appearance & { work: SourceWork }>; disputes: Array<Dispute & { assertions: AssertionView[] }> }
 export interface TimelineEntry { entity: Entity; temporal: TemporalValue; epistemicStatus: string; evidenceCount: number }
 export interface MapLocation { entity: Entity; spatial: SpatialRepresentation }

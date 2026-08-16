@@ -9,5 +9,19 @@
   {"id":"app.hoover.nv","entityId":"ent.hoover_dam","workId":"work.new_vegas","kind":"appears"},
   {"id":"app.jet.f2","entityId":"ent.jet","workId":"work.fallout_2","kind":"appears"},
   {"id":"app.jet.f4","entityId":"ent.jet","workId":"work.fallout_4","kind":"appears"},
-  {"id":"app.fev.fallout","entityId":"ent.fev","workId":"work.fallout","kind":"appears"}
+  {"id":"app.fev.fallout","entityId":"ent.fev","workId":"work.fallout","kind":"appears"},
+  {"id":"app.roger.f3","entityId":"ent.roger_maxson","workId":"work.fallout_3","kind":"recorded"},
+  {"id":"app.brotherhood.fallout","entityId":"ent.brotherhood","workId":"work.fallout","kind":"appears"},
+  {"id":"app.brotherhood.f3","entityId":"ent.brotherhood","workId":"work.fallout_3","kind":"appears"},
+  {"id":"app.brotherhood.f76","entityId":"ent.brotherhood","workId":"work.fallout_76","kind":"appears"},
+  {"id":"app.mariposa.fallout","entityId":"ent.mariposa","workId":"work.fallout","kind":"appears"},
+  {"id":"app.losthills.fallout","entityId":"ent.lost_hills","workId":"work.fallout","kind":"appears"},
+  {"id":"app.spindel.fallout","entityId":"ent.robert_spindel","workId":"work.fallout","kind":"recorded"},
+  {"id":"app.anderson.fallout","entityId":"ent.robert_anderson","workId":"work.fallout","kind":"recorded"},
+  {"id":"app.platner.fallout","entityId":"ent.sergeant_platner","workId":"work.fallout","kind":"recorded"},
+  {"id":"app.allen.fallout","entityId":"ent.dennis_allen","workId":"work.fallout","kind":"recorded"},
+  {"id":"app.taggerdy.f76","entityId":"ent.elizabeth_taggerdy","workId":"work.fallout_76","kind":"recorded"},
+  {"id":"app.westtek.fallout","entityId":"ent.west_tek","workId":"work.fallout","kind":"recorded"},
+  {"id":"app.appalachian.f76","entityId":"ent.appalachian_brotherhood","workId":"work.fallout_76","kind":"appears"},
+  {"id":"app.glow.fallout","entityId":"ent.the_glow","workId":"work.fallout","kind":"appears"}
 ]

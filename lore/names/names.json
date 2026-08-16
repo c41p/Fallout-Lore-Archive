@@ -8,5 +8,17 @@
   {"id":"name.caesars_legion.legion","entityId":"ent.caesars_legion","name":"The Legion","kind":"short_name"},
   {"id":"name.vault_dweller.stranger","entityId":"ent.vault_dweller","name":"Vault 13 Dweller","kind":"descriptive_name"},
   {"id":"name.new_vegas.vegas","entityId":"ent.new_vegas","name":"Vegas","kind":"short_name"},
-  {"id":"name.power_armor.powered_armor","entityId":"ent.power_armor","name":"Powered Armor","kind":"spelling_variant"}
+  {"id":"name.power_armor.powered_armor","entityId":"ent.power_armor","name":"Powered Armor","kind":"spelling_variant"},
+  {"id":"name.spindel.colonel","entityId":"ent.robert_spindel","name":"Colonel Spindel","kind":"rank_and_surname"},
+  {"id":"name.barnett.major","entityId":"ent.major_barnett","name":"Major Barnett","kind":"rank_and_surname"},
+  {"id":"name.platner.sergeant","entityId":"ent.sergeant_platner","name":"Sergeant Platner","kind":"rank_and_surname"},
+  {"id":"name.allen.sergeant","entityId":"ent.dennis_allen","name":"Sergeant Allen","kind":"rank_and_surname"},
+  {"id":"name.taggerdy.lieutenant","entityId":"ent.elizabeth_taggerdy","name":"Lieutenant Taggerdy","kind":"rank_and_surname"},
+  {"id":"name.taggerdy.paladin","entityId":"ent.elizabeth_taggerdy","name":"Paladin Taggerdy","kind":"title"},
+  {"id":"name.west_tek.west_tech","entityId":"ent.west_tek","name":"West Tech","kind":"spelling_variant"},
+  {"id":"name.piv.abbreviation","entityId":"ent.piv_project","name":"PIV","kind":"abbreviation"},
+  {"id":"name.piv.long","entityId":"ent.piv_project","name":"Pan-Immunity Virion Project","kind":"formal_name"},
+  {"id":"name.security.mariposa","entityId":"ent.mariposa_security_team","name":"Mariposa Security Team","kind":"descriptive_name"},
+  {"id":"name.appalachian.first","entityId":"ent.appalachian_brotherhood","name":"First Appalachian Brotherhood","kind":"descriptive_name"},
+  {"id":"name.glow.west_tek","entityId":"ent.the_glow","name":"West Tek Research Facility","kind":"former_name"}
 ]

@@ -29,6 +29,7 @@ export function loadDataset(): LoreDataset {
 }
 
 export interface ValidationReport { errors: string[]; warnings: string[] }
+export interface QualityReport { errors: string[]; warnings: string[]; metrics: Record<string, number> }
 
 function idIndex(dataset: LoreDataset): Map<string, string> {
   const records: Array<[string, Array<{ id: string }>]> = [
@@ -99,6 +100,13 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
   for (const entity of dataset.entities) {
     const normalized = entity.displayName.toLocaleLowerCase("en-GB").trim();
     const owners = globalNames.get(normalized) ?? new Set<string>(); owners.add(entity.id); globalNames.set(normalized, owners);
+    const sectionIds = new Set<string>();
+    for (const section of entity.articleSections ?? []) {
+      if (sectionIds.has(section.id)) errors.push(`${entity.id}: duplicate article section ID ${section.id}`);
+      sectionIds.add(section.id);
+      for (const assertionId of section.assertionIds) if (!assertions.has(assertionId)) errors.push(`${entity.id}.${section.id}: missing supporting assertion ${assertionId}`);
+      for (const relatedId of section.relatedEntityIds ?? []) if (!entityIds.has(relatedId)) errors.push(`${entity.id}.${section.id}: missing related entity ${relatedId}`);
+    }
   }
   for (const [name, owners] of globalNames) if (owners.size > 1) warnings.push(`alias collision '${name}' across ${[...owners].join(", ")}`);
 
@@ -114,11 +122,18 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
       else if (predicate && !(predicate.objectTypes as string[]).includes(object.type)) errors.push(`${assertion.id}: ${object.type} object is not allowed for ${predicate.id}`);
     }
     if (assertion.object.temporal && predicate && !(predicate.objectTypes as string[]).includes("temporal")) errors.push(`${assertion.id}: temporal object is not allowed for ${predicate.id}`);
+    if (assertion.object.text && predicate && !(predicate.objectTypes as string[]).includes("text")) errors.push(`${assertion.id}: text object is not allowed for ${predicate.id}`);
     checkTemporal(assertion.object.temporal, `${assertion.id}.object.temporal`, entityIds, errors);
     checkTemporal(assertion.validTime, `${assertion.id}.validTime`, entityIds, errors);
     if (assertion.validTime && predicate && !predicate.temporalAllowed && assertion.object.entityId) warnings.push(`${assertion.id}: predicate ${predicate.id} does not explicitly declare temporal applicability`);
   }
-  for (const item of dataset.sourceItems) if (!works.has(item.workId)) errors.push(`${item.id}: missing source work ${item.workId}`);
+  for (const item of dataset.sourceItems) {
+    if (!works.has(item.workId)) errors.push(`${item.id}: missing source work ${item.workId}`);
+    if (item.url) {
+      try { const parsed = new URL(item.url); if (!['http:', 'https:'].includes(parsed.protocol)) throw new Error('unsupported protocol'); }
+      catch { errors.push(`${item.id}: malformed source URL ${item.url}`); }
+    }
+  }
   for (const evidence of dataset.evidenceLinks) {
     if (!assertions.has(evidence.targetId)) errors.push(`${evidence.id}: missing target assertion ${evidence.targetId}`);
     if (!items.has(evidence.sourceItemId)) errors.push(`${evidence.id}: missing source item ${evidence.sourceItemId}`);
@@ -158,6 +173,36 @@ export function validateDataset(dataset: LoreDataset): ValidationReport {
   return { errors, warnings };
 }
 
+function normalizeAssertion(assertion: Assertion): string {
+  return JSON.stringify({ subjectId: assertion.subjectId, predicateId: assertion.predicateId, object: assertion.object, validTime: assertion.validTime, continuityScope: assertion.continuityScope });
+}
+
+export function analyseContentQuality(dataset: LoreDataset): QualityReport {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const evidenceTargets = new Set(dataset.evidenceLinks.map((link) => link.targetId));
+  const linkedEntities = new Set<string>();
+  const assertionKeys = new Map<string, string>();
+  for (const assertion of dataset.assertions) {
+    if (assertion.object.entityId) { linkedEntities.add(assertion.subjectId); linkedEntities.add(assertion.object.entityId); }
+    if (!evidenceTargets.has(assertion.id)) warnings.push(`${assertion.id}: assertion has no EvidenceLink`);
+    const key = normalizeAssertion(assertion);
+    const previous = assertionKeys.get(key);
+    if (previous) errors.push(`${assertion.id}: suspicious duplicate of ${previous}`); else assertionKeys.set(key, assertion.id);
+  }
+  for (const entity of dataset.entities) {
+    const backed = dataset.assertions.some((assertion) => assertion.subjectId === entity.id && evidenceTargets.has(assertion.id));
+    if (!backed) warnings.push(`${entity.id}: entity has no source-backed subject assertion`);
+    if (!linkedEntities.has(entity.id)) warnings.push(`${entity.id}: entity is orphaned from the relationship graph`);
+    if (entity.articleTier === "major" && (entity.articleSections?.length ?? 0) < 3) errors.push(`${entity.id}: major entity needs at least three article sections`);
+  }
+  for (const event of dataset.entities.filter((entity) => entity.type === "event")) {
+    if (!dataset.assertions.some((assertion) => assertion.subjectId === event.id && assertion.object.temporal)) warnings.push(`${event.id}: timeline event lacks temporal information`);
+  }
+  for (const spatial of dataset.spatialRepresentations) if (!spatial.precision || !spatial.basis) errors.push(`${spatial.id}: mapped place lacks precision or basis metadata`);
+  return { errors, warnings, metrics: { entities: dataset.entities.length, majorEntities: dataset.entities.filter((e) => e.articleTier === "major").length, assertions: dataset.assertions.length, sourcedAssertions: evidenceTargets.size, orphanedEntities: dataset.entities.filter((e) => !linkedEntities.has(e.id)).length } };
+}
+
 function temporalSortKey(value?: TemporalValue): number | null {
   const date = value?.start ?? value?.end;
   if (!date) return null;
@@ -173,7 +218,7 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
     PRAGMA foreign_keys = ON;
     BEGIN IMMEDIATE;
     CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
-    CREATE TABLE entities (id TEXT PRIMARY KEY, type TEXT NOT NULL, subtype TEXT NOT NULL, display_name TEXT NOT NULL, summary TEXT NOT NULL, description TEXT, tags_json TEXT NOT NULL, status TEXT NOT NULL, featured INTEGER NOT NULL DEFAULT 0);
+    CREATE TABLE entities (id TEXT PRIMARY KEY, type TEXT NOT NULL, subtype TEXT NOT NULL, display_name TEXT NOT NULL, summary TEXT NOT NULL, description TEXT, article_tier TEXT, article_json TEXT NOT NULL, tags_json TEXT NOT NULL, status TEXT NOT NULL, featured INTEGER NOT NULL DEFAULT 0);
     CREATE TABLE names (id TEXT PRIMARY KEY, entity_id TEXT NOT NULL REFERENCES entities(id), name TEXT NOT NULL, kind TEXT NOT NULL, preferred INTEGER NOT NULL DEFAULT 0);
     CREATE TABLE predicates (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
     CREATE TABLE assertions (id TEXT PRIMARY KEY, subject_id TEXT NOT NULL REFERENCES entities(id), predicate_id TEXT NOT NULL REFERENCES predicates(id), object_entity_id TEXT REFERENCES entities(id), object_json TEXT NOT NULL, mode TEXT NOT NULL, epistemic_status TEXT NOT NULL, valid_time_json TEXT, sort_key INTEGER, continuity_json TEXT NOT NULL, notes TEXT);
@@ -185,7 +230,7 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
     CREATE TABLE disputes (id TEXT PRIMARY KEY, data_json TEXT NOT NULL);
     CREATE TABLE dispute_assertions (dispute_id TEXT NOT NULL REFERENCES disputes(id), assertion_id TEXT NOT NULL REFERENCES assertions(id), PRIMARY KEY(dispute_id, assertion_id));
     CREATE TABLE dispute_topics (dispute_id TEXT NOT NULL REFERENCES disputes(id), entity_id TEXT NOT NULL REFERENCES entities(id), PRIMARY KEY(dispute_id, entity_id));
-    CREATE VIRTUAL TABLE entity_fts USING fts5(id UNINDEXED, display_name, aliases, summary, description, tags, tokenize='unicode61 remove_diacritics 2');
+    CREATE VIRTUAL TABLE entity_fts USING fts5(id UNINDEXED, display_name, aliases, summary, description, article, tags, tokenize='unicode61 remove_diacritics 2');
     CREATE INDEX idx_entities_type ON entities(type, display_name);
     CREATE INDEX idx_assertions_subject ON assertions(subject_id);
     CREATE INDEX idx_assertions_object ON assertions(object_entity_id);
@@ -195,7 +240,7 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
   `];
   statements.push(`INSERT INTO metadata VALUES ('schema_version', ${quote(dataset.schemaVersion)});`);
   statements.push(`INSERT INTO metadata VALUES ('entity_count', ${quote(dataset.entities.length)});`);
-  for (const e of dataset.entities) statements.push(`INSERT INTO entities VALUES (${quote(e.id)},${quote(e.type)},${quote(e.subtype)},${quote(e.displayName)},${quote(e.summary)},${quote(e.description)},${quote(JSON.stringify(e.tags))},${quote(e.recordStatus)},${e.featured ? 1 : 0});`);
+  for (const e of dataset.entities) statements.push(`INSERT INTO entities VALUES (${quote(e.id)},${quote(e.type)},${quote(e.subtype)},${quote(e.displayName)},${quote(e.summary)},${quote(e.description)},${quote(e.articleTier)},${quote(JSON.stringify(e.articleSections ?? []))},${quote(JSON.stringify(e.tags))},${quote(e.recordStatus)},${e.featured ? 1 : 0});`);
   for (const n of dataset.names) statements.push(`INSERT INTO names VALUES (${quote(n.id)},${quote(n.entityId)},${quote(n.name)},${quote(n.kind)},${n.preferred ? 1 : 0});`);
   for (const p of dataset.predicates) statements.push(`INSERT INTO predicates VALUES (${quote(p.id)},${quote(JSON.stringify(p))});`);
   for (const a of dataset.assertions) statements.push(`INSERT INTO assertions VALUES (${quote(a.id)},${quote(a.subjectId)},${quote(a.predicateId)},${quote(a.object.entityId)},${quote(JSON.stringify(a.object))},${quote(a.assertionMode)},${quote(a.epistemicStatus)},${quote(a.validTime ? JSON.stringify(a.validTime) : null)},${number(temporalSortKey(a.object.temporal))},${quote(JSON.stringify(a.continuityScope))},${quote(a.notes)});`);
@@ -211,7 +256,7 @@ export function buildDatabase(dataset: LoreDataset, outputPath = path.join(root,
   }
   const aliases = new Map<string, string[]>();
   dataset.names.forEach((n) => aliases.set(n.entityId, [...(aliases.get(n.entityId) ?? []), n.name]));
-  for (const e of dataset.entities) statements.push(`INSERT INTO entity_fts VALUES (${quote(e.id)},${quote(e.displayName)},${quote((aliases.get(e.id) ?? []).join(" "))},${quote(e.summary)},${quote(e.description ?? "")},${quote(e.tags.join(" "))});`);
+  for (const e of dataset.entities) statements.push(`INSERT INTO entity_fts VALUES (${quote(e.id)},${quote(e.displayName)},${quote((aliases.get(e.id) ?? []).join(" "))},${quote(e.summary)},${quote(e.description ?? "")},${quote((e.articleSections ?? []).flatMap((section) => [section.title, ...section.paragraphs]).join(" "))},${quote(e.tags.join(" "))});`);
   statements.push("COMMIT; PRAGMA optimize; PRAGMA foreign_key_check;");
   const sqlite = process.env.FLA_SQLITE3 ?? "sqlite3";
   const result = spawnSync(sqlite, [outputPath], { input: statements.join("\n"), encoding: "utf8", windowsHide: true });
@@ -234,11 +279,15 @@ function main() {
     process.exitCode = 1; return;
   }
   console.log(`Validated ${dataset.entities.length} entities, ${dataset.assertions.length} assertions and ${dataset.evidenceLinks.length} evidence links.`);
-  if (command === "build") {
+  if (command === "quality") {
+    const quality = analyseContentQuality(dataset);
+    console.log(JSON.stringify(quality, null, 2));
+    if (quality.errors.length) process.exitCode = 1;
+  } else if (command === "build") {
     buildDatabase(dataset);
     console.log("Built generated/fallout-lore.db and public/data/runtime.json.");
   } else if (command !== "validate") {
-    console.error(`Unknown command '${command}'. Use validate or build.`); process.exitCode = 1;
+    console.error(`Unknown command '${command}'. Use validate, quality or build.`); process.exitCode = 1;
   }
 }
 
