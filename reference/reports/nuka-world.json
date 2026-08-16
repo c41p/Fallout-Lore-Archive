@@ -1,0 +1,53 @@
+{
+  "workId": "work.nuka_world",
+  "slug": "nuka-world",
+  "title": "Nuka-World",
+  "referenceSubjects": 66,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 66,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 0,
+  "majorLore": 1,
+  "supportingLore": 35,
+  "minorLore": 30,
+  "deepResearchCandidates": 1,
+  "tier1Gaps": 1,
+  "tier2Gaps": 35,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "organisation": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    },
+    "person": {
+      "total": 27,
+      "matched": 0,
+      "missing": 27
+    },
+    "creature": {
+      "total": 3,
+      "matched": 0,
+      "missing": 3
+    },
+    "technology": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    },
+    "place": {
+      "total": 26,
+      "matched": 0,
+      "missing": 26
+    },
+    "event": {
+      "total": 7,
+      "matched": 0,
+      "missing": 7
+    }
+  }
+}

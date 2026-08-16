@@ -1,0 +1,38 @@
+{
+  "workId": "work.the_pitt",
+  "slug": "the-pitt",
+  "title": "The Pitt",
+  "referenceSubjects": 23,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 23,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 0,
+  "majorLore": 0,
+  "supportingLore": 7,
+  "minorLore": 16,
+  "deepResearchCandidates": 2,
+  "tier1Gaps": 0,
+  "tier2Gaps": 7,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "place": {
+      "total": 5,
+      "matched": 0,
+      "missing": 5
+    },
+    "event": {
+      "total": 16,
+      "matched": 0,
+      "missing": 16
+    },
+    "person": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    }
+  }
+}

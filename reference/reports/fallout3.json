@@ -1,0 +1,58 @@
+{
+  "workId": "work.fallout_3",
+  "slug": "fallout3",
+  "title": "Fallout 3",
+  "referenceSubjects": 2800,
+  "matchedArchiveEntities": 19,
+  "productionQuality": 4,
+  "substantialRecords": 0,
+  "supportingRecords": 3,
+  "shallowRecords": 12,
+  "missingSubjects": 2781,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 1076,
+  "majorLore": 46,
+  "supportingLore": 189,
+  "minorLore": 1501,
+  "deepResearchCandidates": 49,
+  "tier1Gaps": 40,
+  "tier2Gaps": 187,
+  "weightedLoreCoverage": 3.9,
+  "byType": {
+    "person": {
+      "total": 831,
+      "matched": 12,
+      "missing": 819
+    },
+    "organisation": {
+      "total": 74,
+      "matched": 6,
+      "missing": 68
+    },
+    "place": {
+      "total": 603,
+      "matched": 0,
+      "missing": 603
+    },
+    "creature": {
+      "total": 40,
+      "matched": 0,
+      "missing": 40
+    },
+    "source_record": {
+      "total": 1065,
+      "matched": 0,
+      "missing": 1065
+    },
+    "technology": {
+      "total": 25,
+      "matched": 1,
+      "missing": 24
+    },
+    "event": {
+      "total": 162,
+      "matched": 0,
+      "missing": 162
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "workId": "work.fallout_tactics",
+  "slug": "fallout-tactics",
+  "title": "Fallout Tactics: Brotherhood of Steel",
+  "referenceSubjects": 675,
+  "matchedArchiveEntities": 4,
+  "productionQuality": 1,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 3,
+  "missingSubjects": 671,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 92,
+  "majorLore": 5,
+  "supportingLore": 42,
+  "minorLore": 539,
+  "deepResearchCandidates": 5,
+  "tier1Gaps": 4,
+  "tier2Gaps": 42,
+  "weightedLoreCoverage": 6.1,
+  "byType": {
+    "source_record": {
+      "total": 90,
+      "matched": 0,
+      "missing": 90
+    },
+    "organisation": {
+      "total": 33,
+      "matched": 1,
+      "missing": 32
+    },
+    "creature": {
+      "total": 14,
+      "matched": 0,
+      "missing": 14
+    },
+    "place": {
+      "total": 51,
+      "matched": 0,
+      "missing": 51
+    },
+    "item": {
+      "total": 134,
+      "matched": 1,
+      "missing": 133
+    },
+    "person": {
+      "total": 297,
+      "matched": 2,
+      "missing": 295
+    },
+    "technology": {
+      "total": 28,
+      "matched": 0,
+      "missing": 28
+    },
+    "event": {
+      "total": 28,
+      "matched": 0,
+      "missing": 28
+    }
+  }
+}

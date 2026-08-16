@@ -1,0 +1,58 @@
+{
+  "workId": "work.broken_steel",
+  "slug": "broken-steel",
+  "title": "Broken Steel",
+  "referenceSubjects": 23,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 23,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 5,
+  "majorLore": 2,
+  "supportingLore": 11,
+  "minorLore": 5,
+  "deepResearchCandidates": 2,
+  "tier1Gaps": 2,
+  "tier2Gaps": 11,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "person": {
+      "total": 7,
+      "matched": 0,
+      "missing": 7
+    },
+    "technology": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    },
+    "place": {
+      "total": 4,
+      "matched": 0,
+      "missing": 4
+    },
+    "organisation": {
+      "total": 3,
+      "matched": 0,
+      "missing": 3
+    },
+    "creature": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    },
+    "event": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    },
+    "source_record": {
+      "total": 5,
+      "matched": 0,
+      "missing": 5
+    }
+  }
+}

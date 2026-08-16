@@ -1,0 +1,48 @@
+{
+  "workId": "work.fallout_76",
+  "slug": "fallout76",
+  "title": "Fallout 76",
+  "referenceSubjects": 3500,
+  "matchedArchiveEntities": 9,
+  "productionQuality": 3,
+  "substantialRecords": 1,
+  "supportingRecords": 1,
+  "shallowRecords": 4,
+  "missingSubjects": 3491,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 552,
+  "majorLore": 32,
+  "supportingLore": 170,
+  "minorLore": 2786,
+  "deepResearchCandidates": 43,
+  "tier1Gaps": 29,
+  "tier2Gaps": 167,
+  "weightedLoreCoverage": 3,
+  "byType": {
+    "organisation": {
+      "total": 77,
+      "matched": 2,
+      "missing": 75
+    },
+    "person": {
+      "total": 1562,
+      "matched": 6,
+      "missing": 1556
+    },
+    "place": {
+      "total": 836,
+      "matched": 0,
+      "missing": 836
+    },
+    "event": {
+      "total": 483,
+      "matched": 0,
+      "missing": 483
+    },
+    "source_record": {
+      "total": 542,
+      "matched": 1,
+      "missing": 541
+    }
+  }
+}

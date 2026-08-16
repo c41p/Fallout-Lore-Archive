@@ -1,0 +1,58 @@
+{
+  "workId": "work.fallout_4",
+  "slug": "fallout4",
+  "title": "Fallout 4",
+  "referenceSubjects": 3200,
+  "matchedArchiveEntities": 8,
+  "productionQuality": 1,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 7,
+  "missingSubjects": 3192,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 1106,
+  "majorLore": 71,
+  "supportingLore": 172,
+  "minorLore": 1857,
+  "deepResearchCandidates": 72,
+  "tier1Gaps": 68,
+  "tier2Gaps": 171,
+  "weightedLoreCoverage": 1.5,
+  "byType": {
+    "person": {
+      "total": 837,
+      "matched": 3,
+      "missing": 834
+    },
+    "organisation": {
+      "total": 110,
+      "matched": 3,
+      "missing": 107
+    },
+    "creature": {
+      "total": 64,
+      "matched": 0,
+      "missing": 64
+    },
+    "place": {
+      "total": 622,
+      "matched": 2,
+      "missing": 620
+    },
+    "technology": {
+      "total": 65,
+      "matched": 0,
+      "missing": 65
+    },
+    "event": {
+      "total": 404,
+      "matched": 0,
+      "missing": 404
+    },
+    "source_record": {
+      "total": 1098,
+      "matched": 0,
+      "missing": 1098
+    }
+  }
+}

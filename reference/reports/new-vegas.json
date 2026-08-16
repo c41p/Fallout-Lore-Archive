@@ -1,0 +1,58 @@
+{
+  "workId": "work.new_vegas",
+  "slug": "new-vegas",
+  "title": "Fallout: New Vegas",
+  "referenceSubjects": 3000,
+  "matchedArchiveEntities": 26,
+  "productionQuality": 3,
+  "substantialRecords": 2,
+  "supportingRecords": 8,
+  "shallowRecords": 13,
+  "missingSubjects": 2974,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 823,
+  "majorLore": 56,
+  "supportingLore": 229,
+  "minorLore": 1895,
+  "deepResearchCandidates": 58,
+  "tier1Gaps": 45,
+  "tier2Gaps": 219,
+  "weightedLoreCoverage": 5.3,
+  "byType": {
+    "organisation": {
+      "total": 117,
+      "matched": 7,
+      "missing": 110
+    },
+    "person": {
+      "total": 945,
+      "matched": 12,
+      "missing": 933
+    },
+    "place": {
+      "total": 640,
+      "matched": 6,
+      "missing": 634
+    },
+    "creature": {
+      "total": 55,
+      "matched": 1,
+      "missing": 54
+    },
+    "technology": {
+      "total": 31,
+      "matched": 0,
+      "missing": 31
+    },
+    "event": {
+      "total": 394,
+      "matched": 0,
+      "missing": 394
+    },
+    "source_record": {
+      "total": 818,
+      "matched": 0,
+      "missing": 818
+    }
+  }
+}

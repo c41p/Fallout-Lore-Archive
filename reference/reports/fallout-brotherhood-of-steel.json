@@ -1,0 +1,63 @@
+{
+  "workId": "work.fallout_bos",
+  "slug": "fallout-brotherhood-of-steel",
+  "title": "Fallout: Brotherhood of Steel",
+  "referenceSubjects": 294,
+  "matchedArchiveEntities": 4,
+  "productionQuality": 1,
+  "substantialRecords": 0,
+  "supportingRecords": 1,
+  "shallowRecords": 2,
+  "missingSubjects": 290,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 35,
+  "majorLore": 30,
+  "supportingLore": 74,
+  "minorLore": 163,
+  "deepResearchCandidates": 98,
+  "tier1Gaps": 28,
+  "tier2Gaps": 73,
+  "weightedLoreCoverage": 3.3,
+  "byType": {
+    "organisation": {
+      "total": 11,
+      "matched": 1,
+      "missing": 10
+    },
+    "creature": {
+      "total": 10,
+      "matched": 1,
+      "missing": 9
+    },
+    "source_record": {
+      "total": 33,
+      "matched": 0,
+      "missing": 33
+    },
+    "person": {
+      "total": 49,
+      "matched": 1,
+      "missing": 48
+    },
+    "place": {
+      "total": 20,
+      "matched": 0,
+      "missing": 20
+    },
+    "item": {
+      "total": 88,
+      "matched": 1,
+      "missing": 87
+    },
+    "technology": {
+      "total": 16,
+      "matched": 0,
+      "missing": 16
+    },
+    "event": {
+      "total": 67,
+      "matched": 0,
+      "missing": 67
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "workId": "work.fallout",
+  "slug": "fallout1",
+  "title": "Fallout",
+  "referenceSubjects": 1299,
+  "matchedArchiveEntities": 89,
+  "productionQuality": 14,
+  "substantialRecords": 7,
+  "supportingRecords": 24,
+  "shallowRecords": 44,
+  "missingSubjects": 1210,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 423,
+  "majorLore": 18,
+  "supportingLore": 95,
+  "minorLore": 768,
+  "deepResearchCandidates": 22,
+  "tier1Gaps": 7,
+  "tier2Gaps": 74,
+  "weightedLoreCoverage": 28.4,
+  "byType": {
+    "source_record": {
+      "total": 420,
+      "matched": 0,
+      "missing": 420
+    },
+    "person": {
+      "total": 512,
+      "matched": 50,
+      "missing": 462
+    },
+    "item": {
+      "total": 89,
+      "matched": 1,
+      "missing": 88
+    },
+    "event": {
+      "total": 83,
+      "matched": 0,
+      "missing": 83
+    },
+    "place": {
+      "total": 101,
+      "matched": 23,
+      "missing": 78
+    },
+    "organisation": {
+      "total": 44,
+      "matched": 14,
+      "missing": 30
+    },
+    "creature": {
+      "total": 33,
+      "matched": 0,
+      "missing": 33
+    },
+    "technology": {
+      "total": 17,
+      "matched": 1,
+      "missing": 16
+    }
+  }
+}

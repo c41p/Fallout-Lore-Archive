@@ -1,0 +1,48 @@
+{
+  "workId": "work.lonesome_road",
+  "slug": "lonesome-road",
+  "title": "Lonesome Road",
+  "referenceSubjects": 34,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 34,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 1,
+  "majorLore": 1,
+  "supportingLore": 20,
+  "minorLore": 12,
+  "deepResearchCandidates": 1,
+  "tier1Gaps": 1,
+  "tier2Gaps": 20,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "person": {
+      "total": 9,
+      "matched": 0,
+      "missing": 9
+    },
+    "place": {
+      "total": 16,
+      "matched": 0,
+      "missing": 16
+    },
+    "creature": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    },
+    "event": {
+      "total": 6,
+      "matched": 0,
+      "missing": 6
+    },
+    "source_record": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "workId": "work.fallout_2",
+  "slug": "fallout2",
+  "title": "Fallout 2",
+  "referenceSubjects": 2105,
+  "matchedArchiveEntities": 29,
+  "productionQuality": 6,
+  "substantialRecords": 1,
+  "supportingRecords": 5,
+  "shallowRecords": 17,
+  "missingSubjects": 2076,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 656,
+  "majorLore": 58,
+  "supportingLore": 126,
+  "minorLore": 1267,
+  "deepResearchCandidates": 59,
+  "tier1Gaps": 49,
+  "tier2Gaps": 117,
+  "weightedLoreCoverage": 6.5,
+  "byType": {
+    "organisation": {
+      "total": 118,
+      "matched": 6,
+      "missing": 112
+    },
+    "source_record": {
+      "total": 649,
+      "matched": 0,
+      "missing": 649
+    },
+    "person": {
+      "total": 699,
+      "matched": 14,
+      "missing": 685
+    },
+    "place": {
+      "total": 211,
+      "matched": 6,
+      "missing": 205
+    },
+    "event": {
+      "total": 209,
+      "matched": 1,
+      "missing": 208
+    },
+    "item": {
+      "total": 162,
+      "matched": 2,
+      "missing": 160
+    },
+    "creature": {
+      "total": 37,
+      "matched": 0,
+      "missing": 37
+    },
+    "technology": {
+      "total": 20,
+      "matched": 0,
+      "missing": 20
+    }
+  }
+}

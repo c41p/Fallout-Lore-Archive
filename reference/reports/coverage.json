@@ -1,0 +1,1293 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-08-16T19:24:26.572Z",
+  "methodology": "Importance-weighted estimate excluding gameplay-only and reference-only candidates; production-quality=100%, substantial=75%, supporting=50%, shallow=25%. Wiki pages are discovery units, not one-to-one Archive entities.",
+  "totals": {
+    "referenceSubjects": 17964,
+    "matchedArchiveEntities": 200,
+    "productionQuality": 34,
+    "substantialRecords": 13,
+    "supportingRecords": 43,
+    "shallowRecords": 110,
+    "missingSubjects": 17764,
+    "unresolvedMatches": 0,
+    "gameplayOrReferenceOnly": 4779,
+    "tier1Gaps": 306,
+    "tier2Gaps": 1399,
+    "majorLore": 361,
+    "supportingLore": 1448,
+    "minorLore": 11457,
+    "deepResearchCandidates": 453,
+    "weightedLoreCoverage": 5.7,
+    "ambiguousMatches": 0,
+    "deepResearchFlags": 357
+  },
+  "works": [
+    {
+      "workId": "work.fallout",
+      "slug": "fallout1",
+      "title": "Fallout",
+      "referenceSubjects": 1299,
+      "matchedArchiveEntities": 89,
+      "productionQuality": 14,
+      "substantialRecords": 7,
+      "supportingRecords": 24,
+      "shallowRecords": 44,
+      "missingSubjects": 1210,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 423,
+      "majorLore": 18,
+      "supportingLore": 95,
+      "minorLore": 768,
+      "deepResearchCandidates": 22,
+      "tier1Gaps": 7,
+      "tier2Gaps": 74,
+      "weightedLoreCoverage": 28.4,
+      "byType": {
+        "source_record": {
+          "total": 420,
+          "matched": 0,
+          "missing": 420
+        },
+        "person": {
+          "total": 512,
+          "matched": 50,
+          "missing": 462
+        },
+        "item": {
+          "total": 89,
+          "matched": 1,
+          "missing": 88
+        },
+        "event": {
+          "total": 83,
+          "matched": 0,
+          "missing": 83
+        },
+        "place": {
+          "total": 101,
+          "matched": 23,
+          "missing": 78
+        },
+        "organisation": {
+          "total": 44,
+          "matched": 14,
+          "missing": 30
+        },
+        "creature": {
+          "total": 33,
+          "matched": 0,
+          "missing": 33
+        },
+        "technology": {
+          "total": 17,
+          "matched": 1,
+          "missing": 16
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_2",
+      "slug": "fallout2",
+      "title": "Fallout 2",
+      "referenceSubjects": 2105,
+      "matchedArchiveEntities": 29,
+      "productionQuality": 6,
+      "substantialRecords": 1,
+      "supportingRecords": 5,
+      "shallowRecords": 17,
+      "missingSubjects": 2076,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 656,
+      "majorLore": 58,
+      "supportingLore": 126,
+      "minorLore": 1267,
+      "deepResearchCandidates": 59,
+      "tier1Gaps": 49,
+      "tier2Gaps": 117,
+      "weightedLoreCoverage": 6.5,
+      "byType": {
+        "organisation": {
+          "total": 118,
+          "matched": 6,
+          "missing": 112
+        },
+        "source_record": {
+          "total": 649,
+          "matched": 0,
+          "missing": 649
+        },
+        "person": {
+          "total": 699,
+          "matched": 14,
+          "missing": 685
+        },
+        "place": {
+          "total": 211,
+          "matched": 6,
+          "missing": 205
+        },
+        "event": {
+          "total": 209,
+          "matched": 1,
+          "missing": 208
+        },
+        "item": {
+          "total": 162,
+          "matched": 2,
+          "missing": 160
+        },
+        "creature": {
+          "total": 37,
+          "matched": 0,
+          "missing": 37
+        },
+        "technology": {
+          "total": 20,
+          "matched": 0,
+          "missing": 20
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_tactics",
+      "slug": "fallout-tactics",
+      "title": "Fallout Tactics: Brotherhood of Steel",
+      "referenceSubjects": 675,
+      "matchedArchiveEntities": 4,
+      "productionQuality": 1,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 3,
+      "missingSubjects": 671,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 92,
+      "majorLore": 5,
+      "supportingLore": 42,
+      "minorLore": 539,
+      "deepResearchCandidates": 5,
+      "tier1Gaps": 4,
+      "tier2Gaps": 42,
+      "weightedLoreCoverage": 6.1,
+      "byType": {
+        "source_record": {
+          "total": 90,
+          "matched": 0,
+          "missing": 90
+        },
+        "organisation": {
+          "total": 33,
+          "matched": 1,
+          "missing": 32
+        },
+        "creature": {
+          "total": 14,
+          "matched": 0,
+          "missing": 14
+        },
+        "place": {
+          "total": 51,
+          "matched": 0,
+          "missing": 51
+        },
+        "item": {
+          "total": 134,
+          "matched": 1,
+          "missing": 133
+        },
+        "person": {
+          "total": 297,
+          "matched": 2,
+          "missing": 295
+        },
+        "technology": {
+          "total": 28,
+          "matched": 0,
+          "missing": 28
+        },
+        "event": {
+          "total": 28,
+          "matched": 0,
+          "missing": 28
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_bos",
+      "slug": "fallout-brotherhood-of-steel",
+      "title": "Fallout: Brotherhood of Steel",
+      "referenceSubjects": 294,
+      "matchedArchiveEntities": 4,
+      "productionQuality": 1,
+      "substantialRecords": 0,
+      "supportingRecords": 1,
+      "shallowRecords": 2,
+      "missingSubjects": 290,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 35,
+      "majorLore": 30,
+      "supportingLore": 74,
+      "minorLore": 163,
+      "deepResearchCandidates": 98,
+      "tier1Gaps": 28,
+      "tier2Gaps": 73,
+      "weightedLoreCoverage": 3.3,
+      "byType": {
+        "organisation": {
+          "total": 11,
+          "matched": 1,
+          "missing": 10
+        },
+        "creature": {
+          "total": 10,
+          "matched": 1,
+          "missing": 9
+        },
+        "source_record": {
+          "total": 33,
+          "matched": 0,
+          "missing": 33
+        },
+        "person": {
+          "total": 49,
+          "matched": 1,
+          "missing": 48
+        },
+        "place": {
+          "total": 20,
+          "matched": 0,
+          "missing": 20
+        },
+        "item": {
+          "total": 88,
+          "matched": 1,
+          "missing": 87
+        },
+        "technology": {
+          "total": 16,
+          "matched": 0,
+          "missing": 16
+        },
+        "event": {
+          "total": 67,
+          "matched": 0,
+          "missing": 67
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_3",
+      "slug": "fallout3",
+      "title": "Fallout 3",
+      "referenceSubjects": 2800,
+      "matchedArchiveEntities": 19,
+      "productionQuality": 4,
+      "substantialRecords": 0,
+      "supportingRecords": 3,
+      "shallowRecords": 12,
+      "missingSubjects": 2781,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 1076,
+      "majorLore": 46,
+      "supportingLore": 189,
+      "minorLore": 1501,
+      "deepResearchCandidates": 49,
+      "tier1Gaps": 40,
+      "tier2Gaps": 187,
+      "weightedLoreCoverage": 3.9,
+      "byType": {
+        "person": {
+          "total": 831,
+          "matched": 12,
+          "missing": 819
+        },
+        "organisation": {
+          "total": 74,
+          "matched": 6,
+          "missing": 68
+        },
+        "place": {
+          "total": 603,
+          "matched": 0,
+          "missing": 603
+        },
+        "creature": {
+          "total": 40,
+          "matched": 0,
+          "missing": 40
+        },
+        "source_record": {
+          "total": 1065,
+          "matched": 0,
+          "missing": 1065
+        },
+        "technology": {
+          "total": 25,
+          "matched": 1,
+          "missing": 24
+        },
+        "event": {
+          "total": 162,
+          "matched": 0,
+          "missing": 162
+        }
+      }
+    },
+    {
+      "workId": "work.new_vegas",
+      "slug": "new-vegas",
+      "title": "Fallout: New Vegas",
+      "referenceSubjects": 3000,
+      "matchedArchiveEntities": 26,
+      "productionQuality": 3,
+      "substantialRecords": 2,
+      "supportingRecords": 8,
+      "shallowRecords": 13,
+      "missingSubjects": 2974,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 823,
+      "majorLore": 56,
+      "supportingLore": 229,
+      "minorLore": 1895,
+      "deepResearchCandidates": 58,
+      "tier1Gaps": 45,
+      "tier2Gaps": 219,
+      "weightedLoreCoverage": 5.3,
+      "byType": {
+        "organisation": {
+          "total": 117,
+          "matched": 7,
+          "missing": 110
+        },
+        "person": {
+          "total": 945,
+          "matched": 12,
+          "missing": 933
+        },
+        "place": {
+          "total": 640,
+          "matched": 6,
+          "missing": 634
+        },
+        "creature": {
+          "total": 55,
+          "matched": 1,
+          "missing": 54
+        },
+        "technology": {
+          "total": 31,
+          "matched": 0,
+          "missing": 31
+        },
+        "event": {
+          "total": 394,
+          "matched": 0,
+          "missing": 394
+        },
+        "source_record": {
+          "total": 818,
+          "matched": 0,
+          "missing": 818
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_4",
+      "slug": "fallout4",
+      "title": "Fallout 4",
+      "referenceSubjects": 3200,
+      "matchedArchiveEntities": 8,
+      "productionQuality": 1,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 7,
+      "missingSubjects": 3192,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 1106,
+      "majorLore": 71,
+      "supportingLore": 172,
+      "minorLore": 1857,
+      "deepResearchCandidates": 72,
+      "tier1Gaps": 68,
+      "tier2Gaps": 171,
+      "weightedLoreCoverage": 1.5,
+      "byType": {
+        "person": {
+          "total": 837,
+          "matched": 3,
+          "missing": 834
+        },
+        "organisation": {
+          "total": 110,
+          "matched": 3,
+          "missing": 107
+        },
+        "creature": {
+          "total": 64,
+          "matched": 0,
+          "missing": 64
+        },
+        "place": {
+          "total": 622,
+          "matched": 2,
+          "missing": 620
+        },
+        "technology": {
+          "total": 65,
+          "matched": 0,
+          "missing": 65
+        },
+        "event": {
+          "total": 404,
+          "matched": 0,
+          "missing": 404
+        },
+        "source_record": {
+          "total": 1098,
+          "matched": 0,
+          "missing": 1098
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_76",
+      "slug": "fallout76",
+      "title": "Fallout 76",
+      "referenceSubjects": 3500,
+      "matchedArchiveEntities": 9,
+      "productionQuality": 3,
+      "substantialRecords": 1,
+      "supportingRecords": 1,
+      "shallowRecords": 4,
+      "missingSubjects": 3491,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 552,
+      "majorLore": 32,
+      "supportingLore": 170,
+      "minorLore": 2786,
+      "deepResearchCandidates": 43,
+      "tier1Gaps": 29,
+      "tier2Gaps": 167,
+      "weightedLoreCoverage": 3,
+      "byType": {
+        "organisation": {
+          "total": 77,
+          "matched": 2,
+          "missing": 75
+        },
+        "person": {
+          "total": 1562,
+          "matched": 6,
+          "missing": 1556
+        },
+        "place": {
+          "total": 836,
+          "matched": 0,
+          "missing": 836
+        },
+        "event": {
+          "total": 483,
+          "matched": 0,
+          "missing": 483
+        },
+        "source_record": {
+          "total": 542,
+          "matched": 1,
+          "missing": 541
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_shelter",
+      "slug": "fallout-shelter",
+      "title": "Fallout Shelter",
+      "referenceSubjects": 627,
+      "matchedArchiveEntities": 11,
+      "productionQuality": 1,
+      "substantialRecords": 1,
+      "supportingRecords": 1,
+      "shallowRecords": 8,
+      "missingSubjects": 616,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 3,
+      "majorLore": 36,
+      "supportingLore": 91,
+      "minorLore": 499,
+      "deepResearchCandidates": 36,
+      "tier1Gaps": 27,
+      "tier2Gaps": 90,
+      "weightedLoreCoverage": 6.9,
+      "byType": {
+        "organisation": {
+          "total": 77,
+          "matched": 8,
+          "missing": 69
+        },
+        "creature": {
+          "total": 18,
+          "matched": 0,
+          "missing": 18
+        },
+        "place": {
+          "total": 33,
+          "matched": 1,
+          "missing": 32
+        },
+        "person": {
+          "total": 75,
+          "matched": 2,
+          "missing": 73
+        },
+        "event": {
+          "total": 367,
+          "matched": 0,
+          "missing": 367
+        },
+        "item": {
+          "total": 26,
+          "matched": 0,
+          "missing": 26
+        },
+        "other": {
+          "total": 29,
+          "matched": 0,
+          "missing": 29
+        },
+        "source_record": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        }
+      }
+    },
+    {
+      "workId": "work.operation_anchorage",
+      "slug": "operation-anchorage",
+      "title": "Operation: Anchorage",
+      "referenceSubjects": 23,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 23,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 1,
+      "majorLore": 0,
+      "supportingLore": 17,
+      "minorLore": 5,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 17,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 11,
+          "matched": 0,
+          "missing": 11
+        },
+        "technology": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "person": {
+          "total": 6,
+          "matched": 0,
+          "missing": 6
+        },
+        "event": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "organisation": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "source_record": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        }
+      }
+    },
+    {
+      "workId": "work.the_pitt",
+      "slug": "the-pitt",
+      "title": "The Pitt",
+      "referenceSubjects": 23,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 23,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 7,
+      "minorLore": 16,
+      "deepResearchCandidates": 2,
+      "tier1Gaps": 0,
+      "tier2Gaps": 7,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 5,
+          "matched": 0,
+          "missing": 5
+        },
+        "event": {
+          "total": 16,
+          "matched": 0,
+          "missing": 16
+        },
+        "person": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        }
+      }
+    },
+    {
+      "workId": "work.broken_steel",
+      "slug": "broken-steel",
+      "title": "Broken Steel",
+      "referenceSubjects": 23,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 23,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 5,
+      "majorLore": 2,
+      "supportingLore": 11,
+      "minorLore": 5,
+      "deepResearchCandidates": 2,
+      "tier1Gaps": 2,
+      "tier2Gaps": 11,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "person": {
+          "total": 7,
+          "matched": 0,
+          "missing": 7
+        },
+        "technology": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "place": {
+          "total": 4,
+          "matched": 0,
+          "missing": 4
+        },
+        "organisation": {
+          "total": 3,
+          "matched": 0,
+          "missing": 3
+        },
+        "creature": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "event": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "source_record": {
+          "total": 5,
+          "matched": 0,
+          "missing": 5
+        }
+      }
+    },
+    {
+      "workId": "work.point_lookout",
+      "slug": "point-lookout",
+      "title": "Point Lookout",
+      "referenceSubjects": 31,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 31,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 24,
+      "minorLore": 7,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 24,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "creature": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "person": {
+          "total": 5,
+          "matched": 0,
+          "missing": 5
+        },
+        "place": {
+          "total": 21,
+          "matched": 0,
+          "missing": 21
+        },
+        "organisation": {
+          "total": 3,
+          "matched": 0,
+          "missing": 3
+        }
+      }
+    },
+    {
+      "workId": "work.mothership_zeta",
+      "slug": "mothership-zeta",
+      "title": "Mothership Zeta",
+      "referenceSubjects": 20,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 20,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 14,
+      "minorLore": 6,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 14,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 13,
+          "matched": 0,
+          "missing": 13
+        },
+        "person": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "event": {
+          "total": 5,
+          "matched": 0,
+          "missing": 5
+        },
+        "technology": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        }
+      }
+    },
+    {
+      "workId": "work.dead_money",
+      "slug": "dead-money",
+      "title": "Dead Money",
+      "referenceSubjects": 29,
+      "matchedArchiveEntities": 1,
+      "productionQuality": 0,
+      "substantialRecords": 1,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 28,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 2,
+      "majorLore": 1,
+      "supportingLore": 17,
+      "minorLore": 9,
+      "deepResearchCandidates": 1,
+      "tier1Gaps": 1,
+      "tier2Gaps": 16,
+      "weightedLoreCoverage": 3.2,
+      "byType": {
+        "person": {
+          "total": 4,
+          "matched": 1,
+          "missing": 3
+        },
+        "place": {
+          "total": 12,
+          "matched": 0,
+          "missing": 12
+        },
+        "creature": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "event": {
+          "total": 8,
+          "matched": 0,
+          "missing": 8
+        },
+        "technology": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "source_record": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        }
+      }
+    },
+    {
+      "workId": "work.honest_hearts",
+      "slug": "honest-hearts",
+      "title": "Honest Hearts",
+      "referenceSubjects": 62,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 62,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 2,
+      "majorLore": 2,
+      "supportingLore": 40,
+      "minorLore": 18,
+      "deepResearchCandidates": 2,
+      "tier1Gaps": 2,
+      "tier2Gaps": 40,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 35,
+          "matched": 0,
+          "missing": 35
+        },
+        "organisation": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "person": {
+          "total": 6,
+          "matched": 0,
+          "missing": 6
+        },
+        "creature": {
+          "total": 6,
+          "matched": 0,
+          "missing": 6
+        },
+        "event": {
+          "total": 11,
+          "matched": 0,
+          "missing": 11
+        },
+        "source_record": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        }
+      }
+    },
+    {
+      "workId": "work.old_world_blues",
+      "slug": "old-world-blues",
+      "title": "Old World Blues",
+      "referenceSubjects": 64,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 64,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 2,
+      "majorLore": 1,
+      "supportingLore": 33,
+      "minorLore": 28,
+      "deepResearchCandidates": 1,
+      "tier1Gaps": 1,
+      "tier2Gaps": 33,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "technology": {
+          "total": 3,
+          "matched": 0,
+          "missing": 3
+        },
+        "creature": {
+          "total": 3,
+          "matched": 0,
+          "missing": 3
+        },
+        "person": {
+          "total": 11,
+          "matched": 0,
+          "missing": 11
+        },
+        "place": {
+          "total": 29,
+          "matched": 0,
+          "missing": 29
+        },
+        "event": {
+          "total": 16,
+          "matched": 0,
+          "missing": 16
+        },
+        "source_record": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        }
+      }
+    },
+    {
+      "workId": "work.lonesome_road",
+      "slug": "lonesome-road",
+      "title": "Lonesome Road",
+      "referenceSubjects": 34,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 34,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 1,
+      "majorLore": 1,
+      "supportingLore": 20,
+      "minorLore": 12,
+      "deepResearchCandidates": 1,
+      "tier1Gaps": 1,
+      "tier2Gaps": 20,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "person": {
+          "total": 9,
+          "matched": 0,
+          "missing": 9
+        },
+        "place": {
+          "total": 16,
+          "matched": 0,
+          "missing": 16
+        },
+        "creature": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "event": {
+          "total": 6,
+          "matched": 0,
+          "missing": 6
+        },
+        "source_record": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        }
+      }
+    },
+    {
+      "workId": "work.gun_runners_arsenal",
+      "slug": "gun-runners-arsenal",
+      "title": "Gun Runners' Arsenal",
+      "referenceSubjects": 0,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 0,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 0,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 0,
+      "weightedLoreCoverage": 0,
+      "byType": {}
+    },
+    {
+      "workId": "work.couriers_stash",
+      "slug": "couriers-stash",
+      "title": "Courier's Stash",
+      "referenceSubjects": 0,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 0,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 0,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 0,
+      "weightedLoreCoverage": 0,
+      "byType": {}
+    },
+    {
+      "workId": "work.automatron",
+      "slug": "automatron",
+      "title": "Automatron",
+      "referenceSubjects": 29,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 29,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 1,
+      "supportingLore": 11,
+      "minorLore": 17,
+      "deepResearchCandidates": 1,
+      "tier1Gaps": 1,
+      "tier2Gaps": 11,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 7,
+          "matched": 0,
+          "missing": 7
+        },
+        "person": {
+          "total": 10,
+          "matched": 0,
+          "missing": 10
+        },
+        "technology": {
+          "total": 8,
+          "matched": 0,
+          "missing": 8
+        },
+        "event": {
+          "total": 4,
+          "matched": 0,
+          "missing": 4
+        }
+      }
+    },
+    {
+      "workId": "work.wasteland_workshop",
+      "slug": "wasteland-workshop",
+      "title": "Wasteland Workshop",
+      "referenceSubjects": 0,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 0,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 0,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 0,
+      "weightedLoreCoverage": 0,
+      "byType": {}
+    },
+    {
+      "workId": "work.far_harbor",
+      "slug": "far-harbor",
+      "title": "Far Harbor",
+      "referenceSubjects": 59,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 59,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 30,
+      "minorLore": 29,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 30,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "person": {
+          "total": 19,
+          "matched": 0,
+          "missing": 19
+        },
+        "place": {
+          "total": 18,
+          "matched": 0,
+          "missing": 18
+        },
+        "organisation": {
+          "total": 7,
+          "matched": 0,
+          "missing": 7
+        },
+        "creature": {
+          "total": 4,
+          "matched": 0,
+          "missing": 4
+        },
+        "technology": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "event": {
+          "total": 10,
+          "matched": 0,
+          "missing": 10
+        }
+      }
+    },
+    {
+      "workId": "work.contraptions_workshop",
+      "slug": "contraptions-workshop",
+      "title": "Contraptions Workshop",
+      "referenceSubjects": 0,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 0,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 0,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 0,
+      "weightedLoreCoverage": 0,
+      "byType": {}
+    },
+    {
+      "workId": "work.vault_tec_workshop",
+      "slug": "vault-tec-workshop",
+      "title": "Vault-Tec Workshop",
+      "referenceSubjects": 1,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 1,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 1,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 1,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "place": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        }
+      }
+    },
+    {
+      "workId": "work.nuka_world",
+      "slug": "nuka-world",
+      "title": "Nuka-World",
+      "referenceSubjects": 66,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 66,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 1,
+      "supportingLore": 35,
+      "minorLore": 30,
+      "deepResearchCandidates": 1,
+      "tier1Gaps": 1,
+      "tier2Gaps": 35,
+      "weightedLoreCoverage": 0,
+      "byType": {
+        "organisation": {
+          "total": 2,
+          "matched": 0,
+          "missing": 2
+        },
+        "person": {
+          "total": 27,
+          "matched": 0,
+          "missing": 27
+        },
+        "creature": {
+          "total": 3,
+          "matched": 0,
+          "missing": 3
+        },
+        "technology": {
+          "total": 1,
+          "matched": 0,
+          "missing": 1
+        },
+        "place": {
+          "total": 26,
+          "matched": 0,
+          "missing": 26
+        },
+        "event": {
+          "total": 7,
+          "matched": 0,
+          "missing": 7
+        }
+      }
+    },
+    {
+      "workId": "work.fallout_tactics_bonus_missions",
+      "slug": "fallout-tactics-bonus-missions",
+      "title": "Fallout Tactics bonus missions",
+      "referenceSubjects": 0,
+      "matchedArchiveEntities": 0,
+      "productionQuality": 0,
+      "substantialRecords": 0,
+      "supportingRecords": 0,
+      "shallowRecords": 0,
+      "missingSubjects": 0,
+      "unresolvedMatches": 0,
+      "gameplayOrReferenceOnly": 0,
+      "majorLore": 0,
+      "supportingLore": 0,
+      "minorLore": 0,
+      "deepResearchCandidates": 0,
+      "tier1Gaps": 0,
+      "tier2Gaps": 0,
+      "weightedLoreCoverage": 0,
+      "byType": {}
+    }
+  ]
+}
