@@ -123,7 +123,15 @@ fn get_timeline(state: State<DatabasePath>, filters: SearchFilters) -> Result<Ve
     let db = open_db(&state)?;
     let mut statement = db.prepare("SELECT e.*, a.object_json, a.epistemic_status, (SELECT count(*) FROM evidence_links ev WHERE ev.target_id=a.id) evidence_count FROM assertions a JOIN entities e ON e.id=a.subject_id WHERE a.sort_key IS NOT NULL AND (?1 IS NULL OR e.type=?1) AND (?2 IS NULL OR EXISTS (SELECT 1 FROM appearances ap WHERE ap.entity_id=e.id AND ap.work_id=?2)) ORDER BY a.sort_key,e.display_name").map_err(|e| e.to_string())?;
     let rows = statement.query_map(params![filters.entity_type, filters.work_id], |row| { let object: Value = serde_json::from_str(&row.get::<_, String>("object_json")?).unwrap_or(json!({})); Ok(json!({ "entity": entity_from_row(row)?, "temporal": object["temporal"].clone(), "epistemicStatus": row.get::<_, String>("epistemic_status")?, "evidenceCount": row.get::<_, i64>("evidence_count")? })) }).map_err(|e| e.to_string())?;
-    rows.map(|r| r.map_err(|e| e.to_string())).collect()
+    let mut entries: Vec<Value> = rows.map(|r| r.map_err(|e| e.to_string())).collect::<Result<_,_>>()?;
+    drop(statement);
+    for entry in &mut entries {
+        let Some(entity_id) = entry["entity"]["id"].as_str() else { entry["relatedEntities"] = json!([]); continue };
+        let mut related_stmt = db.prepare("SELECT DISTINCT e.* FROM assertions a JOIN entities e ON e.id=CASE WHEN a.subject_id=?1 THEN a.object_entity_id ELSE a.subject_id END WHERE a.object_entity_id IS NOT NULL AND (a.subject_id=?2 OR a.object_entity_id=?3) ORDER BY e.display_name").map_err(|e| e.to_string())?;
+        let related: Vec<Value> = related_stmt.query_map(params![entity_id,entity_id,entity_id], entity_from_row).map_err(|e| e.to_string())?.map(|row| row.map_err(|e| e.to_string())).collect::<Result<_,_>>()?;
+        entry["relatedEntities"] = Value::Array(related);
+    }
+    Ok(entries)
 }
 
 #[tauri::command]

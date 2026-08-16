@@ -1,10 +1,11 @@
-import { Archive, Clock3, Compass, Database, Gamepad2, Home, Map, Menu, Search, X } from "lucide-react";
+import { Archive, Clock3, Compass, Database, Gamepad2, Home, Map, Menu, Route, Search, X } from "lucide-react";
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 const links = [
   { to: "/", label: "Home", icon: Home, end: true },
   { to: "/games", label: "Games", icon: Gamepad2 },
+  { to: "/paths", label: "Lore Paths", icon: Route },
   { to: "/browse", label: "Search & browse", icon: Search },
   { to: "/timeline", label: "Timeline", icon: Clock3 },
   { to: "/map", label: "Map", icon: Map }

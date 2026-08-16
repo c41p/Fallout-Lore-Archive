@@ -115,7 +115,14 @@ export async function getTimeline(filters: SearchFilters = {}): Promise<Timeline
     const temporal = assertion.object.temporal;
     const entity = dataset.entities.find((candidate) => candidate.id === assertion.subjectId);
     if (!temporal || !entity || (filters.entityType && filters.entityType !== "all" && entity.type !== filters.entityType) || !appearsIn(dataset, entity.id, filters.workId)) return [];
-    return [{ entity, temporal, epistemicStatus: assertion.epistemicStatus, evidenceCount: evidenceFor(dataset, assertion.id).length }];
+    const relatedIds = new Set(dataset.assertions.flatMap((relationship) => {
+      if (!relationship.object.entityId) return [];
+      if (relationship.subjectId === entity.id) return [relationship.object.entityId];
+      if (relationship.object.entityId === entity.id) return [relationship.subjectId];
+      return [];
+    }));
+    const relatedEntities = dataset.entities.filter((candidate) => relatedIds.has(candidate.id));
+    return [{ entity, temporal, epistemicStatus: assertion.epistemicStatus, evidenceCount: evidenceFor(dataset, assertion.id).length, relatedEntities }];
   }).sort((a, b) => {
     const dateKey = (entry: TimelineEntry) => (entry.temporal.start?.year ?? 9999) * 10_000 + (entry.temporal.start?.month ?? 0) * 100 + (entry.temporal.start?.day ?? 0);
     return dateKey(a) - dateKey(b) || a.entity.displayName.localeCompare(b.entity.displayName);

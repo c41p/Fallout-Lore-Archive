@@ -56,6 +56,20 @@ describe("SQLite compiler", () => {
     const sources = query("SELECT count(*) count FROM source_items WHERE work_id='work.fallout';");
     expect(JSON.parse(sources.stdout)[0].count).toBeGreaterThan(40);
   });
+  it("compiles the franchise-scale corpus with revision-attributed community provenance", () => {
+    const entities = query("SELECT count(*) count FROM entities;");
+    const relationships = query("SELECT count(*) count FROM assertions WHERE object_entity_id IS NOT NULL;");
+    const sources = query("SELECT count(*) count FROM source_items WHERE id GLOB 'src.ref.nukapedia_*';");
+    expect(JSON.parse(entities.stdout)[0].count).toBeGreaterThan(2300);
+    expect(JSON.parse(relationships.stdout)[0].count).toBeGreaterThan(9000);
+    expect(JSON.parse(sources.stdout)[0].count).toBeGreaterThan(2000);
+  });
+  it("keeps exact canonical titles independently queryable from broader FTS matches", () => {
+    const exact = query("SELECT id FROM entities WHERE lower(display_name)=lower('Brotherhood of Steel');");
+    const broad = query("SELECT count(*) count FROM entity_fts WHERE entity_fts MATCH '\"Brotherhood of Steel\"';");
+    expect(JSON.parse(exact.stdout)[0].id).toBe("ent.brotherhood");
+    expect(JSON.parse(broad.stdout)[0].count).toBeGreaterThan(1);
+  });
   it("preserves conditional outcomes as graph assertions", () => {
     const branches = query("SELECT count(*) count FROM outcome_assertions WHERE group_id='outcome.f1.shady';");
     expect(JSON.parse(branches.stdout)[0].count).toBe(3);

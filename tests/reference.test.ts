@@ -6,6 +6,7 @@ import { loadDataset } from "../scripts/lore";
 import { MediaWikiProvider, isRevisionChanged } from "../scripts/reference/providers";
 import { buildCandidate, buildCoverageReport, classifyReferencePage, deterministicCandidateId, entityCoverageState, matchCandidate, normalizeCandidateTitle, validateReferenceCorpus } from "../scripts/reference/pipeline";
 import type { ReferenceCorpus, ReferenceWork } from "../scripts/reference/types";
+import { lorePaths } from "../src/data/lorePaths";
 
 const tempDirs: string[] = [];
 const temp = () => { const value = fs.mkdtempSync(path.join(os.tmpdir(), "fla-reference-test-")); tempDirs.push(value); return value; };
@@ -15,6 +16,10 @@ const fixture = JSON.parse(fs.readFileSync(path.join(process.cwd(), "tests/fixtu
 const response = (body: unknown, ok = true) => Promise.resolve({ ok, status: ok ? 200 : 503, statusText: ok ? "OK" : "Unavailable", json: () => Promise.resolve(body) } as Response);
 
 describe("reference provider and candidate pipeline", () => {
+  it("keeps every curated Lore Path step resolvable in the canonical dataset", () => {
+    const ids = new Set(loadDataset().entities.map((entity) => entity.id));
+    expect(lorePaths.flatMap((path) => path.steps).filter((step) => !ids.has(step.entityId))).toEqual([]);
+  });
   it("parses page metadata, redirects, categories and revision details", async () => {
     const fetchImpl = vi.fn(() => response(fixture));
     const provider = new MediaWikiProvider({ apiUrl: "https://example.invalid/api.php", cacheDir: temp(), userAgent: "test", rateLimitMs: 0, fetchImpl });

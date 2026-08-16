@@ -92,6 +92,6 @@ export interface AssertionView { assertion: Assertion; predicate: PredicateDefin
 export interface ArticleSectionView extends ArticleSection { assertions: AssertionView[]; relatedEntities: Entity[] }
 export interface OutcomeGroupView extends OutcomeGroup { assertions: AssertionView[] }
 export interface EntityDetail { entity: Entity; aliases: string[]; articleSections: ArticleSectionView[]; relationships: RelationshipView[]; facts: AssertionView[]; spatial: SpatialRepresentation[]; appearances: Array<Appearance & { work: SourceWork }>; disputes: Array<Dispute & { assertions: AssertionView[] }>; outcomeGroups: OutcomeGroupView[] }
-export interface TimelineEntry { entity: Entity; temporal: TemporalValue; epistemicStatus: string; evidenceCount: number }
+export interface TimelineEntry { entity: Entity; temporal: TemporalValue; epistemicStatus: string; evidenceCount: number; relatedEntities: Entity[] }
 export interface MapLocation { entity: Entity; spatial: SpatialRepresentation }
 export interface GameProfile { work: SourceWork; entities: Entity[]; sourceItems: SourceItem[]; counts: Record<string, number> }
