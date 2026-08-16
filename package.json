@@ -15,6 +15,9 @@
     "lore:reference:sync:offline": "tsx scripts/reference.ts sync --offline",
     "lore:reference:validate": "tsx scripts/reference.ts validate",
     "lore:coverage": "tsx scripts/reference.ts coverage",
+    "lore:expand": "tsx scripts/franchise-expansion.ts",
+    "lore:expand:offline": "tsx scripts/franchise-expansion.ts --offline",
+    "lore:expand:audit": "tsx scripts/franchise-expansion.ts --dry-run --offline",
     "test": "vitest run",
     "test:watch": "vitest",
     "check": "pnpm lore:validate && pnpm lore:quality && pnpm lore:reference:validate && pnpm lore:build && pnpm test && pnpm build"

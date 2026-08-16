@@ -1,0 +1,6554 @@
+[
+  {
+    "id": "name.ref.3714.1",
+    "entityId": "ent.ref.nukapedia_3714",
+    "name": "Elron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3714.2",
+    "entityId": "ent.ref.nukapedia_3714",
+    "name": "Elronologists",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3714.3",
+    "entityId": "ent.ref.nukapedia_3714",
+    "name": "Hubbologists",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11440.1",
+    "entityId": "ent.ref.nukapedia_11440",
+    "name": "Speeches of John Henry Eden",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11440.2",
+    "entityId": "ent.ref.nukapedia_11440",
+    "name": "The Speeches of John Henry Eden",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.125742.1",
+    "entityId": "ent.ref.nukapedia_125742",
+    "name": "NCR History",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.125742.2",
+    "entityId": "ent.ref.nukapedia_125742",
+    "name": "NCR Mojave Campaign",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.607884.1",
+    "entityId": "ent.ref.nukapedia_607884",
+    "name": "NCR Congress",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.607884.2",
+    "entityId": "ent.ref.nukapedia_607884",
+    "name": "NCR Senate",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.607884.3",
+    "entityId": "ent.ref.nukapedia_607884",
+    "name": "New California Republic Congress",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628681.1",
+    "entityId": "ent.ref.nukapedia_628681",
+    "name": "Enclave characters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628681.2",
+    "entityId": "ent.ref.nukapedia_628681",
+    "name": "Enclave members",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.677698.1",
+    "entityId": "ent.ref.nukapedia_677698",
+    "name": "NCR Council",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.803821.1",
+    "entityId": "ent.ref.nukapedia_803821",
+    "name": "Enclave officer uniform",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.803821.2",
+    "entityId": "ent.ref.nukapedia_803821",
+    "name": "Enclave uniforms",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13960.1",
+    "entityId": "ent.ref.nukapedia_13960",
+    "name": "NCR Army",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13960.2",
+    "entityId": "ent.ref.nukapedia_13960",
+    "name": "NCR Army Supply Corps",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.765181.1",
+    "entityId": "ent.ref.nukapedia_765181",
+    "name": "Institute concourse dynamic conversations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7817.1",
+    "entityId": "ent.ref.nukapedia_7817",
+    "name": "EC Company",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7817.2",
+    "entityId": "ent.ref.nukapedia_7817",
+    "name": "Enclave Armed Forces",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7817.3",
+    "entityId": "ent.ref.nukapedia_7817",
+    "name": "Enclave Armed Forces organization",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.763941.1",
+    "entityId": "ent.ref.nukapedia_763941",
+    "name": "Institute BioScience dynamic conversations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.765444.1",
+    "entityId": "ent.ref.nukapedia_765444",
+    "name": "Institute Advanced Systems dynamic conversations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.765445.1",
+    "entityId": "ent.ref.nukapedia_765445",
+    "name": "Institute Robotics dynamic conversations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.765693.1",
+    "entityId": "ent.ref.nukapedia_765693",
+    "name": "Institute SRB dynamic conversations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.132570.1",
+    "entityId": "ent.ref.nukapedia_132570",
+    "name": "Caesar's Legion history",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.46630.1",
+    "entityId": "ent.ref.nukapedia_46630",
+    "name": "Fallout: Brotherhood of Steel drugs and edibles",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.124577.1",
+    "entityId": "ent.ref.nukapedia_124577",
+    "name": "Caesar's Legion military hierarchy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.124577.2",
+    "entityId": "ent.ref.nukapedia_124577",
+    "name": "Caesar's Legion ranks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.124577.3",
+    "entityId": "ent.ref.nukapedia_124577",
+    "name": "Decanus",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.124577.4",
+    "entityId": "ent.ref.nukapedia_124577",
+    "name": "Speculatores",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.62240.1",
+    "entityId": "ent.ref.nukapedia_62240",
+    "name": "Enclave camps",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.62240.2",
+    "entityId": "ent.ref.nukapedia_62240",
+    "name": "Enclave locations (Fallout 3)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.62240.3",
+    "entityId": "ent.ref.nukapedia_62240",
+    "name": "Enclave outpost",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.62240.4",
+    "entityId": "ent.ref.nukapedia_62240",
+    "name": "Enclave outposts and camps",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68428.1",
+    "entityId": "ent.ref.nukapedia_68428",
+    "name": "Black metal armor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68428.2",
+    "entityId": "ent.ref.nukapedia_68428",
+    "name": "Caesar's Legion helmet",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68428.3",
+    "entityId": "ent.ref.nukapedia_68428",
+    "name": "Ceasar's Legion armor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68428.4",
+    "entityId": "ent.ref.nukapedia_68428",
+    "name": "Ceasar's Legion helmet",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628922.1",
+    "entityId": "ent.ref.nukapedia_628922",
+    "name": "Hierarchy (Midwest)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628922.2",
+    "entityId": "ent.ref.nukapedia_628922",
+    "name": "Paladin Lord",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.629983.1",
+    "entityId": "ent.ref.nukapedia_629983",
+    "name": "New Appalachian Bank",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.630461.1",
+    "entityId": "ent.ref.nukapedia_630461",
+    "name": "Enclave Research Facility Site J",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.483374.1",
+    "entityId": "ent.ref.nukapedia_483374",
+    "name": "Institute (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.23501.1",
+    "entityId": "ent.ref.nukapedia_23501",
+    "name": "NCR (town)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114375.1",
+    "entityId": "ent.ref.nukapedia_114375",
+    "name": "Legion safehouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.273071.1",
+    "entityId": "ent.ref.nukapedia_273071",
+    "name": "Courier's Mile",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.464767.1",
+    "entityId": "ent.ref.nukapedia_464767",
+    "name": "Arturo's house",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.652179.1",
+    "entityId": "ent.ref.nukapedia_652179",
+    "name": "Concourse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478366.1",
+    "entityId": "ent.ref.nukapedia_478366",
+    "name": "Financial14",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603477.1",
+    "entityId": "ent.ref.nukapedia_603477",
+    "name": "Advanced Systems",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603480.1",
+    "entityId": "ent.ref.nukapedia_603480",
+    "name": "BioScience",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603491.1",
+    "entityId": "ent.ref.nukapedia_603491",
+    "name": "Robotics",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.625380.1",
+    "entityId": "ent.ref.nukapedia_625380",
+    "name": "Appalachian roadways",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.625380.2",
+    "entityId": "ent.ref.nukapedia_625380",
+    "name": "Highway 35",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.625380.3",
+    "entityId": "ent.ref.nukapedia_625380",
+    "name": "Interstate 71",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.625380.4",
+    "entityId": "ent.ref.nukapedia_625380",
+    "name": "Route 2",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.652183.1",
+    "entityId": "ent.ref.nukapedia_652183",
+    "name": "Institute Synth Retention",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589337.1",
+    "entityId": "ent.ref.nukapedia_589337",
+    "name": "Last President",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589337.2",
+    "entityId": "ent.ref.nukapedia_589337",
+    "name": "President",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589337.3",
+    "entityId": "ent.ref.nukapedia_589337",
+    "name": "President Di",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589337.4",
+    "entityId": "ent.ref.nukapedia_589337",
+    "name": "President of the United States",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195104.1",
+    "entityId": "ent.ref.nukapedia_195104",
+    "name": "General Store (Honest Hearts)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.272773.1",
+    "entityId": "ent.ref.nukapedia_272773",
+    "name": "Battle of the Divide",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114123.1",
+    "entityId": "ent.ref.nukapedia_114123",
+    "name": "Wrath of Caesar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.620448.1",
+    "entityId": "ent.ref.nukapedia_620448",
+    "name": "Defend (Fallout 4 radiant quest)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7039.1",
+    "entityId": "ent.ref.nukapedia_7039",
+    "name": "Lyons's Pride",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10898.1",
+    "entityId": "ent.ref.nukapedia_10898",
+    "name": "Brotherhood holotag",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467081.1",
+    "entityId": "ent.ref.nukapedia_467081",
+    "name": "Defense (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467081.2",
+    "entityId": "ent.ref.nukapedia_467081",
+    "name": "Fallout 4 character housing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467081.3",
+    "entityId": "ent.ref.nukapedia_467081",
+    "name": "Fallout 4 resources",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467081.4",
+    "entityId": "ent.ref.nukapedia_467081",
+    "name": "People",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.837043.1",
+    "entityId": "ent.ref.nukapedia_837043",
+    "name": "The Revenants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106029.1",
+    "entityId": "ent.ref.nukapedia_106029",
+    "name": "The White Glove Society",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106029.2",
+    "entityId": "ent.ref.nukapedia_106029",
+    "name": "White Glove Society (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479069.1",
+    "entityId": "ent.ref.nukapedia_479069",
+    "name": "Forged keeper",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479069.2",
+    "entityId": "ent.ref.nukapedia_479069",
+    "name": "The Forged",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235861.1",
+    "entityId": "ent.ref.nukapedia_235861",
+    "name": "Player's brain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235861.2",
+    "entityId": "ent.ref.nukapedia_235861",
+    "name": "The Courier's brain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235861.3",
+    "entityId": "ent.ref.nukapedia_235861",
+    "name": "The player's brain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.579014.1",
+    "entityId": "ent.ref.nukapedia_579014",
+    "name": "General's Steakhouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.581948.1",
+    "entityId": "ent.ref.nukapedia_581948",
+    "name": "Fire Breather",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599469.1",
+    "entityId": "ent.ref.nukapedia_599469",
+    "name": "Gaius Julius Caesar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7911.1",
+    "entityId": "ent.ref.nukapedia_7911",
+    "name": "Enclave patrolman",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13317.1",
+    "entityId": "ent.ref.nukapedia_13317",
+    "name": "Knight Sergeant Wilks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13324.1",
+    "entityId": "ent.ref.nukapedia_13324",
+    "name": "Paladin Vargas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26829.1",
+    "entityId": "ent.ref.nukapedia_26829",
+    "name": "Enclave Sigma",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26829.2",
+    "entityId": "ent.ref.nukapedia_26829",
+    "name": "Sigma Squad",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26829.3",
+    "entityId": "ent.ref.nukapedia_26829",
+    "name": "Squad Sigma",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.28522.1",
+    "entityId": "ent.ref.nukapedia_28522",
+    "name": "Tanker vagrant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.28522.2",
+    "entityId": "ent.ref.nukapedia_28522",
+    "name": "Vagrants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.70723.1",
+    "entityId": "ent.ref.nukapedia_70723",
+    "name": "Enclave Shocktrooper",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.70723.2",
+    "entityId": "ent.ref.nukapedia_70723",
+    "name": "Enclave Tesla soldier",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.70723.3",
+    "entityId": "ent.ref.nukapedia_70723",
+    "name": "Enclave trainee",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.70724.1",
+    "entityId": "ent.ref.nukapedia_70724",
+    "name": "Enclave guard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235556.1",
+    "entityId": "ent.ref.nukapedia_235556",
+    "name": "Harris (Old World Blues)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.544528.1",
+    "entityId": "ent.ref.nukapedia_544528",
+    "name": "Scientist (Institute)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.16065.1",
+    "entityId": "ent.ref.nukapedia_16065",
+    "name": "Church (character)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.16065.2",
+    "entityId": "ent.ref.nukapedia_16065",
+    "name": "Knight Church",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.446973.1",
+    "entityId": "ent.ref.nukapedia_446973",
+    "name": "Rube",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.446974.1",
+    "entityId": "ent.ref.nukapedia_446974",
+    "name": "Ziggy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479234.1",
+    "entityId": "ent.ref.nukapedia_479234",
+    "name": "Mass State",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479234.2",
+    "entityId": "ent.ref.nukapedia_479234",
+    "name": "University Point: Sedgwick Hall",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.591743.1",
+    "entityId": "ent.ref.nukapedia_591743",
+    "name": "Valentine (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.651268.1",
+    "entityId": "ent.ref.nukapedia_651268",
+    "name": "Civilian (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.662008.1",
+    "entityId": "ent.ref.nukapedia_662008",
+    "name": "A.V.A.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.662008.2",
+    "entityId": "ent.ref.nukapedia_662008",
+    "name": "AVA",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.662008.3",
+    "entityId": "ent.ref.nukapedia_662008",
+    "name": "Automated Voting System of the Appalachian Territory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1554.1",
+    "entityId": "ent.ref.nukapedia_1554",
+    "name": "Jacoren",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1554.2",
+    "entityId": "ent.ref.nukapedia_1554",
+    "name": "The Overseer (Fallout)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9283.1",
+    "entityId": "ent.ref.nukapedia_9283",
+    "name": "Ridgefield",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.19161.1",
+    "entityId": "ent.ref.nukapedia_19161",
+    "name": "Children of Atom (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.19161.2",
+    "entityId": "ent.ref.nukapedia_19161",
+    "name": "Children of the Atom",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.19161.3",
+    "entityId": "ent.ref.nukapedia_19161",
+    "name": "Church of Atom",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.19161.4",
+    "entityId": "ent.ref.nukapedia_19161",
+    "name": "The Church of the Children of Atom",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.109971.1",
+    "entityId": "ent.ref.nukapedia_109971",
+    "name": "Raid of Vault 3",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112127.1",
+    "entityId": "ent.ref.nukapedia_112127",
+    "name": "Sulfur cave",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112127.2",
+    "entityId": "ent.ref.nukapedia_112127",
+    "name": "Sulphur cave",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478323.1",
+    "entityId": "ent.ref.nukapedia_478323",
+    "name": "ArcJet Engine Core",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578189.1",
+    "entityId": "ent.ref.nukapedia_578189",
+    "name": "Hornwright Industrial Mining Company",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578189.2",
+    "entityId": "ent.ref.nukapedia_578189",
+    "name": "Hornwright Mining Co.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.647379.1",
+    "entityId": "ent.ref.nukapedia_647379",
+    "name": "Appalachian train stations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.647379.2",
+    "entityId": "ent.ref.nukapedia_647379",
+    "name": "Fallout 76 train stations",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4406.1",
+    "entityId": "ent.ref.nukapedia_4406",
+    "name": "Mount Cheyenne",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8101.1",
+    "entityId": "ent.ref.nukapedia_8101",
+    "name": "Raider cave",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10235.1",
+    "entityId": "ent.ref.nukapedia_10235",
+    "name": "Greyditch",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10978.1",
+    "entityId": "ent.ref.nukapedia_10978",
+    "name": "The Outcasts Headquarters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.29309.1",
+    "entityId": "ent.ref.nukapedia_29309",
+    "name": "Capitol Post (company)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.95025.1",
+    "entityId": "ent.ref.nukapedia_95025",
+    "name": "Battle of Bitter Springs",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.116132.1",
+    "entityId": "ent.ref.nukapedia_116132",
+    "name": "Camp Nelson",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479229.1",
+    "entityId": "ent.ref.nukapedia_479229",
+    "name": "Slog",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.545651.1",
+    "entityId": "ent.ref.nukapedia_545651",
+    "name": "Malden Township",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.545651.2",
+    "entityId": "ent.ref.nukapedia_545651",
+    "name": "Medford",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.608734.1",
+    "entityId": "ent.ref.nukapedia_608734",
+    "name": "Spruce Knob cavern",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4431.1",
+    "entityId": "ent.ref.nukapedia_4431",
+    "name": "Preoria",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4431.2",
+    "entityId": "ent.ref.nukapedia_4431",
+    "name": "Whachutu",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12911.1",
+    "entityId": "ent.ref.nukapedia_12911",
+    "name": "Capital Post",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12911.2",
+    "entityId": "ent.ref.nukapedia_12911",
+    "name": "Capitol Post (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.120863.1",
+    "entityId": "ent.ref.nukapedia_120863",
+    "name": "Nipton trading post",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.42186.1",
+    "entityId": "ent.ref.nukapedia_42186",
+    "name": "Tesla boots",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.42186.2",
+    "entityId": "ent.ref.nukapedia_42186",
+    "name": "Vault-Tec Tesla armor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.47035.1",
+    "entityId": "ent.ref.nukapedia_47035",
+    "name": "Fallout: Brotherhood of Steel computers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3653.1",
+    "entityId": "ent.ref.nukapedia_3653",
+    "name": "Core Region",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3653.2",
+    "entityId": "ent.ref.nukapedia_3653",
+    "name": "New California (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3653.3",
+    "entityId": "ent.ref.nukapedia_3653",
+    "name": "South California",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3653.4",
+    "entityId": "ent.ref.nukapedia_3653",
+    "name": "West Coast",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.191962.1",
+    "entityId": "ent.ref.nukapedia_191962",
+    "name": "Glowing radscorpion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1776.1",
+    "entityId": "ent.ref.nukapedia_1776",
+    "name": "Jane's raiders gang",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1776.2",
+    "entityId": "ent.ref.nukapedia_1776",
+    "name": "Texas Raiders",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.466696.1",
+    "entityId": "ent.ref.nukapedia_466696",
+    "name": "Companion (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.466696.2",
+    "entityId": "ent.ref.nukapedia_466696",
+    "name": "Romance (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.27512.1",
+    "entityId": "ent.ref.nukapedia_27512",
+    "name": "Apostles of the Holy Light",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.581964.1",
+    "entityId": "ent.ref.nukapedia_581964",
+    "name": "Activity: Leader of the Pack",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.581964.2",
+    "entityId": "ent.ref.nukapedia_581964",
+    "name": "Event: Leader of the Pack",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.131586.1",
+    "entityId": "ent.ref.nukapedia_131586",
+    "name": "OSI",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.199454.1",
+    "entityId": "ent.ref.nukapedia_199454",
+    "name": "Marine Corps",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.199454.2",
+    "entityId": "ent.ref.nukapedia_199454",
+    "name": "Marines",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.199454.3",
+    "entityId": "ent.ref.nukapedia_199454",
+    "name": "US Marines",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.199454.4",
+    "entityId": "ent.ref.nukapedia_199454",
+    "name": "USMC",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1716.1",
+    "entityId": "ent.ref.nukapedia_1716",
+    "name": "Village Elder",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7045.1",
+    "entityId": "ent.ref.nukapedia_7045",
+    "name": "The Washington Monument",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.21058.1",
+    "entityId": "ent.ref.nukapedia_21058",
+    "name": "Unnamed Overseer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.21058.2",
+    "entityId": "ent.ref.nukapedia_21058",
+    "name": "Unnamed Vault 101 Overseer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.49886.1",
+    "entityId": "ent.ref.nukapedia_49886",
+    "name": "86's",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.126982.1",
+    "entityId": "ent.ref.nukapedia_126982",
+    "name": "Treaty of New Vegas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599424.1",
+    "entityId": "ent.ref.nukapedia_599424",
+    "name": "Agri-Baron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599424.2",
+    "entityId": "ent.ref.nukapedia_599424",
+    "name": "Agri-Barons",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599424.3",
+    "entityId": "ent.ref.nukapedia_599424",
+    "name": "Agricultural baron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599427.1",
+    "entityId": "ent.ref.nukapedia_599427",
+    "name": "Brahmin barons",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.811842.1",
+    "entityId": "ent.ref.nukapedia_811842",
+    "name": "Atomic bombing of Shady Sands",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.811842.2",
+    "entityId": "ent.ref.nukapedia_811842",
+    "name": "Destruction of Shady Sands",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.811842.3",
+    "entityId": "ent.ref.nukapedia_811842",
+    "name": "The Fall of Shady Sands",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812842.1",
+    "entityId": "ent.ref.nukapedia_812842",
+    "name": "Cold fusion diode",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.21252.1",
+    "entityId": "ent.ref.nukapedia_21252",
+    "name": "Vault 101's original overseer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.34436.1",
+    "entityId": "ent.ref.nukapedia_34436",
+    "name": "Cuppa Joe",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.103300.1",
+    "entityId": "ent.ref.nukapedia_103300",
+    "name": "Convict leader",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.396687.1",
+    "entityId": "ent.ref.nukapedia_396687",
+    "name": "Springvale school raider leader",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.427195.1",
+    "entityId": "ent.ref.nukapedia_427195",
+    "name": "Republican Farmers' Comittee",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.433666.1",
+    "entityId": "ent.ref.nukapedia_433666",
+    "name": "Jonathan (Fallout)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.512699.1",
+    "entityId": "ent.ref.nukapedia_512699",
+    "name": "Animatronic alien",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.512699.2",
+    "entityId": "ent.ref.nukapedia_512699",
+    "name": "Defense construct",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.512699.3",
+    "entityId": "ent.ref.nukapedia_512699",
+    "name": "Laser turret (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.512699.4",
+    "entityId": "ent.ref.nukapedia_512699",
+    "name": "Machine gun turret",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.590906.1",
+    "entityId": "ent.ref.nukapedia_590906",
+    "name": "Milo (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.590907.1",
+    "entityId": "ent.ref.nukapedia_590907",
+    "name": "Silas (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.607622.1",
+    "entityId": "ent.ref.nukapedia_607622",
+    "name": "Merc captain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.671568.1",
+    "entityId": "ent.ref.nukapedia_671568",
+    "name": "General's Steak House Protectron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4812.1",
+    "entityId": "ent.ref.nukapedia_4812",
+    "name": "Power boots",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4812.2",
+    "entityId": "ent.ref.nukapedia_4812",
+    "name": "Power gauntlets",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4812.3",
+    "entityId": "ent.ref.nukapedia_4812",
+    "name": "Vault-Tec power armor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.23400.1",
+    "entityId": "ent.ref.nukapedia_23400",
+    "name": "Cloth boots",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.23400.2",
+    "entityId": "ent.ref.nukapedia_23400",
+    "name": "Cloth gloves",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.23400.3",
+    "entityId": "ent.ref.nukapedia_23400",
+    "name": "Cloth shirt and pants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.23400.4",
+    "entityId": "ent.ref.nukapedia_23400",
+    "name": "Fallout: Brotherhood of Steel armors",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.34903.1",
+    "entityId": "ent.ref.nukapedia_34903",
+    "name": "Vault Dweller Red Ryder BB gun",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.40748.1",
+    "entityId": "ent.ref.nukapedia_40748",
+    "name": "Franchi",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.40748.2",
+    "entityId": "ent.ref.nukapedia_40748",
+    "name": "SPAS-12",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.42771.1",
+    "entityId": "ent.ref.nukapedia_42771",
+    "name": "Electric power fist",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.43022.1",
+    "entityId": "ent.ref.nukapedia_43022",
+    "name": "9mm hunting rifle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.44668.1",
+    "entityId": "ent.ref.nukapedia_44668",
+    "name": "Dual laser pistols",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.55826.1",
+    "entityId": "ent.ref.nukapedia_55826",
+    "name": "Shotgun (Fallout: Brotherhood of Steel)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.58840.1",
+    "entityId": "ent.ref.nukapedia_58840",
+    "name": "Dual Beretta",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.64887.1",
+    "entityId": "ent.ref.nukapedia_64887",
+    "name": "Turbo electric plasma rifle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68334.1",
+    "entityId": "ent.ref.nukapedia_68334",
+    "name": "Flamer (Fallout: Brotherhood of Steel)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.73586.1",
+    "entityId": "ent.ref.nukapedia_73586",
+    "name": "9mm assault rifle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.74500.1",
+    "entityId": "ent.ref.nukapedia_74500",
+    "name": "Mega electric power fist",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.79524.1",
+    "entityId": "ent.ref.nukapedia_79524",
+    "name": "9mm minigun",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.135465.1",
+    "entityId": "ent.ref.nukapedia_135465",
+    "name": "Dual Desert Eagle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3646.1",
+    "entityId": "ent.ref.nukapedia_3646",
+    "name": "Britain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3646.2",
+    "entityId": "ent.ref.nukapedia_3646",
+    "name": "British Army",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3646.3",
+    "entityId": "ent.ref.nukapedia_3646",
+    "name": "England",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3646.4",
+    "entityId": "ent.ref.nukapedia_3646",
+    "name": "Great Britain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9598.1",
+    "entityId": "ent.ref.nukapedia_9598",
+    "name": "Arlington Public Library",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9598.2",
+    "entityId": "ent.ref.nukapedia_9598",
+    "name": "Library of Congress",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538830.1",
+    "entityId": "ent.ref.nukapedia_538830",
+    "name": "Cola-cars bumper car ride",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2415.1",
+    "entityId": "ent.ref.nukapedia_2415",
+    "name": "Desert",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2415.2",
+    "entityId": "ent.ref.nukapedia_2415",
+    "name": "The Wasteland",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2415.3",
+    "entityId": "ent.ref.nukapedia_2415",
+    "name": "Wastes",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3260.1",
+    "entityId": "ent.ref.nukapedia_3260",
+    "name": "San Diego",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4852.1",
+    "entityId": "ent.ref.nukapedia_4852",
+    "name": "Iraq",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4852.2",
+    "entityId": "ent.ref.nukapedia_4852",
+    "name": "Kuwait",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6875.1",
+    "entityId": "ent.ref.nukapedia_6875",
+    "name": "Capital building",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6875.2",
+    "entityId": "ent.ref.nukapedia_6875",
+    "name": "Capitol",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6875.3",
+    "entityId": "ent.ref.nukapedia_6875",
+    "name": "Capitol Building",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6875.4",
+    "entityId": "ent.ref.nukapedia_6875",
+    "name": "Capitol Hill",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.80343.1",
+    "entityId": "ent.ref.nukapedia_80343",
+    "name": "Trans-Alaskan Pipeline",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118621.1",
+    "entityId": "ent.ref.nukapedia_118621",
+    "name": "I-15",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118621.2",
+    "entityId": "ent.ref.nukapedia_118621",
+    "name": "I15",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118621.3",
+    "entityId": "ent.ref.nukapedia_118621",
+    "name": "Long 15 Highway",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.275785.1",
+    "entityId": "ent.ref.nukapedia_275785",
+    "name": "The Big Circle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.471138.1",
+    "entityId": "ent.ref.nukapedia_471138",
+    "name": "The Moon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.616637.1",
+    "entityId": "ent.ref.nukapedia_616637",
+    "name": "Great Salt Water",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.616637.2",
+    "entityId": "ent.ref.nukapedia_616637",
+    "name": "Pacific",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.38089.1",
+    "entityId": "ent.ref.nukapedia_38089",
+    "name": "Golden Gate Bridge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.45869.1",
+    "entityId": "ent.ref.nukapedia_45869",
+    "name": "Broken Steel robots and computers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.45869.2",
+    "entityId": "ent.ref.nukapedia_45869",
+    "name": "Fallout 3 computers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.45869.3",
+    "entityId": "ent.ref.nukapedia_45869",
+    "name": "Mothership Zeta robots and computers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.45869.4",
+    "entityId": "ent.ref.nukapedia_45869",
+    "name": "Operation: Anchorage robots and computers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.428794.1",
+    "entityId": "ent.ref.nukapedia_428794",
+    "name": "Aqua Pura delivery program",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.198002.1",
+    "entityId": "ent.ref.nukapedia_198002",
+    "name": "Angry brahmin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.198002.2",
+    "entityId": "ent.ref.nukapedia_198002",
+    "name": "Weak brahmin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.198002.3",
+    "entityId": "ent.ref.nukapedia_198002",
+    "name": "Wild brahmin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479226.1",
+    "entityId": "ent.ref.nukapedia_479226",
+    "name": "Castle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7907.1",
+    "entityId": "ent.ref.nukapedia_7907",
+    "name": "Ranks in the United States Armed Forces",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7907.2",
+    "entityId": "ent.ref.nukapedia_7907",
+    "name": "U.S. Armed Forces military ranks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1792.1",
+    "entityId": "ent.ref.nukapedia_1792",
+    "name": "Crimson Tongue",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1792.2",
+    "entityId": "ent.ref.nukapedia_1792",
+    "name": "Hound of Hecate",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1792.3",
+    "entityId": "ent.ref.nukapedia_1792",
+    "name": "Hounds of Hecate",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1792.4",
+    "entityId": "ent.ref.nukapedia_1792",
+    "name": "The Vipers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3871.1",
+    "entityId": "ent.ref.nukapedia_3871",
+    "name": "Desert Ranger",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8275.1",
+    "entityId": "ent.ref.nukapedia_8275",
+    "name": "Talon Corporation",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.350981.1",
+    "entityId": "ent.ref.nukapedia_350981",
+    "name": "Point Lookout tribals (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10963.1",
+    "entityId": "ent.ref.nukapedia_10963",
+    "name": "Clones",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.50596.1",
+    "entityId": "ent.ref.nukapedia_50596",
+    "name": "Commonwealth Police",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.50596.2",
+    "entityId": "ent.ref.nukapedia_50596",
+    "name": "SRB",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.134381.1",
+    "entityId": "ent.ref.nukapedia_134381",
+    "name": "The Cages",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.134381.2",
+    "entityId": "ent.ref.nukapedia_134381",
+    "name": "The Hall of Ascension",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.134381.3",
+    "entityId": "ent.ref.nukapedia_134381",
+    "name": "The Sanctuary",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.134381.4",
+    "entityId": "ent.ref.nukapedia_134381",
+    "name": "Vipers' camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.504573.1",
+    "entityId": "ent.ref.nukapedia_504573",
+    "name": "Sewer (Compound)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578940.1",
+    "entityId": "ent.ref.nukapedia_578940",
+    "name": "Dim Ones",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578940.2",
+    "entityId": "ent.ref.nukapedia_578940",
+    "name": "Followers of the Winged One",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578940.3",
+    "entityId": "ent.ref.nukapedia_578940",
+    "name": "Mothman cultist",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.632823.1",
+    "entityId": "ent.ref.nukapedia_632823",
+    "name": "The Free Economic Zone of New Vegas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.729279.1",
+    "entityId": "ent.ref.nukapedia_729279",
+    "name": "Event: Tunnel of Love",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.66864.1",
+    "entityId": "ent.ref.nukapedia_66864",
+    "name": "New Vegas Westside",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.116112.1",
+    "entityId": "ent.ref.nukapedia_116112",
+    "name": "Hidden Valley Bunker, L2",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.265396.1",
+    "entityId": "ent.ref.nukapedia_265396",
+    "name": "Neo-Khan Base",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.427106.1",
+    "entityId": "ent.ref.nukapedia_427106",
+    "name": "Cazador Company",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.430447.1",
+    "entityId": "ent.ref.nukapedia_430447",
+    "name": "Nipton Massacre",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.430447.2",
+    "entityId": "ent.ref.nukapedia_430447",
+    "name": "Nipton lottery",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.526285.1",
+    "entityId": "ent.ref.nukapedia_526285",
+    "name": "Claymore (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.526330.1",
+    "entityId": "ent.ref.nukapedia_526330",
+    "name": "Scimitar (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539767.1",
+    "entityId": "ent.ref.nukapedia_539767",
+    "name": "Hubologist camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10894.1",
+    "entityId": "ent.ref.nukapedia_10894",
+    "name": "Old Relics for an Old Relic",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.66445.1",
+    "entityId": "ent.ref.nukapedia_66445",
+    "name": "Novak",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467033.1",
+    "entityId": "ent.ref.nukapedia_467033",
+    "name": "Sentry bot lament",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467033.2",
+    "entityId": "ent.ref.nukapedia_467033",
+    "name": "Sentry bot ripper",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467033.3",
+    "entityId": "ent.ref.nukapedia_467033",
+    "name": "Siege breaker sentry bot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.467033.4",
+    "entityId": "ent.ref.nukapedia_467033",
+    "name": "Space sentry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577330.1",
+    "entityId": "ent.ref.nukapedia_577330",
+    "name": "Poseidon Energy plant yard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7406.1",
+    "entityId": "ent.ref.nukapedia_7406",
+    "name": "G.O.A.T.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7406.2",
+    "entityId": "ent.ref.nukapedia_7406",
+    "name": "Garbage Burner",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7406.3",
+    "entityId": "ent.ref.nukapedia_7406",
+    "name": "Generalized Occupational Aptitude Test",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7406.4",
+    "entityId": "ent.ref.nukapedia_7406",
+    "name": "Vault engineer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11371.1",
+    "entityId": "ent.ref.nukapedia_11371",
+    "name": "Meresti",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11371.2",
+    "entityId": "ent.ref.nukapedia_11371",
+    "name": "Meresti Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12276.1",
+    "entityId": "ent.ref.nukapedia_12276",
+    "name": "Georgetown East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12276.2",
+    "entityId": "ent.ref.nukapedia_12276",
+    "name": "Georgetown North",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12276.3",
+    "entityId": "ent.ref.nukapedia_12276",
+    "name": "Georgetown South",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12276.4",
+    "entityId": "ent.ref.nukapedia_12276",
+    "name": "Georgetown West",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13949.1",
+    "entityId": "ent.ref.nukapedia_13949",
+    "name": "Capital Mall",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13949.2",
+    "entityId": "ent.ref.nukapedia_13949",
+    "name": "Downtown D.C.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13949.3",
+    "entityId": "ent.ref.nukapedia_13949",
+    "name": "Mall",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13949.4",
+    "entityId": "ent.ref.nukapedia_13949",
+    "name": "Mall Northeast",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.15617.1",
+    "entityId": "ent.ref.nukapedia_15617",
+    "name": "Calverton Chapel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.15617.2",
+    "entityId": "ent.ref.nukapedia_15617",
+    "name": "Jury Street Chapel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.141322.1",
+    "entityId": "ent.ref.nukapedia_141322",
+    "name": "Salida del Sol North",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.141322.2",
+    "entityId": "ent.ref.nukapedia_141322",
+    "name": "Salida del Sol South",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.141485.1",
+    "entityId": "ent.ref.nukapedia_141485",
+    "name": "Puesta del Sol North",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.141485.2",
+    "entityId": "ent.ref.nukapedia_141485",
+    "name": "Puesta del Sol South",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235012.1",
+    "entityId": "ent.ref.nukapedia_235012",
+    "name": "X-13 Stealth Testing Lab",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235012.2",
+    "entityId": "ent.ref.nukapedia_235012",
+    "name": "X-13 Testing facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.523414.1",
+    "entityId": "ent.ref.nukapedia_523414",
+    "name": "Garage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.523414.2",
+    "entityId": "ent.ref.nukapedia_523414",
+    "name": "Mechanist's lair",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.523414.3",
+    "entityId": "ent.ref.nukapedia_523414",
+    "name": "RB-2851",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.523414.4",
+    "entityId": "ent.ref.nukapedia_523414",
+    "name": "Robotics Technology Facility RB-2851",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529196.1",
+    "entityId": "ent.ref.nukapedia_529196",
+    "name": "Vim! Corporate Headquarters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529196.2",
+    "entityId": "ent.ref.nukapedia_529196",
+    "name": "Vim! basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.590577.1",
+    "entityId": "ent.ref.nukapedia_590577",
+    "name": "Pi Mu House",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.664359.1",
+    "entityId": "ent.ref.nukapedia_664359",
+    "name": "Enlightened",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7826.1",
+    "entityId": "ent.ref.nukapedia_7826",
+    "name": "Doc Henry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7826.2",
+    "entityId": "ent.ref.nukapedia_7826",
+    "name": "Doctor Henry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7826.3",
+    "entityId": "ent.ref.nukapedia_7826",
+    "name": "Dr Henry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11637.1",
+    "entityId": "ent.ref.nukapedia_11637",
+    "name": "Le Boutique Chic",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11637.2",
+    "entityId": "ent.ref.nukapedia_11637",
+    "name": "Le Chic Boutique",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11964.1",
+    "entityId": "ent.ref.nukapedia_11964",
+    "name": "Maintenance and Evacuation Tunnel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11964.2",
+    "entityId": "ent.ref.nukapedia_11964",
+    "name": "Roosevelt Arts and Athletics Hall",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11964.3",
+    "entityId": "ent.ref.nukapedia_11964",
+    "name": "Roosevelt Library",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12028.1",
+    "entityId": "ent.ref.nukapedia_12028",
+    "name": "Alien spaceship",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12028.2",
+    "entityId": "ent.ref.nukapedia_12028",
+    "name": "Recon craft Theta crash site",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12028.3",
+    "entityId": "ent.ref.nukapedia_12028",
+    "name": "Space ship",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12862.1",
+    "entityId": "ent.ref.nukapedia_12862",
+    "name": "General Chase",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12862.2",
+    "entityId": "ent.ref.nukapedia_12862",
+    "name": "General Constantine Chase",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.16281.1",
+    "entityId": "ent.ref.nukapedia_16281",
+    "name": "Mysterious Stranger (Fallout Shelter)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24765.1",
+    "entityId": "ent.ref.nukapedia_24765",
+    "name": "Philly",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.25603.1",
+    "entityId": "ent.ref.nukapedia_25603",
+    "name": "Presidential Metro Line",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30770.1",
+    "entityId": "ent.ref.nukapedia_30770",
+    "name": "The Homestead Motel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30774.1",
+    "entityId": "ent.ref.nukapedia_30774",
+    "name": "Scared Bog",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30779.1",
+    "entityId": "ent.ref.nukapedia_30779",
+    "name": "Burned-out basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.40885.1",
+    "entityId": "ent.ref.nukapedia_40885",
+    "name": "GNR Studios",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.40885.2",
+    "entityId": "ent.ref.nukapedia_40885",
+    "name": "The Adventures of Herbert \"Daring\" Dashwood",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.76666.1",
+    "entityId": "ent.ref.nukapedia_76666",
+    "name": "LVB station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.76666.2",
+    "entityId": "ent.ref.nukapedia_76666",
+    "name": "Las Vegas Broadcasting Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.76666.3",
+    "entityId": "ent.ref.nukapedia_76666",
+    "name": "New Vegas Strip Monorail Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114439.1",
+    "entityId": "ent.ref.nukapedia_114439",
+    "name": "Abandoned Brotherhood of Steel Bunker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114439.2",
+    "entityId": "ent.ref.nukapedia_114439",
+    "name": "Bunker 13",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.120353.1",
+    "entityId": "ent.ref.nukapedia_120353",
+    "name": "New California Republic Embassy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.142025.1",
+    "entityId": "ent.ref.nukapedia_142025",
+    "name": "Tampico",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.192939.1",
+    "entityId": "ent.ref.nukapedia_192939",
+    "name": "Raider canal",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195268.1",
+    "entityId": "ent.ref.nukapedia_195268",
+    "name": "Three Marys Cavern",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195268.2",
+    "entityId": "ent.ref.nukapedia_195268",
+    "name": "Three Marys' caverns",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235005.1",
+    "entityId": "ent.ref.nukapedia_235005",
+    "name": "X-8 Central Facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235005.2",
+    "entityId": "ent.ref.nukapedia_235005",
+    "name": "X-8 testing facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235043.1",
+    "entityId": "ent.ref.nukapedia_235043",
+    "name": "Forbidden Zone",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235043.2",
+    "entityId": "ent.ref.nukapedia_235043",
+    "name": "Forbidden Zone dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235043.3",
+    "entityId": "ent.ref.nukapedia_235043",
+    "name": "The Forbidden Zone Dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235043.4",
+    "entityId": "ent.ref.nukapedia_235043",
+    "name": "X-42 robo-warfare facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236261.1",
+    "entityId": "ent.ref.nukapedia_236261",
+    "name": "Z43 innovative toxins plant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478914.1",
+    "entityId": "ent.ref.nukapedia_478914",
+    "name": "Evan's Way",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479028.1",
+    "entityId": "ent.ref.nukapedia_479028",
+    "name": "Witchcraft",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538831.1",
+    "entityId": "ent.ref.nukapedia_538831",
+    "name": "Parlor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538831.2",
+    "entityId": "ent.ref.nukapedia_538831",
+    "name": "Parlor Dinner Theater",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538834.1",
+    "entityId": "ent.ref.nukapedia_538834",
+    "name": "Arcturus I",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538834.2",
+    "entityId": "ent.ref.nukapedia_538834",
+    "name": "Vault-Tec Beyond Earth",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538835.1",
+    "entityId": "ent.ref.nukapedia_538835",
+    "name": "Battlezone",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538842.1",
+    "entityId": "ent.ref.nukapedia_538842",
+    "name": "Mad Mulligan's Mine",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538842.2",
+    "entityId": "ent.ref.nukapedia_538842",
+    "name": "Mine cart",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538842.3",
+    "entityId": "ent.ref.nukapedia_538842",
+    "name": "Minecart",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.568732.1",
+    "entityId": "ent.ref.nukapedia_568732",
+    "name": "Greece",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.669973.1",
+    "entityId": "ent.ref.nukapedia_669973",
+    "name": "Atlantic",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715025.1",
+    "entityId": "ent.ref.nukapedia_715025",
+    "name": "Industrial District",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715025.2",
+    "entityId": "ent.ref.nukapedia_715025",
+    "name": "Penn",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715025.3",
+    "entityId": "ent.ref.nukapedia_715025",
+    "name": "The Penn",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715025.4",
+    "entityId": "ent.ref.nukapedia_715025",
+    "name": "The Pitt - Industrial",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715028.1",
+    "entityId": "ent.ref.nukapedia_715028",
+    "name": "Foundry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.799314.1",
+    "entityId": "ent.ref.nukapedia_799314",
+    "name": "Mirelurk Den",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10264.1",
+    "entityId": "ent.ref.nukapedia_10264",
+    "name": "Confessor Cromwell",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13419.1",
+    "entityId": "ent.ref.nukapedia_13419",
+    "name": "Grocer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14358.1",
+    "entityId": "ent.ref.nukapedia_14358",
+    "name": "Potomac",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14358.2",
+    "entityId": "ent.ref.nukapedia_14358",
+    "name": "River Potomac",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.17121.1",
+    "entityId": "ent.ref.nukapedia_17121",
+    "name": "Chairman Cheng",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.17121.2",
+    "entityId": "ent.ref.nukapedia_17121",
+    "name": "Cheng (China)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.18073.1",
+    "entityId": "ent.ref.nukapedia_18073",
+    "name": "Addict",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30776.1",
+    "entityId": "ent.ref.nukapedia_30776",
+    "name": "Administration tent",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30776.2",
+    "entityId": "ent.ref.nukapedia_30776",
+    "name": "Marcella's tent",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30776.3",
+    "entityId": "ent.ref.nukapedia_30776",
+    "name": "Medical tent",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30777.1",
+    "entityId": "ent.ref.nukapedia_30777",
+    "name": "Velma's Biker Bar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30788.1",
+    "entityId": "ent.ref.nukapedia_30788",
+    "name": "Loose pile of dirt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30797.1",
+    "entityId": "ent.ref.nukapedia_30797",
+    "name": "Wrecked Seatub",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.156886.1",
+    "entityId": "ent.ref.nukapedia_156886",
+    "name": "Bell tower",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195363.1",
+    "entityId": "ent.ref.nukapedia_195363",
+    "name": "Spine (Honest Hearts)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.196196.1",
+    "entityId": "ent.ref.nukapedia_196196",
+    "name": "Red Gate",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.197535.1",
+    "entityId": "ent.ref.nukapedia_197535",
+    "name": "77",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.197713.1",
+    "entityId": "ent.ref.nukapedia_197713",
+    "name": "Narrows",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.199566.1",
+    "entityId": "ent.ref.nukapedia_199566",
+    "name": "Utah State Route 9",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.201017.1",
+    "entityId": "ent.ref.nukapedia_201017",
+    "name": "Capital Wasteland BoS-Outcast Civil War",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.201017.2",
+    "entityId": "ent.ref.nukapedia_201017",
+    "name": "Capital Wasteland BoS-Outcast Schism",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.234880.1",
+    "entityId": "ent.ref.nukapedia_234880",
+    "name": "X7a Left Field artillery launch",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.234917.1",
+    "entityId": "ent.ref.nukapedia_234917",
+    "name": "Cuckoo's Nest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.234954.1",
+    "entityId": "ent.ref.nukapedia_234954",
+    "name": "X2 transmitter antenna array",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235007.1",
+    "entityId": "ent.ref.nukapedia_235007",
+    "name": "X12 research center",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235051.1",
+    "entityId": "ent.ref.nukapedia_235051",
+    "name": "Y0 research center",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236027.1",
+    "entityId": "ent.ref.nukapedia_236027",
+    "name": "Z14 Pepsinae DNA splicing lab",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236086.1",
+    "entityId": "ent.ref.nukapedia_236086",
+    "name": "Boom Town",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236086.2",
+    "entityId": "ent.ref.nukapedia_236086",
+    "name": "X7b Boom Town target zone",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236258.1",
+    "entityId": "ent.ref.nukapedia_236258",
+    "name": "Hexcrete",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.236258.2",
+    "entityId": "ent.ref.nukapedia_236258",
+    "name": "X66 Hexcrete archipelago",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.269525.1",
+    "entityId": "ent.ref.nukapedia_269525",
+    "name": "Chugach Overlook",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.269525.2",
+    "entityId": "ent.ref.nukapedia_269525",
+    "name": "Chugach Overlook AFS",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.272221.1",
+    "entityId": "ent.ref.nukapedia_272221",
+    "name": "Crow's Nest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.272421.1",
+    "entityId": "ent.ref.nukapedia_272421",
+    "name": "Sunstone Tower",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.297236.1",
+    "entityId": "ent.ref.nukapedia_297236",
+    "name": "Ice Camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.297239.1",
+    "entityId": "ent.ref.nukapedia_297239",
+    "name": "Chinese Compound",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.297243.1",
+    "entityId": "ent.ref.nukapedia_297243",
+    "name": "Chimera Depot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.334163.1",
+    "entityId": "ent.ref.nukapedia_334163",
+    "name": "Convince the Elders to send help to Cathedral",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.334163.2",
+    "entityId": "ent.ref.nukapedia_334163",
+    "name": "Convince the Elders to send help to Mariposa",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.420432.1",
+    "entityId": "ent.ref.nukapedia_420432",
+    "name": "Captain Cosmos (character)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.464105.1",
+    "entityId": "ent.ref.nukapedia_464105",
+    "name": "Cybermech eyebot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.464105.2",
+    "entityId": "ent.ref.nukapedia_464105",
+    "name": "Servomech eyebot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538541.1",
+    "entityId": "ent.ref.nukapedia_538541",
+    "name": "Bottle (Nuka-World mascot)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538541.2",
+    "entityId": "ent.ref.nukapedia_538541",
+    "name": "Bottle (character)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538541.3",
+    "entityId": "ent.ref.nukapedia_538541",
+    "name": "Nuka-World mascot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538942.1",
+    "entityId": "ent.ref.nukapedia_538942",
+    "name": "Reptile House",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538943.1",
+    "entityId": "ent.ref.nukapedia_538943",
+    "name": "Primate House",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538946.1",
+    "entityId": "ent.ref.nukapedia_538946",
+    "name": "The Angry Anaconda",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.547389.1",
+    "entityId": "ent.ref.nukapedia_547389",
+    "name": "Westside Cooperative (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.610049.1",
+    "entityId": "ent.ref.nukapedia_610049",
+    "name": "89",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.610049.2",
+    "entityId": "ent.ref.nukapedia_610049",
+    "name": "Highway 89",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615970.1",
+    "entityId": "ent.ref.nukapedia_615970",
+    "name": "Paris (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.627754.1",
+    "entityId": "ent.ref.nukapedia_627754",
+    "name": "Mississippi",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628296.1",
+    "entityId": "ent.ref.nukapedia_628296",
+    "name": "Swiss Alps",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.859536.1",
+    "entityId": "ent.ref.nukapedia_859536",
+    "name": "New Arroyo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.25059.1",
+    "entityId": "ent.ref.nukapedia_25059",
+    "name": "Gaston Glock AI",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.32988.1",
+    "entityId": "ent.ref.nukapedia_32988",
+    "name": "Tesla",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.62701.1",
+    "entityId": "ent.ref.nukapedia_62701",
+    "name": "Inspector",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.136796.1",
+    "entityId": "ent.ref.nukapedia_136796",
+    "name": "Super mutant hill",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.197059.1",
+    "entityId": "ent.ref.nukapedia_197059",
+    "name": "Elvis",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.227233.1",
+    "entityId": "ent.ref.nukapedia_227233",
+    "name": "King-NCR War",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.227233.2",
+    "entityId": "ent.ref.nukapedia_227233",
+    "name": "Kings-NCR War",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.227233.3",
+    "entityId": "ent.ref.nukapedia_227233",
+    "name": "The Kings-NCR war",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.377010.1",
+    "entityId": "ent.ref.nukapedia_377010",
+    "name": "FDR",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.377010.2",
+    "entityId": "ent.ref.nukapedia_377010",
+    "name": "Franklin Delano Roosevelt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.377010.3",
+    "entityId": "ent.ref.nukapedia_377010",
+    "name": "Franklin Roosevelt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.455110.1",
+    "entityId": "ent.ref.nukapedia_455110",
+    "name": "Oppenheimer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.455114.1",
+    "entityId": "ent.ref.nukapedia_455114",
+    "name": "Darwin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.531301.1",
+    "entityId": "ent.ref.nukapedia_531301",
+    "name": "Del (Far Harbor)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.531301.2",
+    "entityId": "ent.ref.nukapedia_531301",
+    "name": "Hereboy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.531301.3",
+    "entityId": "ent.ref.nukapedia_531301",
+    "name": "Jerry (Far Harbor)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.531301.4",
+    "entityId": "ent.ref.nukapedia_531301",
+    "name": "Jumbo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573185.1",
+    "entityId": "ent.ref.nukapedia_573185",
+    "name": "Vault 63 entrance",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599741.1",
+    "entityId": "ent.ref.nukapedia_599741",
+    "name": "Green Berets",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599741.2",
+    "entityId": "ent.ref.nukapedia_599741",
+    "name": "Special Forces",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599741.3",
+    "entityId": "ent.ref.nukapedia_599741",
+    "name": "US Army Special Forces",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.605096.1",
+    "entityId": "ent.ref.nukapedia_605096",
+    "name": "Servitor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.605096.2",
+    "entityId": "ent.ref.nukapedia_605096",
+    "name": "Servitors",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.605096.3",
+    "entityId": "ent.ref.nukapedia_605096",
+    "name": "Unity Rose",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.607828.1",
+    "entityId": "ent.ref.nukapedia_607828",
+    "name": "Nevada 160",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.619614.1",
+    "entityId": "ent.ref.nukapedia_619614",
+    "name": "Brotherhood (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.619614.2",
+    "entityId": "ent.ref.nukapedia_619614",
+    "name": "Brotherhood (Steel Dawn)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.619614.3",
+    "entityId": "ent.ref.nukapedia_619614",
+    "name": "Brotherhood of Steel (Steel Dawn)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.619614.4",
+    "entityId": "ent.ref.nukapedia_619614",
+    "name": "First Expeditionary Force",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790518.1",
+    "entityId": "ent.ref.nukapedia_790518",
+    "name": "Mayor's Office",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790518.2",
+    "entityId": "ent.ref.nukapedia_790518",
+    "name": "Muni",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790518.3",
+    "entityId": "ent.ref.nukapedia_790518",
+    "name": "Municipal",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790518.4",
+    "entityId": "ent.ref.nukapedia_790518",
+    "name": "Munis",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790688.1",
+    "entityId": "ent.ref.nukapedia_790688",
+    "name": "Mob guard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790688.2",
+    "entityId": "ent.ref.nukapedia_790688",
+    "name": "Mobster (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790688.3",
+    "entityId": "ent.ref.nukapedia_790688",
+    "name": "The Family (Atlantic City)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10008.1",
+    "entityId": "ent.ref.nukapedia_10008",
+    "name": "Reiley's Rangers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10042.1",
+    "entityId": "ent.ref.nukapedia_10042",
+    "name": "St. Monica's Church",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11650.1",
+    "entityId": "ent.ref.nukapedia_11650",
+    "name": "Treeminder",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479841.1",
+    "entityId": "ent.ref.nukapedia_479841",
+    "name": "Assaultron dominator",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479841.2",
+    "entityId": "ent.ref.nukapedia_479841",
+    "name": "Assaultron gorgon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479841.3",
+    "entityId": "ent.ref.nukapedia_479841",
+    "name": "Assaultron hag",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479841.4",
+    "entityId": "ent.ref.nukapedia_479841",
+    "name": "Assaultron invader",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.572916.1",
+    "entityId": "ent.ref.nukapedia_572916",
+    "name": "Fallout 76 map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577151.1",
+    "entityId": "ent.ref.nukapedia_577151",
+    "name": "Raider (Fallout 76)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1795.1",
+    "entityId": "ent.ref.nukapedia_1795",
+    "name": "Jackal",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6874.1",
+    "entityId": "ent.ref.nukapedia_6874",
+    "name": "Jefferson Monument",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6874.2",
+    "entityId": "ent.ref.nukapedia_6874",
+    "name": "Jefferson Museum and Gift Shop",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.6874.3",
+    "entityId": "ent.ref.nukapedia_6874",
+    "name": "Memorial sub-basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8684.1",
+    "entityId": "ent.ref.nukapedia_8684",
+    "name": "Family",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9140.1",
+    "entityId": "ent.ref.nukapedia_9140",
+    "name": "Enclave sentry bot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9140.2",
+    "entityId": "ent.ref.nukapedia_9140",
+    "name": "Presidential metro sentinal unit",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9140.3",
+    "entityId": "ent.ref.nukapedia_9140",
+    "name": "Presidential metro sentry bot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.77653.1",
+    "entityId": "ent.ref.nukapedia_77653",
+    "name": "Omerta",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.77653.2",
+    "entityId": "ent.ref.nukapedia_77653",
+    "name": "Slither Kin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.77653.3",
+    "entityId": "ent.ref.nukapedia_77653",
+    "name": "The Omertas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106565.1",
+    "entityId": "ent.ref.nukapedia_106565",
+    "name": "Families",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114850.1",
+    "entityId": "ent.ref.nukapedia_114850",
+    "name": "1st Recon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114850.2",
+    "entityId": "ent.ref.nukapedia_114850",
+    "name": "1st Reconnaissance Battalion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114850.3",
+    "entityId": "ent.ref.nukapedia_114850",
+    "name": "Alpha Team",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114850.4",
+    "entityId": "ent.ref.nukapedia_114850",
+    "name": "First Recon Battalion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.175297.1",
+    "entityId": "ent.ref.nukapedia_175297",
+    "name": "Operation Racket",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.424761.1",
+    "entityId": "ent.ref.nukapedia_424761",
+    "name": "Purifier Conflict",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529274.1",
+    "entityId": "ent.ref.nukapedia_529274",
+    "name": "Harborman",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529274.2",
+    "entityId": "ent.ref.nukapedia_529274",
+    "name": "Harborwoman",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599840.1",
+    "entityId": "ent.ref.nukapedia_599840",
+    "name": "NCR Correctional Facility Uprising",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599840.2",
+    "entityId": "ent.ref.nukapedia_599840",
+    "name": "NCR Correctional Facility prison break",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599840.3",
+    "entityId": "ent.ref.nukapedia_599840",
+    "name": "NCRCF Uprising",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790693.1",
+    "entityId": "ent.ref.nukapedia_790693",
+    "name": "Showman",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790693.2",
+    "entityId": "ent.ref.nukapedia_790693",
+    "name": "Showman Duker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790693.3",
+    "entityId": "ent.ref.nukapedia_790693",
+    "name": "Showmen",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.868665.1",
+    "entityId": "ent.ref.nukapedia_868665",
+    "name": "Rust Kingdom (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.868665.2",
+    "entityId": "ent.ref.nukapedia_868665",
+    "name": "The Rust King's Army",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869134.1",
+    "entityId": "ent.ref.nukapedia_869134",
+    "name": "Dino Peaks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1022.1",
+    "entityId": "ent.ref.nukapedia_1022",
+    "name": "Teachings holodisk",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2062.1",
+    "entityId": "ent.ref.nukapedia_2062",
+    "name": "Bishop family",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2062.2",
+    "entityId": "ent.ref.nukapedia_2062",
+    "name": "The Bishops",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3938.1",
+    "entityId": "ent.ref.nukapedia_3938",
+    "name": "COS",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3938.2",
+    "entityId": "ent.ref.nukapedia_3938",
+    "name": "The Circle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3938.3",
+    "entityId": "ent.ref.nukapedia_3938",
+    "name": "The Circle of Steel (Fallout: New Vegas)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7178.1",
+    "entityId": "ent.ref.nukapedia_7178",
+    "name": "Blackfoot town foundry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7178.2",
+    "entityId": "ent.ref.nukapedia_7178",
+    "name": "Blackfoot tribe",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7178.3",
+    "entityId": "ent.ref.nukapedia_7178",
+    "name": "Blackfoots",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8041.1",
+    "entityId": "ent.ref.nukapedia_8041",
+    "name": "USSS",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11406.1",
+    "entityId": "ent.ref.nukapedia_11406",
+    "name": "Statesman Hotel restaurant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11406.2",
+    "entityId": "ent.ref.nukapedia_11406",
+    "name": "Statesmen Hotel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11406.3",
+    "entityId": "ent.ref.nukapedia_11406",
+    "name": "The Statesman Hotel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.18725.1",
+    "entityId": "ent.ref.nukapedia_18725",
+    "name": "Better Days",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.18725.2",
+    "entityId": "ent.ref.nukapedia_18725",
+    "name": "Project Purity Journal: Entry 1",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.18725.3",
+    "entityId": "ent.ref.nukapedia_18725",
+    "name": "Project Purity Journal: Entry 3",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.18725.4",
+    "entityId": "ent.ref.nukapedia_18725",
+    "name": "Project Purity Journal: Entry 5",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.31111.1",
+    "entityId": "ent.ref.nukapedia_31111",
+    "name": "Shi-Huang-Ti",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.55783.1",
+    "entityId": "ent.ref.nukapedia_55783",
+    "name": "Utobitha",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.67835.1",
+    "entityId": "ent.ref.nukapedia_67835",
+    "name": "Legion coin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.67835.2",
+    "entityId": "ent.ref.nukapedia_67835",
+    "name": "Legion coinage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.67835.3",
+    "entityId": "ent.ref.nukapedia_67835",
+    "name": "Legion money",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.69497.1",
+    "entityId": "ent.ref.nukapedia_69497",
+    "name": "The Chairmen",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.74853.1",
+    "entityId": "ent.ref.nukapedia_74853",
+    "name": "The King's School of Impersonation",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.111934.1",
+    "entityId": "ent.ref.nukapedia_111934",
+    "name": "B-29",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.111934.2",
+    "entityId": "ent.ref.nukapedia_111934",
+    "name": "Crashed bomber",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114866.1",
+    "entityId": "ent.ref.nukapedia_114866",
+    "name": "Durable Dunn's",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.150456.1",
+    "entityId": "ent.ref.nukapedia_150456",
+    "name": "Dean hologram",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.150456.2",
+    "entityId": "ent.ref.nukapedia_150456",
+    "name": "Greeter hologram",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.150456.3",
+    "entityId": "ent.ref.nukapedia_150456",
+    "name": "Hologram (Dead Money)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.150456.4",
+    "entityId": "ent.ref.nukapedia_150456",
+    "name": "Hologram (Old World Blues)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.211163.1",
+    "entityId": "ent.ref.nukapedia_211163",
+    "name": "Crucification",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.426875.1",
+    "entityId": "ent.ref.nukapedia_426875",
+    "name": "Equidae",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.426875.2",
+    "entityId": "ent.ref.nukapedia_426875",
+    "name": "Horses",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.477157.1",
+    "entityId": "ent.ref.nukapedia_477157",
+    "name": "DC Security",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.519771.1",
+    "entityId": "ent.ref.nukapedia_519771",
+    "name": "Quantum robobrain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.519771.2",
+    "entityId": "ent.ref.nukapedia_519771",
+    "name": "Robobrain (Automatron)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.519771.3",
+    "entityId": "ent.ref.nukapedia_519771",
+    "name": "Servomech robobrain",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.523323.1",
+    "entityId": "ent.ref.nukapedia_523323",
+    "name": "Rust Devil",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.568315.1",
+    "entityId": "ent.ref.nukapedia_568315",
+    "name": "Temple of the Union (faction)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578332.1",
+    "entityId": "ent.ref.nukapedia_578332",
+    "name": "Buck's Den Beer Hall",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580602.1",
+    "entityId": "ent.ref.nukapedia_580602",
+    "name": "I Am Become Death (achievement)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580602.2",
+    "entityId": "ent.ref.nukapedia_580602",
+    "name": "Nuke Master Quest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.582042.1",
+    "entityId": "ent.ref.nukapedia_582042",
+    "name": "Charleston flood",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.582042.2",
+    "entityId": "ent.ref.nukapedia_582042",
+    "name": "Christmas Flood",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.582042.3",
+    "entityId": "ent.ref.nukapedia_582042",
+    "name": "The Christmas Flood (event)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589911.1",
+    "entityId": "ent.ref.nukapedia_589911",
+    "name": "Pioneer Scout",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.606725.1",
+    "entityId": "ent.ref.nukapedia_606725",
+    "name": "Secretary of the Army",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615037.1",
+    "entityId": "ent.ref.nukapedia_615037",
+    "name": "Event: Something Sentimental",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.656318.1",
+    "entityId": "ent.ref.nukapedia_656318",
+    "name": "Hellcats",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.871097.1",
+    "entityId": "ent.ref.nukapedia_871097",
+    "name": "Congressional Army",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.877280.1",
+    "entityId": "ent.ref.nukapedia_877280",
+    "name": "Buckeye Diner",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2006.1",
+    "entityId": "ent.ref.nukapedia_2006",
+    "name": "Glowbug",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2006.2",
+    "entityId": "ent.ref.nukapedia_2006",
+    "name": "Glowing ghoul",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2006.3",
+    "entityId": "ent.ref.nukapedia_2006",
+    "name": "Glowing ones",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3280.1",
+    "entityId": "ent.ref.nukapedia_3280",
+    "name": "Night God",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3710.1",
+    "entityId": "ent.ref.nukapedia_3710",
+    "name": "FLC",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13966.1",
+    "entityId": "ent.ref.nukapedia_13966",
+    "name": "Lens",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.13966.2",
+    "entityId": "ent.ref.nukapedia_13966",
+    "name": "Targeting chip",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26196.1",
+    "entityId": "ent.ref.nukapedia_26196",
+    "name": "Training",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.27935.1",
+    "entityId": "ent.ref.nukapedia_27935",
+    "name": "Crypt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.28005.1",
+    "entityId": "ent.ref.nukapedia_28005",
+    "name": "Fool",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.28730.1",
+    "entityId": "ent.ref.nukapedia_28730",
+    "name": "Detention Center",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.54941.1",
+    "entityId": "ent.ref.nukapedia_54941",
+    "name": "Berserk Securitron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.54941.2",
+    "entityId": "ent.ref.nukapedia_54941",
+    "name": "Berserk securitron Mk4",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.54941.3",
+    "entityId": "ent.ref.nukapedia_54941",
+    "name": "Berserk securitron Mk5",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.54941.4",
+    "entityId": "ent.ref.nukapedia_54941",
+    "name": "Damaged Securitron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.113596.1",
+    "entityId": "ent.ref.nukapedia_113596",
+    "name": "House Has Gone Bust!",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.130341.1",
+    "entityId": "ent.ref.nukapedia_130341",
+    "name": "Hell's Grannies",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.145558.1",
+    "entityId": "ent.ref.nukapedia_145558",
+    "name": "Spitoon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.145558.2",
+    "entityId": "ent.ref.nukapedia_145558",
+    "name": "The Spitoon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.145558.3",
+    "entityId": "ent.ref.nukapedia_145558",
+    "name": "The Spittoon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.177842.1",
+    "entityId": "ent.ref.nukapedia_177842",
+    "name": "Feral ghoul roamer (Fallout 3)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.177842.2",
+    "entityId": "ent.ref.nukapedia_177842",
+    "name": "Swamp ghoul",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195837.1",
+    "entityId": "ent.ref.nukapedia_195837",
+    "name": "Happy Trails",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.195837.2",
+    "entityId": "ent.ref.nukapedia_195837",
+    "name": "Happy Trails Trading Company",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.211263.1",
+    "entityId": "ent.ref.nukapedia_211263",
+    "name": "MLA",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.216216.1",
+    "entityId": "ent.ref.nukapedia_216216",
+    "name": "I-40",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.226795.1",
+    "entityId": "ent.ref.nukapedia_226795",
+    "name": "Californian cannibals",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.226795.2",
+    "entityId": "ent.ref.nukapedia_226795",
+    "name": "Oregon's cannibals",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.268958.1",
+    "entityId": "ent.ref.nukapedia_268958",
+    "name": "Stingers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.377717.1",
+    "entityId": "ent.ref.nukapedia_377717",
+    "name": "Consul",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.377717.2",
+    "entityId": "ent.ref.nukapedia_377717",
+    "name": "Consul (Vault City)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.423264.1",
+    "entityId": "ent.ref.nukapedia_423264",
+    "name": "Alien Archivist",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.423264.2",
+    "entityId": "ent.ref.nukapedia_423264",
+    "name": "Legend of Zeta",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.427098.1",
+    "entityId": "ent.ref.nukapedia_427098",
+    "name": "Officio ab Famulatus",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.427098.2",
+    "entityId": "ent.ref.nukapedia_427098",
+    "name": "Officiorum ab Famulatus",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.436927.1",
+    "entityId": "ent.ref.nukapedia_436927",
+    "name": "Westside Cleaners Storage Laundry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.436971.1",
+    "entityId": "ent.ref.nukapedia_436971",
+    "name": "Sam's Autoparts",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.436974.1",
+    "entityId": "ent.ref.nukapedia_436974",
+    "name": "Uptown Drugs Prescriptions",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478303.1",
+    "entityId": "ent.ref.nukapedia_478303",
+    "name": "GlowingSeaPOIJB03",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.480833.1",
+    "entityId": "ent.ref.nukapedia_480833",
+    "name": "Invasion of Osceolla",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.484294.1",
+    "entityId": "ent.ref.nukapedia_484294",
+    "name": "Goodneighborhood Watch",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.493802.1",
+    "entityId": "ent.ref.nukapedia_493802",
+    "name": "Laundromat",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.504637.1",
+    "entityId": "ent.ref.nukapedia_504637",
+    "name": "Echo Company",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.513922.1",
+    "entityId": "ent.ref.nukapedia_513922",
+    "name": "Hank (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.520030.1",
+    "entityId": "ent.ref.nukapedia_520030",
+    "name": "Long's Pharmacy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.520032.1",
+    "entityId": "ent.ref.nukapedia_520032",
+    "name": "Quincy Liquors",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.528527.1",
+    "entityId": "ent.ref.nukapedia_528527",
+    "name": "Longfellow",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529121.1",
+    "entityId": "ent.ref.nukapedia_529121",
+    "name": "Hull Breach 2",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529121.2",
+    "entityId": "ent.ref.nukapedia_529121",
+    "name": "Hull Breach 3",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529664.1",
+    "entityId": "ent.ref.nukapedia_529664",
+    "name": "Search and Destroy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529752.1",
+    "entityId": "ent.ref.nukapedia_529752",
+    "name": "Great Hunt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.531613.1",
+    "entityId": "ent.ref.nukapedia_531613",
+    "name": "Forbidden Knowledge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539358.1",
+    "entityId": "ent.ref.nukapedia_539358",
+    "name": "Gage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539358.2",
+    "entityId": "ent.ref.nukapedia_539358",
+    "name": "Porter (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539580.1",
+    "entityId": "ent.ref.nukapedia_539580",
+    "name": "Sykes (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.557688.1",
+    "entityId": "ent.ref.nukapedia_557688",
+    "name": "Cat Burglar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577549.1",
+    "entityId": "ent.ref.nukapedia_577549",
+    "name": "Scoutbook: Meal prep",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578125.1",
+    "entityId": "ent.ref.nukapedia_578125",
+    "name": "Scoutbook: Fundraisers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578702.1",
+    "entityId": "ent.ref.nukapedia_578702",
+    "name": "Daily: Target Rich Environment",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578702.2",
+    "entityId": "ent.ref.nukapedia_578702",
+    "name": "Talk to Shooting Range Attendant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.585554.1",
+    "entityId": "ent.ref.nukapedia_585554",
+    "name": "Scoutbook: Foreward",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.587430.1",
+    "entityId": "ent.ref.nukapedia_587430",
+    "name": "Scoutbook: Camping",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.592159.1",
+    "entityId": "ent.ref.nukapedia_592159",
+    "name": "Best of Intentions",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599611.1",
+    "entityId": "ent.ref.nukapedia_599611",
+    "name": "Cryptid",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603760.1",
+    "entityId": "ent.ref.nukapedia_603760",
+    "name": "Alien",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603760.2",
+    "entityId": "ent.ref.nukapedia_603760",
+    "name": "Alien weapons",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603760.3",
+    "entityId": "ent.ref.nukapedia_603760",
+    "name": "Extra-terrestrial",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603760.4",
+    "entityId": "ent.ref.nukapedia_603760",
+    "name": "Extraterrestrial",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.606027.1",
+    "entityId": "ent.ref.nukapedia_606027",
+    "name": "United States Army Robotics Division",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.632295.1",
+    "entityId": "ent.ref.nukapedia_632295",
+    "name": "ACME Realty (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.656017.1",
+    "entityId": "ent.ref.nukapedia_656017",
+    "name": "M.I.N.D.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.729442.1",
+    "entityId": "ent.ref.nukapedia_729442",
+    "name": "Event: Seismic Activity",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.731105.1",
+    "entityId": "ent.ref.nukapedia_731105",
+    "name": "Event: Most Wanted",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.731107.1",
+    "entityId": "ent.ref.nukapedia_731107",
+    "name": "Event: Spin The Wheel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.797406.1",
+    "entityId": "ent.ref.nukapedia_797406",
+    "name": "Hub Trading Co.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.797406.2",
+    "entityId": "ent.ref.nukapedia_797406",
+    "name": "Hub's Central Council",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869173.1",
+    "entityId": "ent.ref.nukapedia_869173",
+    "name": "Stockton Caravans",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2098.1",
+    "entityId": "ent.ref.nukapedia_2098",
+    "name": "Primitive Village",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2423.1",
+    "entityId": "ent.ref.nukapedia_2423",
+    "name": "Iguanas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26383.1",
+    "entityId": "ent.ref.nukapedia_26383",
+    "name": "Fallout 3 player housing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26383.2",
+    "entityId": "ent.ref.nukapedia_26383",
+    "name": "Squatting Strategies",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.46264.1",
+    "entityId": "ent.ref.nukapedia_46264",
+    "name": "Lobotomite (Old World Blues)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.46264.2",
+    "entityId": "ent.ref.nukapedia_46264",
+    "name": "Lobotomites",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.59720.1",
+    "entityId": "ent.ref.nukapedia_59720",
+    "name": "Know Your Mutants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.96917.1",
+    "entityId": "ent.ref.nukapedia_96917",
+    "name": "Legendary bloatfly",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106732.1",
+    "entityId": "ent.ref.nukapedia_106732",
+    "name": "Beauveria mordicana",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106732.2",
+    "entityId": "ent.ref.nukapedia_106732",
+    "name": "Spore carrier brute",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106732.3",
+    "entityId": "ent.ref.nukapedia_106732",
+    "name": "Spore carrier runt",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.106732.4",
+    "entityId": "ent.ref.nukapedia_106732",
+    "name": "Spore carrier savage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.113568.1",
+    "entityId": "ent.ref.nukapedia_113568",
+    "name": "REPCONN HQ",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.123408.1",
+    "entityId": "ent.ref.nukapedia_123408",
+    "name": "FNV map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.123408.2",
+    "entityId": "ent.ref.nukapedia_123408",
+    "name": "Fallout: New Vegas map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.123408.3",
+    "entityId": "ent.ref.nukapedia_123408",
+    "name": "New Vegas map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.269287.1",
+    "entityId": "ent.ref.nukapedia_269287",
+    "name": "Water Caravan Squabble",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.271968.1",
+    "entityId": "ent.ref.nukapedia_271968",
+    "name": "Reunion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478332.1",
+    "entityId": "ent.ref.nukapedia_478332",
+    "name": "Logan Airport",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478332.2",
+    "entityId": "ent.ref.nukapedia_478332",
+    "name": "Logan International Airport",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478999.1",
+    "entityId": "ent.ref.nukapedia_478999",
+    "name": "Mass Fusion main reactor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.532025.1",
+    "entityId": "ent.ref.nukapedia_532025",
+    "name": "The Deadliest Catch",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577805.1",
+    "entityId": "ent.ref.nukapedia_577805",
+    "name": "CB 002",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577805.2",
+    "entityId": "ent.ref.nukapedia_577805",
+    "name": "Congressional Bunker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577805.3",
+    "entityId": "ent.ref.nukapedia_577805",
+    "name": "Whitespring Congressional Bunker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578607.1",
+    "entityId": "ent.ref.nukapedia_578607",
+    "name": "Allegheny Asylum",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589921.1",
+    "entityId": "ent.ref.nukapedia_589921",
+    "name": "Fasnacht",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.589921.2",
+    "entityId": "ent.ref.nukapedia_589921",
+    "name": "Fasnacht Parade",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.595307.1",
+    "entityId": "ent.ref.nukapedia_595307",
+    "name": "Babylon Zax Vault",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599730.1",
+    "entityId": "ent.ref.nukapedia_599730",
+    "name": "Shaanxi",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.668268.1",
+    "entityId": "ent.ref.nukapedia_668268",
+    "name": "Elliot Manfield",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715110.1",
+    "entityId": "ent.ref.nukapedia_715110",
+    "name": "Perfect Fussfungle",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.715111.1",
+    "entityId": "ent.ref.nukapedia_715111",
+    "name": "Makeover",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.815738.1",
+    "entityId": "ent.ref.nukapedia_815738",
+    "name": "Organics Sector",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3781.1",
+    "entityId": "ent.ref.nukapedia_3781",
+    "name": "Oil tanker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3781.2",
+    "entityId": "ent.ref.nukapedia_3781",
+    "name": "Tanker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4901.1",
+    "entityId": "ent.ref.nukapedia_4901",
+    "name": "Vault 34 armory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4901.2",
+    "entityId": "ent.ref.nukapedia_4901",
+    "name": "Vault 34 reactor",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7042.1",
+    "entityId": "ent.ref.nukapedia_7042",
+    "name": "Blue Line",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7042.2",
+    "entityId": "ent.ref.nukapedia_7042",
+    "name": "Fallout 3 Metro",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7042.3",
+    "entityId": "ent.ref.nukapedia_7042",
+    "name": "Fallout 3 Metro map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7042.4",
+    "entityId": "ent.ref.nukapedia_7042",
+    "name": "Metro Map",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8587.1",
+    "entityId": "ent.ref.nukapedia_8587",
+    "name": "Rothchild",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8587.2",
+    "entityId": "ent.ref.nukapedia_8587",
+    "name": "Scribe Rothchild",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9053.1",
+    "entityId": "ent.ref.nukapedia_9053",
+    "name": "Yew Got a New Friend",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9060.1",
+    "entityId": "ent.ref.nukapedia_9060",
+    "name": "Going for a Song",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9584.1",
+    "entityId": "ent.ref.nukapedia_9584",
+    "name": "National gaurd depot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9811.1",
+    "entityId": "ent.ref.nukapedia_9811",
+    "name": "Amata",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10007.1",
+    "entityId": "ent.ref.nukapedia_10007",
+    "name": "Oasis caverns",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10007.2",
+    "entityId": "ent.ref.nukapedia_10007",
+    "name": "Sunken Chambers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10007.3",
+    "entityId": "ent.ref.nukapedia_10007",
+    "name": "The Oasis",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10033.1",
+    "entityId": "ent.ref.nukapedia_10033",
+    "name": "Great Chamber",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10033.2",
+    "entityId": "ent.ref.nukapedia_10033",
+    "name": "Lamplight",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10033.3",
+    "entityId": "ent.ref.nukapedia_10033",
+    "name": "Lamplight caverns",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10033.4",
+    "entityId": "ent.ref.nukapedia_10033",
+    "name": "Lamplight's History",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10422.1",
+    "entityId": "ent.ref.nukapedia_10422",
+    "name": "Evergreen Mills bazaar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10422.2",
+    "entityId": "ent.ref.nukapedia_10422",
+    "name": "Evergreen Mills foundry",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10422.3",
+    "entityId": "ent.ref.nukapedia_10422",
+    "name": "Guard house (Evergreen Mills)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10422.4",
+    "entityId": "ent.ref.nukapedia_10422",
+    "name": "Guard shack",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10424.1",
+    "entityId": "ent.ref.nukapedia_10424",
+    "name": "Forsaken Dunwich Ruins",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10424.2",
+    "entityId": "ent.ref.nukapedia_10424",
+    "name": "Virulent Underchambers",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10751.1",
+    "entityId": "ent.ref.nukapedia_10751",
+    "name": "Anchorage Memorial facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10751.2",
+    "entityId": "ent.ref.nukapedia_10751",
+    "name": "Anchorage War Memorial",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10751.3",
+    "entityId": "ent.ref.nukapedia_10751",
+    "name": "FDR Island",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10751.4",
+    "entityId": "ent.ref.nukapedia_10751",
+    "name": "Memorial service entrance",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11239.1",
+    "entityId": "ent.ref.nukapedia_11239",
+    "name": "Bomb shelter",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11239.2",
+    "entityId": "ent.ref.nukapedia_11239",
+    "name": "Bomb storage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11239.3",
+    "entityId": "ent.ref.nukapedia_11239",
+    "name": "Fort Constantine ICBM",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11239.4",
+    "entityId": "ent.ref.nukapedia_11239",
+    "name": "Fort Constantine Launch Control Terminal",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.68111.1",
+    "entityId": "ent.ref.nukapedia_68111",
+    "name": "Forlorn Hope",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.77944.1",
+    "entityId": "ent.ref.nukapedia_77944",
+    "name": "Fallout: New Vegas player housing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.82809.1",
+    "entityId": "ent.ref.nukapedia_82809",
+    "name": "The Burrows north",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.82809.2",
+    "entityId": "ent.ref.nukapedia_82809",
+    "name": "The Burrows south",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.88074.1",
+    "entityId": "ent.ref.nukapedia_88074",
+    "name": "Vulpes",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.89261.1",
+    "entityId": "ent.ref.nukapedia_89261",
+    "name": "Searchlight",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.96459.1",
+    "entityId": "ent.ref.nukapedia_96459",
+    "name": "Thorn",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112505.1",
+    "entityId": "ent.ref.nukapedia_112505",
+    "name": "NCRCF",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112505.2",
+    "entityId": "ent.ref.nukapedia_112505",
+    "name": "New California Republic Correctional Facility",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.463988.1",
+    "entityId": "ent.ref.nukapedia_463988",
+    "name": "Alpha deathclaw (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.463988.2",
+    "entityId": "ent.ref.nukapedia_463988",
+    "name": "Chameleon deathclaw (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.463988.3",
+    "entityId": "ent.ref.nukapedia_463988",
+    "name": "Glowing deathclaw (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.463988.4",
+    "entityId": "ent.ref.nukapedia_463988",
+    "name": "Mythic deathclaw (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478295.1",
+    "entityId": "ent.ref.nukapedia_478295",
+    "name": "Sentinel Site Prescott",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478365.1",
+    "entityId": "ent.ref.nukapedia_478365",
+    "name": "Orpheum Theatre",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478744.1",
+    "entityId": "ent.ref.nukapedia_478744",
+    "name": "Automatron merchants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478744.2",
+    "entityId": "ent.ref.nukapedia_478744",
+    "name": "Far Harbor merchants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478744.3",
+    "entityId": "ent.ref.nukapedia_478744",
+    "name": "Level Four trader",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478744.4",
+    "entityId": "ent.ref.nukapedia_478744",
+    "name": "Nuka-World merchants",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478938.1",
+    "entityId": "ent.ref.nukapedia_478938",
+    "name": "Fort Strong armory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478938.2",
+    "entityId": "ent.ref.nukapedia_478938",
+    "name": "Fort Strong sublevel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479173.1",
+    "entityId": "ent.ref.nukapedia_479173",
+    "name": "National Guard Recruitment Office",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479173.2",
+    "entityId": "ent.ref.nukapedia_479173",
+    "name": "National Guard armory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479173.3",
+    "entityId": "ent.ref.nukapedia_479173",
+    "name": "National Guard barracks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479190.1",
+    "entityId": "ent.ref.nukapedia_479190",
+    "name": "Parsons State administration",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479238.1",
+    "entityId": "ent.ref.nukapedia_479238",
+    "name": "Gift shop basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.494093.1",
+    "entityId": "ent.ref.nukapedia_494093",
+    "name": "Mass Fusion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529257.1",
+    "entityId": "ent.ref.nukapedia_529257",
+    "name": "Mount Desert Island Naval Base",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529257.2",
+    "entityId": "ent.ref.nukapedia_529257",
+    "name": "Nucleus",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573178.1",
+    "entityId": "ent.ref.nukapedia_573178",
+    "name": "Jefferson Rock",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573413.1",
+    "entityId": "ent.ref.nukapedia_573413",
+    "name": "Forest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573449.1",
+    "entityId": "ent.ref.nukapedia_573449",
+    "name": "Mire",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577820.1",
+    "entityId": "ent.ref.nukapedia_577820",
+    "name": "C.A.M.P. and Workshop Objects",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577820.2",
+    "entityId": "ent.ref.nukapedia_577820",
+    "name": "Fallout 76 workshop mode",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577820.3",
+    "entityId": "ent.ref.nukapedia_577820",
+    "name": "Fallout 76 workshops",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578718.1",
+    "entityId": "ent.ref.nukapedia_578718",
+    "name": "Endurance and Survival Training of the Virginias",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578718.2",
+    "entityId": "ent.ref.nukapedia_578718",
+    "name": "VEST",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.579018.1",
+    "entityId": "ent.ref.nukapedia_579018",
+    "name": "Monongah Power Plant yard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580811.1",
+    "entityId": "ent.ref.nukapedia_580811",
+    "name": "Big Bend",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.586461.1",
+    "entityId": "ent.ref.nukapedia_586461",
+    "name": "Blast zones",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.586461.2",
+    "entityId": "ent.ref.nukapedia_586461",
+    "name": "Nuke blast zone",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.586461.3",
+    "entityId": "ent.ref.nukapedia_586461",
+    "name": "Nuke zone",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.593139.1",
+    "entityId": "ent.ref.nukapedia_593139",
+    "name": "Event: Project Paradise",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.647172.1",
+    "entityId": "ent.ref.nukapedia_647172",
+    "name": "Ironclad Service",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.798137.1",
+    "entityId": "ent.ref.nukapedia_798137",
+    "name": "Cooper Howard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.868651.1",
+    "entityId": "ent.ref.nukapedia_868651",
+    "name": "Rust Kingdom (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.868651.2",
+    "entityId": "ent.ref.nukapedia_868651",
+    "name": "Rust Kingdom arena",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.868677.1",
+    "entityId": "ent.ref.nukapedia_868677",
+    "name": "Jackson's Junkyard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869147.1",
+    "entityId": "ent.ref.nukapedia_869147",
+    "name": "Diner basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1596.1",
+    "entityId": "ent.ref.nukapedia_1596",
+    "name": "Water chip dup",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1596.2",
+    "entityId": "ent.ref.nukapedia_1596",
+    "name": "Water purification chip",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.1596.3",
+    "entityId": "ent.ref.nukapedia_1596",
+    "name": "Water purifier chip",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2170.1",
+    "entityId": "ent.ref.nukapedia_2170",
+    "name": "Gravesite",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2468.1",
+    "entityId": "ent.ref.nukapedia_2468",
+    "name": "Corridor of Revulsion",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2468.2",
+    "entityId": "ent.ref.nukapedia_2468",
+    "name": "LA Vault",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.2468.3",
+    "entityId": "ent.ref.nukapedia_2468",
+    "name": "Master's Lair",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3538.1",
+    "entityId": "ent.ref.nukapedia_3538",
+    "name": "Secret Vault",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.3928.1",
+    "entityId": "ent.ref.nukapedia_3928",
+    "name": "Porn studio",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.4531.1",
+    "entityId": "ent.ref.nukapedia_4531",
+    "name": "Umbra Tribe",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.7275.1",
+    "entityId": "ent.ref.nukapedia_7275",
+    "name": "Cat's Paw brothel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8324.1",
+    "entityId": "ent.ref.nukapedia_8324",
+    "name": "Mister Break",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8324.2",
+    "entityId": "ent.ref.nukapedia_8324",
+    "name": "Mister Burke",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8324.3",
+    "entityId": "ent.ref.nukapedia_8324",
+    "name": "Mr Burke",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8401.1",
+    "entityId": "ent.ref.nukapedia_8401",
+    "name": "Big Town common house",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8401.2",
+    "entityId": "ent.ref.nukapedia_8401",
+    "name": "Bigtown",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8724.1",
+    "entityId": "ent.ref.nukapedia_8724",
+    "name": "Moriarty's",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8724.2",
+    "entityId": "ent.ref.nukapedia_8724",
+    "name": "Moriarty's Bar",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8736.1",
+    "entityId": "ent.ref.nukapedia_8736",
+    "name": "Marigold Metro Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.8902.1",
+    "entityId": "ent.ref.nukapedia_8902",
+    "name": "Investigate the Ghost Farm",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9342.1",
+    "entityId": "ent.ref.nukapedia_9342",
+    "name": "Museum of American History",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9342.2",
+    "entityId": "ent.ref.nukapedia_9342",
+    "name": "Museum of History Entrance",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9342.3",
+    "entityId": "ent.ref.nukapedia_9342",
+    "name": "Museum of History Lower Halls",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9342.4",
+    "entityId": "ent.ref.nukapedia_9342",
+    "name": "Museum of History Offices",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.9936.1",
+    "entityId": "ent.ref.nukapedia_9936",
+    "name": "Cantebury Commons",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10035.1",
+    "entityId": "ent.ref.nukapedia_10035",
+    "name": "Braun",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10035.2",
+    "entityId": "ent.ref.nukapedia_10035",
+    "name": "Doctor Braun",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10035.3",
+    "entityId": "ent.ref.nukapedia_10035",
+    "name": "Dr. Braun",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10038.1",
+    "entityId": "ent.ref.nukapedia_10038",
+    "name": "A3-21",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10038.2",
+    "entityId": "ent.ref.nukapedia_10038",
+    "name": "A321",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10038.3",
+    "entityId": "ent.ref.nukapedia_10038",
+    "name": "Harkness (A3-21)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10040.1",
+    "entityId": "ent.ref.nukapedia_10040",
+    "name": "Liberty Prime Alpha",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10040.2",
+    "entityId": "ent.ref.nukapedia_10040",
+    "name": "Liberty Prime quotes",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10767.1",
+    "entityId": "ent.ref.nukapedia_10767",
+    "name": "Fort Banister",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10767.2",
+    "entityId": "ent.ref.nukapedia_10767",
+    "name": "Fort Bannister bunker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10974.1",
+    "entityId": "ent.ref.nukapedia_10974",
+    "name": "Bethesda Offices",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10974.2",
+    "entityId": "ent.ref.nukapedia_10974",
+    "name": "Bethesda Offices East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.10974.3",
+    "entityId": "ent.ref.nukapedia_10974",
+    "name": "Bethesda Offices West",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11148.1",
+    "entityId": "ent.ref.nukapedia_11148",
+    "name": "RobCo Factory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11382.1",
+    "entityId": "ent.ref.nukapedia_11382",
+    "name": "Hubris Comic Printing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11382.2",
+    "entityId": "ent.ref.nukapedia_11382",
+    "name": "Hubris Comics (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11382.3",
+    "entityId": "ent.ref.nukapedia_11382",
+    "name": "Hubris Comics Printing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11382.4",
+    "entityId": "ent.ref.nukapedia_11382",
+    "name": "Hubris Comics Publishing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11407.1",
+    "entityId": "ent.ref.nukapedia_11407",
+    "name": "Our Lady of Hope",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11426.1",
+    "entityId": "ent.ref.nukapedia_11426",
+    "name": "Galaxy News Radio (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11552.1",
+    "entityId": "ent.ref.nukapedia_11552",
+    "name": "Food Distribution",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11552.2",
+    "entityId": "ent.ref.nukapedia_11552",
+    "name": "Mama Dolce's Food Distribution",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11552.3",
+    "entityId": "ent.ref.nukapedia_11552",
+    "name": "Mama Dulce's",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11559.1",
+    "entityId": "ent.ref.nukapedia_11559",
+    "name": "Broken bow",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11691.1",
+    "entityId": "ent.ref.nukapedia_11691",
+    "name": "Nuka-Cola Factory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11874.1",
+    "entityId": "ent.ref.nukapedia_11874",
+    "name": "Red Rocket tricycle factory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11926.1",
+    "entityId": "ent.ref.nukapedia_11926",
+    "name": "Regulator Headquarters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11953.1",
+    "entityId": "ent.ref.nukapedia_11953",
+    "name": "Germantown Police Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.11955.1",
+    "entityId": "ent.ref.nukapedia_11955",
+    "name": "Springvale Elementary",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12061.1",
+    "entityId": "ent.ref.nukapedia_12061",
+    "name": "Seward Sq. North Metro",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12061.2",
+    "entityId": "ent.ref.nukapedia_12061",
+    "name": "Seward Sq. Northwest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12061.3",
+    "entityId": "ent.ref.nukapedia_12061",
+    "name": "Seward Sq. Southeast",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12061.4",
+    "entityId": "ent.ref.nukapedia_12061",
+    "name": "Seward Square Northwest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12088.1",
+    "entityId": "ent.ref.nukapedia_12088",
+    "name": "Fuck you door",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12088.2",
+    "entityId": "ent.ref.nukapedia_12088",
+    "name": "NN-03d",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12088.3",
+    "entityId": "ent.ref.nukapedia_12088",
+    "name": "SatCom Array NN-03d-B",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12092.1",
+    "entityId": "ent.ref.nukapedia_12092",
+    "name": "NW-05a",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12109.1",
+    "entityId": "ent.ref.nukapedia_12109",
+    "name": "Factory (Takoma Park)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12109.2",
+    "entityId": "ent.ref.nukapedia_12109",
+    "name": "Tacoma Park",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12169.1",
+    "entityId": "ent.ref.nukapedia_12169",
+    "name": "Darren's Discounts",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12169.2",
+    "entityId": "ent.ref.nukapedia_12169",
+    "name": "Mechanist's Forge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12170.1",
+    "entityId": "ent.ref.nukapedia_12170",
+    "name": "Shalebridge hill",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12170.2",
+    "entityId": "ent.ref.nukapedia_12170",
+    "name": "Shalebridge tunnels",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12471.1",
+    "entityId": "ent.ref.nukapedia_12471",
+    "name": "Raider outpost",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12471.2",
+    "entityId": "ent.ref.nukapedia_12471",
+    "name": "Raiders outpost",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12506.1",
+    "entityId": "ent.ref.nukapedia_12506",
+    "name": "Canterbury tunnels",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12556.1",
+    "entityId": "ent.ref.nukapedia_12556",
+    "name": "Rube's Gold Ribbon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12720.1",
+    "entityId": "ent.ref.nukapedia_12720",
+    "name": "Captive",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12720.2",
+    "entityId": "ent.ref.nukapedia_12720",
+    "name": "Captives",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.12890.1",
+    "entityId": "ent.ref.nukapedia_12890",
+    "name": "Gallo's storage closet",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14143.1",
+    "entityId": "ent.ref.nukapedia_14143",
+    "name": "Dupont",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14143.2",
+    "entityId": "ent.ref.nukapedia_14143",
+    "name": "Dupont East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14143.3",
+    "entityId": "ent.ref.nukapedia_14143",
+    "name": "Dupont Northeast",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14143.4",
+    "entityId": "ent.ref.nukapedia_14143",
+    "name": "Dupont West",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14271.1",
+    "entityId": "ent.ref.nukapedia_14271",
+    "name": "Penn. Ave East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14271.2",
+    "entityId": "ent.ref.nukapedia_14271",
+    "name": "Penn. Ave Northwest",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14271.3",
+    "entityId": "ent.ref.nukapedia_14271",
+    "name": "Penn. Ave South",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14271.4",
+    "entityId": "ent.ref.nukapedia_14271",
+    "name": "Penn. Ave West",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14289.1",
+    "entityId": "ent.ref.nukapedia_14289",
+    "name": "Columbia Heights",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14289.2",
+    "entityId": "ent.ref.nukapedia_14289",
+    "name": "Vernon Square East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14289.3",
+    "entityId": "ent.ref.nukapedia_14289",
+    "name": "Vernon Square North",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14335.1",
+    "entityId": "ent.ref.nukapedia_14335",
+    "name": "Chevy Chase East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14335.2",
+    "entityId": "ent.ref.nukapedia_14335",
+    "name": "Chevy Chase North",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14471.1",
+    "entityId": "ent.ref.nukapedia_14471",
+    "name": "Flooded Metro (CW)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14471.2",
+    "entityId": "ent.ref.nukapedia_14471",
+    "name": "Flooded Metro Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14737.1",
+    "entityId": "ent.ref.nukapedia_14737",
+    "name": "Shack Town",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14737.2",
+    "entityId": "ent.ref.nukapedia_14737",
+    "name": "Wasteland gypsy village",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.14991.1",
+    "entityId": "ent.ref.nukapedia_14991",
+    "name": "Taft Tunnels",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.16436.1",
+    "entityId": "ent.ref.nukapedia_16436",
+    "name": "Plunger Room of Death",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.20847.1",
+    "entityId": "ent.ref.nukapedia_20847",
+    "name": "Operation: Anchorage simulation",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.21385.1",
+    "entityId": "ent.ref.nukapedia_21385",
+    "name": "Tranquility Lounger",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24156.1",
+    "entityId": "ent.ref.nukapedia_24156",
+    "name": "Pitt Bridge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24156.2",
+    "entityId": "ent.ref.nukapedia_24156",
+    "name": "Wabash Bridge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24177.1",
+    "entityId": "ent.ref.nukapedia_24177",
+    "name": "Pitt steel yard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24177.2",
+    "entityId": "ent.ref.nukapedia_24177",
+    "name": "Steel yard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24177.3",
+    "entityId": "ent.ref.nukapedia_24177",
+    "name": "Steelyard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24177.4",
+    "entityId": "ent.ref.nukapedia_24177",
+    "name": "The Pitt steelyard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.24295.1",
+    "entityId": "ent.ref.nukapedia_24295",
+    "name": "The Hole (Pittsburgh)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.25674.1",
+    "entityId": "ent.ref.nukapedia_25674",
+    "name": "M.A.R.Go.T.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.25674.2",
+    "entityId": "ent.ref.nukapedia_25674",
+    "name": "Metro Authority Rapid Governmental Transit System",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26766.1",
+    "entityId": "ent.ref.nukapedia_26766",
+    "name": "Ghoul hideout",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26818.1",
+    "entityId": "ent.ref.nukapedia_26818",
+    "name": "Enclave Mobile Base",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26818.2",
+    "entityId": "ent.ref.nukapedia_26818",
+    "name": "Enclave crawler",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26818.3",
+    "entityId": "ent.ref.nukapedia_26818",
+    "name": "Launch platform base",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.26963.1",
+    "entityId": "ent.ref.nukapedia_26963",
+    "name": "Olney underground",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.27871.1",
+    "entityId": "ent.ref.nukapedia_27871",
+    "name": "Mothership Zeta (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.27871.2",
+    "entityId": "ent.ref.nukapedia_27871",
+    "name": "Mothership Zeta (vehicle)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.29087.1",
+    "entityId": "ent.ref.nukapedia_29087",
+    "name": "Light the Lighthouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.29087.2",
+    "entityId": "ent.ref.nukapedia_29087",
+    "name": "Lighthouse (Point Lookout)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.29087.3",
+    "entityId": "ent.ref.nukapedia_29087",
+    "name": "Lighting the Lighthouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.29087.4",
+    "entityId": "ent.ref.nukapedia_29087",
+    "name": "The Seafarer's Friend",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.30802.1",
+    "entityId": "ent.ref.nukapedia_30802",
+    "name": "Blackdamp shaft",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.31065.1",
+    "entityId": "ent.ref.nukapedia_31065",
+    "name": "SSN-37-1A",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.31106.1",
+    "entityId": "ent.ref.nukapedia_31106",
+    "name": "Medical Facility St. Aubin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.31106.2",
+    "entityId": "ent.ref.nukapedia_31106",
+    "name": "Underground lab",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.37264.1",
+    "entityId": "ent.ref.nukapedia_37264",
+    "name": "Cryo storage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.37423.1",
+    "entityId": "ent.ref.nukapedia_37423",
+    "name": "Waste disposal",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.38464.1",
+    "entityId": "ent.ref.nukapedia_38464",
+    "name": "Becky's",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.54458.1",
+    "entityId": "ent.ref.nukapedia_54458",
+    "name": "Crimson Caravan Camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.59667.1",
+    "entityId": "ent.ref.nukapedia_59667",
+    "name": "Dinky the Dinosaur",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.59989.1",
+    "entityId": "ent.ref.nukapedia_59989",
+    "name": "Wastelander campsite",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.80556.1",
+    "entityId": "ent.ref.nukapedia_80556",
+    "name": "Poseidon Oil Reactor no 5",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.80556.2",
+    "entityId": "ent.ref.nukapedia_80556",
+    "name": "Poseidon Oil Reactor № 5",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.88529.1",
+    "entityId": "ent.ref.nukapedia_88529",
+    "name": "Mormon Fort",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.88529.2",
+    "entityId": "ent.ref.nukapedia_88529",
+    "name": "Mormon Historic Park",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.88529.3",
+    "entityId": "ent.ref.nukapedia_88529",
+    "name": "Old Las Vegas Mormon Historic Park",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.89948.1",
+    "entityId": "ent.ref.nukapedia_89948",
+    "name": "New Vegas Clinic",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.90089.1",
+    "entityId": "ent.ref.nukapedia_90089",
+    "name": "Antonio Warrens",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.90089.2",
+    "entityId": "ent.ref.nukapedia_90089",
+    "name": "Charles Davies",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.90089.3",
+    "entityId": "ent.ref.nukapedia_90089",
+    "name": "Dale Martin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.90089.4",
+    "entityId": "ent.ref.nukapedia_90089",
+    "name": "Dan Brooks",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.99902.1",
+    "entityId": "ent.ref.nukapedia_99902",
+    "name": "C-23 Megaton",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.99902.2",
+    "entityId": "ent.ref.nukapedia_99902",
+    "name": "Megaton atomic bomb",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.99902.3",
+    "entityId": "ent.ref.nukapedia_99902",
+    "name": "Megaton bomb",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.99902.4",
+    "entityId": "ent.ref.nukapedia_99902",
+    "name": "Undetonated atomic bomb",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.104469.1",
+    "entityId": "ent.ref.nukapedia_104469",
+    "name": "Bright",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.109367.1",
+    "entityId": "ent.ref.nukapedia_109367",
+    "name": "Shady Pines Trailer Park",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.111906.1",
+    "entityId": "ent.ref.nukapedia_111906",
+    "name": "Calville Bay",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112055.1",
+    "entityId": "ent.ref.nukapedia_112055",
+    "name": "Sergeant McCredie",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112055.2",
+    "entityId": "ent.ref.nukapedia_112055",
+    "name": "Sgt. McCredie",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112326.1",
+    "entityId": "ent.ref.nukapedia_112326",
+    "name": "Dino Dee-lite hotel room",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112326.2",
+    "entityId": "ent.ref.nukapedia_112326",
+    "name": "Motel room",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.112767.1",
+    "entityId": "ent.ref.nukapedia_112767",
+    "name": "Deadwind Cavern",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.113493.1",
+    "entityId": "ent.ref.nukapedia_113493",
+    "name": "Prospector's Den",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114770.1",
+    "entityId": "ent.ref.nukapedia_114770",
+    "name": "New Vegas Square",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114770.2",
+    "entityId": "ent.ref.nukapedia_114770",
+    "name": "North New Vegas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114770.3",
+    "entityId": "ent.ref.nukapedia_114770",
+    "name": "North Vegas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114787.1",
+    "entityId": "ent.ref.nukapedia_114787",
+    "name": "Silver Peak mine shack",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.114973.1",
+    "entityId": "ent.ref.nukapedia_114973",
+    "name": "Morales' corpse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.116607.1",
+    "entityId": "ent.ref.nukapedia_116607",
+    "name": "Sharecropper Farms",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.117548.1",
+    "entityId": "ent.ref.nukapedia_117548",
+    "name": "El Dorado Power",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118142.1",
+    "entityId": "ent.ref.nukapedia_118142",
+    "name": "Gun Runner Headquarters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118728.1",
+    "entityId": "ent.ref.nukapedia_118728",
+    "name": "North end of Highway 95",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118728.2",
+    "entityId": "ent.ref.nukapedia_118728",
+    "name": "Radioactive road block",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.118728.3",
+    "entityId": "ent.ref.nukapedia_118728",
+    "name": "Route 95",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.120921.1",
+    "entityId": "ent.ref.nukapedia_120921",
+    "name": "The Arena",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.121680.1",
+    "entityId": "ent.ref.nukapedia_121680",
+    "name": "Church (Megaton)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.121680.2",
+    "entityId": "ent.ref.nukapedia_121680",
+    "name": "Doc Church",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.125200.1",
+    "entityId": "ent.ref.nukapedia_125200",
+    "name": "Strip North Gate",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.125679.1",
+    "entityId": "ent.ref.nukapedia_125679",
+    "name": "Followers of the Apocalypse safehouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.133475.1",
+    "entityId": "ent.ref.nukapedia_133475",
+    "name": "Matriarch's den",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.140646.1",
+    "entityId": "ent.ref.nukapedia_140646",
+    "name": "The Villa police station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.143427.1",
+    "entityId": "ent.ref.nukapedia_143427",
+    "name": "The Villa",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.200429.1",
+    "entityId": "ent.ref.nukapedia_200429",
+    "name": "Fall of Nelson",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.227584.1",
+    "entityId": "ent.ref.nukapedia_227584",
+    "name": "Buster's gun store",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.230539.1",
+    "entityId": "ent.ref.nukapedia_230539",
+    "name": "Trapper shack",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235663.1",
+    "entityId": "ent.ref.nukapedia_235663",
+    "name": "Yangtze Camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235965.1",
+    "entityId": "ent.ref.nukapedia_235965",
+    "name": "X17 meteorological station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.272707.1",
+    "entityId": "ent.ref.nukapedia_272707",
+    "name": "Maintenance and storage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.272770.1",
+    "entityId": "ent.ref.nukapedia_272770",
+    "name": "Collapsed overpass tunnel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.355861.1",
+    "entityId": "ent.ref.nukapedia_355861",
+    "name": "Qualtoth",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.427220.1",
+    "entityId": "ent.ref.nukapedia_427220",
+    "name": "Siege of Searchlight",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.464237.1",
+    "entityId": "ent.ref.nukapedia_464237",
+    "name": "Fallon's Department Store",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.466705.1",
+    "entityId": "ent.ref.nukapedia_466705",
+    "name": "Forest Grove Gunshop",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.466705.2",
+    "entityId": "ent.ref.nukapedia_466705",
+    "name": "Forest Grove pub and buffet",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.475540.1",
+    "entityId": "ent.ref.nukapedia_475540",
+    "name": "Alfredo Williams",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.475540.2",
+    "entityId": "ent.ref.nukapedia_475540",
+    "name": "Ariel Frieman",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.475540.3",
+    "entityId": "ent.ref.nukapedia_475540",
+    "name": "Christopher Boulanger",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.477950.1",
+    "entityId": "ent.ref.nukapedia_477950",
+    "name": "Guard Gutsy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.477950.2",
+    "entityId": "ent.ref.nukapedia_477950",
+    "name": "Gunner Colonel Gutsy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.477950.3",
+    "entityId": "ent.ref.nukapedia_477950",
+    "name": "Mr. Gutsy (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478277.1",
+    "entityId": "ent.ref.nukapedia_478277",
+    "name": "Subway maintenance access",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478286.1",
+    "entityId": "ent.ref.nukapedia_478286",
+    "name": "Augusta safehouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478305.1",
+    "entityId": "ent.ref.nukapedia_478305",
+    "name": "GlowingSeaPOIDB01",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478317.1",
+    "entityId": "ent.ref.nukapedia_478317",
+    "name": "Court 35",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478317.2",
+    "entityId": "ent.ref.nukapedia_478317",
+    "name": "Financial21",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478322.1",
+    "entityId": "ent.ref.nukapedia_478322",
+    "name": "Southie Speakeasy",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478902.1",
+    "entityId": "ent.ref.nukapedia_478902",
+    "name": "Croup Manor Basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478928.1",
+    "entityId": "ent.ref.nukapedia_478928",
+    "name": "Abandoned shack (Fallout 4)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478928.2",
+    "entityId": "ent.ref.nukapedia_478928",
+    "name": "Installation K21-B",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478945.1",
+    "entityId": "ent.ref.nukapedia_478945",
+    "name": "Root cellar (Gorski cabin)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478946.1",
+    "entityId": "ent.ref.nukapedia_478946",
+    "name": "Greygarden",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478950.1",
+    "entityId": "ent.ref.nukapedia_478950",
+    "name": "GNN Plaza",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478960.1",
+    "entityId": "ent.ref.nukapedia_478960",
+    "name": "Hubris Studios film set",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478960.2",
+    "entityId": "ent.ref.nukapedia_478960",
+    "name": "Hubris Studios production offices",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478960.3",
+    "entityId": "ent.ref.nukapedia_478960",
+    "name": "Noir penthouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478983.1",
+    "entityId": "ent.ref.nukapedia_478983",
+    "name": "Captain's cabin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478994.1",
+    "entityId": "ent.ref.nukapedia_478994",
+    "name": "Malden Center Station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.478998.1",
+    "entityId": "ent.ref.nukapedia_478998",
+    "name": "Mass Bay Medical Radiology",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479184.1",
+    "entityId": "ent.ref.nukapedia_479184",
+    "name": "Zimonja",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479191.1",
+    "entityId": "ent.ref.nukapedia_479191",
+    "name": "Poseiden Energy Turbine",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479191.2",
+    "entityId": "ent.ref.nukapedia_479191",
+    "name": "Poseidon Energy Turbine 18-F",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479210.1",
+    "entityId": "ent.ref.nukapedia_479210",
+    "name": "Barney's bunker",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479230.1",
+    "entityId": "ent.ref.nukapedia_479230",
+    "name": "Ticon",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479230.2",
+    "entityId": "ent.ref.nukapedia_479230",
+    "name": "Ticonderoga Safehouse",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479235.1",
+    "entityId": "ent.ref.nukapedia_479235",
+    "name": "USAF station Olivia",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479237.1",
+    "entityId": "ent.ref.nukapedia_479237",
+    "name": "Vault-Tec HQ",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479240.1",
+    "entityId": "ent.ref.nukapedia_479240",
+    "name": "Nut Island wastewater treatment plant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479285.1",
+    "entityId": "ent.ref.nukapedia_479285",
+    "name": "Poseidon Energy (location)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.479285.2",
+    "entityId": "ent.ref.nukapedia_479285",
+    "name": "Poseidon Energy sublevels",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.481862.1",
+    "entityId": "ent.ref.nukapedia_481862",
+    "name": "Third Rail",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.483293.1",
+    "entityId": "ent.ref.nukapedia_483293",
+    "name": "Slocum Joe's basement",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.483293.2",
+    "entityId": "ent.ref.nukapedia_483293",
+    "name": "Switchboard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.483701.1",
+    "entityId": "ent.ref.nukapedia_483701",
+    "name": "Dig",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.484072.1",
+    "entityId": "ent.ref.nukapedia_484072",
+    "name": "Blue Line (Boston)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.484072.2",
+    "entityId": "ent.ref.nukapedia_484072",
+    "name": "Boston MTA",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.484072.3",
+    "entityId": "ent.ref.nukapedia_484072",
+    "name": "Boston Metro",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.484072.4",
+    "entityId": "ent.ref.nukapedia_484072",
+    "name": "Boston Transit Authority",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.488705.1",
+    "entityId": "ent.ref.nukapedia_488705",
+    "name": "Castle tunnels",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.492270.1",
+    "entityId": "ent.ref.nukapedia_492270",
+    "name": "Fallout 4 player housing",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.502724.1",
+    "entityId": "ent.ref.nukapedia_502724",
+    "name": "Parking garage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.505015.1",
+    "entityId": "ent.ref.nukapedia_505015",
+    "name": "Patriot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.505015.2",
+    "entityId": "ent.ref.nukapedia_505015",
+    "name": "The Patriot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.507056.1",
+    "entityId": "ent.ref.nukapedia_507056",
+    "name": "Raider Drug Den",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.528127.1",
+    "entityId": "ent.ref.nukapedia_528127",
+    "name": "Dispersant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.528127.2",
+    "entityId": "ent.ref.nukapedia_528127",
+    "name": "HalluciGen Gas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.528127.3",
+    "entityId": "ent.ref.nukapedia_528127",
+    "name": "InvisiWave",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529293.1",
+    "entityId": "ent.ref.nukapedia_529293",
+    "name": "Island",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529293.2",
+    "entityId": "ent.ref.nukapedia_529293",
+    "name": "Mount Desert Island",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.529542.1",
+    "entityId": "ent.ref.nukapedia_529542",
+    "name": "Azalea",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538484.1",
+    "entityId": "ent.ref.nukapedia_538484",
+    "name": "The World of Refreshment",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538486.1",
+    "entityId": "ent.ref.nukapedia_538486",
+    "name": "Nuka Town",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538486.2",
+    "entityId": "ent.ref.nukapedia_538486",
+    "name": "Nuka-Town U.S.A.",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.538493.1",
+    "entityId": "ent.ref.nukapedia_538493",
+    "name": "Red Rocket (Nuka-World)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539500.1",
+    "entityId": "ent.ref.nukapedia_539500",
+    "name": "Transit center",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.539762.1",
+    "entityId": "ent.ref.nukapedia_539762",
+    "name": "Power plant (Nuka-World)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.540092.1",
+    "entityId": "ent.ref.nukapedia_540092",
+    "name": "Bottling plant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.540348.1",
+    "entityId": "ent.ref.nukapedia_540348",
+    "name": "Ultimate UFO",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.544651.1",
+    "entityId": "ent.ref.nukapedia_544651",
+    "name": "South Boston Joe's Spuckies sandwich shop",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.572756.1",
+    "entityId": "ent.ref.nukapedia_572756",
+    "name": "Charleston Capitol DMV",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.572756.2",
+    "entityId": "ent.ref.nukapedia_572756",
+    "name": "West Virginia State Capitol",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573144.1",
+    "entityId": "ent.ref.nukapedia_573144",
+    "name": "Welcome Haus",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573182.1",
+    "entityId": "ent.ref.nukapedia_573182",
+    "name": "Burning Mine",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573263.1",
+    "entityId": "ent.ref.nukapedia_573263",
+    "name": "Valiant space station",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573355.1",
+    "entityId": "ent.ref.nukapedia_573355",
+    "name": "Nuka-Cola Quantum plant",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573391.1",
+    "entityId": "ent.ref.nukapedia_573391",
+    "name": "A la Chez Burger",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573391.2",
+    "entityId": "ent.ref.nukapedia_573391",
+    "name": "Après Après Ski",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573391.3",
+    "entityId": "ent.ref.nukapedia_573391",
+    "name": "Diamond Dust",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573391.4",
+    "entityId": "ent.ref.nukapedia_573391",
+    "name": "Peak Condition",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573395.1",
+    "entityId": "ent.ref.nukapedia_573395",
+    "name": "The Ash Heap",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.573482.1",
+    "entityId": "ent.ref.nukapedia_573482",
+    "name": "Rusty Pick",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577029.1",
+    "entityId": "ent.ref.nukapedia_577029",
+    "name": "Fissure site Omicron",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577029.2",
+    "entityId": "ent.ref.nukapedia_577029",
+    "name": "Fissure site Tau",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577189.1",
+    "entityId": "ent.ref.nukapedia_577189",
+    "name": "Holdingfort homestead",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577363.1",
+    "entityId": "ent.ref.nukapedia_577363",
+    "name": "Morgantown Municipal Airport",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577419.1",
+    "entityId": "ent.ref.nukapedia_577419",
+    "name": "Lumber mill",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577600.1",
+    "entityId": "ent.ref.nukapedia_577600",
+    "name": "Giant Teapot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577639.1",
+    "entityId": "ent.ref.nukapedia_577639",
+    "name": "Red Rocket Megastop",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577824.1",
+    "entityId": "ent.ref.nukapedia_577824",
+    "name": "Clarksville",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577837.1",
+    "entityId": "ent.ref.nukapedia_577837",
+    "name": "Nuke mesh depot",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577980.1",
+    "entityId": "ent.ref.nukapedia_577980",
+    "name": "Gauley Mine exit",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577982.1",
+    "entityId": "ent.ref.nukapedia_577982",
+    "name": "TNT dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.577982.2",
+    "entityId": "ent.ref.nukapedia_577982",
+    "name": "TNT domes",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578338.1",
+    "entityId": "ent.ref.nukapedia_578338",
+    "name": "Greenbank",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578344.1",
+    "entityId": "ent.ref.nukapedia_578344",
+    "name": "Atomic Mining Headquarters",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578488.1",
+    "entityId": "ent.ref.nukapedia_578488",
+    "name": "Camp Lewis",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578622.1",
+    "entityId": "ent.ref.nukapedia_578622",
+    "name": "Missile Silo Charlie",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578622.2",
+    "entityId": "ent.ref.nukapedia_578622",
+    "name": "Spruce Knob missile silo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578666.1",
+    "entityId": "ent.ref.nukapedia_578666",
+    "name": "Missile Silo Bravo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578666.2",
+    "entityId": "ent.ref.nukapedia_578666",
+    "name": "Monongah missile silo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578809.1",
+    "entityId": "ent.ref.nukapedia_578809",
+    "name": "Missile Silo Alpha",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.578809.2",
+    "entityId": "ent.ref.nukapedia_578809",
+    "name": "Sugar Grove missile silo",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.579588.1",
+    "entityId": "ent.ref.nukapedia_579588",
+    "name": "Bog Town",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.579931.1",
+    "entityId": "ent.ref.nukapedia_579931",
+    "name": "Big Bend East",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.579999.1",
+    "entityId": "ent.ref.nukapedia_579999",
+    "name": "Garrahan Mining HQ",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580018.1",
+    "entityId": "ent.ref.nukapedia_580018",
+    "name": "Braxon's Quality Medical Supplies",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580051.1",
+    "entityId": "ent.ref.nukapedia_580051",
+    "name": "Hornwright Industrial HQ",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580226.1",
+    "entityId": "ent.ref.nukapedia_580226",
+    "name": "Artkos Pharma",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.580812.1",
+    "entityId": "ent.ref.nukapedia_580812",
+    "name": "Big Bend West",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.581045.1",
+    "entityId": "ent.ref.nukapedia_581045",
+    "name": "Rollins work camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.581999.1",
+    "entityId": "ent.ref.nukapedia_581999",
+    "name": "Munitions factory",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.583218.1",
+    "entityId": "ent.ref.nukapedia_583218",
+    "name": "Copper deposit",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.583218.2",
+    "entityId": "ent.ref.nukapedia_583218",
+    "name": "Mineral deposit",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.583218.3",
+    "entityId": "ent.ref.nukapedia_583218",
+    "name": "Mineral deposits",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.584623.1",
+    "entityId": "ent.ref.nukapedia_584623",
+    "name": "Search Monongah Mine for Supplies",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.588290.1",
+    "entityId": "ent.ref.nukapedia_588290",
+    "name": "Mole Miner Network (North)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.588290.2",
+    "entityId": "ent.ref.nukapedia_588290",
+    "name": "Mole Miner Network (South)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.588290.3",
+    "entityId": "ent.ref.nukapedia_588290",
+    "name": "Mole miner tunnel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.588290.4",
+    "entityId": "ent.ref.nukapedia_588290",
+    "name": "Mole miners' camp",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.592799.1",
+    "entityId": "ent.ref.nukapedia_592799",
+    "name": "The Swallowed Town",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.598158.1",
+    "entityId": "ent.ref.nukapedia_598158",
+    "name": "The Rockhound",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.599498.1",
+    "entityId": "ent.ref.nukapedia_599498",
+    "name": "Huntington house",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603213.1",
+    "entityId": "ent.ref.nukapedia_603213",
+    "name": "Presidential Cottage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603213.2",
+    "entityId": "ent.ref.nukapedia_603213",
+    "name": "Whitespring Presidential Cottage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603213.3",
+    "entityId": "ent.ref.nukapedia_603213",
+    "name": "Whitespring presidential cottage and museum",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.603768.1",
+    "entityId": "ent.ref.nukapedia_603768",
+    "name": "Empty Quarter",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.605751.1",
+    "entityId": "ent.ref.nukapedia_605751",
+    "name": "Boston inscriptions",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.608715.1",
+    "entityId": "ent.ref.nukapedia_608715",
+    "name": "Wayward",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.610194.1",
+    "entityId": "ent.ref.nukapedia_610194",
+    "name": "Institute FEV lab",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.610647.1",
+    "entityId": "ent.ref.nukapedia_610647",
+    "name": "Boston streets",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.610647.2",
+    "entityId": "ent.ref.nukapedia_610647",
+    "name": "Commonwealth roadways",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.613980.1",
+    "entityId": "ent.ref.nukapedia_613980",
+    "name": "Silver Bridge",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615014.1",
+    "entityId": "ent.ref.nukapedia_615014",
+    "name": "Core",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615014.2",
+    "entityId": "ent.ref.nukapedia_615014",
+    "name": "Crater Core",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615014.3",
+    "entityId": "ent.ref.nukapedia_615014",
+    "name": "The Crater Core",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615018.1",
+    "entityId": "ent.ref.nukapedia_615018",
+    "name": "Kill Box",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615024.1",
+    "entityId": "ent.ref.nukapedia_615024",
+    "name": "Crossroad",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615024.2",
+    "entityId": "ent.ref.nukapedia_615024",
+    "name": "The Sacrament",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.615058.1",
+    "entityId": "ent.ref.nukapedia_615058",
+    "name": "Daily: Vital Equipment",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.620640.1",
+    "entityId": "ent.ref.nukapedia_620640",
+    "name": "Valiant-1",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.625379.1",
+    "entityId": "ent.ref.nukapedia_625379",
+    "name": "Mojave roadways",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.628424.1",
+    "entityId": "ent.ref.nukapedia_628424",
+    "name": "Dagger's throne room",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.629674.1",
+    "entityId": "ent.ref.nukapedia_629674",
+    "name": "Appalachian monorail system",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.633042.1",
+    "entityId": "ent.ref.nukapedia_633042",
+    "name": "CMR monorail",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.633042.2",
+    "entityId": "ent.ref.nukapedia_633042",
+    "name": "District of Columbia monorail",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.641167.1",
+    "entityId": "ent.ref.nukapedia_641167",
+    "name": "Rivet City guard",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.646875.1",
+    "entityId": "ent.ref.nukapedia_646875",
+    "name": "East Las Vegas",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.646896.1",
+    "entityId": "ent.ref.nukapedia_646896",
+    "name": "Whitespring grounds",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.652182.1",
+    "entityId": "ent.ref.nukapedia_652182",
+    "name": "Institute public works",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.652182.2",
+    "entityId": "ent.ref.nukapedia_652182",
+    "name": "Public works maintenance area",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.714677.1",
+    "entityId": "ent.ref.nukapedia_714677",
+    "name": "The Pitt - Trench",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.714677.2",
+    "entityId": "ent.ref.nukapedia_714677",
+    "name": "Trench",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.714679.1",
+    "entityId": "ent.ref.nukapedia_714679",
+    "name": "Sanctum",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.757529.1",
+    "entityId": "ent.ref.nukapedia_757529",
+    "name": "Boozin Brahmin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.757529.2",
+    "entityId": "ent.ref.nukapedia_757529",
+    "name": "General Store (Middle Mountain Pitstop)",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.757529.3",
+    "entityId": "ent.ref.nukapedia_757529",
+    "name": "Sleep Stop",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.757529.4",
+    "entityId": "ent.ref.nukapedia_757529",
+    "name": "The Boozin Brahmin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790076.1",
+    "entityId": "ent.ref.nukapedia_790076",
+    "name": "Neapolitan",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790076.2",
+    "entityId": "ent.ref.nukapedia_790076",
+    "name": "The Neapolitan",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.790796.1",
+    "entityId": "ent.ref.nukapedia_790796",
+    "name": "Rose Room",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812932.1",
+    "entityId": "ent.ref.nukapedia_812932",
+    "name": "NG-17",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812935.1",
+    "entityId": "ent.ref.nukapedia_812935",
+    "name": "Manor Foyer",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812937.1",
+    "entityId": "ent.ref.nukapedia_812937",
+    "name": "Robot testing waiting area",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812958.1",
+    "entityId": "ent.ref.nukapedia_812958",
+    "name": "Brown House",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.812960.1",
+    "entityId": "ent.ref.nukapedia_812960",
+    "name": "The Slumber Mill Motel",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.815734.1",
+    "entityId": "ent.ref.nukapedia_815734",
+    "name": "Meteorology Sector",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.837507.1",
+    "entityId": "ent.ref.nukapedia_837507",
+    "name": "Cannibal's cabin",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869143.1",
+    "entityId": "ent.ref.nukapedia_869143",
+    "name": "Train carriage",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869302.1",
+    "entityId": "ent.ref.nukapedia_869302",
+    "name": "Oak Hill",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.869302.2",
+    "entityId": "ent.ref.nukapedia_869302",
+    "name": "Oak Hill Church",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.871335.1",
+    "entityId": "ent.ref.nukapedia_871335",
+    "name": "The Last Resort",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.871596.1",
+    "entityId": "ent.ref.nukapedia_871596",
+    "name": "House causing traffic",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.871596.2",
+    "entityId": "ent.ref.nukapedia_871596",
+    "name": "Lemon Boy's end",
+    "kind": "reference_redirect"
+  }
+]

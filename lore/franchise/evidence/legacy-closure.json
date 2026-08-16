@@ -6,5 +6,13 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Killian's released dialogue establishes Junktown's civic and political situation."
+  },
+  {
+    "id": "ev.fr.brotherhood_foundation.maxson",
+    "targetId": "asrt.fr.brotherhood_foundation.maxson",
+    "sourceItemId": "src.fallout_76.formation",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Maxson's formation recording directly links him to the proposed Brotherhood identity."
   }
 ]

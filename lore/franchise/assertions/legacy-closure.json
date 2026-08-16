@@ -11,5 +11,19 @@
     "continuityScope": [
       "games_primary"
     ]
+  },
+  {
+    "id": "asrt.fr.brotherhood_foundation.maxson",
+    "subjectId": "ent.brotherhood_foundation",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.roger_maxson"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ],
+    "notes": "Roger Maxson's recorded proclamation is central evidence for the Brotherhood's formation as a distinct post-War order."
   }
 ]

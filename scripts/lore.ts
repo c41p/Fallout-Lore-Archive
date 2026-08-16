@@ -24,10 +24,13 @@ export function loadDataset(): LoreDataset {
   const entityOverrides = [...readJson<Array<Partial<Entity> & Pick<Entity, "id">>>("lore/fallout1/entity-overrides.json"), ...readArrayShards<Partial<Entity> & Pick<Entity, "id">>("lore/franchise/overrides")];
   const baseEntities = [...readJson<Entity[]>("lore/entities/entities.json"), ...readArrayShards<Entity>("lore/fallout1/entities"), ...readArrayShards<Entity>("lore/franchise/entities")];
   const entities = baseEntities.map((entity) => {
-    const override = entityOverrides.find((candidate) => candidate.id === entity.id);
-    if (!override) return entity;
-    const articleSections = [...(entity.articleSections ?? []), ...(override.articleSections ?? [])];
-    return { ...entity, ...override, articleSections, tags: [...new Set([...(entity.tags ?? []), ...(override.tags ?? [])])] };
+    const overrides = entityOverrides.filter((candidate) => candidate.id === entity.id);
+    return overrides.reduce<Entity>((current, override) => ({
+      ...current,
+      ...override,
+      articleSections: [...(current.articleSections ?? []), ...(override.articleSections ?? [])],
+      tags: [...new Set([...(current.tags ?? []), ...(override.tags ?? [])])]
+    }), entity);
   });
   return {
     schemaVersion: "0.1",
