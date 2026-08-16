@@ -1,0 +1,21 @@
+[
+  {"id":"ev.roger.army","targetId":"asrt.roger.us_army","sourceItemId":"src.fallout.maxson_history","role":"supports","directness":"explicit"},
+  {"id":"ev.roger.brotherhood.f1","targetId":"asrt.roger.founded_brotherhood","sourceItemId":"src.fallout.maxson_history","role":"supports","directness":"implicit"},
+  {"id":"ev.roger.brotherhood.f76","targetId":"asrt.roger.founded_brotherhood","sourceItemId":"src.fallout_76.maxson","role":"supports","directness":"explicit"},
+  {"id":"ev.rebellion","targetId":"asrt.roger.participated_rebellion","sourceItemId":"src.fallout.maxson_history","role":"supports","directness":"explicit"},
+  {"id":"ev.exodus","targetId":"asrt.roger.participated_exodus","sourceItemId":"src.fallout.maxson_history","role":"supports","directness":"explicit"},
+  {"id":"ev.time.greatwar.f1","targetId":"asrt.time.great_war","sourceItemId":"src.fallout.intro","role":"supports","directness":"explicit"},
+  {"id":"ev.time.greatwar.f4","targetId":"asrt.time.great_war","sourceItemId":"src.fallout_4.intro","role":"supports","directness":"explicit"},
+  {"id":"ev.time.search","targetId":"asrt.time.search","sourceItemId":"src.fallout.vault_13_briefing","role":"supports","directness":"explicit"},
+  {"id":"ev.vaultdweller.search","targetId":"asrt.vault_dweller.search","sourceItemId":"src.fallout.vault_13_briefing","role":"supports","directness":"explicit"},
+  {"id":"ev.unity.defeat","targetId":"asrt.time.unity","sourceItemId":"src.fallout.ending","role":"supports","directness":"explicit"},
+  {"id":"ev.ncr.foundation","targetId":"asrt.time.ncr","sourceItemId":"src.fallout_2.ncr_history","role":"supports","directness":"explicit"},
+  {"id":"ev.oilrig","targetId":"asrt.time.oilrig","sourceItemId":"src.fallout_2.ending","role":"supports","directness":"explicit"},
+  {"id":"ev.first_battle","targetId":"asrt.time.first_battle","sourceItemId":"src.new_vegas.hanlon","role":"supports","directness":"explicit"},
+  {"id":"ev.first_battle.ncr","targetId":"asrt.ncr.participated_first","sourceItemId":"src.new_vegas.hanlon","role":"supports","directness":"explicit"},
+  {"id":"ev.first_battle.legion","targetId":"asrt.legion.participated_first","sourceItemId":"src.new_vegas.hanlon","role":"supports","directness":"explicit"},
+  {"id":"ev.second_battle","targetId":"asrt.time.second_battle","sourceItemId":"src.new_vegas.main_quest","role":"supports","directness":"explicit"},
+  {"id":"ev.house.vegas","targetId":"asrt.house.associated_vegas","sourceItemId":"src.new_vegas.house","role":"supports","directness":"explicit"},
+  {"id":"ev.myron.jet","targetId":"asrt.myron.claims_jet","sourceItemId":"src.fallout_2.myron_dialogue","role":"reports","directness":"explicit","note":"Supports that Myron makes the claim; it does not independently establish the claim as world truth."},
+  {"id":"ev.vault95.jet","targetId":"asrt.vault95.prewar_jet","sourceItemId":"src.fallout_4.vault_95","role":"source_of_inference","directness":"implicit","note":"Provides the released pre-War context used in the editorial inference."}
+]

@@ -1,0 +1,16 @@
+[
+  {"id":"pred.member_of","label":"Member of","inverseLabel":"Has member","subjectTypes":["individual"],"objectTypes":["organisation"],"temporalAllowed":true,"presentationGroup":"Affiliations"},
+  {"id":"pred.founded","label":"Founded","inverseLabel":"Founded by","subjectTypes":["individual","organisation"],"objectTypes":["organisation","place"],"temporalAllowed":true,"presentationGroup":"Origins"},
+  {"id":"pred.controls","label":"Controlled","inverseLabel":"Controlled by","subjectTypes":["organisation"],"objectTypes":["place"],"temporalAllowed":true,"presentationGroup":"Control"},
+  {"id":"pred.located_within","label":"Located within","inverseLabel":"Contains","subjectTypes":["place"],"objectTypes":["place"],"presentationGroup":"Geography"},
+  {"id":"pred.occurred_at","label":"Occurred at","inverseLabel":"Site of","subjectTypes":["event"],"objectTypes":["place"],"presentationGroup":"Events"},
+  {"id":"pred.occurred_at_time","label":"Occurred","subjectTypes":["event"],"objectTypes":["temporal"],"presentationGroup":"Chronology"},
+  {"id":"pred.participated_in","label":"Participated in","inverseLabel":"Had participant","subjectTypes":["individual","organisation"],"objectTypes":["event"],"presentationGroup":"Events"},
+  {"id":"pred.developed","label":"Developed","inverseLabel":"Developed by","subjectTypes":["individual","organisation"],"objectTypes":["technology","substance_condition","artefact"],"presentationGroup":"Creation"},
+  {"id":"pred.associated_with","label":"Associated with","inverseLabel":"Associated with","subjectTypes":["individual","organisation","place","event","technology","substance_condition","artefact","concept"],"objectTypes":["individual","organisation","place","event","technology","substance_condition","artefact","concept"],"symmetric":true,"temporalAllowed":true,"presentationGroup":"Connections"},
+  {"id":"pred.chapter_of","label":"Chapter of","inverseLabel":"Has chapter","subjectTypes":["organisation"],"objectTypes":["organisation"],"presentationGroup":"Organisation"},
+  {"id":"pred.successor_of","label":"Successor of","inverseLabel":"Succeeded by","subjectTypes":["organisation"],"objectTypes":["organisation"],"presentationGroup":"Organisation"},
+  {"id":"pred.hostile_to","label":"Hostile to","inverseLabel":"Hostile to","subjectTypes":["organisation"],"objectTypes":["organisation"],"symmetric":true,"temporalAllowed":true,"presentationGroup":"Diplomacy"},
+  {"id":"pred.source_claims_created","label":"Claims to have created","inverseLabel":"Claimed as creation by","subjectTypes":["individual"],"objectTypes":["substance_condition","technology","artefact"],"presentationGroup":"Source statements"},
+  {"id":"pred.prewar_evidence_of","label":"Provides pre-War evidence of","inverseLabel":"Has pre-War evidence at","subjectTypes":["place"],"objectTypes":["substance_condition","technology","artefact"],"presentationGroup":"Source statements"}
+]

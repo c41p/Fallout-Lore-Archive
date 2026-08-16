@@ -1,0 +1,25 @@
+{
+  "sourceWorks": [
+    {"id":"work.fallout","title":"Fallout","workType":"game","releaseDate":"1997-10-10","materialStatus":"released","continuityClassification":"games_primary"},
+    {"id":"work.fallout_2","title":"Fallout 2","workType":"game","releaseDate":"1998-10-29","materialStatus":"released","continuityClassification":"games_primary"},
+    {"id":"work.fallout_3","title":"Fallout 3","workType":"game","releaseDate":"2008-10-28","materialStatus":"released","continuityClassification":"games_primary"},
+    {"id":"work.new_vegas","title":"Fallout: New Vegas","workType":"game","releaseDate":"2010-10-19","materialStatus":"released","continuityClassification":"games_primary"},
+    {"id":"work.fallout_4","title":"Fallout 4","workType":"game","releaseDate":"2015-11-10","materialStatus":"released","continuityClassification":"games_primary"},
+    {"id":"work.fallout_76","title":"Fallout 76","workType":"game","releaseDate":"2018-11-14","materialStatus":"released","continuityClassification":"games_primary"}
+  ],
+  "sourceItems": [
+    {"id":"src.fallout.maxson_history","workId":"work.fallout","sourceType":"holodisk","title":"Maxson's History","locator":"Brotherhood archive holodisk entries","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout.intro","workId":"work.fallout","sourceType":"intro","title":"Opening narration","locator":"Introductory cinematic","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout.vault_13_briefing","workId":"work.fallout","sourceType":"dialogue","title":"Vault 13 Overseer briefing","locator":"Opening Vault 13 briefing and water-chip objective","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout.ending","workId":"work.fallout","sourceType":"ending","title":"Fallout ending sequence","locator":"Unity outcome and ending narration","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_2.ncr_history","workId":"work.fallout_2","sourceType":"holodisk","title":"NCR history records","locator":"NCR historical information available in Shady Sands/NCR","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_2.myron_dialogue","workId":"work.fallout_2","sourceType":"dialogue","title":"Myron dialogue","locator":"Conversation branches concerning Jet's development","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_2.ending","workId":"work.fallout_2","sourceType":"ending","title":"Fallout 2 ending sequence","locator":"Enclave Oil Rig outcome","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.new_vegas.hanlon","workId":"work.new_vegas","sourceType":"dialogue","title":"Chief Hanlon dialogue","locator":"Camp Golf conversations about the First Battle of Hoover Dam","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.new_vegas.main_quest","workId":"work.new_vegas","sourceType":"quest","title":"Second Battle of Hoover Dam quest sequence","locator":"Main quest climax and ending branches","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.new_vegas.house","workId":"work.new_vegas","sourceType":"dialogue","title":"Robert House dialogue","locator":"Lucky 38 conversations concerning Las Vegas and Hoover Dam","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_4.intro","workId":"work.fallout_4","sourceType":"intro","title":"Opening sequence","locator":"Pre-War sequence and nuclear attack on 23 October 2077","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_4.vault_95","workId":"work.fallout_4","sourceType":"terminal","title":"Vault 95 research terminal records","locator":"Vault 95 experiment and rehabilitation records","sourceClass":"primary","textAvailability":"metadata_and_summary_only"},
+    {"id":"src.fallout_76.maxson","workId":"work.fallout_76","sourceType":"holotape_and_terminal","title":"Early Brotherhood records","locator":"Appalachian Brotherhood records concerning Roger Maxson and the order's formation","sourceClass":"primary","textAvailability":"metadata_and_summary_only"}
+  ]
+}

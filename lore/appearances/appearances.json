@@ -1,0 +1,13 @@
+[
+  {"id":"app.roger.fallout","entityId":"ent.roger_maxson","workId":"work.fallout","kind":"mentioned"},
+  {"id":"app.roger.f76","entityId":"ent.roger_maxson","workId":"work.fallout_76","kind":"recorded"},
+  {"id":"app.vault_dweller.fallout","entityId":"ent.vault_dweller","workId":"work.fallout","kind":"appears"},
+  {"id":"app.tandi.fallout","entityId":"ent.tandi","workId":"work.fallout","kind":"appears"},
+  {"id":"app.tandi.f2","entityId":"ent.tandi","workId":"work.fallout_2","kind":"appears"},
+  {"id":"app.myron.f2","entityId":"ent.myron","workId":"work.fallout_2","kind":"appears"},
+  {"id":"app.caesar.nv","entityId":"ent.caesar","workId":"work.new_vegas","kind":"appears"},
+  {"id":"app.hoover.nv","entityId":"ent.hoover_dam","workId":"work.new_vegas","kind":"appears"},
+  {"id":"app.jet.f2","entityId":"ent.jet","workId":"work.fallout_2","kind":"appears"},
+  {"id":"app.jet.f4","entityId":"ent.jet","workId":"work.fallout_4","kind":"appears"},
+  {"id":"app.fev.fallout","entityId":"ent.fev","workId":"work.fallout","kind":"appears"}
+]

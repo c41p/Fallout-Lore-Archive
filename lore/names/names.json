@@ -1,0 +1,12 @@
+[
+  {"id":"name.roger_maxson.captain","entityId":"ent.roger_maxson","name":"Captain Maxson","kind":"rank_and_surname"},
+  {"id":"name.roger_maxson.general","entityId":"ent.roger_maxson","name":"General Maxson","kind":"title"},
+  {"id":"name.brotherhood.bos","entityId":"ent.brotherhood","name":"BoS","kind":"abbreviation"},
+  {"id":"name.brotherhood.the_brotherhood","entityId":"ent.brotherhood","name":"The Brotherhood","kind":"short_name"},
+  {"id":"name.fev.abbreviation","entityId":"ent.fev","name":"FEV","kind":"abbreviation"},
+  {"id":"name.ncr.abbreviation","entityId":"ent.ncr","name":"NCR","kind":"abbreviation"},
+  {"id":"name.caesars_legion.legion","entityId":"ent.caesars_legion","name":"The Legion","kind":"short_name"},
+  {"id":"name.vault_dweller.stranger","entityId":"ent.vault_dweller","name":"Vault 13 Dweller","kind":"descriptive_name"},
+  {"id":"name.new_vegas.vegas","entityId":"ent.new_vegas","name":"Vegas","kind":"short_name"},
+  {"id":"name.power_armor.powered_armor","entityId":"ent.power_armor","name":"Powered Armor","kind":"spelling_variant"}
+]
