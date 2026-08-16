@@ -1,0 +1,53 @@
+{
+  "workId": "work.far_harbor",
+  "slug": "far-harbor",
+  "title": "Far Harbor",
+  "referenceSubjects": 59,
+  "matchedArchiveEntities": 2,
+  "productionQuality": 0,
+  "substantialRecords": 2,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 57,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 0,
+  "majorLore": 0,
+  "supportingLore": 30,
+  "minorLore": 29,
+  "deepResearchCandidates": 0,
+  "tier1Gaps": 0,
+  "tier2Gaps": 28,
+  "weightedLoreCoverage": 5.3,
+  "byType": {
+    "person": {
+      "total": 19,
+      "matched": 0,
+      "missing": 19
+    },
+    "place": {
+      "total": 18,
+      "matched": 1,
+      "missing": 17
+    },
+    "organisation": {
+      "total": 7,
+      "matched": 1,
+      "missing": 6
+    },
+    "creature": {
+      "total": 4,
+      "matched": 0,
+      "missing": 4
+    },
+    "technology": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    },
+    "event": {
+      "total": 10,
+      "matched": 0,
+      "missing": 10
+    }
+  }
+}

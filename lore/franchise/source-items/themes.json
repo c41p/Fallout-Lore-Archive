@@ -1,0 +1,123 @@
+[
+  {
+    "id": "src.ref.theme.united_states",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — United States",
+    "locator": "United States",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/United_States",
+    "context": "Cross-game discovery and verification route for United States; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.enclave",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Enclave",
+    "locator": "Enclave",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Enclave",
+    "context": "Cross-game discovery and verification route for Enclave; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.vault_tec",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Vault-Tec Corporation",
+    "locator": "Vault-Tec Corporation",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Vault-Tec_Corporation",
+    "context": "Cross-game discovery and verification route for Vault-Tec Corporation; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.great_war",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Great War",
+    "locator": "Great War",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Great_War",
+    "context": "Cross-game discovery and verification route for Great War; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.power_armor",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Power Armor",
+    "locator": "Power Armor",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Power_Armor",
+    "context": "Cross-game discovery and verification route for Power Armor; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.super_mutants",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Super Mutants",
+    "locator": "Super Mutants",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Super_Mutants",
+    "context": "Cross-game discovery and verification route for Super Mutants; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.ghouls",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Ghouls",
+    "locator": "Ghouls",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Ghouls",
+    "context": "Cross-game discovery and verification route for Ghouls; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.deathclaws",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Deathclaws",
+    "locator": "Deathclaws",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Deathclaws",
+    "context": "Cross-game discovery and verification route for Deathclaws; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.new_plague",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — New Plague",
+    "locator": "New Plague",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/New_Plague",
+    "context": "Cross-game discovery and verification route for New Plague; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.robco",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — RobCo Industries",
+    "locator": "RobCo Industries",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/RobCo_Industries",
+    "context": "Cross-game discovery and verification route for RobCo Industries; substantive disputed claims require released-source locators."
+  },
+  {
+    "id": "src.ref.theme.resource_wars",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Resource Wars",
+    "locator": "Resource Wars",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Resource_Wars",
+    "context": "Cross-game discovery and verification route for Resource Wars; substantive disputed claims require released-source locators."
+  }
+]

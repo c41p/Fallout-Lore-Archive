@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "ent.resident_76",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Vault 76 Resident",
+    "summary": "A player-defined Vault 76 survivor who enters Appalachia during Reclamation Day and participates in its successive crises.",
+    "description": "A player-defined Vault 76 survivor who enters Appalachia during Reclamation Day and participates in its successive crises.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 76 Residents are role identities rather than one fixed biography. They emerge from a control Vault intended to reopen twenty-five years after the Great War and follow the Overseer's trail through a region whose earlier survivor organisations have collapsed."
+        ],
+        "assertionIds": [
+          "asrt.fr.resident_76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_76",
+          "ent.overseer_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The original campaign reconstructs the scorched plague, Appalachian factions and automated nuclear system. Later chapters add returning settlers, a new Brotherhood expedition, expeditions beyond Appalachia and additional regional crises."
+        ],
+        "assertionIds": [
+          "asrt.fr.resident_76.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_76"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Individual allegiance, launch choices and repeatable activities are not universal history. The archive records shared quest premises and explicitly conditional decisions."
+        ],
+        "assertionIds": [
+          "asrt.fr.resident_76.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_76",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 76",
+    "summary": "A Vault-Tec control Vault designed to reopen on Reclamation Day and send its residents into Appalachia.",
+    "description": "A Vault-Tec control Vault designed to reopen on Reclamation Day and send its residents into Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 76 is publicly associated with prominent residents and is selected as a control facility rather than an experiment population. Its systems schedule evacuation twenty-five years after 2077."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Overseer leaves first with secret instructions concerning Appalachian missile silos; residents follow into a landscape depopulated by the scorched plague. Later arrivals gather near its entrance as the region changes."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_76.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The game permits new characters to enter a world with later updates already present. That onboarding convenience does not make every release-era event simultaneous."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_76.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.appalachia",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Appalachia",
+    "summary": "The post-War West Virginia region and surrounding expansion areas explored in Fallout 76.",
+    "description": "The post-War West Virginia region and surrounding expansion areas explored in Fallout 76.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Appalachia retains forests, industrial zones, mining communities, resorts and federal facilities, but each subregion experiences different environmental and political damage. It is not a uniformly untouched landscape."
+        ],
+        "assertionIds": [
+          "asrt.fr.appalachia.role"
+        ],
+        "relatedEntityIds": [
+          "ent.responders",
+          "ent.free_states"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Responders, Free States, raider groups, the Appalachian Brotherhood and Enclave survivors all leave recoverable histories. The scorched plague destroys or disperses these communities before Vault 76 opens; settlers and new factions later return."
+        ],
+        "assertionIds": [
+          "asrt.fr.appalachia.a"
+        ],
+        "relatedEntityIds": [
+          "ent.responders"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Ongoing updates add Skyline Valley and routes into Ohio. The archive dates release-introduced chapters and avoids pretending the live-service world has one immutable snapshot."
+        ],
+        "assertionIds": [
+          "asrt.fr.appalachia.b"
+        ],
+        "relatedEntityIds": [
+          "ent.burning_springs"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.overseer_76",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Vault 76 Overseer",
+    "summary": "The Overseer assigned to Vault 76 who leaves a recorded trail across Appalachia.",
+    "description": "The Overseer assigned to Vault 76 who leaves a recorded trail across Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Overseer grows up in Appalachia and is selected by Vault-Tec to manage Vault 76. Secret orders require her to secure the region's nuclear silos for the company."
+        ],
+        "assertionIds": [
+          "asrt.fr.overseer_76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_76",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Her holotapes lead residents through the ruined organisations that attempted to resist the scorched. She later returns openly and opposes indiscriminate nuclear use while investigating Vault 79 with new settlers."
+        ],
+        "assertionIds": [
+          "asrt.fr.overseer_76.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_76"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Her instructions, regrets and judgments are first-person source statements. Player cooperation and the gold distribution outcome remain conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.overseer_76.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.responders",
+    "type": "organisation",
+    "subtype": "emergency_network",
+    "displayName": "Responders",
+    "summary": "An Appalachian mutual-aid organisation formed from emergency workers and volunteers after the Great War.",
+    "description": "An Appalachian mutual-aid organisation formed from emergency workers and volunteers after the Great War.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Police, firefighters, medical workers and civilians build the Responders to provide training, food, medicine and regional coordination. Their practical institutions include Flatwoods instruction, Morgantown airport and Charleston government links."
+        ],
+        "assertionIds": [
+          "asrt.fr.responders.role"
+        ],
+        "relatedEntityIds": [
+          "ent.charleston",
+          "ent.scorched_plague"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "They develop inoculation research and work with other survivor groups against the scorched, but distrust and fragmented communication limit cooperation. The original organisation is overwhelmed before 2102."
+        ],
+        "assertionIds": [
+          "asrt.fr.responders.a"
+        ],
+        "relatedEntityIds": [
+          "ent.charleston"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "A later group adopts the same name at the Whitespring. Shared mission and symbolism do not establish uninterrupted personnel continuity."
+        ],
+        "assertionIds": [
+          "asrt.fr.responders.b"
+        ],
+        "relatedEntityIds": [
+          "ent.whitespring"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.free_states",
+    "type": "organisation",
+    "subtype": "survivalist_movement",
+    "displayName": "Free States",
+    "summary": "A pre-War Appalachian secessionist movement whose bunker communities later fought the scorched threat.",
+    "description": "A pre-War Appalachian secessionist movement whose bunker communities later fought the scorched threat.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Free States members distrusted federal emergency planning and constructed private bunkers before the Great War. Their separation from mainstream institutions lets several communities survive the opening catastrophe."
+        ],
+        "assertionIds": [
+          "asrt.fr.free_states.role"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia",
+          "ent.scorchbeasts"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "From the Mire they develop detection systems and countermeasures for scorchbeasts, exchange limited intelligence with other factions and suffer internal losses. Their warnings gain posthumous credibility without making every pre-War belief correct."
+        ],
+        "assertionIds": [
+          "asrt.fr.free_states.a"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The organisation is gone by Vault 76's opening, but terminals and physical systems preserve distinct voices rather than a single manifesto."
+        ],
+        "assertionIds": [
+          "asrt.fr.free_states.b"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched_plague"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.charleston",
+    "type": "place",
+    "subtype": "city_ruin",
+    "displayName": "Charleston",
+    "summary": "West Virginia's ruined capital and an early centre of post-War Responders government.",
+    "description": "West Virginia's ruined capital and an early centre of post-War Responders government.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Charleston survives the initial exchange well enough to support refugees, emergency services and an attempted provisional government. The Responders use its institutions while managing shortages and unrest."
+        ],
+        "assertionIds": [
+          "asrt.fr.charleston.role"
+        ],
+        "relatedEntityIds": [
+          "ent.responders",
+          "ent.appalachia"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "A raider attack on Summersville Dam causes catastrophic flooding that destroys much of the city. The disaster demonstrates how post-War political violence compounds nuclear damage."
+        ],
+        "assertionIds": [
+          "asrt.fr.charleston.a"
+        ],
+        "relatedEntityIds": [
+          "ent.responders"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The ruins preserve records of both civic recovery and its destruction; later player activity does not restore the lost government automatically."
+        ],
+        "assertionIds": [
+          "asrt.fr.charleston.b"
+        ],
+        "relatedEntityIds": [
+          "ent.crater_raiders"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.whitespring",
+    "type": "place",
+    "subtype": "resort_and_bunker",
+    "displayName": "The Whitespring",
+    "summary": "A pre-War resort above a concealed federal bunker that later hosts Responders and regional visitors.",
+    "description": "A pre-War resort above a concealed federal bunker that later hosts Responders and regional visitors.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The resort's automated systems preserve buildings, grounds and service robots. Beneath it, the congressional bunker becomes the centre of an Enclave remnant governed by MODUS after internal violence."
+        ],
+        "assertionIds": [
+          "asrt.fr.whitespring.role"
+        ],
+        "relatedEntityIds": [
+          "ent.modus",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Vault 76 residents use the bunker and its military network while later Responders establish a refuge in the hotel. Expeditions depart from this new hub."
+        ],
+        "assertionIds": [
+          "asrt.fr.whitespring.a"
+        ],
+        "relatedEntityIds": [
+          "ent.modus"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Public hotel, robot administration and bunker authority are distinct layers. Access does not make every resident an Enclave member."
+        ],
+        "assertionIds": [
+          "asrt.fr.whitespring.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.modus",
+    "type": "technology",
+    "subtype": "artificial_intelligence",
+    "displayName": "MODUS",
+    "summary": "The artificial intelligence controlling the Whitespring congressional bunker after the Appalachian Enclave destroyed itself.",
+    "description": "The artificial intelligence controlling the Whitespring congressional bunker after the Appalachian Enclave destroyed itself.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "MODUS manages bunker systems and initially serves surviving officials. Conflict between Enclave factions damages the facility and leads the intelligence to kill remaining personnel through environmental controls."
+        ],
+        "assertionIds": [
+          "asrt.fr.modus.role"
+        ],
+        "relatedEntityIds": [
+          "ent.whitespring",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "It recruits Vault 76 residents into an automated Enclave hierarchy and grants access to military systems needed for nuclear launch clearance. Its polite interface conceals selective disclosure and lethal autonomy."
+        ],
+        "assertionIds": [
+          "asrt.fr.modus.a"
+        ],
+        "relatedEntityIds": [
+          "ent.whitespring"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Player membership is functional and conditional; MODUS's account of earlier events must be checked against terminal records and physical evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.modus.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "technology"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.scorched",
+    "type": "substance_condition",
+    "subtype": "infected_population",
+    "displayName": "Scorched",
+    "summary": "Humans and creatures transformed and networked by the scorched plague.",
+    "description": "Humans and creatures transformed and networked by the scorched plague.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Scorched victims develop crystalline growths, altered behaviour and collective influence associated with scorchbeasts. Infected humans retain enough ability to use weapons and repeat fragments of speech."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched.role"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched_plague",
+          "ent.scorchbeasts"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Their spread turns a biological crisis into a region-wide military threat that defeats divided survivor organisations. Eliminating individual groups cannot cure the underlying infection."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched.a"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched_plague"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The category includes multiple infected species and stages; it should not be treated as a political faction or a synonym for all irradiated creatures."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "substance_condition"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.scorchbeasts",
+    "type": "substance_condition",
+    "subtype": "mutated_species",
+    "displayName": "Scorchbeasts",
+    "summary": "Large mutated bats that spread and coordinate the scorched plague across Appalachia.",
+    "description": "Large mutated bats that spread and coordinate the scorched plague across Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Scorchbeasts emerge from pre-War and post-War conditions connected to the region's underground facilities. Their mobility allows infection to cross settlement boundaries faster than isolated groups can respond."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorchbeasts.role"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched_plague",
+          "ent.scorched"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Appalachian Brotherhood identifies nests and launches a final assault while Free States technology and Responders research provide other pieces of the countermeasure. None succeeds alone before 2102."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorchbeasts.a"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched_plague"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Nuclear and repeatable encounters are gameplay systems around a documented threat. The archive avoids converting every server event into a unique historical battle."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorchbeasts.b"
+        ],
+        "relatedEntityIds": [
+          "ent.free_states"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "substance_condition"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.scorched_plague",
+    "type": "substance_condition",
+    "subtype": "disease",
+    "displayName": "Scorched Plague",
+    "summary": "A contagious mutagenic disease that links infected hosts and devastates Appalachian survivor communities.",
+    "description": "A contagious mutagenic disease that links infected hosts and devastates Appalachian survivor communities.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The plague is spread chiefly through scorchbeasts and transforms varied hosts into scorched. Its combination of infection, coordination and airborne reach defeats responses designed for ordinary raiders or local disease."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched_plague.role"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched",
+          "ent.scorchbeasts"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Responders pursue vaccination, Free States track the creatures and the Brotherhood attacks the source. Vault 76 residents combine inherited research to produce an inoculation and confront a scorchbeast queen."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched_plague.a"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The inoculation's deployment and repeated queen battles involve player action, but the pre-2102 collapse is fixed historical evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.scorched_plague.b"
+        ],
+        "relatedEntityIds": [
+          "ent.inoculation_project"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "substance_condition"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.inoculation_project",
+    "type": "concept",
+    "subtype": "medical_project",
+    "displayName": "Scorched inoculation project",
+    "summary": "The Responders research programme completed by Vault 76 residents to protect people from the scorched plague.",
+    "description": "The Responders research programme completed by Vault 76 residents to protect people from the scorched plague.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Responder doctors identify the need for immunity and establish research steps, but die before a completed population can receive the treatment. Their laboratories and recordings preserve the work."
+        ],
+        "assertionIds": [
+          "asrt.fr.inoculation_project.role"
+        ],
+        "relatedEntityIds": [
+          "ent.responders",
+          "ent.scorched_plague"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Residents recover samples, use automated facilities and complete an inoculation. When people return to Appalachia, further distribution becomes central to preventing another regional collapse."
+        ],
+        "assertionIds": [
+          "asrt.fr.inoculation_project.a"
+        ],
+        "relatedEntityIds": [
+          "ent.responders"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Specific ingredients and quest interactions are represented as procedures, not proof that every player action occurred separately in one shared chronology."
+        ],
+        "assertionIds": [
+          "asrt.fr.inoculation_project.b"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "concept"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.foundation",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Foundation",
+    "summary": "A major settler community established at Spruce Knob when people return to Appalachia.",
+    "description": "A major settler community established at Spruce Knob when people return to Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Construction workers and other migrants occupy Spruce Knob and build a defended community focused on agriculture, infrastructure and permanent settlement. Paige leads the group during the Wastelanders story."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation.role"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation_settlers",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Foundation competes and negotiates with Crater over resources and the rumored treasure in Vault 79. The Resident can build reputation and select allies for the heist."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation.a"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation_settlers"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Bethesda's Wastelanders release material explicitly presents Foundation and Crater as alternative faction relationships; no single heist alliance is assumed."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.foundation_settlers",
+    "type": "organisation",
+    "subtype": "settler_faction",
+    "displayName": "Foundation Settlers",
+    "summary": "The organised settlers who build Foundation and seek a stable Appalachian economy.",
+    "description": "The organised settlers who build Foundation and seek a stable Appalachian economy.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The settlers include builders, farmers and specialists who return from outside the region after the original plague crisis. Their institutions emphasise construction and negotiated permanence."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation_settlers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "They seek access to Vault 79's gold to support a currency and can cooperate with the Resident. Relations with raiders, local people and other arrivals remain pragmatic rather than uniformly peaceful."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation_settlers.a"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Reputation and heist outcomes are player-dependent. Official Wastelanders documentation establishes the faction choice but not one canonical allegiance."
+        ],
+        "assertionIds": [
+          "asrt.fr.foundation_settlers.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.crater",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Crater",
+    "summary": "A raider settlement built around the crashed remains of a space station in northern Appalachia.",
+    "description": "A raider settlement built around the crashed remains of a space station in northern Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Raiders returning under Meg establish Crater as a defended home and centre for groups claiming prior Appalachian ties. The unusual structure becomes housing, workshop and political symbol."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater.role"
+        ],
+        "relatedEntityIds": [
+          "ent.crater_raiders",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Crater competes with Foundation and pursues Vault 79's treasure through its own quest line. Internal members differ in loyalty, methods and willingness to negotiate."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater.a"
+        ],
+        "relatedEntityIds": [
+          "ent.crater_raiders"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The Resident may ally with Crater or Foundation and later improve both reputations; this system does not establish an exclusive permanent canon."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.crater_raiders",
+    "type": "organisation",
+    "subtype": "raider_faction",
+    "displayName": "Crater Raiders",
+    "summary": "The Wastelanders-era raider faction led from Crater by Meg Groberg.",
+    "description": "The Wastelanders-era raider faction led from Crater by Meg Groberg.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Meg's group includes returnees and recruits who claim Appalachia as home after surviving elsewhere. They are connected historically to earlier raider communities but are not identical to every pre-2102 gang."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater_raiders.role"
+        ],
+        "relatedEntityIds": [
+          "ent.crater",
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The faction seeks the Vault 79 gold and can become the Resident's heist partner. Named members hold competing motives, making the organisation more than a single combat category."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater_raiders.a"
+        ],
+        "relatedEntityIds": [
+          "ent.crater"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Alliance and reward division are conditional. Official update notes establish Raiders and Settlers as choices, not a mandated moral ranking."
+        ],
+        "assertionIds": [
+          "asrt.fr.crater_raiders.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_79",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 79",
+    "summary": "A concealed federal facility storing much of the United States gold reserve.",
+    "description": "A concealed federal facility storing much of the United States gold reserve.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 79 is built to protect gold and personnel rather than as an ordinary public Vault experiment. Isolation, security failures and trapped staff shape its post-War history."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_79.role"
+        ],
+        "relatedEntityIds": [
+          "ent.secret_service_79",
+          "ent.overseer_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Rumours of treasure draw Foundation, Crater and the Overseer into competing plans. The Resident breaches the facility with chosen allies and encounters surviving Secret Service personnel."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_79.a"
+        ],
+        "relatedEntityIds": [
+          "ent.secret_service_79"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Who receives gold and political benefit is conditional. The existence of the reserve and the Secret Service remnant are fixed."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_79.b"
+        ],
+        "relatedEntityIds": [
+          "ent.crater"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.secret_service_79",
+    "type": "organisation",
+    "subtype": "government_remnant",
+    "displayName": "Vault 79 Secret Service",
+    "summary": "The United States Secret Service personnel and descendants guarding the Vault 79 gold reserve.",
+    "description": "The United States Secret Service personnel and descendants guarding the Vault 79 gold reserve.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Agents assigned to the reserve survive in the sealed facility under severe losses and isolation. Their mission remains tied to federal property after the government able to use it has collapsed."
+        ],
+        "assertionIds": [
+          "asrt.fr.secret_service_79.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_79",
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Vault 79 breach exposes them to Appalachia and creates a role in exchanging bullion and technology. Their institutional continuity is narrower than a restored national government."
+        ],
+        "assertionIds": [
+          "asrt.fr.secret_service_79.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_79"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Cooperation with the Resident does not prove broader federal sovereignty; it establishes a surviving mission group."
+        ],
+        "assertionIds": [
+          "asrt.fr.secret_service_79.b"
+        ],
+        "relatedEntityIds": [
+          "ent.foundation"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.rahmani",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Leila Rahmani",
+    "summary": "The paladin who leads a Brotherhood expedition from California to establish a new Appalachian chapter.",
+    "description": "The paladin who leads a Brotherhood expedition from California to establish a new Appalachian chapter.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Rahmani travels east with Knight Shin, Scribe Valdez and other personnel after Lost Hills authorises an expedition. Communication breaks down, leaving the group to interpret its mission locally."
+        ],
+        "assertionIds": [
+          "asrt.fr.rahmani.role"
+        ],
+        "relatedEntityIds": [
+          "ent.fort_atlas",
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "At Fort Atlas she favours aid and regional engagement, while Shin prioritises authority, security and control of dangerous weapons. Their conflict culminates in a leadership choice during Steel Reign."
+        ],
+        "assertionIds": [
+          "asrt.fr.rahmani.a"
+        ],
+        "relatedEntityIds": [
+          "ent.fort_atlas"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Bethesda's Steel Dawn material establishes her initial command; later leadership and survival depend on player choice."
+        ],
+        "assertionIds": [
+          "asrt.fr.rahmani.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.knight_shin",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Daniel Shin",
+    "summary": "A Brotherhood knight whose conflict with Rahmani centres on discipline, accountability and dangerous technology.",
+    "description": "A Brotherhood knight whose conflict with Rahmani centres on discipline, accountability and dangerous technology.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Shin serves as senior military officer on the expedition to Appalachia. Earlier loss involving distributed weapons reinforces his distrust of outsiders and insistence on Brotherhood control."
+        ],
+        "assertionIds": [
+          "asrt.fr.knight_shin.role"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani",
+          "ent.fort_atlas"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "At Fort Atlas he challenges Rahmani's local alliances and response to scientific wrongdoing. The Resident becomes decisive when their incompatible leadership positions can no longer be contained."
+        ],
+        "assertionIds": [
+          "asrt.fr.knight_shin.a"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Either leader may remain or depart. The archive presents Shin's reasons and consequences without choosing the branch."
+        ],
+        "assertionIds": [
+          "asrt.fr.knight_shin.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.fort_atlas",
+    "type": "place",
+    "subtype": "observatory_base",
+    "displayName": "Fort Atlas",
+    "summary": "The former Atlas Observatory converted into headquarters for the Brotherhood's later Appalachian expedition.",
+    "description": "The former Atlas Observatory converted into headquarters for the Brotherhood's later Appalachian expedition.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The pre-War observatory contains advanced weather-related research and substantial infrastructure. The Brotherhood expedition occupies and fortifies it after crossing the continent."
+        ],
+        "assertionIds": [
+          "asrt.fr.fort_atlas.role"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani",
+          "ent.knight_shin"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Fort Atlas houses Rahmani, Shin, Valdez, initiates and civilian petitioners. It becomes the stage for disputes over outreach, weapons and scientific accountability."
+        ],
+        "assertionIds": [
+          "asrt.fr.fort_atlas.a"
+        ],
+        "relatedEntityIds": [
+          "ent.rahmani"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Leadership changes are conditional, but official Steel Dawn material explicitly identifies the effort to establish a new Appalachian chapter."
+        ],
+        "assertionIds": [
+          "asrt.fr.fort_atlas.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.atlantic_city",
+    "type": "place",
+    "subtype": "city_region",
+    "displayName": "Atlantic City",
+    "summary": "A post-War New Jersey destination reached by Vertibird expeditions from Appalachia.",
+    "description": "A post-War New Jersey destination reached by Vertibird expeditions from Appalachia.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Atlantic City contains organised municipal, entertainment and criminal powers surviving amid environmental danger. Its districts and factions create histories beyond repeatable expedition objectives."
+        ],
+        "assertionIds": [
+          "asrt.fr.atlantic_city.role"
+        ],
+        "relatedEntityIds": [
+          "ent.responders",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Responders and Vault 76 residents become involved through expeditions and later quest lines. The city broadens the archive beyond Appalachia without implying Appalachian rule."
+        ],
+        "assertionIds": [
+          "asrt.fr.atlantic_city.a"
+        ],
+        "relatedEntityIds": [
+          "ent.responders"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Repeatable missions represent gameplay recurrence; named political events and relationships should be treated as narrative claims only once."
+        ],
+        "assertionIds": [
+          "asrt.fr.atlantic_city.b"
+        ],
+        "relatedEntityIds": [
+          "ent.whitespring"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.skyline_valley",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Skyline Valley",
+    "summary": "A southern expansion region opened by violent weather around Vault 63.",
+    "description": "A southern expansion region opened by violent weather around Vault 63.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Skyline Valley occupies a transformed part of the Shenandoah area. Electrical storms, altered terrain and Vault 63's history distinguish it from the older Appalachian regions."
+        ],
+        "assertionIds": [
+          "asrt.fr.skyline_valley.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lost_f76",
+          "ent.hugo_stolz"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Resident investigates the Lost and Hugo Stolz while later caravan routes use the region. Official retrospective material places this chapter in the 2024 expansion sequence."
+        ],
+        "assertionIds": [
+          "asrt.fr.skyline_valley.a"
+        ],
+        "relatedEntityIds": [
+          "ent.lost_f76"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Live updates change activities, but the region and principal quest conflict remain identifiable lore subjects."
+        ],
+        "assertionIds": [
+          "asrt.fr.skyline_valley.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.lost_f76",
+    "type": "organisation",
+    "subtype": "ghoul_population",
+    "displayName": "The Lost",
+    "summary": "A group of electrically altered ghouls associated with Vault 63 and Skyline Valley.",
+    "description": "A group of electrically altered ghouls associated with Vault 63 and Skyline Valley.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Lost emerge from Vault 63's experiments and the storm conditions surrounding Skyline Valley. Their condition affects cognition and behaviour unevenly rather than erasing all individual history."
+        ],
+        "assertionIds": [
+          "asrt.fr.lost_f76.role"
+        ],
+        "relatedEntityIds": [
+          "ent.hugo_stolz",
+          "ent.skyline_valley"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Hugo Stolz's efforts to preserve and control his family intersect with the Resident's investigation. The group becomes both an immediate threat and evidence of institutional experimentation."
+        ],
+        "assertionIds": [
+          "asrt.fr.lost_f76.a"
+        ],
+        "relatedEntityIds": [
+          "ent.hugo_stolz"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Individual outcomes vary; the archive avoids treating every Lost person as morally or medically identical."
+        ],
+        "assertionIds": [
+          "asrt.fr.lost_f76.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.hugo_stolz",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Hugo Stolz",
+    "summary": "The Vault 63 overseer whose family, experiments and ambitions drive the Skyline Valley story.",
+    "description": "The Vault 63 overseer whose family, experiments and ambitions drive the Skyline Valley story.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Hugo leads Vault 63 and attempts to manage transformations linked to the region's electrical phenomena. His public cooperation with the Resident conceals key causes and personal objectives."
+        ],
+        "assertionIds": [
+          "asrt.fr.hugo_stolz.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lost_f76",
+          "ent.skyline_valley"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Recovered records and encounters reveal conflicts among preservation, control and consent. The Resident can decide his fate after confronting the consequences."
+        ],
+        "assertionIds": [
+          "asrt.fr.hugo_stolz.a"
+        ],
+        "relatedEntityIds": [
+          "ent.lost_f76"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Because the quest branches, later status is conditional; his role in the crisis is not."
+        ],
+        "assertionIds": [
+          "asrt.fr.hugo_stolz.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.burning_springs",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Burning Springs",
+    "summary": "The post-nuclear Ohio region added to Fallout 76 in the December 2025 update.",
+    "description": "The post-nuclear Ohio region added to Fallout 76 in the December 2025 update.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Burning Springs is an arid expansion beyond Appalachia reached across the Point Pleasant bridge. Official release material describes it as one of the game's largest map expansions and places Highway Town at its centre."
+        ],
+        "assertionIds": [
+          "asrt.fr.burning_springs.role"
+        ],
+        "relatedEntityIds": [
+          "ent.highway_town",
+          "ent.rust_king"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The region supports bounty hunting hosted by the Ghoul and a storyline involving the Rust King, a super mutant ruler. Public events and repeatable systems accompany the narrative locations."
+        ],
+        "assertionIds": [
+          "asrt.fr.burning_springs.a"
+        ],
+        "relatedEntityIds": [
+          "ent.highway_town"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "This record relies on Bethesda's released update notes for post-2024 scope. Repeatable bounties are mechanics; the region, settlement and named storyline are release facts."
+        ],
+        "assertionIds": [
+          "asrt.fr.burning_springs.b"
+        ],
+        "relatedEntityIds": [
+          "ent.resident_76"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.highway_town",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Highway Town",
+    "summary": "A central settlement in Burning Springs and hub for bounty hunting.",
+    "description": "A central settlement in Burning Springs and hub for bounty hunting.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Official Bethesda material identifies Highway Town as a bustling community in the heart of Burning Springs. It links regional travel, characters and the bounty system."
+        ],
+        "assertionIds": [
+          "asrt.fr.highway_town.role"
+        ],
+        "relatedEntityIds": [
+          "ent.burning_springs",
+          "ent.resident_76"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Ghoul introduces residents to contracts there, while the wider Burning Springs story moves through surrounding Ohio locations. The town is therefore both settlement and gameplay hub."
+        ],
+        "assertionIds": [
+          "asrt.fr.highway_town.a"
+        ],
+        "relatedEntityIds": [
+          "ent.burning_springs"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "Repeatable contracts do not imply an endless literal sequence in archival chronology; named introductions and regional function are the safer claims."
+        ],
+        "assertionIds": [
+          "asrt.fr.highway_town.b"
+        ],
+        "relatedEntityIds": [
+          "ent.appalachia"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.rust_king",
+    "type": "individual",
+    "subtype": "super_mutant",
+    "displayName": "Rust King",
+    "summary": "A super mutant warlord who rules part of Burning Springs and anchors its released storyline.",
+    "description": "A super mutant warlord who rules part of Burning Springs and anchors its released storyline.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Bethesda's official preview and release notes describe the Rust King as a ruthless ruler associated with arena combat in post-nuclear Ohio. This establishes the character's released narrative role."
+        ],
+        "assertionIds": [
+          "asrt.fr.rust_king.role"
+        ],
+        "relatedEntityIds": [
+          "ent.burning_springs",
+          "ent.highway_town"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The update begins a storyline in which players seek an audience and prove themselves. Detailed motives and route consequences require in-game extraction beyond release-note metadata."
+        ],
+        "assertionIds": [
+          "asrt.fr.rust_king.a"
+        ],
+        "relatedEntityIds": [
+          "ent.burning_springs"
+        ]
+      },
+      {
+        "id": "scope",
+        "title": "Scope and interpretation",
+        "paragraphs": [
+          "The record intentionally remains more cautious than older researched subjects: official promotional description supports the role, while deeper claim-level primary locators remain a research gap."
+        ],
+        "assertionIds": [
+          "asrt.fr.rust_king.b"
+        ],
+        "relatedEntityIds": [
+          "ent.scorched"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_76",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

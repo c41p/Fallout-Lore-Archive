@@ -1,0 +1,86 @@
+[
+  {
+    "id": "name.fr.the_den.1",
+    "entityId": "ent.the_den",
+    "name": "Den",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.new_reno.1",
+    "entityId": "ent.new_reno",
+    "name": "Reno",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.san_francisco.1",
+    "entityId": "ent.san_francisco",
+    "name": "San Fran",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.navarro.1",
+    "entityId": "ent.navarro",
+    "name": "Navarro base",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.marcus.1",
+    "entityId": "ent.marcus",
+    "name": "Sheriff Marcus",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.shi.1",
+    "entityId": "ent.shi",
+    "name": "Shi community",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.warrior.1",
+    "entityId": "ent.warrior",
+    "name": "The Warrior",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.midwestern_brotherhood.1",
+    "entityId": "ent.midwestern_brotherhood",
+    "name": "Midwest Brotherhood",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.gammorin_army.1",
+    "entityId": "ent.gammorin_army",
+    "name": "Super mutant army",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.chicago_wasteland.1",
+    "entityId": "ent.chicago_wasteland",
+    "name": "Chicago",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.bos_initiate.1",
+    "entityId": "ent.bos_initiate",
+    "name": "Initiate",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.texas_brotherhood.1",
+    "entityId": "ent.texas_brotherhood",
+    "name": "Texas Brotherhood",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.attis.1",
+    "entityId": "ent.attis",
+    "name": "General Attis",
+    "kind": "alias"
+  },
+  {
+    "id": "name.fr.ghoul_army.1",
+    "entityId": "ent.ghoul_army",
+    "name": "Attis' army",
+    "kind": "alias"
+  }
+]

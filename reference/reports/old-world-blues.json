@@ -1,0 +1,53 @@
+{
+  "workId": "work.old_world_blues",
+  "slug": "old-world-blues",
+  "title": "Old World Blues",
+  "referenceSubjects": 64,
+  "matchedArchiveEntities": 2,
+  "productionQuality": 0,
+  "substantialRecords": 2,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 62,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 2,
+  "majorLore": 1,
+  "supportingLore": 33,
+  "minorLore": 28,
+  "deepResearchCandidates": 1,
+  "tier1Gaps": 0,
+  "tier2Gaps": 32,
+  "weightedLoreCoverage": 13,
+  "byType": {
+    "technology": {
+      "total": 3,
+      "matched": 0,
+      "missing": 3
+    },
+    "creature": {
+      "total": 3,
+      "matched": 0,
+      "missing": 3
+    },
+    "person": {
+      "total": 11,
+      "matched": 2,
+      "missing": 9
+    },
+    "place": {
+      "total": 29,
+      "matched": 0,
+      "missing": 29
+    },
+    "event": {
+      "total": 16,
+      "matched": 0,
+      "missing": 16
+    },
+    "source_record": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    }
+  }
+}

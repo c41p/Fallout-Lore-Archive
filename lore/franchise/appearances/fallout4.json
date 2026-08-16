@@ -1,0 +1,205 @@
+[
+  {
+    "id": "app.fr.sole_survivor.fallout_4",
+    "entityId": "ent.sole_survivor",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.commonwealth.fallout_4",
+    "entityId": "ent.commonwealth",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.institute.fallout_4",
+    "entityId": "ent.institute",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.shaun.fallout_4",
+    "entityId": "ent.shaun",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.synths.fallout_4",
+    "entityId": "ent.synths",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.railroad.fallout_4",
+    "entityId": "ent.railroad",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.commonwealth_minutemen.fallout_4",
+    "entityId": "ent.commonwealth_minutemen",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.preston_garvey.fallout_4",
+    "entityId": "ent.preston_garvey",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.arthur_maxson.fallout_4",
+    "entityId": "ent.arthur_maxson",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.kellogg.fallout_4",
+    "entityId": "ent.kellogg",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.nick_valentine.fallout_4",
+    "entityId": "ent.nick_valentine",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.diamond_city.fallout_4",
+    "entityId": "ent.diamond_city",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.goodneighbor.fallout_4",
+    "entityId": "ent.goodneighbor",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vault_111.fallout_4",
+    "entityId": "ent.vault_111",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vault_81.fallout_4",
+    "entityId": "ent.vault_81",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.bunker_hill.fallout_4",
+    "entityId": "ent.bunker_hill",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.quincy_massacre.fallout_4",
+    "entityId": "ent.quincy_massacre",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.quincy.fallout_4",
+    "entityId": "ent.quincy",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.battle_bunker_hill.fallout_4",
+    "entityId": "ent.battle_bunker_hill",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.glowing_sea.fallout_4",
+    "entityId": "ent.glowing_sea",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.virgil.fallout_4",
+    "entityId": "ent.virgil",
+    "workId": "work.fallout_4",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.far_harbor_settlement.far_harbor",
+    "entityId": "ent.far_harbor_settlement",
+    "workId": "work.far_harbor",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.acadia.far_harbor",
+    "entityId": "ent.acadia",
+    "workId": "work.far_harbor",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.dima.far_harbor",
+    "entityId": "ent.dima",
+    "workId": "work.far_harbor",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.children_of_atom.far_harbor",
+    "entityId": "ent.children_of_atom",
+    "workId": "work.far_harbor",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.nuka_world.nuka_world",
+    "entityId": "ent.nuka_world",
+    "workId": "work.nuka_world",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.nuka_world_raiders.nuka_world",
+    "entityId": "ent.nuka_world_raiders",
+    "workId": "work.nuka_world",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.mechanist_isabel.automatron",
+    "entityId": "ent.mechanist_isabel",
+    "workId": "work.automatron",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.automatron_crisis.automatron",
+    "entityId": "ent.automatron_crisis",
+    "workId": "work.automatron",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  }
+]

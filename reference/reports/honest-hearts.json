@@ -1,0 +1,53 @@
+{
+  "workId": "work.honest_hearts",
+  "slug": "honest-hearts",
+  "title": "Honest Hearts",
+  "referenceSubjects": 62,
+  "matchedArchiveEntities": 4,
+  "productionQuality": 0,
+  "substantialRecords": 4,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 58,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 2,
+  "majorLore": 2,
+  "supportingLore": 40,
+  "minorLore": 18,
+  "deepResearchCandidates": 2,
+  "tier1Gaps": 1,
+  "tier2Gaps": 38,
+  "weightedLoreCoverage": 11.5,
+  "byType": {
+    "place": {
+      "total": 35,
+      "matched": 1,
+      "missing": 34
+    },
+    "organisation": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    },
+    "person": {
+      "total": 6,
+      "matched": 2,
+      "missing": 4
+    },
+    "creature": {
+      "total": 6,
+      "matched": 1,
+      "missing": 5
+    },
+    "event": {
+      "total": 11,
+      "matched": 0,
+      "missing": 11
+    },
+    "source_record": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    }
+  }
+}

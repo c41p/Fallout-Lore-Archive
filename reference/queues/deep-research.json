@@ -1,0 +1,4035 @@
+{
+  "generatedAt": "2026-08-16T20:55:37.814Z",
+  "candidates": [
+    {
+      "id": "ref.nukapedia.924",
+      "title": "New California Republic",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [
+        "Ambassador Crocker's note"
+      ],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic"
+    },
+    {
+      "id": "ref.nukapedia.1875",
+      "title": "Caesar's Legion",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Legion"
+    },
+    {
+      "id": "ref.nukapedia.2037",
+      "title": "Enclave",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave"
+    },
+    {
+      "id": "ref.nukapedia.3714",
+      "title": "Hubologists",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_4",
+        "work.nuka_world"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hubologists"
+    },
+    {
+      "id": "ref.nukapedia.7046",
+      "title": "Capital Wasteland",
+      "workIds": [
+        "work.fallout_3",
+        "work.fallout_4",
+        "work.fallout_76",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Capital_Wasteland"
+    },
+    {
+      "id": "ref.nukapedia.9596",
+      "title": "The Commonwealth",
+      "workIds": [
+        "work.fallout_3",
+        "work.fallout_4",
+        "work.fallout_76"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Commonwealth"
+    },
+    {
+      "id": "ref.nukapedia.11440",
+      "title": "Enclave Radio",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Radio"
+    },
+    {
+      "id": "ref.nukapedia.15782",
+      "title": "The Institute",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Institute"
+    },
+    {
+      "id": "ref.nukapedia.26808",
+      "title": "Enclave Sigma Leader",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Sigma_Leader"
+    },
+    {
+      "id": "ref.nukapedia.41775",
+      "title": "Fallout: Brotherhood of Steel factions",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_factions"
+    },
+    {
+      "id": "ref.nukapedia.46603",
+      "title": "Fallout: Brotherhood of Steel locations",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_locations"
+    },
+    {
+      "id": "ref.nukapedia.46742",
+      "title": "Fallout: Brotherhood of Steel miscellaneous items",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_miscellaneous_items"
+    },
+    {
+      "id": "ref.nukapedia.125742",
+      "title": "History of the New California Republic",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/History_of_the_New_California_Republic"
+    },
+    {
+      "id": "ref.nukapedia.203326",
+      "title": "History of the Enclave",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/History_of_the_Enclave"
+    },
+    {
+      "id": "ref.nukapedia.209890",
+      "title": "Enclave remnants",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_remnants"
+    },
+    {
+      "id": "ref.nukapedia.219645",
+      "title": "Brotherhood of Steel (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.428218",
+      "title": "Fallout 2 Enclave appearances",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_2_Enclave_appearances"
+    },
+    {
+      "id": "ref.nukapedia.471686",
+      "title": "Commonwealth Minutemen",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Minutemen"
+    },
+    {
+      "id": "ref.nukapedia.478943",
+      "title": "General Atomics Galleria",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/General_Atomics_Galleria"
+    },
+    {
+      "id": "ref.nukapedia.594730",
+      "title": "Enclave remnants (Creation Club)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_remnants_(Creation_Club)"
+    },
+    {
+      "id": "ref.nukapedia.599701",
+      "title": "Fallout 3 Game of the Year Edition Tour of the Capital Wasteland",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_3_Game_of_the_Year_Edition_Tour_of_the_Capital_Wasteland"
+    },
+    {
+      "id": "ref.nukapedia.599888",
+      "title": "Enclave (Fallout 76)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_76",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_(Fallout_76)"
+    },
+    {
+      "id": "ref.nukapedia.607884",
+      "title": "New California Republic Senate",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_Senate"
+    },
+    {
+      "id": "ref.nukapedia.609199",
+      "title": "Capital Wasteland communities",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Capital_Wasteland_communities"
+    },
+    {
+      "id": "ref.nukapedia.628681",
+      "title": "Known Enclave members",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Known_Enclave_members"
+    },
+    {
+      "id": "ref.nukapedia.658420",
+      "title": "Enclave (Van Buren)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_(Van_Buren)"
+    },
+    {
+      "id": "ref.nukapedia.670787",
+      "title": "Enclave (Fallout 2)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_(Fallout_2)"
+    },
+    {
+      "id": "ref.nukapedia.670808",
+      "title": "Enclave (Fallout 3)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.672612",
+      "title": "Brotherhood of Steel (Fallout 4)",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Fallout_4)"
+    },
+    {
+      "id": "ref.nukapedia.677698",
+      "title": "New California Republic council",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_council"
+    },
+    {
+      "id": "ref.nukapedia.803809",
+      "title": "Enclave (Creation Club)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_(Creation_Club)"
+    },
+    {
+      "id": "ref.nukapedia.803821",
+      "title": "Enclave uniform",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_uniform"
+    },
+    {
+      "id": "ref.nukapedia.816876",
+      "title": "Enclave uniform (TV series)",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 100,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_uniform_(TV_series)"
+    },
+    {
+      "id": "ref.nukapedia.3645",
+      "title": "Unity",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2"
+      ],
+      "importanceScore": 99,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Unity"
+    },
+    {
+      "id": "ref.nukapedia.13960",
+      "title": "New California Republic Army",
+      "workIds": [
+        "work.fallout_2",
+        "work.new_vegas"
+      ],
+      "importanceScore": 98,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_Army"
+    },
+    {
+      "id": "ref.nukapedia.4523",
+      "title": "New California Republic Rangers",
+      "workIds": [
+        "work.fallout_2",
+        "work.new_vegas"
+      ],
+      "importanceScore": 97,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_Rangers"
+    },
+    {
+      "id": "ref.nukapedia.714884",
+      "title": "Caesar's Legion (Van Buren)",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 97,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Legion_(Van_Buren)"
+    },
+    {
+      "id": "ref.nukapedia.765181",
+      "title": "Institute concourse conversations",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 96,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_concourse_conversations"
+    },
+    {
+      "id": "ref.nukapedia.7817",
+      "title": "Enclave Department of the Army",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3"
+      ],
+      "importanceScore": 95,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Department_of_the_Army"
+    },
+    {
+      "id": "ref.nukapedia.7878",
+      "title": "Brotherhood of Steel (Fallout 3)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 95,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.56098",
+      "title": "Mojave Wasteland",
+      "workIds": [
+        "work.fallout_4",
+        "work.new_vegas"
+      ],
+      "importanceScore": 95,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mojave_Wasteland"
+    },
+    {
+      "id": "ref.nukapedia.312782",
+      "title": "Brahmin (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 95,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brahmin_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.577220",
+      "title": "Appalachia",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_76"
+      ],
+      "importanceScore": 94,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Appalachia"
+    },
+    {
+      "id": "ref.nukapedia.763941",
+      "title": "Institute BioScience conversations",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 93,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_BioScience_conversations"
+    },
+    {
+      "id": "ref.nukapedia.765444",
+      "title": "Institute Advanced Systems conversations",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 93,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_Advanced_Systems_conversations"
+    },
+    {
+      "id": "ref.nukapedia.765445",
+      "title": "Institute Robotics conversations",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 93,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_Robotics_conversations"
+    },
+    {
+      "id": "ref.nukapedia.765693",
+      "title": "Institute SRB conversations",
+      "workIds": [
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 93,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_SRB_conversations"
+    },
+    {
+      "id": "ref.nukapedia.3516",
+      "title": "Brotherhood of Steel (Fallout Tactics)",
+      "workIds": [
+        "work.fallout_tactics"
+      ],
+      "importanceScore": 91,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Fallout_Tactics)"
+    },
+    {
+      "id": "ref.nukapedia.55600",
+      "title": "Courier",
+      "workIds": [
+        "work.dead_money",
+        "work.honest_hearts",
+        "work.lonesome_road",
+        "work.new_vegas",
+        "work.old_world_blues"
+      ],
+      "importanceScore": 91,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Courier"
+    },
+    {
+      "id": "ref.nukapedia.961",
+      "title": "Vault Dweller",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.new_vegas"
+      ],
+      "importanceScore": 90,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_Dweller"
+    },
+    {
+      "id": "ref.nukapedia.1834",
+      "title": "Khans",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 90,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Khans"
+    },
+    {
+      "id": "ref.nukapedia.477546",
+      "title": "Unity crisis",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 90,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Unity_crisis"
+    },
+    {
+      "id": "ref.nukapedia.4599",
+      "title": "Fallout: Brotherhood of Steel weapons",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 89,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_weapons"
+    },
+    {
+      "id": "ref.nukapedia.9699",
+      "title": "Jane (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2",
+        "work.fallout_bos",
+        "work.fallout_shelter",
+        "work.fallout_tactics"
+      ],
+      "importanceScore": 88,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Jane_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.132570",
+      "title": "History of Caesar's Legion",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 88,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/History_of_Caesar%27s_Legion"
+    },
+    {
+      "id": "ref.nukapedia.42109",
+      "title": "Fallout: Brotherhood of Steel items",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 87,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_items"
+    },
+    {
+      "id": "ref.nukapedia.46630",
+      "title": "Fallout: Brotherhood of Steel consumables",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 87,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_consumables"
+    },
+    {
+      "id": "ref.nukapedia.57429",
+      "title": "Raider lieutenant (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2",
+        "work.fallout_bos",
+        "work.fallout_shelter",
+        "work.fallout_tactics"
+      ],
+      "importanceScore": 87,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Raider_lieutenant_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.124577",
+      "title": "Hierarchy of Caesar's Legion",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 87,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hierarchy_of_Caesar%27s_Legion"
+    },
+    {
+      "id": "ref.nukapedia.578592",
+      "title": "Brotherhood of Steel (Fallout 76)",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 87,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Fallout_76)"
+    },
+    {
+      "id": "ref.nukapedia.112085",
+      "title": "Great Khans",
+      "workIds": [
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 86,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Great_Khans"
+    },
+    {
+      "id": "ref.nukapedia.132332",
+      "title": "Brotherhood of Steel (Mojave chapter)",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 86,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_(Mojave_chapter)"
+    },
+    {
+      "id": "ref.nukapedia.599848",
+      "title": "Glossary of Caesar's Legion terms",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 86,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Glossary_of_Caesar%27s_Legion_terms"
+    },
+    {
+      "id": "ref.nukapedia.663740",
+      "title": "Vault Dweller's Survival Guide/Transcript",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 86,
+      "materialStatus": "released",
+      "primarySourceLeads": [
+        "Vault Dweller's Survival Guide"
+      ],
+      "url": "https://fallout.fandom.com/wiki/Vault_Dweller%27s_Survival_Guide/Transcript"
+    },
+    {
+      "id": "ref.nukapedia.62240",
+      "title": "Fallout 3 Enclave outposts and camps",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 85,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_3_Enclave_outposts_and_camps"
+    },
+    {
+      "id": "ref.nukapedia.68428",
+      "title": "Caesar's Legion armor",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 84,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Legion_armor"
+    },
+    {
+      "id": "ref.nukapedia.628922",
+      "title": "Brotherhood of Steel hierarchy (Midwest)",
+      "workIds": [
+        "work.fallout_tactics"
+      ],
+      "importanceScore": 84,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_hierarchy_(Midwest)"
+    },
+    {
+      "id": "ref.nukapedia.984",
+      "title": "Master",
+      "workIds": [
+        "work.fallout",
+        "work.new_vegas"
+      ],
+      "importanceScore": 83,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Master"
+    },
+    {
+      "id": "ref.nukapedia.2183",
+      "title": "Enclave Oil Rig",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 83,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Oil_Rig"
+    },
+    {
+      "id": "ref.nukapedia.477179",
+      "title": "Commonwealth Defense Administration",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 83,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Defense_Administration"
+    },
+    {
+      "id": "ref.nukapedia.614758",
+      "title": "Commonwealth Savings and Loan",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 83,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Savings_and_Loan"
+    },
+    {
+      "id": "ref.nukapedia.629983",
+      "title": "New Appalachia Bank",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 83,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_Appalachia_Bank"
+    },
+    {
+      "id": "ref.nukapedia.9061",
+      "title": "Reilly's Rangers (quest)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 82,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Reilly%27s_Rangers_(quest)"
+    },
+    {
+      "id": "ref.nukapedia.630461",
+      "title": "Enclave research facility",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 82,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_research_facility"
+    },
+    {
+      "id": "ref.nukapedia.7712",
+      "title": "New Vegas",
+      "workIds": [
+        "work.fallout_shelter",
+        "work.new_vegas"
+      ],
+      "importanceScore": 81,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_Vegas"
+    },
+    {
+      "id": "ref.nukapedia.483374",
+      "title": "The Institute (location)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 81,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Institute_(location)"
+    },
+    {
+      "id": "ref.nukapedia.1095",
+      "title": "Chosen One",
+      "workIds": [
+        "work.fallout_2",
+        "work.new_vegas"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Chosen_One"
+    },
+    {
+      "id": "ref.nukapedia.9148",
+      "title": "Vault Dweller's Survival Guide: Pocket Reference Edition",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "promotional",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_Dweller%27s_Survival_Guide:_Pocket_Reference_Edition"
+    },
+    {
+      "id": "ref.nukapedia.23501",
+      "title": "New California Republic (town)",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_(town)"
+    },
+    {
+      "id": "ref.nukapedia.114311",
+      "title": "Brotherhood of Steel safehouse",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_safehouse"
+    },
+    {
+      "id": "ref.nukapedia.114375",
+      "title": "Caesar's Legion safehouse",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Legion_safehouse"
+    },
+    {
+      "id": "ref.nukapedia.273071",
+      "title": "The Courier's Mile",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Courier%27s_Mile"
+    },
+    {
+      "id": "ref.nukapedia.464767",
+      "title": "Commonwealth Weaponry",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Weaponry"
+    },
+    {
+      "id": "ref.nukapedia.609372",
+      "title": "Appalachia communities",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Appalachia_communities"
+    },
+    {
+      "id": "ref.nukapedia.652179",
+      "title": "Institute concourse",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 80,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_concourse"
+    },
+    {
+      "id": "ref.nukapedia.9641",
+      "title": "Blake (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [
+        "Blake's dialogue",
+        "Dialogue file"
+      ],
+      "url": "https://fallout.fandom.com/wiki/Blake_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.151401",
+      "title": "Caesar's tent",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_tent"
+    },
+    {
+      "id": "ref.nukapedia.222728",
+      "title": "New California Republic Hospital",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_Hospital"
+    },
+    {
+      "id": "ref.nukapedia.226075",
+      "title": "New California Republic power plant",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/New_California_Republic_power_plant"
+    },
+    {
+      "id": "ref.nukapedia.228228",
+      "title": "Vault Dweller statue",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_Dweller_statue"
+    },
+    {
+      "id": "ref.nukapedia.273060",
+      "title": "Path to the Courier's Mile",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Path_to_the_Courier%27s_Mile"
+    },
+    {
+      "id": "ref.nukapedia.478366",
+      "title": "Commonwealth Bank",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Bank"
+    },
+    {
+      "id": "ref.nukapedia.603469",
+      "title": "Institute reactor",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_reactor"
+    },
+    {
+      "id": "ref.nukapedia.603477",
+      "title": "Institute Advanced Systems",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_Advanced_Systems"
+    },
+    {
+      "id": "ref.nukapedia.603480",
+      "title": "Institute BioScience",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_BioScience"
+    },
+    {
+      "id": "ref.nukapedia.603491",
+      "title": "Institute Robotics",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_Robotics"
+    },
+    {
+      "id": "ref.nukapedia.606047",
+      "title": "Enclave Vault-Research Control",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Vault-Research_Control"
+    },
+    {
+      "id": "ref.nukapedia.610197",
+      "title": "Institute sublevel 21-D",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_sublevel_21-D"
+    },
+    {
+      "id": "ref.nukapedia.610501",
+      "title": "Commonwealth Avenue",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Commonwealth_Avenue"
+    },
+    {
+      "id": "ref.nukapedia.625380",
+      "title": "Fallout 76 roadways",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_76_roadways"
+    },
+    {
+      "id": "ref.nukapedia.633154",
+      "title": "Fallout 76 Vault Dweller's Survival Guide faction profiles",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_76_Vault_Dweller%27s_Survival_Guide_faction_profiles"
+    },
+    {
+      "id": "ref.nukapedia.652183",
+      "title": "Institute SRB",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_SRB"
+    },
+    {
+      "id": "ref.nukapedia.659125",
+      "title": "Minutemen Monument",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Minutemen_Monument"
+    },
+    {
+      "id": "ref.nukapedia.813899",
+      "title": "Eastern Enclave encampment",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Eastern_Enclave_encampment"
+    },
+    {
+      "id": "ref.nukapedia.813900",
+      "title": "Western Enclave encampment",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Western_Enclave_encampment"
+    },
+    {
+      "id": "ref.nukapedia.813901",
+      "title": "Southern Enclave encampment",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Southern_Enclave_encampment"
+    },
+    {
+      "id": "ref.nukapedia.814206",
+      "title": "Enclave retrieval operations encampment",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_retrieval_operations_encampment"
+    },
+    {
+      "id": "ref.nukapedia.840122",
+      "title": "Sole Survivor's house",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Sole_Survivor%27s_house"
+    },
+    {
+      "id": "ref.nukapedia.870521",
+      "title": "Enclave vertibird crash site",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 79,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_vertibird_crash_site"
+    },
+    {
+      "id": "ref.nukapedia.928",
+      "title": "Vault City (faction)",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_City_(faction)"
+    },
+    {
+      "id": "ref.nukapedia.1550",
+      "title": "Vault 13",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_13"
+    },
+    {
+      "id": "ref.nukapedia.4835",
+      "title": "Caesar",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar"
+    },
+    {
+      "id": "ref.nukapedia.25585",
+      "title": "Enclave Hellfire trooper",
+      "workIds": [
+        "work.broken_steel",
+        "work.fallout_3"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Hellfire_trooper"
+    },
+    {
+      "id": "ref.nukapedia.55585",
+      "title": "Primm",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Primm"
+    },
+    {
+      "id": "ref.nukapedia.70726",
+      "title": "Enclave scientist (Fallout 3)",
+      "workIds": [
+        "work.broken_steel",
+        "work.fallout_3"
+      ],
+      "importanceScore": 78,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_scientist_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.93049",
+      "title": "Render Unto Caesar",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 77,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Render_Unto_Caesar"
+    },
+    {
+      "id": "ref.nukapedia.115330",
+      "title": "Camp Guardian",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 77,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Camp_Guardian"
+    },
+    {
+      "id": "ref.nukapedia.577018",
+      "title": "Sutton",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 77,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Sutton"
+    },
+    {
+      "id": "ref.nukapedia.579013",
+      "title": "Monongah",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 77,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Monongah"
+    },
+    {
+      "id": "ref.nukapedia.22328",
+      "title": "Khan Base",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 76,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Khan_Base"
+    },
+    {
+      "id": "ref.nukapedia.471327",
+      "title": "Joe's Spuckies (Fallout 4)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 76,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Joe%27s_Spuckies_(Fallout_4)"
+    },
+    {
+      "id": "ref.nukapedia.478293",
+      "title": "Founder's Triangle",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 76,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Founder%27s_Triangle"
+    },
+    {
+      "id": "ref.nukapedia.589337",
+      "title": "Last President of the United States",
+      "workIds": [
+        "work.fallout_2",
+        "work.fallout_3",
+        "work.fallout_76"
+      ],
+      "importanceScore": 76,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Last_President_of_the_United_States"
+    },
+    {
+      "id": "ref.nukapedia.27632",
+      "title": "United States Army",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 75,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/United_States_Army"
+    },
+    {
+      "id": "ref.nukapedia.195104",
+      "title": "Zion General Store",
+      "workIds": [
+        "work.honest_hearts",
+        "work.new_vegas"
+      ],
+      "importanceScore": 75,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Zion_General_Store"
+    },
+    {
+      "id": "ref.nukapedia.272773",
+      "title": "The Courier (quest)",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 75,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Courier_(quest)"
+    },
+    {
+      "id": "ref.nukapedia.493758",
+      "title": "The Nuclear Option (Minutemen)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 75,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Nuclear_Option_(Minutemen)"
+    },
+    {
+      "id": "ref.nukapedia.523490",
+      "title": "Automatron locations",
+      "workIds": [
+        "work.automatron",
+        "work.fallout_4"
+      ],
+      "importanceScore": 75,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Automatron_locations"
+    },
+    {
+      "id": "ref.nukapedia.6523",
+      "title": "Get the vertibird plans for the Brotherhood of Steel",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Get_the_vertibird_plans_for_the_Brotherhood_of_Steel"
+    },
+    {
+      "id": "ref.nukapedia.33319",
+      "title": "Fallout: Brotherhood of Steel quests",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_quests"
+    },
+    {
+      "id": "ref.nukapedia.42131",
+      "title": "Stop the Enclave",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Stop_the_Enclave"
+    },
+    {
+      "id": "ref.nukapedia.104748",
+      "title": "Boomers",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Boomers"
+    },
+    {
+      "id": "ref.nukapedia.114123",
+      "title": "Beware the Wrath of Caesar!",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Beware_the_Wrath_of_Caesar!"
+    },
+    {
+      "id": "ref.nukapedia.117472",
+      "title": "Caesar's Favor",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Favor"
+    },
+    {
+      "id": "ref.nukapedia.125708",
+      "title": "Caesar's Hire",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Hire"
+    },
+    {
+      "id": "ref.nukapedia.150518",
+      "title": "Caesar's Foe",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caesar%27s_Foe"
+    },
+    {
+      "id": "ref.nukapedia.464101",
+      "title": "Boston",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Boston"
+    },
+    {
+      "id": "ref.nukapedia.477103",
+      "title": "The Nuclear Option (Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Nuclear_Option_(Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.478007",
+      "title": "Cleansing the Commonwealth",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Cleansing_the_Commonwealth"
+    },
+    {
+      "id": "ref.nukapedia.478008",
+      "title": "Jewel of the Commonwealth",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Jewel_of_the_Commonwealth"
+    },
+    {
+      "id": "ref.nukapedia.487961",
+      "title": "Banished from the Institute",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Banished_from_the_Institute"
+    },
+    {
+      "id": "ref.nukapedia.563833",
+      "title": "Enclave Oil Rig trap room puzzle",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Oil_Rig_trap_room_puzzle"
+    },
+    {
+      "id": "ref.nukapedia.620448",
+      "title": "Defend (Minutemen)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Defend_(Minutemen)"
+    },
+    {
+      "id": "ref.nukapedia.896367",
+      "title": "Mystery Enclave Theater 3000",
+      "workIds": [
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 74,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mystery_Enclave_Theater_3000"
+    },
+    {
+      "id": "ref.nukapedia.7039",
+      "title": "Lyons' Pride",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Lyons%27_Pride"
+    },
+    {
+      "id": "ref.nukapedia.10898",
+      "title": "Brotherhood of Steel holotag (Fallout 3)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_holotag_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.63986",
+      "title": "Listen to Leanne's story about the Master",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Listen_to_Leanne%27s_story_about_the_Master"
+    },
+    {
+      "id": "ref.nukapedia.116395",
+      "title": "Mark of Caesar",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mark_of_Caesar"
+    },
+    {
+      "id": "ref.nukapedia.124627",
+      "title": "Brotherhood of Steel mission holotape",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_mission_holotape"
+    },
+    {
+      "id": "ref.nukapedia.205451",
+      "title": "Prison key (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Prison_key_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.323237",
+      "title": "Medical supplies (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Medical_supplies_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.329487",
+      "title": "Junk (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Junk_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.450033",
+      "title": "Wedding ring (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Wedding_ring_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.450262",
+      "title": "Worn key (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Worn_key_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.464652",
+      "title": "Sole Survivor",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Sole_Survivor"
+    },
+    {
+      "id": "ref.nukapedia.467081",
+      "title": "Fallout 4 settlements",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_4_settlements"
+    },
+    {
+      "id": "ref.nukapedia.539296",
+      "title": "Claiming the Commonwealth",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Claiming_the_Commonwealth"
+    },
+    {
+      "id": "ref.nukapedia.557052",
+      "title": "Zines from the Commonwealth",
+      "workIds": [
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Zines_from_the_Commonwealth"
+    },
+    {
+      "id": "ref.nukapedia.559330",
+      "title": "Shady Sands",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Shady_Sands"
+    },
+    {
+      "id": "ref.nukapedia.660195",
+      "title": "Enclave Radio (Creation Club)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Radio_(Creation_Club)"
+    },
+    {
+      "id": "ref.nukapedia.837043",
+      "title": "Revenants",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Revenants"
+    },
+    {
+      "id": "ref.nukapedia.865750",
+      "title": "Scorpion tail (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 73,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Scorpion_tail_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.1551",
+      "title": "The Hub",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Hub"
+    },
+    {
+      "id": "ref.nukapedia.106029",
+      "title": "White Glove Society",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/White_Glove_Society"
+    },
+    {
+      "id": "ref.nukapedia.463975",
+      "title": "Diamond City",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Diamond_City"
+    },
+    {
+      "id": "ref.nukapedia.479069",
+      "title": "Forged",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Forged"
+    },
+    {
+      "id": "ref.nukapedia.495026",
+      "title": "Triggermen",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Triggermen"
+    },
+    {
+      "id": "ref.nukapedia.578527",
+      "title": "Vault Dweller (Fallout 76)",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 72,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_Dweller_(Fallout_76)"
+    },
+    {
+      "id": "ref.nukapedia.2538",
+      "title": "Far Go Traders",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Far_Go_Traders"
+    },
+    {
+      "id": "ref.nukapedia.2555",
+      "title": "Water Merchants",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Water_Merchants"
+    },
+    {
+      "id": "ref.nukapedia.6968",
+      "title": "Lone Wanderer",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Lone_Wanderer"
+    },
+    {
+      "id": "ref.nukapedia.7407",
+      "title": "Tunnel Snakes",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Tunnel_Snakes"
+    },
+    {
+      "id": "ref.nukapedia.10219",
+      "title": "Temple of the Union",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Temple_of_the_Union"
+    },
+    {
+      "id": "ref.nukapedia.235861",
+      "title": "Courier's brain",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Courier%27s_brain"
+    },
+    {
+      "id": "ref.nukapedia.450293",
+      "title": "Caravan master",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Caravan_master"
+    },
+    {
+      "id": "ref.nukapedia.579014",
+      "title": "The General's Steakhouse",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_General%27s_Steakhouse"
+    },
+    {
+      "id": "ref.nukapedia.581105",
+      "title": "Sons of Dane",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Sons_of_Dane"
+    },
+    {
+      "id": "ref.nukapedia.581948",
+      "title": "Fire Breathers",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fire_Breathers"
+    },
+    {
+      "id": "ref.nukapedia.599469",
+      "title": "Julius Caesar",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Julius_Caesar"
+    },
+    {
+      "id": "ref.nukapedia.599493",
+      "title": "Fallout: New Vegas Official Game Guide Collector's Edition Tour of the Mojave Wasteland",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_New_Vegas_Official_Game_Guide_Collector%27s_Edition_Tour_of_the_Mojave_Wasteland"
+    },
+    {
+      "id": "ref.nukapedia.599683",
+      "title": "Fallout 4 Vault Dweller's Survival Guide Map",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_4_Vault_Dweller%27s_Survival_Guide_Map"
+    },
+    {
+      "id": "ref.nukapedia.623294",
+      "title": "Fallout 76 Vault Dweller's Survival Guide Atlas of Appalachia",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 71,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_76_Vault_Dweller%27s_Survival_Guide_Atlas_of_Appalachia"
+    },
+    {
+      "id": "ref.nukapedia.2203",
+      "title": "Cyrus (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Cyrus_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.7043",
+      "title": "Megaton",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Megaton"
+    },
+    {
+      "id": "ref.nukapedia.7911",
+      "title": "Enclave patrolmen",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_patrolmen"
+    },
+    {
+      "id": "ref.nukapedia.9910",
+      "title": "Fallout: Brotherhood of Steel characters",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_characters"
+    },
+    {
+      "id": "ref.nukapedia.11183",
+      "title": "Enclave officer",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_officer"
+    },
+    {
+      "id": "ref.nukapedia.13317",
+      "title": "Wilks (Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Wilks_(Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.13324",
+      "title": "Vargas (Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vargas_(Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23615",
+      "title": "Ruby (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Ruby_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.26829",
+      "title": "Enclave Squad Sigma",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Squad_Sigma"
+    },
+    {
+      "id": "ref.nukapedia.28522",
+      "title": "Tanker vagrants",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Tanker_vagrants"
+    },
+    {
+      "id": "ref.nukapedia.30206",
+      "title": "Gammorin's Army",
+      "workIds": [
+        "work.fallout_tactics"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Gammorin%27s_Army"
+    },
+    {
+      "id": "ref.nukapedia.70723",
+      "title": "Enclave soldier (Fallout 3)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_soldier_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.70724",
+      "title": "Enclave soldier (Fallout 2)",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_soldier_(Fallout_2)"
+    },
+    {
+      "id": "ref.nukapedia.75173",
+      "title": "Vault 22",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_22"
+    },
+    {
+      "id": "ref.nukapedia.88121",
+      "title": "Enclave communications officer",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_communications_officer"
+    },
+    {
+      "id": "ref.nukapedia.88163",
+      "title": "Enclave gate guard",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_gate_guard"
+    },
+    {
+      "id": "ref.nukapedia.235556",
+      "title": "Y-17 master trauma harness",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Y-17_master_trauma_harness"
+    },
+    {
+      "id": "ref.nukapedia.466687",
+      "title": "The Prydwen",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Prydwen"
+    },
+    {
+      "id": "ref.nukapedia.473699",
+      "title": "Vault dweller conversations",
+      "workIds": [
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_dweller_conversations"
+    },
+    {
+      "id": "ref.nukapedia.489614",
+      "title": "Atom Cats",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Atom_Cats"
+    },
+    {
+      "id": "ref.nukapedia.515300",
+      "title": "L&L Gang",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/L%26L_Gang"
+    },
+    {
+      "id": "ref.nukapedia.544528",
+      "title": "Institute scientist",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_scientist"
+    },
+    {
+      "id": "ref.nukapedia.627409",
+      "title": "Institute worker",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_worker"
+    },
+    {
+      "id": "ref.nukapedia.637413",
+      "title": "Rhombus (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Rhombus_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.639042",
+      "title": "The Vault Dweller (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 70,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Vault_Dweller_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.1882",
+      "title": "Hoover Dam",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hoover_Dam"
+    },
+    {
+      "id": "ref.nukapedia.2194",
+      "title": "Lost Hills",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Lost_Hills"
+    },
+    {
+      "id": "ref.nukapedia.2937",
+      "title": "San Francisco",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/San_Francisco"
+    },
+    {
+      "id": "ref.nukapedia.7011",
+      "title": "Paradise Falls",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Paradise_Falls"
+    },
+    {
+      "id": "ref.nukapedia.7820",
+      "title": "Enclave Control Company",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_Control_Company"
+    },
+    {
+      "id": "ref.nukapedia.16065",
+      "title": "Church (Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Church_(Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23613",
+      "title": "Dubois (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Dubois_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23614",
+      "title": "Richard (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Richard_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23623",
+      "title": "Jesse (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Jesse_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23625",
+      "title": "Mary (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mary_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.26848",
+      "title": "Armory master",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Armory_master"
+    },
+    {
+      "id": "ref.nukapedia.40335",
+      "title": "Enclave technician",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_technician"
+    },
+    {
+      "id": "ref.nukapedia.40336",
+      "title": "Enclave specialist",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_specialist"
+    },
+    {
+      "id": "ref.nukapedia.40497",
+      "title": "Enclave citizen",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_citizen"
+    },
+    {
+      "id": "ref.nukapedia.55684",
+      "title": "HELIOS One",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/HELIOS_One"
+    },
+    {
+      "id": "ref.nukapedia.70725",
+      "title": "Enclave scientist (Fallout 2)",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_scientist_(Fallout_2)"
+    },
+    {
+      "id": "ref.nukapedia.109657",
+      "title": "Nellis Air Force Base",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Nellis_Air_Force_Base"
+    },
+    {
+      "id": "ref.nukapedia.109959",
+      "title": "Hidden Valley",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hidden_Valley"
+    },
+    {
+      "id": "ref.nukapedia.190515",
+      "title": "Dog (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Dog_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.192975",
+      "title": "Upset vault dweller",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Upset_vault_dweller"
+    },
+    {
+      "id": "ref.nukapedia.225504",
+      "title": "Unity (Broken Hills)",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Unity_(Broken_Hills)"
+    },
+    {
+      "id": "ref.nukapedia.400582",
+      "title": "Brotherhood of Steel GNR commander",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel_GNR_commander"
+    },
+    {
+      "id": "ref.nukapedia.446973",
+      "title": "Master Rube",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Master_Rube"
+    },
+    {
+      "id": "ref.nukapedia.446974",
+      "title": "Master Ziggy",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Master_Ziggy"
+    },
+    {
+      "id": "ref.nukapedia.447031",
+      "title": "Master Krall",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Master_Krall"
+    },
+    {
+      "id": "ref.nukapedia.447033",
+      "title": "Master Khung",
+      "workIds": [
+        "work.fallout_2"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Master_Khung"
+    },
+    {
+      "id": "ref.nukapedia.462547",
+      "title": "Fallout: Brotherhood of Steel companions",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_companions"
+    },
+    {
+      "id": "ref.nukapedia.479234",
+      "title": "University Point",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/University_Point"
+    },
+    {
+      "id": "ref.nukapedia.565452",
+      "title": "Bob (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Bob_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.575663",
+      "title": "Game Master 3000 Mk II",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Game_Master_3000_Mk_II"
+    },
+    {
+      "id": "ref.nukapedia.575669",
+      "title": "Institute Patrol 1",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_Patrol_1"
+    },
+    {
+      "id": "ref.nukapedia.577323",
+      "title": "Vault 76 overseer",
+      "workIds": [
+        "work.fallout_76",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_76_overseer"
+    },
+    {
+      "id": "ref.nukapedia.591743",
+      "title": "Valentine (Wild Appalachia)",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Valentine_(Wild_Appalachia)"
+    },
+    {
+      "id": "ref.nukapedia.618098",
+      "title": "Institute agent",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Institute_agent"
+    },
+    {
+      "id": "ref.nukapedia.620090",
+      "title": "Fluffy (Wild Appalachia)",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fluffy_(Wild_Appalachia)"
+    },
+    {
+      "id": "ref.nukapedia.636475",
+      "title": "Enclave corpse",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Enclave_corpse"
+    },
+    {
+      "id": "ref.nukapedia.638977",
+      "title": "Responder courier",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Responder_courier"
+    },
+    {
+      "id": "ref.nukapedia.651268",
+      "title": "Civilian (Appalachia)",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Civilian_(Appalachia)"
+    },
+    {
+      "id": "ref.nukapedia.662008",
+      "title": "Automated Voting System of Appalachia",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Automated_Voting_System_of_Appalachia"
+    },
+    {
+      "id": "ref.nukapedia.770988",
+      "title": "Atlantic City",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Atlantic_City"
+    },
+    {
+      "id": "ref.nukapedia.853989",
+      "title": "Pilot (Minutemen)",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Pilot_(Minutemen)"
+    },
+    {
+      "id": "ref.nukapedia.896255",
+      "title": "Minutemen contact",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 69,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Minutemen_contact"
+    },
+    {
+      "id": "ref.nukapedia.1554",
+      "title": "Vault 13 overseer",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_13_overseer"
+    },
+    {
+      "id": "ref.nukapedia.1568",
+      "title": "Junktown",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Junktown"
+    },
+    {
+      "id": "ref.nukapedia.9283",
+      "title": "Minefield",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Minefield"
+    },
+    {
+      "id": "ref.nukapedia.9427",
+      "title": "Andale",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Andale"
+    },
+    {
+      "id": "ref.nukapedia.19161",
+      "title": "Church of the Children of Atom",
+      "workIds": [
+        "work.fallout_3",
+        "work.fallout_4",
+        "work.fallout_shelter"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Church_of_the_Children_of_Atom"
+    },
+    {
+      "id": "ref.nukapedia.55594",
+      "title": "Goodsprings",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Goodsprings"
+    },
+    {
+      "id": "ref.nukapedia.62544",
+      "title": "Fallout: New Vegas quests",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_New_Vegas_quests"
+    },
+    {
+      "id": "ref.nukapedia.87343",
+      "title": "Jacobstown",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Jacobstown"
+    },
+    {
+      "id": "ref.nukapedia.109971",
+      "title": "Vault 3",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_3"
+    },
+    {
+      "id": "ref.nukapedia.112127",
+      "title": "Vault 19",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_19"
+    },
+    {
+      "id": "ref.nukapedia.455033",
+      "title": "Salem",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Salem"
+    },
+    {
+      "id": "ref.nukapedia.463944",
+      "title": "Vault 111",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_111"
+    },
+    {
+      "id": "ref.nukapedia.478323",
+      "title": "ArcJet Systems",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/ArcJet_Systems"
+    },
+    {
+      "id": "ref.nukapedia.478952",
+      "title": "HalluciGen, Inc.",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/HalluciGen,_Inc."
+    },
+    {
+      "id": "ref.nukapedia.479223",
+      "title": "Suffolk County Charter School",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Suffolk_County_Charter_School"
+    },
+    {
+      "id": "ref.nukapedia.577342",
+      "title": "Fallout 76 characters",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_76_characters"
+    },
+    {
+      "id": "ref.nukapedia.578189",
+      "title": "Hornwright Industrial",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hornwright_Industrial"
+    },
+    {
+      "id": "ref.nukapedia.636318",
+      "title": "Fort Atlas",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fort_Atlas"
+    },
+    {
+      "id": "ref.nukapedia.647379",
+      "title": "Fallout 76 railways",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 68,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_76_railways"
+    },
+    {
+      "id": "ref.nukapedia.26210",
+      "title": "Maintenance robot (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Maintenance_robot_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.42186",
+      "title": "Tesla armor (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Tesla_armor_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.47035",
+      "title": "Fallout: Brotherhood of Steel robots and computers",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_robots_and_computers"
+    },
+    {
+      "id": "ref.nukapedia.67050",
+      "title": "Fallout: Brotherhood of Steel vehicles",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_vehicles"
+    },
+    {
+      "id": "ref.nukapedia.247317",
+      "title": "Hologram (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hologram_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.353676",
+      "title": "Monorail (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 65,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Monorail_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.47038",
+      "title": "Fallout: Brotherhood of Steel creatures",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 63,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_creatures"
+    },
+    {
+      "id": "ref.nukapedia.184667",
+      "title": "Glowing one (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 63,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Glowing_one_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.191962",
+      "title": "Radscorpion (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 63,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Radscorpion_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.465732",
+      "title": "Giant rat (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 63,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Giant_rat_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.465733",
+      "title": "Small rat (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 63,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Small_rat_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.835170",
+      "title": "Fisher (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 61,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fisher_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.2124",
+      "title": "Fallout: Brotherhood of Steel background",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 60,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_background"
+    },
+    {
+      "id": "ref.nukapedia.41692",
+      "title": "Fallout: Brotherhood of Steel cutscenes",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 60,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_cutscenes"
+    },
+    {
+      "id": "ref.nukapedia.634962",
+      "title": "Faction Profile – the Brotherhood of Steel (Fallout 3)",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 60,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Faction_Profile_%E2%80%93_the_Brotherhood_of_Steel_(Fallout_3)"
+    },
+    {
+      "id": "ref.nukapedia.662437",
+      "title": "Fallout: Brotherhood of Steel manual/Background",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 60,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_manual/Background"
+    },
+    {
+      "id": "ref.nukapedia.3557",
+      "title": "Fallout: Brotherhood of Steel trailers",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_trailers"
+    },
+    {
+      "id": "ref.nukapedia.54133",
+      "title": "Fallout: Brotherhood of Steel Official Strategy Guide",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_Official_Strategy_Guide"
+    },
+    {
+      "id": "ref.nukapedia.425936",
+      "title": "Fallout: Brotherhood of Steel manual",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_manual"
+    },
+    {
+      "id": "ref.nukapedia.447780",
+      "title": "Fallout: Brotherhood of Steel intro",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_intro"
+    },
+    {
+      "id": "ref.nukapedia.565334",
+      "title": "Fallout: Brotherhood of Steel notes",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_notes"
+    },
+    {
+      "id": "ref.nukapedia.579794",
+      "title": "Formation of the Brotherhood of Steel",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 59,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Formation_of_the_Brotherhood_of_Steel"
+    },
+    {
+      "id": "ref.nukapedia.4812",
+      "title": "Power armor (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Power_armor_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.23400",
+      "title": "Fallout: Brotherhood of Steel armor and clothing",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_armor_and_clothing"
+    },
+    {
+      "id": "ref.nukapedia.32276",
+      "title": "Clothes (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Clothes_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.34903",
+      "title": "Red Ryder BB gun (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Red_Ryder_BB_gun_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.40694",
+      "title": "Cleaver (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Cleaver_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.40748",
+      "title": "Combat shotgun (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Combat_shotgun_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.42771",
+      "title": "Power fist (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Power_fist_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.42873",
+      "title": "Slugger (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Slugger_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.43022",
+      "title": "Hunting rifle (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hunting_rifle_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.44668",
+      "title": "Laser pistol (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Laser_pistol_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.46746",
+      "title": "Fallout: Brotherhood of Steel keys",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout:_Brotherhood_of_Steel_keys"
+    },
+    {
+      "id": "ref.nukapedia.51272",
+      "title": "Super sledge (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Super_sledge_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.51658",
+      "title": "Metal armor (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Metal_armor_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.54016",
+      "title": "Leather armor (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Leather_armor_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.54044",
+      "title": "Combat armor (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Combat_armor_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.55826",
+      "title": "Double-barrel shotgun (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Double-barrel_shotgun_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.58840",
+      "title": "Beretta (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Beretta_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.64887",
+      "title": "Turbo plasma rifle (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Turbo_plasma_rifle_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.64888",
+      "title": "Plasma rifle (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Plasma_rifle_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.65311",
+      "title": "Frag grenade (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Frag_grenade_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.67891",
+      "title": "Plastic explosives (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Plastic_explosives_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.68334",
+      "title": "Flamethrower (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Flamethrower_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.68581",
+      "title": "Ripper (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Ripper_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.73586",
+      "title": "Assault rifle (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Assault_rifle_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.74500",
+      "title": "Mega power fist (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mega_power_fist_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.79453",
+      "title": "SMG (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/SMG_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.79524",
+      "title": "Minigun (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Minigun_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.79689",
+      "title": "Incendiary grenade (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Incendiary_grenade_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.79698",
+      "title": "Plasma grenade (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Plasma_grenade_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.79733",
+      "title": "Rocket launcher (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Rocket_launcher_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.93453",
+      "title": "Rocket (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Rocket_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.130437",
+      "title": "12 gauge shotgun shell (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/12_gauge_shotgun_shell_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.135248",
+      "title": "Combat knife (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Combat_knife_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.135465",
+      "title": "Desert Eagle (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Desert_Eagle_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.137002",
+      "title": "Sledgehammer (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Sledgehammer_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.151542",
+      "title": "Bottle cap (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Bottle_cap_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.202290",
+      "title": "Shiv (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Shiv_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.222317",
+      "title": "Small energy cell (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Small_energy_cell_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.245654",
+      "title": "Stimpak (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Stimpak_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.245665",
+      "title": "Super stimpak (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Super_stimpak_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.357176",
+      "title": "Flamethrower fuel (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 55,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Flamethrower_fuel_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.565810",
+      "title": "Dynamite (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 47,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Dynamite_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.565932",
+      "title": "Landmine (Fallout: Brotherhood of Steel)",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 47,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Landmine_(Fallout:_Brotherhood_of_Steel)"
+    },
+    {
+      "id": "ref.nukapedia.610194",
+      "title": "FEV lab",
+      "workIds": [
+        "work.fallout_4"
+      ],
+      "importanceScore": 35,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/FEV_lab"
+    },
+    {
+      "id": "ref.nukapedia.17211",
+      "title": "Failed FEV subject",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 34,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Failed_FEV_subject"
+    },
+    {
+      "id": "ref.nukapedia.656954",
+      "title": "FEV production facility",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 34,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/FEV_production_facility"
+    },
+    {
+      "id": "ref.nukapedia.14812",
+      "title": "Modified FEV",
+      "workIds": [
+        "work.fallout_3"
+      ],
+      "importanceScore": 29,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Modified_FEV"
+    },
+    {
+      "id": "ref.nukapedia.585298",
+      "title": "Mistaken Identity",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 28,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Mistaken_Identity"
+    },
+    {
+      "id": "ref.nukapedia.646965",
+      "title": "Fallout Bible 1 timeline",
+      "workIds": [
+        "work.fallout",
+        "work.fallout_2"
+      ],
+      "importanceScore": 27,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Fallout_Bible_1_timeline"
+    },
+    {
+      "id": "ref.nukapedia.649659",
+      "title": "Vault 96 cut content",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 27,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_96_cut_content"
+    },
+    {
+      "id": "ref.nukapedia.761990",
+      "title": "Regular Debbie (cut)",
+      "workIds": [
+        "work.fallout_76",
+        "work.the_pitt"
+      ],
+      "importanceScore": 27,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Regular_Debbie_(cut)"
+    },
+    {
+      "id": "ref.nukapedia.815110",
+      "title": "Vault 63 cut content",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 27,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_63_cut_content"
+    },
+    {
+      "id": "ref.nukapedia.820621",
+      "title": "The Bastion",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 27,
+      "materialStatus": "unused",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/The_Bastion"
+    },
+    {
+      "id": "ref.nukapedia.261097",
+      "title": "Hoover Dam checkpoint (cut content)",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 26,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hoover_Dam_checkpoint_(cut_content)"
+    },
+    {
+      "id": "ref.nukapedia.729460",
+      "title": "Liam Kelly",
+      "workIds": [
+        "work.fallout_76",
+        "work.the_pitt"
+      ],
+      "importanceScore": 25,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Liam_Kelly"
+    },
+    {
+      "id": "ref.nukapedia.7622",
+      "title": "Vault 13: A GURPS Post-Nuclear Adventure timeline",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 16,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Vault_13:_A_GURPS_Post-Nuclear_Adventure_timeline"
+    },
+    {
+      "id": "ref.nukapedia.422036",
+      "title": "Atticus (cut content)",
+      "workIds": [
+        "work.new_vegas"
+      ],
+      "importanceScore": 16,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Atticus_(cut_content)"
+    },
+    {
+      "id": "ref.nukapedia.606040",
+      "title": "Edith Bachmann",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 16,
+      "materialStatus": "unused",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Edith_Bachmann"
+    },
+    {
+      "id": "ref.nukapedia.615976",
+      "title": "Hale",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 16,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Hale"
+    },
+    {
+      "id": "ref.nukapedia.630416",
+      "title": "Ladek",
+      "workIds": [
+        "work.fallout_76"
+      ],
+      "importanceScore": 16,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Ladek"
+    },
+    {
+      "id": "ref.nukapedia.997",
+      "title": "FEV experiment disk",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 15,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/FEV_experiment_disk"
+    },
+    {
+      "id": "ref.nukapedia.996",
+      "title": "FEV research",
+      "workIds": [
+        "work.fallout"
+      ],
+      "importanceScore": 14,
+      "materialStatus": "released",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/FEV_research"
+    },
+    {
+      "id": "ref.nukapedia.46143",
+      "title": "Home-made shotgun",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 2,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Home-made_shotgun"
+    },
+    {
+      "id": "ref.nukapedia.282598",
+      "title": "Junk shotgun",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 2,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/Junk_shotgun"
+    },
+    {
+      "id": "ref.nukapedia.565676",
+      "title": "INSTAKILL hammer",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 2,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/INSTAKILL_hammer"
+    },
+    {
+      "id": "ref.nukapedia.565677",
+      "title": "INSTAKILL pistol",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 2,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/INSTAKILL_pistol"
+    },
+    {
+      "id": "ref.nukapedia.565744",
+      "title": "EMP device",
+      "workIds": [
+        "work.fallout_bos"
+      ],
+      "importanceScore": 2,
+      "materialStatus": "cut",
+      "primarySourceLeads": [],
+      "url": "https://fallout.fandom.com/wiki/EMP_device"
+    }
+  ]
+}

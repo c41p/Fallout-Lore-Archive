@@ -31,4 +31,12 @@ describe("canonical lore validation", () => {
     dataset.assertions.push({ id:"asrt.test.relative_b", subjectId:"ent.mariposa_rebellion", predicateId:"pred.occurred_at_time", object:{ temporal:{ kind:"relative", relativeConstraints:[{relation:"before",entityId:"ent.great_war"}] } }, assertionMode:"editorial_inference", epistemicStatus:"uncertain", continuityScope:["games_primary"] });
     expect(validateDataset(dataset).errors.join("\n")).toContain("contain a cycle");
   });
+  it("rejects dangling condition and outcome references", () => {
+    const dataset = copy();
+    dataset.assertions.find((assertion) => assertion.id === "asrt.f1.outcome.shady_ncr")!.conditionSetId = "cond.missing";
+    dataset.outcomeGroups[0].assertionIds.push("asrt.missing");
+    const errors = validateDataset(dataset).errors.join("\n");
+    expect(errors).toContain("missing condition set cond.missing");
+    expect(errors).toContain("missing outcome assertion asrt.missing");
+  });
 });

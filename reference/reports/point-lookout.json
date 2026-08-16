@@ -1,0 +1,43 @@
+{
+  "workId": "work.point_lookout",
+  "slug": "point-lookout",
+  "title": "Point Lookout",
+  "referenceSubjects": 31,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 31,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 0,
+  "majorLore": 0,
+  "supportingLore": 24,
+  "minorLore": 7,
+  "deepResearchCandidates": 0,
+  "tier1Gaps": 0,
+  "tier2Gaps": 24,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "creature": {
+      "total": 2,
+      "matched": 0,
+      "missing": 2
+    },
+    "person": {
+      "total": 5,
+      "matched": 0,
+      "missing": 5
+    },
+    "place": {
+      "total": 21,
+      "matched": 0,
+      "missing": 21
+    },
+    "organisation": {
+      "total": 3,
+      "matched": 0,
+      "missing": 3
+    }
+  }
+}

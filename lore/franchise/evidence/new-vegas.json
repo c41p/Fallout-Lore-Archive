@@ -1,0 +1,770 @@
+[
+  {
+    "id": "ev.fr.courier.1",
+    "targetId": "asrt.fr.courier.role",
+    "sourceItemId": "src.ref.courier",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.courier.2",
+    "targetId": "asrt.fr.courier.a",
+    "sourceItemId": "src.ref.courier",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.courier.3",
+    "targetId": "asrt.fr.courier.b",
+    "sourceItemId": "src.ref.courier",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.benny.1",
+    "targetId": "asrt.fr.benny.role",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.benny.2",
+    "targetId": "asrt.fr.benny.a",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.benny.3",
+    "targetId": "asrt.fr.benny.b",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.platinum_chip.1",
+    "targetId": "asrt.fr.platinum_chip.role",
+    "sourceItemId": "src.ref.platinum_chip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.platinum_chip.2",
+    "targetId": "asrt.fr.platinum_chip.a",
+    "sourceItemId": "src.ref.platinum_chip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.platinum_chip.3",
+    "targetId": "asrt.fr.platinum_chip.b",
+    "sourceItemId": "src.ref.platinum_chip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lucky_38.1",
+    "targetId": "asrt.fr.lucky_38.role",
+    "sourceItemId": "src.ref.lucky_38",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lucky_38.2",
+    "targetId": "asrt.fr.lucky_38.a",
+    "sourceItemId": "src.ref.lucky_38",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lucky_38.3",
+    "targetId": "asrt.fr.lucky_38.b",
+    "sourceItemId": "src.ref.lucky_38",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vegas_strip.1",
+    "targetId": "asrt.fr.vegas_strip.role",
+    "sourceItemId": "src.ref.vegas_strip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vegas_strip.2",
+    "targetId": "asrt.fr.vegas_strip.a",
+    "sourceItemId": "src.ref.vegas_strip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vegas_strip.3",
+    "targetId": "asrt.fr.vegas_strip.b",
+    "sourceItemId": "src.ref.vegas_strip",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.yes_man.1",
+    "targetId": "asrt.fr.yes_man.role",
+    "sourceItemId": "src.ref.yes_man",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.yes_man.2",
+    "targetId": "asrt.fr.yes_man.a",
+    "sourceItemId": "src.ref.yes_man",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.yes_man.3",
+    "targetId": "asrt.fr.yes_man.b",
+    "sourceItemId": "src.ref.yes_man",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodsprings.1",
+    "targetId": "asrt.fr.goodsprings.role",
+    "sourceItemId": "src.ref.goodsprings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodsprings.2",
+    "targetId": "asrt.fr.goodsprings.a",
+    "sourceItemId": "src.ref.goodsprings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.goodsprings.3",
+    "targetId": "asrt.fr.goodsprings.b",
+    "sourceItemId": "src.ref.goodsprings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.freeside.1",
+    "targetId": "asrt.fr.freeside.role",
+    "sourceItemId": "src.ref.freeside",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.freeside.2",
+    "targetId": "asrt.fr.freeside.a",
+    "sourceItemId": "src.ref.freeside",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.freeside.3",
+    "targetId": "asrt.fr.freeside.b",
+    "sourceItemId": "src.ref.freeside",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kings.1",
+    "targetId": "asrt.fr.kings.role",
+    "sourceItemId": "src.ref.kings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kings.2",
+    "targetId": "asrt.fr.kings.a",
+    "sourceItemId": "src.ref.kings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.kings.3",
+    "targetId": "asrt.fr.kings.b",
+    "sourceItemId": "src.ref.kings",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.followers_apocalypse.1",
+    "targetId": "asrt.fr.followers_apocalypse.role",
+    "sourceItemId": "src.ref.followers_apocalypse",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.followers_apocalypse.2",
+    "targetId": "asrt.fr.followers_apocalypse.a",
+    "sourceItemId": "src.ref.followers_apocalypse",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.followers_apocalypse.3",
+    "targetId": "asrt.fr.followers_apocalypse.b",
+    "sourceItemId": "src.ref.followers_apocalypse",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.boomers.1",
+    "targetId": "asrt.fr.boomers.role",
+    "sourceItemId": "src.ref.boomers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.boomers.2",
+    "targetId": "asrt.fr.boomers.a",
+    "sourceItemId": "src.ref.boomers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.boomers.3",
+    "targetId": "asrt.fr.boomers.b",
+    "sourceItemId": "src.ref.boomers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nellis.1",
+    "targetId": "asrt.fr.nellis.role",
+    "sourceItemId": "src.ref.nellis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nellis.2",
+    "targetId": "asrt.fr.nellis.a",
+    "sourceItemId": "src.ref.nellis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nellis.3",
+    "targetId": "asrt.fr.nellis.b",
+    "sourceItemId": "src.ref.nellis",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hidden_valley.1",
+    "targetId": "asrt.fr.hidden_valley.role",
+    "sourceItemId": "src.ref.hidden_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hidden_valley.2",
+    "targetId": "asrt.fr.hidden_valley.a",
+    "sourceItemId": "src.ref.hidden_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hidden_valley.3",
+    "targetId": "asrt.fr.hidden_valley.b",
+    "sourceItemId": "src.ref.hidden_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_mccarran.1",
+    "targetId": "asrt.fr.camp_mccarran.role",
+    "sourceItemId": "src.ref.camp_mccarran",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_mccarran.2",
+    "targetId": "asrt.fr.camp_mccarran.a",
+    "sourceItemId": "src.ref.camp_mccarran",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_mccarran.3",
+    "targetId": "asrt.fr.camp_mccarran.b",
+    "sourceItemId": "src.ref.camp_mccarran",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.the_fort.1",
+    "targetId": "asrt.fr.the_fort.role",
+    "sourceItemId": "src.ref.the_fort",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.the_fort.2",
+    "targetId": "asrt.fr.the_fort.a",
+    "sourceItemId": "src.ref.the_fort",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.the_fort.3",
+    "targetId": "asrt.fr.the_fort.b",
+    "sourceItemId": "src.ref.the_fort",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_golf.1",
+    "targetId": "asrt.fr.camp_golf.role",
+    "sourceItemId": "src.ref.camp_golf",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_golf.2",
+    "targetId": "asrt.fr.camp_golf.a",
+    "sourceItemId": "src.ref.camp_golf",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.camp_golf.3",
+    "targetId": "asrt.fr.camp_golf.b",
+    "sourceItemId": "src.ref.camp_golf",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nipton.1",
+    "targetId": "asrt.fr.nipton.role",
+    "sourceItemId": "src.ref.nipton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nipton.2",
+    "targetId": "asrt.fr.nipton.a",
+    "sourceItemId": "src.ref.nipton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.nipton.3",
+    "targetId": "asrt.fr.nipton.b",
+    "sourceItemId": "src.ref.nipton",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.helios_one.1",
+    "targetId": "asrt.fr.helios_one.role",
+    "sourceItemId": "src.ref.helios_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.helios_one.2",
+    "targetId": "asrt.fr.helios_one.a",
+    "sourceItemId": "src.ref.helios_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.helios_one.3",
+    "targetId": "asrt.fr.helios_one.b",
+    "sourceItemId": "src.ref.helios_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.elijah.1",
+    "targetId": "asrt.fr.elijah.role",
+    "sourceItemId": "src.ref.elijah",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.elijah.2",
+    "targetId": "asrt.fr.elijah.a",
+    "sourceItemId": "src.ref.elijah",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.elijah.3",
+    "targetId": "asrt.fr.elijah.b",
+    "sourceItemId": "src.ref.elijah",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.veronica.1",
+    "targetId": "asrt.fr.veronica.role",
+    "sourceItemId": "src.ref.veronica",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.veronica.2",
+    "targetId": "asrt.fr.veronica.a",
+    "sourceItemId": "src.ref.veronica",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.veronica.3",
+    "targetId": "asrt.fr.veronica.b",
+    "sourceItemId": "src.ref.veronica",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sierra_madre.1",
+    "targetId": "asrt.fr.sierra_madre.role",
+    "sourceItemId": "src.ref.sierra_madre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sierra_madre.2",
+    "targetId": "asrt.fr.sierra_madre.a",
+    "sourceItemId": "src.ref.sierra_madre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sierra_madre.3",
+    "targetId": "asrt.fr.sierra_madre.b",
+    "sourceItemId": "src.ref.sierra_madre",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.big_mt.1",
+    "targetId": "asrt.fr.big_mt.role",
+    "sourceItemId": "src.ref.big_mt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.big_mt.2",
+    "targetId": "asrt.fr.big_mt.a",
+    "sourceItemId": "src.ref.big_mt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.big_mt.3",
+    "targetId": "asrt.fr.big_mt.b",
+    "sourceItemId": "src.ref.big_mt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.think_tank.1",
+    "targetId": "asrt.fr.think_tank.role",
+    "sourceItemId": "src.ref.think_tank",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.think_tank.2",
+    "targetId": "asrt.fr.think_tank.a",
+    "sourceItemId": "src.ref.think_tank",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.think_tank.3",
+    "targetId": "asrt.fr.think_tank.b",
+    "sourceItemId": "src.ref.think_tank",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.ulysses.1",
+    "targetId": "asrt.fr.ulysses.role",
+    "sourceItemId": "src.ref.ulysses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.ulysses.2",
+    "targetId": "asrt.fr.ulysses.a",
+    "sourceItemId": "src.ref.ulysses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.ulysses.3",
+    "targetId": "asrt.fr.ulysses.b",
+    "sourceItemId": "src.ref.ulysses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.divide.1",
+    "targetId": "asrt.fr.divide.role",
+    "sourceItemId": "src.ref.divide",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.divide.2",
+    "targetId": "asrt.fr.divide.a",
+    "sourceItemId": "src.ref.divide",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.divide.3",
+    "targetId": "asrt.fr.divide.b",
+    "sourceItemId": "src.ref.divide",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.marked_men.1",
+    "targetId": "asrt.fr.marked_men.role",
+    "sourceItemId": "src.ref.marked_men",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.marked_men.2",
+    "targetId": "asrt.fr.marked_men.a",
+    "sourceItemId": "src.ref.marked_men",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.marked_men.3",
+    "targetId": "asrt.fr.marked_men.b",
+    "sourceItemId": "src.ref.marked_men",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.tunnelers.1",
+    "targetId": "asrt.fr.tunnelers.role",
+    "sourceItemId": "src.ref.tunnelers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.tunnelers.2",
+    "targetId": "asrt.fr.tunnelers.a",
+    "sourceItemId": "src.ref.tunnelers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.tunnelers.3",
+    "targetId": "asrt.fr.tunnelers.b",
+    "sourceItemId": "src.ref.tunnelers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.joshua_graham.1",
+    "targetId": "asrt.fr.joshua_graham.role",
+    "sourceItemId": "src.ref.joshua_graham",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.joshua_graham.2",
+    "targetId": "asrt.fr.joshua_graham.a",
+    "sourceItemId": "src.ref.joshua_graham",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.joshua_graham.3",
+    "targetId": "asrt.fr.joshua_graham.b",
+    "sourceItemId": "src.ref.joshua_graham",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.zion.1",
+    "targetId": "asrt.fr.zion.role",
+    "sourceItemId": "src.ref.zion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.zion.2",
+    "targetId": "asrt.fr.zion.a",
+    "sourceItemId": "src.ref.zion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.zion.3",
+    "targetId": "asrt.fr.zion.b",
+    "sourceItemId": "src.ref.zion",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.daniel_hh.1",
+    "targetId": "asrt.fr.daniel_hh.role",
+    "sourceItemId": "src.ref.daniel_hh",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.daniel_hh.2",
+    "targetId": "asrt.fr.daniel_hh.a",
+    "sourceItemId": "src.ref.daniel_hh",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.daniel_hh.3",
+    "targetId": "asrt.fr.daniel_hh.b",
+    "sourceItemId": "src.ref.daniel_hh",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dead_horses.1",
+    "targetId": "asrt.fr.dead_horses.role",
+    "sourceItemId": "src.ref.dead_horses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dead_horses.2",
+    "targetId": "asrt.fr.dead_horses.a",
+    "sourceItemId": "src.ref.dead_horses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.dead_horses.3",
+    "targetId": "asrt.fr.dead_horses.b",
+    "sourceItemId": "src.ref.dead_horses",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sorrows.1",
+    "targetId": "asrt.fr.sorrows.role",
+    "sourceItemId": "src.ref.sorrows",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sorrows.2",
+    "targetId": "asrt.fr.sorrows.a",
+    "sourceItemId": "src.ref.sorrows",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.sorrows.3",
+    "targetId": "asrt.fr.sorrows.b",
+    "sourceItemId": "src.ref.sorrows",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  }
+]

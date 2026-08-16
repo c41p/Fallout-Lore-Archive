@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "ev.fr.support.sulik.1",
+    "targetId": "asrt.fr.support.sulik.role",
+    "sourceItemId": "src.ref.support.sulik",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.sulik.2",
+    "targetId": "asrt.fr.support.sulik.link",
+    "sourceItemId": "src.ref.support.sulik",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vic.1",
+    "targetId": "asrt.fr.support.vic.role",
+    "sourceItemId": "src.ref.support.vic",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vic.2",
+    "targetId": "asrt.fr.support.vic.link",
+    "sourceItemId": "src.ref.support.vic",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_cassidy.1",
+    "targetId": "asrt.fr.support.john_cassidy.role",
+    "sourceItemId": "src.ref.support.john_cassidy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_cassidy.2",
+    "targetId": "asrt.fr.support.john_cassidy.link",
+    "sourceItemId": "src.ref.support.john_cassidy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.goris.1",
+    "targetId": "asrt.fr.support.goris.role",
+    "sourceItemId": "src.ref.support.goris",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.goris.2",
+    "targetId": "asrt.fr.support.goris.link",
+    "sourceItemId": "src.ref.support.goris",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lenny.1",
+    "targetId": "asrt.fr.support.lenny.role",
+    "sourceItemId": "src.ref.support.lenny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lenny.2",
+    "targetId": "asrt.fr.support.lenny.link",
+    "sourceItemId": "src.ref.support.lenny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.skynet_robot.1",
+    "targetId": "asrt.fr.support.skynet_robot.role",
+    "sourceItemId": "src.ref.support.skynet_robot",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.skynet_robot.2",
+    "targetId": "asrt.fr.support.skynet_robot.link",
+    "sourceItemId": "src.ref.support.skynet_robot",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lynette.1",
+    "targetId": "asrt.fr.support.lynette.role",
+    "sourceItemId": "src.ref.support.lynette",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lynette.2",
+    "targetId": "asrt.fr.support.lynette.link",
+    "sourceItemId": "src.ref.support.lynette",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_bishop.1",
+    "targetId": "asrt.fr.support.john_bishop.role",
+    "sourceItemId": "src.ref.support.john_bishop",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_bishop.2",
+    "targetId": "asrt.fr.support.john_bishop.link",
+    "sourceItemId": "src.ref.support.john_bishop",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jesus_mordino.1",
+    "targetId": "asrt.fr.support.jesus_mordino.role",
+    "sourceItemId": "src.ref.support.jesus_mordino",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jesus_mordino.2",
+    "targetId": "asrt.fr.support.jesus_mordino.link",
+    "sourceItemId": "src.ref.support.jesus_mordino",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.salvatore.1",
+    "targetId": "asrt.fr.support.salvatore.role",
+    "sourceItemId": "src.ref.support.salvatore",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.salvatore.2",
+    "targetId": "asrt.fr.support.salvatore.link",
+    "sourceItemId": "src.ref.support.salvatore",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.orville_wright.1",
+    "targetId": "asrt.fr.support.orville_wright.role",
+    "sourceItemId": "src.ref.support.orville_wright",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.orville_wright.2",
+    "targetId": "asrt.fr.support.orville_wright.link",
+    "sourceItemId": "src.ref.support.orville_wright",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fawkes.1",
+    "targetId": "asrt.fr.support.fawkes.role",
+    "sourceItemId": "src.ref.support.fawkes",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fawkes.2",
+    "targetId": "asrt.fr.support.fawkes.link",
+    "sourceItemId": "src.ref.support.fawkes",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.charon.1",
+    "targetId": "asrt.fr.support.charon.role",
+    "sourceItemId": "src.ref.support.charon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.charon.2",
+    "targetId": "asrt.fr.support.charon.link",
+    "sourceItemId": "src.ref.support.charon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.star_paladin_cross.1",
+    "targetId": "asrt.fr.support.star_paladin_cross.role",
+    "sourceItemId": "src.ref.support.star_paladin_cross",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.star_paladin_cross.2",
+    "targetId": "asrt.fr.support.star_paladin_cross.link",
+    "sourceItemId": "src.ref.support.star_paladin_cross",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.butch_deloria.1",
+    "targetId": "asrt.fr.support.butch_deloria.role",
+    "sourceItemId": "src.ref.support.butch_deloria",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.butch_deloria.2",
+    "targetId": "asrt.fr.support.butch_deloria.link",
+    "sourceItemId": "src.ref.support.butch_deloria",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jericho_fo3.1",
+    "targetId": "asrt.fr.support.jericho_fo3.role",
+    "sourceItemId": "src.ref.support.jericho_fo3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jericho_fo3.2",
+    "targetId": "asrt.fr.support.jericho_fo3.link",
+    "sourceItemId": "src.ref.support.jericho_fo3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.clover.1",
+    "targetId": "asrt.fr.support.clover.role",
+    "sourceItemId": "src.ref.support.clover",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.clover.2",
+    "targetId": "asrt.fr.support.clover.link",
+    "sourceItemId": "src.ref.support.clover",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.sergeant_rl3.1",
+    "targetId": "asrt.fr.support.sergeant_rl3.role",
+    "sourceItemId": "src.ref.support.sergeant_rl3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.sergeant_rl3.2",
+    "targetId": "asrt.fr.support.sergeant_rl3.link",
+    "sourceItemId": "src.ref.support.sergeant_rl3",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_87.1",
+    "targetId": "asrt.fr.support.vault_87.role",
+    "sourceItemId": "src.ref.support.vault_87",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_87.2",
+    "targetId": "asrt.fr.support.vault_87.link",
+    "sourceItemId": "src.ref.support.vault_87",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_112.1",
+    "targetId": "asrt.fr.support.vault_112.role",
+    "sourceItemId": "src.ref.support.vault_112",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_112.2",
+    "targetId": "asrt.fr.support.vault_112.link",
+    "sourceItemId": "src.ref.support.vault_112",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.tranquility_lane.1",
+    "targetId": "asrt.fr.support.tranquility_lane.role",
+    "sourceItemId": "src.ref.support.tranquility_lane",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.tranquility_lane.2",
+    "targetId": "asrt.fr.support.tranquility_lane.link",
+    "sourceItemId": "src.ref.support.tranquility_lane",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.raven_rock.1",
+    "targetId": "asrt.fr.support.raven_rock.role",
+    "sourceItemId": "src.ref.support.raven_rock",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.raven_rock.2",
+    "targetId": "asrt.fr.support.raven_rock.link",
+    "sourceItemId": "src.ref.support.raven_rock",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.adams_air_force_base.1",
+    "targetId": "asrt.fr.support.adams_air_force_base.role",
+    "sourceItemId": "src.ref.support.adams_air_force_base",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.adams_air_force_base.2",
+    "targetId": "asrt.fr.support.adams_air_force_base.link",
+    "sourceItemId": "src.ref.support.adams_air_force_base",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.alistair_tenpenny.1",
+    "targetId": "asrt.fr.support.alistair_tenpenny.role",
+    "sourceItemId": "src.ref.support.alistair_tenpenny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.alistair_tenpenny.2",
+    "targetId": "asrt.fr.support.alistair_tenpenny.link",
+    "sourceItemId": "src.ref.support.alistair_tenpenny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.moira_brown.1",
+    "targetId": "asrt.fr.support.moira_brown.role",
+    "sourceItemId": "src.ref.support.moira_brown",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.moira_brown.2",
+    "targetId": "asrt.fr.support.moira_brown.link",
+    "sourceItemId": "src.ref.support.moira_brown",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lucas_simms.1",
+    "targetId": "asrt.fr.support.lucas_simms.role",
+    "sourceItemId": "src.ref.support.lucas_simms",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lucas_simms.2",
+    "targetId": "asrt.fr.support.lucas_simms.link",
+    "sourceItemId": "src.ref.support.lucas_simms",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.craig_boone.1",
+    "targetId": "asrt.fr.support.craig_boone.role",
+    "sourceItemId": "src.ref.support.craig_boone",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.craig_boone.2",
+    "targetId": "asrt.fr.support.craig_boone.link",
+    "sourceItemId": "src.ref.support.craig_boone",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.arcade_gannon.1",
+    "targetId": "asrt.fr.support.arcade_gannon.role",
+    "sourceItemId": "src.ref.support.arcade_gannon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.arcade_gannon.2",
+    "targetId": "asrt.fr.support.arcade_gannon.link",
+    "sourceItemId": "src.ref.support.arcade_gannon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.rose_cassidy.1",
+    "targetId": "asrt.fr.support.rose_cassidy.role",
+    "sourceItemId": "src.ref.support.rose_cassidy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.rose_cassidy.2",
+    "targetId": "asrt.fr.support.rose_cassidy.link",
+    "sourceItemId": "src.ref.support.rose_cassidy",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.raul_tejada.1",
+    "targetId": "asrt.fr.support.raul_tejada.role",
+    "sourceItemId": "src.ref.support.raul_tejada",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.raul_tejada.2",
+    "targetId": "asrt.fr.support.raul_tejada.link",
+    "sourceItemId": "src.ref.support.raul_tejada",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lily_bowen.1",
+    "targetId": "asrt.fr.support.lily_bowen.role",
+    "sourceItemId": "src.ref.support.lily_bowen",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.lily_bowen.2",
+    "targetId": "asrt.fr.support.lily_bowen.link",
+    "sourceItemId": "src.ref.support.lily_bowen",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ede.1",
+    "targetId": "asrt.fr.support.ede.role",
+    "sourceItemId": "src.ref.support.ede",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ede.2",
+    "targetId": "asrt.fr.support.ede.link",
+    "sourceItemId": "src.ref.support.ede",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.rex_cyberdog.1",
+    "targetId": "asrt.fr.support.rex_cyberdog.role",
+    "sourceItemId": "src.ref.support.rex_cyberdog",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.rex_cyberdog.2",
+    "targetId": "asrt.fr.support.rex_cyberdog.link",
+    "sourceItemId": "src.ref.support.rex_cyberdog",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.legate_lanius.1",
+    "targetId": "asrt.fr.support.legate_lanius.role",
+    "sourceItemId": "src.ref.support.legate_lanius",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.legate_lanius.2",
+    "targetId": "asrt.fr.support.legate_lanius.link",
+    "sourceItemId": "src.ref.support.legate_lanius",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.chief_hanlon.1",
+    "targetId": "asrt.fr.support.chief_hanlon.role",
+    "sourceItemId": "src.ref.support.chief_hanlon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.chief_hanlon.2",
+    "targetId": "asrt.fr.support.chief_hanlon.link",
+    "sourceItemId": "src.ref.support.chief_hanlon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.aaron_kimball.1",
+    "targetId": "asrt.fr.support.aaron_kimball.role",
+    "sourceItemId": "src.ref.support.aaron_kimball",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.aaron_kimball.2",
+    "targetId": "asrt.fr.support.aaron_kimball.link",
+    "sourceItemId": "src.ref.support.aaron_kimball",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ncr_rangers.1",
+    "targetId": "asrt.fr.support.ncr_rangers.role",
+    "sourceItemId": "src.ref.support.ncr_rangers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ncr_rangers.2",
+    "targetId": "asrt.fr.support.ncr_rangers.link",
+    "sourceItemId": "src.ref.support.ncr_rangers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fiends.1",
+    "targetId": "asrt.fr.support.fiends.role",
+    "sourceItemId": "src.ref.support.fiends",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fiends.2",
+    "targetId": "asrt.fr.support.fiends.link",
+    "sourceItemId": "src.ref.support.fiends",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.powder_gangers.1",
+    "targetId": "asrt.fr.support.powder_gangers.role",
+    "sourceItemId": "src.ref.support.powder_gangers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.powder_gangers.2",
+    "targetId": "asrt.fr.support.powder_gangers.link",
+    "sourceItemId": "src.ref.support.powder_gangers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.elder_mcnamara.1",
+    "targetId": "asrt.fr.support.elder_mcnamara.role",
+    "sourceItemId": "src.ref.support.elder_mcnamara",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.elder_mcnamara.2",
+    "targetId": "asrt.fr.support.elder_mcnamara.link",
+    "sourceItemId": "src.ref.support.elder_mcnamara",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.head_paladin_hardin.1",
+    "targetId": "asrt.fr.support.head_paladin_hardin.role",
+    "sourceItemId": "src.ref.support.head_paladin_hardin",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.head_paladin_hardin.2",
+    "targetId": "asrt.fr.support.head_paladin_hardin.link",
+    "sourceItemId": "src.ref.support.head_paladin_hardin",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jacobstown.1",
+    "targetId": "asrt.fr.support.jacobstown.role",
+    "sourceItemId": "src.ref.support.jacobstown",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.jacobstown.2",
+    "targetId": "asrt.fr.support.jacobstown.link",
+    "sourceItemId": "src.ref.support.jacobstown",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.piper_wright.1",
+    "targetId": "asrt.fr.support.piper_wright.role",
+    "sourceItemId": "src.ref.support.piper_wright",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.piper_wright.2",
+    "targetId": "asrt.fr.support.piper_wright.link",
+    "sourceItemId": "src.ref.support.piper_wright",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.cait.1",
+    "targetId": "asrt.fr.support.cait.role",
+    "sourceItemId": "src.ref.support.cait",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.cait.2",
+    "targetId": "asrt.fr.support.cait.link",
+    "sourceItemId": "src.ref.support.cait",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.curie.1",
+    "targetId": "asrt.fr.support.curie.role",
+    "sourceItemId": "src.ref.support.curie",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.curie.2",
+    "targetId": "asrt.fr.support.curie.link",
+    "sourceItemId": "src.ref.support.curie",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.deacon.1",
+    "targetId": "asrt.fr.support.deacon.role",
+    "sourceItemId": "src.ref.support.deacon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.deacon.2",
+    "targetId": "asrt.fr.support.deacon.link",
+    "sourceItemId": "src.ref.support.deacon",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.paladin_danse.1",
+    "targetId": "asrt.fr.support.paladin_danse.role",
+    "sourceItemId": "src.ref.support.paladin_danse",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.paladin_danse.2",
+    "targetId": "asrt.fr.support.paladin_danse.link",
+    "sourceItemId": "src.ref.support.paladin_danse",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_hancock.1",
+    "targetId": "asrt.fr.support.john_hancock.role",
+    "sourceItemId": "src.ref.support.john_hancock",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.john_hancock.2",
+    "targetId": "asrt.fr.support.john_hancock.link",
+    "sourceItemId": "src.ref.support.john_hancock",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.robert_maccready.1",
+    "targetId": "asrt.fr.support.robert_maccready.role",
+    "sourceItemId": "src.ref.support.robert_maccready",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.robert_maccready.2",
+    "targetId": "asrt.fr.support.robert_maccready.link",
+    "sourceItemId": "src.ref.support.robert_maccready",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.strong.1",
+    "targetId": "asrt.fr.support.strong.role",
+    "sourceItemId": "src.ref.support.strong",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.strong.2",
+    "targetId": "asrt.fr.support.strong.link",
+    "sourceItemId": "src.ref.support.strong",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.x6_88.1",
+    "targetId": "asrt.fr.support.x6_88.role",
+    "sourceItemId": "src.ref.support.x6_88",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.x6_88.2",
+    "targetId": "asrt.fr.support.x6_88.link",
+    "sourceItemId": "src.ref.support.x6_88",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.desdemona.1",
+    "targetId": "asrt.fr.support.desdemona.role",
+    "sourceItemId": "src.ref.support.desdemona",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.desdemona.2",
+    "targetId": "asrt.fr.support.desdemona.link",
+    "sourceItemId": "src.ref.support.desdemona",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ada.1",
+    "targetId": "asrt.fr.support.ada.role",
+    "sourceItemId": "src.ref.support.ada",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.ada.2",
+    "targetId": "asrt.fr.support.ada.link",
+    "sourceItemId": "src.ref.support.ada",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.gunners.1",
+    "targetId": "asrt.fr.support.gunners.role",
+    "sourceItemId": "src.ref.support.gunners",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.gunners.2",
+    "targetId": "asrt.fr.support.gunners.link",
+    "sourceItemId": "src.ref.support.gunners",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_88.1",
+    "targetId": "asrt.fr.support.vault_88.role",
+    "sourceItemId": "src.ref.support.vault_88",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.vault_88.2",
+    "targetId": "asrt.fr.support.vault_88.link",
+    "sourceItemId": "src.ref.support.vault_88",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.overseer_barstow.1",
+    "targetId": "asrt.fr.support.overseer_barstow.role",
+    "sourceItemId": "src.ref.support.overseer_barstow",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.overseer_barstow.2",
+    "targetId": "asrt.fr.support.overseer_barstow.link",
+    "sourceItemId": "src.ref.support.overseer_barstow",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.duchess_76.1",
+    "targetId": "asrt.fr.support.duchess_76.role",
+    "sourceItemId": "src.ref.support.duchess_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.duchess_76.2",
+    "targetId": "asrt.fr.support.duchess_76.link",
+    "sourceItemId": "src.ref.support.duchess_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.meg_groberg.1",
+    "targetId": "asrt.fr.support.meg_groberg.role",
+    "sourceItemId": "src.ref.support.meg_groberg",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.meg_groberg.2",
+    "targetId": "asrt.fr.support.meg_groberg.link",
+    "sourceItemId": "src.ref.support.meg_groberg",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.paige_76.1",
+    "targetId": "asrt.fr.support.paige_76.role",
+    "sourceItemId": "src.ref.support.paige_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.paige_76.2",
+    "targetId": "asrt.fr.support.paige_76.link",
+    "sourceItemId": "src.ref.support.paige_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.scribe_valdez.1",
+    "targetId": "asrt.fr.support.scribe_valdez.role",
+    "sourceItemId": "src.ref.support.scribe_valdez",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.scribe_valdez.2",
+    "targetId": "asrt.fr.support.scribe_valdez.link",
+    "sourceItemId": "src.ref.support.scribe_valdez",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.blue_ridge_caravan.1",
+    "targetId": "asrt.fr.support.blue_ridge_caravan.role",
+    "sourceItemId": "src.ref.support.blue_ridge_caravan",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.blue_ridge_caravan.2",
+    "targetId": "asrt.fr.support.blue_ridge_caravan.link",
+    "sourceItemId": "src.ref.support.blue_ridge_caravan",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.union_pitt.1",
+    "targetId": "asrt.fr.support.union_pitt.role",
+    "sourceItemId": "src.ref.support.union_pitt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.union_pitt.2",
+    "targetId": "asrt.fr.support.union_pitt.link",
+    "sourceItemId": "src.ref.support.union_pitt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fanatics_pitt.1",
+    "targetId": "asrt.fr.support.fanatics_pitt.role",
+    "sourceItemId": "src.ref.support.fanatics_pitt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.fanatics_pitt.2",
+    "targetId": "asrt.fr.support.fanatics_pitt.link",
+    "sourceItemId": "src.ref.support.fanatics_pitt",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.mothman_cultists.1",
+    "targetId": "asrt.fr.support.mothman_cultists.role",
+    "sourceItemId": "src.ref.support.mothman_cultists",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  },
+  {
+    "id": "ev.fr.support.mothman_cultists.2",
+    "targetId": "asrt.fr.support.mothman_cultists.link",
+    "sourceItemId": "src.ref.support.mothman_cultists",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support appropriate to this Tier 2 record; central contested claims require primary deepening."
+  }
+]

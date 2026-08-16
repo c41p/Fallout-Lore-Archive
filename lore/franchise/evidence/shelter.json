@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ev.fr.shelter_overseer.1",
+    "targetId": "asrt.fr.shelter_overseer.role",
+    "sourceItemId": "src.ref.shelter_overseer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_overseer.2",
+    "targetId": "asrt.fr.shelter_overseer.a",
+    "sourceItemId": "src.ref.shelter_overseer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_overseer.3",
+    "targetId": "asrt.fr.shelter_overseer.b",
+    "sourceItemId": "src.ref.shelter_overseer",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_vault.1",
+    "targetId": "asrt.fr.shelter_vault.role",
+    "sourceItemId": "src.ref.shelter_vault",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_vault.2",
+    "targetId": "asrt.fr.shelter_vault.a",
+    "sourceItemId": "src.ref.shelter_vault",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_vault.3",
+    "targetId": "asrt.fr.shelter_vault.b",
+    "sourceItemId": "src.ref.shelter_vault",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_dwellers.1",
+    "targetId": "asrt.fr.shelter_dwellers.role",
+    "sourceItemId": "src.ref.shelter_dwellers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_dwellers.2",
+    "targetId": "asrt.fr.shelter_dwellers.a",
+    "sourceItemId": "src.ref.shelter_dwellers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.shelter_dwellers.3",
+    "targetId": "asrt.fr.shelter_dwellers.b",
+    "sourceItemId": "src.ref.shelter_dwellers",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.fallout_shelter_simulation.1",
+    "targetId": "asrt.fr.fallout_shelter_simulation.role",
+    "sourceItemId": "src.ref.fallout_shelter_simulation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.fallout_shelter_simulation.2",
+    "targetId": "asrt.fr.fallout_shelter_simulation.a",
+    "sourceItemId": "src.ref.fallout_shelter_simulation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  },
+  {
+    "id": "ev.fr.fallout_shelter_simulation.3",
+    "targetId": "asrt.fr.fallout_shelter_simulation.b",
+    "sourceItemId": "src.ref.fallout_shelter_simulation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support with gameplay-forward scope; not presented as a fixed world event."
+  }
+]

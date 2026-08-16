@@ -1,0 +1,158 @@
+[
+  {
+    "id": "asrt.fr.shelter_overseer.role",
+    "subjectId": "ent.shelter_overseer",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The player-defined manager role responsible for a simulated Vault in Fallout Shelter."
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_overseer.a",
+    "subjectId": "ent.shelter_overseer",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shelter_vault"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_overseer.b",
+    "subjectId": "ent.shelter_overseer",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fallout_shelter_simulation"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_vault.role",
+    "subjectId": "ent.shelter_vault",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The player-built Vault environment used by Fallout Shelter's management simulation."
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_vault.a",
+    "subjectId": "ent.shelter_vault",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shelter_overseer"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_vault.b",
+    "subjectId": "ent.shelter_vault",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fallout_shelter_simulation"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_dwellers.role",
+    "subjectId": "ent.shelter_dwellers",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The variable population managed inside a player-created Fallout Shelter Vault."
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_dwellers.a",
+    "subjectId": "ent.shelter_dwellers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shelter_vault"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.shelter_dwellers.b",
+    "subjectId": "ent.shelter_dwellers",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.fallout_shelter_simulation"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fallout_shelter_simulation.role",
+    "subjectId": "ent.fallout_shelter_simulation",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The archival continuity rule separating Fallout Shelter's management systems from unconditional franchise history."
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fallout_shelter_simulation.a",
+    "subjectId": "ent.fallout_shelter_simulation",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shelter_vault"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  },
+  {
+    "id": "asrt.fr.fallout_shelter_simulation.b",
+    "subjectId": "ent.fallout_shelter_simulation",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shelter_overseer"
+    },
+    "assertionMode": "editorial_inference",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "gameplay_forward_supplementary"
+    ]
+  }
+]

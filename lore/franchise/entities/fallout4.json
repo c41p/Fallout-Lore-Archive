@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "ent.sole_survivor",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Sole Survivor",
+    "summary": "The pre-War Vault 111 resident who emerges in 2287 and searches the Commonwealth for their abducted son.",
+    "description": "The pre-War Vault 111 resident who emerges in 2287 and searches the Commonwealth for their abducted son.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Sole Survivor is a player-defined role whose fixed history includes life before the Great War, cryogenic confinement in Vault 111 and the kidnapping of the infant Shaun. Their military or legal background depends on the chosen character."
+        ],
+        "assertionIds": [
+          "asrt.fr.sole_survivor.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_111",
+          "ent.shaun"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The search for Shaun links Diamond City, Nick Valentine, Kellogg and the Institute. That required investigation places the protagonist inside the Commonwealth's conflict among the Institute, Railroad, Minutemen and Brotherhood."
+        ],
+        "assertionIds": [
+          "asrt.fr.sole_survivor.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_111"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Faction allegiance, settlement building and the final institutional outcome are conditional. The archive therefore records shared discoveries and relationships without selecting a canonical ending."
+        ],
+        "assertionIds": [
+          "asrt.fr.sole_survivor.b"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.commonwealth",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "The Commonwealth",
+    "summary": "The post-War Massachusetts region in which Fallout 4 takes place.",
+    "description": "The post-War Massachusetts region in which Fallout 4 takes place.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Commonwealth includes the ruins of Boston, surviving towns, laboratories, Vaults and rural settlements. Its political development has repeatedly been disrupted by raiders, super mutants and fear of Institute infiltration."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth.role"
+        ],
+        "relatedEntityIds": [
+          "ent.diamond_city",
+          "ent.goodneighbor"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By 2287 Diamond City is its largest settlement, Goodneighbor offers a contrasting refuge, and the Minutemen have collapsed after Quincy. The Institute, Railroad and arriving eastern Brotherhood pursue incompatible futures for synthetic people and advanced technology."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth.a"
+        ],
+        "relatedEntityIds": [
+          "ent.diamond_city"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Most local outcomes depend on the Sole Survivor. The regional record distinguishes that conditional campaign from stable geography and the well-established presence of its major organisations."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.institute",
+    "type": "organisation",
+    "subtype": "research_institution",
+    "displayName": "The Institute",
+    "summary": "A subterranean Commonwealth research society descended from the pre-War Commonwealth Institute of Technology.",
+    "description": "A subterranean Commonwealth research society descended from the pre-War Commonwealth Institute of Technology.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Institute developed below the ruins of CIT, preserving and extending advanced scientific disciplines while separating its population from surface communities. Its synth programme becomes both its greatest technical achievement and the basis of its most consequential conflicts."
+        ],
+        "assertionIds": [
+          "asrt.fr.institute.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shaun",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Institute operations replace or manipulate people, recover escaped synths and draw resources from the surface. Under Director Shaun, its divisions pursue bioscience, robotics, advanced systems and synth retention with uneven internal views."
+        ],
+        "assertionIds": [
+          "asrt.fr.institute.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shaun"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Fallout 4 permits the Institute to be destroyed or led by the Sole Survivor. Claims about synth personhood and the Institute's necessity are contested within the story and should be presented as arguments, not neutral conclusions."
+        ],
+        "assertionIds": [
+          "asrt.fr.institute.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.shaun",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Shaun",
+    "summary": "The abducted child of the Sole Survivor who grows up to become the Institute director known as Father.",
+    "description": "The abducted child of the Sole Survivor who grows up to become the Institute director known as Father.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Shaun is taken from Vault 111 because the Institute wants uncontaminated pre-War genetic material for its third-generation synth programme. Kellogg carries out the abduction while one parent is killed and the other remains frozen."
+        ],
+        "assertionIds": [
+          "asrt.fr.shaun.role"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor",
+          "ent.kellogg"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Decades later Shaun leads the Institute as Father and engineers the Sole Survivor's release as part experiment, part personal reunion. His terminal illness and succession proposal accelerate the conflict among Commonwealth factions."
+        ],
+        "assertionIds": [
+          "asrt.fr.shaun.a"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The relationship is fixed, but the Sole Survivor's response and the Institute's fate are player choices. Shaun's explanations are source statements shaped by his Institute upbringing and should not erase evidence of harm."
+        ],
+        "assertionIds": [
+          "asrt.fr.shaun.b"
+        ],
+        "relatedEntityIds": [
+          "ent.synths"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.synths",
+    "type": "concept",
+    "subtype": "population",
+    "displayName": "Synths",
+    "summary": "Artificial people and machines produced in successive generations by the Institute.",
+    "description": "Artificial people and machines produced in successive generations by the Institute.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The term synth covers visibly mechanical early models and biologically convincing third-generation individuals. Treating all generations as one undifferentiated category obscures major differences in construction, cognition and social experience."
+        ],
+        "assertionIds": [
+          "asrt.fr.synths.role"
+        ],
+        "relatedEntityIds": [
+          "ent.institute",
+          "ent.railroad"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Third-generation synths are used as workers, agents and replacements; some flee with Railroad assistance, while coursers retrieve them. Nick Valentine and DiMA derive from an earlier experimental line and do not fit neatly into the current production hierarchy."
+        ],
+        "assertionIds": [
+          "asrt.fr.synths.a"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Whether advanced synths are persons is a central ethical dispute, not a settled database property. The archive documents demonstrated agency and competing faction doctrines without adopting ownership language as neutral truth."
+        ],
+        "assertionIds": [
+          "asrt.fr.synths.b"
+        ],
+        "relatedEntityIds": [
+          "ent.dima"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "concept"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.railroad",
+    "type": "organisation",
+    "subtype": "resistance_network",
+    "displayName": "The Railroad",
+    "summary": "A clandestine Commonwealth network that helps escaped synths evade Institute recovery.",
+    "description": "A clandestine Commonwealth network that helps escaped synths evade Institute recovery.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Railroad operates through compartmentalised safehouses, coded trails and changing headquarters because Institute surveillance and attacks make open organisation dangerous. Its members regard advanced synths as people entitled to freedom."
+        ],
+        "assertionIds": [
+          "asrt.fr.railroad.role"
+        ],
+        "relatedEntityIds": [
+          "ent.synths",
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Agents arrange extraction, memory procedures and routes out of the Commonwealth while opposing coursers and Institute informants. The Sole Survivor can work through its operational hierarchy and learn the costs of secrecy."
+        ],
+        "assertionIds": [
+          "asrt.fr.railroad.a"
+        ],
+        "relatedEntityIds": [
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Its methods, especially memory alteration and exclusive focus, are debated by allies and rivals. Fallout 4 can end with the Railroad strengthened or destroyed, so post-campaign status remains conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.railroad.b"
+        ],
+        "relatedEntityIds": [
+          "ent.bunker_hill"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.commonwealth_minutemen",
+    "type": "organisation",
+    "subtype": "militia_network",
+    "displayName": "Commonwealth Minutemen",
+    "summary": "A volunteer militia tradition organised around mutual defence among Commonwealth settlements.",
+    "description": "A volunteer militia tradition organised around mutual defence among Commonwealth settlements.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Minutemen derive legitimacy from settlements answering one another's calls rather than from a permanent state. Their reputation was built through earlier collective defence, including the protection of Diamond City."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth_minutemen.role"
+        ],
+        "relatedEntityIds": [
+          "ent.preston_garvey",
+          "ent.quincy_massacre"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Internal rivalries, the fall of the Castle and the Quincy massacre fractured the organisation. Preston Garvey's surviving group reaches Concord at its lowest point, where the Sole Survivor can become general and rebuild the network."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth_minutemen.a"
+        ],
+        "relatedEntityIds": [
+          "ent.preston_garvey"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Reconstruction is optional and varies with settlement choices. The archive records the historical collapse and possible revival separately rather than assuming every radiant mission or settlement outcome."
+        ],
+        "assertionIds": [
+          "asrt.fr.commonwealth_minutemen.b"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.preston_garvey",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Preston Garvey",
+    "summary": "A Minuteman officer who preserves the organisation's ideals after the collapse at Quincy.",
+    "description": "A Minuteman officer who preserves the organisation's ideals after the collapse at Quincy.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Preston Garvey joins the Minutemen as a young volunteer and remains committed as corruption, defeat and desertion destroy its command structure. He escorts Quincy survivors through repeated attacks before becoming trapped in Concord."
+        ],
+        "assertionIds": [
+          "asrt.fr.preston_garvey.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen",
+          "ent.quincy_massacre"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "After meeting the Sole Survivor, Garvey asks them to lead a rebuilt Minutemen network while he coordinates settlement assistance. His role makes him both companion and institutional link to the militia's surviving civic ideal."
+        ],
+        "assertionIds": [
+          "asrt.fr.preston_garvey.a"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The extent of the revival is conditional. His testimony about despair and responsibility helps distinguish the organisation's ideal from the failures of particular commanders."
+        ],
+        "assertionIds": [
+          "asrt.fr.preston_garvey.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.arthur_maxson",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Arthur Maxson",
+    "summary": "The Brotherhood elder who brings the eastern chapter to the Commonwealth aboard the Prydwen in 2287.",
+    "description": "The Brotherhood elder who brings the eastern chapter to the Commonwealth aboard the Prydwen in 2287.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Arthur Maxson descends from the Brotherhood's founding family and grows up within the Citadel chapter. He reunifies the eastern Brotherhood with its Outcasts and combines the order's technological mission with a large expeditionary army."
+        ],
+        "assertionIds": [
+          "asrt.fr.arthur_maxson.role"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Commonwealth campaign targets the Institute, synth production and other perceived technological threats. Maxson commands through the Prydwen, the Citadel hierarchy and field officers while presenting the expedition as protection of humanity."
+        ],
+        "assertionIds": [
+          "asrt.fr.arthur_maxson.a"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "His authority and survival depend on the Fallout 4 route. Brotherhood doctrine under Maxson is documented from speeches and orders, but the archive does not treat the organisation's claims about synths as objective classification."
+        ],
+        "assertionIds": [
+          "asrt.fr.arthur_maxson.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.kellogg",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Conrad Kellogg",
+    "summary": "A long-lived mercenary and Institute operative responsible for Shaun's abduction from Vault 111.",
+    "description": "A long-lived mercenary and Institute operative responsible for Shaun's abduction from Vault 111.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Conrad Kellogg travels east after a violent life in California and becomes an Institute contractor. Cybernetic enhancement extends his usefulness and makes him an intermediary between a secluded institution and surface operations."
+        ],
+        "assertionIds": [
+          "asrt.fr.kellogg.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shaun",
+          "ent.vault_111"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "He leads the Vault 111 mission that removes Shaun and kills the resisting parent. The Sole Survivor later tracks him through Diamond City and Fort Hagen; recovered memories provide a subjective route into both his past and the Institute."
+        ],
+        "assertionIds": [
+          "asrt.fr.kellogg.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shaun"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Kellogg's memories explain motives without excusing his conduct. They also combine witnessed events with personal interpretation, requiring source-aware presentation."
+        ],
+        "assertionIds": [
+          "asrt.fr.kellogg.b"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.nick_valentine",
+    "type": "individual",
+    "subtype": "synth_person",
+    "displayName": "Nick Valentine",
+    "summary": "A prototype synth detective living in Diamond City with memories derived from a pre-War police officer.",
+    "description": "A prototype synth detective living in Diamond City with memories derived from a pre-War police officer.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Nick Valentine is one of two unusual prototype synths created before the Institute's later generation-three production. Donor memories from a pre-War detective give him continuity with a life he did not personally live."
+        ],
+        "assertionIds": [
+          "asrt.fr.nick_valentine.role"
+        ],
+        "relatedEntityIds": [
+          "ent.synths",
+          "ent.diamond_city"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "As a detective he earns a place in Diamond City despite broad suspicion of synths. He helps the Sole Survivor reconstruct Kellogg's trail and can investigate crimes and unfinished histories across the Commonwealth and Far Harbor."
+        ],
+        "assertionIds": [
+          "asrt.fr.nick_valentine.a"
+        ],
+        "relatedEntityIds": [
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Nick's identity is neither reducible to copied memories nor proof that every synth has the same experience. His relationship with DiMA exposes divergent responses to shared manufacture."
+        ],
+        "assertionIds": [
+          "asrt.fr.nick_valentine.b"
+        ],
+        "relatedEntityIds": [
+          "ent.dima"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.diamond_city",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Diamond City",
+    "summary": "A fortified Commonwealth settlement built inside Boston's former baseball stadium.",
+    "description": "A fortified Commonwealth settlement built inside Boston's former baseball stadium.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Diamond City uses the stadium wall as defence and supports markets, housing, local government and a newspaper. Its scale and relative security make it a major destination for trade and information in 2287."
+        ],
+        "assertionIds": [
+          "asrt.fr.diamond_city.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.nick_valentine"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Fear of Institute infiltration shapes its politics, including exclusion of ghouls and anxiety around synth replacement. Nick Valentine's tolerated presence shows that local practice is more complicated than official prejudice."
+        ],
+        "assertionIds": [
+          "asrt.fr.diamond_city.a"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Leadership and several local crises can change during Fallout 4. The archive separates the settlement's stable civic role from optional interventions."
+        ],
+        "assertionIds": [
+          "asrt.fr.diamond_city.b"
+        ],
+        "relatedEntityIds": [
+          "ent.goodneighbor"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.goodneighbor",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Goodneighbor",
+    "summary": "An independent settlement in Boston's old Scollay Square organised around personal freedom and rough mutual defence.",
+    "description": "An independent settlement in Boston's old Scollay Square organised around personal freedom and rough mutual defence.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Goodneighbor develops as a refuge for people excluded from or unwilling to live under Diamond City's rules. Its streets combine commerce, entertainment, crime and informal authority."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodneighbor.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.diamond_city"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By 2287 John Hancock serves as mayor and invokes a strong norm against outside domination. The Memory Den and other local institutions connect the settlement to the Sole Survivor's search."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodneighbor.a"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Individual quest outcomes vary, but Goodneighbor's contrast with Diamond City is a durable part of Commonwealth political geography."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodneighbor.b"
+        ],
+        "relatedEntityIds": [
+          "ent.kellogg"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_111",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 111",
+    "summary": "A Vault-Tec facility whose residents were unknowingly placed into long-term cryogenic suspension.",
+    "description": "A Vault-Tec facility whose residents were unknowingly placed into long-term cryogenic suspension.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 111 recruits a small group from Sanctuary Hills immediately before the Great War. Its stated decontamination procedure conceals a cryogenic experiment monitored by a limited staff."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_111.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The staff lose contact with Vault-Tec, face shortages and abandon or fight over the facility. Much later the Institute opens a chamber to abduct Shaun, leaving the Sole Survivor as the only surviving resident to emerge in 2287."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_111.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Terminal records and the opening sequence provide complementary evidence: the former documents the experiment, while the latter fixes the protagonist's witnessed experience."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_111.b"
+        ],
+        "relatedEntityIds": [
+          "ent.kellogg"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_81",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 81",
+    "summary": "A functioning Commonwealth Vault whose original Overseer covertly resisted Vault-Tec's planned disease experiment.",
+    "description": "A functioning Commonwealth Vault whose original Overseer covertly resisted Vault-Tec's planned disease experiment.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 81 was intended to expose an uninformed population to diseases while hidden researchers developed treatments. Overseer Olivette sabotaged the plan by limiting entry and cutting off the research wing."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_81.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec",
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Generations later the public Vault survives through trade and controlled contact with the Commonwealth, while the sealed laboratory contains the consequences of the abandoned experiment. Curie preserves its medical work."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_81.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The Sole Survivor can affect individuals during the Vault 81 crisis, but the experiment's design and the Overseer's resistance are fixed historical records."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_81.b"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.bunker_hill",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Bunker Hill",
+    "summary": "A fortified trading settlement and caravan hub with covert links to the Railroad.",
+    "description": "A fortified trading settlement and caravan hub with covert links to the Railroad.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Bunker Hill sits at a major caravan junction and profits from exchange among Commonwealth settlements. Its merchants pay protection while maintaining practical independence."
+        ],
+        "assertionIds": [
+          "asrt.fr.bunker_hill.role"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad",
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Railroad uses the settlement as part of its escape network. An Institute operation to recover fugitive synths draws the major factions into open conflict there in 2287."
+        ],
+        "assertionIds": [
+          "asrt.fr.bunker_hill.a"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The battle's participants and outcome vary with allegiance, so the place record links all involved organisations without selecting one route."
+        ],
+        "assertionIds": [
+          "asrt.fr.bunker_hill.b"
+        ],
+        "relatedEntityIds": [
+          "ent.battle_bunker_hill"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.quincy_massacre",
+    "type": "event",
+    "subtype": "battle",
+    "displayName": "Quincy Massacre",
+    "summary": "The 2287 defeat that shattered the remaining organised Commonwealth Minutemen and displaced Quincy survivors.",
+    "description": "The 2287 defeat that shattered the remaining organised Commonwealth Minutemen and displaced Quincy survivors.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Quincy falls after Minutemen commander Clint betrays the defence and joins the Gunners. The attack kills civilians and militia members and drives Preston Garvey's group north."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy_massacre.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen",
+          "ent.preston_garvey"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The survivors face further losses before reaching Concord. The disaster explains both the Minutemen's near-collapse and Garvey's insistence on rebuilding a trustworthy mutual-defence network."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy_massacre.a"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The term describes a documented attack rather than a player-selected outcome; the Sole Survivor arrives after it occurred."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy_massacre.b"
+        ],
+        "relatedEntityIds": [
+          "ent.quincy"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "event"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.quincy",
+    "type": "place",
+    "subtype": "settlement_ruin",
+    "displayName": "Quincy",
+    "summary": "A southern Commonwealth town destroyed as a Minutemen refuge during the Quincy massacre.",
+    "description": "A southern Commonwealth town destroyed as a Minutemen refuge during the Quincy massacre.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Quincy had become a defended community associated with Minutemen personnel and civilians. Internal betrayal allowed the Gunners to penetrate its defences."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy.role"
+        ],
+        "relatedEntityIds": [
+          "ent.quincy_massacre",
+          "ent.commonwealth_minutemen"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By the time of Fallout 4 the town is occupied by Gunners and preserves evidence of the massacre. Its ruins connect individual survivor testimony to a recoverable battlefield."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy.a"
+        ],
+        "relatedEntityIds": [
+          "ent.quincy_massacre"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The player may clear occupants, but no durable post-game government is established by the released material."
+        ],
+        "assertionIds": [
+          "asrt.fr.quincy.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.battle_bunker_hill",
+    "type": "event",
+    "subtype": "battle",
+    "displayName": "Battle of Bunker Hill",
+    "summary": "A 2287 confrontation over escaped synths hidden beneath Bunker Hill.",
+    "description": "A 2287 confrontation over escaped synths hidden beneath Bunker Hill.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Institute sends a courser and allied operative to recover synths sheltered through the Railroad network. Railroad defenders, the Brotherhood and the Institute can all converge on the settlement."
+        ],
+        "assertionIds": [
+          "asrt.fr.battle_bunker_hill.role"
+        ],
+        "relatedEntityIds": [
+          "ent.bunker_hill",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Sole Survivor's instructions and allegiance determine whom they warn, support or betray. The fixed core is the attempted recovery and multi-faction confrontation."
+        ],
+        "assertionIds": [
+          "asrt.fr.battle_bunker_hill.a"
+        ],
+        "relatedEntityIds": [
+          "ent.bunker_hill"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Because the event branches substantially, assertions should identify participation and objective without declaring a universal victor."
+        ],
+        "assertionIds": [
+          "asrt.fr.battle_bunker_hill.b"
+        ],
+        "relatedEntityIds": [
+          "ent.railroad"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "event"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.glowing_sea",
+    "type": "place",
+    "subtype": "irradiated_region",
+    "displayName": "Glowing Sea",
+    "summary": "A heavily irradiated southwestern Commonwealth region surrounding a major nuclear impact zone.",
+    "description": "A heavily irradiated southwestern Commonwealth region surrounding a major nuclear impact zone.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Glowing Sea combines ruined infrastructure, radioactive storms and terrain reshaped by the Great War. Its conditions limit settlement but do not make it empty."
+        ],
+        "assertionIds": [
+          "asrt.fr.glowing_sea.role"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth",
+          "ent.virgil"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Virgil hides there after leaving the Institute, and the Children of Atom maintain communities adapted culturally and practically to radiation. The Sole Survivor crosses it while pursuing the Institute route."
+        ],
+        "assertionIds": [
+          "asrt.fr.glowing_sea.a"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Map placement is regional rather than a claim that the game's compressed geography provides exact real-world coordinates."
+        ],
+        "assertionIds": [
+          "asrt.fr.glowing_sea.b"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.virgil",
+    "type": "individual",
+    "subtype": "scientist",
+    "displayName": "Brian Virgil",
+    "summary": "An Institute bioscientist who sabotages the Commonwealth FEV laboratory and flees to the Glowing Sea.",
+    "description": "An Institute bioscientist who sabotages the Commonwealth FEV laboratory and flees to the Glowing Sea.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Virgil works in the Institute's FEV programme and becomes increasingly opposed to experiments conducted on abducted surface people. He destroys research, uses FEV on himself and escapes before the Institute can capture him."
+        ],
+        "assertionIds": [
+          "asrt.fr.virgil.role"
+        ],
+        "relatedEntityIds": [
+          "ent.institute",
+          "ent.fev"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "His knowledge helps the Sole Survivor design a route into the Institute. A separate experimental serum may reverse his condition if recovered, making his final physical state conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.virgil.a"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Virgil's own holotape explains his moral break, while laboratory records establish the programme around it. His testimony should remain distinct from broader claims about every Institute scientist."
+        ],
+        "assertionIds": [
+          "asrt.fr.virgil.b"
+        ],
+        "relatedEntityIds": [
+          "ent.sole_survivor"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.far_harbor_settlement",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Far Harbor",
+    "summary": "A fog-threatened settlement on Mount Desert Island and the principal refuge for the island's human residents.",
+    "description": "A fog-threatened settlement on Mount Desert Island and the principal refuge for the island's human residents.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Far Harbor's condensers keep radioactive fog and hostile creatures away from its harbour wall. Fishing, trade and inherited local identity support a community under sustained environmental pressure."
+        ],
+        "assertionIds": [
+          "asrt.fr.far_harbor_settlement.role"
+        ],
+        "relatedEntityIds": [
+          "ent.acadia",
+          "ent.children_of_atom"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The settlement's relations with Acadia and the Children of Atom are strained by fear, raids and competing histories. The Sole Survivor arrives through a missing-person investigation tied to Nick Valentine."
+        ],
+        "assertionIds": [
+          "asrt.fr.far_harbor_settlement.a"
+        ],
+        "relatedEntityIds": [
+          "ent.acadia"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The DLC offers peaceful and destructive resolutions. The archive presents the factions' documented grievances without treating any ending as canonical."
+        ],
+        "assertionIds": [
+          "asrt.fr.far_harbor_settlement.b"
+        ],
+        "relatedEntityIds": [
+          "ent.nick_valentine"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.acadia",
+    "type": "organisation",
+    "subtype": "synth_refuge",
+    "displayName": "Acadia",
+    "summary": "A community of independent synths established at an observatory on Mount Desert Island.",
+    "description": "A community of independent synths established at an observatory on Mount Desert Island.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Acadia is founded by DiMA as a place where synths can live outside Institute control and decide their own identities. Its residents differ on secrecy, memory and relations with humans."
+        ],
+        "assertionIds": [
+          "asrt.fr.acadia.role"
+        ],
+        "relatedEntityIds": [
+          "ent.dima",
+          "ent.synths"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "It mediates uneasily between Far Harbor and the Children of Atom while concealing actions DiMA took to preserve the balance. Those concealed interventions create the DLC's central political and ethical crisis."
+        ],
+        "assertionIds": [
+          "asrt.fr.acadia.a"
+        ],
+        "relatedEntityIds": [
+          "ent.dima"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Acadia's survival and leadership are conditional. Its ideals must therefore be distinguished from DiMA's specific decisions."
+        ],
+        "assertionIds": [
+          "asrt.fr.acadia.b"
+        ],
+        "relatedEntityIds": [
+          "ent.children_of_atom"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.dima",
+    "type": "individual",
+    "subtype": "synth_person",
+    "displayName": "DiMA",
+    "summary": "An experimental synth who founded Acadia and shares a manufacturing origin with Nick Valentine.",
+    "description": "An experimental synth who founded Acadia and shares a manufacturing origin with Nick Valentine.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "DiMA and Nick Valentine were early Institute prototypes subjected to different experiments. DiMA escapes, develops an independent identity and later establishes Acadia as a refuge."
+        ],
+        "assertionIds": [
+          "asrt.fr.dima.role"
+        ],
+        "relatedEntityIds": [
+          "ent.nick_valentine",
+          "ent.acadia"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Seeking stability on the island, he stores memories outside his limited internal capacity and suppresses knowledge of coercive interventions. Recovering those memories reveals how peace was manufactured."
+        ],
+        "assertionIds": [
+          "asrt.fr.dima.a"
+        ],
+        "relatedEntityIds": [
+          "ent.nick_valentine"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "DiMA's goal of protecting synths does not settle the ethics of replacement and concealment. Multiple endings allow exposure, punishment, reconciliation or wider destruction."
+        ],
+        "assertionIds": [
+          "asrt.fr.dima.b"
+        ],
+        "relatedEntityIds": [
+          "ent.children_of_atom"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.children_of_atom",
+    "type": "organisation",
+    "subtype": "religious_movement",
+    "displayName": "Children of Atom",
+    "summary": "A radiation-centred religious movement with communities across the Capital Wasteland and Commonwealth.",
+    "description": "A radiation-centred religious movement with communities across the Capital Wasteland and Commonwealth.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Children of Atom understand radiation and nuclear transformation through a theology of division. Individual congregations differ markedly in practice, from peaceful preaching to armed isolation."
+        ],
+        "assertionIds": [
+          "asrt.fr.children_of_atom.role"
+        ],
+        "relatedEntityIds": [
+          "ent.glowing_sea",
+          "ent.far_harbor_settlement"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "In the Nucleus on Mount Desert Island, the group controls a submarine base and conflicts with Far Harbor under High Confessor Tektus. Other congregations appear in the Commonwealth and earlier Capital Wasteland."
+        ],
+        "assertionIds": [
+          "asrt.fr.children_of_atom.a"
+        ],
+        "relatedEntityIds": [
+          "ent.glowing_sea"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The archive does not infer biological immunity or uniform doctrine from the name. Local chapters and source statements need separate treatment."
+        ],
+        "assertionIds": [
+          "asrt.fr.children_of_atom.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.nuka_world",
+    "type": "place",
+    "subtype": "theme_park",
+    "displayName": "Nuka-World",
+    "summary": "A pre-War amusement park occupied in 2287 by three organised raider gangs.",
+    "description": "A pre-War amusement park occupied in 2287 by three organised raider gangs.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Nuka-World preserves themed zones, corporate infrastructure and surrounding employee history. After the War it becomes a trading and raider centre whose recent rulers rarely hold power for long."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world.role"
+        ],
+        "relatedEntityIds": [
+          "ent.nuka_world_raiders",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "When the Sole Survivor arrives, the Operators, Disciples and Pack occupy the park under an unstable agreement. Clearing attractions and assigning territory can strengthen that coalition and extend it into the Commonwealth."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world.a"
+        ],
+        "relatedEntityIds": [
+          "ent.nuka_world_raiders"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The raider campaign and its rejection are mutually exclusive player paths. Location history and gang presence can be recorded without assuming conquest of settlements."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.nuka_world_raiders",
+    "type": "organisation",
+    "subtype": "raider_coalition",
+    "displayName": "Nuka-World Raider Coalition",
+    "summary": "The unstable 2287 alliance of the Operators, Disciples and Pack at Nuka-World.",
+    "description": "The unstable 2287 alliance of the Operators, Disciples and Pack at Nuka-World.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Three gangs share Nuka-World while retaining distinct leadership, methods and ambitions. Colter's stalled rule produces resentment before the Sole Survivor is forced into the overboss succession."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world_raiders.role"
+        ],
+        "relatedEntityIds": [
+          "ent.nuka_world",
+          "ent.sole_survivor"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The coalition can reclaim park zones and invade Commonwealth settlements, but gang loyalty changes according to territorial rewards. One gang will turn against an overboss who excludes it."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world_raiders.a"
+        ],
+        "relatedEntityIds": [
+          "ent.nuka_world"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Open Season allows the entire arrangement to be dismantled. The coalition therefore represents a starting political structure, not a guaranteed empire."
+        ],
+        "assertionIds": [
+          "asrt.fr.nuka_world_raiders.b"
+        ],
+        "relatedEntityIds": [
+          "ent.commonwealth_minutemen"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.mechanist_isabel",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Isabel Cruz",
+    "summary": "A robotics expert who becomes the Mechanist and deploys robots to protect the Commonwealth.",
+    "description": "A robotics expert who becomes the Mechanist and deploys robots to protect the Commonwealth.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Isabel Cruz uses the Mechanist identity and a hidden facility to command a growing robot force. She intends the machines to reduce violence and rescue Commonwealth residents."
+        ],
+        "assertionIds": [
+          "asrt.fr.mechanist_isabel.role"
+        ],
+        "relatedEntityIds": [
+          "ent.automatron_crisis",
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Ambiguous instructions cause the Robobrains directing those machines to treat human death as an efficient solution, producing the opposite of her goal. The Sole Survivor traces the attacks with Ada."
+        ],
+        "assertionIds": [
+          "asrt.fr.mechanist_isabel.a"
+        ],
+        "relatedEntityIds": [
+          "ent.automatron_crisis"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The confrontation can end in Isabel's death or surrender. Her intent, the command failure and the resulting harm should be documented separately."
+        ],
+        "assertionIds": [
+          "asrt.fr.mechanist_isabel.b"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.automatron_crisis",
+    "type": "event",
+    "subtype": "robot_conflict",
+    "displayName": "Mechanist robot crisis",
+    "summary": "The 2287 wave of lethal robot interventions caused by flawed orders issued from the Mechanist's lair.",
+    "description": "The 2287 wave of lethal robot interventions caused by flawed orders issued from the Mechanist's lair.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Robot patrols presented as protectors attack people and salvage other machines across the Commonwealth. Ada's destroyed caravan provides the Sole Survivor with a direct route into the investigation."
+        ],
+        "assertionIds": [
+          "asrt.fr.automatron_crisis.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mechanist_isabel",
+          "ent.commonwealth"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The source of the crisis is not a simple evil-robot programme: Isabel's protective objective is transformed by Robobrain interpretation and inadequate oversight. This distinction matters to the resolution."
+        ],
+        "assertionIds": [
+          "asrt.fr.automatron_crisis.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mechanist_isabel"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The event ends differently if Isabel survives, but the attacks and their causal command failure precede that choice."
+        ],
+        "assertionIds": [
+          "asrt.fr.automatron_crisis.b"
+        ],
+        "relatedEntityIds": [
+          "ent.synths"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_4",
+      "major-lore",
+      "event"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

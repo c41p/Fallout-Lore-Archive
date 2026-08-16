@@ -1,0 +1,122 @@
+[
+  {
+    "id": "name.fr.caesar.edward",
+    "entityId": "ent.caesar",
+    "name": "Edward Sallow",
+    "kind": "birth_name"
+  },
+  {
+    "id": "name.fr.house.mister",
+    "entityId": "ent.robert_house",
+    "name": "Mr. House",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.house.full",
+    "entityId": "ent.robert_house",
+    "name": "Robert Edwin House",
+    "kind": "full_name"
+  },
+  {
+    "id": "name.fr.courier.six",
+    "entityId": "ent.courier",
+    "name": "Courier Six",
+    "kind": "descriptive_name"
+  },
+  {
+    "id": "name.fr.shaun.father",
+    "entityId": "ent.shaun",
+    "name": "Father",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.kellogg.conrad",
+    "entityId": "ent.kellogg",
+    "name": "Conrad Kellogg",
+    "kind": "full_name"
+  },
+  {
+    "id": "name.fr.virgil.brian",
+    "entityId": "ent.virgil",
+    "name": "Dr. Brian Virgil",
+    "kind": "title_and_name"
+  },
+  {
+    "id": "name.fr.elijah.father",
+    "entityId": "ent.elijah",
+    "name": "Father Elijah",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.joshua.burned",
+    "entityId": "ent.joshua_graham",
+    "name": "Burned Man",
+    "kind": "epithet"
+  },
+  {
+    "id": "name.fr.maxson.elder",
+    "entityId": "ent.arthur_maxson",
+    "name": "Elder Maxson",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.madison.doctor",
+    "entityId": "ent.madison_li",
+    "name": "Doctor Li",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.eden.president",
+    "entityId": "ent.john_henry_eden",
+    "name": "President Eden",
+    "kind": "title"
+  },
+  {
+    "id": "name.fr.autumn.colonel",
+    "entityId": "ent.colonel_autumn",
+    "name": "Colonel Autumn",
+    "kind": "rank_and_surname"
+  },
+  {
+    "id": "name.fr.rahmani.paladin",
+    "entityId": "ent.rahmani",
+    "name": "Paladin Rahmani",
+    "kind": "rank_and_surname"
+  },
+  {
+    "id": "name.fr.shin.knight",
+    "entityId": "ent.knight_shin",
+    "name": "Knight Shin",
+    "kind": "rank_and_surname"
+  },
+  {
+    "id": "name.fr.modus.expanded",
+    "entityId": "ent.modus",
+    "name": "Multi-Operation Directions and Utility System",
+    "kind": "expanded_name"
+  },
+  {
+    "id": "name.fr.vaulttec.hyphen",
+    "entityId": "ent.vault_tec",
+    "name": "Vault-Tec",
+    "kind": "short_name"
+  },
+  {
+    "id": "name.fr.robco.styled",
+    "entityId": "ent.robco",
+    "name": "RobCo",
+    "kind": "short_name"
+  },
+  {
+    "id": "name.fr.sierra.villa",
+    "entityId": "ent.sierra_madre",
+    "name": "Sierra Madre Casino",
+    "kind": "formal_name"
+  },
+  {
+    "id": "name.fr.bigmt.bigmountain",
+    "entityId": "ent.big_mt",
+    "name": "Big Mountain",
+    "kind": "expanded_name"
+  }
+]

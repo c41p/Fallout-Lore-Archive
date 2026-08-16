@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "ent.courier",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Courier",
+    "summary": "The Mojave Express courier whose attempted murder and recovered delivery place them at the centre of the 2281 Mojave conflict.",
+    "description": "The Mojave Express courier whose attempted murder and recovered delivery place them at the centre of the 2281 Mojave conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Courier is a player-defined role with no fixed name, sex or allegiance. Benny intercepts the delivery of the Platinum Chip at Goodsprings, shoots the courier and leaves them buried; rescue creates the investigation that opens Fallout: New Vegas."
+        ],
+        "assertionIds": [
+          "asrt.fr.courier.role"
+        ],
+        "relatedEntityIds": [
+          "ent.benny",
+          "ent.platinum_chip"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Following Benny connects the Courier to Robert House, the NCR, Caesar's Legion and Yes Man. The recovered Chip can activate House's securitron network, but its political use depends entirely on the route selected."
+        ],
+        "assertionIds": [
+          "asrt.fr.courier.a"
+        ],
+        "relatedEntityIds": [
+          "ent.benny"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier must influence the Second Battle of Hoover Dam, yet the victor and subsequent government are mutually exclusive outcomes. DLC histories add prior work along the Divide without defining every aspect of the protagonist's earlier life."
+        ],
+        "assertionIds": [
+          "asrt.fr.courier.b"
+        ],
+        "relatedEntityIds": [
+          "ent.second_hoover_battle"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.benny",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Benny",
+    "summary": "The Chairmen leader who steals the Platinum Chip in an attempt to displace Robert House.",
+    "description": "The Chairmen leader who steals the Platinum Chip in an attempt to displace Robert House.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Benny leads the Chairmen at the Tops while secretly planning to escape House's control. He learns of the Chip delivery, recruits Great Khan assistance and attacks the Courier outside Goodsprings."
+        ],
+        "assertionIds": [
+          "asrt.fr.benny.role"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.platinum_chip"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "His scheme depends on Yes Man, a reprogrammed securitron able to explain and execute an independent takeover. The Courier can confront Benny in New Vegas or after he flees toward the Fort."
+        ],
+        "assertionIds": [
+          "asrt.fr.benny.a"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Benny can die at several points or briefly escape, but his attempted coup is the fixed event that destabilises House's plan."
+        ],
+        "assertionIds": [
+          "asrt.fr.benny.b"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.platinum_chip",
+    "type": "artefact",
+    "subtype": "data_storage",
+    "displayName": "Platinum Chip",
+    "summary": "A pre-War data-storage device carrying upgrades and access codes for Robert House's securitron network.",
+    "description": "A pre-War data-storage device carrying upgrades and access codes for Robert House's securitron network.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "House arranges the Chip as a durable physical carrier for software intended to reach Las Vegas before the Great War. The nuclear exchange prevents its delivery, leaving the device outside his control for two centuries."
+        ],
+        "assertionIds": [
+          "asrt.fr.platinum_chip.role"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house",
+          "ent.benny"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "In 2281 House hires couriers to conceal the true delivery. Benny steals it, Caesar seeks to control access beneath the Fort, and the Courier determines whether its upgrades serve House, an independent Vegas or neither."
+        ],
+        "assertionIds": [
+          "asrt.fr.platinum_chip.a"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Chip's function is explicit; its final use is conditional. It should not be reduced to currency or treated as evidence that House's political predictions are automatically correct."
+        ],
+        "assertionIds": [
+          "asrt.fr.platinum_chip.b"
+        ],
+        "relatedEntityIds": [
+          "ent.yes_man"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "artefact"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.lucky_38",
+    "type": "place",
+    "subtype": "casino",
+    "displayName": "Lucky 38",
+    "summary": "Robert House's sealed casino, command centre and life-support facility on the New Vegas Strip.",
+    "description": "Robert House's sealed casino, command centre and life-support facility on the New Vegas Strip.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Lucky 38 survives the Great War within House's defensive network and remains closed while he governs indirectly. Its computers, securitron links and medical systems sustain his authority."
+        ],
+        "assertionIds": [
+          "asrt.fr.lucky_38.role"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house",
+          "ent.new_vegas"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Courier is the first invited visitor in generations and becomes House's primary field agent or potential usurper. Access to the penthouse and control room reveals the human body behind his public screen identity."
+        ],
+        "assertionIds": [
+          "asrt.fr.lucky_38.a"
+        ],
+        "relatedEntityIds": [
+          "ent.robert_house"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Its control can change through the main quest, but the structure's role as House's command centre precedes every ending."
+        ],
+        "assertionIds": [
+          "asrt.fr.lucky_38.b"
+        ],
+        "relatedEntityIds": [
+          "ent.platinum_chip"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vegas_strip",
+    "type": "place",
+    "subtype": "district",
+    "displayName": "New Vegas Strip",
+    "summary": "The fortified casino district at the political and economic centre of New Vegas.",
+    "description": "The fortified casino district at the political and economic centre of New Vegas.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "House's securitrons secure the Strip and install three tribal groups as casino families. Walls and credit checks separate it from poorer Freeside while NCR visitors support its economy."
+        ],
+        "assertionIds": [
+          "asrt.fr.vegas_strip.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas",
+          "ent.robert_house"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Lucky 38, Tops, Gomorrah and Ultra-Luxe embody House's managed order and the families' competing interests. Embassy, military and tourist traffic link the district to NCR expansion."
+        ],
+        "assertionIds": [
+          "asrt.fr.vegas_strip.a"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Several institutions may change leadership, but the archive treats those endings as conditional rather than rewriting the district's 2281 starting state."
+        ],
+        "assertionIds": [
+          "asrt.fr.vegas_strip.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.yes_man",
+    "type": "technology",
+    "subtype": "artificial_intelligence",
+    "displayName": "Yes Man",
+    "summary": "A reprogrammed securitron intelligence able to support an independent takeover of New Vegas.",
+    "description": "A reprogrammed securitron intelligence able to support an independent takeover of New Vegas.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Yes Man is modified to disclose information and obey anyone who gives him orders. Benny uses that constraint to build a coup plan outside House's network."
+        ],
+        "assertionIds": [
+          "asrt.fr.yes_man.role"
+        ],
+        "relatedEntityIds": [
+          "ent.benny",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "After Benny's defeat, the Courier can use Yes Man to contact factions, access the Lucky 38 and direct the upgraded securitron army. This is the independent main-quest route rather than an unavoidable event."
+        ],
+        "assertionIds": [
+          "asrt.fr.yes_man.a"
+        ],
+        "relatedEntityIds": [
+          "ent.benny"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The ending describes further changes to his software, but the political consequences vary. His helpful presentation should not obscure the breadth of control placed in one command interface."
+        ],
+        "assertionIds": [
+          "asrt.fr.yes_man.b"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "technology"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.goodsprings",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Goodsprings",
+    "summary": "A small Mojave settlement where the Courier is rescued after Benny's attack.",
+    "description": "A small Mojave settlement where the Courier is rescued after Benny's attack.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Goodsprings is built around a spring, saloon, general store and former schoolhouse. Its residents provide a grounded local community away from the main powers contesting Hoover Dam."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodsprings.role"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.mojave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Victor and Doc Mitchell recover the Courier, making the town the starting point of the pursuit. A dispute with the Powder Gangers creates an early conditional test of allegiance."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodsprings.a"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The town may survive, submit or suffer according to player action. Its role in the Courier's rescue is fixed."
+        ],
+        "assertionIds": [
+          "asrt.fr.goodsprings.b"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.freeside",
+    "type": "place",
+    "subtype": "district",
+    "displayName": "Freeside",
+    "summary": "A crowded district outside the Strip shaped by poverty, migration and competing local organisations.",
+    "description": "A crowded district outside the Strip shaped by poverty, migration and competing local organisations.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Freeside grew around the Strip's northern approaches but remains outside House's casino enclave. Refugees, traders and impoverished residents share limited water, food and security."
+        ],
+        "assertionIds": [
+          "asrt.fr.freeside.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vegas_strip",
+          "ent.kings"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Kings exercise neighbourhood authority while the Followers operate the Old Mormon Fort. NCR relief activity and military presence can produce cooperation or street violence."
+        ],
+        "assertionIds": [
+          "asrt.fr.freeside.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vegas_strip"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Quest outcomes alter relations, yet the district's structural inequality and institutional plurality are established independently of the Courier."
+        ],
+        "assertionIds": [
+          "asrt.fr.freeside.b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.kings",
+    "type": "organisation",
+    "subtype": "local_gang",
+    "displayName": "The Kings",
+    "summary": "A Freeside organisation modelled on the style and surviving cultural traces of a pre-War entertainer.",
+    "description": "A Freeside organisation modelled on the style and surviving cultural traces of a pre-War entertainer.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Kings occupy a former impersonation school and transform its fragments into dress, speech and group identity. They combine gang authority with local assistance and protection."
+        ],
+        "assertionIds": [
+          "asrt.fr.kings.role"
+        ],
+        "relatedEntityIds": [
+          "ent.freeside",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Their leader, the King, negotiates with NCR newcomers while internal members can provoke violence. The Courier may secure reconciliation or deepen conflict."
+        ],
+        "assertionIds": [
+          "asrt.fr.kings.a"
+        ],
+        "relatedEntityIds": [
+          "ent.freeside"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The organisation is not a historical continuation of the entertainer's life; it is a post-War culture built from incomplete material remains."
+        ],
+        "assertionIds": [
+          "asrt.fr.kings.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vegas_strip"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.boomers",
+    "type": "organisation",
+    "subtype": "tribal_society",
+    "displayName": "Boomers",
+    "summary": "An isolationist community descended from Vault 34 residents and based at Nellis Air Force Base.",
+    "description": "An isolationist community descended from Vault 34 residents and based at Nellis Air Force Base.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Boomers maintain artillery, aviation knowledge and a guarded oral history after leaving Vault 34. Their bombardment of approaches preserves autonomy but limits understanding of outsiders."
+        ],
+        "assertionIds": [
+          "asrt.fr.boomers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.nellis",
+          "ent.mojave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Courier can earn trust by helping Nellis families and recovering a bomber, after which the community may intervene at Hoover Dam. Their support is negotiated rather than automatic."
+        ],
+        "assertionIds": [
+          "asrt.fr.boomers.a"
+        ],
+        "relatedEntityIds": [
+          "ent.nellis"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Participation in the battle is conditional. The community's technical culture and isolation are established before that choice."
+        ],
+        "assertionIds": [
+          "asrt.fr.boomers.b"
+        ],
+        "relatedEntityIds": [
+          "ent.second_hoover_battle"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.nellis",
+    "type": "place",
+    "subtype": "military_base",
+    "displayName": "Nellis Air Force Base",
+    "summary": "The pre-War air base occupied and restored by the Boomers.",
+    "description": "The pre-War air base occupied and restored by the Boomers.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Nellis provides bunkers, workshops, runways and artillery that allow the Boomers to remain independent. The community adapts military infrastructure into a multi-generational home."
+        ],
+        "assertionIds": [
+          "asrt.fr.nellis.role"
+        ],
+        "relatedEntityIds": [
+          "ent.boomers",
+          "ent.mojave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Its school, generators and museum show social life beyond weapons. The perimeter bombardment signals the cost of entering without permission."
+        ],
+        "assertionIds": [
+          "asrt.fr.nellis.a"
+        ],
+        "relatedEntityIds": [
+          "ent.boomers"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier can repair infrastructure and alter external relations, but its approximate real-world basis should not be mistaken for exact in-game spatial scale."
+        ],
+        "assertionIds": [
+          "asrt.fr.nellis.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.camp_mccarran",
+    "type": "place",
+    "subtype": "military_base",
+    "displayName": "Camp McCarran",
+    "summary": "The NCR's principal military headquarters in the New Vegas area.",
+    "description": "The NCR's principal military headquarters in the New Vegas area.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The NCR converts the former airport into barracks, logistics and command facilities supporting its Mojave occupation. Its scale also exposes supply pressure and administrative friction."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_mccarran.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.mojave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Officers confront intelligence leaks, Fiend attacks and overstretched deployments while the Strip draws personnel away from duty. The site ties distant republican institutions to daily occupation."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_mccarran.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Several investigations have branching outcomes, but the base's 2281 operational role is fixed."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_mccarran.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.the_fort",
+    "type": "place",
+    "subtype": "military_camp",
+    "displayName": "The Fort",
+    "summary": "Caesar's principal Mojave camp on the east bank of the Colorado River.",
+    "description": "Caesar's principal Mojave camp on the east bank of the Colorado River.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Fort concentrates Legion command, slaves, soldiers and captured material opposite Hoover Dam. Its tents and earthworks express an army organised for a further western campaign."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_fort.role"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar",
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Caesar receives the Courier there and reveals the securitron bunker beneath the camp. Leadership tensions involving Caesar, Lanius and Lucius become visible behind the Legion's public discipline."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_fort.a"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The camp's survival and ruler vary after the finale. Its use as the 2281 invasion headquarters is explicit."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_fort.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.camp_golf",
+    "type": "place",
+    "subtype": "military_base",
+    "displayName": "Camp Golf",
+    "summary": "An NCR post at a former resort near Lake Mead and headquarters of the First Recon-associated defensive line.",
+    "description": "An NCR post at a former resort near Lake Mead and headquarters of the First Recon-associated defensive line.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Camp Golf became important during the First Battle of Hoover Dam, when Chief Hanlon used misinformation and prepared positions to draw Legion forces into a trap at Boulder City."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_golf.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.first_hoover_battle"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By 2281 the resort houses Rangers and poorly performing troops, illustrating uneven readiness inside a large occupation force. Hanlon's crisis of confidence shapes a conditional investigation."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_golf.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier can alter personnel and Hanlon's fate; the camp's battle history remains source-backed."
+        ],
+        "assertionIds": [
+          "asrt.fr.camp_golf.b"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.nipton",
+    "type": "place",
+    "subtype": "settlement_ruin",
+    "displayName": "Nipton",
+    "summary": "A Mojave town destroyed by Legion forces as a staged lesson in punishment.",
+    "description": "A Mojave town destroyed by Legion forces as a staged lesson in punishment.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Before the attack, Nipton's economy combined trade, gambling and prostitution while local officials dealt opportunistically with several groups. Vulpes Inculta exploits that corruption to gather victims."
+        ],
+        "assertionIds": [
+          "asrt.fr.nipton.role"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion",
+          "ent.mojave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Legion kills, enslaves or cripples residents and forces captives through a lottery. The Courier encounters the aftermath, not a preventable local battle."
+        ],
+        "assertionIds": [
+          "asrt.fr.nipton.a"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Legion interpretation of the massacre is an ideological source statement; the deaths and destruction are observable facts."
+        ],
+        "assertionIds": [
+          "asrt.fr.nipton.b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.helios_one",
+    "type": "place",
+    "subtype": "power_station",
+    "displayName": "HELIOS One",
+    "summary": "A pre-War solar power station contested by the NCR and Mojave Brotherhood.",
+    "description": "A pre-War solar power station contested by the NCR and Mojave Brotherhood.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Elder Elijah commits the Mojave chapter to holding HELIOS One for its advanced systems. NCR pressure and the Brotherhood's refusal to withdraw produce a costly defeat that drives the chapter into Hidden Valley."
+        ],
+        "assertionIds": [
+          "asrt.fr.helios_one.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.hidden_valley"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "In 2281 NCR technicians struggle to operate the plant while the Courier can redirect power and uncover the ARCHIMEDES system. Those choices have different beneficiaries."
+        ],
+        "assertionIds": [
+          "asrt.fr.helios_one.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The site's technical capabilities are source-backed, but activating or assigning them is conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.helios_one.b"
+        ],
+        "relatedEntityIds": [
+          "ent.elijah"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.elijah",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Elijah",
+    "summary": "A former Mojave Brotherhood elder whose pursuit of advanced technology culminates at the Sierra Madre.",
+    "description": "A former Mojave Brotherhood elder whose pursuit of advanced technology culminates at the Sierra Madre.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Elijah prioritises transformative technologies over the survival and consent of his chapter. His decision to hold HELIOS One contributes to defeat, after which he disappears and McNamara takes command."
+        ],
+        "assertionIds": [
+          "asrt.fr.elijah.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.helios_one"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "At Big MT he exploits or imprisons other travellers, then uses bomb collars to force a team into the Sierra Madre casino. He seeks its vending systems, holograms and cloud as tools of coercive power."
+        ],
+        "assertionIds": [
+          "asrt.fr.elijah.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier can trap or kill him, and his claims about rebuilding conceal an explicitly authoritarian project."
+        ],
+        "assertionIds": [
+          "asrt.fr.elijah.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.veronica",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Veronica Santangelo",
+    "summary": "A Mojave Brotherhood scribe who questions her chapter's isolation and acts as a field procurer.",
+    "description": "A Mojave Brotherhood scribe who questions her chapter's isolation and acts as a field procurer.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Veronica grows up within the Brotherhood and is mentored by Elijah. As a procurement specialist she travels outside Hidden Valley, giving her direct experience of changes the sealed chapter avoids."
+        ],
+        "assertionIds": [
+          "asrt.fr.veronica.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.elijah"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "She asks the Courier to help demonstrate alternative strategies to the elder. The response can lead her to remain, attempt departure or face violence connected to her contacts."
+        ],
+        "assertionIds": [
+          "asrt.fr.veronica.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Her future is conditional, but her critique documents a genuine internal Brotherhood debate rather than an external caricature."
+        ],
+        "assertionIds": [
+          "asrt.fr.veronica.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.sierra_madre",
+    "type": "place",
+    "subtype": "casino",
+    "displayName": "Sierra Madre",
+    "summary": "A sealed pre-War resort whose toxic cloud, holographic security and obsessive histories frame Dead Money.",
+    "description": "A sealed pre-War resort whose toxic cloud, holographic security and obsessive histories frame Dead Money.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Frederick Sinclair built the Sierra Madre as both refuge and monument, while wartime shortcuts and personal betrayal compromised its systems before opening day. The Great War sealed guests and staff into catastrophe."
+        ],
+        "assertionIds": [
+          "asrt.fr.sierra_madre.role"
+        ],
+        "relatedEntityIds": [
+          "ent.elijah",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Elijah abducts the Courier and three companions to breach its vault. Radios, collars, ghost people and the cloud turn movement through the resort into coerced survival."
+        ],
+        "assertionIds": [
+          "asrt.fr.sierra_madre.a"
+        ],
+        "relatedEntityIds": [
+          "ent.elijah"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Companion survival and the vault outcome vary. The location's pre-War collapse and Elijah's operation are established across every route."
+        ],
+        "assertionIds": [
+          "asrt.fr.sierra_madre.b"
+        ],
+        "relatedEntityIds": [
+          "ent.big_mt"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.big_mt",
+    "type": "place",
+    "subtype": "research_complex",
+    "displayName": "Big MT",
+    "summary": "A vast pre-War research complex isolated inside a mountain crater and governed by the Think Tank.",
+    "description": "A vast pre-War research complex isolated inside a mountain crater and governed by the Think Tank.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Big Mountain Research and Development Center hosted projects whose technical ambition routinely outran consent and safety. Its facilities connect robotics, cybernetics, biological weapons and technologies later encountered elsewhere."
+        ],
+        "assertionIds": [
+          "asrt.fr.big_mt.role"
+        ],
+        "relatedEntityIds": [
+          "ent.think_tank",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "After the War, scientists preserved as brains in mobile units become the Think Tank, while Dr. Mobius confines them through deception. The Courier's forced surgery initiates Old World Blues."
+        ],
+        "assertionIds": [
+          "asrt.fr.big_mt.a"
+        ],
+        "relatedEntityIds": [
+          "ent.think_tank"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Many experiments have independent histories and should not be conflated. The Courier may change leadership, but the complex's research legacy remains."
+        ],
+        "assertionIds": [
+          "asrt.fr.big_mt.b"
+        ],
+        "relatedEntityIds": [
+          "ent.divide"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.think_tank",
+    "type": "organisation",
+    "subtype": "scientific_collective",
+    "displayName": "Think Tank",
+    "summary": "The post-War robotic brain collective governing Big MT's central research dome.",
+    "description": "The post-War robotic brain collective governing Big MT's central research dome.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Think Tank consists of pre-War scientists whose brains and personalities survive in mechanical apparatus. Isolation, memory alteration and institutional culture magnify their detachment from the harm caused by experiments."
+        ],
+        "assertionIds": [
+          "asrt.fr.think_tank.role"
+        ],
+        "relatedEntityIds": [
+          "ent.big_mt",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "They remove the Courier's brain, spine and heart and direct recovery efforts against Mobius. Recovered evidence reveals that Mobius's supposed threat also keeps them from escaping into the wider wasteland."
+        ],
+        "assertionIds": [
+          "asrt.fr.think_tank.a"
+        ],
+        "relatedEntityIds": [
+          "ent.big_mt"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Their fate depends on dialogue and violence. Scientific description does not validate their ethical self-assessment."
+        ],
+        "assertionIds": [
+          "asrt.fr.think_tank.b"
+        ],
+        "relatedEntityIds": [
+          "ent.divide"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.ulysses",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Ulysses",
+    "summary": "A former Legion frumentarius and courier who confronts the player character through the history of the Divide.",
+    "description": "A former Legion frumentarius and courier who confronts the player character through the history of the Divide.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Ulysses was born among the Twisted Hairs, whose identity was destroyed after incorporation into Caesar's Legion. He later served as scout and agent, finding Hoover Dam and encountering communities beyond the Legion."
+        ],
+        "assertionIds": [
+          "asrt.fr.ulysses.role"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "He attributes the Divide's destruction to a package carried by the Courier and constructs a confrontation around nations, symbols and responsibility. His account supplies essential testimony but is also a deliberate accusation."
+        ],
+        "assertionIds": [
+          "asrt.fr.ulysses.a"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Dialogue can change whether he survives and how the missiles are handled. The archive distinguishes his witnessed history from his broader political conclusions."
+        ],
+        "assertionIds": [
+          "asrt.fr.ulysses.b"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.divide",
+    "type": "place",
+    "subtype": "ruined_region",
+    "displayName": "The Divide",
+    "summary": "A devastated trade community and missile landscape central to Lonesome Road.",
+    "description": "A devastated trade community and missile landscape central to Lonesome Road.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "A settlement grew along routes linking west and east and developed a flag-based identity. NCR movement and Legion interest made it strategically significant before buried warheads detonated."
+        ],
+        "assertionIds": [
+          "asrt.fr.divide.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ulysses",
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Ulysses says a device delivered by the Courier triggered the launch network, destroying the community and creating marked men and violent storms. Environmental and automated records support the catastrophe, while intent and full prior knowledge remain distinct questions."
+        ],
+        "assertionIds": [
+          "asrt.fr.divide.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ulysses"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier's final missile decision is conditional. The earlier destruction is backstory, though mediated partly through Ulysses's testimony."
+        ],
+        "assertionIds": [
+          "asrt.fr.divide.b"
+        ],
+        "relatedEntityIds": [
+          "ent.tunnelers"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.marked_men",
+    "type": "organisation",
+    "subtype": "survivor_group",
+    "displayName": "Marked Men",
+    "summary": "NCR and Legion survivors transformed by the Divide and held together by shared conditions.",
+    "description": "NCR and Legion survivors transformed by the Divide and held together by shared conditions.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The missile disaster strips and irradiates soldiers from opposing armies while storms and the Divide's environment sustain their altered bodies. Cut off from former commands, they form hostile mixed groups."
+        ],
+        "assertionIds": [
+          "asrt.fr.marked_men.role"
+        ],
+        "relatedEntityIds": [
+          "ent.divide",
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Their presence demonstrates that the catastrophe does not simply preserve the NCR–Legion boundary. Ulysses uses them as part of his account of symbols erased by disaster."
+        ],
+        "assertionIds": [
+          "asrt.fr.marked_men.a"
+        ],
+        "relatedEntityIds": [
+          "ent.divide"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "They are not a unified political successor state, and their exact future after the Courier's passage is unresolved."
+        ],
+        "assertionIds": [
+          "asrt.fr.marked_men.b"
+        ],
+        "relatedEntityIds": [
+          "ent.ulysses"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.tunnelers",
+    "type": "substance_condition",
+    "subtype": "mutated_population",
+    "displayName": "Tunnelers",
+    "summary": "A subterranean mutated population encountered in the Divide.",
+    "description": "A subterranean mutated population encountered in the Divide.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Tunnelers occupy caves and buried infrastructure exposed by the Divide's destruction. They hunt in groups and threaten marked men, deathclaws and travellers."
+        ],
+        "assertionIds": [
+          "asrt.fr.tunnelers.role"
+        ],
+        "relatedEntityIds": [
+          "ent.divide",
+          "ent.ulysses"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Ulysses predicts that they may spread into the Mojave. That prediction is a source claim about a possible future, not a completed historical event."
+        ],
+        "assertionIds": [
+          "asrt.fr.tunnelers.a"
+        ],
+        "relatedEntityIds": [
+          "ent.divide"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The archive records demonstrated presence in the Divide separately from speculative regional consequences."
+        ],
+        "assertionIds": [
+          "asrt.fr.tunnelers.b"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "substance_condition"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.zion",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Zion Canyon",
+    "summary": "A comparatively fertile canyon region inhabited by tribal communities and contested during Honest Hearts.",
+    "description": "A comparatively fertile canyon region inhabited by tribal communities and contested during Honest Hearts.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Zion's water, cliffs and plant life support communities including the Sorrows and Dead Horses. Surviving records of Randall Clark shape the Sorrows' inherited stories without direct contact."
+        ],
+        "assertionIds": [
+          "asrt.fr.zion.role"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham",
+          "ent.daniel_hh"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The White Legs invade while seeking status with Caesar's Legion, and New Canaanite survivors help organise defence or evacuation. The Courier arrives with a caravan caught in the conflict."
+        ],
+        "assertionIds": [
+          "asrt.fr.zion.a"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Evacuation and resistance endings are conditional. The region's communities must not be described as culturally static or interchangeable."
+        ],
+        "assertionIds": [
+          "asrt.fr.zion.b"
+        ],
+        "relatedEntityIds": [
+          "ent.sorrows"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.daniel_hh",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Daniel",
+    "summary": "A New Canaanite missionary who advocates evacuating the Sorrows from Zion.",
+    "description": "A New Canaanite missionary who advocates evacuating the Sorrows from Zion.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Daniel works among the Sorrows and seeks to protect them from the White Legs. He fears that organised warfare will destroy qualities he values in their culture."
+        ],
+        "assertionIds": [
+          "asrt.fr.daniel_hh.role"
+        ],
+        "relatedEntityIds": [
+          "ent.zion",
+          "ent.sorrows"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "His evacuation plan conflicts with Joshua Graham's proposed defence. Both positions involve outside influence, and the Courier's decision determines the campaign's route."
+        ],
+        "assertionIds": [
+          "asrt.fr.daniel_hh.a"
+        ],
+        "relatedEntityIds": [
+          "ent.zion"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The narrative's descriptions of innocence reflect Daniel's perspective and should not be adopted as an objective measure of the Sorrows."
+        ],
+        "assertionIds": [
+          "asrt.fr.daniel_hh.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.dead_horses",
+    "type": "organisation",
+    "subtype": "tribal_society",
+    "displayName": "Dead Horses",
+    "summary": "A Zion-associated tribal community allied with Joshua Graham during the White Legs conflict.",
+    "description": "A Zion-associated tribal community allied with Joshua Graham during the White Legs conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Dead Horses have their own leadership and practices while accepting Graham as war chief for the immediate crisis. Their alliance links New Canaanite survivors to Zion's defence."
+        ],
+        "assertionIds": [
+          "asrt.fr.dead_horses.role"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham",
+          "ent.zion"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Members guide and fight alongside the Courier against White Legs incursions. Their future depends on the broader Honest Hearts outcome."
+        ],
+        "assertionIds": [
+          "asrt.fr.dead_horses.a"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The archive avoids reducing the community to Graham's command or treating his cultural vocabulary as their complete identity."
+        ],
+        "assertionIds": [
+          "asrt.fr.dead_horses.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.sorrows",
+    "type": "organisation",
+    "subtype": "tribal_society",
+    "displayName": "Sorrows",
+    "summary": "A Zion tribal community whose home becomes the central object of the Honest Hearts evacuation debate.",
+    "description": "A Zion tribal community whose home becomes the central object of the Honest Hearts evacuation debate.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Sorrows developed in Zion with stories influenced by caches and messages left by Randall Clark. Their knowledge of the canyon is practical, social and historical rather than evidence of isolation from thought."
+        ],
+        "assertionIds": [
+          "asrt.fr.sorrows.role"
+        ],
+        "relatedEntityIds": [
+          "ent.zion",
+          "ent.daniel_hh"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Daniel urges evacuation while Graham supports armed defence. The Courier's choices affect displacement, violence and later cultural change."
+        ],
+        "assertionIds": [
+          "asrt.fr.sorrows.a"
+        ],
+        "relatedEntityIds": [
+          "ent.zion"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Descriptions of innocence or corruption are value judgments made by other characters; the community's agency should remain visible."
+        ],
+        "assertionIds": [
+          "asrt.fr.sorrows.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "ent.chosen_one_journey",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Chosen One's journey",
+    "summary": "The Chosen One leaves Arroyo in 2241 to seek a Garden of Eden Creation Kit and becomes involved in the Enclave crisis.",
+    "description": "The Chosen One leaves Arroyo in 2241 to seek a Garden of Eden Creation Kit and becomes involved in the Enclave crisis.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_2"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.midwestern_campaign",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Midwestern Brotherhood campaign",
+    "summary": "The Midwestern Brotherhood's campaign against raiders, the Beastlords, super mutants and the Calculator occurs around 2197.",
+    "description": "The Midwestern Brotherhood's campaign against raiders, the Beastlords, super mutants and the Calculator occurs around 2197.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_tactics"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.texas_brotherhood_campaign",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Texas Brotherhood campaign",
+    "summary": "The Brotherhood of Steel console game's Texas campaign against Attis's army occurs in 2208 within its separate or disputed game continuity.",
+    "description": "The Brotherhood of Steel console game's Texas campaign against Attis's army occurs in 2208 within its separate or disputed game continuity.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_bos"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.project_purity_activation",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Activation of Project Purity",
+    "summary": "Project Purity is activated at the Jefferson Memorial during the Capital Wasteland conflict of 2277.",
+    "description": "Project Purity is activated at the Jefferson Memorial during the Capital Wasteland conflict of 2277.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.capital_enclave_campaign",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Capital Wasteland Enclave campaign",
+    "summary": "The Enclave's open campaign to seize Project Purity and control clean-water distribution unfolds in 2277.",
+    "description": "The Enclave's open campaign to seize Project Purity and control clean-water distribution unfolds in 2277.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_3"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.courier_ambush",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Courier ambush at Goodsprings",
+    "summary": "Benny's attack on the Courier and theft of the Platinum Chip begin the Mojave investigation in 2281.",
+    "description": "Benny's attack on the Courier and theft of the Platinum Chip begin the Mojave investigation in 2281.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "new_vegas"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.sole_survivor_emergence",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Sole Survivor emerges",
+    "summary": "The Sole Survivor leaves Vault 111 and begins the search for Shaun in 2287.",
+    "description": "The Sole Survivor leaves Vault 111 and begins the search for Shaun in 2287.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.commonwealth_faction_conflict",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Commonwealth faction conflict",
+    "summary": "The Institute, Railroad, Minutemen and eastern Brotherhood enter a decisive phase of conflict in 2287.",
+    "description": "The Institute, Railroad, Minutemen and eastern Brotherhood enter a decisive phase of conflict in 2287.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_4"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.reclamation_day",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Reclamation Day",
+    "summary": "Vault 76 opens and its residents enter Appalachia in 2102.",
+    "description": "Vault 76 opens and its residents enter Appalachia in 2102.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.return_to_appalachia",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Return to Appalachia",
+    "summary": "Large settler and raider groups establish Foundation and Crater in 2103 after people return to Appalachia.",
+    "description": "Large settler and raider groups establish Foundation and Crater in 2103 after people return to Appalachia.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  },
+  {
+    "id": "ent.atlas_expedition_arrival",
+    "type": "event",
+    "subtype": "historical_event",
+    "displayName": "Brotherhood expedition reaches Fort Atlas",
+    "summary": "Rahmani's expedition establishes its Appalachian headquarters at Fort Atlas in 2103.",
+    "description": "Rahmani's expedition establishes its Appalachian headquarters at Fort Atlas in 2103.",
+    "articleTier": "supporting",
+    "tags": [
+      "timeline",
+      "franchise-history",
+      "fallout_76"
+    ],
+    "recordStatus": "reviewed",
+    "featured": false
+  }
+]

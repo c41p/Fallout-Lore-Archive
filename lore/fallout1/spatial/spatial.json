@@ -1,0 +1,3 @@
+[
+{"id":"spatial.f1.necropolis","placeId":"ent.necropolis","geometryKind":"approximate_point","latitude":35.3733,"longitude":-119.0187,"precision":"city_correspondence","confidence":"strong","basis":"explicit_real_world_correspondence","notes":"Fallout identifies Necropolis with Bakersfield; the marker represents the modern city centre, not a precise in-game site."}
+]

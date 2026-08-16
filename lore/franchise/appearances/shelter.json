@@ -1,0 +1,30 @@
+[
+  {
+    "id": "app.fr.shelter_overseer.fallout_shelter",
+    "entityId": "ent.shelter_overseer",
+    "workId": "work.fallout_shelter",
+    "kind": "appears",
+    "notes": "Indexed as gameplay-forward supplementary material."
+  },
+  {
+    "id": "app.fr.shelter_vault.fallout_shelter",
+    "entityId": "ent.shelter_vault",
+    "workId": "work.fallout_shelter",
+    "kind": "appears",
+    "notes": "Indexed as gameplay-forward supplementary material."
+  },
+  {
+    "id": "app.fr.shelter_dwellers.fallout_shelter",
+    "entityId": "ent.shelter_dwellers",
+    "workId": "work.fallout_shelter",
+    "kind": "appears",
+    "notes": "Indexed as gameplay-forward supplementary material."
+  },
+  {
+    "id": "app.fr.fallout_shelter_simulation.fallout_shelter",
+    "entityId": "ent.fallout_shelter_simulation",
+    "workId": "work.fallout_shelter",
+    "kind": "appears",
+    "notes": "Indexed as gameplay-forward supplementary material."
+  }
+]

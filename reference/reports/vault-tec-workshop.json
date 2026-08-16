@@ -1,0 +1,28 @@
+{
+  "workId": "work.vault_tec_workshop",
+  "slug": "vault-tec-workshop",
+  "title": "Vault-Tec Workshop",
+  "referenceSubjects": 1,
+  "matchedArchiveEntities": 0,
+  "productionQuality": 0,
+  "substantialRecords": 0,
+  "supportingRecords": 0,
+  "shallowRecords": 0,
+  "missingSubjects": 1,
+  "unresolvedMatches": 0,
+  "gameplayOrReferenceOnly": 0,
+  "majorLore": 0,
+  "supportingLore": 1,
+  "minorLore": 0,
+  "deepResearchCandidates": 0,
+  "tier1Gaps": 0,
+  "tier2Gaps": 1,
+  "weightedLoreCoverage": 0,
+  "byType": {
+    "place": {
+      "total": 1,
+      "matched": 0,
+      "missing": 1
+    }
+  }
+}

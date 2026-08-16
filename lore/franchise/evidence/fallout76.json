@@ -1,0 +1,698 @@
+[
+  {
+    "id": "ev.fr.resident_76.1",
+    "targetId": "asrt.fr.resident_76.role",
+    "sourceItemId": "src.ref.resident_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.resident_76.2",
+    "targetId": "asrt.fr.resident_76.a",
+    "sourceItemId": "src.ref.resident_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.resident_76.3",
+    "targetId": "asrt.fr.resident_76.b",
+    "sourceItemId": "src.ref.resident_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_76.1",
+    "targetId": "asrt.fr.vault_76.role",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_76.2",
+    "targetId": "asrt.fr.vault_76.a",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_76.3",
+    "targetId": "asrt.fr.vault_76.b",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.appalachia.1",
+    "targetId": "asrt.fr.appalachia.role",
+    "sourceItemId": "src.ref.appalachia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.appalachia.2",
+    "targetId": "asrt.fr.appalachia.a",
+    "sourceItemId": "src.ref.appalachia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.appalachia.3",
+    "targetId": "asrt.fr.appalachia.b",
+    "sourceItemId": "src.ref.appalachia",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.overseer_76.1",
+    "targetId": "asrt.fr.overseer_76.role",
+    "sourceItemId": "src.ref.overseer_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.overseer_76.2",
+    "targetId": "asrt.fr.overseer_76.a",
+    "sourceItemId": "src.ref.overseer_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.overseer_76.3",
+    "targetId": "asrt.fr.overseer_76.b",
+    "sourceItemId": "src.ref.overseer_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.responders.1",
+    "targetId": "asrt.fr.responders.role",
+    "sourceItemId": "src.ref.responders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.responders.2",
+    "targetId": "asrt.fr.responders.a",
+    "sourceItemId": "src.ref.responders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.responders.3",
+    "targetId": "asrt.fr.responders.b",
+    "sourceItemId": "src.ref.responders",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.free_states.1",
+    "targetId": "asrt.fr.free_states.role",
+    "sourceItemId": "src.ref.free_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.free_states.2",
+    "targetId": "asrt.fr.free_states.a",
+    "sourceItemId": "src.ref.free_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.free_states.3",
+    "targetId": "asrt.fr.free_states.b",
+    "sourceItemId": "src.ref.free_states",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.charleston.1",
+    "targetId": "asrt.fr.charleston.role",
+    "sourceItemId": "src.ref.charleston",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.charleston.2",
+    "targetId": "asrt.fr.charleston.a",
+    "sourceItemId": "src.ref.charleston",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.charleston.3",
+    "targetId": "asrt.fr.charleston.b",
+    "sourceItemId": "src.ref.charleston",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.whitespring.1",
+    "targetId": "asrt.fr.whitespring.role",
+    "sourceItemId": "src.ref.whitespring",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.whitespring.2",
+    "targetId": "asrt.fr.whitespring.a",
+    "sourceItemId": "src.ref.whitespring",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.whitespring.3",
+    "targetId": "asrt.fr.whitespring.b",
+    "sourceItemId": "src.ref.whitespring",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.modus.1",
+    "targetId": "asrt.fr.modus.role",
+    "sourceItemId": "src.ref.modus",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.modus.2",
+    "targetId": "asrt.fr.modus.a",
+    "sourceItemId": "src.ref.modus",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.modus.3",
+    "targetId": "asrt.fr.modus.b",
+    "sourceItemId": "src.ref.modus",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched.1",
+    "targetId": "asrt.fr.scorched.role",
+    "sourceItemId": "src.ref.scorched",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched.2",
+    "targetId": "asrt.fr.scorched.a",
+    "sourceItemId": "src.ref.scorched",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched.3",
+    "targetId": "asrt.fr.scorched.b",
+    "sourceItemId": "src.ref.scorched",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorchbeasts.1",
+    "targetId": "asrt.fr.scorchbeasts.role",
+    "sourceItemId": "src.ref.scorchbeasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorchbeasts.2",
+    "targetId": "asrt.fr.scorchbeasts.a",
+    "sourceItemId": "src.ref.scorchbeasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorchbeasts.3",
+    "targetId": "asrt.fr.scorchbeasts.b",
+    "sourceItemId": "src.ref.scorchbeasts",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched_plague.1",
+    "targetId": "asrt.fr.scorched_plague.role",
+    "sourceItemId": "src.ref.scorched_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched_plague.2",
+    "targetId": "asrt.fr.scorched_plague.a",
+    "sourceItemId": "src.ref.scorched_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.scorched_plague.3",
+    "targetId": "asrt.fr.scorched_plague.b",
+    "sourceItemId": "src.ref.scorched_plague",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.inoculation_project.1",
+    "targetId": "asrt.fr.inoculation_project.role",
+    "sourceItemId": "src.ref.inoculation_project",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.inoculation_project.2",
+    "targetId": "asrt.fr.inoculation_project.a",
+    "sourceItemId": "src.ref.inoculation_project",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.inoculation_project.3",
+    "targetId": "asrt.fr.inoculation_project.b",
+    "sourceItemId": "src.ref.inoculation_project",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.foundation.1",
+    "targetId": "asrt.fr.foundation.role",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.foundation.2",
+    "targetId": "asrt.fr.foundation.a",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.foundation.3",
+    "targetId": "asrt.fr.foundation.b",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.foundation_settlers.1",
+    "targetId": "asrt.fr.foundation_settlers.role",
+    "sourceItemId": "src.ref.foundation_settlers",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.foundation_settlers.2",
+    "targetId": "asrt.fr.foundation_settlers.a",
+    "sourceItemId": "src.ref.foundation_settlers",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.foundation_settlers.3",
+    "targetId": "asrt.fr.foundation_settlers.b",
+    "sourceItemId": "src.ref.foundation_settlers",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater.1",
+    "targetId": "asrt.fr.crater.role",
+    "sourceItemId": "src.ref.crater",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater.2",
+    "targetId": "asrt.fr.crater.a",
+    "sourceItemId": "src.ref.crater",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater.3",
+    "targetId": "asrt.fr.crater.b",
+    "sourceItemId": "src.ref.crater",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater_raiders.1",
+    "targetId": "asrt.fr.crater_raiders.role",
+    "sourceItemId": "src.ref.crater_raiders",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater_raiders.2",
+    "targetId": "asrt.fr.crater_raiders.a",
+    "sourceItemId": "src.ref.crater_raiders",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.crater_raiders.3",
+    "targetId": "asrt.fr.crater_raiders.b",
+    "sourceItemId": "src.ref.crater_raiders",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.vault_79.1",
+    "targetId": "asrt.fr.vault_79.role",
+    "sourceItemId": "src.ref.vault_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_79.2",
+    "targetId": "asrt.fr.vault_79.a",
+    "sourceItemId": "src.ref.vault_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.vault_79.3",
+    "targetId": "asrt.fr.vault_79.b",
+    "sourceItemId": "src.ref.vault_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.secret_service_79.1",
+    "targetId": "asrt.fr.secret_service_79.role",
+    "sourceItemId": "src.ref.secret_service_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.secret_service_79.2",
+    "targetId": "asrt.fr.secret_service_79.a",
+    "sourceItemId": "src.ref.secret_service_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.secret_service_79.3",
+    "targetId": "asrt.fr.secret_service_79.b",
+    "sourceItemId": "src.ref.secret_service_79",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.rahmani.1",
+    "targetId": "asrt.fr.rahmani.role",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.rahmani.2",
+    "targetId": "asrt.fr.rahmani.a",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.rahmani.3",
+    "targetId": "asrt.fr.rahmani.b",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.knight_shin.1",
+    "targetId": "asrt.fr.knight_shin.role",
+    "sourceItemId": "src.ref.knight_shin",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.knight_shin.2",
+    "targetId": "asrt.fr.knight_shin.a",
+    "sourceItemId": "src.ref.knight_shin",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.knight_shin.3",
+    "targetId": "asrt.fr.knight_shin.b",
+    "sourceItemId": "src.ref.knight_shin",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.fort_atlas.1",
+    "targetId": "asrt.fr.fort_atlas.role",
+    "sourceItemId": "src.ref.fort_atlas",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.fort_atlas.2",
+    "targetId": "asrt.fr.fort_atlas.a",
+    "sourceItemId": "src.ref.fort_atlas",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.fort_atlas.3",
+    "targetId": "asrt.fr.fort_atlas.b",
+    "sourceItemId": "src.ref.fort_atlas",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.atlantic_city.1",
+    "targetId": "asrt.fr.atlantic_city.role",
+    "sourceItemId": "src.ref.atlantic_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.atlantic_city.2",
+    "targetId": "asrt.fr.atlantic_city.a",
+    "sourceItemId": "src.ref.atlantic_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.atlantic_city.3",
+    "targetId": "asrt.fr.atlantic_city.b",
+    "sourceItemId": "src.ref.atlantic_city",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.skyline_valley.1",
+    "targetId": "asrt.fr.skyline_valley.role",
+    "sourceItemId": "src.ref.skyline_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.skyline_valley.2",
+    "targetId": "asrt.fr.skyline_valley.a",
+    "sourceItemId": "src.ref.skyline_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.skyline_valley.3",
+    "targetId": "asrt.fr.skyline_valley.b",
+    "sourceItemId": "src.ref.skyline_valley",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lost_f76.1",
+    "targetId": "asrt.fr.lost_f76.role",
+    "sourceItemId": "src.ref.lost_f76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lost_f76.2",
+    "targetId": "asrt.fr.lost_f76.a",
+    "sourceItemId": "src.ref.lost_f76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.lost_f76.3",
+    "targetId": "asrt.fr.lost_f76.b",
+    "sourceItemId": "src.ref.lost_f76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hugo_stolz.1",
+    "targetId": "asrt.fr.hugo_stolz.role",
+    "sourceItemId": "src.ref.hugo_stolz",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hugo_stolz.2",
+    "targetId": "asrt.fr.hugo_stolz.a",
+    "sourceItemId": "src.ref.hugo_stolz",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.hugo_stolz.3",
+    "targetId": "asrt.fr.hugo_stolz.b",
+    "sourceItemId": "src.ref.hugo_stolz",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Secondary reference support; not presented as primary game evidence."
+  },
+  {
+    "id": "ev.fr.burning_springs.1",
+    "targetId": "asrt.fr.burning_springs.role",
+    "sourceItemId": "src.ref.burning_springs",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.burning_springs.2",
+    "targetId": "asrt.fr.burning_springs.a",
+    "sourceItemId": "src.ref.burning_springs",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.burning_springs.3",
+    "targetId": "asrt.fr.burning_springs.b",
+    "sourceItemId": "src.ref.burning_springs",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.highway_town.1",
+    "targetId": "asrt.fr.highway_town.role",
+    "sourceItemId": "src.ref.highway_town",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.highway_town.2",
+    "targetId": "asrt.fr.highway_town.a",
+    "sourceItemId": "src.ref.highway_town",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.highway_town.3",
+    "targetId": "asrt.fr.highway_town.b",
+    "sourceItemId": "src.ref.highway_town",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.rust_king.1",
+    "targetId": "asrt.fr.rust_king.role",
+    "sourceItemId": "src.ref.rust_king",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.rust_king.2",
+    "targetId": "asrt.fr.rust_king.a",
+    "sourceItemId": "src.ref.rust_king",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  },
+  {
+    "id": "ev.fr.rust_king.3",
+    "targetId": "asrt.fr.rust_king.b",
+    "sourceItemId": "src.ref.rust_king",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Official Bethesda release material supports the released subject and described role; deeper in-game locators remain desirable."
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "id": "src.ref.upgrade.ncr",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — New California Republic",
+    "locator": "New California Republic",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/New_California_Republic",
+    "context": "Secondary discovery and cross-check source for New California Republic; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.caesar",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Caesar",
+    "locator": "Caesar",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Caesar",
+    "context": "Secondary discovery and cross-check source for Caesar; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.caesars_legion",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Caesar's Legion",
+    "locator": "Caesar's Legion",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Caesar's_Legion",
+    "context": "Secondary discovery and cross-check source for Caesar's Legion; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.robert_house",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Robert House",
+    "locator": "Robert House",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Robert_House",
+    "context": "Secondary discovery and cross-check source for Robert House; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.new_vegas",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — New Vegas",
+    "locator": "New Vegas",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/New_Vegas",
+    "context": "Secondary discovery and cross-check source for New Vegas; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.mojave",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Mojave Wasteland",
+    "locator": "Mojave Wasteland",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Mojave_Wasteland",
+    "context": "Secondary discovery and cross-check source for Mojave Wasteland; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.mojave_brotherhood",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Mojave Brotherhood of Steel",
+    "locator": "Mojave Brotherhood of Steel",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Mojave_Brotherhood_of_Steel",
+    "context": "Secondary discovery and cross-check source for Mojave Brotherhood of Steel; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.great_khans",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Great Khans",
+    "locator": "Great Khans",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Great_Khans",
+    "context": "Secondary discovery and cross-check source for Great Khans; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.hoover_dam",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Hoover Dam",
+    "locator": "Hoover Dam",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Hoover_Dam",
+    "context": "Secondary discovery and cross-check source for Hoover Dam; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.first_hoover_battle",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — First Battle of Hoover Dam",
+    "locator": "First Battle of Hoover Dam",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/First_Battle_of_Hoover_Dam",
+    "context": "Secondary discovery and cross-check source for First Battle of Hoover Dam; consult cited released-game material for primary verification."
+  },
+  {
+    "id": "src.ref.upgrade.second_hoover_battle",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Second Battle of Hoover Dam",
+    "locator": "Second Battle of Hoover Dam",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Second_Battle_of_Hoover_Dam",
+    "context": "Secondary discovery and cross-check source for Second Battle of Hoover Dam; consult cited released-game material for primary verification."
+  }
+]

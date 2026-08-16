@@ -1,0 +1,167 @@
+{
+  "sourceWorks": [
+    {
+      "id": "work.fallout_tactics",
+      "title": "Fallout Tactics: Brotherhood of Steel",
+      "workType": "game",
+      "releaseDate": "2001-03-15",
+      "materialStatus": "released",
+      "continuityClassification": "games_secondary_status",
+      "slug": "fallout-tactics",
+      "description": "The squad-tactics game follows a Midwestern Brotherhood expedition and its conflict with the Calculator; later works treat parts of its history selectively.",
+      "featuredEntityIds": [
+        "ent.midwestern_brotherhood",
+        "ent.warrior",
+        "ent.calculator",
+        "ent.vault_0",
+        "ent.chicago_wasteland"
+      ]
+    },
+    {
+      "id": "work.fallout_bos",
+      "title": "Fallout: Brotherhood of Steel",
+      "workType": "game",
+      "releaseDate": "2004-01-13",
+      "materialStatus": "released",
+      "continuityClassification": "separate_or_disputed_games_continuity",
+      "slug": "fallout-brotherhood-of-steel",
+      "description": "The console action role-playing game follows Brotherhood initiates in Texas; its setting is indexed separately because its relationship to the principal game continuity is disputed.",
+      "featuredEntityIds": [
+        "ent.bos_initiate",
+        "ent.texas_brotherhood",
+        "ent.carbon",
+        "ent.los_texas",
+        "ent.attis"
+      ]
+    },
+    {
+      "id": "work.fallout_shelter",
+      "title": "Fallout Shelter",
+      "workType": "game",
+      "releaseDate": "2015-06-14",
+      "materialStatus": "released",
+      "continuityClassification": "gameplay_forward_supplementary",
+      "slug": "fallout-shelter",
+      "description": "A management game about operating a Vault. Its recognizable franchise subjects are indexed without treating every simulation mechanic as historical fact.",
+      "featuredEntityIds": [
+        "ent.shelter_overseer",
+        "ent.shelter_vault",
+        "ent.shelter_dwellers",
+        "ent.fallout_shelter_simulation"
+      ]
+    },
+    {
+      "id": "work.nukapedia",
+      "title": "Fallout Wiki (Nukapedia)",
+      "workType": "website",
+      "materialStatus": "secondary_reference",
+      "continuityClassification": "not_lore_evidence",
+      "description": "CC BY-SA community reference used for discovery, identity cross-checking and locating released-game evidence. Page-specific attribution is retained in SourceItems."
+    },
+    {
+      "id": "work.operation_anchorage",
+      "title": "Operation: Anchorage",
+      "workType": "addon",
+      "releaseDate": "2009-01-27",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.the_pitt",
+      "title": "The Pitt",
+      "workType": "addon",
+      "releaseDate": "2009-03-24",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.broken_steel",
+      "title": "Broken Steel",
+      "workType": "addon",
+      "releaseDate": "2009-05-05",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.point_lookout",
+      "title": "Point Lookout",
+      "workType": "addon",
+      "releaseDate": "2009-06-23",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.mothership_zeta",
+      "title": "Mothership Zeta",
+      "workType": "addon",
+      "releaseDate": "2009-08-03",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.dead_money",
+      "title": "Dead Money",
+      "workType": "addon",
+      "releaseDate": "2010-12-21",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.honest_hearts",
+      "title": "Honest Hearts",
+      "workType": "addon",
+      "releaseDate": "2011-05-17",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.old_world_blues",
+      "title": "Old World Blues",
+      "workType": "addon",
+      "releaseDate": "2011-07-19",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.lonesome_road",
+      "title": "Lonesome Road",
+      "workType": "addon",
+      "releaseDate": "2011-09-20",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.automatron",
+      "title": "Automatron",
+      "workType": "addon",
+      "releaseDate": "2016-03-22",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.far_harbor",
+      "title": "Far Harbor",
+      "workType": "addon",
+      "releaseDate": "2016-05-19",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.vault_tec_workshop",
+      "title": "Vault-Tec Workshop",
+      "workType": "addon",
+      "releaseDate": "2016-07-26",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    },
+    {
+      "id": "work.nuka_world",
+      "title": "Nuka-World",
+      "workType": "addon",
+      "releaseDate": "2016-08-30",
+      "materialStatus": "released",
+      "continuityClassification": "games_primary"
+    }
+  ],
+  "sourceItems": []
+}

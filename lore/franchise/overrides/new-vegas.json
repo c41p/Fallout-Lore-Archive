@@ -1,0 +1,781 @@
+[
+  {
+    "id": "ent.ncr",
+    "summary": "A federal republic founded from Shady Sands that expanded across California and into the Mojave.",
+    "description": "A federal republic founded from Shady Sands that expanded across California and into the Mojave.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Shady Sands grew from a small settlement into the capital of a constitutional republic formally founded in 2189. Elections, a senate, citizenship and written law distinguish the NCR from rule by a single warlord, while its institutions remain vulnerable to wealth and patronage."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.ncr.role"
+        ],
+        "relatedEntityIds": [
+          "ent.shady_sands",
+          "ent.ncr_foundation"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Expansion brought trade routes, military protection and infrastructure, but also annexation, displacement and an expensive occupation. By 2281 the Mojave campaign stretches logistics from Camp McCarran to Hoover Dam and generates criticism from soldiers, Rangers and civilians."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.ncr.a"
+        ],
+        "relatedEntityIds": [
+          "ent.shady_sands"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "New Vegas permits victory, withdrawal or political defeat. The archive therefore treats the NCR as a changing state whose ideals, policies and local conduct may conflict, not as a single moral verdict."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.ncr.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.caesar",
+    "summary": "The autocratic founder of Caesar's Legion, born Edward Sallow and educated by the Followers of the Apocalypse.",
+    "description": "The autocratic founder of Caesar's Legion, born Edward Sallow and educated by the Followers of the Apocalypse.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Edward Sallow travels east as a Followers linguist and is captured among tribal conflict. He uses historical knowledge and military organisation to dominate his captors, adopts the title Caesar and constructs a state around conquest."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesar.role"
+        ],
+        "relatedEntityIds": [
+          "ent.followers",
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Caesar dissolves conquered tribal identities into the Legion, controls succession personally and frames war with the NCR as a historical transformation. A brain tumour and dependence on individual authority expose instability beneath institutional discipline."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesar.a"
+        ],
+        "relatedEntityIds": [
+          "ent.followers"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "His accounts of dialectics, Rome and civilisation are ideological arguments. The archive records demonstrated conquests separately from his claims that brutality is necessary or historically inevitable."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesar.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.caesars_legion",
+    "summary": "An expansionist autocracy that incorporates conquered tribes into a militarised hierarchy under Caesar.",
+    "description": "An expansionist autocracy that incorporates conquered tribes into a militarised hierarchy under Caesar.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Legion is built through the destruction and forced assimilation of numerous tribal societies east of the Colorado. Rank, slavery, punishment and restricted technology concentrate authority in Caesar and the officer corps."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesars_legion.role"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar",
+          "ent.joshua_graham"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Its first assault on Hoover Dam fails in 2277; four years later the Legion infiltrates, raids and prepares a renewed offensive from the Fort. Joshua Graham, Lanius and Vulpes embody different functions within the same system."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesars_legion.a"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Its victory, defeat and succession are conditional in New Vegas. Claims of order and unity must be presented beside coercion, enslavement and the erasure of conquered identities."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.caesars_legion.b"
+        ],
+        "relatedEntityIds": [
+          "ent.second_hoover_battle"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.robert_house",
+    "summary": "The pre-War industrialist whose defence systems preserve central Las Vegas and who rules New Vegas through securitrons.",
+    "description": "The pre-War industrialist whose defence systems preserve central Las Vegas and who rules New Vegas through securitrons.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "House founds RobCo, predicts nuclear war and builds missile defences, life support and a computer network around Las Vegas. Most incoming warheads are stopped or disrupted, though the undelivered Platinum Chip prevents the planned system upgrade."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.robert_house.role"
+        ],
+        "relatedEntityIds": [
+          "ent.platinum_chip",
+          "ent.lucky_38"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "After recovering, House recruits tribal groups to operate casinos and negotiates with the approaching NCR. He uses the Courier to recover the Chip and seeks control of Hoover Dam as the basis for an independent commercial state."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.robert_house.a"
+        ],
+        "relatedEntityIds": [
+          "ent.platinum_chip"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "House's technological achievements are explicit; his forecasts of prosperity and space travel are political promises. He may be killed or restored to power depending on the Courier."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.robert_house.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.new_vegas",
+    "summary": "The city-state centred on the preserved Las Vegas Strip and governed by Robert House at the start of 2281.",
+    "description": "The city-state centred on the preserved Las Vegas Strip and governed by Robert House at the start of 2281.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "New Vegas emerged when House's securitrons secured the Strip and selected three tribal groups to become casino families. The surrounding urban area includes Freeside and communities not fully governed by the casino regime."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.new_vegas.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vegas_strip",
+          "ent.freeside"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "NCR visitors, Hoover Dam electricity and regional trade sustain the economy while House, the Republic and Legion compete over sovereignty. The Courier's recovered Chip makes control of the securitron army a fourth path."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.new_vegas.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vegas_strip"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Every main ending changes government. The archive describes the 2281 starting order and records endings as conditional outcomes rather than silently choosing one."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.new_vegas.b"
+        ],
+        "relatedEntityIds": [
+          "ent.hoover_dam"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.mojave",
+    "summary": "The post-War Mojave region containing New Vegas, Hoover Dam and diverse independent communities.",
+    "description": "The post-War Mojave region containing New Vegas, Hoover Dam and diverse independent communities.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Mojave includes desert settlements, military bases, tribal communities, pre-War research sites and the Colorado River corridor. Its comparatively intact infrastructure attracts expanding states."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave.role"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas",
+          "ent.hoover_dam"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "NCR occupation and Legion invasion dominate the 2281 strategic picture, but the region is not reducible to two armies. House, the Brotherhood, Boomers, Great Khans, Followers and local towns pursue distinct interests."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave.a"
+        ],
+        "relatedEntityIds": [
+          "ent.new_vegas"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Regional futures diverge sharply after Hoover Dam. Spatial records use defensible real-world anchors only where appropriate and do not treat compressed game distance as survey data."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave.b"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.mojave_brotherhood",
+    "summary": "A western Brotherhood chapter driven into Hidden Valley after defeat at HELIOS One.",
+    "description": "A western Brotherhood chapter driven into Hidden Valley after defeat at HELIOS One.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The chapter follows Elder Elijah into the Mojave in pursuit of advanced technology. His refusal to abandon HELIOS One produces severe casualties against the NCR and leaves survivors under lockdown."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave_brotherhood.role"
+        ],
+        "relatedEntityIds": [
+          "ent.elijah",
+          "ent.helios_one"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "McNamara preserves the chapter cautiously while Hardin challenges his leadership and Veronica argues that isolation is unsustainable. These debates connect founding doctrine to local institutional survival."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave_brotherhood.a"
+        ],
+        "relatedEntityIds": [
+          "ent.elijah"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Leadership, NCR peace and bunker destruction are conditional. The chapter's lineage and HELIOS defeat are fixed history."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.mojave_brotherhood.b"
+        ],
+        "relatedEntityIds": [
+          "ent.veronica"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.great_khans",
+    "summary": "A Mojave tribal society descended from earlier Khan groups and based in Red Rock Canyon.",
+    "description": "A Mojave tribal society descended from earlier Khan groups and based in Red Rock Canyon.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Great Khans carry a lineage shaped by repeated conflict with Shady Sands and the NCR, but the Mojave community has its own families, trade and leadership rather than being merely a raider remnant."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.great_khans.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr",
+          "ent.caesars_legion"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The NCR massacre at Bitter Springs produces grief and hostility that Caesar's emissaries exploit. The Courier can expose the Legion's plans and influence whether the Khans ally, leave or fight."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.great_khans.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ncr"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Their post-2281 fate is conditional. The archive preserves both NCR responsibility at Bitter Springs and the Khans' own raiding and drug trade without using either to erase the other."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.great_khans.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.hoover_dam",
+    "summary": "The real-world Colorado River dam that supplies power and becomes the strategic focus of the Mojave conflict.",
+    "description": "The real-world Colorado River dam that supplies power and becomes the strategic focus of the Mojave conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "House's wartime systems help preserve the dam, and NCR engineers later restore generation and distribution. Electricity and the river crossing give the site economic and military importance far beyond its walls."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.hoover_dam.role"
+        ],
+        "relatedEntityIds": [
+          "ent.first_hoover_battle",
+          "ent.second_hoover_battle"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The NCR defeats the Legion's first assault in 2277 through a planned withdrawal and destruction at Boulder City. Renewed attack in 2281 draws every main political route into a confrontation over control."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.hoover_dam.a"
+        ],
+        "relatedEntityIds": [
+          "ent.first_hoover_battle"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Its real-world location supports an exact map point; fictional troop deployments and game spaces remain representations. The second battle's victor is explicitly conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.hoover_dam.b"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.first_hoover_battle",
+    "summary": "The 2277 battle in which NCR forces halted Caesar's first major attempt to cross Hoover Dam.",
+    "description": "The 2277 battle in which NCR forces halted Caesar's first major attempt to cross Hoover Dam.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Legion forces under Joshua Graham pressed NCR defenders west of the dam. Chief Hanlon used false information and a controlled retreat to stretch the attackers into prepared killing grounds."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.first_hoover_battle.role"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham",
+          "ent.camp_golf"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "NCR Rangers and First Recon trapped veteran Legion elements in Boulder City, where explosives inflicted major losses. Caesar punished Graham for defeat and the armies spent four years preparing for renewal."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.first_hoover_battle.a"
+        ],
+        "relatedEntityIds": [
+          "ent.joshua_graham"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The NCR victory is established history, while individual recollections differ in emphasis. It should not be conflated with the player-determined second battle."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.first_hoover_battle.b"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.second_hoover_battle",
+    "summary": "The 2281 multi-faction confrontation whose outcome determines control of Hoover Dam and New Vegas.",
+    "description": "The 2281 multi-faction confrontation whose outcome determines control of Hoover Dam and New Vegas.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Legion's renewed offensive meets an NCR defence weakened by long supply lines and political strain. House's securitrons and the Courier's alliances create alternatives to a simple replay of 2277."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.second_hoover_battle.role"
+        ],
+        "relatedEntityIds": [
+          "ent.courier",
+          "ent.hoover_dam"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Courier participates through one of several incompatible main-quest coalitions. Regional groups may reinforce, remain neutral or be destroyed according to earlier choices."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.second_hoover_battle.a"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "No universal victor is encoded. The event's occurrence and participants are world facts; endings are conditional outcomes scoped to player decisions."
+        ],
+        "assertionIds": [
+          "asrt.fr.upgrade.second_hoover_battle.b"
+        ],
+        "relatedEntityIds": [
+          "ent.caesars_legion"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "upgraded"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.followers",
+    "type": "organisation",
+    "subtype": "humanitarian_organisation",
+    "displayName": "Followers of the Apocalypse",
+    "summary": "A humanitarian organisation that provides education and medical assistance across the western wastelands.",
+    "description": "A humanitarian organisation that provides education and medical assistance across the western wastelands.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Followers trace their roots to the Boneyard and pursue open knowledge, medicine and social improvement rather than territorial government. Their members often work where larger powers leave unmet needs."
+        ],
+        "assertionIds": [
+          "asrt.fr.followers_apocalypse.role"
+        ],
+        "relatedEntityIds": [
+          "ent.freeside",
+          "ent.caesar"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "At the Old Mormon Fort they treat Freeside residents while struggling with shortages. Caesar's early education by Followers creates a historical connection the organisation rejects and cannot control."
+        ],
+        "assertionIds": [
+          "asrt.fr.followers_apocalypse.a"
+        ],
+        "relatedEntityIds": [
+          "ent.freeside"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Local capacity and endings vary. The archive separates the organisation's stated principles from the actions of former members and individual field workers."
+        ],
+        "assertionIds": [
+          "asrt.fr.followers_apocalypse.b"
+        ],
+        "relatedEntityIds": [
+          "ent.courier"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "organisation"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.hidden_valley",
+    "type": "place",
+    "subtype": "bunker_complex",
+    "displayName": "Hidden Valley",
+    "summary": "A concealed bunker complex serving as the Mojave Brotherhood's headquarters in 2281.",
+    "description": "A concealed bunker complex serving as the Mojave Brotherhood's headquarters in 2281.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Hidden Valley's sandstorms and multiple bunkers conceal a chapter driven underground after its defeat at HELIOS One. Lockdown protects survivors while worsening isolation and internal disagreement."
+        ],
+        "assertionIds": [
+          "asrt.fr.hidden_valley.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood",
+          "ent.helios_one"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Elder McNamara and Head Paladin Hardin represent competing responses to the crisis. Veronica and the Courier expose how institutional rules constrain reform."
+        ],
+        "assertionIds": [
+          "asrt.fr.hidden_valley.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave_brotherhood"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "Leadership and relations with the NCR are conditional. The location's role as a besieged chapter base is not."
+        ],
+        "assertionIds": [
+          "asrt.fr.hidden_valley.b"
+        ],
+        "relatedEntityIds": [
+          "ent.mojave"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "place"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.joshua_graham",
+    "type": "individual",
+    "subtype": "person",
+    "displayName": "Joshua Graham",
+    "summary": "A former Legion legate and co-founder whose survival after defeat leads him back to New Canaanite life in Zion.",
+    "description": "A former Legion legate and co-founder whose survival after defeat leads him back to New Canaanite life in Zion.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Joshua Graham helps Caesar organise early conquests and commands the Legion at the First Battle of Hoover Dam. After defeat, Caesar has him burned and cast into the Grand Canyon as punishment."
+        ],
+        "assertionIds": [
+          "asrt.fr.joshua_graham.role"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar",
+          "ent.first_hoover_battle"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Graham survives, returns to New Canaan and later protects the Dead Horses in Zion after the White Legs destroy his home community. His military experience and anger shape Honest Hearts."
+        ],
+        "assertionIds": [
+          "asrt.fr.joshua_graham.a"
+        ],
+        "relatedEntityIds": [
+          "ent.caesar"
+        ]
+      },
+      {
+        "id": "outcomes",
+        "title": "Outcomes and interpretation",
+        "paragraphs": [
+          "The Courier can influence how he treats defeated enemies, but his claim that faith transformed him should be presented alongside continuing violence and personal responsibility."
+        ],
+        "assertionIds": [
+          "asrt.fr.joshua_graham.b"
+        ],
+        "relatedEntityIds": [
+          "ent.dead_horses"
+        ]
+      }
+    ],
+    "tags": [
+      "new_vegas",
+      "major-lore",
+      "individual"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

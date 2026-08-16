@@ -1,0 +1,266 @@
+[
+  {
+    "id": "ev.fr.event.chosen_one_journey.1",
+    "targetId": "asrt.fr.event.chosen_one_journey.role",
+    "sourceItemId": "src.ref.chosen_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.chosen_one_journey.2",
+    "targetId": "asrt.fr.event.chosen_one_journey.time",
+    "sourceItemId": "src.ref.chosen_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.chosen_one_journey.3",
+    "targetId": "asrt.fr.event.chosen_one_journey.place",
+    "sourceItemId": "src.ref.chosen_one",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.midwestern_campaign.1",
+    "targetId": "asrt.fr.event.midwestern_campaign.role",
+    "sourceItemId": "src.ref.midwestern_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.midwestern_campaign.2",
+    "targetId": "asrt.fr.event.midwestern_campaign.time",
+    "sourceItemId": "src.ref.midwestern_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.midwestern_campaign.3",
+    "targetId": "asrt.fr.event.midwestern_campaign.place",
+    "sourceItemId": "src.ref.midwestern_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.texas_brotherhood_campaign.1",
+    "targetId": "asrt.fr.event.texas_brotherhood_campaign.role",
+    "sourceItemId": "src.ref.texas_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.texas_brotherhood_campaign.2",
+    "targetId": "asrt.fr.event.texas_brotherhood_campaign.time",
+    "sourceItemId": "src.ref.texas_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.texas_brotherhood_campaign.3",
+    "targetId": "asrt.fr.event.texas_brotherhood_campaign.place",
+    "sourceItemId": "src.ref.texas_brotherhood",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.project_purity_activation.1",
+    "targetId": "asrt.fr.event.project_purity_activation.role",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.project_purity_activation.2",
+    "targetId": "asrt.fr.event.project_purity_activation.time",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.project_purity_activation.3",
+    "targetId": "asrt.fr.event.project_purity_activation.place",
+    "sourceItemId": "src.ref.project_purity",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.capital_enclave_campaign.1",
+    "targetId": "asrt.fr.event.capital_enclave_campaign.role",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.capital_enclave_campaign.2",
+    "targetId": "asrt.fr.event.capital_enclave_campaign.time",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.capital_enclave_campaign.3",
+    "targetId": "asrt.fr.event.capital_enclave_campaign.place",
+    "sourceItemId": "src.ref.colonel_autumn",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.courier_ambush.1",
+    "targetId": "asrt.fr.event.courier_ambush.role",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.courier_ambush.2",
+    "targetId": "asrt.fr.event.courier_ambush.time",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.courier_ambush.3",
+    "targetId": "asrt.fr.event.courier_ambush.place",
+    "sourceItemId": "src.ref.benny",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.sole_survivor_emergence.1",
+    "targetId": "asrt.fr.event.sole_survivor_emergence.role",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.sole_survivor_emergence.2",
+    "targetId": "asrt.fr.event.sole_survivor_emergence.time",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.sole_survivor_emergence.3",
+    "targetId": "asrt.fr.event.sole_survivor_emergence.place",
+    "sourceItemId": "src.ref.sole_survivor",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.commonwealth_faction_conflict.1",
+    "targetId": "asrt.fr.event.commonwealth_faction_conflict.role",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.commonwealth_faction_conflict.2",
+    "targetId": "asrt.fr.event.commonwealth_faction_conflict.time",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.commonwealth_faction_conflict.3",
+    "targetId": "asrt.fr.event.commonwealth_faction_conflict.place",
+    "sourceItemId": "src.ref.commonwealth",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.reclamation_day.1",
+    "targetId": "asrt.fr.event.reclamation_day.role",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.reclamation_day.2",
+    "targetId": "asrt.fr.event.reclamation_day.time",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.reclamation_day.3",
+    "targetId": "asrt.fr.event.reclamation_day.place",
+    "sourceItemId": "src.ref.vault_76",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.return_to_appalachia.1",
+    "targetId": "asrt.fr.event.return_to_appalachia.role",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.return_to_appalachia.2",
+    "targetId": "asrt.fr.event.return_to_appalachia.time",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.return_to_appalachia.3",
+    "targetId": "asrt.fr.event.return_to_appalachia.place",
+    "sourceItemId": "src.ref.foundation",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.atlas_expedition_arrival.1",
+    "targetId": "asrt.fr.event.atlas_expedition_arrival.role",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.atlas_expedition_arrival.2",
+    "targetId": "asrt.fr.event.atlas_expedition_arrival.time",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  },
+  {
+    "id": "ev.fr.event.atlas_expedition_arrival.3",
+    "targetId": "asrt.fr.event.atlas_expedition_arrival.place",
+    "sourceItemId": "src.ref.rahmani",
+    "role": "supports",
+    "directness": "implicit",
+    "note": "Locator support for the event summary and chronology; exact precision is not claimed beyond the displayed value."
+  }
+]

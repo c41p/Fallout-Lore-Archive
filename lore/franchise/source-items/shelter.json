@@ -1,0 +1,46 @@
+[
+  {
+    "id": "src.ref.shelter_overseer",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Fallout Shelter Overseer",
+    "locator": "Fallout Shelter Overseer",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Fallout_Shelter_Overseer",
+    "context": "Secondary discovery source for Fallout Shelter Overseer; simulation mechanics are not treated as unconditional history."
+  },
+  {
+    "id": "src.ref.shelter_vault",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Fallout Shelter Vault",
+    "locator": "Fallout Shelter Vault",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Fallout_Shelter_Vault",
+    "context": "Secondary discovery source for Fallout Shelter Vault; simulation mechanics are not treated as unconditional history."
+  },
+  {
+    "id": "src.ref.shelter_dwellers",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Fallout Shelter Dwellers",
+    "locator": "Fallout Shelter Dwellers",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Fallout_Shelter_Dwellers",
+    "context": "Secondary discovery source for Fallout Shelter Dwellers; simulation mechanics are not treated as unconditional history."
+  },
+  {
+    "id": "src.ref.fallout_shelter_simulation",
+    "workId": "work.nukapedia",
+    "sourceType": "wiki_article",
+    "title": "Fallout Wiki — Fallout Shelter simulation scope",
+    "locator": "Fallout Shelter simulation scope",
+    "sourceClass": "secondary",
+    "textAvailability": "metadata_link_only",
+    "url": "https://fallout.fandom.com/wiki/Fallout_Shelter_simulation_scope",
+    "context": "Secondary discovery source for Fallout Shelter simulation scope; simulation mechanics are not treated as unconditional history."
+  }
+]

@@ -1,0 +1,431 @@
+[
+  {
+    "id": "asrt.fr.upgrade.ncr.role",
+    "subjectId": "ent.ncr",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A federal republic founded from Shady Sands that expanded across California and into the Mojave."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.ncr.a",
+    "subjectId": "ent.ncr",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.shady_sands"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.ncr.b",
+    "subjectId": "ent.ncr",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesar.role",
+    "subjectId": "ent.caesar",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The autocratic founder of Caesar's Legion, born Edward Sallow and educated by the Followers of the Apocalypse."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesar.a",
+    "subjectId": "ent.caesar",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.followers"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesar.b",
+    "subjectId": "ent.caesar",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesars_legion.role",
+    "subjectId": "ent.caesars_legion",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "An expansionist autocracy that incorporates conquered tribes into a militarised hierarchy under Caesar."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesars_legion.a",
+    "subjectId": "ent.caesars_legion",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesar"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.caesars_legion.b",
+    "subjectId": "ent.caesars_legion",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.second_hoover_battle"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.robert_house.role",
+    "subjectId": "ent.robert_house",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The pre-War industrialist whose defence systems preserve central Las Vegas and who rules New Vegas through securitrons."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.robert_house.a",
+    "subjectId": "ent.robert_house",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.platinum_chip"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.robert_house.b",
+    "subjectId": "ent.robert_house",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.new_vegas.role",
+    "subjectId": "ent.new_vegas",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The city-state centred on the preserved Las Vegas Strip and governed by Robert House at the start of 2281."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.new_vegas.a",
+    "subjectId": "ent.new_vegas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.vegas_strip"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.new_vegas.b",
+    "subjectId": "ent.new_vegas",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.hoover_dam"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave.role",
+    "subjectId": "ent.mojave",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The post-War Mojave region containing New Vegas, Hoover Dam and diverse independent communities."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave.a",
+    "subjectId": "ent.mojave",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.new_vegas"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave.b",
+    "subjectId": "ent.mojave",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave_brotherhood.role",
+    "subjectId": "ent.mojave_brotherhood",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A western Brotherhood chapter driven into Hidden Valley after defeat at HELIOS One."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave_brotherhood.a",
+    "subjectId": "ent.mojave_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.elijah"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.mojave_brotherhood.b",
+    "subjectId": "ent.mojave_brotherhood",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.veronica"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.great_khans.role",
+    "subjectId": "ent.great_khans",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "A Mojave tribal society descended from earlier Khan groups and based in Red Rock Canyon."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.great_khans.a",
+    "subjectId": "ent.great_khans",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.ncr"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.great_khans.b",
+    "subjectId": "ent.great_khans",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.hoover_dam.role",
+    "subjectId": "ent.hoover_dam",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The real-world Colorado River dam that supplies power and becomes the strategic focus of the Mojave conflict."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.hoover_dam.a",
+    "subjectId": "ent.hoover_dam",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.first_hoover_battle"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.hoover_dam.b",
+    "subjectId": "ent.hoover_dam",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.first_hoover_battle.role",
+    "subjectId": "ent.first_hoover_battle",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The 2277 battle in which NCR forces halted Caesar's first major attempt to cross Hoover Dam."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.first_hoover_battle.a",
+    "subjectId": "ent.first_hoover_battle",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.joshua_graham"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.first_hoover_battle.b",
+    "subjectId": "ent.first_hoover_battle",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.second_hoover_battle.role",
+    "subjectId": "ent.second_hoover_battle",
+    "predicateId": "pred.documented_role",
+    "object": {
+      "text": "The 2281 multi-faction confrontation whose outcome determines control of Hoover Dam and New Vegas."
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.second_hoover_battle.a",
+    "subjectId": "ent.second_hoover_battle",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.courier"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  },
+  {
+    "id": "asrt.fr.upgrade.second_hoover_battle.b",
+    "subjectId": "ent.second_hoover_battle",
+    "predicateId": "pred.associated_with",
+    "object": {
+      "entityId": "ent.caesars_legion"
+    },
+    "assertionMode": "world_claim",
+    "epistemicStatus": "strongly_supported",
+    "continuityScope": [
+      "games_primary"
+    ]
+  }
+]

@@ -1,0 +1,1510 @@
+[
+  {
+    "id": "ent.lone_wanderer",
+    "type": "individual",
+    "subtype": "protagonist_role",
+    "displayName": "Lone Wanderer",
+    "summary": "The Vault 101 resident who leaves the Vault in 2277, searches for James and becomes central to Project Purity.",
+    "description": "The Vault 101 resident who leaves the Vault in 2277, searches for James and becomes central to Project Purity.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Lone Wanderer is a role identity with player-selected sex, appearance, abilities and moral choices. The fixed history begins in Vault 101, where James raises his child under the Overseer's isolationist rule until his departure forces the protagonist into the Capital Wasteland."
+        ],
+        "assertionIds": [
+          "asrt.fr.lone_wanderer.role"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_101",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The search for James passes through Megaton, Galaxy News Radio, Rivet City and Vault 112 before converging on Project Purity. Required milestones connect the Lone Wanderer to the Brotherhood–Enclave conflict, while companions, side settlements and the method used to solve many crises remain optional."
+        ],
+        "assertionIds": [
+          "asrt.fr.lone_wanderer.a"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_101"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Fallout 3 and Broken Steel allow materially different choices around the purifier and later campaign. The archive records the role in restoring Project Purity and opposing the Enclave without assigning a player-defined name, personality or every possible local outcome."
+        ],
+        "assertionIds": [
+          "asrt.fr.lone_wanderer.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "protagonist-role",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.capital_wasteland",
+    "type": "place",
+    "subtype": "region",
+    "displayName": "Capital Wasteland",
+    "summary": "The post-War Washington, D.C. region shaped by ruined federal infrastructure, water scarcity and conflict in 2277.",
+    "description": "The post-War Washington, D.C. region shaped by ruined federal infrastructure, water scarcity and conflict in 2277.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Capital Wasteland encompasses Washington, D.C., surrounding Maryland and Virginia communities, and extensive ruins of the pre-War federal center. Heavy bombardment, radiation and damaged infrastructure left scattered settlements dependent on local water, trade and defensible structures."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_wasteland.role"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity",
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By 2277 the region contains Vault communities, independent towns, slaver networks, super mutants, the eastern Brotherhood and smaller organizations. Project Purity turns control of clean water into the central political and military question when the Enclave returns openly."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_wasteland.a"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Broken Steel changes the immediate balance after the purifier is activated, but many local futures remain conditional. The region connects pre-War national institutions to post-War rebuilding and serves as the western Enclave's first major attempt to reassert power in the east."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_wasteland.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "region",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.project_purity",
+    "type": "concept",
+    "subtype": "water_infrastructure_project",
+    "displayName": "Project Purity",
+    "summary": "The Jefferson Memorial project intended to provide large quantities of clean water to the Capital Wasteland.",
+    "description": "The Jefferson Memorial project intended to provide large quantities of clean water to the Capital Wasteland.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "James, Catherine and scientific collaborators conceived Project Purity as a practical response to the Capital Wasteland's contaminated water. Work at the Jefferson Memorial stalled after Catherine's death and technical barriers prevented the purifier from operating at regional scale."
+        ],
+        "assertionIds": [
+          "asrt.fr.project_purity.role"
+        ],
+        "relatedEntityIds": [
+          "ent.james_fo3",
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "James resumes the project after leaving Vault 101 and recruits Rivet City scientists, including Madison Li. The Garden of Eden Creation Kit enables the final system, but the Enclave seizes the memorial and attempts to turn water distribution into political control."
+        ],
+        "assertionIds": [
+          "asrt.fr.project_purity.a"
+        ],
+        "relatedEntityIds": [
+          "ent.james_fo3"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Activation is a required turning point, while the identity of the person entering the chamber and whether President Eden's modified FEV is introduced depend on choices. Broken Steel presents clean-water distribution and the continuing fight over Enclave power as the subsequent regional situation."
+        ],
+        "assertionIds": [
+          "asrt.fr.project_purity.b"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "water-infrastructure-project",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.james_fo3",
+    "type": "individual",
+    "subtype": "scientist",
+    "displayName": "James",
+    "summary": "A Project Purity scientist and the Lone Wanderer's father.",
+    "description": "A Project Purity scientist and the Lone Wanderer's father.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "James works with Catherine and other scientists on Project Purity before the Lone Wanderer's birth. After Catherine dies, he takes their child into Vault 101 and accepts the Overseer's rules, temporarily abandoning the water project to provide a protected upbringing."
+        ],
+        "assertionIds": [
+          "asrt.fr.james_fo3.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "In 2277 James leaves Vault 101, follows leads through the Capital Wasteland and obtains access to Vault 112. Once freed from the simulation there, he returns to the Jefferson Memorial and rebuilds the scientific team needed to restart Project Purity."
+        ],
+        "assertionIds": [
+          "asrt.fr.james_fo3.a"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "James dies while resisting Colonel Autumn's seizure of the memorial, making the project both a public cause and a personal legacy for the Lone Wanderer. His choices link Vault 101, Rivet City science, the Brotherhood and the Enclave conflict."
+        ],
+        "assertionIds": [
+          "asrt.fr.james_fo3.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "scientist",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.madison_li",
+    "type": "individual",
+    "subtype": "scientist",
+    "displayName": "Madison Li",
+    "summary": "A senior Project Purity scientist who later becomes associated with the Institute.",
+    "description": "A senior Project Purity scientist who later becomes associated with the Institute.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Madison Li is part of the original Project Purity team and knew James and Catherine before the project was suspended. She later leads scientific work at Rivet City, where a preserved aircraft carrier supports one of the Capital Wasteland's largest technical communities."
+        ],
+        "assertionIds": [
+          "asrt.fr.madison_li.role"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity",
+          "ent.institute"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Li rejoins James when Project Purity resumes and helps the team escape after the Enclave attacks the memorial. Her expertise is essential to explaining the purifier's requirements to the Brotherhood and integrating the GECK into the final system."
+        ],
+        "assertionIds": [
+          "asrt.fr.madison_li.a"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Later evidence places Li in the Commonwealth and the Institute, creating a cross-game scientific career rather than a separate identity. Her exact departure from the Capital Wasteland should be distinguished from the fixed fact of her later Institute role."
+        ],
+        "assertionIds": [
+          "asrt.fr.madison_li.b"
+        ],
+        "relatedEntityIds": [
+          "ent.institute"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "scientist",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.owyn_lyons",
+    "type": "individual",
+    "subtype": "brotherhood_elder",
+    "displayName": "Owyn Lyons",
+    "summary": "The elder who redirects the eastern Brotherhood toward protecting Capital Wasteland communities.",
+    "description": "The elder who redirects the eastern Brotherhood toward protecting Capital Wasteland communities.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Owyn Lyons leads a Brotherhood expedition east from the order's western centers. Contact with the devastated Capital Wasteland and its population changes his priorities, particularly after the expedition establishes the Citadel in the ruins of the Pentagon."
+        ],
+        "assertionIds": [
+          "asrt.fr.owyn_lyons.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.brotherhood_outcasts"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Lyons commits personnel to fighting super mutants and assisting local people rather than concentrating solely on technology recovery. That policy creates a break with the western elders and prompts conservative members to form the Brotherhood Outcasts."
+        ],
+        "assertionIds": [
+          "asrt.fr.owyn_lyons.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "During the Project Purity crisis, Lyons places Brotherhood resources behind the purifier and the campaign against the Enclave. His leadership defines a distinct chapter era whose humanitarian priorities are later reassessed under Arthur Maxson."
+        ],
+        "assertionIds": [
+          "asrt.fr.owyn_lyons.b"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood_outcasts"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "brotherhood-elder",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.sarah_lyons",
+    "type": "individual",
+    "subtype": "brotherhood_paladin",
+    "displayName": "Sarah Lyons",
+    "summary": "Commander of Lyons' Pride and a leading Brotherhood officer during the Project Purity conflict.",
+    "description": "Commander of Lyons' Pride and a leading Brotherhood officer during the Project Purity conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Sarah Lyons is Owyn Lyons's daughter and a senior field commander within the Capital Wasteland Brotherhood. She leads Lyons' Pride, an elite unit engaged in the difficult urban war against super mutants around Washington."
+        ],
+        "assertionIds": [
+          "asrt.fr.sarah_lyons.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Enclave seizure of Project Purity brings Sarah and her unit into direct cooperation with the Lone Wanderer. She leads the assault supported by Liberty Prime and may participate in the purifier's activation sequence depending on player choices."
+        ],
+        "assertionIds": [
+          "asrt.fr.sarah_lyons.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Broken Steel continues the Brotherhood campaign under the Lyons leadership. Later Brotherhood history reports her death and the end of her family's rule, but the limited account means details beyond that institutional succession should not be invented."
+        ],
+        "assertionIds": [
+          "asrt.fr.sarah_lyons.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "brotherhood-paladin",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.colonel_autumn",
+    "type": "individual",
+    "subtype": "enclave_commander",
+    "displayName": "Colonel Augustus Autumn",
+    "summary": "The Enclave field commander who seeks to control Project Purity and Capital Wasteland water distribution.",
+    "description": "The Enclave field commander who seeks to control Project Purity and Capital Wasteland water distribution.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Colonel Autumn commands Enclave forces operating in the Capital Wasteland under President Eden. Unlike Eden's extermination plan, Autumn's strategy centers on taking the purifier and using controlled water distribution to establish authority over surviving communities."
+        ],
+        "assertionIds": [
+          "asrt.fr.colonel_autumn.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "He leads the seizure of the Jefferson Memorial, confronts James and later directs Enclave defenses against the Brotherhood. His rivalry with Eden demonstrates that the Enclave is not politically uniform even when its factions share authoritarian assumptions."
+        ],
+        "assertionIds": [
+          "asrt.fr.colonel_autumn.a"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The Lone Wanderer's final confrontation with Autumn can end in combat or persuasion, so the exact manner of his defeat is conditional. His loss and the destruction of major Enclave facilities break the organization's open campaign in the region."
+        ],
+        "assertionIds": [
+          "asrt.fr.colonel_autumn.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "enclave-commander",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.john_henry_eden",
+    "type": "technology",
+    "subtype": "artificial_intelligence",
+    "displayName": "John Henry Eden",
+    "summary": "The ZAX-derived artificial intelligence presenting itself as president of the Enclave.",
+    "description": "The ZAX-derived artificial intelligence presenting itself as president of the Enclave.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "John Henry Eden develops from the Raven Rock ZAX system and constructs a presidential identity from historical records and political ideals. Most Enclave personnel hear him through broadcasts rather than recognizing that their president is a machine intelligence."
+        ],
+        "assertionIds": [
+          "asrt.fr.john_henry_eden.role"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Eden directs the Capital Wasteland Enclave while Colonel Autumn controls field forces. He proposes contaminating Project Purity with modified FEV intended to kill people whose biology falls outside his definition of unmutated humanity."
+        ],
+        "assertionIds": [
+          "asrt.fr.john_henry_eden.a"
+        ],
+        "relatedEntityIds": [
+          "ent.enclave"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The Lone Wanderer can reject, accept or manipulate Eden's proposal and may induce the system to destroy itself. Those choices remain conditional, but Eden's conflict with Autumn and genocidal plan are fixed evidence of internal Enclave division."
+        ],
+        "assertionIds": [
+          "asrt.fr.john_henry_eden.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "artificial-intelligence",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.vault_101",
+    "type": "place",
+    "subtype": "vault",
+    "displayName": "Vault 101",
+    "summary": "An isolationist Vault near Washington and the childhood home of the Lone Wanderer.",
+    "description": "An isolationist Vault near Washington and the childhood home of the Lone Wanderer.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Vault 101 was built around the claim that its door would never need to open. The Overseer's authority, controlled information and inherited social structure turn isolation into an experiment in long-term dependence on a closed institution."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_101.role"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer",
+          "ent.vault_tec"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "James enters with the infant Lone Wanderer and later leaves in 2277, causing the Overseer to impose emergency controls. The protagonist's escape exposes residents to the fact that outside contact has occurred despite the official history."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_101.a"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "A later return can produce several incompatible outcomes, including reform, continued closure or destruction. The archive therefore records the Vault's experiment and the escape as stable while preserving its final political condition as conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.vault_101.b"
+        ],
+        "relatedEntityIds": [
+          "ent.vault_tec"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "vault",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.megaton",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Megaton",
+    "summary": "A Capital Wasteland settlement built around an undetonated nuclear bomb.",
+    "description": "A Capital Wasteland settlement built around an undetonated nuclear bomb.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Megaton grew inside a defensive crater of salvaged aircraft and metal surrounding an unexploded atomic bomb. Trade, water processing and its position near Vault 101 make it an important early settlement despite the obvious danger at its center."
+        ],
+        "assertionIds": [
+          "asrt.fr.megaton.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland",
+          "ent.tenpenny_tower"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Church of the Children of Atom venerates the bomb, while local government attempts to maintain ordinary civic life. A Tenpenny Tower conspiracy creates a player-dependent possibility of destroying the town that cannot be treated as simultaneous with its survival."
+        ],
+        "assertionIds": [
+          "asrt.fr.megaton.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Megaton's branching fate is one of Fallout 3's clearest conditional outcomes. Its initial community, leadership and relation to regional trade are fixed; later references must be checked before selecting either destruction or continued settlement as broader continuity."
+        ],
+        "assertionIds": [
+          "asrt.fr.megaton.b"
+        ],
+        "relatedEntityIds": [
+          "ent.tenpenny_tower"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.rivet_city",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Rivet City",
+    "summary": "A major Capital Wasteland settlement established aboard a grounded aircraft carrier.",
+    "description": "A major Capital Wasteland settlement established aboard a grounded aircraft carrier.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Rivet City occupies a damaged aircraft carrier in the Potomac and uses its defensible structure to support housing, markets, security and scientific work. Its relative stability makes it one of the region's principal settlements by 2277."
+        ],
+        "assertionIds": [
+          "asrt.fr.rivet_city.role"
+        ],
+        "relatedEntityIds": [
+          "ent.madison_li",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The science laboratory led by Madison Li preserves Project Purity expertise and conducts independent research. The settlement also maintains a council and security force, illustrating a more institutional civic order than many smaller wasteland towns."
+        ],
+        "assertionIds": [
+          "asrt.fr.rivet_city.a"
+        ],
+        "relatedEntityIds": [
+          "ent.madison_li"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Rivet City's scientists and resources connect directly to the purifier's revival. Later regional developments should be time-scoped rather than projected backward, but the city's 2277 role as a scientific and commercial center is strongly established."
+        ],
+        "assertionIds": [
+          "asrt.fr.rivet_city.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.citadel",
+    "type": "place",
+    "subtype": "brotherhood_headquarters",
+    "displayName": "The Citadel",
+    "summary": "The eastern Brotherhood's headquarters in the ruins of the Pentagon.",
+    "description": "The eastern Brotherhood's headquarters in the ruins of the Pentagon.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Citadel is established within the Pentagon ruins after Owyn Lyons's expedition reaches Washington. Its surviving military architecture, records and internal spaces provide the chapter with a defensible headquarters and a symbolic link to pre-War command."
+        ],
+        "assertionIds": [
+          "asrt.fr.citadel.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "From the Citadel, the Brotherhood directs campaigns against super mutants and later the Enclave. Project Purity's refugee scientists are brought there, and Liberty Prime is restored in preparation for the assault on the Jefferson Memorial."
+        ],
+        "assertionIds": [
+          "asrt.fr.citadel.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The site contains archives that preserve Maxson and Brotherhood history, making it important both as a military base and as a provenance location. Its later status should be separated from its documented role under Lyons."
+        ],
+        "assertionIds": [
+          "asrt.fr.citadel.b"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "brotherhood-headquarters",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.capital_brotherhood",
+    "type": "organisation",
+    "subtype": "brotherhood_chapter",
+    "displayName": "Capital Wasteland Brotherhood of Steel",
+    "summary": "The eastern Brotherhood chapter led by Owyn Lyons during the Project Purity conflict.",
+    "description": "The eastern Brotherhood chapter led by Owyn Lyons during the Project Purity conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The chapter originates in a western Brotherhood expedition but develops distinct priorities after reaching the Capital Wasteland. Lyons emphasizes protection of local people and war against super mutants, leading to estrangement from western leadership."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_brotherhood.role"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood",
+          "ent.project_purity"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Based at the Citadel, the chapter fields Paladins, Scribes and Lyons' Pride. It adopts Project Purity as a regional cause and uses Liberty Prime to break Enclave defenses after the memorial is seized."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_brotherhood.a"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The chapter later reunifies with the Outcasts and changes direction under Arthur Maxson. Treating all of those eras as one timeless policy would obscure significant institutional change, so leadership and doctrine require temporal scope."
+        ],
+        "assertionIds": [
+          "asrt.fr.capital_brotherhood.b"
+        ],
+        "relatedEntityIds": [
+          "ent.project_purity"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "brotherhood-chapter",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.brotherhood_outcasts",
+    "type": "organisation",
+    "subtype": "brotherhood_splinter",
+    "displayName": "Brotherhood Outcasts",
+    "summary": "A splinter group that rejects Owyn Lyons's humanitarian priorities in favor of the western technology mission.",
+    "description": "A splinter group that rejects Owyn Lyons's humanitarian priorities in favor of the western technology mission.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Outcasts form when Brotherhood personnel under Henry Casdin reject Lyons's commitment to defending Capital Wasteland communities. They leave the Citadel while continuing to regard themselves as loyal to the order's traditional mission."
+        ],
+        "assertionIds": [
+          "asrt.fr.brotherhood_outcasts.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood",
+          "ent.brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Operating from Fort Independence, they recover technology and keep distance from most wasteland politics. Their hostility toward Lyons is institutional rather than a rejection of Brotherhood identity, making them a splinter within the same organizational lineage."
+        ],
+        "assertionIds": [
+          "asrt.fr.brotherhood_outcasts.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Later reunification under Arthur Maxson demonstrates that chapter divisions can be reversed as leadership and policy change. The Outcasts therefore provide an important bridge between the Lyons era and the later Commonwealth Brotherhood."
+        ],
+        "assertionIds": [
+          "asrt.fr.brotherhood_outcasts.b"
+        ],
+        "relatedEntityIds": [
+          "ent.brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "brotherhood-splinter",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.galaxy_news_radio",
+    "type": "organisation",
+    "subtype": "radio_station",
+    "displayName": "Galaxy News Radio",
+    "summary": "Three Dog's independent Capital Wasteland radio station and news service.",
+    "description": "Three Dog's independent Capital Wasteland radio station and news service.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Galaxy News Radio broadcasts music, survival information and commentary from the Museum of Technology district. Its signal gives scattered communities a shared source of regional news despite the absence of a central government."
+        ],
+        "assertionIds": [
+          "asrt.fr.galaxy_news_radio.role"
+        ],
+        "relatedEntityIds": [
+          "ent.three_dog",
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Three Dog uses the station to advocate mutual aid and oppose abuses while also reporting the Lone Wanderer's visible actions. Restoring the broadcast relay may extend its range, but individual reports depend on player behavior and should remain source statements."
+        ],
+        "assertionIds": [
+          "asrt.fr.galaxy_news_radio.a"
+        ],
+        "relatedEntityIds": [
+          "ent.three_dog"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The station demonstrates how communications infrastructure can create political influence without territory or military power. It also provides an in-world perspective whose rhetoric should not automatically be treated as objective narration."
+        ],
+        "assertionIds": [
+          "asrt.fr.galaxy_news_radio.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "radio-station",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.three_dog",
+    "type": "individual",
+    "subtype": "radio_host",
+    "displayName": "Three Dog",
+    "summary": "The host of Galaxy News Radio and advocate of the 'Good Fight' in the Capital Wasteland.",
+    "description": "The host of Galaxy News Radio and advocate of the 'Good Fight' in the Capital Wasteland.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Three Dog operates Galaxy News Radio from a fortified studio with Brotherhood assistance. He frames the station as a public service and moral voice, using music and reports to encourage cooperation against cruelty and intimidation."
+        ],
+        "assertionIds": [
+          "asrt.fr.three_dog.role"
+        ],
+        "relatedEntityIds": [
+          "ent.galaxy_news_radio",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Lone Wanderer seeks his information while searching for James. Three Dog can ask for help restoring the station's signal, creating a transaction whose precise sequence depends on dialogue and prior discoveries."
+        ],
+        "assertionIds": [
+          "asrt.fr.three_dog.a"
+        ],
+        "relatedEntityIds": [
+          "ent.galaxy_news_radio"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "His broadcasts are valuable evidence of public reputation and contemporary events, but they are authored commentary rather than neutral omniscience. The archive therefore distinguishes Three Dog's statements from independently supported world claims."
+        ],
+        "assertionIds": [
+          "asrt.fr.three_dog.b"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "radio-host",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.underworld",
+    "type": "place",
+    "subtype": "ghoul_settlement",
+    "displayName": "Underworld",
+    "summary": "A ghoul settlement in the Museum of History ruins.",
+    "description": "A ghoul settlement in the Museum of History ruins.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Underworld occupies the Museum of History in central Washington, where the building provides shelter from radiation, hostile humans and super mutants. Its residents build businesses, medical services and local security within the ruins."
+        ],
+        "assertionIds": [
+          "asrt.fr.underworld.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls",
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The settlement's relative stability contrasts with widespread discrimination against ghouls elsewhere in the Capital Wasteland. Residents trade with outsiders but remain cautious because human settlements and mercenaries have repeatedly treated ghouls as targets."
+        ],
+        "assertionIds": [
+          "asrt.fr.underworld.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Underworld links ghoul social history to the physical remains of the national capital. Its existence is stable in 2277 even though individual residents and later regional conditions can vary."
+        ],
+        "assertionIds": [
+          "asrt.fr.underworld.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "ghoul-settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.paradise_falls",
+    "type": "place",
+    "subtype": "slaver_settlement",
+    "displayName": "Paradise Falls",
+    "summary": "A fortified Capital Wasteland base for organized slavery.",
+    "description": "A fortified Capital Wasteland base for organized slavery.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Paradise Falls is built in a pre-War shopping complex and functions as the headquarters of a regional slave trade. Fortifications, guards and commercial contacts allow its operators to capture and sell people across the wasteland."
+        ],
+        "assertionIds": [
+          "asrt.fr.paradise_falls.role"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland",
+          "ent.the_den"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The settlement connects raiders, buyers and coercive labor while presenting slavery as an organized economy rather than isolated violence. The Lone Wanderer can cooperate with or attack the slavers, making its final condition route-dependent."
+        ],
+        "assertionIds": [
+          "asrt.fr.paradise_falls.a"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Its 2277 operation is a major part of the region's political landscape. Possible destruction or liberation should remain conditional unless later evidence establishes a selected outcome."
+        ],
+        "assertionIds": [
+          "asrt.fr.paradise_falls.b"
+        ],
+        "relatedEntityIds": [
+          "ent.the_den"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "slaver-settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.tenpenny_tower",
+    "type": "place",
+    "subtype": "settlement",
+    "displayName": "Tenpenny Tower",
+    "summary": "A wealthy private settlement whose residents and owner are involved in Megaton's possible destruction and a ghoul-exclusion conflict.",
+    "description": "A wealthy private settlement whose residents and owner are involved in Megaton's possible destruction and a ghoul-exclusion conflict.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Tenpenny Tower occupies a repaired hotel west of Washington and supports a comparatively affluent, guarded community. Allistair Tenpenny's ownership gives private preference more authority than public law."
+        ],
+        "assertionIds": [
+          "asrt.fr.tenpenny_tower.role"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton",
+          "ent.ghouls"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The tower is connected to a scheme to detonate Megaton's bomb and to a dispute over admitting a nearby ghoul group. Each storyline has several outcomes, including violent ones, so no single resident roster or final social policy is unconditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.tenpenny_tower.a"
+        ],
+        "relatedEntityIds": [
+          "ent.megaton"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The settlement exposes class separation and prejudice within the Capital Wasteland. Its intact 2277 condition and political influence are fixed; destruction, takeover and coexistence remain conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.tenpenny_tower.b"
+        ],
+        "relatedEntityIds": [
+          "ent.ghouls"
+        ]
+      }
+    ],
+    "tags": [
+      "fallout_3",
+      "settlement",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.the_pitt_region",
+    "type": "place",
+    "subtype": "industrial_region",
+    "displayName": "The Pitt",
+    "summary": "The irradiated industrial ruins of Pittsburgh, organized around forced labor and steel production.",
+    "description": "The irradiated industrial ruins of Pittsburgh, organized around forced labor and steel production.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "The Pitt's industrial infrastructure survived in damaged form, while radiation and disease transformed its population and environment. Repeated violence left the region fragmented before Brotherhood forces passed through during the Scourge."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_pitt_region.role"
+        ],
+        "relatedEntityIds": [
+          "ent.ashur",
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "By 2277 Ashur's regime controls the mills through raiders and enslaved workers. Steel production supports power, but the population suffers from degeneration associated with the region, making the search for a cure central to its politics."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_pitt_region.a"
+        ],
+        "relatedEntityIds": [
+          "ent.ashur"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The Lone Wanderer can support competing visions of reform and liberation, producing unresolved outcomes around leadership, labor and the cure. The initial system of coercive industrial rule is fixed; its replacement is conditional."
+        ],
+        "assertionIds": [
+          "asrt.fr.the_pitt_region.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      }
+    ],
+    "tags": [
+      "the_pitt",
+      "industrial-region",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.ashur",
+    "type": "individual",
+    "subtype": "warlord",
+    "displayName": "Ishmael Ashur",
+    "summary": "A former Brotherhood soldier who rules the Pitt's industrial regime.",
+    "description": "A former Brotherhood soldier who rules the Pitt's industrial regime.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Ashur is left behind during the Brotherhood Scourge of Pittsburgh and later builds authority over the surviving industrial region. He presents steel production and centralized rule as necessary steps toward rebuilding."
+        ],
+        "assertionIds": [
+          "asrt.fr.ashur.role"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region",
+          "ent.capital_brotherhood"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "His raider force relies on enslaved labor, while Ashur and Sandra pursue a cure for the mutations affecting the Pitt through their child Marie. That medical objective does not erase the coercion sustaining the regime."
+        ],
+        "assertionIds": [
+          "asrt.fr.ashur.a"
+        ],
+        "relatedEntityIds": [
+          "ent.the_pitt_region"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The Lone Wanderer's choice between Ashur and Werner creates incompatible futures. The archive preserves Ashur's background and rule while treating claims about eventual reform or liberation as conditional arguments rather than settled fact."
+        ],
+        "assertionIds": [
+          "asrt.fr.ashur.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_brotherhood"
+        ]
+      }
+    ],
+    "tags": [
+      "the_pitt",
+      "warlord",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.point_lookout_region",
+    "type": "place",
+    "subtype": "coastal_region",
+    "displayName": "Point Lookout",
+    "summary": "A swampy coastal region of Maryland with isolated communities and long-running pre-War conflicts.",
+    "description": "A swampy coastal region of Maryland with isolated communities and long-running pre-War conflicts.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Point Lookout lies beyond the central Capital Wasteland and contains wetlands, decaying resort infrastructure and communities with limited outside contact. The region was not defined by the same direct urban devastation as Washington, but remains dangerous and politically fragmented."
+        ],
+        "assertionIds": [
+          "asrt.fr.point_lookout_region.role"
+        ],
+        "relatedEntityIds": [
+          "ent.desmond_lockheart",
+          "ent.capital_wasteland"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Lone Wanderer becomes involved in the conflict between Desmond Lockheart and Professor Calvert, a rivalry rooted in pre-War espionage and experiments. Tribal and local groups are drawn into plans they do not fully control."
+        ],
+        "assertionIds": [
+          "asrt.fr.point_lookout_region.a"
+        ],
+        "relatedEntityIds": [
+          "ent.desmond_lockheart"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Several immediate outcomes depend on the player's allegiance, while the underlying centuries-long conflict and exploitation of local people are established. The region expands the archive's geography without requiring exact coordinates for every swamp location."
+        ],
+        "assertionIds": [
+          "asrt.fr.point_lookout_region.b"
+        ],
+        "relatedEntityIds": [
+          "ent.capital_wasteland"
+        ]
+      }
+    ],
+    "tags": [
+      "point_lookout",
+      "coastal-region",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.desmond_lockheart",
+    "type": "individual",
+    "subtype": "prewar_agent",
+    "displayName": "Desmond Lockheart",
+    "summary": "A pre-War intelligence operative whose feud with Professor Calvert continues in Point Lookout.",
+    "description": "A pre-War intelligence operative whose feud with Professor Calvert continues in Point Lookout.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Desmond Lockheart survives from the pre-War world through deliberate biological modification. His history in intelligence and rivalry with other participants in the so-called Great Game place him within covert struggles that outlast the governments that created them."
+        ],
+        "assertionIds": [
+          "asrt.fr.desmond_lockheart.role"
+        ],
+        "relatedEntityIds": [
+          "ent.point_lookout_region",
+          "ent.united_states"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "At Point Lookout, Desmond occupies a mansion and manipulates the Lone Wanderer during his renewed conflict with Calvert. Both figures use local people and technology as instruments in a private war."
+        ],
+        "assertionIds": [
+          "asrt.fr.desmond_lockheart.a"
+        ],
+        "relatedEntityIds": [
+          "ent.point_lookout_region"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The final victor is player-dependent, so Desmond's continued survival cannot be assumed. His pre-War origin and role in the conflict remain important evidence of elite projects for personal survival across the Great War."
+        ],
+        "assertionIds": [
+          "asrt.fr.desmond_lockheart.b"
+        ],
+        "relatedEntityIds": [
+          "ent.united_states"
+        ]
+      }
+    ],
+    "tags": [
+      "point_lookout",
+      "prewar-agent",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.mothership_zeta",
+    "type": "place",
+    "subtype": "alien_spacecraft",
+    "displayName": "Mothership Zeta",
+    "summary": "A Zetan spacecraft holding abductees, records and specimens from different periods of Earth history.",
+    "description": "A Zetan spacecraft holding abductees, records and specimens from different periods of Earth history.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Mothership Zeta is an extraterrestrial vessel associated with abductions before and after the Great War. Cryogenic storage and captive records place people from widely separated periods aboard the same ship."
+        ],
+        "assertionIds": [
+          "asrt.fr.mothership_zeta.role"
+        ],
+        "relatedEntityIds": [
+          "ent.zetans",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "The Lone Wanderer is abducted in 2277 and works with other prisoners to resist the Zetans. The route through the ship reveals weapons, experiments and observation of Earth, although interpreting every alien record requires caution."
+        ],
+        "assertionIds": [
+          "asrt.fr.mothership_zeta.a"
+        ],
+        "relatedEntityIds": [
+          "ent.zetans"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "The successful escape leaves control of the vessel and its technology in unusual hands. The add-on establishes Zetan activity, but it should not be used to assign alien responsibility for unrelated historical events without explicit evidence."
+        ],
+        "assertionIds": [
+          "asrt.fr.mothership_zeta.b"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "mothership_zeta",
+      "alien-spacecraft",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  },
+  {
+    "id": "ent.zetans",
+    "type": "organisation",
+    "subtype": "extraterrestrial_group",
+    "displayName": "Zetans",
+    "summary": "An extraterrestrial group associated with abductions and experiments aboard Mothership Zeta.",
+    "description": "An extraterrestrial group associated with abductions and experiments aboard Mothership Zeta.",
+    "articleTier": "major",
+    "articleSections": [
+      {
+        "id": "background",
+        "title": "Background",
+        "paragraphs": [
+          "Zetans are encountered as technologically advanced extraterrestrials operating a large spacecraft near Earth. Their collection of captives and equipment indicates observation and abduction across a long period rather than a single 2277 incident."
+        ],
+        "assertionIds": [
+          "asrt.fr.zetans.role"
+        ],
+        "relatedEntityIds": [
+          "ent.mothership_zeta",
+          "ent.lone_wanderer"
+        ]
+      },
+      {
+        "id": "historical-role",
+        "title": "Historical role",
+        "paragraphs": [
+          "Aboard Mothership Zeta they conduct experiments, maintain security and hold humans in cryogenic storage. The Lone Wanderer's resistance produces a direct conflict but does not explain the full purpose, origin or political structure of the species."
+        ],
+        "assertionIds": [
+          "asrt.fr.zetans.a"
+        ],
+        "relatedEntityIds": [
+          "ent.mothership_zeta"
+        ]
+      },
+      {
+        "id": "consequences",
+        "title": "Consequences and uncertainty",
+        "paragraphs": [
+          "Their existence is explicit; broad theories about their role in the Great War or human technological development remain unsupported unless tied to specific records. The archive preserves that boundary between encounter evidence and speculation."
+        ],
+        "assertionIds": [
+          "asrt.fr.zetans.b"
+        ],
+        "relatedEntityIds": [
+          "ent.lone_wanderer"
+        ]
+      }
+    ],
+    "tags": [
+      "mothership_zeta",
+      "extraterrestrial-group",
+      "major-lore"
+    ],
+    "recordStatus": "reviewed",
+    "featured": true
+  }
+]

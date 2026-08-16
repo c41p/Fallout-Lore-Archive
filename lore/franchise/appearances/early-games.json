@@ -1,0 +1,212 @@
+[
+  {
+    "id": "app.fr.chosen_one.fallout_2",
+    "entityId": "ent.chosen_one",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.arroyo.fallout_2",
+    "entityId": "ent.arroyo",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vault_8.fallout_2",
+    "entityId": "ent.vault_8",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vault_city.fallout_2",
+    "entityId": "ent.vault_city",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.gecko.fallout_2",
+    "entityId": "ent.gecko",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.the_den.fallout_2",
+    "entityId": "ent.the_den",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.klamath.fallout_2",
+    "entityId": "ent.klamath",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.modoc.fallout_2",
+    "entityId": "ent.modoc",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.redding.fallout_2",
+    "entityId": "ent.redding",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.broken_hills.fallout_2",
+    "entityId": "ent.broken_hills",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.new_reno.fallout_2",
+    "entityId": "ent.new_reno",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.san_francisco.fallout_2",
+    "entityId": "ent.san_francisco",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.navarro.fallout_2",
+    "entityId": "ent.navarro",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.frank_horrigan.fallout_2",
+    "entityId": "ent.frank_horrigan",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.marcus.fallout_2",
+    "entityId": "ent.marcus",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.shi.fallout_2",
+    "entityId": "ent.shi",
+    "workId": "work.fallout_2",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.warrior.fallout_tactics",
+    "entityId": "ent.warrior",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.midwestern_brotherhood.fallout_tactics",
+    "entityId": "ent.midwestern_brotherhood",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.calculator.fallout_tactics",
+    "entityId": "ent.calculator",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.vault_0.fallout_tactics",
+    "entityId": "ent.vault_0",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.reavers.fallout_tactics",
+    "entityId": "ent.reavers",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.beastlords.fallout_tactics",
+    "entityId": "ent.beastlords",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.gammorin_army.fallout_tactics",
+    "entityId": "ent.gammorin_army",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.chicago_wasteland.fallout_tactics",
+    "entityId": "ent.chicago_wasteland",
+    "workId": "work.fallout_tactics",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.bos_initiate.fallout_bos",
+    "entityId": "ent.bos_initiate",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.texas_brotherhood.fallout_bos",
+    "entityId": "ent.texas_brotherhood",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.carbon.fallout_bos",
+    "entityId": "ent.carbon",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.los_texas.fallout_bos",
+    "entityId": "ent.los_texas",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.attis.fallout_bos",
+    "entityId": "ent.attis",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  },
+  {
+    "id": "app.fr.ghoul_army.fallout_bos",
+    "entityId": "ent.ghoul_army",
+    "workId": "work.fallout_bos",
+    "kind": "appears",
+    "notes": "Work association established by the released game and reference manifest."
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "spatial.fr.capital-wasteland",
+    "placeId": "ent.capital_wasteland",
+    "geometryKind": "approximate_point",
+    "latitude": 38.9072,
+    "longitude": -77.0369,
+    "precision": "regional",
+    "confidence": "strong_correspondence",
+    "basis": "The Capital Wasteland is centred on Washington, D.C.; the marker uses the real city centre as a regional browsing anchor.",
+    "notes": "Not a boundary or an in-game coordinate."
+  },
+  {
+    "id": "spatial.fr.commonwealth",
+    "placeId": "ent.commonwealth",
+    "geometryKind": "approximate_point",
+    "latitude": 42.3601,
+    "longitude": -71.0589,
+    "precision": "regional",
+    "confidence": "strong_correspondence",
+    "basis": "The Commonwealth is centred on post-War Boston and surrounding Massachusetts.",
+    "notes": "Boston centre is a regional anchor; fictional geography is compressed."
+  },
+  {
+    "id": "spatial.fr.appalachia",
+    "placeId": "ent.appalachia",
+    "geometryKind": "approximate_point",
+    "latitude": 38.5976,
+    "longitude": -80.4549,
+    "precision": "regional",
+    "confidence": "explicit_region",
+    "basis": "A central West Virginia point represents the broad Appalachian game region.",
+    "notes": "The game region extends beyond this nominal point."
+  },
+  {
+    "id": "spatial.fr.the-pitt",
+    "placeId": "ent.the_pitt_region",
+    "geometryKind": "approximate_point",
+    "latitude": 40.4406,
+    "longitude": -79.9959,
+    "precision": "locality",
+    "confidence": "explicit_real_world_correspondence",
+    "basis": "The Pitt is the post-War Pittsburgh region.",
+    "notes": "City-centre anchor, not a precise fictional district."
+  },
+  {
+    "id": "spatial.fr.atlantic-city",
+    "placeId": "ent.atlantic_city",
+    "geometryKind": "approximate_point",
+    "latitude": 39.3643,
+    "longitude": -74.4229,
+    "precision": "locality",
+    "confidence": "explicit_real_world_correspondence",
+    "basis": "Fallout 76's Atlantic City corresponds to the real New Jersey city.",
+    "notes": "City-centre browsing marker."
+  },
+  {
+    "id": "spatial.fr.zion",
+    "placeId": "ent.zion",
+    "geometryKind": "approximate_point",
+    "latitude": 37.2982,
+    "longitude": -113.0263,
+    "precision": "regional",
+    "confidence": "strong_correspondence",
+    "basis": "Zion Canyon corresponds to Zion National Park while its game geography is compressed.",
+    "notes": "Park-centre anchor rather than an exact camp location."
+  },
+  {
+    "id": "spatial.fr.nellis",
+    "placeId": "ent.nellis",
+    "geometryKind": "approximate_point",
+    "latitude": 36.2362,
+    "longitude": -115.0343,
+    "precision": "site",
+    "confidence": "strong_correspondence",
+    "basis": "Nellis Air Force Base is a real military site represented in Fallout: New Vegas.",
+    "notes": "The real base anchor does not imply exact in-game building placement."
+  }
+]

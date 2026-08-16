@@ -1,0 +1,158 @@
+[
+  {
+    "id": "app.fr.lone_wanderer.fallout_3",
+    "entityId": "ent.lone_wanderer",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.capital_wasteland.fallout_3",
+    "entityId": "ent.capital_wasteland",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.project_purity.fallout_3",
+    "entityId": "ent.project_purity",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.james_fo3.fallout_3",
+    "entityId": "ent.james_fo3",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.madison_li.fallout_3",
+    "entityId": "ent.madison_li",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.owyn_lyons.fallout_3",
+    "entityId": "ent.owyn_lyons",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.sarah_lyons.fallout_3",
+    "entityId": "ent.sarah_lyons",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.colonel_autumn.fallout_3",
+    "entityId": "ent.colonel_autumn",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.john_henry_eden.fallout_3",
+    "entityId": "ent.john_henry_eden",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.vault_101.fallout_3",
+    "entityId": "ent.vault_101",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.megaton.fallout_3",
+    "entityId": "ent.megaton",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.rivet_city.fallout_3",
+    "entityId": "ent.rivet_city",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.citadel.fallout_3",
+    "entityId": "ent.citadel",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.capital_brotherhood.fallout_3",
+    "entityId": "ent.capital_brotherhood",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.brotherhood_outcasts.fallout_3",
+    "entityId": "ent.brotherhood_outcasts",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.galaxy_news_radio.fallout_3",
+    "entityId": "ent.galaxy_news_radio",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.three_dog.fallout_3",
+    "entityId": "ent.three_dog",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.underworld.fallout_3",
+    "entityId": "ent.underworld",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.paradise_falls.fallout_3",
+    "entityId": "ent.paradise_falls",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.tenpenny_tower.fallout_3",
+    "entityId": "ent.tenpenny_tower",
+    "workId": "work.fallout_3",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.the_pitt_region.the_pitt",
+    "entityId": "ent.the_pitt_region",
+    "workId": "work.the_pitt",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.ashur.the_pitt",
+    "entityId": "ent.ashur",
+    "workId": "work.the_pitt",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.point_lookout_region.point_lookout",
+    "entityId": "ent.point_lookout_region",
+    "workId": "work.point_lookout",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.desmond_lockheart.point_lookout",
+    "entityId": "ent.desmond_lockheart",
+    "workId": "work.point_lookout",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.mothership_zeta.mothership_zeta",
+    "entityId": "ent.mothership_zeta",
+    "workId": "work.mothership_zeta",
+    "kind": "appears"
+  },
+  {
+    "id": "app.fr.zetans.mothership_zeta",
+    "entityId": "ent.zetans",
+    "workId": "work.mothership_zeta",
+    "kind": "appears"
+  }
+]
