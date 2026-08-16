@@ -77,3 +77,5 @@ Dates controlled by player travel should retain only justified precision. A labe
 A game ingestion reuses existing cross-work entity IDs, adds one appearance edge per relevant work, and supplies a work profile with a stable slug, description and curated featured entities. The resulting game page should expose a typed record index, primary-source locators and links to work-filtered browse, timeline and map views.
 
 SourceItems remain metadata and precise locators; they do not reproduce dialogue trees, scripts or terminal text. Conditions and work associations are generic archive concepts, not game-specific database columns.
+
+For franchise-wide batches, maintain a review manifest such as [FRANCHISE_INGESTION_STATUS.md](FRANCHISE_INGESTION_STATUS.md). Automated importance tiers are triage signals: generic uniforms, list pages and category artefacts must not be promoted merely because a score calls them Tier 1. A broad article supported only by a secondary reference is a useful canonical start, but its evidence debt must remain explicit until released-game locators are attached.
