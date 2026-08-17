@@ -3,51 +3,51 @@
   "slug": "fallout4",
   "title": "Fallout 4",
   "referenceSubjects": 3200,
-  "matchedArchiveEntities": 50,
-  "productionQuality": 1,
-  "substantialRecords": 27,
-  "supportingRecords": 16,
-  "shallowRecords": 6,
-  "missingSubjects": 3150,
+  "matchedArchiveEntities": 534,
+  "hybridResearched": 37,
+  "providerMapped": 491,
+  "structuredRecords": 5,
+  "candidateMatches": 1,
+  "missingSubjects": 2666,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 1106,
   "majorLore": 71,
   "supportingLore": 172,
   "minorLore": 1857,
   "deepResearchCandidates": 72,
-  "tier1Gaps": 59,
-  "tier2Gaps": 156,
-  "weightedLoreCoverage": 9.6,
+  "tier1Gaps": 4,
+  "tier2Gaps": 9,
+  "weightedLoreCoverage": 72.9,
   "byType": {
     "person": {
       "total": 837,
-      "matched": 24,
-      "missing": 813
+      "matched": 70,
+      "missing": 767
     },
     "organisation": {
       "total": 110,
-      "matched": 9,
-      "missing": 101
+      "matched": 105,
+      "missing": 5
     },
     "creature": {
       "total": 64,
-      "matched": 0,
-      "missing": 64
+      "matched": 10,
+      "missing": 54
     },
     "place": {
       "total": 622,
-      "matched": 16,
-      "missing": 606
+      "matched": 314,
+      "missing": 308
     },
     "technology": {
       "total": 65,
-      "matched": 0,
-      "missing": 65
+      "matched": 4,
+      "missing": 61
     },
     "event": {
       "total": 404,
-      "matched": 1,
-      "missing": 403
+      "matched": 31,
+      "missing": 373
     },
     "source_record": {
       "total": 1098,

@@ -3,21 +3,21 @@
   "slug": "fallout1",
   "title": "Fallout",
   "referenceSubjects": 1299,
-  "matchedArchiveEntities": 90,
-  "productionQuality": 14,
-  "substantialRecords": 8,
-  "supportingRecords": 24,
-  "shallowRecords": 44,
-  "missingSubjects": 1209,
+  "matchedArchiveEntities": 194,
+  "hybridResearched": 25,
+  "providerMapped": 128,
+  "structuredRecords": 35,
+  "candidateMatches": 6,
+  "missingSubjects": 1105,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 423,
   "majorLore": 18,
   "supportingLore": 95,
   "minorLore": 768,
   "deepResearchCandidates": 22,
-  "tier1Gaps": 7,
-  "tier2Gaps": 74,
-  "weightedLoreCoverage": 28.4,
+  "tier1Gaps": 1,
+  "tier2Gaps": 11,
+  "weightedLoreCoverage": 74,
   "byType": {
     "source_record": {
       "total": 420,
@@ -26,8 +26,8 @@
     },
     "person": {
       "total": 512,
-      "matched": 51,
-      "missing": 461
+      "matched": 73,
+      "missing": 439
     },
     "item": {
       "total": 89,
@@ -36,28 +36,28 @@
     },
     "event": {
       "total": 83,
-      "matched": 0,
-      "missing": 83
+      "matched": 4,
+      "missing": 79
     },
     "place": {
       "total": 101,
-      "matched": 23,
-      "missing": 78
+      "matched": 60,
+      "missing": 41
     },
     "organisation": {
       "total": 44,
-      "matched": 14,
-      "missing": 30
+      "matched": 42,
+      "missing": 2
     },
     "creature": {
       "total": 33,
-      "matched": 0,
-      "missing": 33
+      "matched": 11,
+      "missing": 22
     },
     "technology": {
       "total": 17,
-      "matched": 1,
-      "missing": 16
+      "matched": 3,
+      "missing": 14
     }
   }
 }

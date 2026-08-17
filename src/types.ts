@@ -20,10 +20,50 @@ export interface Entity {
   summary: string;
   description?: string;
   articleTier?: "major" | "supporting";
+  articleMode?: "reference" | "local" | "hybrid";
   articleSections?: ArticleSection[];
   tags: string[];
   recordStatus: "reviewed" | "candidate";
   featured?: boolean;
+}
+
+export interface ReferenceMapping {
+  id: string;
+  entityId: string;
+  providerId: string;
+  pageId: number;
+  canonicalTitle: string;
+  canonicalUrl: string;
+  revisionId?: number;
+  revisionTimestamp?: string;
+  retrievedAt: string;
+  articleMode: "reference" | "local" | "hybrid";
+}
+
+export interface ReferenceArticle {
+  providerId: string;
+  providerName: string;
+  pageId: number;
+  canonicalTitle: string;
+  displayTitle: string;
+  revisionId: number;
+  retrievedAt: string;
+  originalUrl: string;
+  licence: string;
+  attributionUrl: string;
+  html: string;
+  redirectFrom?: string;
+  cacheStatus: "fresh" | "refreshed" | "stale" | "browser-cache" | "live";
+  warning?: string;
+}
+
+export interface ReferenceSearchResult {
+  providerId: string;
+  pageId: number;
+  title: string;
+  snippet: string;
+  originalUrl: string;
+  entityId?: string;
 }
 
 export interface ArticleSection {
@@ -82,6 +122,7 @@ export interface LoreDataset {
   disputes: Dispute[];
   conditionSets: ConditionSet[];
   outcomeGroups: OutcomeGroup[];
+  referenceMappings: ReferenceMapping[];
 }
 
 export interface SearchFilters { entityType?: EntityType | "all"; workId?: string }

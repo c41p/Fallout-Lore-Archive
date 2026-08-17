@@ -1,0 +1,62 @@
+[
+  {
+    "id": "refmap.curated.brotherhood",
+    "entityId": "ent.brotherhood",
+    "providerId": "nukapedia",
+    "pageId": 1799,
+    "canonicalTitle": "Brotherhood of Steel",
+    "canonicalUrl": "https://fallout.fandom.com/wiki/Brotherhood_of_Steel",
+    "revisionId": 4694645,
+    "revisionTimestamp": "2026-07-29T22:11:55Z",
+    "retrievedAt": "2026-08-17T07:29:00Z",
+    "articleMode": "hybrid"
+  },
+  {
+    "id": "refmap.curated.great_war",
+    "entityId": "ent.great_war",
+    "providerId": "nukapedia",
+    "pageId": 1623,
+    "canonicalTitle": "Great War",
+    "canonicalUrl": "https://fallout.fandom.com/wiki/Great_War",
+    "revisionId": 4680638,
+    "revisionTimestamp": "2026-06-15T16:19:08Z",
+    "retrievedAt": "2026-08-17T07:29:00Z",
+    "articleMode": "hybrid"
+  },
+  {
+    "id": "refmap.curated.fev",
+    "entityId": "ent.fev",
+    "providerId": "nukapedia",
+    "pageId": 1011,
+    "canonicalTitle": "Forced Evolutionary Virus",
+    "canonicalUrl": "https://fallout.fandom.com/wiki/Forced_Evolutionary_Virus",
+    "revisionId": 4687472,
+    "revisionTimestamp": "2026-07-08T04:00:31Z",
+    "retrievedAt": "2026-08-17T07:29:00Z",
+    "articleMode": "hybrid"
+  },
+  {
+    "id": "refmap.curated.elizabeth_taggerdy",
+    "entityId": "ent.elizabeth_taggerdy",
+    "providerId": "nukapedia",
+    "pageId": 578944,
+    "canonicalTitle": "Elizabeth Taggerdy",
+    "canonicalUrl": "https://fallout.fandom.com/wiki/Elizabeth_Taggerdy",
+    "revisionId": 4667563,
+    "revisionTimestamp": "2026-05-17T14:51:56Z",
+    "retrievedAt": "2026-08-17T07:29:00Z",
+    "articleMode": "hybrid"
+  },
+  {
+    "id": "refmap.curated.robert_spindel",
+    "entityId": "ent.robert_spindel",
+    "providerId": "nukapedia",
+    "pageId": 2001,
+    "canonicalTitle": "Robert Spindel",
+    "canonicalUrl": "https://fallout.fandom.com/wiki/Robert_Spindel",
+    "revisionId": 4645385,
+    "revisionTimestamp": "2026-04-01T00:23:06Z",
+    "retrievedAt": "2026-08-17T07:29:00Z",
+    "articleMode": "hybrid"
+  }
+]

@@ -851,91 +851,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.219645.profile",
-    "targetId": "asrt.ref.219645.profile",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "supports",
-    "directness": "explicit",
-    "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.219645.related_1",
-    "targetId": "asrt.ref.219645.related_1",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_2",
-    "targetId": "asrt.ref.219645.related_2",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_4",
-    "targetId": "asrt.ref.219645.related_4",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_5",
-    "targetId": "asrt.ref.219645.related_5",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_6",
-    "targetId": "asrt.ref.219645.related_6",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_7",
-    "targetId": "asrt.ref.219645.related_7",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_8",
-    "targetId": "asrt.ref.219645.related_8",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_9",
-    "targetId": "asrt.ref.219645.related_9",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_10",
-    "targetId": "asrt.ref.219645.related_10",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_11",
-    "targetId": "asrt.ref.219645.related_11",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.219645.related_12",
-    "targetId": "asrt.ref.219645.related_12",
-    "sourceItemId": "src.ref.nukapedia_219645",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.471686.profile",
     "targetId": "asrt.ref.471686.profile",
     "sourceItemId": "src.ref.nukapedia_471686",
@@ -2163,8 +2078,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.577220.related_3",
-    "targetId": "asrt.ref.577220.related_3",
+    "id": "ev.ref.577220.related_4",
+    "targetId": "asrt.ref.577220.related_4",
     "sourceItemId": "src.ref.nukapedia_577220",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -2581,8 +2496,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.55600.related_9",
-    "targetId": "asrt.ref.55600.related_9",
+    "id": "ev.ref.55600.related_8",
+    "targetId": "asrt.ref.55600.related_8",
     "sourceItemId": "src.ref.nukapedia_55600",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -2590,6 +2505,13 @@
   {
     "id": "ev.ref.55600.related_10",
     "targetId": "asrt.ref.55600.related_10",
+    "sourceItemId": "src.ref.nukapedia_55600",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.55600.related_11",
+    "targetId": "asrt.ref.55600.related_11",
     "sourceItemId": "src.ref.nukapedia_55600",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -2709,8 +2631,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1834.related_7",
-    "targetId": "asrt.ref.1834.related_7",
+    "id": "ev.ref.1834.related_8",
+    "targetId": "asrt.ref.1834.related_8",
     "sourceItemId": "src.ref.nukapedia_1834",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -4192,8 +4114,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.7712.related_4",
-    "targetId": "asrt.ref.7712.related_4",
+    "id": "ev.ref.7712.related_6",
+    "targetId": "asrt.ref.7712.related_6",
     "sourceItemId": "src.ref.nukapedia_7712",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -6922,13 +6844,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.579013.related_11",
-    "targetId": "asrt.ref.579013.related_11",
-    "sourceItemId": "src.ref.nukapedia_579013",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.22328.profile",
     "targetId": "asrt.ref.22328.profile",
     "sourceItemId": "src.ref.nukapedia_22328",
@@ -6944,8 +6859,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.22328.related_3",
-    "targetId": "asrt.ref.22328.related_3",
+    "id": "ev.ref.22328.related_2",
+    "targetId": "asrt.ref.22328.related_2",
     "sourceItemId": "src.ref.nukapedia_22328",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -7620,6 +7535,13 @@
   {
     "id": "ev.ref.6523.related_8",
     "targetId": "asrt.ref.6523.related_8",
+    "sourceItemId": "src.ref.nukapedia_6523",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.6523.related_9",
+    "targetId": "asrt.ref.6523.related_9",
     "sourceItemId": "src.ref.nukapedia_6523",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -8333,6 +8255,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.477103.related_11",
+    "targetId": "asrt.ref.477103.related_11",
+    "sourceItemId": "src.ref.nukapedia_477103",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.477103.time",
     "targetId": "asrt.ref.477103.time",
     "sourceItemId": "src.ref.nukapedia_477103",
@@ -8994,6 +8923,13 @@
   {
     "id": "ev.ref.10898.related_11",
     "targetId": "asrt.ref.10898.related_11",
+    "sourceItemId": "src.ref.nukapedia_10898",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.10898.related_12",
+    "targetId": "asrt.ref.10898.related_12",
     "sourceItemId": "src.ref.nukapedia_10898",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -9747,13 +9683,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.837043.related_11",
-    "targetId": "asrt.ref.837043.related_11",
-    "sourceItemId": "src.ref.nukapedia_837043",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.865750.profile",
     "targetId": "asrt.ref.865750.profile",
     "sourceItemId": "src.ref.nukapedia_865750",
@@ -9861,8 +9790,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1551.related_8",
-    "targetId": "asrt.ref.1551.related_8",
+    "id": "ev.ref.1551.related_11",
+    "targetId": "asrt.ref.1551.related_11",
     "sourceItemId": "src.ref.nukapedia_1551",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -10266,8 +10195,8 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
-    "id": "ev.ref.2555.related_2",
-    "targetId": "asrt.ref.2555.related_2",
+    "id": "ev.ref.2555.related_1",
+    "targetId": "asrt.ref.2555.related_1",
     "sourceItemId": "src.ref.nukapedia_2555",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -10487,13 +10416,6 @@
   {
     "id": "ev.ref.7407.related_11",
     "targetId": "asrt.ref.7407.related_11",
-    "sourceItemId": "src.ref.nukapedia_7407",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.7407.related_12",
-    "targetId": "asrt.ref.7407.related_12",
     "sourceItemId": "src.ref.nukapedia_7407",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -10853,6 +10775,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.579014.related_12",
+    "targetId": "asrt.ref.579014.related_12",
+    "sourceItemId": "src.ref.nukapedia_579014",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.581105.profile",
     "targetId": "asrt.ref.581105.profile",
     "sourceItemId": "src.ref.nukapedia_581105",
@@ -10926,13 +10855,6 @@
   {
     "id": "ev.ref.581105.related_10",
     "targetId": "asrt.ref.581105.related_10",
-    "sourceItemId": "src.ref.nukapedia_581105",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.581105.related_11",
-    "targetId": "asrt.ref.581105.related_11",
     "sourceItemId": "src.ref.nukapedia_581105",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -11128,6 +11050,13 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.2203.related_1",
+    "targetId": "asrt.ref.2203.related_1",
+    "sourceItemId": "src.ref.nukapedia_2203",
+    "role": "source_of_inference",
+    "directness": "implicit"
   },
   {
     "id": "ev.ref.2203.related_2",
@@ -11421,6 +11350,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.13317.related_10",
+    "targetId": "asrt.ref.13317.related_10",
+    "sourceItemId": "src.ref.nukapedia_13317",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.13324.profile",
     "targetId": "asrt.ref.13324.profile",
     "sourceItemId": "src.ref.nukapedia_13324",
@@ -11499,6 +11435,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.13324.related_12",
+    "targetId": "asrt.ref.13324.related_12",
+    "sourceItemId": "src.ref.nukapedia_13324",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.23615.profile",
     "targetId": "asrt.ref.23615.profile",
     "sourceItemId": "src.ref.nukapedia_23615",
@@ -11558,6 +11501,13 @@
   {
     "id": "ev.ref.23615.related_8",
     "targetId": "asrt.ref.23615.related_8",
+    "sourceItemId": "src.ref.nukapedia_23615",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.23615.related_9",
+    "targetId": "asrt.ref.23615.related_9",
     "sourceItemId": "src.ref.nukapedia_23615",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -12195,6 +12145,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.235556.related_8",
+    "targetId": "asrt.ref.235556.related_8",
+    "sourceItemId": "src.ref.nukapedia_235556",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.466687.profile",
     "targetId": "asrt.ref.466687.profile",
     "sourceItemId": "src.ref.nukapedia_466687",
@@ -12624,6 +12581,42 @@
     "id": "ev.ref.637413.related_11",
     "targetId": "asrt.ref.637413.related_11",
     "sourceItemId": "src.ref.nukapedia_637413",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.639042.profile",
+    "targetId": "asrt.ref.639042.profile",
+    "sourceItemId": "src.ref.nukapedia_639042",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.639042.related_1",
+    "targetId": "asrt.ref.639042.related_1",
+    "sourceItemId": "src.ref.nukapedia_639042",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.639042.related_2",
+    "targetId": "asrt.ref.639042.related_2",
+    "sourceItemId": "src.ref.nukapedia_639042",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.639042.related_3",
+    "targetId": "asrt.ref.639042.related_3",
+    "sourceItemId": "src.ref.nukapedia_639042",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.639042.related_4",
+    "targetId": "asrt.ref.639042.related_4",
+    "sourceItemId": "src.ref.nukapedia_639042",
     "role": "source_of_inference",
     "directness": "implicit"
   },
@@ -13312,6 +13305,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.40335.related_7",
+    "targetId": "asrt.ref.40335.related_7",
+    "sourceItemId": "src.ref.nukapedia_40335",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.40336.profile",
     "targetId": "asrt.ref.40336.profile",
     "sourceItemId": "src.ref.nukapedia_40336",
@@ -13364,6 +13364,13 @@
   {
     "id": "ev.ref.40336.related_7",
     "targetId": "asrt.ref.40336.related_7",
+    "sourceItemId": "src.ref.nukapedia_40336",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.40336.related_8",
+    "targetId": "asrt.ref.40336.related_8",
     "sourceItemId": "src.ref.nukapedia_40336",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -13973,6 +13980,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.400582.related_8",
+    "targetId": "asrt.ref.400582.related_8",
+    "sourceItemId": "src.ref.nukapedia_400582",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.446973.profile",
     "targetId": "asrt.ref.446973.profile",
     "sourceItemId": "src.ref.nukapedia_446973",
@@ -14382,15 +14396,15 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.577323.related_7",
-    "targetId": "asrt.ref.577323.related_7",
+    "id": "ev.ref.577323.related_8",
+    "targetId": "asrt.ref.577323.related_8",
     "sourceItemId": "src.ref.nukapedia_577323",
     "role": "source_of_inference",
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.577323.related_9",
-    "targetId": "asrt.ref.577323.related_9",
+    "id": "ev.ref.577323.related_10",
+    "targetId": "asrt.ref.577323.related_10",
     "sourceItemId": "src.ref.nukapedia_577323",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -15002,6 +15016,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.1554.related_4",
+    "targetId": "asrt.ref.1554.related_4",
+    "sourceItemId": "src.ref.nukapedia_1554",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.1554.related_5",
     "targetId": "asrt.ref.1554.related_5",
     "sourceItemId": "src.ref.nukapedia_1554",
@@ -15073,8 +15094,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1568.related_4",
-    "targetId": "asrt.ref.1568.related_4",
+    "id": "ev.ref.1568.related_5",
+    "targetId": "asrt.ref.1568.related_5",
     "sourceItemId": "src.ref.nukapedia_1568",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -16277,8 +16298,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.636318.related_11",
-    "targetId": "asrt.ref.636318.related_11",
+    "id": "ev.ref.636318.related_12",
+    "targetId": "asrt.ref.636318.related_12",
     "sourceItemId": "src.ref.nukapedia_636318",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -16462,8 +16483,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1614.related_4",
-    "targetId": "asrt.ref.1614.related_4",
+    "id": "ev.ref.1614.related_5",
+    "targetId": "asrt.ref.1614.related_5",
     "sourceItemId": "src.ref.nukapedia_1614",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -16476,8 +16497,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1614.related_7",
-    "targetId": "asrt.ref.1614.related_7",
+    "id": "ev.ref.1614.related_8",
+    "targetId": "asrt.ref.1614.related_8",
     "sourceItemId": "src.ref.nukapedia_1614",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -16585,13 +16606,6 @@
   {
     "id": "ev.ref.4439.related_5",
     "targetId": "asrt.ref.4439.related_5",
-    "sourceItemId": "src.ref.nukapedia_4439",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.4439.related_6",
-    "targetId": "asrt.ref.4439.related_6",
     "sourceItemId": "src.ref.nukapedia_4439",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -19788,6 +19802,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.529039.related_2",
+    "targetId": "asrt.ref.529039.related_2",
+    "sourceItemId": "src.ref.nukapedia_529039",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.529039.related_3",
     "targetId": "asrt.ref.529039.related_3",
     "sourceItemId": "src.ref.nukapedia_529039",
@@ -22303,6 +22324,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.459724.related_8",
+    "targetId": "asrt.ref.459724.related_8",
+    "sourceItemId": "src.ref.nukapedia_459724",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.484195.profile",
     "targetId": "asrt.ref.484195.profile",
     "sourceItemId": "src.ref.nukapedia_484195",
@@ -22919,13 +22947,6 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
-    "id": "ev.ref.4812.related_1",
-    "targetId": "asrt.ref.4812.related_1",
-    "sourceItemId": "src.ref.nukapedia_4812",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.4812.related_2",
     "targetId": "asrt.ref.4812.related_2",
     "sourceItemId": "src.ref.nukapedia_4812",
@@ -22956,13 +22977,6 @@
   {
     "id": "ev.ref.4812.related_6",
     "targetId": "asrt.ref.4812.related_6",
-    "sourceItemId": "src.ref.nukapedia_4812",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.4812.related_7",
-    "targetId": "asrt.ref.4812.related_7",
     "sourceItemId": "src.ref.nukapedia_4812",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -23061,8 +23075,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.23400.related_5",
-    "targetId": "asrt.ref.23400.related_5",
+    "id": "ev.ref.23400.related_4",
+    "targetId": "asrt.ref.23400.related_4",
     "sourceItemId": "src.ref.nukapedia_23400",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -23142,6 +23156,13 @@
   {
     "id": "ev.ref.34903.related_3",
     "targetId": "asrt.ref.34903.related_3",
+    "sourceItemId": "src.ref.nukapedia_34903",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.34903.related_4",
+    "targetId": "asrt.ref.34903.related_4",
     "sourceItemId": "src.ref.nukapedia_34903",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -23517,6 +23538,13 @@
   {
     "id": "ev.ref.54044.related_5",
     "targetId": "asrt.ref.54044.related_5",
+    "sourceItemId": "src.ref.nukapedia_54044",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.54044.related_6",
+    "targetId": "asrt.ref.54044.related_6",
     "sourceItemId": "src.ref.nukapedia_54044",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -24675,6 +24703,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538830.related_7",
+    "targetId": "asrt.ref.538830.related_7",
+    "sourceItemId": "src.ref.nukapedia_538830",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.1997.profile",
     "targetId": "asrt.ref.1997.profile",
     "sourceItemId": "src.ref.nukapedia_1997",
@@ -25311,6 +25346,13 @@
   {
     "id": "ev.ref.80343.related_5",
     "targetId": "asrt.ref.80343.related_5",
+    "sourceItemId": "src.ref.nukapedia_80343",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.80343.related_6",
+    "targetId": "asrt.ref.80343.related_6",
     "sourceItemId": "src.ref.nukapedia_80343",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -27454,13 +27496,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.2067.related_4",
-    "targetId": "asrt.ref.2067.related_4",
-    "sourceItemId": "src.ref.nukapedia_2067",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.2067.related_5",
     "targetId": "asrt.ref.2067.related_5",
     "sourceItemId": "src.ref.nukapedia_2067",
@@ -27927,13 +27962,6 @@
   {
     "id": "ev.ref.1792.related_7",
     "targetId": "asrt.ref.1792.related_7",
-    "sourceItemId": "src.ref.nukapedia_1792",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.1792.related_8",
-    "targetId": "asrt.ref.1792.related_8",
     "sourceItemId": "src.ref.nukapedia_1792",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -30842,8 +30870,8 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
-    "id": "ev.ref.1093.related_2",
-    "targetId": "asrt.ref.1093.related_2",
+    "id": "ev.ref.1093.related_3",
+    "targetId": "asrt.ref.1093.related_3",
     "sourceItemId": "src.ref.nukapedia_1093",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -30856,8 +30884,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1093.related_5",
-    "targetId": "asrt.ref.1093.related_5",
+    "id": "ev.ref.1093.related_6",
+    "targetId": "asrt.ref.1093.related_6",
     "sourceItemId": "src.ref.nukapedia_1093",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -30906,6 +30934,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.1372.related_7",
+    "targetId": "asrt.ref.1372.related_7",
+    "sourceItemId": "src.ref.nukapedia_1372",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.1372.related_8",
     "targetId": "asrt.ref.1372.related_8",
     "sourceItemId": "src.ref.nukapedia_1372",
@@ -30919,6 +30954,13 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.1373.related_4",
+    "targetId": "asrt.ref.1373.related_4",
+    "sourceItemId": "src.ref.nukapedia_1373",
+    "role": "source_of_inference",
+    "directness": "implicit"
   },
   {
     "id": "ev.ref.1373.related_5",
@@ -30973,6 +31015,13 @@
   {
     "id": "ev.ref.1380.related_6",
     "targetId": "asrt.ref.1380.related_6",
+    "sourceItemId": "src.ref.nukapedia_1380",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.1380.related_7",
+    "targetId": "asrt.ref.1380.related_7",
     "sourceItemId": "src.ref.nukapedia_1380",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -31563,8 +31612,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1999.related_4",
-    "targetId": "asrt.ref.1999.related_4",
+    "id": "ev.ref.1999.related_5",
+    "targetId": "asrt.ref.1999.related_5",
     "sourceItemId": "src.ref.nukapedia_1999",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -31579,13 +31628,6 @@
   {
     "id": "ev.ref.1999.related_7",
     "targetId": "asrt.ref.1999.related_7",
-    "sourceItemId": "src.ref.nukapedia_1999",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.1999.related_8",
-    "targetId": "asrt.ref.1999.related_8",
     "sourceItemId": "src.ref.nukapedia_1999",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -31627,8 +31669,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.2010.related_7",
-    "targetId": "asrt.ref.2010.related_7",
+    "id": "ev.ref.2010.related_8",
+    "targetId": "asrt.ref.2010.related_8",
     "sourceItemId": "src.ref.nukapedia_2010",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -32789,6 +32831,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.519775.related_7",
+    "targetId": "asrt.ref.519775.related_7",
+    "sourceItemId": "src.ref.nukapedia_519775",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.519775.related_8",
     "targetId": "asrt.ref.519775.related_8",
     "sourceItemId": "src.ref.nukapedia_519775",
@@ -33231,13 +33280,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.658248.related_8",
-    "targetId": "asrt.ref.658248.related_8",
-    "sourceItemId": "src.ref.nukapedia_658248",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.664359.profile",
     "targetId": "asrt.ref.664359.profile",
     "sourceItemId": "src.ref.nukapedia_664359",
@@ -33360,8 +33402,8 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
-    "id": "ev.ref.2497.related_2",
-    "targetId": "asrt.ref.2497.related_2",
+    "id": "ev.ref.2497.related_4",
+    "targetId": "asrt.ref.2497.related_4",
     "sourceItemId": "src.ref.nukapedia_2497",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -33376,13 +33418,6 @@
   {
     "id": "ev.ref.2497.related_6",
     "targetId": "asrt.ref.2497.related_6",
-    "sourceItemId": "src.ref.nukapedia_2497",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.2497.related_7",
-    "targetId": "asrt.ref.2497.related_7",
     "sourceItemId": "src.ref.nukapedia_2497",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -34350,6 +34385,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30770.related_7",
+    "targetId": "asrt.ref.30770.related_7",
+    "sourceItemId": "src.ref.nukapedia_30770",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30774.profile",
     "targetId": "asrt.ref.30774.profile",
     "sourceItemId": "src.ref.nukapedia_30774",
@@ -34388,6 +34430,13 @@
   {
     "id": "ev.ref.30774.related_6",
     "targetId": "asrt.ref.30774.related_6",
+    "sourceItemId": "src.ref.nukapedia_30774",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30774.related_7",
+    "targetId": "asrt.ref.30774.related_7",
     "sourceItemId": "src.ref.nukapedia_30774",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -34443,6 +34492,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30779.related_7",
+    "targetId": "asrt.ref.30779.related_7",
+    "sourceItemId": "src.ref.nukapedia_30779",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30800.profile",
     "targetId": "asrt.ref.30800.profile",
     "sourceItemId": "src.ref.nukapedia_30800",
@@ -34488,6 +34544,13 @@
   {
     "id": "ev.ref.30800.related_6",
     "targetId": "asrt.ref.30800.related_6",
+    "sourceItemId": "src.ref.nukapedia_30800",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30800.related_7",
+    "targetId": "asrt.ref.30800.related_7",
     "sourceItemId": "src.ref.nukapedia_30800",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -35722,6 +35785,13 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
+    "id": "ev.ref.235003.related_1",
+    "targetId": "asrt.ref.235003.related_1",
+    "sourceItemId": "src.ref.nukapedia_235003",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.235003.related_2",
     "targetId": "asrt.ref.235003.related_2",
     "sourceItemId": "src.ref.nukapedia_235003",
@@ -35736,8 +35806,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.235003.related_5",
-    "targetId": "asrt.ref.235003.related_5",
+    "id": "ev.ref.235003.related_4",
+    "targetId": "asrt.ref.235003.related_4",
     "sourceItemId": "src.ref.nukapedia_235003",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -35836,8 +35906,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.235043.related_3",
-    "targetId": "asrt.ref.235043.related_3",
+    "id": "ev.ref.235043.related_2",
+    "targetId": "asrt.ref.235043.related_2",
     "sourceItemId": "src.ref.nukapedia_235043",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -36123,6 +36193,28 @@
     "id": "ev.ref.236261.related_8",
     "targetId": "asrt.ref.236261.related_8",
     "sourceItemId": "src.ref.nukapedia_236261",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.240946.profile",
+    "targetId": "asrt.ref.240946.profile",
+    "sourceItemId": "src.ref.nukapedia_240946",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.240946.related_1",
+    "targetId": "asrt.ref.240946.related_1",
+    "sourceItemId": "src.ref.nukapedia_240946",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.240946.related_2",
+    "targetId": "asrt.ref.240946.related_2",
+    "sourceItemId": "src.ref.nukapedia_240946",
     "role": "source_of_inference",
     "directness": "implicit"
   },
@@ -36476,6 +36568,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.479010.related_7",
+    "targetId": "asrt.ref.479010.related_7",
+    "sourceItemId": "src.ref.nukapedia_479010",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.479028.profile",
     "targetId": "asrt.ref.479028.profile",
     "sourceItemId": "src.ref.nukapedia_479028",
@@ -36647,6 +36746,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.523604.related_8",
+    "targetId": "asrt.ref.523604.related_8",
+    "sourceItemId": "src.ref.nukapedia_523604",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.529044.profile",
     "targetId": "asrt.ref.529044.profile",
     "sourceItemId": "src.ref.nukapedia_529044",
@@ -36685,6 +36791,13 @@
   {
     "id": "ev.ref.529044.related_5",
     "targetId": "asrt.ref.529044.related_5",
+    "sourceItemId": "src.ref.nukapedia_529044",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.529044.related_6",
+    "targetId": "asrt.ref.529044.related_6",
     "sourceItemId": "src.ref.nukapedia_529044",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -36792,6 +36905,13 @@
   {
     "id": "ev.ref.533873.related_7",
     "targetId": "asrt.ref.533873.related_7",
+    "sourceItemId": "src.ref.nukapedia_533873",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.533873.related_8",
+    "targetId": "asrt.ref.533873.related_8",
     "sourceItemId": "src.ref.nukapedia_533873",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -37032,6 +37152,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538833.related_8",
+    "targetId": "asrt.ref.538833.related_8",
+    "sourceItemId": "src.ref.nukapedia_538833",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538834.profile",
     "targetId": "asrt.ref.538834.profile",
     "sourceItemId": "src.ref.nukapedia_538834",
@@ -37082,6 +37209,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538834.related_7",
+    "targetId": "asrt.ref.538834.related_7",
+    "sourceItemId": "src.ref.nukapedia_538834",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538835.profile",
     "targetId": "asrt.ref.538835.profile",
     "sourceItemId": "src.ref.nukapedia_538835",
@@ -37127,6 +37261,13 @@
   {
     "id": "ev.ref.538835.related_6",
     "targetId": "asrt.ref.538835.related_6",
+    "sourceItemId": "src.ref.nukapedia_538835",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.538835.related_7",
+    "targetId": "asrt.ref.538835.related_7",
     "sourceItemId": "src.ref.nukapedia_538835",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -37246,6 +37387,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538837.related_7",
+    "targetId": "asrt.ref.538837.related_7",
+    "sourceItemId": "src.ref.nukapedia_538837",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538842.profile",
     "targetId": "asrt.ref.538842.profile",
     "sourceItemId": "src.ref.nukapedia_538842",
@@ -37277,6 +37425,13 @@
   {
     "id": "ev.ref.538842.related_5",
     "targetId": "asrt.ref.538842.related_5",
+    "sourceItemId": "src.ref.nukapedia_538842",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.538842.related_6",
+    "targetId": "asrt.ref.538842.related_6",
     "sourceItemId": "src.ref.nukapedia_538842",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -37334,6 +37489,13 @@
   {
     "id": "ev.ref.538962.related_7",
     "targetId": "asrt.ref.538962.related_7",
+    "sourceItemId": "src.ref.nukapedia_538962",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.538962.related_8",
+    "targetId": "asrt.ref.538962.related_8",
     "sourceItemId": "src.ref.nukapedia_538962",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -38090,13 +38252,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.715025.related_7",
-    "targetId": "asrt.ref.715025.related_7",
-    "sourceItemId": "src.ref.nukapedia_715025",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.715028.profile",
     "targetId": "asrt.ref.715028.profile",
     "sourceItemId": "src.ref.nukapedia_715028",
@@ -38264,6 +38419,13 @@
   {
     "id": "ev.ref.799314.related_4",
     "targetId": "asrt.ref.799314.related_4",
+    "sourceItemId": "src.ref.nukapedia_799314",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.799314.related_5",
+    "targetId": "asrt.ref.799314.related_5",
     "sourceItemId": "src.ref.nukapedia_799314",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -38493,13 +38655,6 @@
   {
     "id": "ev.ref.1367.related_2",
     "targetId": "asrt.ref.1367.related_2",
-    "sourceItemId": "src.ref.nukapedia_1367",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.1367.related_3",
-    "targetId": "asrt.ref.1367.related_3",
     "sourceItemId": "src.ref.nukapedia_1367",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -38820,13 +38975,6 @@
   {
     "id": "ev.ref.14358.related_7",
     "targetId": "asrt.ref.14358.related_7",
-    "sourceItemId": "src.ref.nukapedia_14358",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.14358.related_8",
-    "targetId": "asrt.ref.14358.related_8",
     "sourceItemId": "src.ref.nukapedia_14358",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -39189,6 +39337,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30772.related_7",
+    "targetId": "asrt.ref.30772.related_7",
+    "sourceItemId": "src.ref.nukapedia_30772",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30773.profile",
     "targetId": "asrt.ref.30773.profile",
     "sourceItemId": "src.ref.nukapedia_30773",
@@ -39268,6 +39423,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30775.related_7",
+    "targetId": "asrt.ref.30775.related_7",
+    "sourceItemId": "src.ref.nukapedia_30775",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30776.profile",
     "targetId": "asrt.ref.30776.profile",
     "sourceItemId": "src.ref.nukapedia_30776",
@@ -39311,6 +39473,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30776.related_6",
+    "targetId": "asrt.ref.30776.related_6",
+    "sourceItemId": "src.ref.nukapedia_30776",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30777.profile",
     "targetId": "asrt.ref.30777.profile",
     "sourceItemId": "src.ref.nukapedia_30777",
@@ -39347,6 +39516,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30777.related_5",
+    "targetId": "asrt.ref.30777.related_5",
+    "sourceItemId": "src.ref.nukapedia_30777",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30778.profile",
     "targetId": "asrt.ref.30778.profile",
     "sourceItemId": "src.ref.nukapedia_30778",
@@ -39376,6 +39552,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30778.related_4",
+    "targetId": "asrt.ref.30778.related_4",
+    "sourceItemId": "src.ref.nukapedia_30778",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30788.profile",
     "targetId": "asrt.ref.30788.profile",
     "sourceItemId": "src.ref.nukapedia_30788",
@@ -39400,6 +39583,13 @@
   {
     "id": "ev.ref.30788.related_3",
     "targetId": "asrt.ref.30788.related_3",
+    "sourceItemId": "src.ref.nukapedia_30788",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30788.related_4",
+    "targetId": "asrt.ref.30788.related_4",
     "sourceItemId": "src.ref.nukapedia_30788",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -39441,6 +39631,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30789.related_5",
+    "targetId": "asrt.ref.30789.related_5",
+    "sourceItemId": "src.ref.nukapedia_30789",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30790.profile",
     "targetId": "asrt.ref.30790.profile",
     "sourceItemId": "src.ref.nukapedia_30790",
@@ -39477,6 +39674,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30790.related_5",
+    "targetId": "asrt.ref.30790.related_5",
+    "sourceItemId": "src.ref.nukapedia_30790",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30791.profile",
     "targetId": "asrt.ref.30791.profile",
     "sourceItemId": "src.ref.nukapedia_30791",
@@ -39501,6 +39705,13 @@
   {
     "id": "ev.ref.30791.related_3",
     "targetId": "asrt.ref.30791.related_3",
+    "sourceItemId": "src.ref.nukapedia_30791",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30791.related_4",
+    "targetId": "asrt.ref.30791.related_4",
     "sourceItemId": "src.ref.nukapedia_30791",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -39556,6 +39767,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30793.related_7",
+    "targetId": "asrt.ref.30793.related_7",
+    "sourceItemId": "src.ref.nukapedia_30793",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30794.profile",
     "targetId": "asrt.ref.30794.profile",
     "sourceItemId": "src.ref.nukapedia_30794",
@@ -39594,6 +39812,13 @@
   {
     "id": "ev.ref.30794.related_5",
     "targetId": "asrt.ref.30794.related_5",
+    "sourceItemId": "src.ref.nukapedia_30794",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30794.related_6",
+    "targetId": "asrt.ref.30794.related_6",
     "sourceItemId": "src.ref.nukapedia_30794",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -39664,6 +39889,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.30797.related_5",
+    "targetId": "asrt.ref.30797.related_5",
+    "sourceItemId": "src.ref.nukapedia_30797",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.30798.profile",
     "targetId": "asrt.ref.30798.profile",
     "sourceItemId": "src.ref.nukapedia_30798",
@@ -39695,6 +39927,13 @@
   {
     "id": "ev.ref.30798.related_4",
     "targetId": "asrt.ref.30798.related_4",
+    "sourceItemId": "src.ref.nukapedia_30798",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.30798.related_5",
+    "targetId": "asrt.ref.30798.related_5",
     "sourceItemId": "src.ref.nukapedia_30798",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -40117,13 +40356,6 @@
   {
     "id": "ev.ref.43467.related_2",
     "targetId": "asrt.ref.43467.related_2",
-    "sourceItemId": "src.ref.nukapedia_43467",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.43467.related_3",
-    "targetId": "asrt.ref.43467.related_3",
     "sourceItemId": "src.ref.nukapedia_43467",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -42122,8 +42354,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.235014.related_6",
-    "targetId": "asrt.ref.235014.related_6",
+    "id": "ev.ref.235014.related_5",
+    "targetId": "asrt.ref.235014.related_5",
     "sourceItemId": "src.ref.nukapedia_235014",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -42329,8 +42561,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.235051.related_6",
-    "targetId": "asrt.ref.235051.related_6",
+    "id": "ev.ref.235051.related_5",
+    "targetId": "asrt.ref.235051.related_5",
     "sourceItemId": "src.ref.nukapedia_235051",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -42338,6 +42570,13 @@
   {
     "id": "ev.ref.235051.related_7",
     "targetId": "asrt.ref.235051.related_7",
+    "sourceItemId": "src.ref.nukapedia_235051",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.235051.related_8",
+    "targetId": "asrt.ref.235051.related_8",
     "sourceItemId": "src.ref.nukapedia_235051",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -43437,6 +43676,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.297237.related_8",
+    "targetId": "asrt.ref.297237.related_8",
+    "sourceItemId": "src.ref.nukapedia_297237",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.297239.profile",
     "targetId": "asrt.ref.297239.profile",
     "sourceItemId": "src.ref.nukapedia_297239",
@@ -43940,13 +44186,6 @@
   {
     "id": "ev.ref.455039.related_6",
     "targetId": "asrt.ref.455039.related_6",
-    "sourceItemId": "src.ref.nukapedia_455039",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.455039.related_7",
-    "targetId": "asrt.ref.455039.related_7",
     "sourceItemId": "src.ref.nukapedia_455039",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -44858,6 +45097,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538839.related_5",
+    "targetId": "asrt.ref.538839.related_5",
+    "sourceItemId": "src.ref.nukapedia_538839",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538941.profile",
     "targetId": "asrt.ref.538941.profile",
     "sourceItemId": "src.ref.nukapedia_538941",
@@ -44901,6 +45147,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538941.related_6",
+    "targetId": "asrt.ref.538941.related_6",
+    "sourceItemId": "src.ref.nukapedia_538941",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538942.profile",
     "targetId": "asrt.ref.538942.profile",
     "sourceItemId": "src.ref.nukapedia_538942",
@@ -44937,6 +45190,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538942.related_5",
+    "targetId": "asrt.ref.538942.related_5",
+    "sourceItemId": "src.ref.nukapedia_538942",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538943.profile",
     "targetId": "asrt.ref.538943.profile",
     "sourceItemId": "src.ref.nukapedia_538943",
@@ -44968,6 +45228,13 @@
   {
     "id": "ev.ref.538943.related_4",
     "targetId": "asrt.ref.538943.related_4",
+    "sourceItemId": "src.ref.nukapedia_538943",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.538943.related_5",
+    "targetId": "asrt.ref.538943.related_5",
     "sourceItemId": "src.ref.nukapedia_538943",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -45016,6 +45283,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538946.related_7",
+    "targetId": "asrt.ref.538946.related_7",
+    "sourceItemId": "src.ref.nukapedia_538946",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538955.profile",
     "targetId": "asrt.ref.538955.profile",
     "sourceItemId": "src.ref.nukapedia_538955",
@@ -45059,6 +45333,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.538955.related_6",
+    "targetId": "asrt.ref.538955.related_6",
+    "sourceItemId": "src.ref.nukapedia_538955",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.538961.profile",
     "targetId": "asrt.ref.538961.profile",
     "sourceItemId": "src.ref.nukapedia_538961",
@@ -45083,6 +45364,13 @@
   {
     "id": "ev.ref.538961.related_4",
     "targetId": "asrt.ref.538961.related_4",
+    "sourceItemId": "src.ref.nukapedia_538961",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.538961.related_5",
+    "targetId": "asrt.ref.538961.related_5",
     "sourceItemId": "src.ref.nukapedia_538961",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -45140,6 +45428,13 @@
   {
     "id": "ev.ref.539341.related_7",
     "targetId": "asrt.ref.539341.related_7",
+    "sourceItemId": "src.ref.nukapedia_539341",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.539341.related_8",
+    "targetId": "asrt.ref.539341.related_8",
     "sourceItemId": "src.ref.nukapedia_539341",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -45454,13 +45749,6 @@
   {
     "id": "ev.ref.615970.related_5",
     "targetId": "asrt.ref.615970.related_5",
-    "sourceItemId": "src.ref.nukapedia_615970",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.615970.related_6",
-    "targetId": "asrt.ref.615970.related_6",
     "sourceItemId": "src.ref.nukapedia_615970",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -48437,8 +48725,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.790518.related_3",
-    "targetId": "asrt.ref.790518.related_3",
+    "id": "ev.ref.790518.related_4",
+    "targetId": "asrt.ref.790518.related_4",
     "sourceItemId": "src.ref.nukapedia_790518",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -49557,8 +49845,8 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.1010.related_5",
-    "targetId": "asrt.ref.1010.related_5",
+    "id": "ev.ref.1010.related_6",
+    "targetId": "asrt.ref.1010.related_6",
     "sourceItemId": "src.ref.nukapedia_1010",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -49566,13 +49854,6 @@
   {
     "id": "ev.ref.1010.related_7",
     "targetId": "asrt.ref.1010.related_7",
-    "sourceItemId": "src.ref.nukapedia_1010",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.1010.related_8",
-    "targetId": "asrt.ref.1010.related_8",
     "sourceItemId": "src.ref.nukapedia_1010",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -49645,13 +49926,6 @@
   {
     "id": "ev.ref.1795.related_6",
     "targetId": "asrt.ref.1795.related_6",
-    "sourceItemId": "src.ref.nukapedia_1795",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.1795.related_8",
-    "targetId": "asrt.ref.1795.related_8",
     "sourceItemId": "src.ref.nukapedia_1795",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -51691,6 +51965,21 @@
     "id": "ev.ref.18725.related_3",
     "targetId": "asrt.ref.18725.related_3",
     "sourceItemId": "src.ref.nukapedia_18725",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.24103.profile",
+    "targetId": "asrt.ref.24103.profile",
+    "sourceItemId": "src.ref.nukapedia_24103",
+    "role": "supports",
+    "directness": "explicit",
+    "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.24103.related_2",
+    "targetId": "asrt.ref.24103.related_2",
+    "sourceItemId": "src.ref.nukapedia_24103",
     "role": "source_of_inference",
     "directness": "implicit"
   },
@@ -53972,6 +54261,13 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
+  },
+  {
+    "id": "ev.ref.26196.related_1",
+    "targetId": "asrt.ref.26196.related_1",
+    "sourceItemId": "src.ref.nukapedia_26196",
+    "role": "source_of_inference",
+    "directness": "implicit"
   },
   {
     "id": "ev.ref.26196.related_2",
@@ -57459,6 +57755,13 @@
     "directness": "implicit"
   },
   {
+    "id": "ev.ref.520032.related_3",
+    "targetId": "asrt.ref.520032.related_3",
+    "sourceItemId": "src.ref.nukapedia_520032",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.520222.profile",
     "targetId": "asrt.ref.520222.profile",
     "sourceItemId": "src.ref.nukapedia_520222",
@@ -57573,28 +57876,6 @@
     "sourceItemId": "src.ref.nukapedia_523450",
     "role": "supports",
     "directness": "explicit"
-  },
-  {
-    "id": "ev.ref.526660.profile",
-    "targetId": "asrt.ref.526660.profile",
-    "sourceItemId": "src.ref.nukapedia_526660",
-    "role": "supports",
-    "directness": "explicit",
-    "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.526660.related_1",
-    "targetId": "asrt.ref.526660.related_1",
-    "sourceItemId": "src.ref.nukapedia_526660",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.526660.related_2",
-    "targetId": "asrt.ref.526660.related_2",
-    "sourceItemId": "src.ref.nukapedia_526660",
-    "role": "source_of_inference",
-    "directness": "implicit"
   },
   {
     "id": "ev.ref.528527.profile",
@@ -67516,8 +67797,22 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
+    "id": "ev.ref.27870.related_1",
+    "targetId": "asrt.ref.27870.related_1",
+    "sourceItemId": "src.ref.nukapedia_27870",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.27870.related_2",
     "targetId": "asrt.ref.27870.related_2",
+    "sourceItemId": "src.ref.nukapedia_27870",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
+    "id": "ev.ref.27870.related_3",
+    "targetId": "asrt.ref.27870.related_3",
     "sourceItemId": "src.ref.nukapedia_27870",
     "role": "source_of_inference",
     "directness": "implicit"
@@ -69279,35 +69574,6 @@
     "directness": "implicit"
   },
   {
-    "id": "ev.ref.118142.profile",
-    "targetId": "asrt.ref.118142.profile",
-    "sourceItemId": "src.ref.nukapedia_118142",
-    "role": "supports",
-    "directness": "explicit",
-    "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.118142.related_1",
-    "targetId": "asrt.ref.118142.related_1",
-    "sourceItemId": "src.ref.nukapedia_118142",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.118142.related_2",
-    "targetId": "asrt.ref.118142.related_2",
-    "sourceItemId": "src.ref.nukapedia_118142",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.118142.related_3",
-    "targetId": "asrt.ref.118142.related_3",
-    "sourceItemId": "src.ref.nukapedia_118142",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
     "id": "ev.ref.118728.profile",
     "targetId": "asrt.ref.118728.profile",
     "sourceItemId": "src.ref.nukapedia_118728",
@@ -69679,13 +69945,6 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.136750.related_1",
-    "targetId": "asrt.ref.136750.related_1",
-    "sourceItemId": "src.ref.nukapedia_136750",
-    "role": "source_of_inference",
-    "directness": "implicit"
   },
   {
     "id": "ev.ref.136750.related_2",
@@ -70160,42 +70419,6 @@
     "id": "ev.ref.304567.related_2",
     "targetId": "asrt.ref.304567.related_2",
     "sourceItemId": "src.ref.nukapedia_304567",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.306413.profile",
-    "targetId": "asrt.ref.306413.profile",
-    "sourceItemId": "src.ref.nukapedia_306413",
-    "role": "supports",
-    "directness": "explicit",
-    "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.306413.related_1",
-    "targetId": "asrt.ref.306413.related_1",
-    "sourceItemId": "src.ref.nukapedia_306413",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.306413.related_2",
-    "targetId": "asrt.ref.306413.related_2",
-    "sourceItemId": "src.ref.nukapedia_306413",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.306413.related_3",
-    "targetId": "asrt.ref.306413.related_3",
-    "sourceItemId": "src.ref.nukapedia_306413",
-    "role": "source_of_inference",
-    "directness": "implicit"
-  },
-  {
-    "id": "ev.ref.306413.related_4",
-    "targetId": "asrt.ref.306413.related_4",
-    "sourceItemId": "src.ref.nukapedia_306413",
     "role": "source_of_inference",
     "directness": "implicit"
   },
@@ -73287,6 +73510,13 @@
     "note": "Article-level provenance for the transformed profile."
   },
   {
+    "id": "ev.ref.529866.related_1",
+    "targetId": "asrt.ref.529866.related_1",
+    "sourceItemId": "src.ref.nukapedia_529866",
+    "role": "source_of_inference",
+    "directness": "implicit"
+  },
+  {
     "id": "ev.ref.529866.related_2",
     "targetId": "asrt.ref.529866.related_2",
     "sourceItemId": "src.ref.nukapedia_529866",
@@ -74206,13 +74436,6 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.573416.related_1",
-    "targetId": "asrt.ref.573416.related_1",
-    "sourceItemId": "src.ref.nukapedia_573416",
-    "role": "source_of_inference",
-    "directness": "implicit"
   },
   {
     "id": "ev.ref.573416.related_2",
@@ -78900,13 +79123,6 @@
     "role": "supports",
     "directness": "explicit",
     "note": "Article-level provenance for the transformed profile."
-  },
-  {
-    "id": "ev.ref.790328.related_1",
-    "targetId": "asrt.ref.790328.related_1",
-    "sourceItemId": "src.ref.nukapedia_790328",
-    "role": "source_of_inference",
-    "directness": "implicit"
   },
   {
     "id": "ev.ref.790328.related_2",

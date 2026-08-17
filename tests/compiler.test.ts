@@ -64,6 +64,12 @@ describe("SQLite compiler", () => {
     expect(JSON.parse(relationships.stdout)[0].count).toBeGreaterThan(9000);
     expect(JSON.parse(sources.stdout)[0].count).toBeGreaterThan(2000);
   });
+  it("compiles stable provider mappings separately from local article prose", () => {
+    const mappings = query("SELECT count(*) count FROM reference_mappings WHERE provider_id='nukapedia';");
+    expect(JSON.parse(mappings.stdout)[0].count).toBeGreaterThan(2000);
+    const maxson = query("SELECT page_id,canonical_title FROM reference_mappings WHERE entity_id='ent.roger_maxson';");
+    expect(JSON.parse(maxson.stdout)[0].canonical_title).toMatch(/Maxson/i);
+  });
   it("keeps exact canonical titles independently queryable from broader FTS matches", () => {
     const exact = query("SELECT id FROM entities WHERE lower(display_name)=lower('Brotherhood of Steel');");
     const broad = query("SELECT count(*) count FROM entity_fts WHERE entity_fts MATCH '\"Brotherhood of Steel\"';");

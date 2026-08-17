@@ -182,13 +182,6 @@
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
   {
-    "id": "app.ref.219645.fallout_bos",
-    "entityId": "ent.brotherhood",
-    "workId": "work.fallout_bos",
-    "kind": "reference_indexed",
-    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
-  },
-  {
     "id": "app.ref.471686.fallout_shelter",
     "entityId": "ent.commonwealth_minutemen",
     "workId": "work.fallout_shelter",
@@ -1526,6 +1519,13 @@
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
   {
+    "id": "app.ref.639042.fallout_bos",
+    "entityId": "ent.ref.nukapedia_639042",
+    "workId": "work.fallout_bos",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
     "id": "app.ref.7820.fallout_2",
     "entityId": "ent.ref.nukapedia_7820",
     "workId": "work.fallout_2",
@@ -2542,8 +2542,15 @@
   },
   {
     "id": "app.ref.529039.fallout_4",
-    "entityId": "ent.acadia",
+    "entityId": "ent.ref.nukapedia_529039",
     "workId": "work.fallout_4",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
+    "id": "app.ref.529039.far_harbor",
+    "entityId": "ent.ref.nukapedia_529039",
+    "workId": "work.far_harbor",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
@@ -3410,7 +3417,7 @@
   },
   {
     "id": "app.ref.4812.fallout_bos",
-    "entityId": "ent.ref.nukapedia_4812",
+    "entityId": "ent.power_armor",
     "workId": "work.fallout_bos",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
@@ -3718,15 +3725,22 @@
   },
   {
     "id": "app.ref.532879.fallout_4",
-    "entityId": "ent.nuka_world",
+    "entityId": "ent.ref.nukapedia_532879",
     "workId": "work.fallout_4",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
   {
     "id": "app.ref.532879.fallout_76",
-    "entityId": "ent.nuka_world",
+    "entityId": "ent.ref.nukapedia_532879",
     "workId": "work.fallout_76",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
+    "id": "app.ref.532879.nuka_world",
+    "entityId": "ent.ref.nukapedia_532879",
+    "workId": "work.nuka_world",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
@@ -6077,8 +6091,15 @@
   },
   {
     "id": "app.ref.519775.fallout_4",
-    "entityId": "ent.far_harbor_settlement",
+    "entityId": "ent.ref.nukapedia_519775",
     "workId": "work.fallout_4",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
+    "id": "app.ref.519775.far_harbor",
+    "entityId": "ent.ref.nukapedia_519775",
+    "workId": "work.far_harbor",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
@@ -6784,8 +6805,15 @@
   },
   {
     "id": "app.ref.235003.new_vegas",
-    "entityId": "ent.think_tank",
+    "entityId": "ent.ref.nukapedia_235003",
     "workId": "work.new_vegas",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
+    "id": "app.ref.235003.old_world_blues",
+    "entityId": "ent.ref.nukapedia_235003",
+    "workId": "work.old_world_blues",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
@@ -6870,6 +6898,13 @@
     "id": "app.ref.236261.old_world_blues",
     "entityId": "ent.ref.nukapedia_236261",
     "workId": "work.old_world_blues",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
+    "id": "app.ref.240946.new_vegas",
+    "entityId": "ent.ref.nukapedia_240946",
+    "workId": "work.new_vegas",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
@@ -10906,6 +10941,13 @@
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
   {
+    "id": "app.ref.24103.fallout",
+    "entityId": "ent.ref.nukapedia_24103",
+    "workId": "work.fallout",
+    "kind": "reference_indexed",
+    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
+  },
+  {
     "id": "app.ref.31111.fallout_2",
     "entityId": "ent.ref.nukapedia_31111",
     "workId": "work.fallout_2",
@@ -12952,13 +12994,6 @@
   {
     "id": "app.ref.523450.fallout_4",
     "entityId": "ent.ref.nukapedia_523450",
-    "workId": "work.fallout_4",
-    "kind": "reference_indexed",
-    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
-  },
-  {
-    "id": "app.ref.526660.fallout_4",
-    "entityId": "ent.ref.nukapedia_526660",
     "workId": "work.fallout_4",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
@@ -16276,7 +16311,7 @@
   },
   {
     "id": "app.ref.27870.fallout_3",
-    "entityId": "ent.point_lookout_region",
+    "entityId": "ent.ref.nukapedia_27870",
     "workId": "work.fallout_3",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
@@ -16821,13 +16856,6 @@
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },
   {
-    "id": "app.ref.118142.new_vegas",
-    "entityId": "ent.ref.nukapedia_118142",
-    "workId": "work.new_vegas",
-    "kind": "reference_indexed",
-    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
-  },
-  {
     "id": "app.ref.118728.new_vegas",
     "entityId": "ent.ref.nukapedia_118728",
     "workId": "work.new_vegas",
@@ -17090,13 +17118,6 @@
     "id": "app.ref.304567.fallout_2",
     "entityId": "ent.ref.nukapedia_304567",
     "workId": "work.fallout_2",
-    "kind": "reference_indexed",
-    "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
-  },
-  {
-    "id": "app.ref.306413.new_vegas",
-    "entityId": "ent.ref.nukapedia_306413",
-    "workId": "work.new_vegas",
     "kind": "reference_indexed",
     "notes": "Work association inherited from the revision-attributed reference corpus; consult the source page for appearance detail."
   },

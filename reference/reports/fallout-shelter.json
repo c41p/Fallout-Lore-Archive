@@ -3,46 +3,46 @@
   "slug": "fallout-shelter",
   "title": "Fallout Shelter",
   "referenceSubjects": 627,
-  "matchedArchiveEntities": 35,
-  "productionQuality": 1,
-  "substantialRecords": 24,
-  "supportingRecords": 9,
-  "shallowRecords": 1,
-  "missingSubjects": 592,
+  "matchedArchiveEntities": 154,
+  "hybridResearched": 36,
+  "providerMapped": 116,
+  "structuredRecords": 2,
+  "candidateMatches": 0,
+  "missingSubjects": 473,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 3,
   "majorLore": 36,
   "supportingLore": 91,
   "minorLore": 499,
   "deepResearchCandidates": 36,
-  "tier1Gaps": 24,
-  "tier2Gaps": 79,
-  "weightedLoreCoverage": 19.4,
+  "tier1Gaps": 6,
+  "tier2Gaps": 4,
+  "weightedLoreCoverage": 74.3,
   "byType": {
     "organisation": {
       "total": 77,
-      "matched": 11,
-      "missing": 66
+      "matched": 69,
+      "missing": 8
     },
     "creature": {
       "total": 18,
-      "matched": 0,
-      "missing": 18
+      "matched": 2,
+      "missing": 16
     },
     "place": {
       "total": 33,
-      "matched": 3,
-      "missing": 30
+      "matched": 26,
+      "missing": 7
     },
     "person": {
       "total": 75,
-      "matched": 21,
-      "missing": 54
+      "matched": 46,
+      "missing": 29
     },
     "event": {
       "total": 367,
-      "matched": 0,
-      "missing": 367
+      "matched": 10,
+      "missing": 357
     },
     "item": {
       "total": 26,
@@ -51,8 +51,8 @@
     },
     "other": {
       "total": 29,
-      "matched": 0,
-      "missing": 29
+      "matched": 1,
+      "missing": 28
     },
     "source_record": {
       "total": 2,

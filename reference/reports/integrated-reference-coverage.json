@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-08-17T06:31:28.843Z",
+  "entities": 2358,
+  "providerMapped": 2121,
+  "referenceMode": 1976,
+  "hybridMode": 145,
+  "relationshipEnriched": 2332,
+  "timelineEnriched": 159,
+  "spatiallyEnriched": 18,
+  "cachedAtRuntime": 0
+}

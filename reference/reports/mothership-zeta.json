@@ -3,12 +3,12 @@
   "slug": "mothership-zeta",
   "title": "Mothership Zeta",
   "referenceSubjects": 20,
-  "matchedArchiveEntities": 0,
-  "productionQuality": 0,
-  "substantialRecords": 0,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 20,
+  "matchedArchiveEntities": 19,
+  "hybridResearched": 0,
+  "providerMapped": 19,
+  "structuredRecords": 0,
+  "candidateMatches": 0,
+  "missingSubjects": 1,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 0,
   "majorLore": 0,
@@ -16,23 +16,23 @@
   "minorLore": 6,
   "deepResearchCandidates": 0,
   "tier1Gaps": 0,
-  "tier2Gaps": 14,
-  "weightedLoreCoverage": 0,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 84.7,
   "byType": {
     "place": {
       "total": 13,
-      "matched": 0,
-      "missing": 13
+      "matched": 13,
+      "missing": 0
     },
     "person": {
       "total": 1,
-      "matched": 0,
-      "missing": 1
+      "matched": 1,
+      "missing": 0
     },
     "event": {
       "total": 5,
-      "matched": 0,
-      "missing": 5
+      "matched": 5,
+      "missing": 0
     },
     "technology": {
       "total": 1,

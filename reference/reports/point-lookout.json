@@ -3,12 +3,12 @@
   "slug": "point-lookout",
   "title": "Point Lookout",
   "referenceSubjects": 31,
-  "matchedArchiveEntities": 0,
-  "productionQuality": 0,
-  "substantialRecords": 0,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 31,
+  "matchedArchiveEntities": 26,
+  "hybridResearched": 0,
+  "providerMapped": 26,
+  "structuredRecords": 0,
+  "candidateMatches": 0,
+  "missingSubjects": 5,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 0,
   "majorLore": 0,
@@ -16,28 +16,28 @@
   "minorLore": 7,
   "deepResearchCandidates": 0,
   "tier1Gaps": 0,
-  "tier2Gaps": 24,
-  "weightedLoreCoverage": 0,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 83.9,
   "byType": {
     "creature": {
       "total": 2,
-      "matched": 0,
-      "missing": 2
+      "matched": 1,
+      "missing": 1
     },
     "person": {
       "total": 5,
-      "matched": 0,
-      "missing": 5
+      "matched": 1,
+      "missing": 4
     },
     "place": {
       "total": 21,
-      "matched": 0,
-      "missing": 21
+      "matched": 21,
+      "missing": 0
     },
     "organisation": {
       "total": 3,
-      "matched": 0,
-      "missing": 3
+      "matched": 3,
+      "missing": 0
     }
   }
 }

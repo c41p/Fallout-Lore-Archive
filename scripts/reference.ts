@@ -63,7 +63,7 @@ async function main() {
     return;
   }
   const report = buildCoverageReport(corpus, worksManifest.works, dataset, corpus.generatedAt);
-  writeCoverageOutputs(root, report, corpus);
+  writeCoverageOutputs(root, report, corpus, dataset);
   const selectedReport = scope && scope !== "all" ? report.works.find((work) => work.slug === scope || work.workId === scope) : undefined;
   if (selectedReport) console.log(JSON.stringify(selectedReport, null, 2));
   else console.log(`Coverage: ${report.totals.referenceSubjects} subject-work associations, ${report.totals.matchedArchiveEntities} matched, ${report.totals.tier1Gaps} Tier 1 gaps, ${report.totals.weightedLoreCoverage}% weighted.`);

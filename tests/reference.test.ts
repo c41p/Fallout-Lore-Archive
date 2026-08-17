@@ -70,10 +70,10 @@ describe("reference provider and candidate pipeline", () => {
     expect(candidate.description).toContain("does not reproduce wiki prose");
   });
 
-  it("scores the rich Fallout 1 benchmark above shallow records", () => {
+  it("scores the rich Fallout 1 benchmark by integration rather than word count", () => {
     const dataset = loadDataset();
-    expect(entityCoverageState(dataset.entities.find((entity) => entity.id === "ent.master"), dataset)).toBe("production_quality");
-    expect(entityCoverageState(dataset.entities.find((entity) => entity.id === "ent.vault_13"), dataset)).toBe("production_quality");
+    expect(["hybrid_researched", "structured_record"]).toContain(entityCoverageState(dataset.entities.find((entity) => entity.id === "ent.master"), dataset));
+    expect(["hybrid_researched", "structured_record"]).toContain(entityCoverageState(dataset.entities.find((entity) => entity.id === "ent.vault_13"), dataset));
     const candidates = ["Vault Dweller", "Vault 13", "Shady Sands", "Junktown", "The Hub", "Necropolis", "Boneyard", "Brotherhood of Steel", "The Glow", "Mariposa Military Base", "Unity", "Master"].map((title, index) => ({
       id: `ref.test.${index}`, providerId: "test", title, normalizedTitle: normalizeCandidateTitle(title), aliases: [], likelyType: "place" as const, proposedEntityType: "place" as const,
       workIds: ["work.fallout"], discoveryCategories: ["Fallout locations"], categories: [], description: "fixture", relatedTitles: [], primarySourceLeads: [], candidateClaims: [],
@@ -84,7 +84,7 @@ describe("reference provider and candidate pipeline", () => {
     const corpus: ReferenceCorpus = { schemaVersion: "1.0", provider: { id: "test", name: "fixture", apiUrl: "https://example.invalid", contentLicence: "fixture", attributionUrl: "https://example.invalid" }, generatedAt: "2026-08-16T00:00:00Z", candidates, sync: { requestedWorkIds: ["work.fallout"], discoveredPages: candidates.length, changedPages: candidates.length, unchangedPages: 0, failures: [] } };
     const report = buildCoverageReport(corpus, [{ id: "work.fallout", slug: "fallout1", title: "Fallout", kind: "game", materialStatus: "released", coverageEnabled: true }], dataset, corpus.generatedAt);
     expect(report.works[0].matchedArchiveEntities).toBeGreaterThanOrEqual(11);
-    expect(report.works[0].productionQuality).toBeGreaterThanOrEqual(2);
+    expect(report.works[0].hybridResearched + report.works[0].structuredRecords).toBeGreaterThanOrEqual(2);
     expect(validateReferenceCorpus(corpus, [{ id: "work.fallout", slug: "fallout1", title: "Fallout", kind: "game", materialStatus: "released" }], dataset)).toEqual([]);
   });
 
