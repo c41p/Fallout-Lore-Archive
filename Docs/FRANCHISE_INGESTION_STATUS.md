@@ -16,7 +16,7 @@ This document summarizes the franchise-wide canonical baseline. The authoritativ
 | Fallout 76 | 515 | Appalachian eras, factions, updates and supporting subjects |
 | Fallout Shelter | 148 | Explicitly gameplay-forward supplementary scope |
 
-The canonical validator reports 2,354 entities. The depth audit classifies 312 as Tier 1, 736 as Tier 2 and 1,306 as Tier 3; 1,103 records have multiple article sections, 828 exceed 180 words, and no Tier 1 or Tier 2 record is shallow. The graph contains 9,523 relationship edges and the timeline contains 159 dated events.
+The canonical validator reports 2,358 entities and 2,121 stable provider mappings. The graph contains more than 9,500 relationship edges and the timeline contains 159 dated records. Purposeful local synthesis remains concentrated in the primary-research clusters; the broader franchise receives integrated provider reading instead of generated depth-padding sections.
 
 ## Evidence tiers used in this pass
 
@@ -46,7 +46,7 @@ pnpm check
 cargo test --manifest-path src-tauri/Cargo.toml
 ```
 
-Run the cached reference rebuild after canonical promotion so page candidates are rematched against the new entity names. Coverage percentages measure candidate matching and article depth; they do not certify primary-source completeness.
+Run the cached reference rebuild after canonical promotion so page candidates are rematched against new entity names. Coverage percentages measure identity and provider/graph integration; they do not certify primary-source completeness.
 
 ## Research gaps
 

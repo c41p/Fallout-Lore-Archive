@@ -8,8 +8,8 @@ The reference pipeline makes franchise-scale discovery and controlled baseline p
 external MediaWiki data
         ↓
 reference candidates (secondary, revision attributed)
-        ↓ deterministic selection, identity reconciliation and transformation
-canonical Entity → Assertion → Evidence records
+        ↓ deterministic selection and identity reconciliation
+canonical Entity + ReferenceMapping + structured extraction
         ↓ selective primary-source deepening for sensitive claims
 ```
 
@@ -26,7 +26,7 @@ Files under `reference/` are not canonical lore. A reference page is a web index
 - `reference/queues/deep-research.json`: important or complex subjects requiring primary research.
 - `reference/cache/`: ignored raw API and stable per-page article-profile caches; never packaged.
 - `reference/manifests/franchise-completion.json`: disposition for every discovered candidate.
-- `reference/reports/content-depth.json` and `.md`: canonical depth and graph audit.
+- `reference/reports/integrated-reference-coverage.json` and `.md`: mapping, graph, timeline and map coverage.
 
 ## Provider design
 
@@ -45,7 +45,7 @@ The MediaWiki implementation:
 - on Windows, uses `curl.exe` and the Windows certificate store because some Node installations cannot see enterprise/local root certificates;
 - passes URL arguments without a shell and parses responses only as JSON.
 
-External HTML, templates and scripts are never executed. Media are not downloaded. The expansion fetches revision-specific wikitext only for selected Tier 1/2 subjects, extracts bounded lead/profile/section context, and saves transformed canonical prose plus openable source metadata. Raw responses and per-page caches remain ignored.
+External templates and scripts are never executed. Media are not downloaded. The acquisition pass fetches revision-specific wikitext only for selected Tier 1/2 subjects and extracts bounded lead/profile context for conservative structured assertions. It no longer generates long-form canonical article sections. Runtime article HTML crosses a separate sanitizer boundary described in `INTEGRATED_REFERENCE_ARCHITECTURE.md`.
 
 ## Commands
 
@@ -111,16 +111,16 @@ Ambiguous candidates remain unresolved. Redirects are recorded as aliases but do
 
 ## Coverage methodology
 
-Coverage states are derived from existing canonical content:
+Coverage states are derived from integration rather than prose volume:
 
-- `production_quality`: major article, substantial sectioned prose and multiple source-backed assertions;
-- `substantial_record`: meaningful sectioned prose and evidence;
-- `supporting_record`: supported graph record without a full major article;
-- `shallow_record`: existing identity with limited depth;
+- `hybrid_researched`: provider mapping plus purposeful local synthesis;
+- `provider_mapped`: stable provider/page mapping and structured Archive identity;
+- `structured_record`: source-backed local graph or article record without a provider mapping;
+- `candidate_match`: identity match requiring further integration;
 - `needs_review`: ambiguous match;
 - `absent`: no proposed Archive identity.
 
-The weighted estimate excludes gameplay-only and source/reference-only pages. Tier 1 candidates receive full importance weight, Tier 2 receives 35%, and Tier 3 receives 3%; covered records contribute 100%, 75%, 50% or 25% according to quality state. This deliberately prevents generic NPCs, minor items and other long-tail pages from dominating the estimate. It remains an estimate, not a completeness guarantee.
+The weighted estimate excludes gameplay-only and source/reference-only pages. Tier 1 candidates receive full importance weight, Tier 2 receives 35%, and Tier 3 receives 3%; integration states contribute 100%, 85%, 65% or 25%. This deliberately prevents generic NPCs, minor items and other long-tail pages from dominating the estimate. It remains an estimate, not a completeness guarantee.
 
 Work totals count subject-work associations, while `reference-corpus.json` deduplicates candidates by provider page ID. Add-on reports can legitimately be zero when the parent category traversal does not expose reliable add-on categories; the report preserves that limitation instead of fabricating associations.
 
@@ -135,7 +135,7 @@ For a future candidate selected from the queue:
 5. express substantive propositions as controlled `Assertion` records;
 6. create precise `SourceWork`, `SourceItem` and `EvidenceLink` records;
 7. retain uncertainty, source statements, material scope and disputes;
-8. transform and reorganise source information into concise Archive sections; preserve CC BY-SA attribution when expression is adapted;
+8. select `reference`, `local` or `hybrid` article mode; write local synthesis only when the Archive has a concrete editorial purpose;
 9. validate and run the full quality/build/test gate.
 
 Tier 1 contains principal gaps; Tier 2 important supporting lore; Tier 3 the long tail; Tier 4 generally mechanical/reference-only exclusions. `deep-research.json` concentrates expensive research on high-importance, cross-game, scientific, cut/unused or otherwise sensitive subjects.
