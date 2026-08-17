@@ -3,46 +3,46 @@
   "slug": "honest-hearts",
   "title": "Honest Hearts",
   "referenceSubjects": 62,
-  "matchedArchiveEntities": 4,
-  "productionQuality": 0,
-  "substantialRecords": 4,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 58,
+  "matchedArchiveEntities": 55,
+  "hybridResearched": 5,
+  "providerMapped": 49,
+  "structuredRecords": 1,
+  "candidateMatches": 0,
+  "missingSubjects": 7,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 2,
   "majorLore": 2,
   "supportingLore": 40,
   "minorLore": 18,
   "deepResearchCandidates": 2,
-  "tier1Gaps": 1,
-  "tier2Gaps": 38,
-  "weightedLoreCoverage": 11.5,
+  "tier1Gaps": 0,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 87.4,
   "byType": {
     "place": {
       "total": 35,
-      "matched": 1,
-      "missing": 34
+      "matched": 35,
+      "missing": 0
     },
     "organisation": {
       "total": 2,
-      "matched": 0,
-      "missing": 2
+      "matched": 2,
+      "missing": 0
     },
     "person": {
       "total": 6,
-      "matched": 2,
-      "missing": 4
+      "matched": 4,
+      "missing": 2
     },
     "creature": {
       "total": 6,
-      "matched": 1,
-      "missing": 5
+      "matched": 3,
+      "missing": 3
     },
     "event": {
       "total": 11,
-      "matched": 0,
-      "missing": 11
+      "matched": 11,
+      "missing": 0
     },
     "source_record": {
       "total": 2,

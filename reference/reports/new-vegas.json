@@ -3,51 +3,51 @@
   "slug": "new-vegas",
   "title": "Fallout: New Vegas",
   "referenceSubjects": 3000,
-  "matchedArchiveEntities": 73,
-  "productionQuality": 4,
-  "substantialRecords": 32,
-  "supportingRecords": 33,
-  "shallowRecords": 4,
-  "missingSubjects": 2927,
+  "matchedArchiveEntities": 524,
+  "hybridResearched": 45,
+  "providerMapped": 455,
+  "structuredRecords": 24,
+  "candidateMatches": 0,
+  "missingSubjects": 2476,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 823,
   "majorLore": 56,
   "supportingLore": 229,
   "minorLore": 1895,
   "deepResearchCandidates": 58,
-  "tier1Gaps": 37,
-  "tier2Gaps": 208,
-  "weightedLoreCoverage": 14.1,
+  "tier1Gaps": 5,
+  "tier2Gaps": 4,
+  "weightedLoreCoverage": 73.4,
   "byType": {
     "organisation": {
       "total": 117,
-      "matched": 11,
-      "missing": 106
+      "matched": 111,
+      "missing": 6
     },
     "person": {
       "total": 945,
-      "matched": 37,
-      "missing": 908
+      "matched": 73,
+      "missing": 872
     },
     "place": {
       "total": 640,
-      "matched": 18,
-      "missing": 622
+      "matched": 270,
+      "missing": 370
     },
     "creature": {
       "total": 55,
-      "matched": 3,
-      "missing": 52
+      "matched": 15,
+      "missing": 40
     },
     "technology": {
       "total": 31,
-      "matched": 2,
-      "missing": 29
+      "matched": 4,
+      "missing": 27
     },
     "event": {
       "total": 394,
-      "matched": 2,
-      "missing": 392
+      "matched": 51,
+      "missing": 343
     },
     "source_record": {
       "total": 818,

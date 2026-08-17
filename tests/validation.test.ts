@@ -20,10 +20,13 @@ describe("canonical lore validation", () => {
     expect(validateDataset(dataset).errors.join("\n")).toContain("missing related entity ent.missing");
   });
   it("rejects malformed source URLs", () => { const dataset = copy(); dataset.sourceItems[0].url = "not a locator"; expect(validateDataset(dataset).errors.join("\n")).toContain("malformed source URL"); });
-  it("flags major records without substantive sectioning", () => {
-    const dataset = copy(); const maxson = dataset.entities.find((entity) => entity.id === "ent.roger_maxson")!; maxson.articleSections = maxson.articleSections!.slice(0, 1);
-    expect(analyseContentQuality(dataset).errors.join("\n")).toContain("major entity needs at least three article sections");
+  it("reports provider integration coverage without enforcing prose word counts", () => {
+    const report = analyseContentQuality(copy());
+    expect(report.errors).toEqual([]);
+    expect(report.metrics.providerMappedEntities).toBeGreaterThan(2000);
+    expect(report.metrics.hybridModeEntities).toBeGreaterThan(100);
   });
+  it("rejects duplicate or dangling provider mappings", () => { const dataset = copy(); const duplicate = structuredClone(dataset.referenceMappings[0]); duplicate.id = "refmap.test.duplicate"; duplicate.entityId = "ent.missing"; dataset.referenceMappings.push(duplicate); const errors = validateDataset(dataset).errors.join("\n"); expect(errors).toContain("missing entity ent.missing"); expect(errors).toContain("duplicate provider page"); });
   it("reports cross-entity alias collisions for review", () => { const dataset = copy(); dataset.names.push({ id:"name.test.collision", entityId:"ent.tandi", name:"FEV", kind:"nickname" }); expect(validateDataset(dataset).warnings.join("\n")).toContain("alias collision 'fev'"); });
   it("rejects cycles in relative chronology", () => {
     const dataset = copy();

@@ -2,16 +2,18 @@
 
 Fallout Lore Archive v0.1 is a Windows-first, local desktop prototype for exploring interconnected Fallout history. One evidence-aware dataset drives search, category browsing, entity records, chronology, geography, reverse relationships, appearances, sources, uncertainty and disputes.
 
-The archive now combines deep primary-source clusters with a revision-attributed community-reference baseline. Community material is transformed into canonical profiles with explicit page/revision provenance and conservative relationship semantics; it is never presented as an official canon authority, and stronger released-game evidence remains attached at claim level.
+The archive now combines deep local primary-source research with integrated, revision-attributed reference articles. The local application owns stable lore identities, chronology, relationships, maps, Lore Paths and evidence-bearing assertions; Nukapedia supplies long-form reference reading through a provider boundary and is never presented as an official canon authority.
 
-The current corpus contains 2,354 records, 12,097 assertions, 12,081 evidence links, 9,523 relationship edges and 159 dated events. It spans the released games and major add-ons while retaining production-depth histories for the Roger Maxson/Mariposa/Brotherhood and Fallout (1997) clusters. The generated depth audit reports no shallow Tier 1 or Tier 2 records.
+The current corpus contains 2,358 records, 12,128 assertions, 12,112 evidence links, more than 9,500 relationship edges, 159 dated records and 2,121 stable provider mappings. It spans the released games and major add-ons while retaining production-depth local research for the Roger Maxson/Mariposa/Brotherhood and Fallout (1997) clusters.
 
 ## What works
 
 - Local SQLite/FTS5 search over canonical names, aliases, summaries, descriptions, curated article sections and tags, with article-match snippets weighted below names and aliases.
 - Browse filters for people, organisations, places, events, technology and other record types, with optional source-work scope.
 - Scalable Games navigation with a Fallout work page, featured records, typed index, source browser, and links into work-filtered browse, timeline and map views.
-- Entity pages with long-form sectioned articles, compact contents navigation, related-record links, derived reverse relationships, temporal state, source context and appearances.
+- Entity pages with `reference`, `local` and `hybrid` article modes, sanitized provider articles, compact contents navigation, related-record links, derived reverse relationships, temporal state, source context and appearances.
+- Local-first search plus clearly separated remote provider search, including provider-only routes for pages without an Archive identity.
+- Revision-aware desktop article caching with 24-hour freshness checks and stale-cache fallback when the provider is unavailable.
 - Precision-aware timeline with exact, year-only and approximate dates.
 - Timeline filtering by record type, connected-record type and related subject text.
 - Six curated Lore Paths and type-filtered relationship exploration for dense records.
@@ -64,7 +66,7 @@ Human-reviewable canonical data lives under `lore/`:
 - `spatial/`: place representations separate from place identity.
 - `appearances/` and `disputes/`: work appearances and preserved conflicts.
 - `fallout1/`: sharded Fallout corpus additions, entity enrichments, condition sets and outcome groups merged by the standard loader.
-- `franchise/`: revision-attributed cross-franchise profiles, assertions, sources, evidence, appearances and ordered enrichments.
+- `franchise/`: revision-attributed cross-franchise identities, provider mappings, assertions, sources, evidence, appearances and ordered enrichments.
 - `vocabularies/`: controlled predicates and their allowed types.
 
 Do not edit `generated/fallout-lore.db` or `public/data/runtime.json` by hand. Both are derived outputs.
@@ -91,7 +93,7 @@ Run the editorial quality audit separately when reviewing ingestion work:
 pnpm lore:quality
 ```
 
-It reports unsourced assertions, shallow major records, graph orphans, duplicate propositions, source-poor entities, undated events and spatial records missing precision metadata. Warnings identify editorial backlog; structural quality errors fail the command.
+It reports provider-mapping coverage, unsourced assertions, graph orphans, duplicate propositions, source-poor entities, undated events and spatial records missing precision metadata. Warnings identify editorial backlog; structural quality errors fail the command. Word counts and generated filler sections are not acceptance criteria.
 
 ## Development and tests
 
@@ -118,7 +120,7 @@ The configured target is an NSIS installer. Output is written below `src-tauri/t
 ## Architecture
 
 ```text
-canonical JSON lore
+canonical JSON lore + stable provider mappings
         │
         ├── JSON Schema + semantic validation
         │
@@ -128,7 +130,7 @@ generated SQLite + FTS5
         ├── indexed entity, assertion, timeline, map and evidence queries
         │
         ▼
-Tauri commands → React views
+Tauri queries + cached reference provider → sanitized React views
 ```
 
 An entity is a stable identity. A relationship is an assertion whose object references another entity. Reverse navigation is derived from the predicate registry rather than stored as a duplicate fact. `validTime` describes when a state held; a temporal assertion object records the date being asserted. A condition set qualifies an assertion that only applies on one route or failure state, while an outcome group presents related alternatives. Spatial representations are independent of place identity and carry their own precision, confidence and basis.
@@ -142,7 +144,7 @@ An entity is a stable identity. A relationship is an assertion whose object refe
 5. Preserve approximate dates and places without manufacturing precision.
 6. Run `pnpm check` and review generated changes before committing.
 
-AI output is not evidence. Do not include extensive copyrighted dialogue, terminals, scripts, game art or wiki text. Use original neutral summaries and precise metadata/locators.
+AI output is not evidence. Do not commit extensive copyrighted dialogue, terminals, scripts, game art or copied wiki bodies. Local synthesis must be original neutral prose with precise metadata/locators. Runtime provider text retains its source attribution and licence notice.
 
 See [Docs/CONTENT_STANDARD.md](Docs/CONTENT_STANDARD.md) for the depth, sourcing and uncertainty standard established by the first production-quality cluster.
 
@@ -161,9 +163,9 @@ pnpm lore:expand:offline
 
 Use `--offline` to require cache-only operation, `--refresh` to bypass the 24-hour cache TTL, or `--rebuild` to rerun extraction/classification without requiring changed wiki revisions. Normal tests use local fixtures and do not contact external services.
 
-`lore:expand` acquires Tier 1/2 revision text, writes a stable per-page ignored cache, reconciles identities, and generates canonical JSON plus a completion manifest and depth audit. `lore:expand:offline` then reproduces the transformation without network access. Gameplay/reference-only, unreleased and low-value long-tail pages remain explicitly excluded.
+`lore:expand` acquires bounded Tier 1/2 metadata used for structured extraction, writes a stable per-page ignored acquisition cache, reconciles identities, and generates canonical JSON, stable provider mappings, a completion manifest and an integration-coverage report. `lore:expand:offline` reproduces that transformation without network access. It does not generate article prose or word-count closure sections.
 
-See [Docs/REFERENCE_PIPELINE.md](Docs/REFERENCE_PIPELINE.md) for provider design, cache/security behaviour, scoring, reports, queues and the reviewed promotion workflow.
+See [Docs/INTEGRATED_REFERENCE_ARCHITECTURE.md](Docs/INTEGRATED_REFERENCE_ARCHITECTURE.md) for the runtime article architecture and migration decision, and [Docs/REFERENCE_PIPELINE.md](Docs/REFERENCE_PIPELINE.md) for discovery and structured extraction.
 
 ## Licensing and intellectual property
 

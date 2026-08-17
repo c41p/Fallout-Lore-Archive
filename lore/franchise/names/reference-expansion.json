@@ -582,6 +582,12 @@
     "kind": "reference_redirect"
   },
   {
+    "id": "name.ref.639042.1",
+    "entityId": "ent.ref.nukapedia_639042",
+    "name": "Wasteland stranger",
+    "kind": "reference_redirect"
+  },
+  {
     "id": "name.ref.16065.1",
     "entityId": "ent.ref.nukapedia_16065",
     "name": "Church (character)",
@@ -1119,24 +1125,6 @@
     "id": "name.ref.671568.1",
     "entityId": "ent.ref.nukapedia_671568",
     "name": "General's Steak House Protectron",
-    "kind": "reference_redirect"
-  },
-  {
-    "id": "name.ref.4812.1",
-    "entityId": "ent.ref.nukapedia_4812",
-    "name": "Power boots",
-    "kind": "reference_redirect"
-  },
-  {
-    "id": "name.ref.4812.2",
-    "entityId": "ent.ref.nukapedia_4812",
-    "name": "Power gauntlets",
-    "kind": "reference_redirect"
-  },
-  {
-    "id": "name.ref.4812.3",
-    "entityId": "ent.ref.nukapedia_4812",
-    "name": "Vault-Tec power armor",
     "kind": "reference_redirect"
   },
   {
@@ -1818,6 +1806,12 @@
     "kind": "reference_redirect"
   },
   {
+    "id": "name.ref.519775.1",
+    "entityId": "ent.ref.nukapedia_519775",
+    "name": "Bar Harbor",
+    "kind": "reference_redirect"
+  },
+  {
     "id": "name.ref.523414.1",
     "entityId": "ent.ref.nukapedia_523414",
     "name": "Garage",
@@ -2049,6 +2043,30 @@
     "id": "name.ref.195268.2",
     "entityId": "ent.ref.nukapedia_195268",
     "name": "Three Marys' caverns",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235003.1",
+    "entityId": "ent.ref.nukapedia_235003",
+    "name": "Big Empty Dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235003.2",
+    "entityId": "ent.ref.nukapedia_235003",
+    "name": "Big MT Dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235003.3",
+    "entityId": "ent.ref.nukapedia_235003",
+    "name": "Dome",
+    "kind": "reference_redirect"
+  },
+  {
+    "id": "name.ref.235003.4",
+    "entityId": "ent.ref.nukapedia_235003",
+    "name": "The Dome",
     "kind": "reference_redirect"
   },
   {
@@ -5397,12 +5415,6 @@
     "id": "name.ref.117548.1",
     "entityId": "ent.ref.nukapedia_117548",
     "name": "El Dorado Power",
-    "kind": "reference_redirect"
-  },
-  {
-    "id": "name.ref.118142.1",
-    "entityId": "ent.ref.nukapedia_118142",
-    "name": "Gun Runner Headquarters",
     "kind": "reference_redirect"
   },
   {

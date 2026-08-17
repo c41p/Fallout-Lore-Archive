@@ -137,14 +137,14 @@ export function buildCandidate(page: ReferencePage, discoveries: DiscoveredPage[
 export function entityCoverageState(entity: Entity | undefined, dataset: LoreDataset, ambiguous = false): CoverageState {
   if (ambiguous) return "needs_review";
   if (!entity) return "absent";
-  const sections = entity.articleSections ?? [];
-  const proseLength = sections.flatMap((section) => section.paragraphs).join(" ").length;
+  const mapping = dataset.referenceMappings.some((candidate) => candidate.entityId === entity.id);
+  const localResearch = (entity.articleSections?.length ?? 0) > 0;
   const evidenceTargets = new Set(dataset.evidenceLinks.map((link) => link.targetId));
   const sourced = dataset.assertions.filter((assertion) => (assertion.subjectId === entity.id || assertion.object.entityId === entity.id) && evidenceTargets.has(assertion.id)).length;
-  if (entity.articleTier === "major" && sections.length >= 3 && proseLength >= 900 && sourced >= 3) return "production_quality";
-  if (sections.length >= 3 && proseLength >= 500 && sourced >= 2) return "substantial_record";
-  if (entity.articleTier === "supporting" || sourced >= 2) return "supporting_record";
-  return "shallow_record";
+  if (mapping && localResearch) return "hybrid_researched";
+  if (mapping) return "provider_mapped";
+  if (sourced > 0 || localResearch) return "structured_record";
+  return "candidate_match";
 }
 
 function buildWorkCoverage(work: ReferenceWork, candidates: ReferenceCandidate[], dataset: LoreDataset): CoverageWorkReport {
@@ -153,7 +153,8 @@ function buildWorkCoverage(work: ReferenceWork, candidates: ReferenceCandidate[]
   const byType: CoverageWorkReport["byType"] = {};
   let weightedTotal = 0; let weightedCovered = 0;
   for (const candidate of scoped) {
-    const entity = candidate.match.entityId ? dataset.entities.find((item) => item.id === candidate.match.entityId) : undefined;
+    const mappedEntityId = dataset.referenceMappings.find((mapping) => mapping.providerId === candidate.providerId && mapping.pageId === candidate.attribution.pageId)?.entityId ?? candidate.match.entityId;
+    const entity = mappedEntityId ? dataset.entities.find((item) => item.id === mappedEntityId) : undefined;
     const state = entityCoverageState(entity, dataset, candidate.match.method === "ambiguous");
     counts.set(state, (counts.get(state) ?? 0) + 1);
     const bucket = byType[candidate.likelyType] ?? { total: 0, matched: 0, missing: 0 };
@@ -162,15 +163,16 @@ function buildWorkCoverage(work: ReferenceWork, candidates: ReferenceCandidate[]
       const tierMultiplier = candidate.ingestionTier === 1 ? 1 : candidate.ingestionTier === 2 ? 0.35 : 0.03;
       const weight = Math.max(0.25, candidate.importanceScore * tierMultiplier);
       weightedTotal += weight;
-      weightedCovered += weight * ({ production_quality: 1, substantial_record: 0.75, supporting_record: 0.5, shallow_record: 0.25, candidate_match: 0.15, needs_review: 0, absent: 0 } as Record<CoverageState, number>)[state];
+      weightedCovered += weight * ({ hybrid_researched: 1, provider_mapped: 0.85, structured_record: 0.65, candidate_match: 0.25, needs_review: 0, absent: 0 } as Record<CoverageState, number>)[state];
     }
   }
-  const missing = scoped.filter((candidate) => !candidate.match.entityId && candidate.match.method !== "ambiguous");
+  const mappedPages = new Set(dataset.referenceMappings.filter((mapping) => mapping.providerId === "nukapedia").map((mapping) => mapping.pageId));
+  const missing = scoped.filter((candidate) => !candidate.match.entityId && !mappedPages.has(candidate.attribution.pageId) && candidate.match.method !== "ambiguous");
   return {
     workId: work.id, slug: work.slug, title: work.title, referenceSubjects: scoped.length,
-    matchedArchiveEntities: scoped.filter((candidate) => candidate.match.entityId).length,
-    productionQuality: counts.get("production_quality") ?? 0, substantialRecords: counts.get("substantial_record") ?? 0,
-    supportingRecords: counts.get("supporting_record") ?? 0, shallowRecords: counts.get("shallow_record") ?? 0,
+    matchedArchiveEntities: scoped.filter((candidate) => candidate.match.entityId || mappedPages.has(candidate.attribution.pageId)).length,
+    hybridResearched: counts.get("hybrid_researched") ?? 0, providerMapped: counts.get("provider_mapped") ?? 0,
+    structuredRecords: counts.get("structured_record") ?? 0, candidateMatches: counts.get("candidate_match") ?? 0,
     missingSubjects: missing.length, unresolvedMatches: scoped.filter((candidate) => candidate.match.method === "ambiguous").length,
     gameplayOrReferenceOnly: scoped.filter((candidate) => candidate.flags.includes("gameplay_only") || candidate.flags.includes("reference_only")).length,
     majorLore: scoped.filter((candidate) => candidate.flags.includes("major_lore")).length,
@@ -188,10 +190,10 @@ export function buildCoverageReport(corpus: ReferenceCorpus, works: ReferenceWor
   const weightedSubjects = sum("referenceSubjects");
   return {
     schemaVersion: "1.0", generatedAt,
-    methodology: "Importance-weighted estimate excluding gameplay-only and reference-only candidates; production-quality=100%, substantial=75%, supporting=50%, shallow=25%. Wiki pages are discovery units, not one-to-one Archive entities.",
+    methodology: "Importance-weighted integration estimate excluding gameplay-only and reference-only candidates; hybrid research=100%, provider mapped=85%, structured local record=65%, identity match=25%. Wiki pages are discovery units, not one-to-one Archive entities.",
     totals: {
-      referenceSubjects: sum("referenceSubjects"), matchedArchiveEntities: sum("matchedArchiveEntities"), productionQuality: sum("productionQuality"),
-      substantialRecords: sum("substantialRecords"), supportingRecords: sum("supportingRecords"), shallowRecords: sum("shallowRecords"), missingSubjects: sum("missingSubjects"),
+      referenceSubjects: sum("referenceSubjects"), matchedArchiveEntities: sum("matchedArchiveEntities"), hybridResearched: sum("hybridResearched"),
+      providerMapped: sum("providerMapped"), structuredRecords: sum("structuredRecords"), candidateMatches: sum("candidateMatches"), missingSubjects: sum("missingSubjects"),
       unresolvedMatches: sum("unresolvedMatches"), gameplayOrReferenceOnly: sum("gameplayOrReferenceOnly"), tier1Gaps: sum("tier1Gaps"), tier2Gaps: sum("tier2Gaps"),
       majorLore: sum("majorLore"), supportingLore: sum("supportingLore"), minorLore: sum("minorLore"), deepResearchCandidates: sum("deepResearchCandidates"),
       weightedLoreCoverage: weightedSubjects ? Number((reports.reduce((total, report) => total + report.weightedLoreCoverage * report.referenceSubjects, 0) / weightedSubjects).toFixed(1)) : 0,
@@ -277,18 +279,19 @@ export async function syncReferenceCorpus(options: {
 }
 
 function coverageMarkdown(report: CoverageReport): string {
-  const rows = report.works.map((work) => `| ${work.title} | ${work.referenceSubjects} | ${work.majorLore} | ${work.supportingLore} | ${work.matchedArchiveEntities} | ${work.productionQuality} | ${work.missingSubjects} | ${work.gameplayOrReferenceOnly} | ${work.tier1Gaps} | ${work.weightedLoreCoverage}% |`).join("\n");
-  return `# Fallout Lore Archive reference coverage\n\nGenerated: ${report.generatedAt}\n\nThis is a discovery estimate, not a claim that every wiki page should become an Archive entity. ${report.methodology}\n\n| Work | Reference subjects | Major lore | Supporting lore | Matched | Production quality | Missing | Gameplay/reference only | Tier 1 gaps | Weighted coverage |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n${rows}\n\n## Franchise totals\n\n- Reference subject-work associations: ${report.totals.referenceSubjects}\n- Major lore associations: ${report.totals.majorLore}\n- Supporting lore associations: ${report.totals.supportingLore}\n- Matched subject-work associations: ${report.totals.matchedArchiveEntities}\n- Missing subject-work associations: ${report.totals.missingSubjects}\n- Ambiguous candidate identities: ${report.totals.ambiguousMatches}\n- Tier 1 gaps: ${report.totals.tier1Gaps}\n- Tier 2 gaps: ${report.totals.tier2Gaps}\n- Deep Research flags: ${report.totals.deepResearchFlags}\n- Estimated weighted lore coverage: ${report.totals.weightedLoreCoverage}%\n`;
+  const rows = report.works.map((work) => `| ${work.title} | ${work.referenceSubjects} | ${work.majorLore} | ${work.supportingLore} | ${work.matchedArchiveEntities} | ${work.hybridResearched} | ${work.providerMapped} | ${work.missingSubjects} | ${work.tier1Gaps} | ${work.weightedLoreCoverage}% |`).join("\n");
+  return `# Fallout Lore Archive reference integration coverage\n\nGenerated: ${report.generatedAt}\n\nThis is a discovery and integration estimate, not a claim that every wiki page should become an Archive entity. ${report.methodology}\n\n| Work | Reference subjects | Major lore | Supporting lore | Matched | Hybrid research | Provider mapped | Missing | Tier 1 gaps | Weighted integration |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n${rows}\n\n## Franchise totals\n\n- Reference subject-work associations: ${report.totals.referenceSubjects}\n- Major lore associations: ${report.totals.majorLore}\n- Supporting lore associations: ${report.totals.supportingLore}\n- Matched subject-work associations: ${report.totals.matchedArchiveEntities}\n- Hybrid researched associations: ${report.totals.hybridResearched}\n- Provider-mapped associations: ${report.totals.providerMapped}\n- Structured local associations: ${report.totals.structuredRecords}\n- Missing subject-work associations: ${report.totals.missingSubjects}\n- Ambiguous candidate identities: ${report.totals.ambiguousMatches}\n- Tier 1 gaps: ${report.totals.tier1Gaps}\n- Tier 2 gaps: ${report.totals.tier2Gaps}\n- Deep Research flags: ${report.totals.deepResearchFlags}\n- Estimated weighted integration: ${report.totals.weightedLoreCoverage}%\n`;
 }
 
-export function writeCoverageOutputs(root: string, report: CoverageReport, corpus: ReferenceCorpus) {
+export function writeCoverageOutputs(root: string, report: CoverageReport, corpus: ReferenceCorpus, dataset: LoreDataset) {
   const reportDir = path.join(root, "reference/reports");
   const queueDir = path.join(root, "reference/queues");
   fs.mkdirSync(reportDir, { recursive: true }); fs.mkdirSync(queueDir, { recursive: true });
   fs.writeFileSync(path.join(reportDir, "coverage.json"), stableJson(report), "utf8");
   fs.writeFileSync(path.join(reportDir, "coverage.md"), coverageMarkdown(report), "utf8");
   for (const work of report.works) fs.writeFileSync(path.join(reportDir, `${work.slug}.json`), stableJson(work), "utf8");
-  const missing = corpus.candidates.filter((candidate) => !candidate.match.entityId && candidate.match.method !== "ambiguous");
+  const mappedPages = new Set(dataset.referenceMappings.map((mapping) => mapping.pageId));
+  const missing = corpus.candidates.filter((candidate) => !candidate.match.entityId && !mappedPages.has(candidate.attribution.pageId) && candidate.match.method !== "ambiguous");
   const queue = ([1, 2, 3, 4] as const).map((tier) => ({ tier, candidates: missing.filter((candidate) => candidate.ingestionTier === tier).sort((a, b) => b.importanceScore - a.importanceScore || a.title.localeCompare(b.title)).map((candidate) => ({ id: candidate.id, title: candidate.title, workIds: candidate.workIds, likelyType: candidate.likelyType, importanceScore: candidate.importanceScore, flags: candidate.flags, url: candidate.attribution.canonicalPageUrl })) }));
   fs.writeFileSync(path.join(queueDir, "ingestion-queue.json"), stableJson({ generatedAt: report.generatedAt, tiers: queue }), "utf8");
   const deep = corpus.candidates.filter((candidate) => candidate.flags.includes("needs_primary_research") && candidate.ingestionTier !== 4).sort((a, b) => b.importanceScore - a.importanceScore).map((candidate) => ({ id: candidate.id, title: candidate.title, workIds: candidate.workIds, importanceScore: candidate.importanceScore, materialStatus: candidate.materialStatus, primarySourceLeads: candidate.primarySourceLeads, url: candidate.attribution.canonicalPageUrl }));

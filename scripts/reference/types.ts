@@ -2,7 +2,7 @@ import type { EntityType } from "../../src/types";
 
 export type ReferenceSubjectType = "person" | "organisation" | "place" | "event" | "creature" | "technology" | "item" | "source_record" | "concept" | "other";
 export type CandidateFlag = "major_lore" | "supporting_lore" | "minor_lore" | "gameplay_only" | "reference_only" | "duplicate_or_alias" | "cross_game_existing_entity" | "needs_primary_research" | "conflicted" | "uncertain";
-export type CoverageState = "absent" | "candidate_match" | "supporting_record" | "shallow_record" | "substantial_record" | "production_quality" | "needs_review";
+export type CoverageState = "absent" | "candidate_match" | "structured_record" | "provider_mapped" | "hybrid_researched" | "needs_review";
 
 export interface ReferenceWork {
   id: string;
@@ -105,10 +105,10 @@ export interface CoverageWorkReport {
   title: string;
   referenceSubjects: number;
   matchedArchiveEntities: number;
-  productionQuality: number;
-  substantialRecords: number;
-  supportingRecords: number;
-  shallowRecords: number;
+  hybridResearched: number;
+  providerMapped: number;
+  structuredRecords: number;
+  candidateMatches: number;
   missingSubjects: number;
   unresolvedMatches: number;
   gameplayOrReferenceOnly: number;

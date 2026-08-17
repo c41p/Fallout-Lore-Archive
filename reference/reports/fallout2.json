@@ -3,26 +3,26 @@
   "slug": "fallout2",
   "title": "Fallout 2",
   "referenceSubjects": 2105,
-  "matchedArchiveEntities": 55,
-  "productionQuality": 7,
-  "substantialRecords": 23,
-  "supportingRecords": 15,
-  "shallowRecords": 10,
-  "missingSubjects": 2050,
+  "matchedArchiveEntities": 283,
+  "hybridResearched": 30,
+  "providerMapped": 238,
+  "structuredRecords": 15,
+  "candidateMatches": 0,
+  "missingSubjects": 1822,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 656,
   "majorLore": 58,
   "supportingLore": 126,
   "minorLore": 1267,
   "deepResearchCandidates": 59,
-  "tier1Gaps": 46,
-  "tier2Gaps": 113,
-  "weightedLoreCoverage": 12.7,
+  "tier1Gaps": 5,
+  "tier2Gaps": 10,
+  "weightedLoreCoverage": 71.6,
   "byType": {
     "organisation": {
       "total": 118,
-      "matched": 10,
-      "missing": 108
+      "matched": 108,
+      "missing": 10
     },
     "source_record": {
       "total": 649,
@@ -31,18 +31,18 @@
     },
     "person": {
       "total": 699,
-      "matched": 26,
-      "missing": 673
+      "matched": 63,
+      "missing": 636
     },
     "place": {
       "total": 211,
-      "matched": 15,
-      "missing": 196
+      "matched": 86,
+      "missing": 125
     },
     "event": {
       "total": 209,
-      "matched": 1,
-      "missing": 208
+      "matched": 11,
+      "missing": 198
     },
     "item": {
       "total": 162,
@@ -51,13 +51,13 @@
     },
     "creature": {
       "total": 37,
-      "matched": 1,
-      "missing": 36
+      "matched": 11,
+      "missing": 26
     },
     "technology": {
       "total": 20,
-      "matched": 0,
-      "missing": 20
+      "matched": 2,
+      "missing": 18
     }
   }
 }

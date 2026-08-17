@@ -3,41 +3,41 @@
   "slug": "automatron",
   "title": "Automatron",
   "referenceSubjects": 29,
-  "matchedArchiveEntities": 0,
-  "productionQuality": 0,
-  "substantialRecords": 0,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 29,
+  "matchedArchiveEntities": 19,
+  "hybridResearched": 0,
+  "providerMapped": 19,
+  "structuredRecords": 0,
+  "candidateMatches": 0,
+  "missingSubjects": 10,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 0,
   "majorLore": 1,
   "supportingLore": 11,
   "minorLore": 17,
   "deepResearchCandidates": 1,
-  "tier1Gaps": 1,
-  "tier2Gaps": 11,
-  "weightedLoreCoverage": 0,
+  "tier1Gaps": 0,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 82.1,
   "byType": {
     "place": {
       "total": 7,
-      "matched": 0,
-      "missing": 7
+      "matched": 7,
+      "missing": 0
     },
     "person": {
       "total": 10,
-      "matched": 0,
-      "missing": 10
+      "matched": 6,
+      "missing": 4
     },
     "technology": {
       "total": 8,
-      "matched": 0,
-      "missing": 8
+      "matched": 2,
+      "missing": 6
     },
     "event": {
       "total": 4,
-      "matched": 0,
-      "missing": 4
+      "matched": 4,
+      "missing": 0
     }
   }
 }

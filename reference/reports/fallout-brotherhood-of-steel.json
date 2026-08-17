@@ -3,31 +3,31 @@
   "slug": "fallout-brotherhood-of-steel",
   "title": "Fallout: Brotherhood of Steel",
   "referenceSubjects": 294,
-  "matchedArchiveEntities": 8,
-  "productionQuality": 1,
-  "substantialRecords": 5,
-  "supportingRecords": 1,
-  "shallowRecords": 1,
-  "missingSubjects": 286,
+  "matchedArchiveEntities": 95,
+  "hybridResearched": 5,
+  "providerMapped": 89,
+  "structuredRecords": 1,
+  "candidateMatches": 0,
+  "missingSubjects": 199,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 35,
   "majorLore": 30,
   "supportingLore": 74,
   "minorLore": 163,
   "deepResearchCandidates": 98,
-  "tier1Gaps": 28,
-  "tier2Gaps": 73,
-  "weightedLoreCoverage": 3.6,
+  "tier1Gaps": 7,
+  "tier2Gaps": 12,
+  "weightedLoreCoverage": 67.4,
   "byType": {
     "organisation": {
       "total": 11,
-      "matched": 2,
-      "missing": 9
+      "matched": 9,
+      "missing": 2
     },
     "creature": {
       "total": 10,
-      "matched": 1,
-      "missing": 9
+      "matched": 7,
+      "missing": 3
     },
     "source_record": {
       "total": 33,
@@ -36,28 +36,28 @@
     },
     "person": {
       "total": 49,
-      "matched": 2,
-      "missing": 47
+      "matched": 18,
+      "missing": 31
     },
     "place": {
       "total": 20,
-      "matched": 2,
-      "missing": 18
+      "matched": 5,
+      "missing": 15
     },
     "item": {
       "total": 88,
-      "matched": 1,
-      "missing": 87
+      "matched": 42,
+      "missing": 46
     },
     "technology": {
       "total": 16,
-      "matched": 0,
-      "missing": 16
+      "matched": 7,
+      "missing": 9
     },
     "event": {
       "total": 67,
-      "matched": 0,
-      "missing": 67
+      "matched": 7,
+      "missing": 60
     }
   }
 }

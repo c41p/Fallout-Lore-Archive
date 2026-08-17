@@ -9,5 +9,6 @@ import { MapPage } from "./pages/MapPage";
 import { LorePathsPage } from "./pages/LorePathsPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { TimelinePage } from "./pages/TimelinePage";
+import { ReferencePage } from "./pages/ReferencePage";
 
-export function App() { return <HashRouter><Routes><Route element={<Layout />}><Route index element={<HomePage />} /><Route path="games" element={<GamesPage />} /><Route path="games/:slug" element={<GamePage />} /><Route path="paths" element={<LorePathsPage />} /><Route path="browse" element={<BrowsePage />} /><Route path="entity/:id" element={<EntityPage />} /><Route path="timeline" element={<TimelinePage />} /><Route path="map" element={<MapPage />} /><Route path="*" element={<NotFoundPage />} /></Route></Routes></HashRouter>; }
+export function App() { return <HashRouter><Routes><Route element={<Layout />}><Route index element={<HomePage />} /><Route path="games" element={<GamesPage />} /><Route path="games/:slug" element={<GamePage />} /><Route path="paths" element={<LorePathsPage />} /><Route path="browse" element={<BrowsePage />} /><Route path="entity/:id" element={<EntityPage />} /><Route path="reference/:provider" element={<ReferencePage />} /><Route path="timeline" element={<TimelinePage />} /><Route path="map" element={<MapPage />} /><Route path="*" element={<NotFoundPage />} /></Route></Routes></HashRouter>; }

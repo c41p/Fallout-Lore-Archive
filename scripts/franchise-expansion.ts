@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { loadDataset } from "./lore";
 import { createWindowsCurlFetch, MediaWikiProvider } from "./reference/providers";
 import type { ReferenceCandidate, ReferenceCorpus, ReferenceWork, WorksManifest } from "./reference/types";
-import type { Appearance, ArticleSection, Assertion, Entity, EntityType, EvidenceLink, LoreDataset, NameUsage, SourceItem, TemporalValue } from "../src/types";
+import type { Appearance, Assertion, Entity, EntityType, EvidenceLink, LoreDataset, NameUsage, ReferenceMapping, SourceItem, TemporalValue } from "../src/types";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const readJson = <T>(relative: string): T => JSON.parse(fs.readFileSync(path.join(root, relative), "utf8")) as T;
@@ -17,15 +17,15 @@ const writeJson = (relative: string, value: unknown) => {
 const outputs = {
   entities: "lore/franchise/entities/reference-expansion.json",
   overrides: "lore/franchise/overrides/reference-expansion.json",
-  depthClosures: "lore/franchise/overrides/depth-closure.json",
+  mappings: "lore/franchise/reference-mappings/reference-expansion.json",
   assertions: "lore/franchise/assertions/reference-expansion.json",
   sources: "lore/franchise/source-items/reference-expansion.json",
   evidence: "lore/franchise/evidence/reference-expansion.json",
   appearances: "lore/franchise/appearances/reference-expansion.json",
   names: "lore/franchise/names/reference-expansion.json",
   manifest: "reference/manifests/franchise-completion.json",
-  depthJson: "reference/reports/content-depth.json",
-  depthMarkdown: "reference/reports/content-depth.md"
+  coverageJson: "reference/reports/integrated-reference-coverage.json",
+  coverageMarkdown: "reference/reports/integrated-reference-coverage.md"
 };
 
 const normalized = (value: string) => value.toLocaleLowerCase("en-US")
@@ -250,48 +250,6 @@ function workTitleList(candidate: ReferenceCandidate, works: Map<string, Referen
   return [...new Set(titles)].join(", ");
 }
 
-function buildSections(candidate: ReferenceCandidate, profile: ArticleProfile | undefined, assertionIds: string[], relatedEntityIds: string[], works: Map<string, ReferenceWork>, parentMap: Map<string, string>): ArticleSection[] {
-  const workTitles = workTitleList(candidate, works, parentMap) || "the released Fallout franchise";
-  const tier = candidate.ingestionTier;
-  const lead = profile?.lead ?? [];
-  const facts = profileFacts(profile?.fields ?? {});
-  const categories = [...new Set([...candidate.categories, ...candidate.discoveryCategories])].filter((value) => !/source texts|items$/i.test(value)).slice(0, 8);
-  const overview: ArticleSection = {
-    id: "reference-overview", title: "Overview",
-    paragraphs: [
-      sentence(`${candidate.title} is ${indefiniteTypeLabel(candidate)} associated with ${workTitles}. The Archive uses the revision-linked community reference below as the working baseline for this profile while keeping stronger game-source evidence wherever it already exists.`),
-      lead.length ? sentence(`The reference account characterises the subject as follows: ${lead[0]}`) : sentence(`Its placement in the corpus connects it to ${categories.slice(0, 4).join(", ") || "the people, places and organisations of its source work"}.`),
-      ...(tier === 1 ? [sentence(`For exploration purposes, the record is classified through ${categories.slice(0, 6).join(", ") || candidate.likelyType}. Its ${candidate.aliases.length ? `recorded names include ${candidate.aliases.slice(0, 4).join(", ")}, and its` : ""} appearances, source profile and connected records provide routes into the wider history of ${workTitles}.`)] : [])
-    ], assertionIds: assertionIds.slice(0, 1), relatedEntityIds
-  };
-  if (tier === 3) return [overview];
-  const profileSection: ArticleSection = {
-    id: "reference-profile", title: candidate.likelyType === "person" ? "Role and affiliations" : "Profile and context",
-    paragraphs: facts.length
-      ? [sentence(facts.slice(0, 4).map((fact) => `The reference profile records ${fact.label} as ${fact.value}`).join("; ")), ...(facts.length > 4 ? [sentence(facts.slice(4).map((fact) => `${fact.label[0].toUpperCase()}${fact.label.slice(1)}: ${fact.value}`).join("; "))] : [])]
-      : [sentence(`The page is indexed through ${categories.slice(0, 6).join(", ") || candidate.discoveryCategories.join(", ")}. These classifications establish its role in the relevant game's cast, geography or institutional history without treating gameplay-only metadata as lore.`)],
-    assertionIds, relatedEntityIds
-  };
-  const historicalSource = profile?.sections[0]?.paragraph ?? lead[1];
-  const history: ArticleSection = {
-    id: "reference-history", title: profile?.sections[0]?.title || "Franchise context",
-    paragraphs: historicalSource
-      ? [sentence(`Within the reference history, ${historicalSource}`), sentence(`This material is organised here around chronology and connected records rather than reproducing the source page's layout. The source revision remains openable for fuller detail and attribution.`)]
-      : [sentence(`Across ${workTitles}, the subject belongs to the wider network represented by ${categories.slice(0, 6).join(", ") || "its indexed characters, factions, locations and events"}. Its appearances and graph links below provide the main routes for continuing exploration.`)],
-    assertionIds, relatedEntityIds
-  };
-  if (tier === 2) return [overview, profileSection, history];
-  const developmentSource = profile?.sections[1]?.paragraph ?? lead[2];
-  const development: ArticleSection = {
-    id: "reference-development", title: profile?.sections[1]?.title || "Connections and development",
-    paragraphs: developmentSource
-      ? [sentence(`A further strand of the reference account explains that ${developmentSource}`), sentence(`Connected records identify the people, organisations, places and events that give this subject its wider significance across the archive.`)]
-      : [sentence(`The subject's principal archive connections are drawn from revision-specific profile fields and stable category context. They are presented as navigational associations unless a stronger existing assertion supplies a more precise relationship.`)],
-    assertionIds, relatedEntityIds
-  };
-  return [overview, profileSection, history, development];
-}
-
 function baseNameIndex(dataset: LoreDataset) {
   const owners = new Map<string, Set<string>>();
   const add = (name: string, id: string) => { const key = normalized(name); if (!key) return; const set = owners.get(key) ?? new Set<string>(); set.add(id); owners.set(key, set); };
@@ -306,21 +264,24 @@ function selectAndResolve(corpus: ReferenceCorpus, dataset: LoreDataset) {
   const isCompatibleIdentity = (entityId: string, candidate: ReferenceCandidate) => baseEntities.get(entityId)?.type === entityType(candidate);
   const isQualifiedHomonym = (candidate: ReferenceCandidate) => /\((quest|location|character|faction|event|creature|item|holotape|note|terminal|weapon|armor|Fallout[^)]*)\)\s*$/i.test(candidate.title);
   const candidates = corpus.candidates.filter(isExpansionCandidate).sort((a, b) => a.ingestionTier - b.ingestionTier || b.importanceScore - a.importanceScore || a.attribution.pageId - b.attribution.pageId);
+  const curatedMappings = dataset.referenceMappings.filter((mapping) => mapping.id.startsWith("refmap.curated."));
+  const curatedEntities = new Set(curatedMappings.map((mapping) => mapping.entityId));
+  const curatedPages = new Set(curatedMappings.map((mapping) => mapping.pageId));
   const resolved = candidates.map((candidate) => {
     let entityId = candidate.match.entityId && baseEntities.has(candidate.match.entityId)
-      && (!isQualifiedHomonym(candidate) || isCompatibleIdentity(candidate.match.entityId, candidate))
+      && (!isQualifiedHomonym(candidate) || normalized(baseEntities.get(candidate.match.entityId)!.displayName) === normalized(candidate.title))
       ? candidate.match.entityId : undefined;
     if (!entityId) {
       const matches = nameOwners.get(normalized(candidate.title));
-      const eligible = matches ? [...matches].filter((id) => !isQualifiedHomonym(candidate) || isCompatibleIdentity(id, candidate)) : [];
+      const eligible = matches && !isQualifiedHomonym(candidate) ? [...matches].filter((id) => isCompatibleIdentity(id, candidate)) : [];
       if (eligible.length === 1) entityId = eligible[0];
     }
     if (!entityId) {
-      const aliasMatches = new Set(candidate.aliases.flatMap((alias) => [...(nameOwners.get(normalized(alias)) ?? [])]).filter((id) => !isQualifiedHomonym(candidate) || isCompatibleIdentity(id, candidate)));
+      const aliasMatches = new Set((isQualifiedHomonym(candidate) ? [] : candidate.aliases.flatMap((alias) => [...(nameOwners.get(normalized(alias)) ?? [])])).filter((id) => isCompatibleIdentity(id, candidate)));
       if (aliasMatches.size === 1) entityId = [...aliasMatches][0];
     }
     return { candidate, entityId: entityId ?? `ent.ref.nukapedia_${candidate.attribution.pageId}` };
-  });
+  }).filter((item) => !curatedEntities.has(item.entityId) && !curatedPages.has(item.candidate.attribution.pageId));
   const kept = new Map<string, typeof resolved[number]>();
   const duplicates = new Set<string>();
   for (const item of resolved) {
@@ -343,88 +304,13 @@ function generateManifest(corpus: ReferenceCorpus, selected: Array<{ candidate: 
       candidateId: candidate.id, pageId: candidate.attribution.pageId, title: candidate.title,
       entityId: item?.entityId ?? candidate.match.entityId, games: candidate.workIds, type: candidate.likelyType,
       importanceTier: candidate.ingestionTier, ingestionState: state,
-      articleDepthState: item ? (candidate.ingestionTier === 1 ? "deep" : candidate.ingestionTier === 2 ? "substantial" : "informative") : "none",
+      articleState: item ? "provider_mapped" : "none",
       relationshipState: item ? ((relationshipCounts.get(item.entityId) ?? 0) > 0 ? "connected" : "profile_only") : "none",
       timelineState: item ? (timelineIds.has(item.entityId) ? "dated" : candidate.likelyType === "event" ? "undated" : "not_applicable") : "none",
       sourceState: item ? "revision_attributed" : "candidate_attribution_only", reason
     };
   });
   return { schemaVersion: "1.0", generatedAt: corpus.generatedAt, policy: "Established community reference sources are the working baseline; stronger existing primary evidence is preserved.", records };
-}
-
-function buildDepthReport(dataset: LoreDataset, manifest: ReturnType<typeof generateManifest>) {
-  const tierByEntity = new Map<string, number>();
-  for (const record of manifest.records) if (record.entityId && ["deep", "enriched", "ingested"].includes(record.ingestionState)) tierByEntity.set(record.entityId, Math.min(tierByEntity.get(record.entityId) ?? 4, record.importanceTier));
-  const relationshipCounts = new Map<string, number>();
-  for (const assertion of dataset.assertions) if (assertion.object.entityId) {
-    relationshipCounts.set(assertion.subjectId, (relationshipCounts.get(assertion.subjectId) ?? 0) + 1);
-    relationshipCounts.set(assertion.object.entityId, (relationshipCounts.get(assertion.object.entityId) ?? 0) + 1);
-  }
-  const assertionEvidence = new Set(dataset.evidenceLinks.map((link) => link.targetId));
-  const records = dataset.entities.map((entity) => {
-    const tier = tierByEntity.get(entity.id) ?? (entity.articleTier === "major" ? 1 : entity.articleTier === "supporting" ? 2 : 3);
-    const sections = entity.articleSections?.length ?? 0;
-    const words = [entity.summary, entity.description ?? "", ...(entity.articleSections ?? []).flatMap((section) => section.paragraphs)].join(" ").split(/\s+/).filter(Boolean).length;
-    const relationships = relationshipCounts.get(entity.id) ?? 0;
-    const appearances = dataset.appearances.filter((appearance) => appearance.entityId === entity.id).length;
-    const sourcedAssertions = dataset.assertions.filter((assertion) => (assertion.subjectId === entity.id || assertion.object.entityId === entity.id) && assertionEvidence.has(assertion.id)).length;
-    const shallow = tier === 1 ? sections < 3 || words < 180 || relationships < 2 || sourcedAssertions < 1 : tier === 2 ? sections < 2 || words < 90 || relationships < 1 || sourcedAssertions < 1 : words < 35 || sourcedAssertions < 1;
-    return { entityId: entity.id, displayName: entity.displayName, tier, words, sections, relationships, appearances, sourcedAssertions, shallow };
-  });
-  const stats = {
-    entities: records.length, tier1: records.filter((record) => record.tier === 1).length, tier2: records.filter((record) => record.tier === 2).length, tier3: records.filter((record) => record.tier === 3).length,
-    multiSectionArticles: records.filter((record) => record.sections >= 2).length, articlesOver180Words: records.filter((record) => record.words >= 180).length,
-    shallowTier1: records.filter((record) => record.tier === 1 && record.shallow).length, shallowTier2: records.filter((record) => record.tier === 2 && record.shallow).length,
-    relationshipEdges: dataset.assertions.filter((assertion) => assertion.object.entityId).length, timelineEvents: dataset.entities.filter((entity) => entity.type === "event" && dataset.assertions.some((assertion) => assertion.subjectId === entity.id && assertion.object.temporal)).length
-  };
-  return { schemaVersion: "1.0", generatedAt: manifest.generatedAt, thresholds: { tier1: "3 sections, 180 words, 2 relationships, provenance", tier2: "2 sections, 90 words, 1 relationship, provenance", tier3: "35 words and provenance" }, stats, records };
-}
-
-function buildDepthClosures(dataset: LoreDataset, manifest: ReturnType<typeof generateManifest>): Array<Partial<Entity> & Pick<Entity, "id">> {
-  const tierByEntity = new Map<string, number>();
-  for (const record of manifest.records) if (record.entityId && ["deep", "enriched", "ingested"].includes(record.ingestionState)) tierByEntity.set(record.entityId, Math.min(tierByEntity.get(record.entityId) ?? 4, record.importanceTier));
-  const entities = new Map(dataset.entities.map((entity) => [entity.id, entity]));
-  const predicates = new Map(dataset.predicates.map((predicate) => [predicate.id, predicate]));
-  const works = new Map(dataset.sourceWorks.map((work) => [work.id, work]));
-  return dataset.entities.flatMap((entity) => {
-    const tier = tierByEntity.get(entity.id) ?? (entity.articleTier === "major" ? 1 : entity.articleTier === "supporting" ? 2 : 3);
-    if (tier > 2) return [];
-    const baseSections = (entity.articleSections ?? []).filter((section) => !section.id.startsWith("archive-depth-"));
-    const words = [entity.summary, entity.description ?? "", ...baseSections.flatMap((section) => section.paragraphs)].join(" ").split(/\s+/).filter(Boolean).length;
-    if ((tier === 1 && words >= 180 && baseSections.length >= 3) || (tier === 2 && words >= 90 && baseSections.length >= 2)) return [];
-    const relationships = dataset.assertions.filter((assertion) => assertion.object.entityId && (assertion.subjectId === entity.id || assertion.object.entityId === entity.id));
-    const relatedIds = [...new Set(relationships.map((assertion) => assertion.subjectId === entity.id ? assertion.object.entityId! : assertion.subjectId))].filter((id) => entities.has(id)).slice(0, 16);
-    const relationshipSentences = relationships.slice(0, 12).map((assertion) => {
-      const outgoing = assertion.subjectId === entity.id; const other = entities.get(outgoing ? assertion.object.entityId! : assertion.subjectId);
-      const predicate = predicates.get(assertion.predicateId); if (!other || !predicate) return "";
-      const label = outgoing ? predicate.label.toLocaleLowerCase("en-US") : (predicate.symmetric ? predicate.label : predicate.inverseLabel ?? `is connected through ${predicate.label.toLocaleLowerCase("en-US")}`).toLocaleLowerCase("en-US");
-      return `${entity.displayName} ${label} ${other.displayName}`;
-    }).filter(Boolean);
-    const appearances = dataset.appearances.filter((appearance) => appearance.entityId === entity.id).map((appearance) => works.get(appearance.workId)?.title).filter((title): title is string => Boolean(title));
-    const dated = dataset.assertions.filter((assertion) => assertion.subjectId === entity.id && (assertion.object.temporal || assertion.validTime)).slice(0, 4);
-    const assertionIds = [...new Set([...relationships.slice(0, 12).map((assertion) => assertion.id), ...dated.map((assertion) => assertion.id)])];
-    const sections: ArticleSection[] = [{
-      id: "archive-depth-connections", title: "Connections in the archive",
-      paragraphs: [
-        sentence(`The structured record places ${entity.displayName} within a network of ${relatedIds.map((id) => entities.get(id)!.displayName).slice(0, 10).join(", ") || "related people, organisations, places and events"}. These links turn the article into a starting point for exploring the subject's wider historical setting rather than an isolated summary.`),
-        sentence(relationshipSentences.length ? `Recorded connections include ${relationshipSentences.join("; ")}. Relationship labels remain deliberately broad when the reference source establishes context more clearly than a narrower causal claim.` : `The record currently relies on its source profile and appearances for context. More precise relationship predicates can be added as later source passes identify leadership, membership, location, succession or conflict details.`)
-      ], assertionIds, relatedEntityIds: relatedIds
-    }];
-    if (tier === 1 || baseSections.length < 2) sections.push({
-      id: "archive-depth-chronology", title: "Chronology and appearances",
-      paragraphs: [
-        sentence(`${entity.displayName} is indexed through ${[...new Set(appearances)].join(", ") || "the archive's cross-game source network"}. Appearance records identify where the subject can be encountered or referenced without treating every gameplay branch as one simultaneous history.`),
-        sentence(dated.length ? `Temporal assertions preserve the available precision for ${dated.length} dated or time-bounded part${dated.length === 1 ? "" : "s"} of this record. Approximate source-work placement remains visibly approximate, while exact dates continue to come from stronger existing evidence.` : `No defensible standalone date is assigned here unless the source profile or work chronology supports one. The surrounding event and relationship links provide relative historical context without manufacturing precision.`)
-      ], assertionIds, relatedEntityIds: relatedIds
-    });
-    return [{ id: entity.id, articleSections: sections, tags: [`tier-${tier}`, "depth-audited"] }];
-  });
-}
-
-function writeDepthMarkdown(report: ReturnType<typeof buildDepthReport>) {
-  const shallow1 = report.records.filter((record) => record.tier === 1 && record.shallow).slice(0, 100);
-  const shallow2 = report.records.filter((record) => record.tier === 2 && record.shallow).slice(0, 100);
-  return `# Canonical content depth audit\n\nGenerated from canonical JSON and the franchise completion manifest. Word count is a signal, not the sole quality measure.\n\n## Totals\n\n- Entities: ${report.stats.entities}\n- Tier 1: ${report.stats.tier1}\n- Tier 2: ${report.stats.tier2}\n- Tier 3: ${report.stats.tier3}\n- Multi-section articles: ${report.stats.multiSectionArticles}\n- Articles at or above 180 words: ${report.stats.articlesOver180Words}\n- Relationship edges: ${report.stats.relationshipEdges}\n- Dated timeline events: ${report.stats.timelineEvents}\n- Shallow Tier 1: ${report.stats.shallowTier1}\n- Shallow Tier 2: ${report.stats.shallowTier2}\n\n## Shallow Tier 1 review queue\n\n${shallow1.length ? shallow1.map((record) => `- ${record.displayName} (${record.entityId}): ${record.words} words, ${record.sections} sections, ${record.relationships} relationships`).join("\n") : "None."}\n\n## Shallow Tier 2 review queue\n\n${shallow2.length ? shallow2.map((record) => `- ${record.displayName} (${record.entityId}): ${record.words} words, ${record.sections} sections, ${record.relationships} relationships`).join("\n") : "None."}\n`;
 }
 
 async function main() {
@@ -450,7 +336,7 @@ async function main() {
   const existingRelationshipPairs = new Set(dataset.assertions.filter((assertion) => !assertion.id.startsWith("asrt.ref.") && assertion.object.entityId).map((assertion) => relationshipPair(assertion.subjectId, assertion.object.entityId!)));
   const existingAppearances = new Set(dataset.appearances.filter((appearance) => !appearance.id.startsWith("app.ref.")).map((appearance) => `${appearance.entityId}|${appearance.workId}`));
   const entities: Entity[] = []; const overrides: Array<Partial<Entity> & Pick<Entity, "id">> = []; const assertions: Assertion[] = [];
-  const sourceItems: SourceItem[] = []; const evidenceLinks: EvidenceLink[] = []; const appearances: Appearance[] = []; const names: NameUsage[] = [];
+  const sourceItems: SourceItem[] = []; const evidenceLinks: EvidenceLink[] = []; const appearances: Appearance[] = []; const names: NameUsage[] = []; const referenceMappings: ReferenceMapping[] = [];
   const relationshipCounts = new Map<string, number>(); const timelineIds = new Set<string>(); const usedAliases = new Set<string>();
   const workHubs: Record<string, string[]> = {
     "work.fallout": ["ent.southern_california", "ent.vault_dweller"], "work.fallout_2": ["ent.new_california", "ent.chosen_one"],
@@ -464,7 +350,10 @@ async function main() {
   };
   for (const [index, { candidate, entityId }] of selected.entries()) {
     const profile = profiles.get(candidate.attribution.pageId); const sourceId = `src.ref.nukapedia_${candidate.attribution.pageId}`;
-    sourceItems.push({ id: sourceId, workId: "work.nukapedia", sourceType: "wiki_article", title: candidate.title, locator: `Page ID ${candidate.attribution.pageId}; revision ${candidate.attribution.revisionId ?? "unknown"}`, sourceClass: "secondary", textAvailability: "metadata_and_transformed_summary", url: candidate.attribution.canonicalPageUrl, date: candidate.attribution.revisionTimestamp, context: `Community reference baseline retrieved ${candidate.attribution.retrievalTimestamp}; ${candidate.attribution.contentLicence}. Archive prose reorganises the information for exploration and does not imply official canon authority.` });
+    const existing = baseEntities.get(entityId);
+    const articleMode = existing && (existing.articleSections?.length ?? 0) > 0 ? "hybrid" as const : "reference" as const;
+    referenceMappings.push({ id: `refmap.nukapedia.${candidate.attribution.pageId}`, entityId, providerId: "nukapedia", pageId: candidate.attribution.pageId, canonicalTitle: candidate.title, canonicalUrl: candidate.attribution.canonicalPageUrl, revisionId: candidate.attribution.revisionId, revisionTimestamp: candidate.attribution.revisionTimestamp, retrievedAt: candidate.attribution.retrievalTimestamp, articleMode });
+    sourceItems.push({ id: sourceId, workId: "work.nukapedia", sourceType: "wiki_article", title: candidate.title, locator: `Page ID ${candidate.attribution.pageId}; revision ${candidate.attribution.revisionId ?? "unknown"}`, sourceClass: "secondary", textAvailability: "metadata_and_structured_extraction", url: candidate.attribution.canonicalPageUrl, date: candidate.attribution.revisionTimestamp, context: `Community reference baseline retrieved ${candidate.attribution.retrievalTimestamp}; ${candidate.attribution.contentLicence}. The page supplies revision-attributed reference reading and conservative structured extraction; it is not an official canon authority.` });
     const profileAssertionId = `asrt.ref.${candidate.attribution.pageId}.profile`;
     const worksForCandidate = candidate.workIds.map((id) => canonicalWorks.has(id) ? id : parents.get(id)).filter((id): id is string => Boolean(id && canonicalWorks.has(id)));
     const workTitles = workTitleList(candidate, works, parents) || "the released Fallout franchise";
@@ -496,18 +385,10 @@ async function main() {
       assertions.push({ id, subjectId: entityId, predicateId: "pred.occurred_at_time", object: { temporal }, assertionMode: "world_claim", epistemicStatus: temporal.approximate ? "approximate" : "strongly_supported", continuityScope: workContinuity(worksForCandidate), notes: temporal.approximate ? "Approximate placement in the established year of the associated source work; no month/day precision is implied." : "Year or interval extracted from the reference profile without inventing month/day precision." });
       evidenceLinks.push({ id: `ev.ref.${candidate.attribution.pageId}.time`, targetId: id, sourceItemId: sourceId, role: "supports", directness: "explicit" });
     }
-    const allAssertionIds = [profileAssertionId, ...relationIds, ...temporalIds];
-    const sections = buildSections(candidate, profile, allAssertionIds, related, works, parents);
-    const existing = baseEntities.get(entityId);
     if (!existing) {
-      entities.push({ id: entityId, type: entityType(candidate), subtype: subtype(candidate), displayName: candidate.title, summary, description: sentence(`This record is part of the franchise-scale community-reference expansion. It retains page and revision attribution, uses ${workTitles} for work context, and connects outward through appearances and conservatively derived associations.`), articleTier: candidate.ingestionTier === 1 ? "major" : "supporting", articleSections: sections, tags: [...new Set([`tier-${candidate.ingestionTier}`, "reference-derived", candidate.likelyType, ...candidate.workIds.map((id) => works.get(id)?.slug).filter((value): value is string => Boolean(value)), ...candidate.categories.slice(0, 3).map(normalized).filter(Boolean)])], recordStatus: "reviewed", featured: false });
+      entities.push({ id: entityId, type: entityType(candidate), subtype: subtype(candidate), displayName: candidate.title, summary, description: sentence(`This structured record retains cross-game identity, appearances and exploration links. Its long-form article is loaded from the revision-attributed reference provider.`), articleMode, tags: [...new Set([`tier-${candidate.ingestionTier}`, "reference-mapped", candidate.likelyType, ...candidate.workIds.map((id) => works.get(id)?.slug).filter((value): value is string => Boolean(value)), ...candidate.categories.slice(0, 3).map(normalized).filter(Boolean)])], recordStatus: "reviewed", featured: false });
     } else {
-      const existingSections = existing.articleSections ?? [];
-      const existingWords = [existing.summary, existing.description ?? "", ...existingSections.flatMap((section) => section.paragraphs)].join(" ").split(/\s+/).filter(Boolean).length;
-      const required = candidate.ingestionTier === 1
-        ? (existingWords < 180 ? sections.length : Math.max(0, 3 - existingSections.length))
-        : (candidate.ingestionTier === 2 && existingWords < 90 ? Math.min(3, sections.length) : existingSections.length ? 0 : Math.min(2, sections.length));
-      overrides.push({ id: entityId, ...(candidate.ingestionTier === 1 ? { articleTier: "major" as const } : {}), articleSections: sections.slice(0, required), tags: [`tier-${candidate.ingestionTier}`, "reference-derived"] });
+      overrides.push({ id: entityId, articleMode, tags: [`tier-${candidate.ingestionTier}`, "reference-mapped"] });
     }
     const canonicalWorkIds = [...new Set(worksForCandidate)];
     for (const workId of canonicalWorkIds) {
@@ -521,12 +402,14 @@ async function main() {
     }
     if ((index + 1) % 250 === 0) console.log(`Generated ${index + 1}/${selected.length} canonical profiles.`);
   }
-  writeJson(outputs.entities, entities); writeJson(outputs.overrides, overrides); writeJson(outputs.assertions, assertions); writeJson(outputs.sources, sourceItems); writeJson(outputs.evidence, evidenceLinks); writeJson(outputs.appearances, appearances); writeJson(outputs.names, names);
+  writeJson(outputs.entities, entities); writeJson(outputs.overrides, overrides); writeJson(outputs.mappings, referenceMappings); writeJson(outputs.assertions, assertions); writeJson(outputs.sources, sourceItems); writeJson(outputs.evidence, evidenceLinks); writeJson(outputs.appearances, appearances); writeJson(outputs.names, names);
   const manifest = generateManifest(corpus, selected, duplicates, relationshipCounts, timelineIds); writeJson(outputs.manifest, manifest);
-  const rebuilt = loadDataset(); const closures = buildDepthClosures(rebuilt, manifest); writeJson(outputs.depthClosures, closures);
-  const finalDataset = loadDataset(); const depth = buildDepthReport(finalDataset, manifest); writeJson(outputs.depthJson, depth); fs.writeFileSync(path.join(root, outputs.depthMarkdown), writeDepthMarkdown(depth), "utf8");
-  console.log(`Generated ${entities.length} new entities, ${overrides.length} enrichments, ${closures.length} depth closures, ${assertions.length} assertions, ${sourceItems.length} reference sources, ${appearances.length} appearances and ${names.length} aliases.`);
-  console.log(`Depth audit: ${depth.stats.entities} entities; Tier 1 ${depth.stats.tier1}, Tier 2 ${depth.stats.tier2}, Tier 3 ${depth.stats.tier3}; shallow Tier 1 ${depth.stats.shallowTier1}, shallow Tier 2 ${depth.stats.shallowTier2}.`);
+  const finalDataset = loadDataset();
+  const allMappings = finalDataset.referenceMappings;
+  const coverage = { schemaVersion: "1.0", generatedAt: new Date().toISOString(), entities: finalDataset.entities.length, providerMapped: allMappings.length, referenceMode: allMappings.filter((mapping) => mapping.articleMode === "reference").length, hybridMode: allMappings.filter((mapping) => mapping.articleMode === "hybrid").length, relationshipEnriched: new Set(finalDataset.assertions.filter((assertion) => assertion.object.entityId).flatMap((assertion) => [assertion.subjectId, assertion.object.entityId!])).size, timelineEnriched: new Set(finalDataset.assertions.filter((assertion) => assertion.object.temporal).map((assertion) => assertion.subjectId)).size, spatiallyEnriched: new Set(finalDataset.spatialRepresentations.map((spatial) => spatial.placeId)).size, cachedAtRuntime: 0 };
+  writeJson(outputs.coverageJson, coverage); fs.writeFileSync(path.join(root, outputs.coverageMarkdown), `# Integrated reference coverage\n\n- Structured entities: ${coverage.entities}\n- Provider mapped: ${coverage.providerMapped}\n- Reference mode: ${coverage.referenceMode}\n- Hybrid mode: ${coverage.hybridMode}\n- Relationship enriched: ${coverage.relationshipEnriched}\n- Timeline enriched: ${coverage.timelineEnriched}\n- Spatially enriched: ${coverage.spatiallyEnriched}\n\nRuntime cache coverage is user-specific and begins at zero in the packaged application.\n`, "utf8");
+  console.log(`Generated ${entities.length} new structured entities, ${overrides.length} enrichments, ${referenceMappings.length} provider mappings, ${assertions.length} assertions, ${appearances.length} appearances and ${names.length} aliases.`);
+  console.log(`Integration coverage: ${coverage.providerMapped}/${coverage.entities} entities provider mapped; ${coverage.relationshipEnriched} relationship enriched; ${coverage.timelineEnriched} timeline enriched; ${coverage.spatiallyEnriched} spatially enriched.`);
 }
 
 main().catch((error) => { console.error(error instanceof Error ? error.stack ?? error.message : String(error)); process.exitCode = 1; });

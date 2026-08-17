@@ -3,12 +3,12 @@
   "slug": "dead-money",
   "title": "Dead Money",
   "referenceSubjects": 29,
-  "matchedArchiveEntities": 4,
-  "productionQuality": 0,
-  "substantialRecords": 4,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 25,
+  "matchedArchiveEntities": 25,
+  "hybridResearched": 4,
+  "providerMapped": 21,
+  "structuredRecords": 0,
+  "candidateMatches": 0,
+  "missingSubjects": 4,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 2,
   "majorLore": 1,
@@ -16,8 +16,8 @@
   "minorLore": 9,
   "deepResearchCandidates": 1,
   "tier1Gaps": 0,
-  "tier2Gaps": 14,
-  "weightedLoreCoverage": 28.6,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 90.3,
   "byType": {
     "person": {
       "total": 4,
@@ -26,8 +26,8 @@
     },
     "place": {
       "total": 12,
-      "matched": 0,
-      "missing": 12
+      "matched": 12,
+      "missing": 0
     },
     "creature": {
       "total": 1,
@@ -36,13 +36,13 @@
     },
     "event": {
       "total": 8,
-      "matched": 0,
-      "missing": 8
+      "matched": 8,
+      "missing": 0
     },
     "technology": {
       "total": 2,
-      "matched": 0,
-      "missing": 2
+      "matched": 1,
+      "missing": 1
     },
     "source_record": {
       "total": 2,

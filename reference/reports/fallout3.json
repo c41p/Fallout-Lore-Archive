@@ -3,41 +3,41 @@
   "slug": "fallout3",
   "title": "Fallout 3",
   "referenceSubjects": 2800,
-  "matchedArchiveEntities": 62,
-  "productionQuality": 4,
-  "substantialRecords": 32,
-  "supportingRecords": 18,
-  "shallowRecords": 8,
-  "missingSubjects": 2738,
+  "matchedArchiveEntities": 423,
+  "hybridResearched": 44,
+  "providerMapped": 363,
+  "structuredRecords": 16,
+  "candidateMatches": 0,
+  "missingSubjects": 2377,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 1076,
   "majorLore": 46,
   "supportingLore": 189,
   "minorLore": 1501,
   "deepResearchCandidates": 49,
-  "tier1Gaps": 35,
-  "tier2Gaps": 177,
-  "weightedLoreCoverage": 11.9,
+  "tier1Gaps": 7,
+  "tier2Gaps": 13,
+  "weightedLoreCoverage": 69.9,
   "byType": {
     "person": {
       "total": 831,
-      "matched": 34,
-      "missing": 797
+      "matched": 86,
+      "missing": 745
     },
     "organisation": {
       "total": 74,
-      "matched": 9,
-      "missing": 65
+      "matched": 68,
+      "missing": 6
     },
     "place": {
       "total": 603,
-      "matched": 15,
-      "missing": 588
+      "matched": 238,
+      "missing": 365
     },
     "creature": {
       "total": 40,
-      "matched": 0,
-      "missing": 40
+      "matched": 13,
+      "missing": 27
     },
     "source_record": {
       "total": 1065,
@@ -46,13 +46,13 @@
     },
     "technology": {
       "total": 25,
-      "matched": 1,
-      "missing": 24
+      "matched": 5,
+      "missing": 20
     },
     "event": {
       "total": 162,
-      "matched": 3,
-      "missing": 159
+      "matched": 13,
+      "missing": 149
     }
   }
 }

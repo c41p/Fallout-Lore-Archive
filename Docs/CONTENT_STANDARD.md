@@ -4,16 +4,16 @@ This standard records the editorial baseline established by the Roger Maxson, Ma
 
 ## Major records
 
-A major record is a subject a reader reasonably expects to explore as an article. It should normally have:
+A major record is a subject a reader reasonably expects to explore as an article. The article may be `reference`, `local` or `hybrid`. Regardless of mode, the Archive-owned record should normally have:
 
-- an original overview and at least three subject-appropriate article sections;
+- a clear local overview and a reliable provider mapping and/or original subject-appropriate article sections;
 - enough chronological explanation to establish cause, change and consequence;
 - links to the people, organisations, places and events necessary to continue exploring;
 - structured assertions behind substantive propositions wherever practical;
 - source context and locators that explain what kind of evidence supports the article;
 - an explicit account of meaningful uncertainty, source perspective or contradiction.
 
-Section headings should follow the subject. Do not force biography headings onto a place, event or technology. Length is evidence-led: substantial enough to orient a new reader, but never padded.
+Section headings should follow the subject. Do not force biography headings onto a place, event or technology. Length is evidence-led and never padded. Integrated provider articles do not need to be copied into canonical JSON to satisfy a local word-count threshold.
 
 ## Supporting records
 
@@ -41,7 +41,9 @@ Keep competing claims separate and attach their evidence separately. Use a Dispu
 
 ## Article prose and copyright
 
-Article prose is original editorial synthesis. It may explain source perspective, chronology and institutional change, but must not bulk-copy dialogue, terminal text, subtitles, guidebook prose or wiki articles. Prefer paraphrase, metadata and precise locators. Brief quotations should be exceptional and necessary.
+Local article prose is original editorial synthesis. It may explain source perspective, chronology and institutional change, but must not bulk-copy dialogue, terminal text, subtitles, guidebook prose or wiki articles. Prefer paraphrase, metadata and precise locators. Brief quotations should be exceptional and necessary.
+
+Integrated reference articles are a separate licensed presentation layer. They are fetched from the configured provider at runtime, sanitized, attributed by page/revision, and cached locally for resilience. They do not become local editorial assertions merely because they are readable in the application. `Hybrid` pages must label Archive synthesis separately from provider text.
 
 AI-generated prose is not evidence. Revision-attributed community references may supply the routine informational baseline for broad profiles, aliases, appearances and conservative navigation. They must remain identifiable as secondary sources and must not be described as official canon. Follow them to released material when a proposition is disputed, continuity-sensitive, unusually specific or important enough to warrant claim-level verification.
 
@@ -64,15 +66,11 @@ pnpm lore:build
 
 Treat quality warnings as an editorial backlog. Resolve warnings in the cluster being changed; do not fabricate assertions merely to make the warning count zero.
 
-Raw candidates under `reference/` are not canonical records. The controlled expansion in [REFERENCE_PIPELINE.md](REFERENCE_PIPELINE.md) may promote a filtered candidate by resolving identity, retaining page/revision/licence provenance, transforming the article into Archive sections, and creating evidence-bearing structured records. Primary-source replacement or supplementation remains the preferred deepening step.
+Raw candidates under `reference/` are not canonical records. The controlled expansion in [REFERENCE_PIPELINE.md](REFERENCE_PIPELINE.md) may promote a filtered candidate by resolving identity, retaining page/revision/licence provenance, adding a stable provider mapping and creating evidence-bearing structured records. Primary-source research remains the preferred deepening step for disputed or historically important claims.
 
-## Franchise-scale depth tiers
+## Franchise-scale integration tiers
 
-- Tier 1: at least three sections, about 180 useful words, two graph relationships and source provenance.
-- Tier 2: at least two sections, about 90 useful words, one graph relationship and source provenance.
-- Tier 3: a clear supported profile of roughly 35 words or more; modest supporting records may remain shorter when their graph role is unambiguous.
-
-The thresholds are audit signals, not permission to pad. `reference/reports/content-depth.json` is the machine-readable review queue. A depth-closure section may synthesize canonical relationships and appearances, but it must not invent new facts merely to meet a number.
+Importance tiers remain triage signals for identity, graph, chronology and primary-evidence work. They no longer impose article word counts. Review `reference/reports/integrated-reference-coverage.json` for provider mapping, relationship, timeline and spatial coverage. A record is useful when it has a reliable identity and exploration role, not when generated prose crosses a numeric threshold.
 
 ## Conditional and player-dependent history
 

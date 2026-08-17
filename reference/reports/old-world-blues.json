@@ -3,12 +3,12 @@
   "slug": "old-world-blues",
   "title": "Old World Blues",
   "referenceSubjects": 64,
-  "matchedArchiveEntities": 2,
-  "productionQuality": 0,
-  "substantialRecords": 2,
-  "supportingRecords": 0,
-  "shallowRecords": 0,
-  "missingSubjects": 62,
+  "matchedArchiveEntities": 56,
+  "hybridResearched": 2,
+  "providerMapped": 54,
+  "structuredRecords": 0,
+  "candidateMatches": 0,
+  "missingSubjects": 8,
   "unresolvedMatches": 0,
   "gameplayOrReferenceOnly": 2,
   "majorLore": 1,
@@ -16,33 +16,33 @@
   "minorLore": 28,
   "deepResearchCandidates": 1,
   "tier1Gaps": 0,
-  "tier2Gaps": 32,
-  "weightedLoreCoverage": 13,
+  "tier2Gaps": 0,
+  "weightedLoreCoverage": 86.8,
   "byType": {
     "technology": {
       "total": 3,
-      "matched": 0,
-      "missing": 3
+      "matched": 1,
+      "missing": 2
     },
     "creature": {
       "total": 3,
-      "matched": 0,
-      "missing": 3
+      "matched": 3,
+      "missing": 0
     },
     "person": {
       "total": 11,
-      "matched": 2,
-      "missing": 9
+      "matched": 7,
+      "missing": 4
     },
     "place": {
       "total": 29,
-      "matched": 0,
-      "missing": 29
+      "matched": 29,
+      "missing": 0
     },
     "event": {
       "total": 16,
-      "matched": 0,
-      "missing": 16
+      "matched": 16,
+      "missing": 0
     },
     "source_record": {
       "total": 2,
