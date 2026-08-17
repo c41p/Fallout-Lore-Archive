@@ -183,6 +183,20 @@ fn article_from_parse(payload: Value, requested_title: Option<&str>) -> Result<V
     }))
 }
 
+fn plain_mediawiki_snippet(value: &str) -> String {
+    let mut result = String::new();
+    let mut inside_tag = false;
+    for character in value.chars() {
+        match character {
+            '<' => inside_tag = true,
+            '>' => inside_tag = false,
+            _ if !inside_tag => result.push(character),
+            _ => {}
+        }
+    }
+    result.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
 #[tauri::command]
 async fn get_reference_article(
     state: State<'_, ReferenceState>,
@@ -265,7 +279,7 @@ async fn search_reference(
     Ok(payload["query"]["search"].as_array().cloned().unwrap_or_default().into_iter().filter_map(|item| {
         let page_id = item["pageid"].as_i64()?; let title = item["title"].as_str()?.to_string();
         let entity_id = db.query_row("SELECT entity_id FROM reference_mappings WHERE provider_id='nukapedia' AND page_id=?1", [page_id], |row| row.get::<_, String>(0)).optional().ok().flatten();
-        Some(json!({"providerId":"nukapedia","pageId":page_id,"title":title,"snippet":item["snippet"].as_str().unwrap_or_default(),"originalUrl":format!("https://fallout.fandom.com/wiki/{}", title.replace(' ', "_")),"entityId":entity_id}))
+        Some(json!({"providerId":"nukapedia","pageId":page_id,"title":title,"snippet":plain_mediawiki_snippet(item["snippet"].as_str().unwrap_or_default()),"originalUrl":format!("https://fallout.fandom.com/wiki/{}", title.replace(' ', "_")),"entityId":entity_id}))
     }).collect())
 }
 
@@ -828,6 +842,14 @@ mod tests {
         assert_eq!(article["revisionId"], 4669335);
         assert_eq!(article["licence"], "CC BY-SA 3.0");
         assert_eq!(article["redirectFrom"], "Captain Maxson");
+    }
+
+    #[test]
+    fn mediawiki_search_highlight_markup_is_not_exposed_to_the_ui() {
+        assert_eq!(
+            plain_mediawiki_snippet("A <span class=\"searchmatch\">Brotherhood</span> record"),
+            "A Brotherhood record"
+        );
     }
 
     #[test]
